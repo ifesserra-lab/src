@@ -1,0 +1,33 @@
+name: Publicar (GitHub Release)
+
+# Dispara ao enviar uma tag de versão, ex.: git tag v0.1.0 && git push --tags
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write   # necessário para criar o release e anexar os artefatos
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build wheel + sdist
+        run: |
+          python -m pip install --upgrade pip build
+          python -m build   # gera dist/*.whl e dist/*.tar.gz
+
+      - name: Cria o GitHub Release e anexa os artefatos
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create "${GITHUB_REF_NAME}" dist/* \
+            --title "${GITHUB_REF_NAME}" \
+            --generate-notes

@@ -38,7 +38,9 @@ def agregar_rede(consolidado: dict) -> dict:
         for a in acoes:
             filhas = a.get("acoes_vinculadas") or []
             if filhas:
-                pub = sum(publico_by_proc.get(fp.get("processo"), 0) for fp in filhas)
+                # agregado = público do PRÓPRIO programa + o das ações filhas
+                pub = publico_by_proc.get(a.get("Processo nº"), 0) + sum(
+                    publico_by_proc.get(fp.get("processo"), 0) for fp in filhas)
                 programas.append((a.get("Título ação") or a.get("Processo nº"),
                                   a.get("Processo nº"), len(filhas), pub))
     else:
@@ -52,7 +54,8 @@ def agregar_rede(consolidado: dict) -> dict:
                     a.get("Processo nº"))
         for (proc_pai, tit_pai), procs in filhos.items():
             programas.append((tit_pai, proc_pai, len(procs),
-                              sum(publico_by_proc.get(pp, 0) for pp in procs)))
+                              publico_by_proc.get(proc_pai, 0)
+                              + sum(publico_by_proc.get(pp, 0) for pp in procs)))
     programas.sort(key=lambda x: (-x[2], -x[3]))
 
     # colaboração: cpf de equipe -> conjunto de coordenadores
@@ -159,7 +162,7 @@ def blocos_rede(a: dict) -> tuple[str, str]:
         _secao("Programas por nº de ações vinculadas", _barras(a["programas"]),
                'Ações "guarda-chuva" que agregam outras (campo Ação vinculante) — ex.: LAMPEX, LEDS.'),
         _secao("Programas por público agregado", _barras(a["programas_publico"]),
-               "Soma do público-alvo das ações filhas de cada programa."),
+               "Público-alvo do próprio programa + das ações filhas."),
         _secao("Rede de colaboração entre coordenadores(as)", _grafo(a["grafo_nodes"], a["grafo_edges"]),
                "Cada elo liga dois coordenadores que compartilham uma mesma pessoa na equipe. "
                "Passe o mouse nos nós para ver os nomes."),

@@ -223,10 +223,11 @@ def montar_shell(base: str, ativo: str, crumb: str, titulo: str, sub: str, corpo
         f'<a href="{base}{href}" class="{"on" if href == ativo else ""}">'
         f'{_ICONES[ic]}<span>{escape(rotulo)}</span></a>'
         for href, rotulo, ic in _NAV_ITENS)
-    cab = (f'<header class="hero"><h1>{escape(titulo)}</h1><p class="sub">{escape(sub)}</p></header>'
+    sub_p = f'<p class="sub">{escape(sub)}</p>' if sub else ""
+    cab = (f'<header class="hero"><h1>{escape(titulo)}</h1>{sub_p}</header>'
            if hero else
            f'<p class="crumb">Páginas / <b>{escape(crumb)}</b></p>'
-           f'<header><h1>{escape(titulo)}</h1><p class="sub">{escape(sub)}</p></header>')
+           f'<header><h1>{escape(titulo)}</h1>{sub_p}</header>')
     return f"""<div class="topbar"><div class="topbar-in">
   <a class="brand" href="{base}index.html">SRC · Campus Serra<small>Extensão &amp; Ensino</small></a>
   <nav class="snav">{links}</nav>

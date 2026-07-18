@@ -28,6 +28,7 @@ from pathlib import Path
 
 from .extensionistas import _CACHE_PADRAO, coletar_extensionistas
 from .formados import agregar_formados
+from .impacto import agregar_impacto
 from .indicadores import agregar_indicadores
 from .rede import agregar_rede
 from .relatorio import _carregar_acoes, _carregar_participacoes, agregar
@@ -181,8 +182,10 @@ def exportar_api(
         a_form = agregar_formados(cons, formandos_dir)
     except Exception:
         a_form = None
+    a_imp = agregar_impacto(cons)
     _grava(api / "painel.json", {"visao_geral": a_rel, "indicadores": a_ind,
-                                 "rede_programas": a_net, "formados": a_form})
+                                 "rede_programas": a_net, "formados": a_form,
+                                 "impacto": a_imp})
 
     # listas de gestão
     _grava(api / "sem-participacao.json", [

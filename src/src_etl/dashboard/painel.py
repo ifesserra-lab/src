@@ -18,6 +18,7 @@ from pathlib import Path
 
 from . import relatorio
 from .formados import agregar_formados, blocos_formados
+from .impacto import agregar_impacto, blocos_impacto
 from .indicadores import agregar_indicadores, blocos_indicadores
 from .rede import agregar_rede, blocos_rede
 from .relatorio import (
@@ -168,7 +169,8 @@ color:var(--text-secondary);transition:all .15s;min-height:32px;display:flex;ali
 #tab1:checked~.tabbar label[for=tab1],
 #tab2:checked~.tabbar label[for=tab2],
 #tab3:checked~.tabbar label[for=tab3],
-#tab4:checked~.tabbar label[for=tab4]{background:var(--surface-1);color:var(--series-1);
+#tab4:checked~.tabbar label[for=tab4],
+#tab5:checked~.tabbar label[for=tab5]{background:var(--surface-1);color:var(--series-1);
 font-weight:600;box-shadow:0 1px 3px rgba(15,23,42,.12)}
 .tabs>input:focus-visible~.tabbar label{outline:2px solid var(--accent-focus)}
 .panel{display:none}
@@ -176,6 +178,7 @@ font-weight:600;box-shadow:0 1px 3px rgba(15,23,42,.12)}
 #tab2:checked~.p2{display:block}
 #tab3:checked~.p3{display:block}
 #tab4:checked~.p4{display:block}
+#tab5:checked~.p5{display:block}
 """
 
 
@@ -239,6 +242,8 @@ def gerar_painel(
         t2, s2 = blocos_indicadores(a_ind)
         a_net = agregar_rede(consolidado)
         t3, s3 = blocos_rede(a_net)
+        a_imp = agregar_impacto(consolidado)
+        t5, s5 = blocos_impacto(a_imp)
         try:  # aba Formados (opcional — depende das planilhas)
             a_form = agregar_formados(consolidado, formandos_dir)
             t4, s4 = blocos_formados(a_form)
@@ -254,11 +259,13 @@ def gerar_painel(
   <input type="radio" name="tab" id="tab2">
   <input type="radio" name="tab" id="tab3">
   <input type="radio" name="tab" id="tab4">
-  <div class="tabbar"><label for="tab1">Visão geral</label><label for="tab2">Indicadores</label><label for="tab3">Rede &amp; programas</label>{('<label for="tab4">Formados na Extensão</label>' if t4 else '')}</div>
+  <input type="radio" name="tab" id="tab5">
+  <div class="tabbar"><label for="tab1">Visão geral</label><label for="tab2">Indicadores</label><label for="tab3">Rede &amp; programas</label>{('<label for="tab4">Formados na Extensão</label>' if t4 else '')}<label for="tab5">Impacto</label></div>
   <div class="panel p1"><div class="tiles">{t1}</div>{s1}</div>
   <div class="panel p2"><div class="tiles">{t2}</div>{s2}</div>
   <div class="panel p3"><div class="tiles">{t3}</div>{s3}</div>
   {(f'<div class="panel p4"><div class="tiles">{t4}</div>{s4}<div class="pii">Cruzamento por nome (planilhas de formados não têm CPF): pode haver homônimos/variações. Só contagens agregadas — sem nomes.</div></div>' if t4 else '')}
+  <div class="panel p5"><div class="tiles">{t5}</div>{s5}</div>
 </div>
 <div class="pii">Painel <b>agregado</b>: sem nomes de alunos, CPF ou e-mail. Coordenadores(as)
 são dado público do sistema; membros de equipe entram só como elo, nunca exibidos.</div>

@@ -2047,5 +2047,237 @@
         56
       ]
     ]
+  },
+  "impacto": {
+    "horas_aluno": 273636,
+    "horas_por_part": 34.471655328798185,
+    "ch_por_tipo": [
+      [
+        "Curso",
+        143546
+      ],
+      [
+        "Projeto",
+        94907
+      ],
+      [
+        "Programa",
+        20179
+      ],
+      [
+        "Evento",
+        15004
+      ]
+    ],
+    "funil_conv": 303,
+    "funil_pct": 6.253869969040247,
+    "funil_dias": 428,
+    "gap_cert": 504,
+    "gap_coord": [
+      [
+        "Rosilene de Sá Ribeiro",
+        216
+      ],
+      [
+        "Wagner Kirmse Caldas",
+        212
+      ],
+      [
+        "Felipe Frechiani de Oliveira",
+        25
+      ],
+      [
+        "Alessandro Bermudes Gomes",
+        18
+      ],
+      [
+        "Gilberto Neves Sudre Filho",
+        12
+      ],
+      [
+        "Richard Junior Manuel Godinez Tello",
+        7
+      ],
+      [
+        "Nauvia Maria Cancelieri",
+        3
+      ],
+      [
+        "Rosiane Ribeiro Rocha",
+        2
+      ]
+    ],
+    "idade": [
+      [
+        "menor de 15",
+        825
+      ],
+      [
+        "15–17",
+        2650
+      ],
+      [
+        "18–24",
+        2594
+      ],
+      [
+        "25–34",
+        802
+      ],
+      [
+        "35–59",
+        999
+      ],
+      [
+        "60+",
+        68
+      ]
+    ],
+    "cr5": 38,
+    "cr10": 52,
+    "hhi": 481,
+    "renovacao": [
+      [
+        "2013",
+        100
+      ],
+      [
+        "2014",
+        88
+      ],
+      [
+        "2015",
+        74
+      ],
+      [
+        "2016",
+        69
+      ],
+      [
+        "2017",
+        73
+      ],
+      [
+        "2018",
+        50
+      ],
+      [
+        "2019",
+        67
+      ],
+      [
+        "2020",
+        44
+      ],
+      [
+        "2021",
+        44
+      ],
+      [
+        "2022",
+        60
+      ],
+      [
+        "2023",
+        76
+      ],
+      [
+        "2024",
+        65
+      ],
+      [
+        "2025",
+        43
+      ],
+      [
+        "2026",
+        63
+      ]
+    ],
+    "vinculo": [
+      [
+        "Aluno",
+        1194
+      ],
+      [
+        "Servidor",
+        834
+      ],
+      [
+        "Convidado",
+        279
+      ]
+    ],
+    "pct_externo": 12.093628088426527,
+    "meses": [
+      [
+        "Jan",
+        13
+      ],
+      [
+        "Fev",
+        18
+      ],
+      [
+        "Mar",
+        59
+      ],
+      [
+        "Abr",
+        25
+      ],
+      [
+        "Mai",
+        38
+      ],
+      [
+        "Jun",
+        34
+      ],
+      [
+        "Jul",
+        23
+      ],
+      [
+        "Ago",
+        81
+      ],
+      [
+        "Set",
+        96
+      ],
+      [
+        "Out",
+        65
+      ],
+      [
+        "Nov",
+        53
+      ],
+      [
+        "Dez",
+        20
+      ]
+    ],
+    "duracao": [
+      [
+        "Pontual (≤1 dia)",
+        183
+      ],
+      [
+        "Curta (2–30d)",
+        78
+      ],
+      [
+        "Média (31–180d)",
+        154
+      ],
+      [
+        "Longa (>180d)",
+        110
+      ]
+    ],
+    "multi_ano": 41,
+    "ativas": 142
   }
 }

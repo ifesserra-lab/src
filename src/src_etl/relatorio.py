@@ -54,6 +54,12 @@ def agregar(acoes: list[dict], parts: list[dict]) -> dict:
     tipo = Counter(a.get("Tipo ação") or "—" for a in acoes)
     fomento = Counter(a.get("Fomento") or "—" for a in acoes)
     anos = Counter(_ano(a.get("Data de cadastro")) for a in acoes)
+    coordenadores = Counter((a.get("Coordenador(a)") or "—").strip() or "—" for a in acoes)
+    grande_area = Counter((a.get("Grande área conhecimento") or "").strip() or "(não informado)"
+                          for a in acoes)
+    area_tematica = Counter((a.get("Área temática principal") or "").strip() or "(não informado)"
+                            for a in acoes)
+    relatorio = Counter((a.get("Relatório aprovado") or "—").strip() or "—" for a in acoes)
 
     # participações
     titulo_por_proc = {a.get("Processo nº"): (a.get("Título ação") or "") for a in acoes}
@@ -98,6 +104,10 @@ def agregar(acoes: list[dict], parts: list[dict]) -> dict:
         "tipo": tipo.most_common(),
         "fomento": fomento.most_common(8),
         "anos": sorted(anos.items()),
+        "coordenadores": coordenadores.most_common(10),
+        "grande_area": grande_area.most_common(6),
+        "area_tematica": area_tematica.most_common(6),
+        "relatorio": relatorio.most_common(),
         "situacao": situacao.most_common(),
         "certificado": certificado.most_common(),
         "funcao": funcao.most_common(8),
@@ -230,6 +240,7 @@ def gerar_relatorio(
         _tile(f'{a["taxa_cert"]:.0f}%' if a["total_publico"] else "—", "Taxa de certificação"),
     ])
 
+    # seções de ações (sempre)
     secoes = [
         _secao("Ações por natureza", _barras(a["natureza"]),
                "Distribuição das ações por natureza acadêmica."),
@@ -239,13 +250,23 @@ def gerar_relatorio(
                "Fonte de fomento vinculada à ação."),
         _secao("Ações por ano de cadastro", _barras(a["anos"]),
                "Volume de ações cadastradas por ano."),
-        _secao("Top 10 ações por alunos atendidos", _barras(a["top_publico"]),
-               "Ações com maior público-alvo (participações)."),
-        _secao("Situação dos participantes", _donut(a["situacao"]),
-               "Situação registrada do público-alvo."),
-        _secao("Certificação do público-alvo", _donut(a["certificado"])),
-        _secao("Equipe executora por função (top 8)", _barras(a["funcao"])),
+        _secao("Top 10 coordenadores por nº de ações", _barras(a["coordenadores"]),
+               "Proponentes mais recorrentes (dado público do sistema)."),
+        _secao("Grande área do conhecimento", _donut(a["grande_area"])),
+        _secao("Área temática principal", _donut(a["area_tematica"])),
+        _secao("Relatório aprovado", _donut(a["relatorio"]),
+               "Ações com relatório final aprovado."),
     ]
+    # seções de participação (só quando há dados coletados)
+    if a["n_processos_part"]:
+        secoes += [
+            _secao("Top 10 ações por alunos atendidos", _barras(a["top_publico"]),
+                   "Ações com maior público-alvo (participações)."),
+            _secao("Situação dos participantes", _donut(a["situacao"]),
+                   "Situação registrada do público-alvo."),
+            _secao("Certificação do público-alvo", _donut(a["certificado"])),
+            _secao("Equipe executora por função (top 8)", _barras(a["funcao"])),
+        ]
 
     html = f"""<div class="wrap">
 <header>

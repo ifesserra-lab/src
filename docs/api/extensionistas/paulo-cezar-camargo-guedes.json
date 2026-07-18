@@ -77,5 +77,117 @@
         "PROFESSOR(A) VOLUNTÁRIO"
       ]
     }
+  ],
+  "colaboradores": [
+    {
+      "nome": "Murilo Andrade Carvalho",
+      "slug": "murilo-andrade-carvalho",
+      "acoes_comuns": 3
+    },
+    {
+      "nome": "Alessandro Bermudes Gomes",
+      "slug": "alessandro-bermudes-gomes",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Thiago Machado Oliveira",
+      "slug": "thiago-machado-oliveira",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Rowenna Tonani Leão dos Santos",
+      "slug": "rowenna-tonani-leao-dos-santos",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Leonardo Rocha Gomes",
+      "slug": "leonardo-rocha-gomes",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Daniella Araújo Fraga dos Santos",
+      "slug": "daniella-araujo-fraga-dos-santos",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Alexia Coelho Barbosa",
+      "slug": "alexia-coelho-barbosa",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Davi Aragão Ascacibas",
+      "slug": "davi-aragao-ascacibas",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Izis Barbosa Coutinho",
+      "slug": "izis-barbosa-coutinho",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Josinei Rodrigues Filho",
+      "slug": "josinei-rodrigues-filho",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Gabriela do Nascimento Marin",
+      "slug": "gabriela-do-nascimento-marin",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Taise Gonçalves de Jesus",
+      "slug": "taise-goncalves-de-jesus",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Michelle Kapiche Alonso",
+      "slug": "michelle-kapiche-alonso",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Nathielly Bertollo Marques",
+      "slug": "nathielly-bertollo-marques",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Rafael de Almeida Viana Gusmão",
+      "slug": "rafael-de-almeida-viana-gusmao",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Augusto Cesar Machado Ramos",
+      "slug": "augusto-cesar-machado-ramos",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Leandra Mendes da Silva Piffer",
+      "slug": "leandra-mendes-da-silva-piffer",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Ana Julia Artem dos Santos",
+      "slug": "ana-julia-artem-dos-santos",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Nicole Silva Loss",
+      "slug": "nicole-silva-loss",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Elandia Aparecida Pereira Rodrigues",
+      "slug": "elandia-aparecida-pereira-rodrigues",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Marcos Antônio Tavares de Souza",
+      "slug": "marcos-antonio-tavares-de-souza",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Jefferson da Silva Bomfim",
+      "slug": "jefferson-da-silva-bomfim",
+      "acoes_comuns": 1
+    }
   ]
 }

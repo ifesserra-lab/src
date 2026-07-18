@@ -20,5 +20,77 @@
         "MENTOR(A)"
       ]
     }
+  ],
+  "colaboradores": [
+    {
+      "nome": "Paulo Sérgio dos Santos Júnior",
+      "slug": "paulo-sergio-dos-santos-junior",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Marcio Bender Machado",
+      "slug": "marcio-bender-machado",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Paulo Ditarso Maciel Junior",
+      "slug": "paulo-ditarso-maciel-junior",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Nadja da Nóbrega Rodrigues",
+      "slug": "nadja-da-nobrega-rodrigues",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Paula Felipe Schlemper de Oliveira",
+      "slug": "paula-felipe-schlemper-de-oliveira",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Lukese Rosa Menegussi",
+      "slug": "lukese-rosa-menegussi",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "José Wlamir Barreto Soares",
+      "slug": "jose-wlamir-barreto-soares",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Jaqueline Carlos",
+      "slug": "jaqueline-carlos",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Francisco Petronio Alencar de Medeiros",
+      "slug": "francisco-petronio-alencar-de-medeiros",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "José de Irigon de Irigon",
+      "slug": "jose-de-irigon-de-irigon",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Rafaela Elisa Maurin Benedicto",
+      "slug": "rafaela-elisa-maurin-benedicto",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Vinicius Kruger da Costa",
+      "slug": "vinicius-kruger-da-costa",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Andréia Sias Rodrigues",
+      "slug": "andreia-sias-rodrigues",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Flávio Lopes da Silva",
+      "slug": "flavio-lopes-da-silva",
+      "acoes_comuns": 1
+    }
   ]
 }

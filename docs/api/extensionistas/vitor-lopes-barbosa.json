@@ -22,5 +22,57 @@
         "MINISTRANTE"
       ]
     }
+  ],
+  "colaboradores": [
+    {
+      "nome": "Rosiane Ribeiro Rocha",
+      "slug": "rosiane-ribeiro-rocha",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Yasmin Soares Cavatti",
+      "slug": "yasmin-soares-cavatti",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "João Vitor Oliveira Scheidegger",
+      "slug": "joao-vitor-oliveira-scheidegger",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Leticia Comissario da Silva",
+      "slug": "leticia-comissario-da-silva",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Ícaro Lessa Secchin",
+      "slug": "icaro-lessa-secchin",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Julia Almeida Nascimento Lopes",
+      "slug": "julia-almeida-nascimento-lopes",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Flávio Garcia Pereira",
+      "slug": "flavio-garcia-pereira",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Marcos Simão Guimarães",
+      "slug": "marcos-simao-guimaraes",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Richard Junior Manuel Godinez Tello",
+      "slug": "richard-junior-manuel-godinez-tello",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Gabriel Tozatto Zago",
+      "slug": "gabriel-tozatto-zago",
+      "acoes_comuns": 1
+    }
   ]
 }

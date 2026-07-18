@@ -20,5 +20,27 @@
         "COLABORADOR(A)"
       ]
     }
+  ],
+  "colaboradores": [
+    {
+      "nome": "Moisés Savedra Omena",
+      "slug": "moises-savedra-omena",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Mirleni de Jesus",
+      "slug": "mirleni-de-jesus",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Ernani Leite Ribeiro Filho",
+      "slug": "ernani-leite-ribeiro-filho",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Alessandra Aguiar Vilarinho",
+      "slug": "alessandra-aguiar-vilarinho",
+      "acoes_comuns": 1
+    }
   ]
 }

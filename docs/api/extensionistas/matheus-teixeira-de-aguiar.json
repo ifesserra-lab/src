@@ -31,5 +31,132 @@
         "ALUNO(A) BOLSISTA"
       ]
     }
+  ],
+  "colaboradores": [
+    {
+      "nome": "Bruno Cardoso Coutinho",
+      "slug": "bruno-cardoso-coutinho",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Emmanuel Marques Silva",
+      "slug": "emmanuel-marques-silva",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Adelson Pereira do Nascimento",
+      "slug": "adelson-pereira-do-nascimento",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Guilherme Firme Fiorot",
+      "slug": "guilherme-firme-fiorot",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Juliana Ricato Musso Silva",
+      "slug": "juliana-ricato-musso-silva",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Breno Ricardo Ferreira Antunes",
+      "slug": "breno-ricardo-ferreira-antunes",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Pedro Aguiar Alves",
+      "slug": "pedro-aguiar-alves",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Elen Lara",
+      "slug": "elen-lara",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Alan Afif Helal",
+      "slug": "alan-afif-helal",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Flavio Severiano Lamas de Souza",
+      "slug": "flavio-severiano-lamas-de-souza",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Richard Junior Manuel Godinez Tello",
+      "slug": "richard-junior-manuel-godinez-tello",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Fidelis Zanetti de Castro",
+      "slug": "fidelis-zanetti-de-castro",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Douglas de Oliveira Alkimim",
+      "slug": "douglas-de-oliveira-alkimim",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Thiago Augusto de Carvalho",
+      "slug": "thiago-augusto-de-carvalho",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Arthur Delpupo Coelho",
+      "slug": "arthur-delpupo-coelho",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Thaís de Souza",
+      "slug": "thais-de-souza",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Lucas Gabriel Araújo Codeco",
+      "slug": "lucas-gabriel-araujo-codeco",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Sofia de Alcantara Silva",
+      "slug": "sofia-de-alcantara-silva",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Davi Mulullo Alcântara",
+      "slug": "davi-mulullo-alcantara",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Inaê Santos Gonçalves",
+      "slug": "inae-santos-goncalves",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Eduarda Rodrigues Simões",
+      "slug": "eduarda-rodrigues-simoes",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Mayke Willans Christo Pereira",
+      "slug": "mayke-willans-christo-pereira",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Manoel Rodrigues Loureiro",
+      "slug": "manoel-rodrigues-loureiro",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Raynan Araujo da Silva",
+      "slug": "raynan-araujo-da-silva",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Filipe Anunciação Batista de Moura",
+      "slug": "filipe-anunciacao-batista-de-moura",
+      "acoes_comuns": 1
+    }
   ]
 }

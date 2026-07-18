@@ -20,5 +20,27 @@
         "PALESTRANTE"
       ]
     }
+  ],
+  "colaboradores": [
+    {
+      "nome": "Rosilene de Sá Ribeiro",
+      "slug": "rosilene-de-sa-ribeiro",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Jefferson Oliveira Andrade",
+      "slug": "jefferson-oliveira-andrade",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Leandro Melo de Sá",
+      "slug": "leandro-melo-de-sa",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Richard Junior Manuel Godinez Tello",
+      "slug": "richard-junior-manuel-godinez-tello",
+      "acoes_comuns": 1
+    }
   ]
 }

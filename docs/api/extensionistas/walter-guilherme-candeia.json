@@ -20,5 +20,57 @@
         "ALUNO(A) VOLUNTARIO"
       ]
     }
+  ],
+  "colaboradores": [
+    {
+      "nome": "Wagner Kirmse Caldas",
+      "slug": "wagner-kirmse-caldas",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Fidelis Zanetti de Castro",
+      "slug": "fidelis-zanetti-de-castro",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Alessandro Bermudes Gomes",
+      "slug": "alessandro-bermudes-gomes",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Eloá Rauta Ramos de Lima",
+      "slug": "eloa-rauta-ramos-de-lima",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Gabriela Maria Machado",
+      "slug": "gabriela-maria-machado",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Nicolas dos Santos Cerón",
+      "slug": "nicolas-dos-santos-ceron",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Vitória Loureiro Pimentel",
+      "slug": "vitoria-loureiro-pimentel",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Herlane de Souza dos Santos",
+      "slug": "herlane-de-souza-dos-santos",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Maria Eduarda Lira Moreira",
+      "slug": "maria-eduarda-lira-moreira",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Anna Julia Ferreira Tamanini",
+      "slug": "anna-julia-ferreira-tamanini",
+      "acoes_comuns": 1
+    }
   ]
 }

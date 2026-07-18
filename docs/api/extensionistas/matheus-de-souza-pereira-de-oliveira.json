@@ -31,5 +31,22 @@
         "ALUNO(A) BOLSISTA"
       ]
     }
+  ],
+  "colaboradores": [
+    {
+      "nome": "Moisés Savedra Omena",
+      "slug": "moises-savedra-omena",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Serenna Ferrari Lima",
+      "slug": "serenna-ferrari-lima",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Andreângelo da Paixão Patuzzo",
+      "slug": "andreangelo-da-paixao-patuzzo",
+      "acoes_comuns": 1
+    }
   ]
 }

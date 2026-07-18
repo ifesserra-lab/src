@@ -20,5 +20,62 @@
         "ALUNO(A) BOLSISTA"
       ]
     }
+  ],
+  "colaboradores": [
+    {
+      "nome": "Richard Junior Manuel Godinez Tello",
+      "slug": "richard-junior-manuel-godinez-tello",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Marco Aurélio Tiago Filho",
+      "slug": "marco-aurelio-tiago-filho",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Enzo Mandelli Pinheiro Rodrigues",
+      "slug": "enzo-mandelli-pinheiro-rodrigues",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Enzo Medeiros Agnez",
+      "slug": "enzo-medeiros-agnez",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Ícaro Lessa Secchin",
+      "slug": "icaro-lessa-secchin",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Julia Almeida Nascimento Lopes",
+      "slug": "julia-almeida-nascimento-lopes",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Wallas Gusmão Thomas",
+      "slug": "wallas-gusmao-thomas",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Adelson Pereira do Nascimento",
+      "slug": "adelson-pereira-do-nascimento",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Flávio Garcia Pereira",
+      "slug": "flavio-garcia-pereira",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Rosiane Ribeiro Rocha",
+      "slug": "rosiane-ribeiro-rocha",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Leticia Comissario da Silva",
+      "slug": "leticia-comissario-da-silva",
+      "acoes_comuns": 1
+    }
   ]
 }

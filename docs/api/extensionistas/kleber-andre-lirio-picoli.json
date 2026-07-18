@@ -20,5 +20,27 @@
         "ALUNO(A) BOLSISTA"
       ]
     }
+  ],
+  "colaboradores": [
+    {
+      "nome": "Moisés Savedra Omena",
+      "slug": "moises-savedra-omena",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Andreângelo da Paixão Patuzzo",
+      "slug": "andreangelo-da-paixao-patuzzo",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Rafaela Amorim Pessin",
+      "slug": "rafaela-amorim-pessin",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Carlos Lins Borges Azevedo",
+      "slug": "carlos-lins-borges-azevedo",
+      "acoes_comuns": 1
+    }
   ]
 }

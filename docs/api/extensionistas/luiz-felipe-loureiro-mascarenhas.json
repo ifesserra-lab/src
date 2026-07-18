@@ -20,5 +20,32 @@
         "EXTENSIONISTA"
       ]
     }
+  ],
+  "colaboradores": [
+    {
+      "nome": "Rosilene de Sá Ribeiro",
+      "slug": "rosilene-de-sa-ribeiro",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Leandro Melo de Sá",
+      "slug": "leandro-melo-de-sa",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Jonas Emanuel dos Santos Egert",
+      "slug": "jonas-emanuel-dos-santos-egert",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Lucas Eduardo da Silva Pacheco",
+      "slug": "lucas-eduardo-da-silva-pacheco",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Faye Manski Queiroz",
+      "slug": "faye-manski-queiroz",
+      "acoes_comuns": 1
+    }
   ]
 }

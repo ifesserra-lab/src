@@ -20,5 +20,47 @@
         "ALUNO(A) VOLUNTARIO"
       ]
     }
+  ],
+  "colaboradores": [
+    {
+      "nome": "Giordana dos Santos Sperandio",
+      "slug": "giordana-dos-santos-sperandio",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Ingrid de Lima Pella",
+      "slug": "ingrid-de-lima-pella",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Bianca Rodrigues Tinoco",
+      "slug": "bianca-rodrigues-tinoco",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Fabio de Oliveira Lima",
+      "slug": "fabio-de-oliveira-lima",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Adriana Padua Lovatte",
+      "slug": "adriana-padua-lovatte",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Geovane de Araujo Ceolin",
+      "slug": "geovane-de-araujo-ceolin",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Alessandra Aguiar Vilarinho",
+      "slug": "alessandra-aguiar-vilarinho",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Bruno Ramos Gonzaga",
+      "slug": "bruno-ramos-gonzaga",
+      "acoes_comuns": 1
+    }
   ]
 }

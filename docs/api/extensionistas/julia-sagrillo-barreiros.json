@@ -20,5 +20,52 @@
         "MONITOR(A)"
       ]
     }
+  ],
+  "colaboradores": [
+    {
+      "nome": "Nauvia Maria Cancelieri",
+      "slug": "nauvia-maria-cancelieri",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Matheus Tiago Amorim Pereira",
+      "slug": "matheus-tiago-amorim-pereira",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Debora Galavote Moura",
+      "slug": "debora-galavote-moura",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Marianna Stark Gardioli Rangel",
+      "slug": "marianna-stark-gardioli-rangel",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Gabriel Santos da Silva Valbuza",
+      "slug": "gabriel-santos-da-silva-valbuza",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Akilanny Silva Cruz",
+      "slug": "akilanny-silva-cruz",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Angelo dos Santos Teixeira",
+      "slug": "angelo-dos-santos-teixeira",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Kauã Alexandre Bernardes",
+      "slug": "kaua-alexandre-bernardes",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Victor Ramos Dessaune",
+      "slug": "victor-ramos-dessaune",
+      "acoes_comuns": 1
+    }
   ]
 }

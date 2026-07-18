@@ -20,5 +20,92 @@
         "ORGANIZADOR(A)"
       ]
     }
+  ],
+  "colaboradores": [
+    {
+      "nome": "Ana Paula Klauck",
+      "slug": "ana-paula-klauck",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Alessandra Aguiar Vilarinho",
+      "slug": "alessandra-aguiar-vilarinho",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Ernani Leite Ribeiro Filho",
+      "slug": "ernani-leite-ribeiro-filho",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Moisés Savedra Omena",
+      "slug": "moises-savedra-omena",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Breno Rios Rodrigues",
+      "slug": "breno-rios-rodrigues",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Renan Souza do Nascimento",
+      "slug": "renan-souza-do-nascimento",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Jean Michel Pereira de Queiroz",
+      "slug": "jean-michel-pereira-de-queiroz",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Isadora Lee Padilha Ferri",
+      "slug": "isadora-lee-padilha-ferri",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Lara Rocha Andrade",
+      "slug": "lara-rocha-andrade",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Arlene Batista da Silva",
+      "slug": "arlene-batista-da-silva",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Warleson dos Santos de Sales",
+      "slug": "warleson-dos-santos-de-sales",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Amanda de Oliveira Ottoni",
+      "slug": "amanda-de-oliveira-ottoni",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Juliana Rangel Roque",
+      "slug": "juliana-rangel-roque",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Gilberto Neves Sudre Filho",
+      "slug": "gilberto-neves-sudre-filho",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Ivana Esteves Passos de Oliveira",
+      "slug": "ivana-esteves-passos-de-oliveira",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Neiva Augusta Viegas Vasconcellos",
+      "slug": "neiva-augusta-viegas-vasconcellos",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Carolinne Quintanilha Ornellas",
+      "slug": "carolinne-quintanilha-ornellas",
+      "acoes_comuns": 1
+    }
   ]
 }

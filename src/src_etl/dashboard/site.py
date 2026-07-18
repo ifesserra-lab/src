@@ -479,9 +479,7 @@ document.querySelectorAll('.chips button').forEach(b=>b.addEventListener('click'
                 f'<div id="res"></div>{script}')
     return _doc("SRC · Campus Serra — Buscar", "", "index.html", "Buscar",
                 "O que a extensão do Campus Serra já fez?",
-                "Busque nas 201 ações e nos extensionistas por palavras-chave — título, resumo, "
-                "coordenador(a), tipo, área temática, fomento, processo; veja iniciativas e "
-                "participações de cada pessoa",
+                "",
                 conteudo, hero=True)
 
 

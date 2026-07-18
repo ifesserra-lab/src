@@ -333,8 +333,7 @@ def _bloco_marketing(cons: dict) -> str:
         '</div>'
         + _svg_area_anos(pares) +
         '<p class="sec-desc" style="margin:10px 2px 0">Pessoas atingidas por ano '
-        '(público-alvo distinto). Ponto em destaque = ano de pico (laranja) e último ano (azul); '
-        'passe o mouse em qualquer ponto para ver o ano e o total.</p>'
+        '(público-alvo distinto).</p>'
         '</div>')
 
 

@@ -55,10 +55,23 @@ def agregar(acoes: list[dict], parts: list[dict]) -> dict:
     fomento = Counter(a.get("Fomento") or "—" for a in acoes)
     anos = Counter(_ano(a.get("Data de cadastro")) for a in acoes)
     coordenadores = Counter((a.get("Coordenador(a)") or "—").strip() or "—" for a in acoes)
-    grande_area = Counter((a.get("Grande área conhecimento") or "").strip() or "(não informado)"
-                          for a in acoes)
-    area_tematica = Counter((a.get("Área temática principal") or "").strip() or "(não informado)"
-                            for a in acoes)
+
+    def _cat(a: dict, chave: str) -> tuple[str, bool]:
+        """Valor original; se vazio, usa o inferido (marcado como inferido)."""
+        v = (a.get(chave) or "").strip()
+        if v:
+            return v, False
+        inf = (a.get(f"{chave} (inferida)") or "").strip()
+        if inf:
+            return inf, True
+        return "(não informado)", False
+
+    ga_vals = [_cat(a, "Grande área conhecimento") for a in acoes]
+    at_vals = [_cat(a, "Área temática principal") for a in acoes]
+    grande_area = Counter(v for v, _ in ga_vals)
+    area_tematica = Counter(v for v, _ in at_vals)
+    n_ga_inferida = sum(1 for _, inf in ga_vals if inf)
+    n_at_inferida = sum(1 for _, inf in at_vals if inf)
     relatorio = Counter((a.get("Relatório aprovado") or "—").strip() or "—" for a in acoes)
 
     # participações
@@ -107,6 +120,8 @@ def agregar(acoes: list[dict], parts: list[dict]) -> dict:
         "coordenadores": coordenadores.most_common(10),
         "grande_area": grande_area.most_common(6),
         "area_tematica": area_tematica.most_common(6),
+        "n_ga_inferida": n_ga_inferida,
+        "n_at_inferida": n_at_inferida,
         "relatorio": relatorio.most_common(),
         "situacao": situacao.most_common(),
         "certificado": certificado.most_common(),
@@ -252,8 +267,10 @@ def gerar_relatorio(
                "Volume de ações cadastradas por ano."),
         _secao("Top 10 coordenadores por nº de ações", _barras(a["coordenadores"]),
                "Proponentes mais recorrentes (dado público do sistema)."),
-        _secao("Grande área do conhecimento", _donut(a["grande_area"])),
-        _secao("Área temática principal", _donut(a["area_tematica"])),
+        _secao("Grande área do conhecimento", _donut(a["grande_area"]),
+               f'{a["n_ga_inferida"]} categorias inferidas por IA (Mistral) a partir do resumo.'),
+        _secao("Área temática principal", _donut(a["area_tematica"]),
+               f'{a["n_at_inferida"]} categorias inferidas por IA (Mistral) a partir do resumo.'),
         _secao("Relatório aprovado", _donut(a["relatorio"]),
                "Ações com relatório final aprovado."),
     ]

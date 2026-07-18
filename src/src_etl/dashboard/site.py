@@ -22,26 +22,33 @@ from pathlib import Path
 from .painel import HORIZON_CSS, montar_shell
 
 _EXTRA_CSS = """
-table.tb{width:100%;border-collapse:collapse;font-size:14px;letter-spacing:-.224px}
-table.tb th{color:var(--muted);text-align:left;padding:9px 10px;border-bottom:1px solid var(--border);
-font-size:12px;font-weight:600;letter-spacing:-.12px;text-transform:uppercase}
-table.tb td{padding:9px 10px;border-bottom:1px solid var(--grid);vertical-align:top}
+table.tb{width:100%;border-collapse:collapse;font-size:13px}
+table.tb th{color:var(--muted);text-align:left;padding:8px 10px;border-bottom:1px solid var(--border);
+font-size:11px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;
+position:sticky;top:0;background:var(--surface-1)}
+table.tb td{padding:8px 10px;border-bottom:1px solid var(--grid);vertical-align:top}
 table.tb tr:last-child td{border-bottom:0}
-a.lk{color:var(--series-1);text-decoration:none;font-weight:400}
+table.tb tbody tr{transition:background .15s}
+table.tb tbody tr:hover{background:var(--row-hover)}
+a.lk{color:var(--series-1);text-decoration:none;font-weight:500}
 a.lk:hover{text-decoration:underline}
-.meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:16px 0}
-.meta div{background:var(--surface-1);border:1px solid var(--border);border-radius:var(--radius);
-padding:14px 16px;font-size:14px;letter-spacing:-.224px}
-.meta b{display:block;color:var(--muted);font-size:12px;font-weight:600;letter-spacing:-.12px;
+a.lk:focus-visible{outline:2px solid var(--accent-focus);outline-offset:2px}
+.meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:10px;margin:14px 0}
+.meta div{background:var(--surface-1);border:1px solid var(--grid);border-radius:var(--radius);
+padding:11px 14px;font-size:13px}
+.meta b{display:block;color:var(--muted);font-size:11px;font-weight:600;letter-spacing:.05em;
 text-transform:uppercase;margin-bottom:3px}
-.resumo{background:var(--parchment);border:0;border-radius:var(--radius);padding:22px 24px;
-color:var(--text-primary);max-width:75ch;line-height:1.47;font-size:17px;letter-spacing:-.374px}
-input.busca{width:100%;padding:13px 22px;border-radius:9999px;border:1px solid var(--border);
-background:var(--surface-1);color:var(--text-primary);font-size:17px;letter-spacing:-.374px;
-outline:none;font-family:inherit;transition:border-color .12s}
-input.busca:focus{border-color:var(--accent-focus);outline:2px solid var(--accent-focus);outline-offset:1px}
-.badge{display:inline-block;border:1px solid var(--border);border-radius:9999px;padding:3px 12px;
-font-size:12px;letter-spacing:-.12px;color:var(--text-secondary);white-space:nowrap}
+.resumo{background:var(--surface-1);border:1px solid var(--grid);
+border-left:3px solid var(--series-1);border-radius:var(--radius);padding:16px 20px;
+color:var(--text-primary);max-width:78ch;line-height:1.6;font-size:14px}
+input.busca{width:100%;padding:12px 18px;border-radius:var(--radius);border:1px solid var(--border);
+background:var(--surface-1);color:var(--text-primary);font-size:15px;
+outline:none;font-family:inherit;transition:border-color .15s,box-shadow .15s;min-height:46px}
+input.busca:focus{border-color:var(--series-1);
+box-shadow:0 0 0 3px color-mix(in srgb,var(--series-1) 20%,transparent)}
+.badge{display:inline-block;border:1px solid var(--grid);border-radius:6px;padding:3px 10px;
+font-size:11.5px;font-weight:500;color:var(--text-secondary);white-space:nowrap;
+background:var(--surface-1)}
 """
 
 

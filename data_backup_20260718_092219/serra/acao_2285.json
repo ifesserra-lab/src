@@ -1,0 +1,26 @@
+{
+  "acao_id": "2285",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=2285&pfdlgcid=2699ab39-bb0a-423e-80ec-692df534fe3e",
+  "campus": "Serra",
+  "Processo nº": "23158.001690/2018-63",
+  "Natureza": "Extensão",
+  "Coordenador(a)": "Felipe Frechiani de Oliveira",
+  "Tipo ação": "Projeto",
+  "Título ação": "ES Na Palma da Mão: Uma Plataforma baseado em serviços para Cidades Humanas, Inteligentes e Sustentáveis",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "",
+  "Área temática principal": "Educação",
+  "Área temática secundária": "Tecnologia e Produção",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "30/12/2019",
+  "Data de cadastro": "19/03/2019",
+  "Resumo": "Visando implementar os conceitos de Cidades Humans, Inteligentes e Sustentáveis o Governo do Espírito Santo, por meio do Instito de Tecnologia de Infortmação e Comunicação do Estado do Espírito Santo (PRODEST), criou um projeto denominado \"ES Na Palma da Mão: Uma Plataforma baseado em serviços para Cidades Humanas, Inteligentes e Sustentáveis\", chamado de ESPM.\nA  plataforma ESPM tem como objetivo prover ao Estado caracxterísticas de CHIS através da disponibilização de ser viços e aplicações acessíveis para qualquer cidadão interagir de uma forma simples com a cidade por meio de um smartphone. O ESPM auxilia o capixaba a resolver problemas do seu cotidiano de forma simples e eficaz como, por exemplo, mostrar qual ônibus ele pode embarcar para se dirigir a uma praia ou, até mesmo, avisar o cidadão que o ônibus a embarcar está se aproximando de sua casa, serviço, ou escola.",
+  "Campus": "Serra",
+  "Grande área conhecimento (inferida)": "Ciências Sociais Aplicadas",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_grande_area": 0.95
+  }
+}

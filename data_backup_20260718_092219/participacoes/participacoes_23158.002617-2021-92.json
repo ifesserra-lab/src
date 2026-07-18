@@ -1,0 +1,227 @@
+{
+  "processo": "23158.002617/2021-92",
+  "total_atividades": 1,
+  "total_publico_alvo": 16,
+  "total_equipe": 3,
+  "atividades": [
+    {
+      "num": "001",
+      "atividade": "Introdução aos Veículos Elétricos",
+      "atividade_id": "12261",
+      "tipo": "Curso",
+      "publico_alvo": [
+        {
+          "Nome": "Henrique Amorim Braun",
+          "Nasc.": "24/07/2000",
+          "CPF": "117.724.217-66",
+          "E-mail": "mecanicabraun@gmail.com",
+          "C.H": "24",
+          "Início": "11/11/2021",
+          "Término": "18/02/2022",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        },
+        {
+          "Nome": "João Pedro da Silva Rodrigues",
+          "Nasc.": "21/08/1993",
+          "CPF": "115.272.237-95",
+          "E-mail": "joaop.jpsr@gmail.com",
+          "C.H": "24",
+          "Início": "11/11/2021",
+          "Término": "18/02/2022",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        },
+        {
+          "Nome": "Kaique de Oliveira Barcellos",
+          "Nasc.": "26/02/1999",
+          "CPF": "148.770.547-66",
+          "E-mail": "kaiquedeoliveirabarcellos@gmail.com",
+          "C.H": "24",
+          "Início": "11/11/2021",
+          "Término": "18/02/2022",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        },
+        {
+          "Nome": "Beatriz Tiradentes Pani",
+          "Nasc.": "14/11/1999",
+          "CPF": "158.477.007-41",
+          "E-mail": "bpani33@gmail.com",
+          "C.H": "24",
+          "Início": "11/11/2021",
+          "Término": "18/02/2022",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        },
+        {
+          "Nome": "Alexandre Barbosa de Souza",
+          "Nasc.": "11/06/1976",
+          "CPF": "012.286.907-90",
+          "E-mail": "alexandrebs@ifes.edu.br",
+          "C.H": "24",
+          "Início": "11/11/2021",
+          "Término": "18/02/2022",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        },
+        {
+          "Nome": "Wilson Faria Lopes Junior",
+          "Nasc.": "26/05/1972",
+          "CPF": "022.781.187-90",
+          "E-mail": "diver.vix@terra.com.br",
+          "C.H": "24",
+          "Início": "11/11/2021",
+          "Término": "18/02/2022",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        },
+        {
+          "Nome": "Welder Santos Rocha",
+          "Nasc.": "31/05/2002",
+          "CPF": "151.217.487-44",
+          "E-mail": "weldersantosrocha3105@gmail.com",
+          "C.H": "24",
+          "Início": "11/11/2021",
+          "Término": "18/02/2022",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        },
+        {
+          "Nome": "Teylor Moreto Guaitolini",
+          "Nasc.": "16/01/2001",
+          "CPF": "184.879.857-18",
+          "E-mail": "tmorettoguaitolini@gmail.com",
+          "C.H": "24",
+          "Início": "11/11/2021",
+          "Término": "18/02/2022",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        },
+        {
+          "Nome": "Pedro Manuel de Reis Siqueira",
+          "Nasc.": "10/09/2003",
+          "CPF": "171.110.917-79",
+          "E-mail": "pmanuelsiq@gmail.com",
+          "C.H": "24",
+          "Início": "11/11/2021",
+          "Término": "18/02/2022",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        },
+        {
+          "Nome": "Nathan Titonelli Leonardo",
+          "Nasc.": "14/01/2004",
+          "CPF": "197.178.457-51",
+          "E-mail": "nathan.t.leonardo@gmail.com",
+          "C.H": "24",
+          "Início": "11/11/2021",
+          "Término": "18/02/2022",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        },
+        {
+          "Nome": "Matheus Aldyr Moraes",
+          "Nasc.": "28/11/2004",
+          "CPF": "211.245.447-12",
+          "E-mail": "aldyrmatheus7@gmail.com",
+          "C.H": "24",
+          "Início": "11/11/2021",
+          "Término": "18/02/2022",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        },
+        {
+          "Nome": "Marco Aurélio Tiago Filho",
+          "Nasc.": "25/05/2005",
+          "CPF": "127.637.397-09",
+          "E-mail": "marcofilho2017@gmail.com",
+          "C.H": "24",
+          "Início": "11/11/2021",
+          "Término": "18/02/2022",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        },
+        {
+          "Nome": "Khadyja Tércio Lyra de Oliveira",
+          "Nasc.": "10/09/2033",
+          "CPF": "187.500.857-86",
+          "E-mail": "khadyjato@gmail.com",
+          "C.H": "24",
+          "Início": "11/11/2021",
+          "Término": "18/02/2022",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        },
+        {
+          "Nome": "Felipe Fiorotti da Rocha",
+          "Nasc.": "19/08/2000",
+          "CPF": "143.397.927-64",
+          "E-mail": "lipefiorottidarocha@gmail.com",
+          "C.H": "24",
+          "Início": "11/11/2021",
+          "Término": "18/02/2022",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        },
+        {
+          "Nome": "Daniel Moure Moreira",
+          "Nasc.": "17/07/2004",
+          "CPF": "179.570.717-83",
+          "E-mail": "tsukinomeobito@gmail.com",
+          "C.H": "24",
+          "Início": "11/11/2021",
+          "Término": "18/02/2022",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        },
+        {
+          "Nome": "Anderson Fardin Vinco",
+          "Nasc.": "26/10/1989",
+          "CPF": "113.078.337-56",
+          "E-mail": "anderson.vinco@gmail.com",
+          "C.H": "24",
+          "Início": "11/11/2021",
+          "Término": "18/02/2022",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        }
+      ],
+      "equipe_execucao": [
+        {
+          "Nome": "Vinícius Secchin de Melo",
+          "CPF": "074.708.707-50",
+          "Vínculo": "Servidor",
+          "Função": "INSTRUTOR(A)",
+          "E-mail": "secchin@ifes.edu.br",
+          "C.H": "36",
+          "Início": "22/09/2021",
+          "Término": "18/02/2022",
+          "Certificado": "SIM"
+        },
+        {
+          "Nome": "Flávio Barcelos Braz da Silva",
+          "CPF": "031.685.387-95",
+          "Vínculo": "Servidor",
+          "Função": "INSTRUTOR(A)",
+          "E-mail": "flaviobarcelos@ifes.edu.br",
+          "C.H": "36",
+          "Início": "22/09/2021",
+          "Término": "18/02/2022",
+          "Certificado": "SIM"
+        },
+        {
+          "Nome": "Vinícius Secchin de Melo",
+          "CPF": "074.708.707-50",
+          "Vínculo": "Servidor",
+          "Função": "COORDENADOR(A)",
+          "E-mail": "secchin@ifes.edu.br",
+          "C.H": "36",
+          "Início": "22/09/2021",
+          "Término": "18/02/2022",
+          "Certificado": "SIM"
+        }
+      ]
+    }
+  ]
+}

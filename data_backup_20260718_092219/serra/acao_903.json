@@ -1,0 +1,28 @@
+{
+  "acao_id": "903",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=903&pfdlgcid=b42c0ee4-4518-4639-be79-fae16122be30",
+  "campus": "Serra",
+  "Processo nº": "23158.000425/2016-04",
+  "Natureza": "Desenv. Institucional",
+  "Coordenador(a)": "Felipe Frechiani de Oliveira",
+  "Tipo ação": "Projeto",
+  "Título ação": "GDE: Gestão de Tipos Documentais do IFES",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "",
+  "Área temática principal": "",
+  "Área temática secundária": "",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "",
+  "Data de cadastro": "24/10/2016",
+  "Resumo": "Visa auxiliar na normalização e na educação dos servidores públicos do Ifes sobre o aspecto da gestão documental, este projeto tem como objetivo desenvolver um sistema de informação denominado GDE. O GDE permitirá que a Arquivologista do Ifes classifique os documentos e crie uma relação de equiparidade entre os documentos existentes no Ifes. A classificação e equiparidade será por meio da tabela fornecida da CONARQ.\n\nO GDE não será utilizado apenas pela Arquivologista do Ifes e, sim, por todos os servidores públicos da instituição. Esse será uma base de conhecimento para toda a instituição sobre os documentos e seus tramites dentro e fora do Ifes.",
+  "Campus": "Serra",
+  "Grande área conhecimento (inferida)": "Ciências Sociais Aplicadas",
+  "Área temática principal (inferida)": "Educação",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_grande_area": 0.95,
+    "confianca_area_tematica": 0.98
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "acao_id": "109",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=109&pfdlgcid=e55c6479-c083-4760-b8d4-1c0df382b76a",
+  "campus": "Serra",
+  "Processo nº": "23158.000917/2013-49",
+  "Natureza": "Extensão",
+  "Coordenador(a)": "Elizangela Campos da Rosa Broetto",
+  "Tipo ação": "Curso",
+  "Título ação": "Curso de Operador de Computador",
+  "Fomento": "PRONATEC",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "",
+  "Área temática principal": "",
+  "Área temática secundária": "",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "",
+  "Data de cadastro": "14/10/2013",
+  "Resumo": "Emprega recursos dos principais aplicativos de escritório e utilitários da edição de textos, elaboração de planilhas eletrônicas, apresentação de slides e compactação de arquivos. Pesquisa e navega na internet. Usa correio eletrônico. Instala e configura sistema operacional, aplicativos de escritório e periféricos. Preparar profissionais para organizar a entrada e saída de dados em sistemas de informação, selecionar programas de aplicação a partir da avaliação do usuário, de acordo com normas e procedimentos técnicos de qualidade, segurança. higiene e saúde.",
+  "Campus": "Serra",
+  "Grande área conhecimento (inferida)": "Ciências Sociais Aplicadas",
+  "Área temática principal (inferida)": "Tecnologia e Produção",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_grande_area": 0.9,
+    "confianca_area_tematica": 0.95
+  }
+}

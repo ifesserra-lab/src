@@ -1,0 +1,28 @@
+{
+  "acao_id": "569",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=569&pfdlgcid=9c8c5056-9d90-4785-ae5a-57c72587526f",
+  "campus": "Serra",
+  "Processo nº": "23158.000717/2015-58",
+  "Natureza": "Extensão",
+  "Coordenador(a)": "Rodrigo Fernandes Calhau",
+  "Tipo ação": "Evento",
+  "Título ação": "Desafio Ifes de Negócios Socais",
+  "Fomento": "PAEX-IFES",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "",
+  "Área temática principal": "",
+  "Área temática secundária": "",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "18/12/2019",
+  "Data de cadastro": "26/11/2015",
+  "Resumo": "O DESAFIO IFES DE NEGÓCIOS SOCIAIS acontecerá em dois momentos. No primeiro momento, serão realizados 4 workshops sobre Quadro de Modelo de Negócios e negócios sociais nos seguintes campi do Ifes: Vitória, Serra, Vila Velha e Cariacica. No segundo momento será o desafio , onde participantes irão desenvolver as propostas de negócio por meio de modelos de negócio, com o suporte dos mentores. Além do modelo de negócio, os participantes irão construir protótipos, bem como, irão apresentar o negócio usando diferentes técnicas. Ao final do desafio, as melhores propostas serão premiadas. \nO evento será organizado pelo Laboratório de Extensão em Desenvolvimento de Sistemas (Leds) do Ifes/Serra. O Leds é um ambiente de aprendizado vivencial e prático no qual os alunos fazem a ponte entre teoria e prática utilizando projeto que visão solucionar um problema social e gerar inovação. Dessa forma, estimulando nos participantes as habilidades e atitudes que podem ser importante para a sociedade, o mercado de trabalho e para sua vida pessoal.\n\nAlém da participação do Leds, o evento terá o apoio de 15 alunos do curso de graduação de Negócios e Sistema de Informação da Pro Academy finlandesa. A Pro Academy, presente na Universidade de Ciências Aplicadas de Tamk, é um centro de empreendedorismo que visa ensinar esse conceito na prática e na vivência. Esses alunos atuaram como mentores e como responsáveis por registrar os acontecimentos do evento.",
+  "Campus": "Serra",
+  "Grande área conhecimento (inferida)": "Ciências Sociais Aplicadas",
+  "Área temática principal (inferida)": "Trabalho",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_grande_area": 0.95,
+    "confianca_area_tematica": 0.98
+  }
+}

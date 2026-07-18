@@ -1,0 +1,26 @@
+{
+  "acao_id": "3567",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=3567&pfdlgcid=202e4bbb-708d-4903-8dd2-d2359d60e20d",
+  "campus": "Serra",
+  "Processo nº": "23158.003037/2021-04",
+  "Natureza": "Extensão",
+  "Coordenador(a)": "Richard Junior Manuel Godinez Tello",
+  "Tipo ação": "Projeto",
+  "Título ação": "Laboratório IFMaker Serra: um ambiente colaborativo de aprendizagem e desenvolvimento de soluções",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "",
+  "Área temática principal": "Tecnologia e Produção",
+  "Área temática secundária": "Educação",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "16/12/2022",
+  "Data de cadastro": "26/10/2021",
+  "Resumo": "O presente projeto visa oferecer soluções a partir da cultura Maker para demandas da comunidade\nexterna e interna do Campus Serra do Ifes. O laboratório Maker chamado de IFMaker é um espaço\npara geração de soluções a partir de problemas reais. A abordagem da cultura Maker, cuja filosofia é\nchamada “Do It Yourself!”, apresenta a ideia de que qualquer pessoa consegue construir, consertar ou\ncriar seus próprios objetos ou soluções diante de determinados problemas ou situações.\nO laboratório Maker apresenta grande potencial para despertar o interesse dos alunos no\ndesenvolvimento de competências, envolvendo conhecimentos, habilidades e atitudes, que irão\ncontribuir para a sua formação. Além disso, este ambiente possibilita estimular a aprendizagem\ninterdisciplinar e o protagonismo do estudante no processo de ensino-aprendizagem, integrando teoria\ne prática na construção de soluções.\nO laboratório IFMaker Serra, que pretende ser implementado, possibilitará iniciativas que ofereçam um\nportfólio de serviços à comunidade interna e externa, com uma perspectiva empreendedora e de\ninovação, atendendo inventores independentes e empreendedores. Dessa forma, visa aproximar as\ndiversas áreas temáticas do campus e seus níveis de verticalização nos serviços integrados. Além\ndisso, o laboratório pode ser um potencializador dos projetos desenvolvidos pelo núcleo incubador e\nempresa júnior presentes no campus.\nO Campus Serra do Ifes foi contemplado através da Edital Nº 35/2020 (Chamada Pública SETEC/MEC)\nvia Edital de chamada Interna - PROEX/PRPPG - IFES - 03/2020 com 1 laboratório equipado com\ndiversos equipamentos para sua implementação, entre os que podemos citar: Impressoras 3D\nnotebooks, Ferramentas, projetor, kits de Arduino/Robótica, kits de Lego, Maquina CNC Laser, Scanner\n3D, etc.",
+  "Campus": "Serra",
+  "Grande área conhecimento (inferida)": "Engenharias",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_grande_area": 0.95
+  }
+}

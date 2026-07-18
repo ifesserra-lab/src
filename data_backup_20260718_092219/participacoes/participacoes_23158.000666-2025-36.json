@@ -1,0 +1,16 @@
+{
+  "processo": "23158.000666/2025-36",
+  "total_atividades": 1,
+  "total_publico_alvo": 0,
+  "total_equipe": 0,
+  "atividades": [
+    {
+      "num": "001",
+      "atividade": "Parque Científico e Tecnológico do InovaSerra – PCTec InovaSerra",
+      "atividade_id": "19968",
+      "tipo": "Programa",
+      "publico_alvo": [],
+      "equipe_execucao": []
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "acao_id": "3526",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=3526&pfdlgcid=a96b4ae1-2d24-4145-90d1-64c9a48d6a9d",
+  "campus": "Serra",
+  "Processo nº": "23158.002558/2021-36",
+  "Natureza": "Ensino",
+  "Coordenador(a)": "Maikon Chaider Silva Scaldaferro",
+  "Tipo ação": "Curso",
+  "Título ação": "A mitologia grega vista a partir da arte e da literatura",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "Ciências Humanas",
+  "Área temática principal": "",
+  "Área temática secundária": "",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "11/06/2022",
+  "Data de cadastro": "14/10/2021",
+  "Resumo": "O curso “Mitologia grega vista a partir da arte e literatura” pretende introduzir os estudantes no estudo da cultura clássica, possibilitando que estes compreendam como artistas e escritores se apropriaram dos mitos gregos em suas produções. Além do mais, o curso buscará estabelecer um diálogo entre essas histórias da mitologia grega retratadas na arte e literatura com problemas que ainda hoje nos são familiares, pois dizem respeito à política, moral, sexualidade, relações familiares, amizade, economia, dentre outros",
+  "Campus": "Serra",
+  "Área temática principal (inferida)": "Cultura",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_area_tematica": 0.95
+  }
+}

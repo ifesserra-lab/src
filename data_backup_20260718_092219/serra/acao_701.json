@@ -1,0 +1,28 @@
+{
+  "acao_id": "701",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=701&pfdlgcid=2c99b0ae-0520-4de1-a238-ebaf865de00b",
+  "campus": "Serra",
+  "Processo nº": "23158.000280/2016-33",
+  "Natureza": "Ensino",
+  "Coordenador(a)": "Felipe Nascimento Martins",
+  "Tipo ação": "Curso",
+  "Título ação": "Programação de Máquinas CNC",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "",
+  "Área temática principal": "",
+  "Área temática secundária": "",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "",
+  "Data de cadastro": "31/05/2016",
+  "Resumo": "O curso apresentará uma visão geral da tecnologia de Comando Numérico Computacional (CNC) do ponto de vista da sua utilização, ou seja, a programação de máquinas que utilizam este recurso. A importância da oferta desse curso é evidenciada pelo fato de não existir disciplina sobre este tema nem no curso Técnico em Automação Industrial e nem no curso de graduação em Engenharia de Controle e Automação ofertados pelo Campus Serra.",
+  "Campus": "Serra",
+  "Grande área conhecimento (inferida)": "Engenharias",
+  "Área temática principal (inferida)": "Tecnologia e Produção",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_grande_area": 0.95,
+    "confianca_area_tematica": 0.98
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "processo": "23158.002380/2022-42",
+  "total_atividades": 1,
+  "total_publico_alvo": 11,
+  "total_equipe": 3,
+  "atividades": [
+    {
+      "num": "001",
+      "atividade": "Introdução aos Veículos Elétricos",
+      "atividade_id": "14450",
+      "tipo": "Curso",
+      "publico_alvo": [
+        {
+          "Nome": "Thyago Candeia da Silva",
+          "Nasc.": "26/07/2002",
+          "CPF": "156.119.217-10",
+          "E-mail": "Thyagocandeia@gmail.com",
+          "C.H": "24",
+          "Início": "03/04/2023",
+          "Término": "31/05/2023",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        },
+        {
+          "Nome": "Angelo Lyra Campos",
+          "Nasc.": "23/02/2001",
+          "CPF": "063.073.177-28",
+          "E-mail": "angelolyra@gmail.com",
+          "C.H": "24",
+          "Início": "03/04/2023",
+          "Término": "31/05/2023",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        },
+        {
+          "Nome": "José Alberto de Santana Ribeiro",
+          "Nasc.": "27/08/2006",
+          "CPF": "204.029.997-11",
+          "E-mail": "josealberto.de.santana123@gmail.com",
+          "C.H": "24",
+          "Início": "03/04/2023",
+          "Término": "31/05/2023",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        },
+        {
+          "Nome": "Gustavo Rodrigo Modesto Luciano",
+          "Nasc.": "29/08/2002",
+          "CPF": "148.810.447-61",
+          "E-mail": "alebermudes@gmail.com",
+          "C.H": "24",
+          "Início": "03/04/2023",
+          "Término": "31/05/2023",
+          "Certificado": "NÃO",
+          "Situação": "REPROVADO"
+        },
+        {
+          "Nome": "Henrique Ataide Leão",
+          "Nasc.": "29/04/1999",
+          "CPF": "175.889.467-92",
+          "E-mail": "henriqueleao71@gmail.com",
+          "C.H": "24",
+          "Início": "03/04/2023",
+          "Término": "31/05/2023",
+          "Certificado": "NÃO",
+          "Situação": "REPROVADO"
+        },
+        {
+          "Nome": "Paulo Marcos Cabral Junior",
+          "Nasc.": "22/06/1962",
+          "CPF": "706.434.077-15",
+          "E-mail": "paulo.cabral@aluno.cefet-rj.br",
+          "C.H": "24",
+          "Início": "03/04/2023",
+          "Término": "31/05/2023",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        },
+        {
+          "Nome": "José Eduardo Ribeiro",
+          "Nasc.": "07/06/1985",
+          "CPF": "102.758.497-75",
+          "E-mail": "eduardoribeiroerika@gmail.com",
+          "C.H": "24",
+          "Início": "03/04/2023",
+          "Término": "31/05/2023",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        },
+        {
+          "Nome": "Enzo Salamão Roseiro",
+          "Nasc.": "12/08/2002",
+          "CPF": "181.239.857-38",
+          "E-mail": "enzosalamaoroseiro@gmail.com",
+          "C.H": "24",
+          "Início": "03/04/2023",
+          "Término": "31/05/2023",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        },
+        {
+          "Nome": "Eduardo Peron Cardozo Babilone",
+          "Nasc.": "12/11/2002",
+          "CPF": "148.749.107-77",
+          "E-mail": "eduardopcb01@gmail.com",
+          "C.H": "24",
+          "Início": "03/04/2023",
+          "Término": "31/05/2023",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        },
+        {
+          "Nome": "Fabricio Sant’anna Rêlo",
+          "Nasc.": "13/08/1988",
+          "CPF": "842.619.605-59",
+          "E-mail": "fabriciosrelo@gmail.com",
+          "C.H": "24",
+          "Início": "03/04/2023",
+          "Término": "31/05/2023",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        },
+        {
+          "Nome": "Pedro Dalvi Boina",
+          "Nasc.": "05/10/1979",
+          "CPF": "086.523.737-95",
+          "E-mail": "pedrodalviboina@gmail.com",
+          "C.H": "24",
+          "Início": "03/04/2023",
+          "Término": "31/05/2023",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        }
+      ],
+      "equipe_execucao": [
+        {
+          "Nome": "Flávio Barcelos Braz da Silva",
+          "CPF": "031.685.387-95",
+          "Vínculo": "Servidor",
+          "Função": "PROFESSOR(A)",
+          "E-mail": "flaviobarcelos@ifes.edu.br",
+          "C.H": "24",
+          "Início": "29/01/2023",
+          "Término": "04/08/2023",
+          "Certificado": "SIM"
+        },
+        {
+          "Nome": "Vinícius Secchin de Melo",
+          "CPF": "074.708.707-50",
+          "Vínculo": "Servidor",
+          "Função": "PROFESSOR(A)",
+          "E-mail": "secchin@ifes.edu.br",
+          "C.H": "24",
+          "Início": "29/01/2023",
+          "Término": "04/08/2023",
+          "Certificado": "SIM"
+        },
+        {
+          "Nome": "Vinícius Secchin de Melo",
+          "CPF": "074.708.707-50",
+          "Vínculo": "Servidor",
+          "Função": "COORDENADOR(A)",
+          "E-mail": "secchin@ifes.edu.br",
+          "C.H": "24",
+          "Início": "29/01/2023",
+          "Término": "04/08/2023",
+          "Certificado": "SIM"
+        }
+      ]
+    }
+  ]
+}

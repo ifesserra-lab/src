@@ -1,0 +1,16 @@
+{
+  "processo": "23158.002525/2024-77",
+  "total_atividades": 1,
+  "total_publico_alvo": 0,
+  "total_equipe": 0,
+  "atividades": [
+    {
+      "num": "001",
+      "atividade": "Conexão Ciência: Transformação Digital das Atividades do Centro de Ciência Educação e Cultura - Praça da Ciência",
+      "atividade_id": "20290",
+      "tipo": "Projeto",
+      "publico_alvo": [],
+      "equipe_execucao": []
+    }
+  ]
+}

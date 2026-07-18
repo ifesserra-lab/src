@@ -1,0 +1,26 @@
+{
+  "acao_id": "2268",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=2268&pfdlgcid=04badbf3-51f2-4249-9fff-01fd1b4d9c23",
+  "campus": "Serra",
+  "Processo nº": "23158.000096/2019-36",
+  "Natureza": "Ensino",
+  "Coordenador(a)": "Ana Paula Klauck",
+  "Tipo ação": "Projeto",
+  "Título ação": "Jornalismo",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "Linguística, Letras e Artes",
+  "Área temática principal": "",
+  "Área temática secundária": "",
+  "Relatório aprovado": "Não",
+  "Data último relatório": "",
+  "Data de cadastro": "07/03/2019",
+  "Resumo": "Trata-se da formação de uma redação composta pelos alunos do Campus Serra, com 01 reunião semanal de 02:00 (segunda-feira) e funções distribuídas através de cargos (jornalista, fotógrafo, desenhista, designer e editor-chefe) com a finalidade de produzir conteúdo para um jornal que será  publicado quinzenalmente.",
+  "Campus": "Serra",
+  "Área temática principal (inferida)": "Comunicação",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_area_tematica": 0.9
+  }
+}

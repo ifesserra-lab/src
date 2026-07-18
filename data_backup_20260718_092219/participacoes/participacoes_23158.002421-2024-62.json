@@ -1,0 +1,16 @@
+{
+  "processo": "23158.002421/2024-62",
+  "total_atividades": 1,
+  "total_publico_alvo": 0,
+  "total_equipe": 0,
+  "atividades": [
+    {
+      "num": "001",
+      "atividade": "Inclusão e Tecnologia: Robótica para Pessoas com Autismo no IFES Serra",
+      "atividade_id": "19208",
+      "tipo": "Projeto",
+      "publico_alvo": [],
+      "equipe_execucao": []
+    }
+  ]
+}

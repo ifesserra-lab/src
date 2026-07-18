@@ -1,0 +1,26 @@
+{
+  "acao_id": "2892",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=2892&pfdlgcid=3577a00d-d6e8-4f86-aab6-c6ccee148662",
+  "campus": "Serra",
+  "Processo nº": "23158.002590/2019-51",
+  "Natureza": "Ensino",
+  "Coordenador(a)": "Cibelle Zanforlin Cesconetto Toresani",
+  "Tipo ação": "Projeto",
+  "Título ação": "\"(Con)versando sobre – Temas transversais\"",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "Ciências Humanas",
+  "Área temática principal": "",
+  "Área temática secundária": "",
+  "Relatório aprovado": "Não",
+  "Data último relatório": "",
+  "Data de cadastro": "21/01/2020",
+  "Resumo": "Abordaremos temas, a saber, em forma de cartazes, postagens a serem veiculados nas redes sociais e murais físicos do Campus Serra: \nNovembro- Oficina de Educação Financeira 2hs\nMarço – Oficina de Respiração -2hs\nMaio -  O Serviço Social na Educação \nJunho -  Saúde - 2hs\nAgosto - A Psicologia na Educação \nAgosto - Oficina de Respiração -2hs\nSetembro - Prevenção ao Suicídio –2hs\nNovembro - Oficina de Educação Financeira 2hs",
+  "Campus": "Serra",
+  "Área temática principal (inferida)": "Educação",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_area_tematica": 0.95
+  }
+}

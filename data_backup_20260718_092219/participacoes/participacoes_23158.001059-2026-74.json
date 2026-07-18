@@ -1,0 +1,32 @@
+{
+  "processo": "23158.001059/2026-74",
+  "total_atividades": 3,
+  "total_publico_alvo": 0,
+  "total_equipe": 0,
+  "atividades": [
+    {
+      "num": "001",
+      "atividade": "Jogos Internos do Campus Serra (JICS)",
+      "atividade_id": "22613",
+      "tipo": "Evento",
+      "publico_alvo": [],
+      "equipe_execucao": []
+    },
+    {
+      "num": "002",
+      "atividade": "Jogos Internos do Campus Serra – Etapa 1",
+      "atividade_id": "22614",
+      "tipo": "Evento",
+      "publico_alvo": [],
+      "equipe_execucao": []
+    },
+    {
+      "num": "003",
+      "atividade": "Jogos Internos do Campus Serra – Etapa 2",
+      "atividade_id": "22615",
+      "tipo": "Evento",
+      "publico_alvo": [],
+      "equipe_execucao": []
+    }
+  ]
+}

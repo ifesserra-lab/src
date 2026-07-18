@@ -1,0 +1,26 @@
+{
+  "acao_id": "3950",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=3950&pfdlgcid=e9bbc02b-28ac-4a11-8931-ea7764efe91d",
+  "campus": "Serra",
+  "Processo nº": "23158.002424/2022-34",
+  "Natureza": "Ensino",
+  "Coordenador(a)": "Paulo Cezar Camargo Guedes",
+  "Tipo ação": "Projeto",
+  "Título ação": "Oficina de Tutoria em Matemática",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "Ciências Exatas e da Terra",
+  "Área temática principal": "",
+  "Área temática secundária": "",
+  "Relatório aprovado": "Não",
+  "Data último relatório": "",
+  "Data de cadastro": "14/07/2022",
+  "Resumo": "Proporcionar aos alunos oriundos da rede pública municipal ou estadual, que estejam com dificuldade no aprendizado de Matemática, devido à pandemia ou a outros fatores educacionais, a oportunidade de participarem de oficinas de resolução de exercícios, acompanhados de tutores, que podem ser o professor de Matemática ou alunos das séries mais avançadas. Estas oficinas trabalharão os conteúdos estudados nas aulas regulares da turma ou, assuntos que são pré requisitos para estes conteúdos.",
+  "Campus": "Serra",
+  "Área temática principal (inferida)": "Educação",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_area_tematica": 1.0
+  }
+}

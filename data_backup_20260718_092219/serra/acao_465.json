@@ -1,0 +1,28 @@
+{
+  "acao_id": "465",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=465&pfdlgcid=aa0d7f64-e6ee-46c6-8034-a7975658c438",
+  "campus": "Serra",
+  "Processo nº": "23158.000407/2015-33",
+  "Natureza": "Extensão",
+  "Coordenador(a)": "Fernanda de Souza Hott",
+  "Tipo ação": "Evento",
+  "Título ação": "Workshop sobre as Ações de Internacionalização do Ifes",
+  "Fomento": "PAEX-IFES",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "",
+  "Área temática principal": "",
+  "Área temática secundária": "",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "",
+  "Data de cadastro": "06/07/2015",
+  "Resumo": "Workshop sobre ações de internacionalização do Ifes-Serra e informativo sobre aplicação do Toefl Itp",
+  "Campus": "Serra",
+  "Área temática principal (inferida)": "Educação",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_grande_area": 0.9,
+    "confianca_area_tematica": 0.95
+  },
+  "Grande área conhecimento (inferida)": "Ciências Humanas"
+}

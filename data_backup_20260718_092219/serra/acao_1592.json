@@ -1,0 +1,26 @@
+{
+  "acao_id": "1592",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=1592&pfdlgcid=834e2dc1-c176-49ca-ac9b-18832b02dfa6",
+  "campus": "Serra",
+  "Processo nº": "23158.000173/2018-77",
+  "Natureza": "Ensino",
+  "Coordenador(a)": "Fabio de Oliveira Lima",
+  "Tipo ação": "Projeto",
+  "Título ação": "Tutoria em Estudos Avançados",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "Ciências Exatas e da Terra",
+  "Área temática principal": "",
+  "Área temática secundária": "",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "23/03/2018",
+  "Data de cadastro": "28/03/2018",
+  "Resumo": "Oferecer aos alunos do ensino médio ou graduação, que se interessarem em se aprofundar no estudo de  conteúdos e técnicas que vão além do exigido em sala de aula.",
+  "Campus": "Serra",
+  "Área temática principal (inferida)": "Educação",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_area_tematica": 0.9
+  }
+}

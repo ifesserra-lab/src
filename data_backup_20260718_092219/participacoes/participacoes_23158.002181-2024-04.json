@@ -1,0 +1,28 @@
+{
+  "processo": "23158.002181/2024-04",
+  "total_atividades": 1,
+  "total_publico_alvo": 0,
+  "total_equipe": 1,
+  "atividades": [
+    {
+      "num": "001",
+      "atividade": "Semana da Consciência Negra – IFES-Serra - 2024",
+      "atividade_id": "19034",
+      "tipo": "Evento",
+      "publico_alvo": [],
+      "equipe_execucao": [
+        {
+          "Nome": "Amarildo Mendes Lemos",
+          "CPF": "088.170.927-11",
+          "Vínculo": "Servidor",
+          "Função": "COORDENADOR(A)",
+          "E-mail": "amarildo.lemos@ifes.edu.br",
+          "C.H": "9",
+          "Início": "22/11/2024",
+          "Término": "22/11/2024",
+          "Certificado": "NÃO"
+        }
+      ]
+    }
+  ]
+}

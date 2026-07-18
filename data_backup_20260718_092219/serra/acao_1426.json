@@ -1,0 +1,26 @@
+{
+  "acao_id": "1426",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=1426&pfdlgcid=4457b2b5-32f4-4147-9053-ab9fd2aa0004",
+  "campus": "Serra",
+  "Processo nº": "23158.001525/2017-21",
+  "Natureza": "Extensão",
+  "Coordenador(a)": "Gilmar Luiz Vassoler",
+  "Tipo ação": "Evento",
+  "Título ação": "Semana de Ciência e Tecnologia do Campus Serra do Ifes",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "",
+  "Área temática principal": "Tecnologia e Produção",
+  "Área temática secundária": "Educação",
+  "Relatório aprovado": "Não",
+  "Data último relatório": "",
+  "Data de cadastro": "28/11/2017",
+  "Resumo": "Ao longo dos anos o Campus foi implantando cursos de excelência nestas áreas e hoje oferta para a comunidade os cursos: técnico integrado em informática para internet, técnico integrado em mecatrônica, técnico em informática, técnico em automação industrial, bacharelado em sistemas de informação, engenharia de controle e automação e mestrado profissional em engenharia de controle de automação. O investimento do Campus na ampliação de sua infraestrutura e na capacitação de seus servidores, em particular no doutoramento destes, possibilitou: i) a criação de diversos grupos de pesquisas, em sua maioria, voltados para os eixos tecnológicos do Campus; ii) a implantação do primeiro núcleo incubador do Ifes; iii) a criação de laboratórios temáticos; entre outros. A soma destes fatores proporcionou um aumento significativo da produção científica e tecnológica do campus, bem como o desenvolvimento de projetos de inovação junto as empresas incubadas. Para fazer a divulgação das atividades fins da instituição (ensino, pesquisa e extensão) voltadas para Ciência e Tecnologia, o Campus Serra do Ifes pretende promover, entre os dias 23 e 27 de outubro de 2017, a Semana de Ciência e Tecnologia 2017.",
+  "Campus": "Serra",
+  "Grande área conhecimento (inferida)": "Engenharias",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_grande_area": 0.95
+  }
+}

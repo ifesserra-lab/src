@@ -1,0 +1,26 @@
+{
+  "acao_id": "4034",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=4034&pfdlgcid=e98be0e5-d01b-497c-8ea6-5d5cfc8cafb2",
+  "campus": "Serra",
+  "Processo nº": "23158.002921/2022-32",
+  "Natureza": "Extensão",
+  "Coordenador(a)": "Moisés Savedra Omena",
+  "Tipo ação": "Projeto",
+  "Título ação": "SmartIdea - Validação de Problemas e Ideias",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "23158.001821/2021-50 - LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+  "Grande área conhecimento": "",
+  "Área temática principal": "Tecnologia e Produção",
+  "Área temática secundária": "Educação",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "31/12/2024",
+  "Data de cadastro": "05/09/2022",
+  "Resumo": "Iniciar a concretização de uma ideia culmina em dificuldades práticas que vão desde a falta de\nconhecimento de processos, da tecnologia a ser utilizada ou desenvolvida. Este gap,\ncomumente, impossibilita uma rápida prototipação de ideias que dependem de ferramentas\ntecnológicas. Este projeto visa testar um novo processo focado na para validação de ideias,\npautado também no curto prazo e na redução de custos, apoiado por meio de uma metodologia\nprópria e num software a ser desenvolvido no projeto visando , gerenciamento e análise das\nfases e métricas relativas ao processo condizente, para que seja possível validar ideias no\ncontexto dos habitats de inovação ou empresas, economizando tempo e recursos. Além disso,\no software permitirá avaliar a performance do processo para que seja possível de forma\nquantitativa aferir a qualidade do processo atrelado a metodologia e gerar evoluções e\nmelhorias pertinentes.",
+  "Campus": "Serra",
+  "Grande área conhecimento (inferida)": "Engenharias",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_grande_area": 0.9
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "acao_id": "1847",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=1847&pfdlgcid=503b560a-2456-41bc-990e-7ba68279d550",
+  "campus": "Serra",
+  "Processo nº": "23158.000316/2018-41",
+  "Natureza": "Extensão",
+  "Coordenador(a)": "Carlos Lins Borges Azevedo",
+  "Tipo ação": "Projeto",
+  "Título ação": "Sistema de apoio para rastreio e geolocalização de transtornos mentais comuns na atenção primária a saúde",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "23158.001139/2014-96 - LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+  "Grande área conhecimento": "",
+  "Área temática principal": "Tecnologia e Produção",
+  "Área temática secundária": "Saúde",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "31/12/2021",
+  "Data de cadastro": "08/08/2018",
+  "Resumo": "O presente projeto partiu de necessidades das Unidades Básicas de Saúde de Vitória verificadas em projetos anteriores realizados pelos professores parceiros da UFES. Este projeto será realizado em paralelo com o projeto “Sistema para predição de transtornos mentais comuns na atenção primária a saúde” e com o projeto “Identificação de Transtornos Mentais Comuns e Abuso De Álcool/Drogas no Âmbito Da Atenção Primária à Saúde” submetido a EDITAL FAPES pela proponente Maria Carmen Viana, cujo proponente do referido projeto é pesquisador principal.",
+  "Campus": "Serra",
+  "Grande área conhecimento (inferida)": "Ciências da Saúde",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_grande_area": 0.95
+  }
+}

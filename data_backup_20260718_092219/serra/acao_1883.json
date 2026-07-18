@@ -1,0 +1,26 @@
+{
+  "acao_id": "1883",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=1883&pfdlgcid=ffa55bc8-942f-41df-84b3-524e38d13ec9",
+  "campus": "Serra",
+  "Processo nº": "23158.001058/2018-10",
+  "Natureza": "Extensão",
+  "Coordenador(a)": "Francisco José Casarim Rapchan",
+  "Tipo ação": "Programa",
+  "Título ação": "Inova Serra",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "23147.002020/2025-12 - Rede de Incubação de Empreendimento",
+  "Grande área conhecimento": "",
+  "Área temática principal": "Tecnologia e Produção",
+  "Área temática secundária": "Educação",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "12/02/2021",
+  "Data de cadastro": "04/09/2018",
+  "Resumo": "O Programa Inova Serra tem por objetivo precípuo a criação do Polo de Inovação e Negócios Tecnológicos em todo o município da Serra até o ano de 2020, com vistas à disseminação da cultura de inovação, com ações voltadas para o (i) aumento da competitividade das empresas serranas, (ii)  estimular o ambiente produtivo em todos os níveis, e (iii) fortalecer as parcerias com empresas públicas e privadas, ICTs e Governo do Estado, visando promover a conexão em rede e posicionar a Serra como principal polo de inovação e negócios tecnológicos do Espírito Santo.",
+  "Campus": "Serra",
+  "Grande área conhecimento (inferida)": "Engenharias",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_grande_area": 0.9
+  }
+}

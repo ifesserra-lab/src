@@ -1,0 +1,16 @@
+{
+  "processo": "23158.002130/2022-11",
+  "total_atividades": 1,
+  "total_publico_alvo": 0,
+  "total_equipe": 0,
+  "atividades": [
+    {
+      "num": "001",
+      "atividade": "Palestra sobre Rap e cultura hip hop",
+      "atividade_id": "13516",
+      "tipo": "Evento",
+      "publico_alvo": [],
+      "equipe_execucao": []
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "acao_id": "318",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=318&pfdlgcid=17cc3d47-7304-4a07-9a78-c1901f518d79",
+  "campus": "Serra",
+  "Processo nº": "23158.000816/2014-59",
+  "Natureza": "Ensino",
+  "Coordenador(a)": "Marco Antônio de Souza Leite Cuadros",
+  "Tipo ação": "Curso",
+  "Título ação": "Curso de Calibração de Instrumentos",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "",
+  "Área temática principal": "",
+  "Área temática secundária": "",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "",
+  "Data de cadastro": "25/09/2014",
+  "Resumo": "Demonstrar os conceitos de Calibração e capacitar os alunos em estabelece  a peridiocidade de calibração dos equipamentos, sensibilizando-os de maneira a garantir a qualidade do processo de medição e a validade dos resultados.",
+  "Campus": "Serra",
+  "Grande área conhecimento (inferida)": "Engenharias",
+  "Área temática principal (inferida)": "Tecnologia e Produção",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_grande_area": 0.9,
+    "confianca_area_tematica": 0.95
+  }
+}

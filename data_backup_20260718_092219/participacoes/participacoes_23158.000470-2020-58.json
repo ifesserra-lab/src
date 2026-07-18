@@ -1,0 +1,16 @@
+{
+  "processo": "23158.000470/2020-58",
+  "total_atividades": 1,
+  "total_publico_alvo": 0,
+  "total_equipe": 0,
+  "atividades": [
+    {
+      "num": "001",
+      "atividade": "Tutoria de Estudos Orientados: Compartilhando Saberes",
+      "atividade_id": "10284",
+      "tipo": "Projeto",
+      "publico_alvo": [],
+      "equipe_execucao": []
+    }
+  ]
+}

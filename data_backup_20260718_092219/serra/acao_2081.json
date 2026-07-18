@@ -1,0 +1,26 @@
+{
+  "acao_id": "2081",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=2081&pfdlgcid=c681f890-57b2-49f9-90ee-e91bf8134a85",
+  "campus": "Serra",
+  "Processo nº": "23158.001813/2017-85",
+  "Natureza": "Extensão",
+  "Coordenador(a)": "Paulo Cezar Camargo Guedes",
+  "Tipo ação": "Curso",
+  "Título ação": "O IFES é o meu lugar",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "23158.001812/2017-31 - Ifes para todos",
+  "Grande área conhecimento": "",
+  "Área temática principal": "Educação",
+  "Área temática secundária": "Educação",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "16/11/2018",
+  "Data de cadastro": "31/10/2018",
+  "Resumo": "Nesse contexto, o projeto “O IFES é o meu lugar” visa estimular os alunos da rede pública, por meio de uma preparação para o processo seletivo do ensino médio integrado, com aulas expositivas e dialogadas, bem como a resolução de exercícios das disciplinas do ensino fundamental, visando possibilitar a esses alunos uma revisão dos conteúdos trabalhados em suas respectivas escolas. Destarte, esperamos que os alunos estejam preparados e estimulados a realizarem uma boa prova no processo seletivo, como forma de ingresso ao ensino médio integrado no IFES Campus Serra ou em qualquer instituição do IFES no estado. Assim, a implantação desse projeto vem nessa perspectiva de expandir a oportunidade aos alunos de rede pública municipal o acesso ao ensino médio de qualidade ofertado nos Institutos Federais e reconhecidos pela sua excelência de ensino.",
+  "Campus": "Serra",
+  "Grande área conhecimento (inferida)": "Ciências Humanas",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_grande_area": 0.95
+  }
+}

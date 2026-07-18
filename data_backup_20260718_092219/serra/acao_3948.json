@@ -1,0 +1,26 @@
+{
+  "acao_id": "3948",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=3948&pfdlgcid=4478f2d6-6e13-4918-a34f-809a978046e9",
+  "campus": "Serra",
+  "Processo nº": "23158.002486/2022-46",
+  "Natureza": "Ensino",
+  "Coordenador(a)": "Paulo Cezar Camargo Guedes",
+  "Tipo ação": "Programa",
+  "Título ação": "PEAM – Programa de Estudos Avançados em Matemática",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "Ciências Exatas e da Terra",
+  "Área temática principal": "",
+  "Área temática secundária": "",
+  "Relatório aprovado": "Não",
+  "Data último relatório": "",
+  "Data de cadastro": "14/07/2022",
+  "Resumo": "Esta proposta de atividade complementar ao ensino consiste no oferecimento de encontros semanais aos estudantes dos cursos técnicos integrados ao Ensino Médio abordando tópicos da área de Matemática não totalmente contemplados no currículo escolar dos estudantes, seja em sua variedade e/ou profundidade.",
+  "Campus": "Serra",
+  "Área temática principal (inferida)": "Educação",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_area_tematica": 1.0
+  }
+}

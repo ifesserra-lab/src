@@ -1,0 +1,26 @@
+{
+  "acao_id": "2505",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=2505&pfdlgcid=c4530422-37a1-4953-b6f6-9be1ea986473",
+  "campus": "Serra",
+  "Processo nº": "23158.001195/2019-35",
+  "Natureza": "Extensão",
+  "Coordenador(a)": "Amarildo Mendes Lemos",
+  "Tipo ação": "Projeto",
+  "Título ação": "Circuito Audiovisual",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "",
+  "Área temática principal": "Cultura",
+  "Área temática secundária": "Educação",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "17/09/2021",
+  "Data de cadastro": "13/06/2019",
+  "Resumo": "O presente projeto de extensão, Circuito Audiovisual, tem como objetivo promover e difundir a cultura audiovisual por meio de oficinas oferecidas na modalidade presencial. Serão oferecidas oficinas de roteiro, produção, direção, câmera e fotografia, som, direção de arte e montagem de edição. O projeto também compreende a formação de profissionais da educação com metodologias alternativas com a utilização das Tecnologias de Informação e Comunicação (TIC), ao capacitar professores para utilização da produção audiovisual como recurso pedagógico. O projeto será realizado em três polos de produção (e formação) agregando um conjunto de oficinas e de práticas que forjam um ciclo de pensar, sentir e fazer cinema. Cada polo apresentará, ao longo e ao fim do projeto, produtos audiovisuais específicos e o conjunto exibido em mostras e em plataformas digitais. O projeto pretende sensibilizar um amplo público, além de capacitar jovens e multiplicadores do município de Serra, através da valorização de patrimônios culturais locais e do incentivo a formas de empoderamento por meio da cultura e sua economia. \nPalavras",
+  "Campus": "Serra",
+  "Grande área conhecimento (inferida)": "Linguística, Letras e Artes",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_grande_area": 0.95
+  }
+}

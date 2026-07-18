@@ -1,0 +1,26 @@
+{
+  "acao_id": "5641",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=5641&pfdlgcid=6fcbccbc-89cb-4abb-829a-d25eaa03587f",
+  "campus": "Serra",
+  "Processo nº": "23158.001715/2025-58",
+  "Natureza": "Extensão",
+  "Coordenador(a)": "Rosiane Ribeiro Rocha",
+  "Tipo ação": "Projeto",
+  "Título ação": "LabMaker 4.0: capacitando professores para a cultura maker e tecnologias da Indústria 4.0",
+  "Fomento": "PAEX-IFES",
+  "Ação vinculante": "23158.001854/2023-10 - LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão",
+  "Grande área conhecimento": "",
+  "Área temática principal": "Educação",
+  "Área temática secundária": "Tecnologia e Produção",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "11/08/2025",
+  "Data de cadastro": "13/08/2025",
+  "Resumo": "O projeto “LabMaker 4.0: capacitando professores para a cultura maker e tecnologias da indústria 4.0”\ntem como principal objetivo capacitar professores da rede pública de ensino da região metropolitana da\nGrande Vitória nas tecnologias da cultura maker por meio de ações teóricas e práticas, com apoio da\ninfraestrutura e da expertise do Ifes Campus Serra, promovendo a inovação e a aplicação de\nmetodologias ativas no ambiente escolar. A ação será realizada com apoio da infraestrutura do LabMaker\ndo Ifes Campus Serra e contará com a participação de estudantes do campus, que atuarão como\ninstrutores, após formação específica. Durante o projeto, serão desenvolvidos materiais didáticos e\nrealizadas oficinas presenciais com foco em modelagem 3D, impressão 3D, manufatura subtrativa\n(usinagem CNC) e robótica básica. A proposta busca fortalecer a formação docente e contribuir para a\nmodernização das práticas pedagógicas, incentivando o aprendizado prático, a criatividade e o\nprotagonismo estudantil nas escolas públicas da região.\nAlém de beneficiar diretamente os professores participantes, o projeto também proporciona aos\nestudantes do Ifes a oportunidade de vivência extensionista e protagonismo, promovendo sua formação\ncidadã e técnica. A ação reforça o compromisso do Ifes com a transformação social e a inovação\neducacional na região.",
+  "Campus": "Serra",
+  "Grande área conhecimento (inferida)": "Engenharias",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_grande_area": 0.95
+  }
+}

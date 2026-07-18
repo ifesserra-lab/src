@@ -1,0 +1,26 @@
+{
+  "acao_id": "3423",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=3423&pfdlgcid=ca383074-555b-4cec-b222-a7070bb8b564",
+  "campus": "Serra",
+  "Processo nº": "23158.001977/2021-09",
+  "Natureza": "Extensão",
+  "Coordenador(a)": "Francisco José Casarim Rapchan",
+  "Tipo ação": "Programa",
+  "Título ação": "Programa Local Núcleo Incubador Campus Serra – NIS",
+  "Fomento": "PAEX-IFES",
+  "Ação vinculante": "23147.002020/2025-12 - Rede de Incubação de Empreendimento",
+  "Grande área conhecimento": "",
+  "Área temática principal": "Tecnologia e Produção",
+  "Área temática secundária": "Educação",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "18/12/2024",
+  "Data de cadastro": "14/07/2021",
+  "Resumo": "A Incubadora do Ifes é concebida como um ambiente educacional propício para o\ndesenvolvimento de competências (conhecimentos, habilidades e atitudes) empreendedoras\ne inovadoras por meio de atividades que contemplam alunos, servidores e comunidade\nexterna. Busca contribuir para o desenvolvimento socioeconômico local e regional sendo\nreferência no trabalho de apoio a empreendimentos inovadores do Estado do Espírito Santo.\nA incubadora do Ifes encontra-se institucionalizada pela Resolução do Conselho Superior n.º\n70/2011, de 08 de dezembro de 2011, que define regras e procedimentos para a\ninstitucionalização de Núcleos Incubadores de empreendimentos de base tecnológica, social\ne cultural.\nO Programa Local do Núcleo Incubador Campus Serra – NIS encontra-se diretamente\nvinculado e alinhado com o Programa Institucional em Rede de Incubação de\nEmpreendimentos desenvolvido pela Agência de Inovação do Ifes (Agifes).\nO programa local citado tem como principal objetivo oferecer um conjunto de atividades que\nproporcionam suporte ao desenvolvimento de projetos inovadores, por meio de iniciativas\npróprias e em parceria com a rede constituída por Núcleos Incubadores do Ifes com potencial\nde abrangência em todos os campi da instituição.\nEssas atividades desempenhadas pelo Núcleo Incubador Serra estão alinhadas aos oito\nprocessos-chave, sugeridos pela Anprotec para os níveis I e II do Cerne: Sensibilização e\nProspecção, Seleção, Desenvolvimento do Empreendimento, Graduação e Relacionamento\ncom Graduados, Gerenciamento Básico, Gestão Estratégica, Ampliação de Limites, e\nAvaliação da Incubadora. Cada um destes processos-chave é constituído por práticas-chave\nelaboradas com base na estrutura da Incubadora do Ifes\nDesse modo, todas as ações, processos e projetos institucionais desenvolvidos pelo Núcleo\nIncubador Campus Serra – NIS estão diretamente relacionados com a função estratégica\nintegradora e articuladora do Programa Institucional em Rede de Incubação de\nEmpreendimentos.",
+  "Campus": "Serra",
+  "Grande área conhecimento (inferida)": "Ciências Sociais Aplicadas",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_grande_area": 0.9
+  }
+}

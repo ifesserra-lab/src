@@ -1,0 +1,26 @@
+{
+  "acao_id": "3514",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=3514&pfdlgcid=739cb876-5073-4270-8b88-729cdf9dd486",
+  "campus": "Serra",
+  "Processo nº": "23158.002617/2021-92",
+  "Natureza": "Ensino",
+  "Coordenador(a)": "Vinícius Secchin de Melo",
+  "Tipo ação": "Curso",
+  "Título ação": "Introdução aos Veículos Elétricos",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "Engenharias",
+  "Área temática principal": "",
+  "Área temática secundária": "",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "18/02/2022",
+  "Data de cadastro": "05/10/2021",
+  "Resumo": "No proposto curso será realizada uma introdução ao panorâma da mobilidade elétrica no Brasil, bem como as tendências de mercado. Também serão abordados os principais tipos de veículos elétricos, apresentando suas topologias e configurações internas, bem como uma breve análise de seus componentes elétricos e mecânicos. Também serão apresentados os tipos de carregadores para veículos elétricos e noções de recarga inteligente integrada às cidades inteligentes.",
+  "Campus": "Serra",
+  "Área temática principal (inferida)": "Tecnologia e Produção",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_area_tematica": 0.98
+  }
+}

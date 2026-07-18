@@ -1,0 +1,28 @@
+{
+  "acao_id": "4617",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=4617&pfdlgcid=b0adcbe7-cc79-4f98-ac23-44cb6281eafc",
+  "campus": "Serra",
+  "Processo nº": "23158.002529/2023-74",
+  "Natureza": "Ensino",
+  "Coordenador(a)": "Bene Regis Figueiredo",
+  "Tipo ação": "Evento",
+  "Título ação": "Projeto Expedição IFES",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "",
+  "Área temática principal": "",
+  "Área temática secundária": "",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "06/10/2023",
+  "Data de cadastro": "04/08/2023",
+  "Resumo": "- visita guiada pela trilha do ouro, observando os aspectos da mata nativa. Abordando, também, a\nforma como a estrada foi construída, a partir de uma aula sobre as questões históricas da travessia do\nouro, desde as cidades de extração até o porto de Paraty, e suas implicações, com explicação de\ntermos oriundos da época, como “santo do pau oco, etc.\n- passeio de escuna com visitação às ilhas históricas e aulas sobre o processo de envio do ouro para\nPortugal, a partir do porto de Paraty.\n- visita guiada a vila caiçara de Trindade, trilha pela mata atlântica, com chegada até a Piscina Natural\ndo Cachadaço, durante o trajeto os alunos são convidados a observar as questões do bioma da mata\natlântica, ao mesmo tempo em que são ensinados sobre a história do povo caiçara da região.\n- City tour pelas ruas da cidade aprendendo sobre os aspectos sócios históricos da construção da\ncidade e seus moradores da época do ciclo do ouro.",
+  "Campus": "Serra",
+  "Grande área conhecimento (inferida)": "Ciências Humanas",
+  "Área temática principal (inferida)": "Cultura",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_grande_area": 0.9,
+    "confianca_area_tematica": 0.95
+  }
+}

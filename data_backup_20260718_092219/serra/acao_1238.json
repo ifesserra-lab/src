@@ -1,0 +1,26 @@
+{
+  "acao_id": "1238",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=1238&pfdlgcid=8c1dba3a-0310-4cdd-98fc-1b70065e0fca",
+  "campus": "Serra",
+  "Processo nº": "23158.000398/2017-42",
+  "Natureza": "Pesquisa",
+  "Coordenador(a)": "Renata Imaculada de Oliveira Teixeira",
+  "Tipo ação": "Evento",
+  "Título ação": "II Seminário de Educação Especial no Instituto Federal do Espírito Santo",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "Ciências Humanas",
+  "Área temática principal": "",
+  "Área temática secundária": "",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "03/10/2017",
+  "Data de cadastro": "27/07/2017",
+  "Resumo": "Evento para fortalecer a pesquisa na área de educação especial.",
+  "Campus": "Serra",
+  "Área temática principal (inferida)": "Educação",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_area_tematica": 1.0
+  }
+}

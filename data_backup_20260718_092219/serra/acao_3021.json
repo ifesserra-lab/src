@@ -1,0 +1,26 @@
+{
+  "acao_id": "3021",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=3021&pfdlgcid=379eb79b-16ce-4682-a3e8-1e7d6bac1d8e",
+  "campus": "Serra",
+  "Processo nº": "23158.001241/2020-96",
+  "Natureza": "Extensão",
+  "Coordenador(a)": "Moisés Savedra Omena",
+  "Tipo ação": "Projeto",
+  "Título ação": "Stone Connection",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "23158.001139/2014-96 - LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+  "Grande área conhecimento": "",
+  "Área temática principal": "Tecnologia e Produção",
+  "Área temática secundária": "Educação",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "17/11/2021",
+  "Data de cadastro": "29/07/2020",
+  "Resumo": "O Espírito Santo é hoje o líder no mercado de rochas ornamentais brasileiro, sendo responsável por\n82% das exportações (A gazeta, 2020). Segundo o Sindirochas (2019), o Brasil ocupa a 4º posição de\npaíses que mais produziram pedras naturais, sendo responsável por 7% da produção mundial do setor\nde rochas. Entretanto, uma das principais adversidades do setor, ocorre devido a dificuldade de\nconexão entre oferta e procura. De um lado, diversos produtores procuram vender seus blocos e\nplacas, com diversos tipos e qualidade, e do outro, compradores estão em busca de rochas que\npossuem diversas características específicas. A solução proposta seguirá processos de engenharia de\nsoftwares praticados no LEDS visando maximizar os resultados obtidos.\nDentre os resultados esperados destacamos o hub de comercialização Stone Connection que visará a\nconexão entre compradores, vendedores e futuramente outros envolvidos no processo e cadeia\nprodutiva como por exemplo seguradoras e transportadoras.",
+  "Campus": "Serra",
+  "Grande área conhecimento (inferida)": "Engenharias",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_grande_area": 0.95
+  }
+}

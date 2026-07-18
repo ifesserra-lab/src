@@ -1,0 +1,16 @@
+{
+  "processo": "23158.003479/2023-42",
+  "total_atividades": 1,
+  "total_publico_alvo": 0,
+  "total_equipe": 0,
+  "atividades": [
+    {
+      "num": "001",
+      "atividade": "PEAM – Programa de Estudos Avançados em Matemática",
+      "atividade_id": "17462",
+      "tipo": "Evento",
+      "publico_alvo": [],
+      "equipe_execucao": []
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "acao_id": "912",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=912&pfdlgcid=9212db56-53f6-4c07-8f1d-e4acfd085c89",
+  "campus": "Serra",
+  "Processo nº": "23158.000537/2015-76",
+  "Natureza": "Extensão",
+  "Coordenador(a)": "Emmanuel Marques Silva",
+  "Tipo ação": "Curso",
+  "Título ação": "Curso de Pré-Incubação de Empreendimentos – modalidade Residência",
+  "Fomento": "PAEX-IFES",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "",
+  "Área temática principal": "",
+  "Área temática secundária": "",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "15/12/2019",
+  "Data de cadastro": "01/11/2016",
+  "Resumo": "O Curso Avançado de Pré-Incubação de Empreendimentos surge com o intuito de oferecer um conjunto de atividades tais como capacitação, assessorias, orientações nas áreas de gestão e tecnológica, além de infraestrutura, de forma a apoiar novos empreendedores no desenvolvimento de ideias com posterior geração de produtos, processos ou modelo de negócio com vistas à transformá-los em um empreendimento apto aos processos seletivos de incubação..",
+  "Campus": "Serra",
+  "Grande área conhecimento (inferida)": "Ciências Sociais Aplicadas",
+  "Área temática principal (inferida)": "Trabalho",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_grande_area": 0.9,
+    "confianca_area_tematica": 0.95
+  }
+}

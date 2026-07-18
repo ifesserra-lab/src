@@ -1,0 +1,26 @@
+{
+  "acao_id": "1816",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=1816&pfdlgcid=c6069613-b058-417f-936f-686c29330ed1",
+  "campus": "Serra",
+  "Processo nº": "23158.000452/2018-31",
+  "Natureza": "Extensão",
+  "Coordenador(a)": "Flavio Severiano Lamas de Souza",
+  "Tipo ação": "Evento",
+  "Título ação": "Maratona de Programação",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "",
+  "Área temática principal": "Tecnologia e Produção",
+  "Área temática secundária": "Educação",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "21/12/2018",
+  "Data de cadastro": "20/07/2018",
+  "Resumo": "A Maratona de Programação é um evento da Sociedade Brasileira de Computação que existe desde o ano de 1996. A Maratona nasceu das competições regionais classificatórias para as finais mundiais do concurso de programação da ACM, o ACM International Collegiate Programming Contest, e é parte da regional sulamericana do concurso. Neste ano ocorre a 20ª edição da Maratona.\n\nEla se destina a alunos de cursos de graduação e início de pós-graduação na área de Computação e afins (Ciência da Computação, Engenharia de Computação, Sistemas de Informação, Matemática, etc). A competição promove nos alunos a criatividade, a capacidade de trabalho em equipe, a busca de novas soluções de software e a habilidade de resolver problemas sob pressão. De ano para ano temos observado que as instituições e principalmente as grandes empresas da área têm valorizado os alunos que participam da Maratona.",
+  "Campus": "Serra",
+  "Grande área conhecimento (inferida)": "Ciências Exatas e da Terra",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_grande_area": 1.0
+  }
+}

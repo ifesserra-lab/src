@@ -1,0 +1,26 @@
+{
+  "acao_id": "2823",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=2823&pfdlgcid=72104a0d-eb37-4056-a540-b9eac1d7b6a7",
+  "campus": "Serra",
+  "Processo nº": "23158.001152/2019-50",
+  "Natureza": "Extensão",
+  "Coordenador(a)": "Fabiano Borges Ruy",
+  "Tipo ação": "Projeto",
+  "Título ação": "I Am Here: Registro de Frequência por Reconhecimento Facial",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "23158.001139/2014-96 - LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+  "Grande área conhecimento": "",
+  "Área temática principal": "Tecnologia e Produção",
+  "Área temática secundária": "",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "10/01/2021",
+  "Data de cadastro": "28/11/2019",
+  "Resumo": "O registro de frequência durante as aulas é uma atividade necessária porém repetitiva e custosa\n(especialmente em turmas grandes). Em cada aula de 100 minutos, esta atividade pode tomar cerca de\n5% do tempo de aula. Dessa forma, poderia ser (semi)automatizada. O objetivo deste projeto é o\ndesenvolvimento de uma aplicação capaz de contabilizar a frequência de alunos por meio de um\naplicativo utilizando técnicas de reconhecimento facial. Espera-se, com isso, dar mais produtividade ao\nprofessor na atividade docente. O desenvolvimento do aplicativo é realizado com base em métodos e\ntécnicas de Engenharia de Software e a sua avaliação por meio de experimentos com professores no\nambiente real de sala de aula. O feedback coletado e problemas encontrados são utilizados para\nmelhorias. Os principais resultados esperados são a economia de tempo do professor na realização de\nchamadas, a disseminação da tecnologia nas instituições interessadas, a formação dos alunos nas\ntecnologias e metodologias envolvidas e os possíveis encaminhamentos para produção científica e\ngeração de um produto.",
+  "Campus": "Serra",
+  "Grande área conhecimento (inferida)": "Ciências Exatas e da Terra",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_grande_area": 0.9
+  }
+}

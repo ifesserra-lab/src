@@ -1,0 +1,48 @@
+{
+  "processo": "23158.003452/2021-51",
+  "total_atividades": 5,
+  "total_publico_alvo": 0,
+  "total_equipe": 0,
+  "atividades": [
+    {
+      "num": "001",
+      "atividade": "O povo preto realmente é livre?",
+      "atividade_id": "12946",
+      "tipo": "Evento",
+      "publico_alvo": [],
+      "equipe_execucao": []
+    },
+    {
+      "num": "002",
+      "atividade": "“Racismo e tecnologia como carreira profissional”",
+      "atividade_id": "12947",
+      "tipo": "Evento",
+      "publico_alvo": [],
+      "equipe_execucao": []
+    },
+    {
+      "num": "003",
+      "atividade": "“Feminismo negro: uma história de resistência (“X”)",
+      "atividade_id": "12948",
+      "tipo": "Evento",
+      "publico_alvo": [],
+      "equipe_execucao": []
+    },
+    {
+      "num": "004",
+      "atividade": "“Talentos do IFES: cultura e ensino em rota de convergência”",
+      "atividade_id": "12949",
+      "tipo": "Evento",
+      "publico_alvo": [],
+      "equipe_execucao": []
+    },
+    {
+      "num": "005",
+      "atividade": "Webnário “Produção audiovisual e o protagonismo negro",
+      "atividade_id": "12950",
+      "tipo": "Evento",
+      "publico_alvo": [],
+      "equipe_execucao": []
+    }
+  ]
+}

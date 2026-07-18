@@ -1,0 +1,28 @@
+{
+  "acao_id": "391",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=391&pfdlgcid=3f72dbf6-4e31-422d-a63a-0f8066ba59dc",
+  "campus": "Serra",
+  "Processo nº": "23158.001183/2014-04",
+  "Natureza": "Ensino",
+  "Coordenador(a)": "Flávio Lopes da Silva",
+  "Tipo ação": "Curso",
+  "Título ação": "Curso de Introdução ao Arduino - Módulo Básico",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "",
+  "Área temática principal": "",
+  "Área temática secundária": "",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "",
+  "Data de cadastro": "09/01/2015",
+  "Resumo": "O Arduino é uma plataforma de prototipagem eletrônica de hardware livre, projetada com um microcontrolador Armel AVR de placa única, com suporte de entrada/saída embutido, uma linguagem de programação padrão. Este curso visa demonstrar os conceitos de Microcontroladores e suas aplicações. Capacitando, dessa forma, os alunos para desenvolvimento de novas soluções/projetos utilizando a plataforma Arduino em várias situações, seja acadêmicas ou até mesmo sociais.",
+  "Campus": "Serra",
+  "Grande área conhecimento (inferida)": "Engenharias",
+  "Área temática principal (inferida)": "Tecnologia e Produção",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_grande_area": 0.95,
+    "confianca_area_tematica": 0.98
+  }
+}

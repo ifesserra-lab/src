@@ -1,0 +1,26 @@
+{
+  "acao_id": "4507",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=4507&pfdlgcid=4c71e08a-10ef-4c0a-a3fb-89c053420935",
+  "campus": "Serra",
+  "Processo nº": "23158.001802/2023-43",
+  "Natureza": "Extensão",
+  "Coordenador(a)": "Fidelis Zanetti de Castro",
+  "Tipo ação": "Projeto",
+  "Título ação": "Solução web/mobile baseada em Inteligência Computacional para identificação de infestação por ácaros rajados (Tetranychus urticae) em culturas de morango",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "23158.001821/2021-50 - LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+  "Grande área conhecimento": "",
+  "Área temática principal": "Tecnologia e Produção",
+  "Área temática secundária": "Meio Ambiente",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "15/12/2023",
+  "Data de cadastro": "26/05/2023",
+  "Resumo": "No estado do Espírito Santo, o morango é uma das frutas de maior importância socioeconômica. Seu\ncultivo é feito, predominantemente, em propriedades de base familiar situadas em terras frias. Sua cultura\ncontribui para a fixação de inúmeras famílias em zonas rurais e proporciona alto retorno econômico em\nciclos produtivos curtos, os quais variam de 60 a 90 dias. O ácaro rajado (Tetranychus urticae) foi\nelencado como uma das pragas mais presentes e danosas aos cultivos do morango presentes em nosso\nlócus de pesquisa, o município de Santa Maria de Jetibá, principal produtor do estado do ES. Com efeito,\nmais de 60% dos produtores da região declararam prejuízos de até 20% devido a infestações por ácaros\nrajados (GALEANO, E. A. V. et al., 2022). Este projeto visa a construção de um sistema web para\nidentificação do ácaro rajado por meio de foto e sua análise por um algoritmo baseado em redes neurais\nprofundas com o intuito de gerar alerta para a aplicação de correções necessárias para evitar ou mitigar\na infestação da doença.",
+  "Campus": "Serra",
+  "Grande área conhecimento (inferida)": "Ciências Agrárias",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_grande_area": 0.95
+  }
+}

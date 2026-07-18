@@ -1,0 +1,28 @@
+{
+  "acao_id": "340",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=340&pfdlgcid=caf21468-f30d-4ec3-8073-a8a944992145",
+  "campus": "Serra",
+  "Processo nº": "23158.000968/2014-51",
+  "Natureza": "Ensino",
+  "Coordenador(a)": "Flávio Lopes da Silva",
+  "Tipo ação": "Curso",
+  "Título ação": "Curso de Introdução ao Arduino",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "",
+  "Área temática principal": "",
+  "Área temática secundária": "",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "",
+  "Data de cadastro": "07/11/2014",
+  "Resumo": "Demonstrar os conceitos de Microcontroladores e suas aplicações. Capacitando, dessa forma, os alunos para desenvolvimento de novas soluções/projetos utilizando a plataforma Arduino em várias situações, seja acadêmicas ou até mesmo sociais.",
+  "Campus": "Serra",
+  "Grande área conhecimento (inferida)": "Engenharias",
+  "Área temática principal (inferida)": "Tecnologia e Produção",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_grande_area": 0.95,
+    "confianca_area_tematica": 0.98
+  }
+}

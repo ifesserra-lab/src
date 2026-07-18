@@ -1,0 +1,28 @@
+{
+  "acao_id": "902",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=902&pfdlgcid=bcdcac58-df49-4cdb-a0f1-c18fab7acc89",
+  "campus": "Serra",
+  "Processo nº": "23158.000650/2016-32",
+  "Natureza": "Ensino",
+  "Coordenador(a)": "Richard Junior Manuel Godinez Tello",
+  "Tipo ação": "Curso",
+  "Título ação": "Introdução ao Arduino e Microcontroladores",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "",
+  "Área temática principal": "",
+  "Área temática secundária": "",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "",
+  "Data de cadastro": "21/10/2016",
+  "Resumo": "O projeto “Arduino” iniciou-se, na Itália em 2005, com o intuito de desenvolver projetos tecnológicos com um orçamento menor que outros sistemas de prototipagem disponíveis naquela época. Assim, foi desenvolvido um trabalho colaborativo para a criação de uma plataforma de hardware e software abertos que possam simplificar a criação e prototipagem de projetos de eletrônica. Com ele é possível controlar uma grande variedade de sistemas e componentes eletrônicos tais como, LEDs, teclados, displays, motores, eletrodomésticos bem como comunicar-se com computadores, smartphones, carros, dentre muitas outras possibilidades. Com o passo dos anos, a plataforma de desenvolvimento microcontrolada “Arduino” tem chamado a atenção de profissionais, educadores e hobbistas do mundo inteiro, recebendo constantes melhoras e novas versões, sendo hoje uma ferramenta muito utilizada para ensino, desenvolvimento e pesquisa.   \nO curso visa proporcionar uma abordagem inicial à programação da plataforma de desenvolvimento Arduino, bem como o entendimento dos comandos básicos e a elaboração de projetos eletrônicos.",
+  "Campus": "Serra",
+  "Grande área conhecimento (inferida)": "Engenharias",
+  "Área temática principal (inferida)": "Tecnologia e Produção",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_grande_area": 0.95,
+    "confianca_area_tematica": 0.98
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "acao_id": "110",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=110&pfdlgcid=a0f0a668-d27e-481d-b000-e81b522f62d1",
+  "campus": "Serra",
+  "Processo nº": "23158.000918/2013-93",
+  "Natureza": "Extensão",
+  "Coordenador(a)": "Elizangela Campos da Rosa Broetto",
+  "Tipo ação": "Curso",
+  "Título ação": "Curso de Eletricista Instalador Predial de Baixa Tensão",
+  "Fomento": "PRONATEC",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "",
+  "Área temática principal": "",
+  "Área temática secundária": "",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "",
+  "Data de cadastro": "14/10/2013",
+  "Resumo": "Preparar profissionais para realizar instalação e manutenção elétrica predial de baixa tensão, de acordo com normas e procedimentos técnicos de qualidade, segurança, higiene e saúde.",
+  "Campus": "Serra",
+  "Grande área conhecimento (inferida)": "Engenharias",
+  "Área temática principal (inferida)": "Tecnologia e Produção",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_grande_area": 0.95,
+    "confianca_area_tematica": 0.98
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "acao_id": "4597",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=4597&pfdlgcid=e0f0a6ff-6efb-49ca-9317-150b0e95fd1d",
+  "campus": "Serra",
+  "Processo nº": "23158.002326/2023-88",
+  "Natureza": "Extensão",
+  "Coordenador(a)": "Augusto Cesar Machado Ramos",
+  "Tipo ação": "Projeto",
+  "Título ação": "O IFES é o meu lugar",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "23158.001812/2017-31 - Ifes para todos",
+  "Grande área conhecimento": "",
+  "Área temática principal": "Educação",
+  "Área temática secundária": "",
+  "Relatório aprovado": "Não",
+  "Data último relatório": "",
+  "Data de cadastro": "18/07/2023",
+  "Resumo": "O Instituto Federal do Espírito Santo – Campus Serra foi inaugurado em 2001, e desde então\noferta cursos técnicos subsequentes e, posteriormente, cursos superiores e mestrado\nprofissional. Somente a partir de 2017, considerando-se as expectativas da comunidade local,\nesse campus passou a ofertar o ensino médio integrado à educação profissional, o que\nsignificou um grande avanço no que diz respeito ao acesso ao ensino médio de qualidade no\nreferido município.\nNesse contexto, o projeto “O IFES é o meu lugar” visa estimular os alunos da rede pública, por\nmeio de uma preparação para o processo seletivo do ensino médio integrado, com aulas\nexpositivas e dialogadas, bem como a resolução de exercícios das disciplinas do ensino\nfundamental, visando possibilitar a esses alunos uma revisão dos conteúdos trabalhados em\nsuas respectivas escolas. Nesse contexto, esperamos que os alunos estejam preparados e\nestimulados a realizarem uma boa prova no processo seletivo, como forma de ingresso ao\nensino médio integrado no IFES Campus Serra ou em qualquer instituição do IFES no estado.",
+  "Campus": "Serra",
+  "Grande área conhecimento (inferida)": "Ciências Humanas",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_grande_area": 0.9
+  }
+}

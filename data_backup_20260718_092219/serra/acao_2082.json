@@ -1,0 +1,26 @@
+{
+  "acao_id": "2082",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=2082&pfdlgcid=4153f78a-08d8-46e4-aeb3-1afce600580d",
+  "campus": "Serra",
+  "Processo nº": "23158.001039/2018-93",
+  "Natureza": "Extensão",
+  "Coordenador(a)": "Giordana dos Santos Sperandio",
+  "Tipo ação": "Curso",
+  "Título ação": "Mulheres na Ciência",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "23158.001812/2017-31 - Ifes para todos",
+  "Grande área conhecimento": "",
+  "Área temática principal": "Tecnologia e Produção",
+  "Área temática secundária": "Educação",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "20/02/2019",
+  "Data de cadastro": "01/11/2018",
+  "Resumo": "O objetivo deste curso é promover, à jovens mulheres, uma visão do mundo tecnológico e científico, possibilitando a participação plena das mulheres, rompendo com barreiras e injustiças históricas no mundo científico bem como fomentar o empoderamento feminino. Intencionando ampliar suas condições e perspectivas de vida, este curso contará com a participação de 18 alunas de 2 escolas públicas estaduais parceiras, localizadas no município de Serra, para oportunizar estudos de programação na linguagem Python, aprendizado da língua inglesa com utilização do software Wolfram Mathematica. No dia 8 de março de 2017, a diretora executiva da Onu Mulheres Phumzile Mlambo- Ngcuka fez um discurso sobre a igualdade de gênero, e na oportunidade disse “Queremos construir para as mulheres um mundo do trabalho diferente. Conforme as meninas cresçam, elas devem ser expostas a um vasto leque de carreiras e encorajadas a fazer escolhas que as levem além dos serviços tradicionais e de cuidado, para profissões na indústria, na arte, no serviço público, na agricultura modera e na ciência”.",
+  "Campus": "Serra",
+  "Grande área conhecimento (inferida)": "Ciências Exatas e da Terra",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_grande_area": 0.95
+  }
+}

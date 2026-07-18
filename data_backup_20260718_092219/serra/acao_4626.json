@@ -1,0 +1,26 @@
+{
+  "acao_id": "4626",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=4626&pfdlgcid=24053949-ea01-4fc8-b268-0178e6be29b0",
+  "campus": "Serra",
+  "Processo nº": "23158.002356/2023-94",
+  "Natureza": "Ensino",
+  "Coordenador(a)": "Emilene Coco dos Santos",
+  "Tipo ação": "Evento",
+  "Título ação": "Oficina de Libras na prática",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "Linguística, Letras e Artes",
+  "Área temática principal": "",
+  "Área temática secundária": "",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "27/12/2023",
+  "Data de cadastro": "10/08/2023",
+  "Resumo": "Este projeto trata da oferta de uma ação de ensino, Oficina de Libras na prática, aos\nestudantes dos cursos Técnicos Integrados ao Ensino Médio, Técnicos ,Graduação, PósGraduação, Proeja, do campus Serra. Por meio de aulas expositivas, dinâmicas, práticas e\ninteração, será uma oportunidade para o desenvolvimento de práticas inclusivas e\nacessíveis. Os encontros acontecerão semanalmente, às terças-feiras. Para avaliação da\natividade, serão realizadas dinâmicas e quiz no encerramento das aulas. Espera-se que ao\nfinal desta oficina, seja construído um novo olhar sobre a acessibilidade comunicacional,\nprioritariamente da pessoa surda, pois os alunos concluintes estarão em condições de\nusarem o conhecimento adquirido na comunicação básica e apoio aos alunos surdos\nmatriculados em suas turmas ou em outras situações vividas em sociedade.",
+  "Campus": "Serra",
+  "Área temática principal (inferida)": "Educação",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_area_tematica": 0.98
+  }
+}

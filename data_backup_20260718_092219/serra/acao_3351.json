@@ -1,0 +1,26 @@
+{
+  "acao_id": "3351",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=3351&pfdlgcid=83999deb-56d8-4927-a3de-8764c06e1e63",
+  "campus": "Serra",
+  "Processo nº": "23158.001492/2021-09",
+  "Natureza": "Ensino",
+  "Coordenador(a)": "Vinícius Secchin de Melo",
+  "Tipo ação": "Curso",
+  "Título ação": "Automação e Controle aplicados aos Materiais Rodantes e Sinalização Ferroviária",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "Ciências Exatas e da Terra",
+  "Área temática principal": "",
+  "Área temática secundária": "",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "12/11/2021",
+  "Data de cadastro": "24/05/2021",
+  "Resumo": "No proposto curso serão apresentados os modelos de locomotivas atualmente utilizadas pelas principais ferrovias brasileiras, bem como seus componentes elétricos, eletrônicos e mecânicos, e o funcionamento de todos como um sistema.",
+  "Campus": "Serra",
+  "Área temática principal (inferida)": "Tecnologia e Produção",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_area_tematica": 0.98
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "acao_id": "1786",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=1786&pfdlgcid=be189b14-5964-4039-9755-9a3b83a8c6be",
+  "campus": "Serra",
+  "Processo nº": "23158.001579/2017-96",
+  "Natureza": "Extensão",
+  "Coordenador(a)": "Paulo Sérgio dos Santos Júnior",
+  "Tipo ação": "Projeto",
+  "Título ação": "Mutual Life: Um aplicativo para seguros colaborativos",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "23158.001139/2014-96 - LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+  "Grande área conhecimento": "",
+  "Área temática principal": "Educação",
+  "Área temática secundária": "Tecnologia e Produção",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "14/05/2019",
+  "Data de cadastro": "05/07/2018",
+  "Resumo": "O projeto tem como objetivo auxiliar no desenvolvimento da plataforma de seguros colaborativos e cooperativos Mutual.Life. A ideia presente no projeto é resgatar o mutualismo de forma segura e transparente, proporcionando, portanto, uma relação mais simétrica e justa para os participantes, mas também eliminando os riscos de má gestão, fraudes e outros problemas historicamente frequentes nas associações de mútuo.Para isso, o projeto tem como objetivo desenvolver o aplicativo para smartphones da plataforma de seguros.",
+  "Campus": "Serra",
+  "Grande área conhecimento (inferida)": "Ciências Sociais Aplicadas",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_grande_area": 0.95
+  }
+}

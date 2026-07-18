@@ -1,0 +1,26 @@
+{
+  "acao_id": "1613",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=1613&pfdlgcid=3facb09b-e21f-4502-a540-ca4f1c93c3fb",
+  "campus": "Serra",
+  "Processo nº": "23158.000186/2018-46",
+  "Natureza": "Ensino",
+  "Coordenador(a)": "Flavio Severiano Lamas de Souza",
+  "Tipo ação": "Projeto",
+  "Título ação": "BoardGames: Divirta-se Estimulando Sua Mente",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "Linguística, Letras e Artes",
+  "Área temática principal": "",
+  "Área temática secundária": "",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "03/04/2018",
+  "Data de cadastro": "04/04/2018",
+  "Resumo": "Oferecer ambientes lúdicos que estimulem os alunos a desenvolverem táticas, estratégias, novas formas de pensamento que os mantenham na instituição e dêem ainda mais valor a mesma. \n\nO estímulo proporcionado por jogos que demandem raciocínio lógico, controle de área, gestão de recursos limitados e/ou outras habilidades inerentes de cada tipo de temática lúdica é de extremo valor tanto na vida acadêmica quanto laboral.\n\nO desafio proporcionado de querer se auto aprimorar diante das restrições que a atividade demanda quanto a satisfação que o jogador adquire quando o mesmo se vê melhorando passo a passo que repete os desafios e tenta novas táticas é muito recompensador. Esse ambiente de re-jogabilidade faz com que os participantes queiram constantemente se aprimorar nos quesitos de cada temática, quanto se divertirem durante o processo ao mesmo tempo que estão melhorando suas habilidades continuamente.",
+  "Campus": "Serra",
+  "Área temática principal (inferida)": "Educação",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_area_tematica": 0.98
+  }
+}

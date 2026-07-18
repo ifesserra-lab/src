@@ -1,0 +1,26 @@
+{
+  "acao_id": "4659",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=4659&pfdlgcid=96bc6226-0ccc-40f2-ad8f-fabac9134f9e",
+  "campus": "Serra",
+  "Processo nº": "23158.002161/2023-44",
+  "Natureza": "Extensão",
+  "Coordenador(a)": "Emilene Coco dos Santos",
+  "Tipo ação": "Projeto",
+  "Título ação": "Atividades físicas adaptadas e inclusão (AFAI)",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "",
+  "Área temática principal": "Saúde",
+  "Área temática secundária": "Educação",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "26/02/2026",
+  "Data de cadastro": "24/08/2023",
+  "Resumo": "A partir da demanda apresentada pela Associação Latina de Desenvolvimento Esportivo, Cultural e\nAmbiental - ALDEeA ao Ifes Campus Serra, esta proposta visa proporcionar qualidade de vida a crianças,\nadolescentes, adultos e idosos de forma inclusiva através das práticas esportivas sistematizadas e de\natividades físicas adaptadas. Compreendemos que este projeto poderá transformar a vida de pessoas\nque não realizam atividades físicas sistematizadas ou que não participam de esportes devido a sua\nespecificidade. A proposta também contempla pessoas que já realizam alguma atividade esportiva para\nque, a partir dos princípios da inclusão, possam aprimorar seus conhecimentos e habilidades com trocas\nde experiências. O projeto conta com a parceria entre o Ifes Campus Serra e a Associação Latina de\nDesenvolvimento Esportivo, Cultural e Ambiental, e com o apoio da Secretaria Municipal de Esportes da\nSerra. A ALDEeA participará da ação oferecendo os materiais esportivos e equipe de profissionais para\natender a demanda da comunidade no projeto, oportunizando a vivência das atividades físicas adaptadas.\nSerão ofertadas aulas gratuitas e regulares de iniciação esportiva, nas modalidades: Atividade Física\nadaptada, Atletismo adaptado, Futsal adaptado, Vôlei adaptado e Goalboll.",
+  "Campus": "Serra",
+  "Grande área conhecimento (inferida)": "Ciências da Saúde",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_grande_area": 0.9
+  }
+}

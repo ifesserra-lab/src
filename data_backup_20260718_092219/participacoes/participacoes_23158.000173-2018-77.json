@@ -1,0 +1,24 @@
+{
+  "processo": "23158.000173/2018-77",
+  "total_atividades": 2,
+  "total_publico_alvo": 0,
+  "total_equipe": 0,
+  "atividades": [
+    {
+      "num": "001",
+      "atividade": "Tutoria em Estudos Avançados",
+      "atividade_id": "5064",
+      "tipo": "Projeto",
+      "publico_alvo": [],
+      "equipe_execucao": []
+    },
+    {
+      "num": "002",
+      "atividade": "Tutoria em Estudos Avançados",
+      "atividade_id": "7349",
+      "tipo": "Projeto",
+      "publico_alvo": [],
+      "equipe_execucao": []
+    }
+  ]
+}

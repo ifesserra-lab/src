@@ -1,0 +1,26 @@
+{
+  "acao_id": "1831",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=1831&pfdlgcid=c80c348f-090b-46b9-93a2-22a90076e068",
+  "campus": "Serra",
+  "Processo nº": "23158.000342/2017-98",
+  "Natureza": "Extensão",
+  "Coordenador(a)": "Daniel Ribeiro Trindade",
+  "Tipo ação": "Projeto",
+  "Título ação": "ALGolfSwing: Análise de Desempenho Esportivo para Golf",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "",
+  "Área temática principal": "Tecnologia e Produção",
+  "Área temática secundária": "Saúde",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "21/12/2018",
+  "Data de cadastro": "27/07/2018",
+  "Resumo": "O objetivo é a criação de uma ferramenta para análise de desempenho esportivo para golf. Especificamente a ferramenta fará uma análise do movimento de golf chamado swing, sendo este o movimento realizado pelo jogador imediatamente antes da batida na bola. Para a criação da ferramenta de análise serão estudados os aspectos mecânicos e de postura para a melhor realização possível do movimento. Esses dados servirão de parâmetros para a produção de algoritmos cuja função será determinar a qualidade do movimento do jogador, permitindo que ele possa corrigir possíveis erros. Como resultado espera-se obter a uma aplicação para dispositivos móveis para uso dos jogadores e que permita que eles possam aferir seu desempenho de jogo.",
+  "Campus": "Serra",
+  "Grande área conhecimento (inferida)": "Ciências Exatas e da Terra",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_grande_area": 0.95
+  }
+}

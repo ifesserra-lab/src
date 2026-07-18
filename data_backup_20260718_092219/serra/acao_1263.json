@@ -1,0 +1,26 @@
+{
+  "acao_id": "1263",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=1263&pfdlgcid=8b918a17-5c17-4454-bc7a-24c470a355de",
+  "campus": "Serra",
+  "Processo nº": "23158.000394/2017-64",
+  "Natureza": "Desenv. Institucional",
+  "Coordenador(a)": "Gilmar Luiz Vassoler",
+  "Tipo ação": "Evento",
+  "Título ação": "Ciclo de estudos 2017/2 do Ifes campus Serra",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "",
+  "Área temática principal": "",
+  "Área temática secundária": "",
+  "Relatório aprovado": "Não",
+  "Data último relatório": "",
+  "Data de cadastro": "08/08/2017",
+  "Resumo": "Ciclo de estudos",
+  "Campus": "Serra",
+  "Área temática principal (inferida)": "Educação",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_area_tematica": 0.8
+  }
+}

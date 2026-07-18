@@ -1,0 +1,40 @@
+{
+  "processo": "23158.001712/2025-14",
+  "total_atividades": 4,
+  "total_publico_alvo": 0,
+  "total_equipe": 0,
+  "atividades": [
+    {
+      "num": "001",
+      "atividade": "Cultura Impressa: Esculturas 3D de artesãos locais com filamento de material reciclado",
+      "atividade_id": "20643",
+      "tipo": "Projeto",
+      "publico_alvo": [],
+      "equipe_execucao": []
+    },
+    {
+      "num": "002",
+      "atividade": "Workshop Impressão 3D e sustentabilidade",
+      "atividade_id": "22487",
+      "tipo": "Evento",
+      "publico_alvo": [],
+      "equipe_execucao": []
+    },
+    {
+      "num": "003",
+      "atividade": "Workshop Impressão 3D e sustentabilidade",
+      "atividade_id": "22488",
+      "tipo": "Evento",
+      "publico_alvo": [],
+      "equipe_execucao": []
+    },
+    {
+      "num": "004",
+      "atividade": "Workshop Impressão 3D e sustentabilidade",
+      "atividade_id": "22489",
+      "tipo": "Evento",
+      "publico_alvo": [],
+      "equipe_execucao": []
+    }
+  ]
+}

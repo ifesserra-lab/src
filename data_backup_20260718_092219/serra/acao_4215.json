@@ -1,0 +1,26 @@
+{
+  "acao_id": "4215",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=4215&pfdlgcid=0a6c87ae-878e-402a-9d32-a59ef8987744",
+  "campus": "Serra",
+  "Processo nº": "23158.004089/2022-17",
+  "Natureza": "Extensão",
+  "Coordenador(a)": "Felipe Frechiani de Oliveira",
+  "Tipo ação": "Programa",
+  "Título ação": "SprintLab - Laboratório de Prototipação Acelerada",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "23158.001821/2021-50 - LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+  "Grande área conhecimento": "",
+  "Área temática principal": "Tecnologia e Produção",
+  "Área temática secundária": "Educação",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "27/02/2026",
+  "Data de cadastro": "07/12/2022",
+  "Resumo": "Iniciar a concretização de uma ideia culmina em dificuldades práticas que vão desde a falta de\nconhecimento de processos, ou até mesmo da tecnologia a ser utilizada/desenvolvida. Este gap\nexistente, impossibilita uma rápida prototipação de software e sua validação no contexto de aplicativos\nmóveis e websites. O rápido levantamento dos requisitos da ideia, atrelados a um resultado visual e\nprototipado de forma adequada, permite uma maior clareza tanto para os envolvidos quanto para o cliente\nfinal e investidores. Tais discrepâncias têm sido constatadas por meio de reuniões realizadas ao longo\ndos anos dentro do Laboratório de Extensão em Desenvolvimento de soluções(LEDS) no IFES/Serra, em\nreuniões com a incubadora do campus e seus incubados, reuniões com a Azys e outros\nempresários/instituições.\nO programa surgiu como resultado do projeto de extensão “SmartIdea”. Tal projeto proporcionou a\nintegração de diversos processo e metodologias derivadas de métodos como: Design Sprint, o método\nusado no Google para testar e aplicar novas ideias em apenas cinco dias; Scrum: a arte de fazer o dobro\ndo trabalho na metade do tempo; Design Thinking: uma abordagem, para resolver problemas complexos\ncom o foco nas pessoas, além de 5W2h, Project Model Canvas (PMC), análise de perfil da pessoas e\nformação de equipes, entre outras abordagens, que visam acelerar o processo de entendimento,\nmapeamento e execução otimizada do negócio, possibilitando focar no mais essencial para o negócio. A\njunção de todas essas práticas mencionadas gerou um processo denominado Fast Design Sprint(FDS),\nque auxilia a validar a sua ideia, gerando algo concreto(protótipo), para que ele possa dar prosseguimento\nàs demais fases do desenvolvimento do produto. Além do protótipo, o processo visa a validação do\nmesmo com clientes finais, gerando um feedback muito importante da ideia. Durante o programa a equipe\nexecutora e os parceiros externos terão a oportunidade de conhecerem e treinarem no processo e nas\nferramentas de prototipação. Esses treinamentos serão realizados por meio de oficinas que serão\nseparadas em três partes: (1) Aprendendo a utilizar ferramentas de prototipação front-end. (2)\nAprendendo a utilizar ferramentas de prototipação back-end. (3) Aprendendo a integrar ferramentas de\nprototipação front-end e back-end.\nO programa visa criar um ciclo de fluxo contínuo de treinamento e execução de oficinas de prototipação\nnas quais a equipe composta por alunos, professores e público externo constroem um protótipo de\nsoftware que será utilizado para a validação da ideia focado em aplicativos móveis e web. Após a\nconstrução do protótipo, ele será testado junto ao público alvo para que ele seja efetivamente validado.\nA figura 1 destaca uma visão geral do programa SprintLab, nela é possível notar as seguintes fases: 1)\noficinas de treinamento da equipe, 2) seleção da ideia, 3) oficina de prototipação, 4) teste e validação, 5) ideia validade, protótipo e documentação. Ao final do ciclo do pr",
+  "Campus": "Serra",
+  "Grande área conhecimento (inferida)": "Engenharias",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_grande_area": 0.95
+  }
+}

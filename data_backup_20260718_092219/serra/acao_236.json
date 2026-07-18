@@ -1,0 +1,28 @@
+{
+  "acao_id": "236",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=236&pfdlgcid=fbbb07f7-4507-4e66-85ef-65cfe6fc1265",
+  "campus": "Serra",
+  "Processo nº": "23158.000625/2014-97",
+  "Natureza": "Ensino",
+  "Coordenador(a)": "Emmanuel Marques Silva",
+  "Tipo ação": "Evento",
+  "Título ação": "Innova World 2014",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "",
+  "Área temática principal": "",
+  "Área temática secundária": "",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "",
+  "Data de cadastro": "05/08/2014",
+  "Resumo": "A empresa Intechno Desenvolvimento e Capacitação , empresa incubada no Núcleo Incubador Serra, desenvolve produtos na área industrial e de educaçãocom ênfase em equipamentos e simuladores didáticos para estudantes do ensino técnico e médio.\n\nA Intechno é uma empresa com base em tecnologia robótica, mecânica e de automação, com grande capacidade inovadora na criação de produtos e soluções.",
+  "Campus": "Serra",
+  "Grande área conhecimento (inferida)": "Engenharias",
+  "Área temática principal (inferida)": "Tecnologia e Produção",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_grande_area": 0.9,
+    "confianca_area_tematica": 0.95
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "acao_id": "2799",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=2799&pfdlgcid=9aae1018-7f26-4747-8f8c-337ac0622c35",
+  "campus": "Serra",
+  "Processo nº": "23158.002392/2019-62",
+  "Natureza": "Ensino",
+  "Coordenador(a)": "Diego Ramiro Araoz Alves",
+  "Tipo ação": "Evento",
+  "Título ação": "I Encontro Cultural do Núcleo de Estudos Afro-Brasileiros e Indígenas : Debates e reflexões no Dia da Consciência Negra",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "Linguística, Letras e Artes",
+  "Área temática principal": "",
+  "Área temática secundária": "",
+  "Relatório aprovado": "Não",
+  "Data último relatório": "",
+  "Data de cadastro": "18/11/2019",
+  "Resumo": "Ação de complementação de ensino que visa promover uma reflexão crítica sobre a celebração do dia da consciência negra, sobre racismo e a educação para as relações étnico-raciais, com foco em atividades culturais, rodas de conversa e o incentivo ao protagonismo estudantil.",
+  "Campus": "Serra",
+  "Área temática principal (inferida)": "Educação",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_area_tematica": 1.0
+  }
+}

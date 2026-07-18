@@ -1,0 +1,26 @@
+{
+  "acao_id": "3643",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=3643&pfdlgcid=ff224d34-f9f8-477e-8a6f-98fe99abb0c6",
+  "campus": "Serra",
+  "Processo nº": "23158.004223/2021-89",
+  "Natureza": "Extensão",
+  "Coordenador(a)": "Adelson Pereira do Nascimento",
+  "Tipo ação": "Projeto",
+  "Título ação": "STEM - Experiência de Imersão e desenvolvimento de soluções para a área administrativa de uma empresa siderúrgica",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "",
+  "Área temática principal": "Tecnologia e Produção",
+  "Área temática secundária": "",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "15/12/2024",
+  "Data de cadastro": "17/01/2022",
+  "Resumo": "O presente projeto visa capacitar talentos dentro das áreas de prioridade da ArcelorMittal Tubarão, em\nespecial, o desenvolvimento de competências em Automação de Processos Administrativos envolvendo\nferramentas de RPA & Office 365.\nAtualmente a TI e os Sistemas de Informação (SI) estão incorporados praticamente em todas as atividades\nempresariais, fornecendo suporte para melhoria na qualidade de serviços e produtos. Esta ação visa\ndesenvolver um projeto de extensão para a imersão de 5 alunos dos cursos superiores e técnicos\nconcomitantes/subsequentes do Campus Serra em projetos específicos da estrutura de Suprimentos da\nArcelorMittal, orientados tanto por coordenadores do IFES Serra como por funcionários da ArcelorMittal,\ncomo co-orientadores. Desta forma, proporcionará aos alunos o conhecimento da realidade empresarial\ne a aplicabilidade destas tecnologias no ambiente administrativo de uma grande empresa.",
+  "Campus": "Serra",
+  "Grande área conhecimento (inferida)": "Engenharias",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_grande_area": 0.9
+  }
+}

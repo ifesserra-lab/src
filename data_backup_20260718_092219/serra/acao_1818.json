@@ -1,0 +1,26 @@
+{
+  "acao_id": "1818",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=1818&pfdlgcid=359f336a-2a09-4b86-9566-e003fe12b0d0",
+  "campus": "Serra",
+  "Processo nº": "23158.000258/2018-55",
+  "Natureza": "Extensão",
+  "Coordenador(a)": "Gilberto Neves Sudre Filho",
+  "Tipo ação": "Projeto",
+  "Título ação": "Academia Cisco nas Escolas Municipais da Serra - ES",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "",
+  "Área temática principal": "Tecnologia e Produção",
+  "Área temática secundária": "Tecnologia e Produção",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "24/10/2019",
+  "Data de cadastro": "20/07/2018",
+  "Resumo": "O projeto consiste na capacitação de professores das escolas municipais da Serra – ES para que estes possam ministrar os cursos oferecidos pela Academia Cisco. \n\nCom a capacitação dos professores será possível oferecer cursos em áreas de Empreendedorismo, Programação de Computadores, Redes de Computadores e Segurança da Informação aos alunos das escolas municipais. \n\nO mercado de Tecnologia da Informação apresenta uma alta demanda para profissionais com conhecimento nos assuntos abordados nos cursos. Esta formação vai certamente facilitar aos alunos ocuparem as oportunidades existentes.",
+  "Campus": "Serra",
+  "Grande área conhecimento (inferida)": "Ciências Exatas e da Terra",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_grande_area": 0.95
+  }
+}

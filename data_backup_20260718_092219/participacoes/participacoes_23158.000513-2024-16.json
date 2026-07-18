@@ -1,0 +1,24 @@
+{
+  "processo": "23158.000513/2024-16",
+  "total_atividades": 2,
+  "total_publico_alvo": 0,
+  "total_equipe": 0,
+  "atividades": [
+    {
+      "num": "001",
+      "atividade": "SEMANA DE INTEGRAÇÃO",
+      "atividade_id": "17916",
+      "tipo": "Curso",
+      "publico_alvo": [],
+      "equipe_execucao": []
+    },
+    {
+      "num": "002",
+      "atividade": "Semana de Integração",
+      "atividade_id": "17917",
+      "tipo": "Curso",
+      "publico_alvo": [],
+      "equipe_execucao": []
+    }
+  ]
+}

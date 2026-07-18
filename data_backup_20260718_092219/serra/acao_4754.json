@@ -1,0 +1,26 @@
+{
+  "acao_id": "4754",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=4754&pfdlgcid=46081187-1870-478d-b94b-a597d6a2cb16",
+  "campus": "Serra",
+  "Processo nº": "23158.002680/2023-11",
+  "Natureza": "Extensão",
+  "Coordenador(a)": "Nauvia Maria Cancelieri",
+  "Tipo ação": "Projeto",
+  "Título ação": "QUÍMICA VERDE APLICADA: oficinas e workshops",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "",
+  "Área temática principal": "Educação",
+  "Área temática secundária": "",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "15/09/2025",
+  "Data de cadastro": "25/10/2023",
+  "Resumo": "Recentemente, no ano de 2022 foi celebrado o Ano Internacional das Ciências Básicas para o\nDesenvolvimento Sustentável (do inglês: International Year of Basic Sciences for Sustainable\nDevelopment). Este evento de divulgação global teve por objetivo geral e principal promover ações para\no progresso autossustentável e inclusivo no planeta. Desta forma, incluindo a divulgação e propósitos\nreais da Química Verde que é considerada uma área multidisciplinar que cria, desenvolve e aplica\nprodutos e processos químicos que visam a redução ou eliminação do uso e da geração de substâncias\nnocivas ao meio ambiente e ao homem e assim corroborando no que tange a sustentabilidade e a\nviabilidade contínua de habitat e melhorias no bem viver e conviver com práticas voltadas ao púbico geral,\nindo além do universo acadêmico. Desta forma, este projeto será de grande contribuição e espera-se\nestreitar laços importantes de parceria entre academia e comunidade em geral, contribuindo de forma\neficaz e duradoura no dia a dia das pessoas através do conhecimento e práticas da química verde. Assim,\noportunizando novas fontes de renda, acelerando o processo de inclusão de novos aprendizes e\nempreendedores no mercado de reciclagem e melhor utilização de recursos naturais a nosso dispor,\ncomo por exemplo, o uso correto de plantas medicinais, como prevenção e tratamento de doenças.",
+  "Campus": "Serra",
+  "Grande área conhecimento (inferida)": "Ciências Exatas e da Terra",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_grande_area": 0.95
+  }
+}

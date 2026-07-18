@@ -1,0 +1,26 @@
+{
+  "acao_id": "5545",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=5545&pfdlgcid=730b9d61-ba56-4450-85df-5cd22ac023cc",
+  "campus": "Serra",
+  "Processo nº": "23158.000985/2025-41",
+  "Natureza": "Ensino",
+  "Coordenador(a)": "Adrianna Machado Meneguelli",
+  "Tipo ação": "Evento",
+  "Título ação": "Palestra -Lançamento de documentário: A beleza oculta no poder feminino",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "Linguística, Letras e Artes",
+  "Área temática principal": "",
+  "Área temática secundária": "",
+  "Relatório aprovado": "Não",
+  "Data último relatório": "",
+  "Data de cadastro": "11/06/2025",
+  "Resumo": "Lançamento do filme “A beleza oculta no poder feminino”, de Dora \nVergueiro, que estará presente e participará de uma roda de conversa com o público \nparticipante sobre o documentário.",
+  "Campus": "Serra",
+  "Área temática principal (inferida)": "Cultura",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_area_tematica": 0.9
+  }
+}

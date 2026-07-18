@@ -1,0 +1,26 @@
+{
+  "acao_id": "1652",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=1652&pfdlgcid=e580e505-592e-4448-a1db-389e5ecad5d9",
+  "campus": "Serra",
+  "Processo nº": "23158.000217/2018-69",
+  "Natureza": "Ensino",
+  "Coordenador(a)": "Wagner Kirmse Caldas",
+  "Tipo ação": "Projeto",
+  "Título ação": "Livro do Ano",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "Linguística, Letras e Artes",
+  "Área temática principal": "",
+  "Área temática secundária": "",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "26/03/2018",
+  "Data de cadastro": "23/04/2018",
+  "Resumo": "O ato de estudar é algo tão intrínseco à nossa sociedade que, muitas vezes, deixamos dar-lhe o devido valor. As vezes passamos anos estudando juntos e esquecemo-nos de deixar registrados os momentos que marcaram nossa passagem por determinada etapa de nossas vidas. Os anuários são uma forma de realizar a catalogação dessas etapas",
+  "Campus": "Serra",
+  "Área temática principal (inferida)": "Cultura",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_area_tematica": 0.8
+  }
+}

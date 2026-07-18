@@ -1,0 +1,26 @@
+{
+  "acao_id": "4199",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=4199&pfdlgcid=236a3710-51c3-404d-b75d-ca7716d88938",
+  "campus": "Serra",
+  "Processo nº": "23158.003816/2022-11",
+  "Natureza": "Ensino",
+  "Coordenador(a)": "Vinícius Secchin de Melo",
+  "Tipo ação": "Curso",
+  "Título ação": "Modelagem e Simulação de Conversores CC-CC - Z",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "Engenharias",
+  "Área temática principal": "",
+  "Área temática secundária": "",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "28/11/2023",
+  "Data de cadastro": "24/11/2022",
+  "Resumo": "O presente curso visa proporcionar ao aluno uma formação complementar na área de eletrônica de potência, em particular os conversores básicos CC-CC chaveados, Buck, Boost e Buck- Boost, tendo como objetivo de aprendizado o modelamento e projeto destes conversores, bem como a utilização de softwares livres para simulação destas topologias.",
+  "Campus": "Serra",
+  "Área temática principal (inferida)": "Tecnologia e Produção",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_area_tematica": 0.98
+  }
+}

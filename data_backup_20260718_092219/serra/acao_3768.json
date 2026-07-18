@@ -1,0 +1,26 @@
+{
+  "acao_id": "3768",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=3768&pfdlgcid=0706dad4-3c05-4fd6-8c30-9d59b1568171",
+  "campus": "Serra",
+  "Processo nº": "23158.000491/2022-14",
+  "Natureza": "Extensão",
+  "Coordenador(a)": "Rosilene de Sá Ribeiro",
+  "Tipo ação": "Projeto",
+  "Título ação": "Física ao Alcance de Todos",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "",
+  "Área temática principal": "Tecnologia e Produção",
+  "Área temática secundária": "Educação",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "15/12/2023",
+  "Data de cadastro": "27/04/2022",
+  "Resumo": "Neste projeto iremos montar e organizar as salas 406, 407 e 408 localizada no Campus Serra do Ifes\ncom o objetivo de criarmos um espaço não formal de ensino e aprendizagem. Este espaço será\ninaugurado no decorrer do ano de 2022 e contará com vários experimentos de diversas áreas,\nprincipalmente de física, sendo a maioria dos experimentos automatizados. Este espaço estará aberto\npara visitações orientadas de escolas e grupos externos previamente agendados durante o decorrer do\nano, dando apoio também ao projeto Ifes portas abertas, já existente no campus. Vale ressaltar que os\nexperimentos que serão expostos na sala 408 são experimentos construídos por alunos do Ifes Serra\nsob nossa orientação via projetos de pesquisa dos anos anteriores (PICTI).\nUma mostra permanente do conjunto de experimentos produzidos permitirá a divulgação, capilarização\ne apropriação do conhecimento adquirido de forma contínua.\nAlém disso, este projeto possibilita uma estreita interface com a área de computação, através da\nprogramação de microcontroladores que fazem a automação dos experimentos. Por isso ele também\ncontempla ações envolvendo o aprendizado de técnicas de programação do Arduino através de\nminicursos sobre como programar o Arduino e como aplicar esta programação, a qual é semelhante\nàquela realizada em robôs industriais.\nPortanto, o projeto aproxima o jovem estudante e a comunidade em geral da tecnologia empregada no\nmercado de trabalho, servindo, assim, como multiplicador dessa atividade, além de ser mais atrativa\naos olhos dos jovens, que estão imersos no mundo tecnológico.",
+  "Campus": "Serra",
+  "Grande área conhecimento (inferida)": "Ciências Exatas e da Terra",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_grande_area": 0.95
+  }
+}

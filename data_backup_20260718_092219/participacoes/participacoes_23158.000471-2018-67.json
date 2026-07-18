@@ -1,0 +1,16 @@
+{
+  "processo": "23158.000471/2018-67",
+  "total_atividades": 1,
+  "total_publico_alvo": 0,
+  "total_equipe": 0,
+  "atividades": [
+    {
+      "num": "001",
+      "atividade": "Nova plataforma NVIDIA para HPC e Inteligência Artificial (IA)",
+      "atividade_id": "6030",
+      "tipo": "Curso",
+      "publico_alvo": [],
+      "equipe_execucao": []
+    }
+  ]
+}

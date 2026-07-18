@@ -1,0 +1,26 @@
+{
+  "acao_id": "5258",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=5258&pfdlgcid=7bd14c2c-099c-4033-954c-1345bd34e62f",
+  "campus": "Serra",
+  "Processo nº": "23158.002421/2024-62",
+  "Natureza": "Extensão",
+  "Coordenador(a)": "Marco Antônio de Souza Leite Cuadros",
+  "Tipo ação": "Projeto",
+  "Título ação": "Inclusão e Tecnologia: Robótica para Pessoas com Autismo no IFES Serra",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "",
+  "Área temática principal": "Educação",
+  "Área temática secundária": "Tecnologia e Produção",
+  "Relatório aprovado": "Não",
+  "Data último relatório": "",
+  "Data de cadastro": "13/11/2024",
+  "Resumo": "O projeto \"Inclusão e Tecnologia: Robótica para Pessoas com Autismo no IFES Serra\" é uma iniciativa\nque visa oferecer um espaço de aprendizado inclusivo e acessível para o desenvolvimento de\nhabilidades em robótica e programação para pessoas com Transtorno do Espectro Autista (TEA). Por\nmeio de atividades interativas e práticas, o projeto buscará desenvolver competências em tecnologia\nque fortaleçam o raciocínio lógico, a criatividade e as habilidades sociais dos participantes, respeitando\nas necessidades sensoriais e os estilos de aprendizagem específicos deste público.\nPessoas com autismo enfrentam desafios significativos em relação à inclusão social e educacional,\ndevido à falta de ambientes adaptados às suas necessidades. Este projeto de extensão foi concebido\npara criar um espaço que acolha e valorize esses indivíduos, promovendo o aprendizado de robótica e\nprogramação de forma personalizada e inclusiva. Pesquisas apontam que atividades práticas, como as\nque envolvem a construção e programação de robôs, podem ser extremamente benéficas para pessoas\ncom TEA, contribuindo para o desenvolvimento de habilidades de resolução de problemas e\nestimulando o raciocínio lógico e a criatividade.",
+  "Campus": "Serra",
+  "Grande área conhecimento (inferida)": "Engenharias",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_grande_area": 0.95
+  }
+}

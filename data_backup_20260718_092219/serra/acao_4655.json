@@ -1,0 +1,26 @@
+{
+  "acao_id": "4655",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=4655&pfdlgcid=664484d1-7489-4cb7-9a87-2bfe1d8daa97",
+  "campus": "Serra",
+  "Processo nº": "23158.001854/2023-10",
+  "Natureza": "Extensão",
+  "Coordenador(a)": "Gabriel Tozatto Zago",
+  "Tipo ação": "Programa",
+  "Título ação": "LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "",
+  "Área temática principal": "Tecnologia e Produção",
+  "Área temática secundária": "Educação",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "09/10/2024",
+  "Data de cadastro": "23/08/2023",
+  "Resumo": "O presente projeto visa oferecer treinamentos a partir da cultura Maker para professores das redes\npública e privadas nas tecnologias habilitadoras da indústria 4.0. O laboratório Maker chamado de\nLabMaker é um espaço para geração de soluções a partir de problemas reais. A abordagem da cultura\nMaker, cuja filosofia é chamada “Do It Yourself!”, apresenta a ideia de que qualquer pessoa consegue\nconstruir, consertar ou criar seus próprios objetos ou soluções diante de determinados problemas ou\nsituações.\nO Campus Serra do Ifes foi contemplado através da Edital Nº 35/2020 (Chamada Pública SETEC/MEC)\nvia Edital de chamada Interna - PROEX/PRPPG - IFES - 03/2020 com 1 laboratório equipado com\ndiversos equipamentos para sua implementação, entre os que podemos citar: Impressoras 3D,\nnotebooks, Ferramentas, projetor, kits de Arduíno/Robótica, kits de Lego, Máquina CNC Laser, Scanner\n3D etc.\nEste projeto propõe fomentar a cultura maker no município de Serra através de capacitação de\nprofessores do ensino fundamental e médio que propagarão o conhecimento obtido em suas instituições\nde atuação.",
+  "Campus": "Serra",
+  "Grande área conhecimento (inferida)": "Engenharias",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_grande_area": 0.95
+  }
+}

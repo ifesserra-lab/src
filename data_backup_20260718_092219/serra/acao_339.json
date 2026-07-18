@@ -1,0 +1,28 @@
+{
+  "acao_id": "339",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=339&pfdlgcid=5f2fda74-2429-47e0-8048-ddcb850255c6",
+  "campus": "Serra",
+  "Processo nº": "23158.000984/2014-44",
+  "Natureza": "Ensino",
+  "Coordenador(a)": "Marco Antônio de Souza Leite Cuadros",
+  "Tipo ação": "Curso",
+  "Título ação": "Curso de Introdução à Programação do Lego MindStorm usando LabView",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "",
+  "Área temática principal": "",
+  "Área temática secundária": "",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "",
+  "Data de cadastro": "07/11/2014",
+  "Resumo": "O projeto é coordenado por um grupo de professores, entretanto, será ministrado por um grupo de alunos do curso técnico que trabalharam num projeto (\"Robôs Móveis para Inspeção\") de extensão do Programa Petrobras de Formação de Recursos Humanos (PFRH) em parceria com o Ifes e a Facto. Nesse curso se pretende difundir o conhecimento adquirido pelo grupo dos alunos no projeto mencionado.",
+  "Campus": "Serra",
+  "Grande área conhecimento (inferida)": "Engenharias",
+  "Área temática principal (inferida)": "Tecnologia e Produção",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_grande_area": 0.95,
+    "confianca_area_tematica": 0.98
+  }
+}

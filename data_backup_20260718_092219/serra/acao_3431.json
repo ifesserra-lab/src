@@ -1,0 +1,26 @@
+{
+  "acao_id": "3431",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=3431&pfdlgcid=b5d8be7a-1e81-44e4-8c33-64413bd3145a",
+  "campus": "Serra",
+  "Processo nº": "23158.002189/2021-08",
+  "Natureza": "Extensão",
+  "Coordenador(a)": "Bruno Cardoso Coutinho",
+  "Tipo ação": "Projeto",
+  "Título ação": "Lampex + empreendedor",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "23158.001185/2020-56 - LAMPEX – Laboratório Modelo de Práticas de Extensão",
+  "Grande área conhecimento": "",
+  "Área temática principal": "Educação",
+  "Área temática secundária": "",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "06/10/2021",
+  "Data de cadastro": "21/07/2021",
+  "Resumo": "O projeto “Lampex + empreendedor” trata-se de uma extensão (com viés empresarial) do\nLaboratório Modelo de Práticas de Extensão. O “Lampex + empreendedor” constitui-se em um\nambiente colaborativo em que alunos dos cursos superiores e técnicos, das áreas de automação\ne informática do campus Serra do Ifes, poderão cumprir atividades de formação em práticas\naderentes às disciplinas dos respectivos cursos, em resposta à demandas espontâneas dos\nparceiros do projeto, bem como da sociedade capixaba, com o intuito de contribuir positivamente\nna formação do estudante, incentivando o seu protagonismo.",
+  "Campus": "Serra",
+  "Grande área conhecimento (inferida)": "Engenharias",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_grande_area": 0.95
+  }
+}

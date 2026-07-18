@@ -1,0 +1,28 @@
+{
+  "acao_id": "320",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=320&pfdlgcid=9b79d446-1239-4c41-b1ee-35d240b8d3b2",
+  "campus": "Serra",
+  "Processo nº": "23158.000836/2014-21",
+  "Natureza": "Extensão",
+  "Coordenador(a)": "Emmanuel Marques Silva",
+  "Tipo ação": "Curso",
+  "Título ação": "Curso de Pré-Incubação para Empreendedores",
+  "Fomento": "PAEX-IFES",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "",
+  "Área temática principal": "",
+  "Área temática secundária": "",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "",
+  "Data de cadastro": "01/10/2014",
+  "Resumo": "Capacitar empreendedores para o desenvolvimento de propostas de empreendimentos que possuam aderência a uma ou mais áreas de atuação do Ifes campus Serra que atualmente são: a) Tecnologia da Informação e Comunicação (TIC); b) Informática; c) Automação; d) Tecnologia Assistiva; e) Tecnologias Educacionais; f) Gestão da Inovação; g) Eletroeletrônica; h) Metalmecânica; i) Energia; j) Tecnologia para sustentabilidade e preservação do meio ambiente, aptas a atrair investimentos ou participar de processos seletivos de incubação.",
+  "Campus": "Serra",
+  "Grande área conhecimento (inferida)": "Engenharias",
+  "Área temática principal (inferida)": "Tecnologia e Produção",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_grande_area": 0.95,
+    "confianca_area_tematica": 0.98
+  }
+}

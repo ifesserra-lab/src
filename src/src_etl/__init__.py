@@ -24,7 +24,7 @@ from .enriquecer import enriquecer_acoes
 from .relatorio import gerar_relatorio
 from .scraper import LinhaAcao, coletar_campus, listar_campi
 
-__version__ = "0.5.0"
+__version__ = "0.6.0"
 
 __all__ = [
     "Acao",

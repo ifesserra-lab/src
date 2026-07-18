@@ -1,0 +1,26 @@
+{
+  "acao_id": "916",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=916&pfdlgcid=af3dcb3a-a684-4352-9d2b-734cec81e079",
+  "campus": "Serra",
+  "Processo nº": "23150.000715/2016-11",
+  "Natureza": "Ensino",
+  "Coordenador(a)": "Rosângela Guimarães Seba",
+  "Tipo ação": "Curso",
+  "Título ação": "Inglês Instrumental para leitura",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "Linguística, Letras e Artes",
+  "Área temática principal": "",
+  "Área temática secundária": "",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "",
+  "Data de cadastro": "08/11/2016",
+  "Resumo": "O Curso de Inglês Instrumental para leitura na modalidade presencial capacita os participantes para ler e compreender textos técnicos autênticos em inglês nas áreas de Automação Industrial e de Informática com finalidade acadêmica e profissional nos diferentes niveis de compreensão.",
+  "Campus": "Serra",
+  "Área temática principal (inferida)": "Educação",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_area_tematica": 0.9
+  }
+}

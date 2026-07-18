@@ -1,0 +1,26 @@
+{
+  "acao_id": "4820",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=4820&pfdlgcid=2f9cef4f-dc60-45f3-ab00-b98378209eb6",
+  "campus": "Serra",
+  "Processo nº": "23158.003498/2023-79",
+  "Natureza": "Extensão",
+  "Coordenador(a)": "Tatiane Policário Chagas",
+  "Tipo ação": "Curso",
+  "Título ação": "Mulheres Mil – Eletricista Instalador Predial em Baixa Tensão",
+  "Fomento": "MULHERES MIL",
+  "Ação vinculante": "23147.007905/2023-46 - Mulheres Mil",
+  "Grande área conhecimento": "",
+  "Área temática principal": "Tecnologia e Produção",
+  "Área temática secundária": "Trabalho",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "02/04/2026",
+  "Data de cadastro": "07/12/2023",
+  "Resumo": "Visando ainda garantir a permanência e o êxito escolar, às alunas que apresentarem dificuldade de aprendizagem será disponibilizado, pelos professores, apoio pedagógico. Será incentivada a montagem de grupos de estudos a fim de minimizar as dificuldades individuais encontradas no decorrer do processo de aprendizagem.\nCaberá ao professor de cada componente curricular informar, ao serviço pedagógico, a relação de alunos infrequentes. Esses dados contribuirão para que essa equipe trace estratégias preventivas e de reintegração das ausentes.\nVale ressaltar que durante todo o curso, as alunas serão motivadas a prosseguir seus estudos por meio dos demais cursos ofertados pelo IFES.\nO docente deverá criar um clima de confiança, respeito mútuo, de colaboração e de compromisso com o bem comum, onde favoreça a aprendizagem das discentes. Lembrar-se que na avaliação o lema é conhecer para ajudar, identificar a deficiência para adequar às necessidades de formação que leve em conta as possibilidades reais de cada participante do curso e o desenvolvimento de suas capacidades. As atividades serão estruturadas em um encontro semanal, com carga horária total de 160 horas, distribuídas e organizadas para oferecer um espaço de formação e desenvolvimento das mulheres participantes.",
+  "Campus": "Serra",
+  "Grande área conhecimento (inferida)": "Engenharias",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_grande_area": 0.95
+  }
+}

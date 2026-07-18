@@ -1,0 +1,597 @@
+{
+  "processo": "23158.000310/2024-11",
+  "total_atividades": 3,
+  "total_publico_alvo": 49,
+  "total_equipe": 2,
+  "atividades": [
+    {
+      "num": "001",
+      "atividade": "Jogos Internos do Campus Serra",
+      "atividade_id": "17724",
+      "tipo": "Evento",
+      "publico_alvo": [],
+      "equipe_execucao": [
+        {
+          "Nome": "Milainy Ludmila Santos Goulart",
+          "CPF": "111.380.597-81",
+          "Vínculo": "Servidor",
+          "Função": "COORDENADOR(A)",
+          "E-mail": "milainy.goulart@ifes.edu.br",
+          "C.H": "40",
+          "Início": "26/08/2024",
+          "Término": "30/08/2024",
+          "Certificado": "SIM"
+        }
+      ]
+    },
+    {
+      "num": "002",
+      "atividade": "Jogos Internos do Campus Serra – Etapa 1",
+      "atividade_id": "17725",
+      "tipo": "Evento",
+      "publico_alvo": [
+        {
+          "Nome": "Andriy Gabriel M Polastrelli",
+          "Nasc.": "02/07/2007",
+          "CPF": "113.550.846-10",
+          "E-mail": "brineandriy@gmail.com",
+          "C.H": "20",
+          "Início": "22/04/2024",
+          "Término": "26/04/2024",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        },
+        {
+          "Nome": "Vitor Lopes Barbosa",
+          "Nasc.": "10/07/2008",
+          "CPF": "178.783.647-96",
+          "E-mail": "vitor.lb1234@gmail.com",
+          "C.H": "20",
+          "Início": "22/04/2024",
+          "Término": "26/04/2024",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        },
+        {
+          "Nome": "Evelyn Nobre dos Santos",
+          "Nasc.": "30/09/2008",
+          "CPF": "218.279.057-86",
+          "E-mail": "evelynnobre309@gmail.com",
+          "C.H": "20",
+          "Início": "22/04/2024",
+          "Término": "26/04/2024",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        },
+        {
+          "Nome": "Gelzo Pereira da Silva Filho",
+          "Nasc.": "01/06/2006",
+          "CPF": "191.689.107-11",
+          "E-mail": "gelzopsantos@gmail.com",
+          "C.H": "20",
+          "Início": "22/04/2024",
+          "Término": "26/04/2024",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        },
+        {
+          "Nome": "Livia Helena da Silva Estevão Araujo",
+          "Nasc.": "14/12/2006",
+          "CPF": "158.697.457-21",
+          "E-mail": "liviaahelenaestevao@gmail.com",
+          "C.H": "20",
+          "Início": "22/04/2024",
+          "Término": "26/04/2024",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        },
+        {
+          "Nome": "Maria Júlia Leopoldo Barros",
+          "Nasc.": "21/04/2007",
+          "CPF": "189.250.587-82",
+          "E-mail": "mariajulia.leopoldo@gmail.com",
+          "C.H": "20",
+          "Início": "22/04/2024",
+          "Término": "26/04/2024",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        },
+        {
+          "Nome": "Wendel Douglas França Xavier",
+          "Nasc.": "12/08/2004",
+          "CPF": "210.716.047-32",
+          "E-mail": "wendeld867@gmail.com",
+          "C.H": "20",
+          "Início": "22/04/2024",
+          "Término": "26/04/2024",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        },
+        {
+          "Nome": "Gabriel Poloni Siqueira",
+          "Nasc.": "18/05/2007",
+          "CPF": "158.545.347-11",
+          "E-mail": "gpoloni4@icloud.com",
+          "C.H": "20",
+          "Início": "22/04/2024",
+          "Término": "26/04/2024",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        },
+        {
+          "Nome": "Pedro Cardoso de Almeida",
+          "Nasc.": "04/04/2005",
+          "CPF": "203.361.667-37",
+          "E-mail": "pedro.cardoso.de.almeida@gmail.com",
+          "C.H": "20",
+          "Início": "22/04/2024",
+          "Término": "26/04/2024",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        },
+        {
+          "Nome": "Marcio de Lima Braga",
+          "Nasc.": "14/08/1971",
+          "CPF": "034.542.557-08",
+          "E-mail": "marciobraga456@gmail.com",
+          "C.H": "20",
+          "Início": "22/04/2024",
+          "Término": "26/04/2024",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        },
+        {
+          "Nome": "Maria Eduarda Souza Silva",
+          "Nasc.": "20/04/2007",
+          "CPF": "171.384.437-06",
+          "E-mail": "afai.serra@gmail.com",
+          "C.H": "20",
+          "Início": "22/04/2024",
+          "Término": "26/04/2024",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        },
+        {
+          "Nome": "Guilherme Chagas Gomide Muniz",
+          "Nasc.": "07/07/2006",
+          "CPF": "143.066.957-86",
+          "E-mail": "gcmuniz07@gmail.com",
+          "C.H": "20",
+          "Início": "22/04/2024",
+          "Término": "26/04/2024",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        },
+        {
+          "Nome": "Romulo Alves Luciano",
+          "Nasc.": "25/07/2002",
+          "CPF": "176.224.807-70",
+          "E-mail": "romuloa.l2507@gmail.com",
+          "C.H": "20",
+          "Início": "22/04/2024",
+          "Término": "26/04/2024",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        },
+        {
+          "Nome": "Alessandro da Cunha Alves",
+          "Nasc.": "13/04/1978",
+          "CPF": "034.351.426-50",
+          "E-mail": "cunhabr@ifes.edu.br",
+          "C.H": "20",
+          "Início": "22/04/2024",
+          "Término": "26/04/2024",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        },
+        {
+          "Nome": "Milainy Ludmila Santos Goulart",
+          "Nasc.": "09/02/1990",
+          "CPF": "111.380.597-81",
+          "E-mail": "milainy.goulart@ifes.edu.br",
+          "C.H": "40",
+          "Início": "22/04/2024",
+          "Término": "26/04/2024",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        },
+        {
+          "Nome": "Amarildo Mendes Lemos",
+          "Nasc.": "06/10/1980",
+          "CPF": "088.170.927-11",
+          "E-mail": "amarildo.lemos@ifes.edu.br",
+          "C.H": "20",
+          "Início": "22/04/2024",
+          "Término": "26/04/2024",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        },
+        {
+          "Nome": "Roberto Wallace Viana",
+          "Nasc.": "28/02/1982",
+          "CPF": "090.029.317-94",
+          "E-mail": "robaviana@gmail.com",
+          "C.H": "20",
+          "Início": "22/04/2024",
+          "Término": "26/04/2024",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        },
+        {
+          "Nome": "Rosilene de Sá Ribeiro",
+          "Nasc.": "29/01/1972",
+          "CPF": "825.109.466-68",
+          "E-mail": "rosilene@ifes.edu.br",
+          "C.H": "20",
+          "Início": "22/04/2024",
+          "Término": "26/04/2024",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        },
+        {
+          "Nome": "Nauvia Maria Cancelieri",
+          "Nasc.": "26/01/1975",
+          "CPF": "031.692.167-08",
+          "E-mail": "nauvia@ifes.edu.br",
+          "C.H": "20",
+          "Início": "22/04/2024",
+          "Término": "26/04/2024",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        },
+        {
+          "Nome": "Yago Medeiros Barbosa",
+          "Nasc.": "12/07/2004",
+          "CPF": "196.636.977-84",
+          "E-mail": "yagomedeiros.br101@gmail.com",
+          "C.H": "20",
+          "Início": "22/04/2024",
+          "Término": "26/04/2024",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        },
+        {
+          "Nome": "Caio Marcio Viggiano Dias",
+          "Nasc.": "02/03/2002",
+          "CPF": "193.081.267-16",
+          "E-mail": "caioviggiano@hotmail.com",
+          "C.H": "30",
+          "Início": "22/04/2024",
+          "Término": "26/04/2024",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        },
+        {
+          "Nome": "Eduardo de Marchi Poltronieri",
+          "Nasc.": "25/07/2000",
+          "CPF": "142.471.457-54",
+          "E-mail": "demarchi.dudu@gmail.com",
+          "C.H": "20",
+          "Início": "22/04/2024",
+          "Término": "26/04/2024",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        },
+        {
+          "Nome": "Perseu Fernandes Machado de Oliveira",
+          "Nasc.": "21/01/2002",
+          "CPF": "179.936.357-05",
+          "E-mail": "perseu.fmo@gmail.com",
+          "C.H": "20",
+          "Início": "22/04/2024",
+          "Término": "26/04/2024",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        },
+        {
+          "Nome": "Huggo Soares Rodrigues",
+          "Nasc.": "06/09/2008",
+          "CPF": "146.945.257-00",
+          "E-mail": "huggor60@gmail.com",
+          "C.H": "20",
+          "Início": "22/04/2024",
+          "Término": "26/04/2024",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        },
+        {
+          "Nome": "Lucas Miné Filgueira",
+          "Nasc.": "07/06/2007",
+          "CPF": "178.797.787-05",
+          "E-mail": "minelucas419@gmail.com",
+          "C.H": "20",
+          "Início": "22/04/2024",
+          "Término": "26/04/2024",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        },
+        {
+          "Nome": "Pablo Nistal Lazaro Santos",
+          "Nasc.": "22/09/2007",
+          "CPF": "234.021.957-47",
+          "E-mail": "msantos@ifes.edu.br",
+          "C.H": "20",
+          "Início": "22/04/2024",
+          "Término": "26/04/2024",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        },
+        {
+          "Nome": "Matheus Tiago Amorim Pereira",
+          "Nasc.": "18/12/2006",
+          "CPF": "181.205.467-09",
+          "E-mail": "josemauricio@ifes.edu.br",
+          "C.H": "20",
+          "Início": "22/04/2024",
+          "Término": "26/04/2024",
+          "Certificado": "SIM",
+          "Situação": "APROVADO"
+        }
+      ],
+      "equipe_execucao": [
+        {
+          "Nome": "Milainy Ludmila Santos Goulart",
+          "CPF": "111.380.597-81",
+          "Vínculo": "Servidor",
+          "Função": "COORDENADOR(A)",
+          "E-mail": "milainy.goulart@ifes.edu.br",
+          "C.H": "40",
+          "Início": "22/04/2024",
+          "Término": "26/04/2024",
+          "Certificado": "SIM"
+        }
+      ]
+    },
+    {
+      "num": "003",
+      "atividade": "Jogos Internos do Campus Serra – Etapa 2",
+      "atividade_id": "17726",
+      "tipo": "Evento",
+      "publico_alvo": [
+        {
+          "Nome": "Arthur Rupf Martinez Bahiense",
+          "Nasc.": "19/11/2008",
+          "CPF": "151.846.757-10",
+          "E-mail": "arthur.bahiense06@gmail.com",
+          "C.H": "20",
+          "Início": "21/10/2024",
+          "Término": "25/10/2024",
+          "Certificado": "NÃO",
+          "Situação": "CURSANDO"
+        },
+        {
+          "Nome": "Miguel Pinheiro Fermino",
+          "Nasc.": "07/05/2009",
+          "CPF": "167.809.987-29",
+          "E-mail": "miguelpinheirofirmino@gmail.com",
+          "C.H": "20",
+          "Início": "21/10/2024",
+          "Término": "25/10/2024",
+          "Certificado": "NÃO",
+          "Situação": "CURSANDO"
+        },
+        {
+          "Nome": "Caio Vitor Medeiros Gomes",
+          "Nasc.": "17/01/2009",
+          "CPF": "221.594.047-64",
+          "E-mail": "caiorealmais@gmail.com",
+          "C.H": "20",
+          "Início": "21/10/2024",
+          "Término": "25/10/2024",
+          "Certificado": "NÃO",
+          "Situação": "CURSANDO"
+        },
+        {
+          "Nome": "Kaynã Henrique Souza Damasio",
+          "Nasc.": "03/11/2088",
+          "CPF": "179.349.357-06",
+          "E-mail": "kaynahenrique554@gmail.com",
+          "C.H": "20",
+          "Início": "21/10/2024",
+          "Término": "25/10/2024",
+          "Certificado": "NÃO",
+          "Situação": "CURSANDO"
+        },
+        {
+          "Nome": "Samuel de Jesus Nogueira",
+          "Nasc.": "14/11/2008",
+          "CPF": "169.502.817-14",
+          "E-mail": "samuel.nogueira.aluno.cfm@gmail.com",
+          "C.H": "20",
+          "Início": "21/10/2024",
+          "Término": "25/10/2024",
+          "Certificado": "NÃO",
+          "Situação": "CURSANDO"
+        },
+        {
+          "Nome": "Thiago da Silva Ferraresi Paulino",
+          "Nasc.": "28/11/2008",
+          "CPF": "149.319.057-14",
+          "E-mail": "thiagoolpaulino@gmail.com",
+          "C.H": "20",
+          "Início": "21/10/2024",
+          "Término": "25/10/2024",
+          "Certificado": "NÃO",
+          "Situação": "CURSANDO"
+        },
+        {
+          "Nome": "Huggo Soares Rodrigues",
+          "Nasc.": "06/09/2008",
+          "CPF": "146.945.257-00",
+          "E-mail": "huggor60@gmail.com",
+          "C.H": "20",
+          "Início": "21/10/2024",
+          "Término": "25/10/2024",
+          "Certificado": "NÃO",
+          "Situação": "CURSANDO"
+        },
+        {
+          "Nome": "Enzo Garuzzi Lempke",
+          "Nasc.": "16/12/2008",
+          "CPF": "145.921.557-50",
+          "E-mail": "enzogaruzzi@gmail.com",
+          "C.H": "20",
+          "Início": "21/10/2024",
+          "Término": "25/10/2024",
+          "Certificado": "NÃO",
+          "Situação": "CURSANDO"
+        },
+        {
+          "Nome": "Arthur Benevides Souza Correia",
+          "Nasc.": "21/02/2009",
+          "CPF": "200.942.257-02",
+          "E-mail": "artsouzabenevides@gmail.com",
+          "C.H": "20",
+          "Início": "21/10/2024",
+          "Término": "25/10/2024",
+          "Certificado": "NÃO",
+          "Situação": "CURSANDO"
+        },
+        {
+          "Nome": "Kauandra Souza Silva",
+          "Nasc.": "13/12/2008",
+          "CPF": "201.234.457-79",
+          "E-mail": "kauandrasouzasilva123@gmail.com",
+          "C.H": "20",
+          "Início": "21/10/2024",
+          "Término": "25/10/2024",
+          "Certificado": "NÃO",
+          "Situação": "CURSANDO"
+        },
+        {
+          "Nome": "Maria Clara de Moura e Silva Barcelos",
+          "Nasc.": "11/08/2008",
+          "CPF": "177.411.137-39",
+          "E-mail": "maria.barcellos.moura08@gmail.com",
+          "C.H": "20",
+          "Início": "21/10/2024",
+          "Término": "25/10/2024",
+          "Certificado": "NÃO",
+          "Situação": "CURSANDO"
+        },
+        {
+          "Nome": "Anna Clara Araújo Fontis Serafim",
+          "Nasc.": "12/02/2009",
+          "CPF": "207.019.397-70",
+          "E-mail": "serafim.annaclara@gmail.com",
+          "C.H": "20",
+          "Início": "21/10/2024",
+          "Término": "25/10/2024",
+          "Certificado": "NÃO",
+          "Situação": "CURSANDO"
+        },
+        {
+          "Nome": "Ana Clara Dalvin Del Piero",
+          "Nasc.": "22/04/2009",
+          "CPF": "188.138.967-78",
+          "E-mail": "anaclaraddp@gmail.com",
+          "C.H": "20",
+          "Início": "21/10/2024",
+          "Término": "25/10/2024",
+          "Certificado": "NÃO",
+          "Situação": "CURSANDO"
+        },
+        {
+          "Nome": "Maria Rita Mendes Nunes",
+          "Nasc.": "07/02/2009",
+          "CPF": "154.933.367-40",
+          "E-mail": "mariaritamendesnunes87@gmail.com",
+          "C.H": "20",
+          "Início": "21/10/2024",
+          "Término": "25/10/2024",
+          "Certificado": "NÃO",
+          "Situação": "CURSANDO"
+        },
+        {
+          "Nome": "Ana Júlia Santos Siqueira",
+          "Nasc.": "25/01/2009",
+          "CPF": "211.231.407-66",
+          "E-mail": "anaj29850@gmail.com",
+          "C.H": "20",
+          "Início": "21/10/2024",
+          "Término": "25/10/2024",
+          "Certificado": "NÃO",
+          "Situação": "CURSANDO"
+        },
+        {
+          "Nome": "Lavinia Lima Rodrigues da Silva",
+          "Nasc.": "27/10/2008",
+          "CPF": "214.955.577-82",
+          "E-mail": "lavinialimarodriguessilva@gmail.com",
+          "C.H": "20",
+          "Início": "21/10/2024",
+          "Término": "25/10/2024",
+          "Certificado": "NÃO",
+          "Situação": "CURSANDO"
+        },
+        {
+          "Nome": "Luiigi Knup Bianchi Vieira da Silva",
+          "Nasc.": "19/09/2005",
+          "CPF": "192.628.617-02",
+          "E-mail": "luigiknup77@gmail.com",
+          "C.H": "20",
+          "Início": "21/10/2024",
+          "Término": "25/10/2024",
+          "Certificado": "NÃO",
+          "Situação": "CURSANDO"
+        },
+        {
+          "Nome": "Guilherme Villas Boas Braz",
+          "Nasc.": "12/12/2008",
+          "CPF": "145.389.477-25",
+          "E-mail": "gvbbraz@gmail.com",
+          "C.H": "20",
+          "Início": "21/10/2024",
+          "Término": "25/10/2024",
+          "Certificado": "NÃO",
+          "Situação": "CURSANDO"
+        },
+        {
+          "Nome": "João Guilherme Grisostomo Oliveira",
+          "Nasc.": "23/09/2008",
+          "CPF": "199.681.727-23",
+          "E-mail": "joaoguilhermegrisostomo21@gmail.com",
+          "C.H": "20",
+          "Início": "21/10/2024",
+          "Término": "25/10/2024",
+          "Certificado": "NÃO",
+          "Situação": "CURSANDO"
+        },
+        {
+          "Nome": "Phietro Sousa Aguilar",
+          "Nasc.": "29/12/2008",
+          "CPF": "196.953.797-37",
+          "E-mail": "phietrosousa10@gmail.com",
+          "C.H": "20",
+          "Início": "21/10/2024",
+          "Término": "25/10/2024",
+          "Certificado": "NÃO",
+          "Situação": "CURSANDO"
+        },
+        {
+          "Nome": "Pedro de Souza Almeida",
+          "Nasc.": "24/08/2007",
+          "CPF": "152.702.927-18",
+          "E-mail": "souzapedroalmeida8@gmail.com",
+          "C.H": "20",
+          "Início": "21/10/2024",
+          "Término": "25/10/2024",
+          "Certificado": "NÃO",
+          "Situação": "CURSANDO"
+        },
+        {
+          "Nome": "Danilo Amorim Dalvi",
+          "Nasc.": "18/12/2007",
+          "CPF": "192.422.487-97",
+          "E-mail": "danilodalvi1@gmail.com",
+          "C.H": "20",
+          "Início": "21/10/2024",
+          "Término": "25/10/2024",
+          "Certificado": "NÃO",
+          "Situação": "CURSANDO"
+        }
+      ],
+      "equipe_execucao": []
+    }
+  ]
+}

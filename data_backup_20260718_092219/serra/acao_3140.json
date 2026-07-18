@@ -1,0 +1,26 @@
+{
+  "acao_id": "3140",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=3140&pfdlgcid=507000cb-f42e-48c7-a762-fe9722699ba1",
+  "campus": "Serra",
+  "Processo nº": "23158.001185/2020-56",
+  "Natureza": "Extensão",
+  "Coordenador(a)": "Emmanuel Marques Silva",
+  "Tipo ação": "Programa",
+  "Título ação": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+  "Fomento": "PAEX-IFES",
+  "Ação vinculante": "23158.001812/2017-31 - Ifes para todos",
+  "Grande área conhecimento": "",
+  "Área temática principal": "Educação",
+  "Área temática secundária": "Tecnologia e Produção",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "12/02/2026",
+  "Data de cadastro": "04/12/2020",
+  "Resumo": "O LAMPEX – Laboratório Modelo de Práticas de Extensão – constitui-se em um ambiente colaborativo\nem que alunos dos cursos superiores e técnicos das áreas de automação e informática do campus\nSerra do Ifes, poderão cumprir atividades de formação em práticas aderentes às disciplinas dos\nrespectivos cursos, em resposta a demandas espontâneas dos parceiros do projeto, bem como da\nsociedade capixaba, com o intuito de contribuir positivamente na formação do estudante, incentivando o\nseu protagonismo.\nO Laboratório Modelo de Práticas de Extensão consiste basicamente na ampliação de oportunidades\neducacionais de transferência de conhecimento e experiências trabalhadas nos cursos do campus\nSerra do Ifes, por meio de atendimentos personalizados, orientações, mentorias, capacitações e\nassessorias em tecnologias e gestão.",
+  "Campus": "Serra",
+  "Grande área conhecimento (inferida)": "Engenharias",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_grande_area": 0.95
+  }
+}

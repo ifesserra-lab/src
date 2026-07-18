@@ -1,0 +1,26 @@
+{
+  "acao_id": "5184",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=5184&pfdlgcid=d49afcbf-7b46-4570-a7b4-0411371ecf21",
+  "campus": "Serra",
+  "Processo nº": "23158.001120/2024-11",
+  "Natureza": "Ensino",
+  "Coordenador(a)": "Vinícius Secchin de Melo",
+  "Tipo ação": "Curso",
+  "Título ação": "Introdução à Linguagem LáTex para escrita de materiais acadêmicos",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "Engenharias",
+  "Área temática principal": "",
+  "Área temática secundária": "",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "15/04/2025",
+  "Data de cadastro": "19/09/2024",
+  "Resumo": "O presente curso visa proporcionar ao aluno uma formação complementar na área\nde programação, em particular a utilização da ferramenta LaTex na edição e escrita de materiais\nacadêmicos, tais como trabalhos de conclusão de curso, teses e dissertações, entre outors. O LáTex vem\nsendo uma importante ferramenta para a escrita de materiais com qualidade não somente de texto,\nmas principalmente quando envolve expressões matemáticas e termos científicos, bem como a\nnecessidade de um maior controle na editoração de um trabalho. Desta forma o LáTex torna-se uma\nferramenta fundamental para o auxílio à composição na elaboração de um trabalho acadêmico.",
+  "Campus": "Serra",
+  "Área temática principal (inferida)": "Educação",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_area_tematica": 0.98
+  }
+}

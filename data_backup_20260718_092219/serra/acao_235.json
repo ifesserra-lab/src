@@ -1,0 +1,28 @@
+{
+  "acao_id": "235",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=235&pfdlgcid=ead98b8d-bd0a-4b72-b93e-4ec013bb9f2a",
+  "campus": "Serra",
+  "Processo nº": "23158.000623/2014-06",
+  "Natureza": "Ensino",
+  "Coordenador(a)": "Emmanuel Marques Silva",
+  "Tipo ação": "Evento",
+  "Título ação": "11ª Semana Estadual de Ciência e Tecnologia: Ciência e Tecnologia para o Desenvolvimento Social",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "",
+  "Área temática principal": "",
+  "Área temática secundária": "",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "",
+  "Data de cadastro": "05/08/2014",
+  "Resumo": "A empresa Intechno Desenvolvimento e Capacitação , empresa incubada no Núcleo Incubador Serra, desenvolve produtos na área industrial e de educaçãocom ênfase em equipamentos e simuladores didáticos para estudantes do ensino técnico e médio. \nA Intechno é uma empresa com base em tecnologia robótica, mecânica e de automação, com grande capacidade inovadora na criação de produtos e soluções.",
+  "Campus": "Serra",
+  "Grande área conhecimento (inferida)": "Engenharias",
+  "Área temática principal (inferida)": "Tecnologia e Produção",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_grande_area": 0.9,
+    "confianca_area_tematica": 0.95
+  }
+}

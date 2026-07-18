@@ -1,0 +1,80 @@
+{
+  "processo": "23158.002614/2019-82",
+  "total_atividades": 9,
+  "total_publico_alvo": 0,
+  "total_equipe": 0,
+  "atividades": [
+    {
+      "num": "001",
+      "atividade": "II Vivências de Queimado",
+      "atividade_id": "9924",
+      "tipo": "Evento",
+      "publico_alvo": [],
+      "equipe_execucao": []
+    },
+    {
+      "num": "002",
+      "atividade": "Oficina de Congo",
+      "atividade_id": "9925",
+      "tipo": "Evento",
+      "publico_alvo": [],
+      "equipe_execucao": []
+    },
+    {
+      "num": "003",
+      "atividade": "Oficina de Trança de cabelo",
+      "atividade_id": "9926",
+      "tipo": "Evento",
+      "publico_alvo": [],
+      "equipe_execucao": []
+    },
+    {
+      "num": "004",
+      "atividade": "Oficina de Dança Afro",
+      "atividade_id": "9927",
+      "tipo": "Evento",
+      "publico_alvo": [],
+      "equipe_execucao": []
+    },
+    {
+      "num": "005",
+      "atividade": "Oficina de Culinária",
+      "atividade_id": "9928",
+      "tipo": "Evento",
+      "publico_alvo": [],
+      "equipe_execucao": []
+    },
+    {
+      "num": "006",
+      "atividade": "Oficina de Boneca Abayomi",
+      "atividade_id": "9929",
+      "tipo": "Evento",
+      "publico_alvo": [],
+      "equipe_execucao": []
+    },
+    {
+      "num": "007",
+      "atividade": "Oficina de Macramê",
+      "atividade_id": "9930",
+      "tipo": "Evento",
+      "publico_alvo": [],
+      "equipe_execucao": []
+    },
+    {
+      "num": "008",
+      "atividade": "Oficina de Capoterapia",
+      "atividade_id": "9931",
+      "tipo": "Evento",
+      "publico_alvo": [],
+      "equipe_execucao": []
+    },
+    {
+      "num": "009",
+      "atividade": "Oficina de Hip-hop",
+      "atividade_id": "9932",
+      "tipo": "Evento",
+      "publico_alvo": [],
+      "equipe_execucao": []
+    }
+  ]
+}

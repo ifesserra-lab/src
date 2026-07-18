@@ -1,0 +1,28 @@
+{
+  "acao_id": "899",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=899&pfdlgcid=0114872c-43d5-4f87-a6e3-154ee6e1ecb5",
+  "campus": "Serra",
+  "Processo nº": "23158.000680/2016-49",
+  "Natureza": "Extensão",
+  "Coordenador(a)": "Wallas Gusmão Thomas",
+  "Tipo ação": "Evento",
+  "Título ação": "SEMANA DE CONTROLE E AUTOMAÇÃO",
+  "Fomento": "PAEX-IFES",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "",
+  "Área temática principal": "",
+  "Área temática secundária": "",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "",
+  "Data de cadastro": "21/10/2016",
+  "Resumo": "Os discentes do curso de Engenharia de Controle e Automação, apoiado pelo Centro Acadêmico Hendrik Bode e pelo IFES Campus Serra, realizará nos dias 20, 21 e 22 de setembro de 2016, a Semana de Controle e Automação, com o foco em empreendedorismo.\nO evento ocorrerá no IFES campus Serra, e oferecerá aos alunos do Campus Serra e demais alunos de engenharia do próprio IFES e de outras instituições: palestras, mesa redonda, minicursos, visitas às empresas e mostra tecnológicas.\n\nJunto com a semana ocorrerá, no dia 22 de setembro de 2016, a visitação ao Campus Serra dos Participantes do Congresso da Federação Mundial de Colleges e Politécnicos de 2016( WFCP 2016), onde reunir-se-ão os gestores internacionais e nacionais para discutirem o tema “O papel da educação profissional no século XXI”.\n\nLogo pela manhã ocorrerá nos três dias a visitação às Empresas....\n\nAs palestras, mesa redonda e minicursos ocorreram no período vespertino e noturno, no intervalo entre o inicio segundo horário vespertino, finalizando no término do primeiro horário noturno, com o objetivo de haver aula normal durante a semana, sem prejuízo dos discentes e docentes.\n\nAs palestras serão:\nTrajetória pessoal, história da Mogai, projetos atuais e visões de futuro\nVocê realmente sabe o que vai ser do seu futuro?\nMercado de Trabalho: Você realmente sabe o que vai ser do seu futuro?\nIARA, o carro autônomo da UFES\nMonitoramento Preditivo - Função Estratégica na Confiabilidade dos Ativos Industriais\nQual é a sua missão no mundo?\nVantagens de incubar uma empresa. Exemplos de sucesso.\nAgência de inovação do Ifes.\nIncubadora IFES\n\nOs minicursos serão:\nMini curso: Introdução e Programação em CNC\nProjeto de Microcontroladores com Arduino \nIntrodução à Otimização \nProgramando para Android\n\nA mesa redonda será composta por alunos egressos que estão atuando no mercado de trabalho como profissional ou empreendedor, ou seguiram a área acadêmica. \n\nA Mosta Técnológica ocorrerá no dia 22 de setembro, e contará com presença dos grupos de pesquisa do IFES Campus Serra, empresas incubadas no próprio Campus, empresas das áreas de tecnologia e educação convidadas, e apresentação dos laboratórios do curso de Engenharia de Controle e Automação aos participantes da Mostra.\n\nA organização será realizada pelos estudantes da Engenharia de Controle e Automação, e conta com apoio do IFES Campus Serra e Centro Acadêmico Hendrik Bode. Os estudante e o Centro Acadêmico expressando suas expectativas acadêmicas, profissionais e empreendedoras, organizaram as palestras, mesa redonda, minicursos, visitas as empresas e a apresentação do Campus Serra aos participantes. Para a realização do evento eles contarão com as coordenadorias de automação, diretoria de pesquisa e extensão, diretoria administrativa, CIEE, CTI, CSO e alguns professores das coordenadorias de Informática.\n\nAs inscrições para visitas às empresas e minicursos serão feitas via internet no link:... Já as palestras e mesas redondas serão realizadas no audit",
+  "Campus": "Serra",
+  "Grande área conhecimento (inferida)": "Engenharias",
+  "Área temática principal (inferida)": "Tecnologia e Produção",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_grande_area": 0.95,
+    "confianca_area_tematica": 0.98
+  }
+}

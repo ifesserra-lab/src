@@ -136,8 +136,12 @@ def run_participacoes(
     senha: str | None = None,
     headless: bool = True,
     on_progress=None,
+    workers: int = 1,
 ) -> dict[str, AcaoParticipacoes]:
-    """Coleta participações (público-alvo + equipe) e salva 1 JSON por processo."""
+    """Coleta participações (público-alvo + equipe) e salva 1 JSON por processo.
+
+    workers>1: N abas numa única sessão (um login) processam processos em paralelo.
+    """
     import asyncio
 
     out = Path(out_dir)
@@ -157,7 +161,7 @@ def run_participacoes(
 
     dados = asyncio.run(
         coletar_participacoes(pendentes, user=user, senha=senha, headless=headless,
-                              on_progress=on_progress, on_processo=salvar)
+                              on_progress=on_progress, on_processo=salvar, workers=workers)
     )
     return dados
 

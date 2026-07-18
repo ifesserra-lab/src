@@ -1,0 +1,26 @@
+{
+  "acao_id": "1157",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=1157&pfdlgcid=431b99f4-c40a-4504-9e07-46ed5963f947",
+  "campus": "Serra",
+  "Processo nº": "23158.000277/2017-08",
+  "Natureza": "Pesquisa",
+  "Coordenador(a)": "Leonardo Azevedo Scardua",
+  "Tipo ação": "Evento",
+  "Título ação": "Palestra \"Inteligência Artificial para Detecção Automática de Defeitos em Processos Industriais\"",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "Engenharias",
+  "Área temática principal": "",
+  "Área temática secundária": "",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "17/08/2017",
+  "Data de cadastro": "31/05/2017",
+  "Resumo": "Palestra sobre Inteligência Artificial para Detecção Automática de Defeitos em Processos Industriais organizada por membros do Grupo de Pesquisa NERA - Núcleo de Estudos em Robótica e Automação, campus Serra.",
+  "Campus": "Serra",
+  "Área temática principal (inferida)": "Tecnologia e Produção",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_area_tematica": 0.95
+  }
+}

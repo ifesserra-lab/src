@@ -1,0 +1,28 @@
+{
+  "acao_id": "4163",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=4163&pfdlgcid=a95c083b-188f-4c59-9264-bb6a2b69e87e",
+  "campus": "Serra",
+  "Processo nº": "23158.002269/2022-56",
+  "Natureza": "Ensino",
+  "Coordenador(a)": "Alessandro Bermudes Gomes",
+  "Tipo ação": "Projeto",
+  "Título ação": "Expedição Ifes",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "",
+  "Área temática principal": "",
+  "Área temática secundária": "",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "13/12/2022",
+  "Data de cadastro": "03/11/2022",
+  "Resumo": "A ação ocorre em algumas cidades históricas e/ou com fortes aspectos culturais, alternando o ano da visitação, assim, visitamos uma cidade a cada ano, envolvendo os alunos que estão cursando do primeiro ao quarto módulo (1º e 2º anos) dos cursos técnicos integrados, do Campus Serra.\n\nAs ações extracurriculares envolvem visitação a cidades históricas, visitação aos biomas, sítios arqueológicos e museus de arte e cultura, de cada região do projeto, visando a complementação e suplementação da formação dos estudantes, bem como seu desenvolvimento pessoal, a partir da representatividade dos atravessamentos culturais que recebem.\n\nA ideia, com essa ação complementar é ensinar conteúdos que vão além dos limites da sala de aula e que, por conta disso, podem complementar / suplementar as disciplinas obrigatórias e garantir uma formação ainda mais completa e sólida ao aluno, ao conhecer os aspectos históricos, sócio e culturais in loco, recebendo as informações onde a história ocorreu, conhecendo os aspectos da diversidade biológica diretamente na natureza. As atividades também favorecem a interdisciplinaridade e, dessa forma, uma aprendizagem mais significativa.",
+  "Campus": "Serra",
+  "Grande área conhecimento (inferida)": "Ciências Humanas",
+  "Área temática principal (inferida)": "Cultura",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_grande_area": 0.9,
+    "confianca_area_tematica": 0.95
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "processo": "23158.001292/2019-28",
+  "total_atividades": 5,
+  "total_publico_alvo": 0,
+  "total_equipe": 1,
+  "atividades": [
+    {
+      "num": "001",
+      "atividade": "I Seminário do Núcleo de Estudos Afro-Brasileiros e Indígenas do Ifes Campus Serra – Levantamento das referências culturais de São José do Queimado, Serra/ES",
+      "atividade_id": "8688",
+      "tipo": "Evento",
+      "publico_alvo": [],
+      "equipe_execucao": [
+        {
+          "Nome": "Diego Ramiro Araoz Alves",
+          "CPF": "807.283.085-68",
+          "Vínculo": "Servidor",
+          "Função": "COORDENADOR(A)",
+          "E-mail": "diego.alves@ifes.edu.br",
+          "C.H": "8",
+          "Início": "04/07/2019",
+          "Término": "05/07/2019",
+          "Certificado": "NÃO"
+        }
+      ]
+    },
+    {
+      "num": "002",
+      "atividade": "Palestras",
+      "atividade_id": "8689",
+      "tipo": "Evento",
+      "publico_alvo": [],
+      "equipe_execucao": []
+    },
+    {
+      "num": "003",
+      "atividade": "Mesa-Redonda \"O pedido de Tombamento do SHA de São José do Queimado\"",
+      "atividade_id": "8690",
+      "tipo": "Evento",
+      "publico_alvo": [],
+      "equipe_execucao": []
+    },
+    {
+      "num": "004",
+      "atividade": "Mesa-Redonda \"A questão indígena no Espírito Santo\"",
+      "atividade_id": "8691",
+      "tipo": "Evento",
+      "publico_alvo": [],
+      "equipe_execucao": []
+    },
+    {
+      "num": "005",
+      "atividade": "Plenária \"O que queremos daqui pra frente? Preparativos para o mês de Novembro",
+      "atividade_id": "8692",
+      "tipo": "Evento",
+      "publico_alvo": [],
+      "equipe_execucao": []
+    }
+  ]
+}

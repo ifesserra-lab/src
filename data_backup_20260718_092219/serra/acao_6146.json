@@ -1,0 +1,26 @@
+{
+  "acao_id": "6146",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=6146&pfdlgcid=66aa4f01-4598-4648-ad47-f6fd4fb572a2",
+  "campus": "Serra",
+  "Processo nº": "23158.001059/2026-74",
+  "Natureza": "Ensino",
+  "Coordenador(a)": "Milainy Ludmila Santos Goulart",
+  "Tipo ação": "Evento",
+  "Título ação": "Jogos Internos do Campus Serra (JICS)",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "Ciências da Saúde",
+  "Área temática principal": "",
+  "Área temática secundária": "",
+  "Relatório aprovado": "Não",
+  "Data último relatório": "",
+  "Data de cadastro": "03/07/2026",
+  "Resumo": "Os Jogos Internos do Campus Serra serão realizados em duas etapas durante o ano\nletivo de 2026. Nos meses de julho e outubro, alunos e servidores do campus terão a oportunidade de\nparticiparem de competições esportivas e prestigiarem apresentações artístico-culturais. Surge como\nproposta de formação visando o fomento ao lazer, esporte e cultura.",
+  "Campus": "Serra",
+  "Área temática principal (inferida)": "Cultura",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_area_tematica": 0.95
+  }
+}

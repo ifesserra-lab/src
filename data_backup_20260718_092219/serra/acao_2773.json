@@ -1,0 +1,26 @@
+{
+  "acao_id": "2773",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=2773&pfdlgcid=7f110511-9b3f-495a-93e0-b2150f59243e",
+  "campus": "Serra",
+  "Processo nº": "23158.001963/2019-05",
+  "Natureza": "Extensão",
+  "Coordenador(a)": "Bruno Ramos Gonzaga",
+  "Tipo ação": "Curso",
+  "Título ação": "Ambientação Pedagógica: Didática e Técnicas de Ensino.",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "23158.001812/2017-31 - Ifes para todos",
+  "Grande área conhecimento": "",
+  "Área temática principal": "Educação",
+  "Área temática secundária": "",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "18/12/2019",
+  "Data de cadastro": "01/11/2019",
+  "Resumo": "O curso “Ambientação Pedagógica: Didática e Técnicas de Ensino” tem por objetivo capacitar, por meio\nde um conjunto de conhecimentos pedagógicos elementares de didática e técnicas de\nensino/aprendizado, (i) estudantes dos cursos técnicos e de graduação do campus, (ii) estudantes das\ninstituições parceiras do projeto, e (iii) demais profissionais da área da educação. A metodologia de\nensino envolverá aulas teóricas e oficinas, nas quais serão trabalhados conteúdos tais como: teorias da\naprendizagem, didática do professor, técnicas de disseminação da informação, planejamento\npedagógico e avaliação da aprendizagem. Espera-se ao final, formar discentes com conteúdos\nelementares para desenvolvimento de processos de ensino e aprendizagem.",
+  "Campus": "Serra",
+  "Grande área conhecimento (inferida)": "Ciências Humanas",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_grande_area": 0.95
+  }
+}

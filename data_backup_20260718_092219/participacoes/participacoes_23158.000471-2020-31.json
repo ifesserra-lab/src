@@ -1,0 +1,163 @@
+{
+  "processo": "23158.000471/2020-31",
+  "total_atividades": 5,
+  "total_publico_alvo": 0,
+  "total_equipe": 10,
+  "atividades": [
+    {
+      "num": "001",
+      "atividade": "Física ao Alcance de Todos",
+      "atividade_id": "10285",
+      "tipo": "Projeto",
+      "publico_alvo": [],
+      "equipe_execucao": [
+        {
+          "Nome": "Paulo Antonio de Souza Junior",
+          "CPF": "731.689.206-49",
+          "Vínculo": "Convidado",
+          "Função": "PALESTRANTE",
+          "E-mail": "paulo.desouza@griffith.edu.au",
+          "C.H": "20",
+          "Início": "01/10/2020",
+          "Término": "26/10/2020",
+          "Certificado": "SIM"
+        },
+        {
+          "Nome": "Jefferson Oliveira Andrade",
+          "CPF": "007.989.787-83",
+          "Vínculo": "Servidor",
+          "Função": "PALESTRANTE",
+          "E-mail": "joandrade@ifes.edu.br",
+          "C.H": "20",
+          "Início": "01/10/2020",
+          "Término": "26/10/2020",
+          "Certificado": "SIM"
+        },
+        {
+          "Nome": "Leandro Melo de Sá",
+          "CPF": "985.640.217-49",
+          "Vínculo": "Servidor",
+          "Função": "COORDENADOR(A) ADJUNTO(A)",
+          "E-mail": "leandro.melo@ifes.edu.br",
+          "C.H": "20",
+          "Início": "01/10/2020",
+          "Término": "26/10/2020",
+          "Certificado": "SIM"
+        },
+        {
+          "Nome": "Richard Junior Manuel Godinez Tello",
+          "CPF": "061.569.707-03",
+          "Vínculo": "Servidor",
+          "Função": "PALESTRANTE",
+          "E-mail": "richard@ifes.edu.br",
+          "C.H": "20",
+          "Início": "01/10/2020",
+          "Término": "26/10/2020",
+          "Certificado": "SIM"
+        },
+        {
+          "Nome": "Rosilene de Sá Ribeiro",
+          "CPF": "825.109.466-68",
+          "Vínculo": "Servidor",
+          "Função": "COORDENADOR(A)",
+          "E-mail": "rosilene@ifes.edu.br",
+          "C.H": "60",
+          "Início": "12/03/2020",
+          "Término": "30/11/2020",
+          "Certificado": "SIM"
+        }
+      ]
+    },
+    {
+      "num": "002",
+      "atividade": "Palestra: Introdução à Internet das Coisas na Semana Nacional de Ciência e Tecnologia (SNCT 2020) do Campus Serra",
+      "atividade_id": "11166",
+      "tipo": "Evento",
+      "publico_alvo": [],
+      "equipe_execucao": [
+        {
+          "Nome": "Richard Junior Manuel Godinez Tello",
+          "CPF": "061.569.707-03",
+          "Vínculo": "Servidor",
+          "Função": "PALESTRANTE",
+          "E-mail": "richard@ifes.edu.br",
+          "C.H": "2",
+          "Início": "21/10/2020",
+          "Término": "21/10/2020",
+          "Certificado": "SIM"
+        }
+      ]
+    },
+    {
+      "num": "003",
+      "atividade": "Palestra: Ética na Inteligência Artificial na Semana Nacional de Ciência e Tecnologia (SNCT 2020) do Campus Serra",
+      "atividade_id": "11167",
+      "tipo": "Evento",
+      "publico_alvo": [],
+      "equipe_execucao": [
+        {
+          "Nome": "Paulo Antonio de Souza Junior",
+          "CPF": "731.689.206-49",
+          "Vínculo": "Convidado",
+          "Função": "PALESTRANTE",
+          "E-mail": "paulo.desouza@griffith.edu.au",
+          "C.H": "2",
+          "Início": "21/10/2020",
+          "Término": "21/10/2020",
+          "Certificado": "SIM"
+        }
+      ]
+    },
+    {
+      "num": "004",
+      "atividade": "Palestra: Uma Breve História da Inteligência Artificial na Semana Nacional de Ciência e Tecnologia (SNCT 2020) do Campus Serra",
+      "atividade_id": "11168",
+      "tipo": "Evento",
+      "publico_alvo": [],
+      "equipe_execucao": [
+        {
+          "Nome": "Jefferson Oliveira Andrade",
+          "CPF": "007.989.787-83",
+          "Vínculo": "Servidor",
+          "Função": "PALESTRANTE",
+          "E-mail": "joandrade@ifes.edu.br",
+          "C.H": "2",
+          "Início": "22/10/2020",
+          "Término": "22/10/2020",
+          "Certificado": "SIM"
+        }
+      ]
+    },
+    {
+      "num": "005",
+      "atividade": "Coordenação da Semana Nacional de Ciência e Tecnologia (SNCT 2020) do Campus Serra",
+      "atividade_id": "11169",
+      "tipo": "Evento",
+      "publico_alvo": [],
+      "equipe_execucao": [
+        {
+          "Nome": "Leandro Melo de Sá",
+          "CPF": "985.640.217-49",
+          "Vínculo": "Servidor",
+          "Função": "COORDENADOR(A) ADJUNTO(A)",
+          "E-mail": "leandro.melo@ifes.edu.br",
+          "C.H": "5",
+          "Início": "21/10/2020",
+          "Término": "22/10/2020",
+          "Certificado": "SIM"
+        },
+        {
+          "Nome": "Rosilene de Sá Ribeiro",
+          "CPF": "825.109.466-68",
+          "Vínculo": "Servidor",
+          "Função": "COORDENADOR(A)",
+          "E-mail": "rosilene@ifes.edu.br",
+          "C.H": "5",
+          "Início": "21/10/2020",
+          "Término": "22/10/2020",
+          "Certificado": "SIM"
+        }
+      ]
+    }
+  ]
+}

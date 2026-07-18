@@ -1,0 +1,26 @@
+{
+  "acao_id": "1597",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=1597&pfdlgcid=27b7ed90-f162-49a6-aedb-0bb85c1bb5fc",
+  "campus": "Serra",
+  "Processo nº": "23158.000107/2018-05",
+  "Natureza": "Ensino",
+  "Coordenador(a)": "Alessandra Aguiar Vilarinho",
+  "Tipo ação": "Curso",
+  "Título ação": "Oficina de Crochê Tramando",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "Linguística, Letras e Artes",
+  "Área temática principal": "",
+  "Área temática secundária": "",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "02/03/2018",
+  "Data de cadastro": "02/04/2018",
+  "Resumo": "Tramando é uma o oficina de crochê(*) ou croché (em francês crochet) com periodicidade semanal aberta a toda comunidade Ifes e a toda comunidade externa, onde a técnica do crochê será ensinada aos inexperientes e desenvolvida para os já experientes, com a apresentação de novos usos do crochê com materiais alternativos.\nO objetivo desta oficina é usar a arte do crochê para proporcionar aos praticantes desta técnica artesanal relaxamento, concentração, destreza manual, criatividade, interação social, e geração de renda.\nSerão encontros semanais, com duração de duas horas, para apresentação de uma técnica de crochê para iniciantes ou experientes onde o aprender se materializará pelo fazer.\nNestes encontros semanais, discutiremos assuntos como:\n- Leitura de gráficos e receitas de peças em crochê em textos em Português e em Inglês.\n- Cores e suas combinações.\n- Uso de redes sociais como meio de divulgação dos produtos confeccionados.\n- Como precificar os artefatos produzidos.\nOs resultados esperados são proporcionar aos participantes, através da prática de uma técnica artesanal, concentração, criatividade, destreza manual e socialização.\n(*) Crochê - Trama de linha tecida à mão, com um tipo de agulha que tem um gancho na ponta.",
+  "Campus": "Serra",
+  "Área temática principal (inferida)": "Cultura",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_area_tematica": 0.98
+  }
+}

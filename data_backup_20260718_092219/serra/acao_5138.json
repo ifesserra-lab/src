@@ -1,0 +1,26 @@
+{
+  "acao_id": "5138",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=5138&pfdlgcid=29f37d43-040c-4efa-88d2-03cb289aef03",
+  "campus": "Serra",
+  "Processo nº": "23158.001293/2024-30",
+  "Natureza": "Ensino",
+  "Coordenador(a)": "Emilene Coco dos Santos",
+  "Tipo ação": "Evento",
+  "Título ação": "Semana destinada à Educação Especial Inclusiva - Setembro Verde",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "Ciências Humanas",
+  "Área temática principal": "",
+  "Área temática secundária": "",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "19/12/2024",
+  "Data de cadastro": "30/08/2024",
+  "Resumo": "Este projeto trata da proposta para a Semana destinada à Educação Especial Inclusiva - Setembro Verde prevista no calendário acadêmico no ano de 2024. Essa ação possibilitará a reflexão e debate sobre os desafios vividos pelas pessoas com deficiência na sociedade excludente. Setembro verde é o mês de conscientizar a população sobre a importância da inclusão social de pessoas com deficiência. Assim, o mês é marcado por campanhas em todo o país com o objetivo de colocar os direitos das pessoas com deficiência nas principais pautas. Por meio de atividades como cine debate, oficina de pintura de telas e exposição, palestras, atividade física adaptada e rodas de conversas, será uma oportunidade para o desenvolvimento de práticas inclusivas considerando a luta da pessoa com deficiência para fazer parte da sociedade. Para avaliação das atividades, será aplicado um formulário google forms com questões relacionadas ao grau de satisfação e sugestões para os próximos projetos. Espera-se, com esta semana, contribuir para a criação de contextos significativos de inclusão, motivar a comunidade acadêmica para a luta anticapacitista, e possibilitar a construção de práticas inclusivas nos cursos do campus Serra.",
+  "Campus": "Serra",
+  "Área temática principal (inferida)": "Educação",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_area_tematica": 0.98
+  }
+}

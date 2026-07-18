@@ -1,0 +1,16 @@
+{
+  "processo": "23158.001802/2023-43",
+  "total_atividades": 1,
+  "total_publico_alvo": 0,
+  "total_equipe": 0,
+  "atividades": [
+    {
+      "num": "001",
+      "atividade": "Solução web/mobile baseada em Inteligência Computacional para identificação de infestação por ácaros rajados (Tetranychus urticae) em culturas de morango",
+      "atividade_id": "15492",
+      "tipo": "Projeto",
+      "publico_alvo": [],
+      "equipe_execucao": []
+    }
+  ]
+}

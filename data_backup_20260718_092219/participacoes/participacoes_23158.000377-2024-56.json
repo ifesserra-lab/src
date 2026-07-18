@@ -1,0 +1,16 @@
+{
+  "processo": "23158.000377/2024-56",
+  "total_atividades": 1,
+  "total_publico_alvo": 0,
+  "total_equipe": 0,
+  "atividades": [
+    {
+      "num": "001",
+      "atividade": "CAIS: Ancorando Cultura e Arte no Ifes Serra",
+      "atividade_id": "18089",
+      "tipo": "Projeto",
+      "publico_alvo": [],
+      "equipe_execucao": []
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "acao_id": "454",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=454&pfdlgcid=09575c3a-252a-49ed-a6b5-d2e317c5bcd7",
+  "campus": "Serra",
+  "Processo nº": "23158.000402/2015-19",
+  "Natureza": "Ensino",
+  "Coordenador(a)": "Cristina Klippel Dominicini",
+  "Tipo ação": "Evento",
+  "Título ação": "Seminário dos Grupos de Pesquisa do Campus Serra",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "",
+  "Área temática principal": "",
+  "Área temática secundária": "",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "",
+  "Data de cadastro": "23/06/2015",
+  "Resumo": "A Diretoria de Pesquisa, Pós-Graduação e Extensão realizará no dia 4 de maio (segunda-feira), no auditório do Campus, das 14h às 17h, o Seminário dos Grupos de Pesquisa do campus Serra. O evento tem o objetivo de expor, difundir e discutir os trabalhos de pesquisa dos grupos e contará com apresentações da Coordenação de Pesquisa e de todos os grupos de pesquisa do Campus.\n\nO seminário é destinado aos estudantes dos cursos técnicos e superiores interessados em conhecer melhor as possibilidades de iniciação científica e tecnológica.",
+  "Campus": "Serra",
+  "Área temática principal (inferida)": "Educação",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_area_tematica": 0.8
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "acao_id": "1939",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=1939&pfdlgcid=940e1731-93a6-4036-bf5c-b5b3420b6bb0",
+  "campus": "Serra",
+  "Processo nº": "23158.000471/2018-67",
+  "Natureza": "Ensino",
+  "Coordenador(a)": "Paulo Sérgio dos Santos Júnior",
+  "Tipo ação": "Projeto",
+  "Título ação": "Nova plataforma NVIDIA para HPC e Inteligência Artificial (IA)",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "Ciências Exatas e da Terra",
+  "Área temática principal": "",
+  "Área temática secundária": "",
+  "Relatório aprovado": "Não",
+  "Data último relatório": "",
+  "Data de cadastro": "20/09/2018",
+  "Resumo": "Deep Learning (DL) é a técnica de Aprendizado de Máquina (ML) que vem proporcionando avanços em vários fluxos de trabalho industriais, comerciais e científicos. A Inteligência Artificial moderna é a 4ª revolução industrial. A nova plataforma de IA da NVIDIA, composta por hardware e software, está fornecendo o poder computacional exigido pelos recentes avanços em Deep Learning. A Volta, nossa maisnova e avançada arquitetura de GPUs foi especialmente projetada para as cargas de trabalho de computação de alto desempenho necessárias para treinamento e inferência de Redes Neurais Profundas com uma enorme quantidade de dados de treinamento. É a primeira arquitetura GPU que inclui Tensor Cores (TC), unidades de processamento projetadas para operações com Tensores em altíssima velocidade. A versão mais recente da linguagem CUDA (versão 9) e os SDKs da NVIDIA foram aprimorados para incluir algoritmos especializados e altamente otimizados para extrair o potencial completo de GPUs no treinamento DNN e nas tarefas de inferência em todos os Frameworks de Deep Learning como TensorFlow, CNTK, Caffe, etc. Uma grande variedade de dados pode ser eficientemente usada para treinamento, incluindo texto, áudio, imagens e vídeo. Este novo modelo de computação está fornecendo excelentes resultados em Visão Computacional, Processamento de Linguagem Natural, Tradução de Linguagem, Reconhecimento de Fala, Sistemas de Recomendação, Logística, Carros Autônomos e Robótic.O curso visa apresentar novas tecnologias para o desenvolvimento de aplicações na disciplina de Data Science.",
+  "Campus": "Serra",
+  "Área temática principal (inferida)": "Tecnologia e Produção",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_area_tematica": 0.98
+  }
+}

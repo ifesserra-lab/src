@@ -1,0 +1,28 @@
+{
+  "acao_id": "388",
+  "url_detalhe": "https://src.ifes.edu.br/src/public/detalha-acao.xhtml?acao=388&pfdlgcid=29494dbf-c9b8-4958-8286-ad9d29c09de1",
+  "campus": "Serra",
+  "Processo nº": "23158.001085/2014-69",
+  "Natureza": "Ensino",
+  "Coordenador(a)": "Bruno Ramos Gonzaga",
+  "Tipo ação": "Curso",
+  "Título ação": "Curso de Aprofundamento de Estudos em Matemática Aplicada à Engenharia",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "",
+  "Área temática principal": "",
+  "Área temática secundária": "",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "",
+  "Data de cadastro": "23/12/2014",
+  "Resumo": "O curso de Aprofundamento de Estudos em Matemática Aplicada à Engenharia será ministrado em 12 horas, sendo duas horas por disciplina: Cálculo I, Cálculo II, Cálculo III, Álgebra Linear, Geometria Análitica e Estatística, sendo que em cada disciplina, serão abordados tópicos de unidades curriculares.",
+  "Campus": "Serra",
+  "Grande área conhecimento (inferida)": "Engenharias",
+  "Área temática principal (inferida)": "Educação",
+  "_inferencia": {
+    "modelo": "mistral-small-latest",
+    "quando": "2026-07-18T09:08:55",
+    "confianca_grande_area": 0.95,
+    "confianca_area_tematica": 0.9
+  }
+}

@@ -13,6 +13,7 @@ ATENÇÃO: coleta dados pessoais (nome, CPF, e-mail). Mantenha o resultado local
 
 from __future__ import annotations
 
+import asyncio
 import os
 from pathlib import Path
 from urllib.parse import quote
@@ -193,6 +194,26 @@ async def _coletar_processo(page: Page, processo: str, user: str, senha: str, lo
     )
 
 
+async def _processar_lista(page: Page, processos: list[str], user: str, senha: str,
+                           log, on_processo, retry: int = 2) -> dict[str, AcaoParticipacoes]:
+    """Processa uma fatia de processos numa aba (com retry por processo)."""
+    res: dict[str, AcaoParticipacoes] = {}
+    for proc in processos:
+        for tent in range(retry):
+            try:
+                ap = await _coletar_processo(page, proc, user, senha, log)
+                res[proc] = ap
+                if on_processo:
+                    on_processo(ap)  # salva já, protege progresso
+                break
+            except Exception as e:
+                if tent + 1 >= retry:
+                    log(f"[{proc}] ERRO (após {retry} tentativas): {str(e)[:70]}")
+                else:
+                    await page.wait_for_timeout(1500)
+    return res
+
+
 async def coletar_participacoes(
     processos: list[str],
     *,
@@ -201,11 +222,16 @@ async def coletar_participacoes(
     headless: bool = True,
     on_progress=None,
     on_processo=None,
+    workers: int = 1,
 ) -> dict[str, AcaoParticipacoes]:
-    """Login e coleta participações de vários processos (sessão única).
+    """UM login; coleta participações de vários processos.
 
-    on_processo(AcaoParticipacoes): callback chamado ao concluir cada processo
-    (permite salvar incrementalmente e não perder progresso em jobs longos).
+    workers>1 abre N abas na MESMA sessão (um único login) e divide os processos
+    entre elas — validado: o estado por-aba do JSF não é clobberado. Cada aba
+    roda sua fatia sequencialmente; as abas rodam concorrentes.
+
+    on_processo(AcaoParticipacoes): callback ao concluir cada processo (save
+    incremental — seguro entre abas, pois o event loop é cooperativo).
     """
     log = on_progress or (lambda _m: None)
     if not user or not senha:
@@ -214,22 +240,31 @@ async def coletar_participacoes(
     resultado: dict[str, AcaoParticipacoes] = {}
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=headless)
-        page = await browser.new_page(viewport={"width": 1440, "height": 900})
-        await _login(page, user, senha)
-        log("login OK")
-        for proc in processos:
-            try:
-                ap = await _coletar_processo(page, proc, user, senha, log)
-                resultado[proc] = ap
-                if on_processo:
-                    on_processo(ap)   # salva já, protege progresso
-            except Exception as e:
-                log(f"[{proc}] ERRO: {e}")
-        # logout best-effort
-        try:
-            await page.hover("text=Paulo")
-            await page.wait_for_timeout(400)
-            await page.locator("[id='logout']").click(timeout=4000)
+        ctx = await browser.new_context(viewport={"width": 1440, "height": 900})
+
+        # LOGIN uma única vez (cookie compartilhado por todas as abas do contexto)
+        login_page = await ctx.new_page()
+        await _login(login_page, user, senha)
+        log(f"login OK ({len(processos)} processos, {max(1, workers)} aba(s))")
+
+        k = max(1, min(workers, len(processos) or 1))
+        if k <= 1:
+            resultado = await _processar_lista(login_page, processos, user, senha, log, on_processo)
+        else:
+            # round-robin -> fatias balanceadas
+            fatias = [processos[i::k] for i in range(k)]
+            paginas = [login_page] + [await ctx.new_page() for _ in range(k - 1)]
+            partes = await asyncio.gather(*[
+                _processar_lista(paginas[i], fatias[i], user, senha, log, on_processo)
+                for i in range(k)
+            ])
+            for parte in partes:
+                resultado.update(parte)
+
+        try:  # logout best-effort
+            await login_page.hover("text=Paulo")
+            await login_page.wait_for_timeout(400)
+            await login_page.locator("[id='logout']").click(timeout=4000)
         except Exception:
             pass
         await browser.close()

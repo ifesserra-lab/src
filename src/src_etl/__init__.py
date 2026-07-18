@@ -43,7 +43,7 @@ from .etl import (
     salvar_por_campus,
 )
 
-__version__ = "0.26.0"
+__version__ = "0.27.0"
 
 __all__ = [
     # etl

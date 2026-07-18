@@ -1,0 +1,24 @@
+{
+  "atividade_id": "5132",
+  "numero": "001",
+  "atividade": "BoardGames: Divirta-se Estimulando Sua Mente",
+  "acao_id": "1613",
+  "acao_titulo": "BoardGames: Divirta-se Estimulando Sua Mente",
+  "processo": "23158.000186/2018-46",
+  "coordenador_acao": "Flavio Severiano Lamas de Souza",
+  "publico_alvo": {
+    "total": 2,
+    "aprovados": 2,
+    "certificados": 2,
+    "situacao": {
+      "APROVADO": 2
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Flavio Severiano Lamas de Souza",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

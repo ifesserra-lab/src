@@ -1,0 +1,35 @@
+{
+  "slug": "lucas-machado-santos",
+  "nome": "Lucas Machado Santos",
+  "resumo_ia": "Participou como aluno(a) em atividade curricular em 2022 no projeto SmartIdea - Validação de Problemas e Ideias e como voluntário no mesmo ano no SprintLab - Laboratório de Prototipação Acelerada, envolvendo-se em iniciativas de extensão relacionadas à inovação e prototipação.",
+  "anos": [
+    "2022"
+  ],
+  "funcoes": [
+    "ALUNO(A) EM ATIVIDADE CURRICULAR",
+    "ALUNO(A) VOLUNTARIO"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "4034",
+      "titulo": "SmartIdea - Validação de Problemas e Ideias",
+      "tipo": "Projeto",
+      "ano": "2022",
+      "n": 31,
+      "funcoes": [
+        "ALUNO(A) EM ATIVIDADE CURRICULAR"
+      ]
+    },
+    {
+      "acao_id": "4215",
+      "titulo": "SprintLab - Laboratório de Prototipação Acelerada",
+      "tipo": "Programa",
+      "ano": "2022",
+      "n": 76,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ]
+    }
+  ]
+}

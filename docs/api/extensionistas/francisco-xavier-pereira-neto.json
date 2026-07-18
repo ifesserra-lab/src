@@ -1,0 +1,24 @@
+{
+  "slug": "francisco-xavier-pereira-neto",
+  "nome": "Francisco Xavier Pereira Neto",
+  "resumo_ia": "Ministrou aulas como instrutor no Circuito Audiovisual em 2019, participando de ações extensionistas voltadas à produção audiovisual.",
+  "anos": [
+    "2019"
+  ],
+  "funcoes": [
+    "INSTRUTOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "2505",
+      "titulo": "Circuito Audiovisual",
+      "tipo": "Projeto",
+      "ano": "2019",
+      "n": 231,
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ]
+    }
+  ]
+}

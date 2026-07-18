@@ -1,0 +1,695 @@
+{
+  "acao_id": "1238",
+  "Processo nº": "23158.000398/2017-42",
+  "Título ação": "II Seminário de Educação Especial no Instituto Federal do Espírito Santo",
+  "Natureza": "Pesquisa",
+  "Tipo ação": "Evento",
+  "Coordenador(a)": "Renata Imaculada de Oliveira Teixeira",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "Ciências Humanas",
+  "Área temática principal": "",
+  "Área temática principal (inferida)": "Educação",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "03/10/2017",
+  "Data de cadastro": "27/07/2017",
+  "Resumo": "Evento para fortalecer a pesquisa na área de educação especial.",
+  "Campus": "Serra",
+  "total_participacoes": 217,
+  "publico_alvo_total": 145,
+  "atividades": [
+    {
+      "atividade_id": "3289",
+      "numero": "001",
+      "atividade": "II Seminário de Educação Especial no Instituto Federal do Espírito Santo",
+      "publico": 144,
+      "aprovados": 144,
+      "certificados": 144,
+      "equipe": 21
+    },
+    {
+      "atividade_id": "3290",
+      "numero": "002",
+      "atividade": "Conferência de Abertura \"Avaliação do público-alvo da educação especial no Brasil\"",
+      "publico": 1,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 2
+    },
+    {
+      "atividade_id": "3291",
+      "numero": "003",
+      "atividade": "Mesa Temática \"Inclusão no Ensino Médio e no Ensino Superior\"",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 3
+    },
+    {
+      "atividade_id": "3292",
+      "numero": "004",
+      "atividade": "Mesa Temática \"Atentimento Educacional Especializado\"",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 3
+    },
+    {
+      "atividade_id": "3293",
+      "numero": "005",
+      "atividade": "Mesa Temática \"Inclusão no Ensino Médio e na Educação Profissional: relatos de experiências",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 5
+    },
+    {
+      "atividade_id": "3666",
+      "numero": "006",
+      "atividade": "Minicurso “ Avaliação”",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 2
+    },
+    {
+      "atividade_id": "3667",
+      "numero": "007",
+      "atividade": "Minicurso “Deficiência Intelectual”",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "3668",
+      "numero": "008",
+      "atividade": "Minicurso “Deficiência Visual”",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 2
+    },
+    {
+      "atividade_id": "3669",
+      "numero": "009",
+      "atividade": "Minicurso “Tecnologias Assistivas “",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 2
+    },
+    {
+      "atividade_id": "3670",
+      "numero": "010",
+      "atividade": "Minicurso “Surdez",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 2
+    },
+    {
+      "atividade_id": "3671",
+      "numero": "011",
+      "atividade": "Minicurso “Tradução e Interpretação de Libras”",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 2
+    },
+    {
+      "atividade_id": "3672",
+      "numero": "012",
+      "atividade": "Minicurso “Altas Habilidades/Superdotação”",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 2
+    },
+    {
+      "atividade_id": "3674",
+      "numero": "013",
+      "atividade": "Apresentação de Pôster \"Música e acessibilidade: o samba como recurso didático para promoção de aprendizagem de perspectiva histórico-cultural\"",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "3675",
+      "numero": "014",
+      "atividade": "Apresentação de Pôster \"Duas práticas pedagógicas no contexto hospitalar: um caso fenomenológico-exploratório de uma criança recentemente cega devido a uma craniofaringioma\"",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 3
+    },
+    {
+      "atividade_id": "3676",
+      "numero": "015",
+      "atividade": "Apresentação de Pôster \"Inclusão de aluno com deficiência auditiva: trabalho colaborativo em educação física escolar \"",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "3677",
+      "numero": "016",
+      "atividade": "Apresentação de Pôster \"Avanços possíveis através de práticas pedagógicas na classe hospitalar: um olhar fenomenológico e existencial sobre o brincar \"",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 2
+    },
+    {
+      "atividade_id": "3679",
+      "numero": "018",
+      "atividade": "Apresentação de Pôster \"Autismo e formação humana: apropriação da língua materna\"",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "3680",
+      "numero": "019",
+      "atividade": "Apresentação de Pôster \"Síndrome de asperger: um estudo de caso sobre as práticas docentes como possibilidade de aprendizagem\"",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 3
+    },
+    {
+      "atividade_id": "3681",
+      "numero": "020",
+      "atividade": "Apresentação de Pôster \"Práxis pedagógica e escolarização dos estudantes com deficiências: desvelando os desafios da permanência\"",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "3682",
+      "numero": "021",
+      "atividade": "Apresentação de Pôster \"A contribuição das brincadeiras para o desenvolvimento da criança com autismo\"",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "3683",
+      "numero": "022",
+      "atividade": "Apresentação de Pôster \"O material didático táctil sobre síntese de proteínas e os alunos deficientes visuais do ensino médio: desafios de uma estratégia inclusiva de apresentação dos conteúdos teóricos referentes a fisiologia da célula\"",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "3684",
+      "numero": "023",
+      "atividade": "Apresentação de Pôster \"Deficiência visual em um curso Técnico Integrado ao Ensino Médio: primeiras impressões no campus Piúma - Ifes\"",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 3
+    },
+    {
+      "atividade_id": "3685",
+      "numero": "024",
+      "atividade": "Apresentação de Pôster \"A monitoria e os alunos com necessidades específicas no Ifes campus Vitória\"",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 2
+    },
+    {
+      "atividade_id": "3686",
+      "numero": "025",
+      "atividade": "Apresentação de Pôster \"Núcleo de acessibilidade da universidade federal do espírito santo: promovendo autonomia dos sujeitos com deficiência\"",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "3687",
+      "numero": "026",
+      "atividade": "Apresentação de Pôster \"A Libras como Instrumento de Inclusão do Educando Surdo no Proeja Ifes campus Vitória\"",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "3688",
+      "numero": "027",
+      "atividade": "Apresentação de Pôster \"Reflexões sobre o brincar e a brinquedoteca: (des)velando percepções e (re)significações de sentidos para uma educação especial inclusiva\"",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "3836",
+      "numero": "028",
+      "atividade": "Apresentação de Pôster \"Novas Tecnologias e Acessibilidade nas Bibliotecas do Instituto Federal do Espírito Santo\"",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 3
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Alice Pilon do Nascimento",
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Aline de Menezes Bregonci",
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Ana Carolina Sampaio Frizzera",
+      "funcoes": [
+        "AUTOR(A)"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Ana Karyne Loureiro Furley",
+      "funcoes": [
+        "AUTOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Andressa Dias Koehler",
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Ariadna Pereira Siqueira Effgen",
+      "funcoes": [
+        "PALESTRANTE"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Aryane da Silva Spadeto",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Athyla Caetano",
+      "funcoes": [
+        "AUTOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Bianca Navarro Marinho Meireles",
+      "funcoes": [
+        "AUTOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Carla Biancha Angelucci",
+      "funcoes": [
+        "PALESTRANTE"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Carla Fabrícia Conradt",
+      "funcoes": [
+        "AUTOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Carly Cruz",
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Carmem Lúcia de Gouvêa Furiere",
+      "funcoes": [
+        "AUTOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Christiane Mara Goulart",
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Cristiano da Silveira Colombo",
+      "funcoes": [
+        "PALESTRANTE"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Cátia Aparecida Palmeira",
+      "funcoes": [
+        "PALESTRANTE"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Danielli Veiga Carneiro Sondermann",
+      "funcoes": [
+        "AUTOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Douglas Christian Ferrari de Melo",
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Fabianna Santana Moço",
+      "funcoes": [
+        "AUTOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Fernanda de Araújo Binatti Chiote",
+      "funcoes": [
+        "PALESTRANTE"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Fernanda dos Santos Nogueira",
+      "funcoes": [
+        "AUTOR(A)",
+        "INSTRUTOR(A)",
+        "INTÉRPRETE",
+        "PALESTRANTE"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Flavia Costa Lima Dubberstein",
+      "funcoes": [
+        "MEDIADOR(A)",
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Gabriel Schimith dos Santos",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Gianni Marcela Boechard Magalhães",
+      "funcoes": [
+        "AUTOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Gisleni Barbosa da Silva Vidal",
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Hedlamar Fernandes Silva Lima",
+      "funcoes": [
+        "AUTOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Helano da Silva Santana Mendes",
+      "funcoes": [
+        "INTÉRPRETE"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Hiran Pinel",
+      "funcoes": [
+        "AUTOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Ingrid dos Anjos dos Santos",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Jader de Oliveira",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Jaqueline Bragio",
+      "funcoes": [
+        "AUTOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Joaquim Cesar Cunha dos Santos",
+      "funcoes": [
+        "AUTOR(A)",
+        "INSTRUTOR(A)",
+        "INTÉRPRETE"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Josiane Beltrame Milanesi",
+      "funcoes": [
+        "PALESTRANTE"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Joyce Karolina Ribeiro Baiense",
+      "funcoes": [
+        "INTÉRPRETE"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Keila Cardoso Teixeira",
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Larissy Alves Cotonhoto",
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Laís Carla Simeão da Silva Santos",
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Ludmila Ferreira Liberato dos Santos",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Luiz Anhaia Vasconcelos",
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Marcela Gama da Silva Gomide",
+      "funcoes": [
+        "MEDIADOR(A)",
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Marcela Geada Cavalieri",
+      "funcoes": [
+        "AUTOR(A)"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Maria da Penha Costa Benevides França Silva",
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Mariana Aguiar Correia Lima Gonçalves",
+      "funcoes": [
+        "AUTOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Marileide Gonçalves França",
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Marinete dos Reis Ramos",
+      "funcoes": [
+        "INTÉRPRETE"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Marta Alves da Cruz Souza",
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Mauricio Matos Bonfim",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Mayara Nascimento Natividade",
+      "funcoes": [
+        "AUTOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Monique Suderhus Leppaus Fassarella",
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Rayra Sarmento Ferreira Subtil",
+      "funcoes": [
+        "AUTOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Renata Imaculada de Oliveira Teixeira",
+      "funcoes": [
+        "COORDENADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Rosiane Nascimento do Santíssimo",
+      "funcoes": [
+        "PALESTRANTE"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Rosilene Supriano de Jesus Rosa",
+      "funcoes": [
+        "AUTOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Saulo Gomes Vilar dos Santos",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Sidnilia Ferreira Costa de Sousa",
+      "funcoes": [
+        "AUTOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Simone Aparecida Fernandes Anastácio",
+      "funcoes": [
+        "PALESTRANTE"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Suelen da Silva Salles",
+      "funcoes": [
+        "INSTRUTOR(A)",
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Tarine de Araújo Coimbra de Abreu",
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Verônica dos Santos Ribeiro",
+      "funcoes": [
+        "AUTOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Wagner Kirmse Caldas",
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ],
+      "vinculo": "Servidor"
+    }
+  ]
+}

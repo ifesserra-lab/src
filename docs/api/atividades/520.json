@@ -1,0 +1,18 @@
+{
+  "atividade_id": "520",
+  "numero": "003",
+  "atividade": "Operador de Computador",
+  "acao_id": "109",
+  "acao_titulo": "Curso de Operador de Computador",
+  "processo": "23158.000917/2013-49",
+  "coordenador_acao": "Elizangela Campos da Rosa Broetto",
+  "publico_alvo": {
+    "total": 12,
+    "aprovados": 12,
+    "certificados": 12,
+    "situacao": {
+      "APROVADO": 12
+    }
+  },
+  "equipe_execucao": []
+}

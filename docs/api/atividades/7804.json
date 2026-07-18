@@ -1,0 +1,27 @@
+{
+  "atividade_id": "7804",
+  "numero": "019",
+  "atividade": "Tutoria em Cálculo III",
+  "acao_id": "650",
+  "acao_titulo": "Tutoria de Estudos Orientados",
+  "processo": "23158.000371/2015-98",
+  "coordenador_acao": "Bruno Ramos Gonzaga",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Hudson Curto Dalprá",
+      "funcao": "ALUNO(A) VOLUNTARIO",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Graziela Barboza Guaitolini Ramos",
+      "funcao": "PROFESSOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

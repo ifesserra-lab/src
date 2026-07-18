@@ -1,0 +1,24 @@
+{
+  "slug": "yago-souza-santos",
+  "nome": "Yago Souza Santos",
+  "resumo_ia": "Participou como aluno bolsista em 2018 na equipe do projeto 'Mutual Life: Um aplicativo para seguros colaborativos', contribuindo para ações de extensão relacionadas ao desenvolvimento de soluções tecnológicas colaborativas.",
+  "anos": [
+    "2018"
+  ],
+  "funcoes": [
+    "ALUNO(A) BOLSISTA"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1786",
+      "titulo": "Mutual Life: Um aplicativo para seguros colaborativos",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 4,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ]
+    }
+  ]
+}

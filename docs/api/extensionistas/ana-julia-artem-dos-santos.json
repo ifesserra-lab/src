@@ -1,0 +1,24 @@
+{
+  "slug": "ana-julia-artem-dos-santos",
+  "nome": "Ana Julia Artem dos Santos",
+  "resumo_ia": "Atuou como professora voluntária na ação 'O IFES é o meu lugar' em 2023, contribuindo para a promoção da instituição por meio de atividades extensionistas.",
+  "anos": [
+    "2023"
+  ],
+  "funcoes": [
+    "PROFESSOR(A) VOLUNTÁRIO"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "4597",
+      "titulo": "O IFES é o meu lugar",
+      "tipo": "Projeto",
+      "ano": "2023",
+      "n": 87,
+      "funcoes": [
+        "PROFESSOR(A) VOLUNTÁRIO"
+      ]
+    }
+  ]
+}

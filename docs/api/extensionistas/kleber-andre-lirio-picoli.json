@@ -1,0 +1,24 @@
+{
+  "slug": "kleber-andre-lirio-picoli",
+  "nome": "Kleber André Lirio Picoli",
+  "resumo_ia": "Desenvolveu atividades como aluno bolsista no projeto de Sistema para predição de transtornos mentais comuns na atenção primária à saúde em 2018, apoiando ações de extensão na área da saúde.",
+  "anos": [
+    "2018"
+  ],
+  "funcoes": [
+    "ALUNO(A) BOLSISTA"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1834",
+      "titulo": "Sistema para predição de transtornos mentais comuns na atenção primária a saúde",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 5,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ]
+    }
+  ]
+}

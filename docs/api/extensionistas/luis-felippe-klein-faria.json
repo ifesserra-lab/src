@@ -1,0 +1,36 @@
+{
+  "slug": "luis-felippe-klein-faria",
+  "nome": "Luis Felippe Klein Faria",
+  "resumo_ia": "Atuou como expositor na ação Física ao Alcance de Todos em 2018 e como colaborador na SEMANA DE CONTROLE E AUTOMAÇÃO em 2016, contribuindo para a promoção de eventos extensionistas.",
+  "anos": [
+    "2016",
+    "2018"
+  ],
+  "funcoes": [
+    "COLABORADOR(A)",
+    "EXPOSITOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "2021",
+      "titulo": "Física ao Alcance de Todos",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 429,
+      "funcoes": [
+        "EXPOSITOR(A)"
+      ]
+    },
+    {
+      "acao_id": "899",
+      "titulo": "SEMANA DE CONTROLE E AUTOMAÇÃO",
+      "tipo": "Evento",
+      "ano": "2016",
+      "n": 181,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    }
+  ]
+}

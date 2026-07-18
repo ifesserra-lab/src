@@ -1,0 +1,24 @@
+{
+  "slug": "caio-bastos-buteri",
+  "nome": "Caio Bastos Buteri",
+  "resumo_ia": "Exerceu a função de expositor(a) na equipe do projeto Física ao Alcance de Todos em 2018, atuando em ações de divulgação científica e extensão.",
+  "anos": [
+    "2018"
+  ],
+  "funcoes": [
+    "EXPOSITOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "2021",
+      "titulo": "Física ao Alcance de Todos",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 429,
+      "funcoes": [
+        "EXPOSITOR(A)"
+      ]
+    }
+  ]
+}

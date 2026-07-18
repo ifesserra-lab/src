@@ -1,0 +1,34 @@
+{
+  "atividade_id": "14036",
+  "numero": "041",
+  "atividade": "Minicurso de Git e GitHub",
+  "acao_id": "3140",
+  "acao_titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+  "processo": "23158.001185/2020-56",
+  "coordenador_acao": "Emmanuel Marques Silva",
+  "publico_alvo": {
+    "total": 15,
+    "aprovados": 15,
+    "certificados": 15,
+    "situacao": {
+      "APROVADO": 15
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Bruno Cardoso Coutinho",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Samuel da Silva José",
+      "funcao": "ALUNO(A) BOLSISTA",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Gabrielle Azevedo Barros da Cunha Duda",
+      "funcao": "ALUNO(A) BOLSISTA",
+      "vinculo": "Aluno"
+    }
+  ]
+}

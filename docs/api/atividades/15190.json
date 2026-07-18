@@ -1,0 +1,24 @@
+{
+  "atividade_id": "15190",
+  "numero": "043",
+  "atividade": "1° Circuito Tecnológico 2023: Academia x Indústria - Engenharia Avançada",
+  "acao_id": "3140",
+  "acao_titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+  "processo": "23158.001185/2020-56",
+  "coordenador_acao": "Emmanuel Marques Silva",
+  "publico_alvo": {
+    "total": 89,
+    "aprovados": 89,
+    "certificados": 89,
+    "situacao": {
+      "APROVADO": 89
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Karin Satie Komati",
+      "funcao": "COORDENADOR(A) TÉCNICO-CIENTÍFICO",
+      "vinculo": "Servidor"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "atividade_id": "18849",
+  "numero": "070",
+  "atividade": "I Workshop de Formação sobre Mediação EaD – Curso de Tecnologia em Sistemas para Internet",
+  "acao_id": "3140",
+  "acao_titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+  "processo": "23158.001185/2020-56",
+  "coordenador_acao": "Emmanuel Marques Silva",
+  "publico_alvo": {
+    "total": 22,
+    "aprovados": 22,
+    "certificados": 22,
+    "situacao": {
+      "APROVADO": 22
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Kamila Scalzer",
+      "funcao": "APOIO TÉCNICO",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Wagner Scopel Falcão",
+      "funcao": "INSTRUTOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Luciene Torezani Alves",
+      "funcao": "APOIO TÉCNICO",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Geruza Ferreira Martins",
+      "funcao": "APOIO TÉCNICO",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Elisabete Rodrigues de Almeida",
+      "funcao": "APOIO TÉCNICO",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Mateus Conrad Barcelos da Costa",
+      "funcao": "INSTRUTOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

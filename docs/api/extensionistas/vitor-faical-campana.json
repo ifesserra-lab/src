@@ -1,0 +1,33 @@
+{
+  "slug": "vitor-faical-campana",
+  "nome": "Vitor Faiçal Campana",
+  "resumo_ia": "Coordenou o projeto Conexão Ciência: Transformação Digital das Atividades do Centro de Ciência Educação e Cultura - Praça da Ciência em 2025 e atuou como apoio técnico no LAMPEX em 2020.",
+  "anos": [
+    "2020",
+    "2025"
+  ],
+  "funcoes": [
+    "APOIO TÉCNICO"
+  ],
+  "acoes_coordenadas": [
+    {
+      "acao_id": "5539",
+      "titulo": "Conexão Ciência: Transformação Digital das Atividades do Centro de Ciência Educação e Cultura - Praça da Ciência",
+      "tipo": "Projeto",
+      "ano": "2025",
+      "n": 0
+    }
+  ],
+  "participacoes_equipe": [
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "APOIO TÉCNICO"
+      ]
+    }
+  ]
+}

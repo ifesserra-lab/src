@@ -1,0 +1,111 @@
+{
+  "acao_id": "2285",
+  "Processo nº": "23158.001690/2018-63",
+  "Título ação": "ES Na Palma da Mão: Uma Plataforma baseado em serviços para Cidades Humanas, Inteligentes e Sustentáveis",
+  "Natureza": "Extensão",
+  "Tipo ação": "Projeto",
+  "Coordenador(a)": "Felipe Frechiani de Oliveira",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "",
+  "Grande área conhecimento (inferida)": "Ciências Sociais Aplicadas",
+  "Área temática principal": "Educação",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "30/12/2019",
+  "Data de cadastro": "19/03/2019",
+  "Resumo": "Visando implementar os conceitos de Cidades Humans, Inteligentes e Sustentáveis o Governo do Espírito Santo, por meio do Instito de Tecnologia de Infortmação e Comunicação do Estado do Espírito Santo (PRODEST), criou um projeto denominado \"ES Na Palma da Mão: Uma Plataforma baseado em serviços para Cidades Humanas, Inteligentes e Sustentáveis\", chamado de ESPM.\nA  plataforma ESPM tem como objetivo prover ao Estado caracxterísticas de CHIS através da disponibilização de ser viços e aplicações acessíveis para qualquer cidadão interagir de uma forma simples com a cidade por meio de um smartphone. O ESPM auxilia o capixaba a resolver problemas do seu cotidiano de forma simples e eficaz como, por exemplo, mostrar qual ônibus ele pode embarcar para se dirigir a uma praia ou, até mesmo, avisar o cidadão que o ônibus a embarcar está se aproximando de sua casa, serviço, ou escola.",
+  "Campus": "Serra",
+  "total_participacoes": 12,
+  "publico_alvo_total": 0,
+  "atividades": [
+    {
+      "atividade_id": "7822",
+      "numero": "001",
+      "atividade": "ES Na Palma da Mão: Uma Plataforma baseado em serviços para Cidades Humanas, Inteligentes e Sustentáveis",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 12
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "David Pantaleão Vilaça",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "David de Moura Marques",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Felipe Frechiani de Oliveira",
+      "funcoes": [
+        "COORDENADOR(A)",
+        "COORDENADOR(A) ADJUNTO(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Gary Moura da Silva",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Icaro Duarte Gavazza Lima",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Lucas Gomes Flegler",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Marcos Antonio Carneiro de Paula",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Matheus Kleber Rodrigues Barbosa",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Paulo Ricardo Viana Ferreira",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Paulo Sérgio dos Santos Júnior",
+      "funcoes": [
+        "COORDENADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Tarcisio Bruni Rangel",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ],
+      "vinculo": "Aluno"
+    }
+  ]
+}

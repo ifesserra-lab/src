@@ -1,0 +1,34 @@
+{
+  "atividade_id": "14082",
+  "numero": "001",
+  "atividade": "PEAM – Programa de Estudos Avançados em Matemática",
+  "acao_id": "4096",
+  "acao_titulo": "PEAM – Programa de Estudos Avançados em Matemática",
+  "processo": "23158.003616/2022-68",
+  "coordenador_acao": "Paulo Cezar Camargo Guedes",
+  "publico_alvo": {
+    "total": 48,
+    "aprovados": 48,
+    "certificados": 48,
+    "situacao": {
+      "APROVADO": 48
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Fidelis Zanetti de Castro",
+      "funcao": "PROFESSOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Augusto Cesar Machado Ramos",
+      "funcao": "PROFESSOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Paulo Cezar Camargo Guedes",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

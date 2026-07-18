@@ -1,0 +1,24 @@
+{
+  "slug": "marcio-bender-machado",
+  "nome": "Marcio Bender Machado",
+  "resumo_ia": "Atuou como instrutor na ação 'Despertar da Força - Processos e Ferramentas para o Gerenciamento Ágil de Projetos: Uma Abordagem Prática', em 2016, contribuindo com a formação de participantes em metodologias ágeis.",
+  "anos": [
+    "2016"
+  ],
+  "funcoes": [
+    "INSTRUTOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "930",
+      "titulo": "Despertar da Força - Processos e Ferramentas para o Gerenciamento Ágil de Projetos: Uma Abordagem Prática",
+      "tipo": "Curso",
+      "ano": "2016",
+      "n": 68,
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ]
+    }
+  ]
+}

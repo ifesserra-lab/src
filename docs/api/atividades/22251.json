@@ -1,0 +1,95 @@
+{
+  "atividade_id": "22251",
+  "numero": "013",
+  "atividade": "Palestra promovida pelo LIEFIS: \"Compreendendo a Lei do Superendividamento\".",
+  "acao_id": "5852",
+  "acao_titulo": "SOF – Serviço de Orientação Financeira (unidade Ifes Serra)",
+  "processo": "23158.002622/2025-41",
+  "coordenador_acao": "Emmanuel Marques Silva",
+  "publico_alvo": {
+    "total": 29,
+    "aprovados": 28,
+    "certificados": 28,
+    "situacao": {
+      "CURSANDO": 1,
+      "APROVADO": 28
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Pedro Carvalho Goularte",
+      "funcao": "PALESTRANTE",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Thiago Almeida Deps Caldeira",
+      "funcao": "EXTENSIONISTA",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Emmanuel Marques Silva",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Luiz Guilherme de Souza Zottich",
+      "funcao": "EXTENSIONISTA",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "João Pedro Pagotto da Costa",
+      "funcao": "EXTENSIONISTA",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Alex Rossoni Junior",
+      "funcao": "EXTENSIONISTA",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Felipe Becalli Trindade",
+      "funcao": "EXTENSIONISTA",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Thalison Vinícius Euzebio Ribeiro",
+      "funcao": "EXTENSIONISTA",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Maycon Pequeno Silva",
+      "funcao": "EXTENSIONISTA",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Gustavo Laube Schwartz",
+      "funcao": "EXTENSIONISTA",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Irlane Schmidt da Silva Alves",
+      "funcao": "EXTENSIONISTA",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Juliano Antônio da Silveira",
+      "funcao": "EXTENSIONISTA",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Irene Schmidt da Silva Alves",
+      "funcao": "EXTENSIONISTA",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Renata Baptista",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Patricia Maria Bortolon",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Convidado"
+    }
+  ]
+}

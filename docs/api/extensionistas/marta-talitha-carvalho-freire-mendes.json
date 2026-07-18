@@ -1,0 +1,40 @@
+{
+  "slug": "marta-talitha-carvalho-freire-mendes",
+  "nome": "Marta Talitha Carvalho Freire Mendes",
+  "resumo_ia": "Coordenou os projetos 'Letramento Tecnológico para Idosos' em 2023 e 'Portal de Comunicação para Denunciar Casos de Violência Contra a Pessoas Idosas' em 2024, além de integrar o comitê gestor do projeto 'Conectando Talentos: Robótica e Programação no IFES-Serra' em 2024.",
+  "anos": [
+    "2023",
+    "2024"
+  ],
+  "funcoes": [
+    "MEMBRO DE COMITÊ GESTOR"
+  ],
+  "acoes_coordenadas": [
+    {
+      "acao_id": "4808",
+      "titulo": "Letramento Tecnológico para Idosos",
+      "tipo": "Projeto",
+      "ano": "2023",
+      "n": 0
+    },
+    {
+      "acao_id": "5065",
+      "titulo": "Portal de Comunicação para Denunciar Casos de Violência Contra a Pessoas Idosas",
+      "tipo": "Projeto",
+      "ano": "2024",
+      "n": 0
+    }
+  ],
+  "participacoes_equipe": [
+    {
+      "acao_id": "5086",
+      "titulo": "Conectando Talentos: Robótica e Programação no IFES-Serra",
+      "tipo": "Projeto",
+      "ano": "2024",
+      "n": 218,
+      "funcoes": [
+        "MEMBRO DE COMITÊ GESTOR"
+      ]
+    }
+  ]
+}

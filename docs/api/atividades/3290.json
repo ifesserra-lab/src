@@ -1,0 +1,29 @@
+{
+  "atividade_id": "3290",
+  "numero": "002",
+  "atividade": "Conferência de Abertura \"Avaliação do público-alvo da educação especial no Brasil\"",
+  "acao_id": "1238",
+  "acao_titulo": "II Seminário de Educação Especial no Instituto Federal do Espírito Santo",
+  "processo": "23158.000398/2017-42",
+  "coordenador_acao": "Renata Imaculada de Oliveira Teixeira",
+  "publico_alvo": {
+    "total": 1,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {
+      "REPROVADO": 1
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Renata Imaculada de Oliveira Teixeira",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Carla Biancha Angelucci",
+      "funcao": "PALESTRANTE",
+      "vinculo": "Convidado"
+    }
+  ]
+}

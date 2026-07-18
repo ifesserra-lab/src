@@ -1,0 +1,24 @@
+{
+  "slug": "rubens-carlos-cortes",
+  "nome": "Rubens Carlos Cortes",
+  "resumo_ia": "Participou como tutor(a) no projeto 'LAMPEX – Laboratório Modelo de Práticas de Extensão' em 2020.",
+  "anos": [
+    "2020"
+  ],
+  "funcoes": [
+    "TUTOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "TUTOR(A)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "hugo-leonardo-castilhos-dos-reis",
+  "nome": "Hugo Leonardo Castilhos dos Reis",
+  "resumo_ia": "Atuou como instrutor(a) no Circuito Audiovisual em 2019.",
+  "anos": [
+    "2019"
+  ],
+  "funcoes": [
+    "INSTRUTOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "2505",
+      "titulo": "Circuito Audiovisual",
+      "tipo": "Projeto",
+      "ano": "2019",
+      "n": 231,
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "atividade_id": "6793",
+  "numero": "009",
+  "atividade": "Tutoria em Matemática do 1º ano do Ensino Médio",
+  "acao_id": "650",
+  "acao_titulo": "Tutoria de Estudos Orientados",
+  "processo": "23158.000371/2015-98",
+  "coordenador_acao": "Bruno Ramos Gonzaga",
+  "publico_alvo": {
+    "total": 27,
+    "aprovados": 27,
+    "certificados": 27,
+    "situacao": {
+      "APROVADO": 27
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Marcela Soares Esteca",
+      "funcao": "ALUNO(A) VOLUNTARIO",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Paulo Cezar Camargo Guedes",
+      "funcao": "TUTOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

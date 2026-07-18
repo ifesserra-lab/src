@@ -1,0 +1,29 @@
+{
+  "atividade_id": "9600",
+  "numero": "016",
+  "atividade": "Palestra: Energia Fotovoltaica na Semana Nacional de Ciência e Tecnologia 2019",
+  "acao_id": "2021",
+  "acao_titulo": "Física ao Alcance de Todos",
+  "processo": "23158.001115/2018-61",
+  "coordenador_acao": "Rosilene de Sá Ribeiro",
+  "publico_alvo": {
+    "total": 47,
+    "aprovados": 47,
+    "certificados": 0,
+    "situacao": {
+      "APROVADO": 47
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Flávio Barcelos Braz da Silva",
+      "funcao": "PALESTRANTE",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Rosilene de Sá Ribeiro",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

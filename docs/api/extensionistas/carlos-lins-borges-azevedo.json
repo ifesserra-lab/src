@@ -1,0 +1,118 @@
+{
+  "slug": "carlos-lins-borges-azevedo",
+  "nome": "Carlos Lins Borges Azevedo",
+  "resumo_ia": "Coordenou projetos de extensão entre 2016 e 2019, como sistemas de apoio à saúde, transporte de córneas e monitoramento de temperatura, além de atuar como coordenador adjunto e auxiliar técnico em iniciativas extensionistas.",
+  "anos": [
+    "2016",
+    "2018",
+    "2019"
+  ],
+  "funcoes": [
+    "AUXILIAR TÉCNICO",
+    "COLABORADOR(A)",
+    "COORDENADOR(A)",
+    "COORDENADOR(A) ADJUNTO(A)"
+  ],
+  "acoes_coordenadas": [
+    {
+      "acao_id": "1847",
+      "titulo": "Sistema de apoio para rastreio e geolocalização de transtornos mentais comuns na atenção primária a saúde",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 5
+    },
+    {
+      "acao_id": "2193",
+      "titulo": "LifeBox: transporte e monitoramento de córnea de forma inteligente",
+      "tipo": "Projeto",
+      "ano": "2019",
+      "n": 8
+    },
+    {
+      "acao_id": "2599",
+      "titulo": "Sistema de apoio para rastreio e geolocalização de transtornos mentais",
+      "tipo": "Projeto",
+      "ano": "2019",
+      "n": 3
+    },
+    {
+      "acao_id": "848",
+      "titulo": "Sistema de apoio para monitorar temperatura para preparaçãode caixas para transporte de órgão.",
+      "tipo": "Projeto",
+      "ano": "2016",
+      "n": 7
+    }
+  ],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1834",
+      "titulo": "Sistema para predição de transtornos mentais comuns na atenção primária a saúde",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 5,
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)"
+      ]
+    },
+    {
+      "acao_id": "1847",
+      "titulo": "Sistema de apoio para rastreio e geolocalização de transtornos mentais comuns na atenção primária a saúde",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 5,
+      "funcoes": [
+        "COORDENADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "2193",
+      "titulo": "LifeBox: transporte e monitoramento de córnea de forma inteligente",
+      "tipo": "Projeto",
+      "ano": "2019",
+      "n": 8,
+      "funcoes": [
+        "COORDENADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "2599",
+      "titulo": "Sistema de apoio para rastreio e geolocalização de transtornos mentais",
+      "tipo": "Projeto",
+      "ano": "2019",
+      "n": 3,
+      "funcoes": [
+        "COORDENADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "708",
+      "titulo": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedoras",
+      "tipo": "Curso",
+      "ano": "2016",
+      "n": 77,
+      "funcoes": [
+        "AUXILIAR TÉCNICO"
+      ]
+    },
+    {
+      "acao_id": "848",
+      "titulo": "Sistema de apoio para monitorar temperatura para preparaçãode caixas para transporte de órgão.",
+      "tipo": "Projeto",
+      "ano": "2016",
+      "n": 7,
+      "funcoes": [
+        "COORDENADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "901",
+      "titulo": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+      "tipo": "Programa",
+      "ano": "2016",
+      "n": 104,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    }
+  ]
+}

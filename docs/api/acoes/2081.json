@@ -1,0 +1,120 @@
+{
+  "acao_id": "2081",
+  "Processo nº": "23158.001813/2017-85",
+  "Título ação": "O IFES é o meu lugar",
+  "Natureza": "Extensão",
+  "Tipo ação": "Curso",
+  "Coordenador(a)": "Paulo Cezar Camargo Guedes",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "23158.001812/2017-31 - Ifes para todos",
+  "Grande área conhecimento": "",
+  "Grande área conhecimento (inferida)": "Ciências Humanas",
+  "Área temática principal": "Educação",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "16/11/2018",
+  "Data de cadastro": "31/10/2018",
+  "Resumo": "Nesse contexto, o projeto “O IFES é o meu lugar” visa estimular os alunos da rede pública, por meio de uma preparação para o processo seletivo do ensino médio integrado, com aulas expositivas e dialogadas, bem como a resolução de exercícios das disciplinas do ensino fundamental, visando possibilitar a esses alunos uma revisão dos conteúdos trabalhados em suas respectivas escolas. Destarte, esperamos que os alunos estejam preparados e estimulados a realizarem uma boa prova no processo seletivo, como forma de ingresso ao ensino médio integrado no IFES Campus Serra ou em qualquer instituição do IFES no estado. Assim, a implantação desse projeto vem nessa perspectiva de expandir a oportunidade aos alunos de rede pública municipal o acesso ao ensino médio de qualidade ofertado nos Institutos Federais e reconhecidos pela sua excelência de ensino.",
+  "Campus": "Serra",
+  "total_participacoes": 96,
+  "publico_alvo_total": 74,
+  "atividades": [
+    {
+      "atividade_id": "6835",
+      "numero": "001",
+      "atividade": "O IFES é o meu lugar",
+      "publico": 34,
+      "aprovados": 34,
+      "certificados": 34,
+      "equipe": 11
+    },
+    {
+      "atividade_id": "6836",
+      "numero": "002",
+      "atividade": "O IFES é o meu lugar",
+      "publico": 40,
+      "aprovados": 40,
+      "certificados": 40,
+      "equipe": 11
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Alessandro Bermudes Gomes",
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Alexia Coelho Barbosa",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Daniella Araújo Fraga dos Santos",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Davi Aragão Ascacibas",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Izis Barbosa Coutinho",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Josinei Rodrigues Filho",
+      "funcoes": [
+        "MONITOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Leonardo Rocha Gomes",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Murilo Andrade Carvalho",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Paulo Cezar Camargo Guedes",
+      "funcoes": [
+        "COLABORADOR(A)",
+        "COORDENADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Rowenna Tonani Leão dos Santos",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Thiago Machado Oliveira",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    }
+  ]
+}

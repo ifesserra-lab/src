@@ -1,0 +1,38 @@
+{
+  "slug": "magno-macedo-de-oliveira",
+  "nome": "Magno Macedo de Oliveira",
+  "resumo_ia": "Foi aluno bolsista no projeto ESPM-Empregos em 2018 e organizador e palestrante no LEDS – Laboratório de Extensão em Desenvolvimento de Soluções em 2016, participando de iniciativas voltadas à empregabilidade e desenvolvimento de soluções.",
+  "anos": [
+    "2016",
+    "2018"
+  ],
+  "funcoes": [
+    "ALUNO(A) BOLSISTA",
+    "ORGANIZADOR(A)",
+    "PALESTRANTE"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1795",
+      "titulo": "ESPM-Empregos: Um serviço inteligente para promover a empregabilidade",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 7,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ]
+    },
+    {
+      "acao_id": "901",
+      "titulo": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+      "tipo": "Programa",
+      "ano": "2016",
+      "n": 104,
+      "funcoes": [
+        "ORGANIZADOR(A)",
+        "PALESTRANTE"
+      ]
+    }
+  ]
+}

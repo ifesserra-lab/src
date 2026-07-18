@@ -1,0 +1,29 @@
+{
+  "atividade_id": "16036",
+  "numero": "002",
+  "atividade": "“Conversando sobre as políticas de assistência social: quais são os meus direitos?”",
+  "acao_id": "4629",
+  "acao_titulo": "“Conversando sobre”",
+  "processo": "23158.002449/2023-19",
+  "coordenador_acao": "Erica Giles Bragança",
+  "publico_alvo": {
+    "total": 2,
+    "aprovados": 2,
+    "certificados": 0,
+    "situacao": {
+      "APROVADO": 2
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Cynthia Kruger Quinino",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Erica Giles Bragança",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

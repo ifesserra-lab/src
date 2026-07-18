@@ -1,0 +1,24 @@
+{
+  "slug": "cristiane-de-oliveira-veronesi",
+  "nome": "Cristiane de Oliveira Veronesi",
+  "resumo_ia": "Atuou como palestrante na ação 'LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão' em 2023, colaborando com a disseminação de conhecimentos sobre o espaço maker.",
+  "anos": [
+    "2023"
+  ],
+  "funcoes": [
+    "PALESTRANTE"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "4655",
+      "titulo": "LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão",
+      "tipo": "Programa",
+      "ano": "2023",
+      "n": 558,
+      "funcoes": [
+        "PALESTRANTE"
+      ]
+    }
+  ]
+}

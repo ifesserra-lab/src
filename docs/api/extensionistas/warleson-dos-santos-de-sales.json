@@ -1,0 +1,24 @@
+{
+  "slug": "warleson-dos-santos-de-sales",
+  "nome": "Warleson dos Santos de Sales",
+  "resumo_ia": "Organizou o Programa Regular de Promoção da Cultura e da Arte no Ifes Campus Serra em 2016.",
+  "anos": [
+    "2016"
+  ],
+  "funcoes": [
+    "ORGANIZADOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "718",
+      "titulo": "Programa Regular de Promoção da Cultura e da Arte no Ifes Campus Serra",
+      "tipo": "Programa",
+      "ano": "2016",
+      "n": 21,
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ]
+    }
+  ]
+}

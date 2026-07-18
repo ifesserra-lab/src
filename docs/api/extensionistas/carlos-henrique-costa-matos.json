@@ -1,0 +1,36 @@
+{
+  "slug": "carlos-henrique-costa-matos",
+  "nome": "Carlos Henrique Costa Matos",
+  "resumo_ia": "Integrou o LAMPEX como instrutor em 2020 e participou como aluno em atividade curricular no projeto SmartIdea em 2022, atuando em práticas de extensão e validação de ideias.",
+  "anos": [
+    "2020",
+    "2022"
+  ],
+  "funcoes": [
+    "ALUNO(A) EM ATIVIDADE CURRICULAR",
+    "INSTRUTOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ]
+    },
+    {
+      "acao_id": "4034",
+      "titulo": "SmartIdea - Validação de Problemas e Ideias",
+      "tipo": "Projeto",
+      "ano": "2022",
+      "n": 31,
+      "funcoes": [
+        "ALUNO(A) EM ATIVIDADE CURRICULAR"
+      ]
+    }
+  ]
+}

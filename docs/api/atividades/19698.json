@@ -1,0 +1,47 @@
+{
+  "atividade_id": "19698",
+  "numero": "016",
+  "atividade": "Construindo Juntos no LabMaker Serra: Uma proposta de Educação com Sustentabilidade",
+  "acao_id": "4655",
+  "acao_titulo": "LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão",
+  "processo": "23158.001854/2023-10",
+  "coordenador_acao": "Gabriel Tozatto Zago",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Richard Junior Manuel Godinez Tello",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Marcos Simão Guimarães",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Karin Satie Komati",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Rosiane Ribeiro Rocha",
+      "funcao": "GESTOR(A) DE PROJETO",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Gabriel Tozatto Zago",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Flávio Garcia Pereira",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

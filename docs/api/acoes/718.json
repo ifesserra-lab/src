@@ -1,0 +1,231 @@
+{
+  "acao_id": "718",
+  "Processo nº": "23158.000332/2016-71",
+  "Título ação": "Programa Regular de Promoção da Cultura e da Arte no Ifes Campus Serra",
+  "Natureza": "Extensão",
+  "Tipo ação": "Programa",
+  "Coordenador(a)": "Ana Paula Klauck",
+  "Fomento": "PAEX-IFES",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "Ciências Sociais Aplicadas",
+  "Área temática principal": "Cultura",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "22/09/2017",
+  "Data de cadastro": "29/06/2016",
+  "Resumo": "O Programa Regular de Promoção da Cultura e da Arte no Ifes Campus Serra\ntem como objetivo a realização contínua de atividades que desenvolvam a arte e a\ncultura. Tratase de ações culturais e artísticas de diversos tipos que serão oferecidas a\nservidores e alunos do Campus Serra, demais Campus do Ifes e à comunidade da\ncidade de Serra e da Grande Vitória. O Programa prevê a promoção contínua de\natividades no campo das artes visuais, da comunicação, da dança, do teatro, da\nliteratura, do cinema e da música por meio de iniciativas diversas, tais como palestras,\noficinas, encontros, seminários, sessões, perfórmances, apresentações e cursos que\nofereçam oportunidades de interação, integração, diálogo, fruição e desenvolvimento\nartístico, cultural e de cidadania através de expressões diversas.",
+  "Campus": "Serra",
+  "total_participacoes": 21,
+  "publico_alvo_total": 1,
+  "atividades": [
+    {
+      "atividade_id": "1545",
+      "numero": "001",
+      "atividade": "Programa Regular de Promoção da Cultura e da Arte no Ifes Campus Serra",
+      "publico": 1,
+      "aprovados": 1,
+      "certificados": 0,
+      "equipe": 4
+    },
+    {
+      "atividade_id": "4841",
+      "numero": "004",
+      "atividade": "Ciclo de Conversas do NAC 2016 – Impressora 3D: quais os limites da criação?",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "4842",
+      "numero": "005",
+      "atividade": "Ciclo de Conversas do NAC 2016 – Gênero: uma conversa sobre nós",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 5
+    },
+    {
+      "atividade_id": "4843",
+      "numero": "006",
+      "atividade": "Ciclo de Conversas do NAC 2016 – Educação de surdos na contemporaneidade: desafios e perspectivas",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "4845",
+      "numero": "008",
+      "atividade": "Ciclo de Conversas do NAC 2016 – Redes Sociais: Crimes Digitais e cyberbullying",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 4
+    },
+    {
+      "atividade_id": "4846",
+      "numero": "009",
+      "atividade": "Ciclo de Conversas do NAC 2016 – Redes Sociais: Meme, Gif e Emoji: ler e escrever nas redes sociais",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "4847",
+      "numero": "010",
+      "atividade": "Ciclo de Conversas do NAC 2016 – Redes Sociais: Reconfigurações da comunicação",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "4849",
+      "numero": "012",
+      "atividade": "Ciclo de Conversas do NAC 2016 – Debates com o segundo sexo: Assédio moral e sexual: violência e suas implicações",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "4850",
+      "numero": "013",
+      "atividade": "Ciclo de Conversas do NAC 2016 – Debates com o segundo sexo: Violência nos espaços urbanos e a vida das mulheres",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 2
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Alessandra Aguiar Vilarinho",
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Amanda de Oliveira Ottoni",
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Ana Paula Klauck",
+      "funcoes": [
+        "COORDENADOR(A)",
+        "PALESTRANTE"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Arlene Batista da Silva",
+      "funcoes": [
+        "PALESTRANTE"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Breno Rios Rodrigues",
+      "funcoes": [
+        "PALESTRANTE"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Carolinne Quintanilha Ornellas",
+      "funcoes": [
+        "PALESTRANTE"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Ernani Leite Ribeiro Filho",
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Gilberto Neves Sudre Filho",
+      "funcoes": [
+        "PALESTRANTE"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Isadora Lee Padilha Ferri",
+      "funcoes": [
+        "PALESTRANTE"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Ivana Esteves Passos de Oliveira",
+      "funcoes": [
+        "PALESTRANTE"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Jean Michel Pereira de Queiroz",
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Juliana Rangel Roque",
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Lara Rocha Andrade",
+      "funcoes": [
+        "PALESTRANTE"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Moisés Savedra Omena",
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Mykael dos Santos Deolindo",
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Neiva Augusta Viegas Vasconcellos",
+      "funcoes": [
+        "PALESTRANTE"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Renan Souza do Nascimento",
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Warleson dos Santos de Sales",
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Aluno"
+    }
+  ]
+}

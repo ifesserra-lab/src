@@ -1,0 +1,24 @@
+{
+  "slug": "andre-luiz-coelho-silva",
+  "nome": "André Luiz Coelho Silva",
+  "resumo_ia": "Desenvolveu atividades como aluno bolsista no projeto ConectaFapes em 2023, apoiando iniciativas de pesquisa, desenvolvimento e inovação no campus Serra.",
+  "anos": [
+    "2023"
+  ],
+  "funcoes": [
+    "ALUNO(A) BOLSISTA"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "4830",
+      "titulo": "ConectaFapes: Uma plataforma de apoio à Pesquisa, Desenvolvimento e Inovação",
+      "tipo": "Projeto",
+      "ano": "2023",
+      "n": 124,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ]
+    }
+  ]
+}

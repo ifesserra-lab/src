@@ -1,0 +1,36 @@
+{
+  "slug": "juliana-rohsner-vianna-toniati",
+  "nome": "Juliana Rohsner Vianna Toniati",
+  "resumo_ia": "Colaborou na equipe Incluir & Multiplicar em 2019 e coordenou o projeto Informática Básica Para Agentes Multiplicadores no mesmo ano.",
+  "anos": [
+    "2019"
+  ],
+  "funcoes": [
+    "COLABORADOR(A)",
+    "COORDENADOR(A) ADJUNTO(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "2595",
+      "titulo": "Incluir & Multiplicar",
+      "tipo": "Projeto",
+      "ano": "2019",
+      "n": 5,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "2783",
+      "titulo": "Informática Básica Para Agentes Multiplicadores.",
+      "tipo": "Curso",
+      "ano": "2019",
+      "n": 42,
+      "funcoes": [
+        "COLABORADOR(A)",
+        "COORDENADOR(A) ADJUNTO(A)"
+      ]
+    }
+  ]
+}

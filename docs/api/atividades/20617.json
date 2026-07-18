@@ -1,0 +1,24 @@
+{
+  "atividade_id": "20617",
+  "numero": "005",
+  "atividade": "Minicurso \"Introdução ao Arduino\"",
+  "acao_id": "5641",
+  "acao_titulo": "LabMaker 4.0: capacitando professores para a cultura maker e tecnologias da Indústria 4.0",
+  "processo": "23158.001715/2025-58",
+  "coordenador_acao": "Rosiane Ribeiro Rocha",
+  "publico_alvo": {
+    "total": 14,
+    "aprovados": 14,
+    "certificados": 14,
+    "situacao": {
+      "APROVADO": 14
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "João Vitor Oliveira Scheidegger",
+      "funcao": "MINISTRANTE",
+      "vinculo": "Aluno"
+    }
+  ]
+}

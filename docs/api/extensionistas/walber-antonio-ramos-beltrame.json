@@ -1,0 +1,36 @@
+{
+  "slug": "walber-antonio-ramos-beltrame",
+  "nome": "Walber Antonio Ramos Beltrame",
+  "resumo_ia": "Atuou como mentor no Desafio Ifes de Negócios Sociais em 2015 e como coordenador adjunto da Rede de Laboratórios de Educação em Desenvolvimento de Soluções (LEDS) em 2016.",
+  "anos": [
+    "2015",
+    "2016"
+  ],
+  "funcoes": [
+    "COORDENADOR(A) ADJUNTO(A)",
+    "MENTOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "569",
+      "titulo": "Desafio Ifes de Negócios Socais",
+      "tipo": "Evento",
+      "ano": "2015",
+      "n": 40,
+      "funcoes": [
+        "MENTOR(A)"
+      ]
+    },
+    {
+      "acao_id": "947",
+      "titulo": "Rede de Laboratórios de Educação em Desenvolvimento de Soluções - LEDS",
+      "tipo": "Programa em Rede",
+      "ano": "2016",
+      "n": 4,
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)"
+      ]
+    }
+  ]
+}

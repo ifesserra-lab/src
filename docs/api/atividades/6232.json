@@ -1,0 +1,27 @@
+{
+  "atividade_id": "6232",
+  "numero": "001",
+  "atividade": "Física ao Alcance de Todos",
+  "acao_id": "2021",
+  "acao_titulo": "Física ao Alcance de Todos",
+  "processo": "23158.001115/2018-61",
+  "coordenador_acao": "Rosilene de Sá Ribeiro",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Leandro Melo de Sá",
+      "funcao": "COORDENADOR(A) ADJUNTO(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Rosilene de Sá Ribeiro",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

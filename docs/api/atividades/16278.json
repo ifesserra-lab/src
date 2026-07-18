@@ -1,0 +1,18 @@
+{
+  "atividade_id": "16278",
+  "numero": "003",
+  "atividade": "Oficina \"Robótica Arduino\"",
+  "acao_id": "4335",
+  "acao_titulo": "Oficinas do Mundo Maker",
+  "processo": "23158.000421/2023-47",
+  "coordenador_acao": "Rosiane Ribeiro Rocha",
+  "publico_alvo": {
+    "total": 15,
+    "aprovados": 15,
+    "certificados": 15,
+    "situacao": {
+      "APROVADO": 15
+    }
+  },
+  "equipe_execucao": []
+}

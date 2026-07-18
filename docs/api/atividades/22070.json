@@ -1,0 +1,54 @@
+{
+  "atividade_id": "22070",
+  "numero": "006",
+  "atividade": "SOF - Serviço de Orientação Financeira",
+  "acao_id": "5852",
+  "acao_titulo": "SOF – Serviço de Orientação Financeira (unidade Ifes Serra)",
+  "processo": "23158.002622/2025-41",
+  "coordenador_acao": "Emmanuel Marques Silva",
+  "publico_alvo": {
+    "total": 13,
+    "aprovados": 13,
+    "certificados": 13,
+    "situacao": {
+      "APROVADO": 13
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Luma Tavares Lopes de Souza",
+      "funcao": "EXTENSIONISTA",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Ronaldo Aparecida Marques",
+      "funcao": "ORIENTADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Juliano Antônio da Silveira",
+      "funcao": "EXTENSIONISTA",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Emmanuel Marques Silva",
+      "funcao": "ORIENTADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Mafe Mattos",
+      "funcao": "EXTENSIONISTA",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Irene Schmidt da Silva Alves",
+      "funcao": "EXTENSIONISTA",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Irlane Schmidt da Silva Alves",
+      "funcao": "EXTENSIONISTA",
+      "vinculo": "Aluno"
+    }
+  ]
+}

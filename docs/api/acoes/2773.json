@@ -1,0 +1,82 @@
+{
+  "acao_id": "2773",
+  "Processo nº": "23158.001963/2019-05",
+  "Título ação": "Ambientação Pedagógica: Didática e Técnicas de Ensino.",
+  "Natureza": "Extensão",
+  "Tipo ação": "Curso",
+  "Coordenador(a)": "Bruno Ramos Gonzaga",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "23158.001812/2017-31 - Ifes para todos",
+  "Grande área conhecimento": "",
+  "Grande área conhecimento (inferida)": "Ciências Humanas",
+  "Área temática principal": "Educação",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "18/12/2019",
+  "Data de cadastro": "01/11/2019",
+  "Resumo": "O curso “Ambientação Pedagógica: Didática e Técnicas de Ensino” tem por objetivo capacitar, por meio\nde um conjunto de conhecimentos pedagógicos elementares de didática e técnicas de\nensino/aprendizado, (i) estudantes dos cursos técnicos e de graduação do campus, (ii) estudantes das\ninstituições parceiras do projeto, e (iii) demais profissionais da área da educação. A metodologia de\nensino envolverá aulas teóricas e oficinas, nas quais serão trabalhados conteúdos tais como: teorias da\naprendizagem, didática do professor, técnicas de disseminação da informação, planejamento\npedagógico e avaliação da aprendizagem. Espera-se ao final, formar discentes com conteúdos\nelementares para desenvolvimento de processos de ensino e aprendizagem.",
+  "Campus": "Serra",
+  "total_participacoes": 13,
+  "publico_alvo_total": 6,
+  "atividades": [
+    {
+      "atividade_id": "9562",
+      "numero": "001",
+      "atividade": "Ambientação Pedagógica: Didática e Técnicas de Ensino.",
+      "publico": 6,
+      "aprovados": 6,
+      "certificados": 6,
+      "equipe": 7
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Bruno Ramos Gonzaga",
+      "funcoes": [
+        "COORDENADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Cláudia Ribeiro de Moraes",
+      "funcoes": [
+        "PROFESSOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Emmanuel Marques Silva",
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Priscila dos Santos Moreira",
+      "funcoes": [
+        "PROFESSOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Richard Junior Manuel Godinez Tello",
+      "funcoes": [
+        "PALESTRANTE"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Tatiane Policário Chagas",
+      "funcoes": [
+        "PROFESSOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Wagner Kirmse Caldas",
+      "funcoes": [
+        "PROFESSOR(A)"
+      ],
+      "vinculo": "Servidor"
+    }
+  ]
+}

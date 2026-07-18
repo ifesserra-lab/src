@@ -1,0 +1,29 @@
+{
+  "atividade_id": "19911",
+  "numero": "002",
+  "atividade": "STEM - Experiência de Imersão e desenvolvimento de soluções para a área administrativa de uma empresa siderúrgica - Etapa 2024",
+  "acao_id": "3643",
+  "acao_titulo": "STEM - Experiência de Imersão e desenvolvimento de soluções para a área administrativa de uma empresa siderúrgica",
+  "processo": "23158.004223/2021-89",
+  "coordenador_acao": "Adelson Pereira do Nascimento",
+  "publico_alvo": {
+    "total": 4,
+    "aprovados": 4,
+    "certificados": 4,
+    "situacao": {
+      "APROVADO": 4
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Marlon de Oliveira Silva",
+      "funcao": "ALUNO(A) BOLSISTA",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Adelson Pereira do Nascimento",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

@@ -1,0 +1,2051 @@
+{
+  "visao_geral": {
+    "n_acoes": 201,
+    "n_acoes_ativas": 142,
+    "n_processos_part": 201,
+    "total_atividades": 525,
+    "total_publico": 7938,
+    "total_equipe": 2307,
+    "media_equipe": 16.246478873239436,
+    "taxa_cert": 84.73167044595617,
+    "natureza": [
+      [
+        "Extensão",
+        83
+      ],
+      [
+        "Ensino",
+        54
+      ],
+      [
+        "Pesquisa",
+        3
+      ],
+      [
+        "Desenv. Institucional",
+        2
+      ]
+    ],
+    "tipo": [
+      [
+        "Projeto",
+        53
+      ],
+      [
+        "Curso",
+        52
+      ],
+      [
+        "Evento",
+        21
+      ],
+      [
+        "Programa",
+        15
+      ],
+      [
+        "Programa em Rede",
+        1
+      ]
+    ],
+    "fomento": [
+      [
+        "SEM VÍNCULO",
+        107
+      ],
+      [
+        "PAEX-IFES",
+        29
+      ],
+      [
+        "PRONATEC",
+        3
+      ],
+      [
+        "MULHERES MIL",
+        2
+      ],
+      [
+        "FAPES",
+        1
+      ]
+    ],
+    "anos": [
+      [
+        "2013",
+        3
+      ],
+      [
+        "2014",
+        15
+      ],
+      [
+        "2015",
+        5
+      ],
+      [
+        "2016",
+        19
+      ],
+      [
+        "2017",
+        9
+      ],
+      [
+        "2018",
+        22
+      ],
+      [
+        "2019",
+        14
+      ],
+      [
+        "2020",
+        5
+      ],
+      [
+        "2021",
+        7
+      ],
+      [
+        "2022",
+        17
+      ],
+      [
+        "2023",
+        13
+      ],
+      [
+        "2024",
+        5
+      ],
+      [
+        "2025",
+        6
+      ],
+      [
+        "2026",
+        2
+      ]
+    ],
+    "coordenadores": [
+      [
+        "Emmanuel Marques Silva",
+        13
+      ],
+      [
+        "Moisés Savedra Omena",
+        8
+      ],
+      [
+        "Vinícius Secchin de Melo",
+        7
+      ],
+      [
+        "Felipe Frechiani de Oliveira",
+        7
+      ],
+      [
+        "Paulo Cezar Camargo Guedes",
+        7
+      ],
+      [
+        "Richard Junior Manuel Godinez Tello",
+        5
+      ],
+      [
+        "Bruno Ramos Gonzaga",
+        5
+      ],
+      [
+        "Carlos Lins Borges Azevedo",
+        4
+      ],
+      [
+        "Emilene Coco dos Santos",
+        4
+      ],
+      [
+        "Rosiane Ribeiro Rocha",
+        4
+      ]
+    ],
+    "grande_area": [
+      [
+        "Engenharias",
+        50
+      ],
+      [
+        "Ciências Exatas e da Terra",
+        29
+      ],
+      [
+        "Ciências Sociais Aplicadas",
+        21
+      ],
+      [
+        "Ciências Humanas",
+        16
+      ],
+      [
+        "Ciências da Saúde",
+        10
+      ],
+      [
+        "Linguística, Letras e Artes",
+        9
+      ]
+    ],
+    "area_tematica": [
+      [
+        "Tecnologia e Produção",
+        67
+      ],
+      [
+        "Educação",
+        53
+      ],
+      [
+        "Cultura",
+        12
+      ],
+      [
+        "Saúde",
+        5
+      ],
+      [
+        "Trabalho",
+        3
+      ],
+      [
+        "Direitos Humanos e Justiça",
+        2
+      ]
+    ],
+    "n_ga_inferida": 85,
+    "n_at_inferida": 66,
+    "relatorio": [
+      [
+        "Sim",
+        125
+      ],
+      [
+        "Não",
+        17
+      ]
+    ],
+    "situacao": [
+      [
+        "APROVADO",
+        7230
+      ],
+      [
+        "CURSANDO",
+        508
+      ],
+      [
+        "REPROVADO",
+        200
+      ]
+    ],
+    "certificado": [
+      [
+        "Emitido",
+        6726
+      ],
+      [
+        "Não emitido",
+        1212
+      ]
+    ],
+    "funcao": [
+      [
+        "ALUNO(A) VOLUNTARIO",
+        313
+      ],
+      [
+        "ALUNO(A) BOLSISTA",
+        239
+      ],
+      [
+        "COLABORADOR(A)",
+        218
+      ],
+      [
+        "COORDENADOR(A)",
+        197
+      ],
+      [
+        "ORGANIZADOR(A)",
+        140
+      ],
+      [
+        "INSTRUTOR(A)",
+        128
+      ],
+      [
+        "ALUNO(A) EM ATIVIDADE CURRICULAR",
+        128
+      ],
+      [
+        "PROFESSOR(A)",
+        127
+      ]
+    ],
+    "top_publico": [
+      [
+        "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+        1290
+      ],
+      [
+        "Ifes Portas Abertas",
+        501
+      ],
+      [
+        "LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão",
+        490
+      ],
+      [
+        "Ifes Portas Abertas",
+        385
+      ],
+      [
+        "Física ao Alcance de Todos",
+        349
+      ],
+      [
+        "SOF – Serviço de Orientação Financeira (unidade Ifes Serra)",
+        258
+      ],
+      [
+        "Semana destinada à Educação Especial Inclusiva no Campus Serra",
+        251
+      ],
+      [
+        "Semana destinada à Educação Especial Inclusiva - Setembro Verde",
+        216
+      ],
+      [
+        "Tutoria de Estudos Orientados",
+        214
+      ],
+      [
+        "Atividades físicas adaptadas e inclusão (AFAI)",
+        197
+      ]
+    ],
+    "sem_participacao": [
+      [
+        "I COLÓQUIO DE PRODUÇÃO E CRIATIVIDADE – CAMPUS SERRA",
+        "23158.002189/2025-43",
+        "Evento",
+        "Adrianna Machado Meneguelli"
+      ],
+      [
+        "Portal de Comunicação para Denunciar Casos de Violência Contra a Pessoas Idosas",
+        "23158.000915/2024-11",
+        "Projeto",
+        "Marta Talitha Carvalho Freire Mendes"
+      ],
+      [
+        "Let's Talk - oficina de conversação em inglês para o Técnico Integrado",
+        "23158.000097/2017-19",
+        "Projeto",
+        "Ana Paula Klauck"
+      ],
+      [
+        "Palestra sobre Rap e cultura hip hop",
+        "23158.002130/2022-11",
+        "Evento",
+        "Ana Paula Klauck"
+      ],
+      [
+        "Laboratório de Escrita Criativa",
+        "23158.002838/2022-63",
+        "Evento",
+        "Ana Paula Klauck"
+      ],
+      [
+        "OFICINA  DE FÍSICA",
+        "23158.000181/2018-13",
+        "Projeto",
+        "Giovani Zanetti Neto"
+      ],
+      [
+        "Clube de leitura",
+        "23158.000898/2025-94",
+        "Curso",
+        "Alexander Jeferson Nassau Borges"
+      ],
+      [
+        "Mulheres Mil - Eletricista Instalador Predial em Baixa Tensão",
+        "23158.000346/2026-67",
+        "Curso",
+        "Tatiane Policário Chagas"
+      ],
+      [
+        "Jogos Internos do Campus Serra (JICS)",
+        "23158.001059/2026-74",
+        "Evento",
+        "Milainy Ludmila Santos Goulart"
+      ],
+      [
+        "O povo preto realmente é livre?",
+        "23158.003452/2021-51",
+        "Evento",
+        "Lívia de Azevedo Silveira Rangel"
+      ],
+      [
+        "Projeto Expedição IFES – Conhecendo o Brasil",
+        "23158.000142/2019-05",
+        "Projeto",
+        "Alessandro Bermudes Gomes"
+      ],
+      [
+        "Curso de Leitura em Língua Inglesa",
+        "23158.001196/2014-75",
+        "Curso",
+        "Ana Paula Klauck"
+      ],
+      [
+        "\"(Con)versando sobre – Temas transversais\"",
+        "23158.002590/2019-51",
+        "Projeto",
+        "Cibelle Zanforlin Cesconetto Toresani"
+      ],
+      [
+        "Solução web/mobile baseada em Inteligência Computacional para identificação de infestação por ácaros rajados (Tetranychus urticae) em culturas de morango",
+        "23158.001802/2023-43",
+        "Projeto",
+        "Fidelis Zanetti de Castro"
+      ],
+      [
+        "Coral Musicante",
+        "23158.000104/2019-44",
+        "Projeto",
+        "Ricardo Ramos Costa"
+      ],
+      [
+        "English for Global Careers",
+        "23158.000367/2026-82",
+        "Curso",
+        "Giordana dos Santos Sperandio"
+      ],
+      [
+        "Workshop sobre as Ações de Internacionalização do Ifes",
+        "23158.000407/2015-33",
+        "Evento",
+        "Fernanda de Souza Hott"
+      ],
+      [
+        "JOVEM APRENDIZ IFES CAMPUS SERRA",
+        "23158.001999/2024-00",
+        "Programa",
+        "Adelson Pereira do Nascimento"
+      ],
+      [
+        "Let's Talk - Oficinas de conversação em língua inglesa",
+        "23158.002661/2021-68",
+        "Projeto",
+        "Ana Paula Klauck"
+      ],
+      [
+        "Nova plataforma NVIDIA para HPC e Inteligência Artificial (IA)",
+        "23158.000471/2018-67",
+        "Projeto",
+        "Paulo Sérgio dos Santos Júnior"
+      ],
+      [
+        "Oficina de Crochê Tramando",
+        "23158.002839/2025-51",
+        "Projeto",
+        "Alessandra Aguiar Vilarinho"
+      ],
+      [
+        "My Pay: Um ERP em nuvem para foodtrucks",
+        "23158.002323/2019-82",
+        "Projeto",
+        "Felipe Frechiani de Oliveira"
+      ],
+      [
+        "Inclusão e Tecnologia: Robótica para Pessoas com Autismo no IFES Serra",
+        "23158.002421/2024-62",
+        "Projeto",
+        "Marco Antônio de Souza Leite Cuadros"
+      ],
+      [
+        "Letramento Tecnológico para Idosos",
+        "23158.003213/2023-08",
+        "Projeto",
+        "Marta Talitha Carvalho Freire Mendes"
+      ],
+      [
+        "II Vivências de Queimado",
+        "23158.002614/2019-82",
+        "Evento",
+        "Diego Ramiro Araoz Alves"
+      ],
+      [
+        "ASAS - Operador de Computador",
+        "23158.000507/2026-12",
+        "Curso",
+        "Tatiane Policário Chagas"
+      ],
+      [
+        "Semana de Ciência e Tecnologia do Campus Serra do Ifes",
+        "23158.001525/2017-21",
+        "Evento",
+        "Gilmar Luiz Vassoler"
+      ],
+      [
+        "Oficina de Formação Profissional em Realidade Virtual para Jovens e Realizadores de Audiovisual na Serra",
+        "23158.000967/2026-41",
+        "Projeto",
+        "Celio Proliciano Maioli"
+      ],
+      [
+        "Oficina de Tutoria em Física",
+        "23158.002427/2022-78",
+        "Projeto",
+        "Paulo Cezar Camargo Guedes"
+      ],
+      [
+        "CAIS: Ancorando Cultura e Arte no Ifes Serra",
+        "23158.000377/2024-56",
+        "Projeto",
+        "Emerson Atílio Birchler"
+      ],
+      [
+        "Jornalismo",
+        "23158.000096/2019-36",
+        "Projeto",
+        "Ana Paula Klauck"
+      ],
+      [
+        "Oficina de Tutoria em Matemática",
+        "23158.002426/2022-23",
+        "Projeto",
+        "Paulo Cezar Camargo Guedes"
+      ],
+      [
+        "Conexão Ciência: Transformação Digital das Atividades do Centro de Ciência Educação e Cultura - Praça da Ciência",
+        "23158.002525/2024-77",
+        "Projeto",
+        "Vitor Faiçal Campana"
+      ],
+      [
+        "Improving your English",
+        "23158.000147/2018-49",
+        "Projeto",
+        "Giordana dos Santos Sperandio"
+      ],
+      [
+        "Empresa Morpheus Jr",
+        "23158.000381/2018-76",
+        "Programa",
+        "Adelson Pereira do Nascimento"
+      ],
+      [
+        "Monitoria de Programação para Web",
+        "23158.003780/2022-75",
+        "Prestação de Serviço",
+        "Marta Talitha Carvalho Freire Mendes"
+      ],
+      [
+        "Escrita de Material Instrucional",
+        "23158.003135/2025-03",
+        "Curso",
+        "Vinícius Secchin de Melo"
+      ],
+      [
+        "Tutoria de Estudos Orientados: Compartilhando Saberes",
+        "23158.000470/2020-58",
+        "Projeto",
+        "Bruno Ramos Gonzaga"
+      ],
+      [
+        "Projeto Expedição IFES – Conhecendo o Brasil",
+        "23158.000225/2018-13",
+        "Projeto",
+        "Alessandro Bermudes Gomes"
+      ],
+      [
+        "2º Seminário do Núcleo de Estudos Afro-Brasileiros e Indígenas do IFES Campus Serra – “Educação e Patrimônio: O Caso de São José do Queimado”",
+        "23158.000371/2020-15",
+        "Projeto",
+        "Leonardo Matiazzi Corrêa"
+      ],
+      [
+        "Let's Talk: Conversação em língua inglesa",
+        "23158.000306/2016-43",
+        "Projeto",
+        "Ana Paula Klauck"
+      ],
+      [
+        "SEMANA DE INTEGRAÇÃO",
+        "23158.000513/2024-16",
+        "Curso",
+        "Wagner Kirmse Caldas"
+      ],
+      [
+        "Cultura Impressa: Esculturas 3D de artesãos locais com filamento de material reciclado",
+        "23158.001712/2025-14",
+        "Projeto",
+        "Gabriel Tozatto Zago"
+      ],
+      [
+        "Ritornelo",
+        "23158.002203/2019-24",
+        "Projeto",
+        "Geruza Ferreira Martins"
+      ],
+      [
+        "Livro do Ano",
+        "23158.000217/2018-69",
+        "Projeto",
+        "Wagner Kirmse Caldas"
+      ],
+      [
+        "Sistema de Informação para Notificação, Captação, Distribuição de Órgão",
+        "23158.000540/2015-91",
+        "Projeto",
+        "Rodrigo Fernandes Calhau"
+      ],
+      [
+        "PEAM – Programa de Estudos Avançados em Matemática",
+        "23158.003479/2023-42",
+        "Evento",
+        "Paulo Cezar Camargo Guedes"
+      ],
+      [
+        "Oficina de Tutoria em Matemática",
+        "23158.002424/2022-34",
+        "Projeto",
+        "Paulo Cezar Camargo Guedes"
+      ],
+      [
+        "Núcleo de Educação Ambiental do Campus Serra – Ifes",
+        "23158.000940/2025-77",
+        "Programa",
+        "Eglalciane de Lyrio Tongo"
+      ],
+      [
+        "Diálogos que Transformam",
+        "23158.000145/2019-31",
+        "Projeto",
+        "Giordana dos Santos Sperandio"
+      ],
+      [
+        "Parque Científico e Tecnológico do InovaSerra – PCTec InovaSerra",
+        "23158.000666/2025-36",
+        "Programa",
+        "Francisco José Casarim Rapchan"
+      ],
+      [
+        "Projeto Conhecer",
+        "23158.000372/2015-32",
+        "Evento",
+        "Wagner Teixeira da Costa"
+      ],
+      [
+        "APEXT 2026 – Atendimentos Personalizados e Monitorias de Extensão Tecnológica",
+        "23158.000814/2026-01",
+        "Projeto",
+        "Jefferson Ribeiro de Lima"
+      ],
+      [
+        "Tutoria em Estudos Avançados",
+        "23158.000173/2018-77",
+        "Projeto",
+        "Fabio de Oliveira Lima"
+      ],
+      [
+        "Palestra -Lançamento de documentário: A beleza oculta no poder feminino",
+        "23158.000985/2025-41",
+        "Evento",
+        "Adrianna Machado Meneguelli"
+      ],
+      [
+        "Sistema de georreferenciamento e detecção de vibração e queda para implementação de uma caixa inteligente de transporte de órgãos.",
+        "23158.000568/2016-16",
+        "Projeto",
+        "Flávio Lopes da Silva"
+      ],
+      [
+        "Programação Visual Criativa com Scratch + Arduino",
+        "23158.000409/2016-11",
+        "Curso",
+        "Moisés Savedra Omena"
+      ],
+      [
+        "I Encontro Cultural do Núcleo de Estudos Afro-Brasileiros e Indígenas : Debates e reflexões no Dia da Consciência Negra",
+        "23158.002392/2019-62",
+        "Evento",
+        "Diego Ramiro Araoz Alves"
+      ],
+      [
+        "Acorde Musical",
+        "23158.000373/2016-68",
+        "Projeto",
+        "Moisés Savedra Omena"
+      ]
+    ],
+    "sem_participacao_det": [
+      {
+        "titulo": "I COLÓQUIO DE PRODUÇÃO E CRIATIVIDADE – CAMPUS SERRA",
+        "processo": "23158.002189/2025-43",
+        "tipo": "Evento",
+        "coordenador": "Adrianna Machado Meneguelli",
+        "ano": "2026",
+        "natureza": "Ensino"
+      },
+      {
+        "titulo": "Portal de Comunicação para Denunciar Casos de Violência Contra a Pessoas Idosas",
+        "processo": "23158.000915/2024-11",
+        "tipo": "Projeto",
+        "coordenador": "Marta Talitha Carvalho Freire Mendes",
+        "ano": "2024",
+        "natureza": "Extensão"
+      },
+      {
+        "titulo": "Let's Talk - oficina de conversação em inglês para o Técnico Integrado",
+        "processo": "23158.000097/2017-19",
+        "tipo": "Projeto",
+        "coordenador": "Ana Paula Klauck",
+        "ano": "2017",
+        "natureza": "Ensino"
+      },
+      {
+        "titulo": "Palestra sobre Rap e cultura hip hop",
+        "processo": "23158.002130/2022-11",
+        "tipo": "Evento",
+        "coordenador": "Ana Paula Klauck",
+        "ano": "2022",
+        "natureza": "Ensino"
+      },
+      {
+        "titulo": "Laboratório de Escrita Criativa",
+        "processo": "23158.002838/2022-63",
+        "tipo": "Evento",
+        "coordenador": "Ana Paula Klauck",
+        "ano": "2022",
+        "natureza": "Ensino"
+      },
+      {
+        "titulo": "OFICINA  DE FÍSICA",
+        "processo": "23158.000181/2018-13",
+        "tipo": "Projeto",
+        "coordenador": "Giovani Zanetti Neto",
+        "ano": "2018",
+        "natureza": "Ensino"
+      },
+      {
+        "titulo": "Clube de leitura",
+        "processo": "23158.000898/2025-94",
+        "tipo": "Curso",
+        "coordenador": "Alexander Jeferson Nassau Borges",
+        "ano": "2025",
+        "natureza": "Ensino"
+      },
+      {
+        "titulo": "Mulheres Mil - Eletricista Instalador Predial em Baixa Tensão",
+        "processo": "23158.000346/2026-67",
+        "tipo": "Curso",
+        "coordenador": "Tatiane Policário Chagas",
+        "ano": "2026",
+        "natureza": "Extensão"
+      },
+      {
+        "titulo": "Jogos Internos do Campus Serra (JICS)",
+        "processo": "23158.001059/2026-74",
+        "tipo": "Evento",
+        "coordenador": "Milainy Ludmila Santos Goulart",
+        "ano": "2026",
+        "natureza": "Ensino"
+      },
+      {
+        "titulo": "O povo preto realmente é livre?",
+        "processo": "23158.003452/2021-51",
+        "tipo": "Evento",
+        "coordenador": "Lívia de Azevedo Silveira Rangel",
+        "ano": "2022",
+        "natureza": "Ensino"
+      },
+      {
+        "titulo": "Projeto Expedição IFES – Conhecendo o Brasil",
+        "processo": "23158.000142/2019-05",
+        "tipo": "Projeto",
+        "coordenador": "Alessandro Bermudes Gomes",
+        "ano": "2019",
+        "natureza": "Ensino"
+      },
+      {
+        "titulo": "Curso de Leitura em Língua Inglesa",
+        "processo": "23158.001196/2014-75",
+        "tipo": "Curso",
+        "coordenador": "Ana Paula Klauck",
+        "ano": "2015",
+        "natureza": "Ensino"
+      },
+      {
+        "titulo": "\"(Con)versando sobre – Temas transversais\"",
+        "processo": "23158.002590/2019-51",
+        "tipo": "Projeto",
+        "coordenador": "Cibelle Zanforlin Cesconetto Toresani",
+        "ano": "2020",
+        "natureza": "Ensino"
+      },
+      {
+        "titulo": "Solução web/mobile baseada em Inteligência Computacional para identificação de infestação por ácaros rajados (Tetranychus urticae) em culturas de morango",
+        "processo": "23158.001802/2023-43",
+        "tipo": "Projeto",
+        "coordenador": "Fidelis Zanetti de Castro",
+        "ano": "2023",
+        "natureza": "Extensão"
+      },
+      {
+        "titulo": "Coral Musicante",
+        "processo": "23158.000104/2019-44",
+        "tipo": "Projeto",
+        "coordenador": "Ricardo Ramos Costa",
+        "ano": "2019",
+        "natureza": "Ensino"
+      },
+      {
+        "titulo": "English for Global Careers",
+        "processo": "23158.000367/2026-82",
+        "tipo": "Curso",
+        "coordenador": "Giordana dos Santos Sperandio",
+        "ano": "2026",
+        "natureza": "Ensino"
+      },
+      {
+        "titulo": "Workshop sobre as Ações de Internacionalização do Ifes",
+        "processo": "23158.000407/2015-33",
+        "tipo": "Evento",
+        "coordenador": "Fernanda de Souza Hott",
+        "ano": "2015",
+        "natureza": "Extensão"
+      },
+      {
+        "titulo": "JOVEM APRENDIZ IFES CAMPUS SERRA",
+        "processo": "23158.001999/2024-00",
+        "tipo": "Programa",
+        "coordenador": "Adelson Pereira do Nascimento",
+        "ano": "2024",
+        "natureza": "Extensão"
+      },
+      {
+        "titulo": "Let's Talk - Oficinas de conversação em língua inglesa",
+        "processo": "23158.002661/2021-68",
+        "tipo": "Projeto",
+        "coordenador": "Ana Paula Klauck",
+        "ano": "2021",
+        "natureza": "Extensão"
+      },
+      {
+        "titulo": "Nova plataforma NVIDIA para HPC e Inteligência Artificial (IA)",
+        "processo": "23158.000471/2018-67",
+        "tipo": "Projeto",
+        "coordenador": "Paulo Sérgio dos Santos Júnior",
+        "ano": "2018",
+        "natureza": "Ensino"
+      },
+      {
+        "titulo": "Oficina de Crochê Tramando",
+        "processo": "23158.002839/2025-51",
+        "tipo": "Projeto",
+        "coordenador": "Alessandra Aguiar Vilarinho",
+        "ano": "2026",
+        "natureza": "Ensino"
+      },
+      {
+        "titulo": "My Pay: Um ERP em nuvem para foodtrucks",
+        "processo": "23158.002323/2019-82",
+        "tipo": "Projeto",
+        "coordenador": "Felipe Frechiani de Oliveira",
+        "ano": "2019",
+        "natureza": "Extensão"
+      },
+      {
+        "titulo": "Inclusão e Tecnologia: Robótica para Pessoas com Autismo no IFES Serra",
+        "processo": "23158.002421/2024-62",
+        "tipo": "Projeto",
+        "coordenador": "Marco Antônio de Souza Leite Cuadros",
+        "ano": "2024",
+        "natureza": "Extensão"
+      },
+      {
+        "titulo": "Letramento Tecnológico para Idosos",
+        "processo": "23158.003213/2023-08",
+        "tipo": "Projeto",
+        "coordenador": "Marta Talitha Carvalho Freire Mendes",
+        "ano": "2023",
+        "natureza": "Extensão"
+      },
+      {
+        "titulo": "II Vivências de Queimado",
+        "processo": "23158.002614/2019-82",
+        "tipo": "Evento",
+        "coordenador": "Diego Ramiro Araoz Alves",
+        "ano": "2019",
+        "natureza": "Pesquisa"
+      },
+      {
+        "titulo": "ASAS - Operador de Computador",
+        "processo": "23158.000507/2026-12",
+        "tipo": "Curso",
+        "coordenador": "Tatiane Policário Chagas",
+        "ano": "2026",
+        "natureza": "Extensão"
+      },
+      {
+        "titulo": "Semana de Ciência e Tecnologia do Campus Serra do Ifes",
+        "processo": "23158.001525/2017-21",
+        "tipo": "Evento",
+        "coordenador": "Gilmar Luiz Vassoler",
+        "ano": "2017",
+        "natureza": "Extensão"
+      },
+      {
+        "titulo": "Oficina de Formação Profissional em Realidade Virtual para Jovens e Realizadores de Audiovisual na Serra",
+        "processo": "23158.000967/2026-41",
+        "tipo": "Projeto",
+        "coordenador": "Celio Proliciano Maioli",
+        "ano": "2026",
+        "natureza": "Ensino"
+      },
+      {
+        "titulo": "Oficina de Tutoria em Física",
+        "processo": "23158.002427/2022-78",
+        "tipo": "Projeto",
+        "coordenador": "Paulo Cezar Camargo Guedes",
+        "ano": "2022",
+        "natureza": "Ensino"
+      },
+      {
+        "titulo": "CAIS: Ancorando Cultura e Arte no Ifes Serra",
+        "processo": "23158.000377/2024-56",
+        "tipo": "Projeto",
+        "coordenador": "Emerson Atílio Birchler",
+        "ano": "2024",
+        "natureza": "Extensão"
+      },
+      {
+        "titulo": "Jornalismo",
+        "processo": "23158.000096/2019-36",
+        "tipo": "Projeto",
+        "coordenador": "Ana Paula Klauck",
+        "ano": "2019",
+        "natureza": "Ensino"
+      },
+      {
+        "titulo": "Oficina de Tutoria em Matemática",
+        "processo": "23158.002426/2022-23",
+        "tipo": "Projeto",
+        "coordenador": "Paulo Cezar Camargo Guedes",
+        "ano": "2022",
+        "natureza": "Ensino"
+      },
+      {
+        "titulo": "Conexão Ciência: Transformação Digital das Atividades do Centro de Ciência Educação e Cultura - Praça da Ciência",
+        "processo": "23158.002525/2024-77",
+        "tipo": "Projeto",
+        "coordenador": "Vitor Faiçal Campana",
+        "ano": "2025",
+        "natureza": "Extensão"
+      },
+      {
+        "titulo": "Improving your English",
+        "processo": "23158.000147/2018-49",
+        "tipo": "Projeto",
+        "coordenador": "Giordana dos Santos Sperandio",
+        "ano": "2018",
+        "natureza": "Ensino"
+      },
+      {
+        "titulo": "Empresa Morpheus Jr",
+        "processo": "23158.000381/2018-76",
+        "tipo": "Programa",
+        "coordenador": "Adelson Pereira do Nascimento",
+        "ano": "2024",
+        "natureza": "Extensão"
+      },
+      {
+        "titulo": "Monitoria de Programação para Web",
+        "processo": "23158.003780/2022-75",
+        "tipo": "Prestação de Serviço",
+        "coordenador": "Marta Talitha Carvalho Freire Mendes",
+        "ano": "2023",
+        "natureza": "Ensino"
+      },
+      {
+        "titulo": "Escrita de Material Instrucional",
+        "processo": "23158.003135/2025-03",
+        "tipo": "Curso",
+        "coordenador": "Vinícius Secchin de Melo",
+        "ano": "2026",
+        "natureza": "Ensino"
+      },
+      {
+        "titulo": "Tutoria de Estudos Orientados: Compartilhando Saberes",
+        "processo": "23158.000470/2020-58",
+        "tipo": "Projeto",
+        "coordenador": "Bruno Ramos Gonzaga",
+        "ano": "2020",
+        "natureza": "Extensão"
+      },
+      {
+        "titulo": "Projeto Expedição IFES – Conhecendo o Brasil",
+        "processo": "23158.000225/2018-13",
+        "tipo": "Projeto",
+        "coordenador": "Alessandro Bermudes Gomes",
+        "ano": "2018",
+        "natureza": "Ensino"
+      },
+      {
+        "titulo": "2º Seminário do Núcleo de Estudos Afro-Brasileiros e Indígenas do IFES Campus Serra – “Educação e Patrimônio: O Caso de São José do Queimado”",
+        "processo": "23158.000371/2020-15",
+        "tipo": "Projeto",
+        "coordenador": "Leonardo Matiazzi Corrêa",
+        "ano": "2020",
+        "natureza": "Extensão"
+      },
+      {
+        "titulo": "Let's Talk: Conversação em língua inglesa",
+        "processo": "23158.000306/2016-43",
+        "tipo": "Projeto",
+        "coordenador": "Ana Paula Klauck",
+        "ano": "2016",
+        "natureza": "Ensino"
+      },
+      {
+        "titulo": "SEMANA DE INTEGRAÇÃO",
+        "processo": "23158.000513/2024-16",
+        "tipo": "Curso",
+        "coordenador": "Wagner Kirmse Caldas",
+        "ano": "2024",
+        "natureza": "Ensino"
+      },
+      {
+        "titulo": "Cultura Impressa: Esculturas 3D de artesãos locais com filamento de material reciclado",
+        "processo": "23158.001712/2025-14",
+        "tipo": "Projeto",
+        "coordenador": "Gabriel Tozatto Zago",
+        "ano": "2025",
+        "natureza": "Extensão"
+      },
+      {
+        "titulo": "Ritornelo",
+        "processo": "23158.002203/2019-24",
+        "tipo": "Projeto",
+        "coordenador": "Geruza Ferreira Martins",
+        "ano": "2019",
+        "natureza": "Extensão"
+      },
+      {
+        "titulo": "Livro do Ano",
+        "processo": "23158.000217/2018-69",
+        "tipo": "Projeto",
+        "coordenador": "Wagner Kirmse Caldas",
+        "ano": "2018",
+        "natureza": "Ensino"
+      },
+      {
+        "titulo": "Sistema de Informação para Notificação, Captação, Distribuição de Órgão",
+        "processo": "23158.000540/2015-91",
+        "tipo": "Projeto",
+        "coordenador": "Rodrigo Fernandes Calhau",
+        "ano": "2016",
+        "natureza": "Extensão"
+      },
+      {
+        "titulo": "PEAM – Programa de Estudos Avançados em Matemática",
+        "processo": "23158.003479/2023-42",
+        "tipo": "Evento",
+        "coordenador": "Paulo Cezar Camargo Guedes",
+        "ano": "2023",
+        "natureza": "Ensino"
+      },
+      {
+        "titulo": "Oficina de Tutoria em Matemática",
+        "processo": "23158.002424/2022-34",
+        "tipo": "Projeto",
+        "coordenador": "Paulo Cezar Camargo Guedes",
+        "ano": "2022",
+        "natureza": "Ensino"
+      },
+      {
+        "titulo": "Núcleo de Educação Ambiental do Campus Serra – Ifes",
+        "processo": "23158.000940/2025-77",
+        "tipo": "Programa",
+        "coordenador": "Eglalciane de Lyrio Tongo",
+        "ano": "2025",
+        "natureza": "Extensão"
+      },
+      {
+        "titulo": "Diálogos que Transformam",
+        "processo": "23158.000145/2019-31",
+        "tipo": "Projeto",
+        "coordenador": "Giordana dos Santos Sperandio",
+        "ano": "2019",
+        "natureza": "Ensino"
+      },
+      {
+        "titulo": "Parque Científico e Tecnológico do InovaSerra – PCTec InovaSerra",
+        "processo": "23158.000666/2025-36",
+        "tipo": "Programa",
+        "coordenador": "Francisco José Casarim Rapchan",
+        "ano": "2025",
+        "natureza": "Extensão"
+      },
+      {
+        "titulo": "Projeto Conhecer",
+        "processo": "23158.000372/2015-32",
+        "tipo": "Evento",
+        "coordenador": "Wagner Teixeira da Costa",
+        "ano": "2015",
+        "natureza": "Extensão"
+      },
+      {
+        "titulo": "APEXT 2026 – Atendimentos Personalizados e Monitorias de Extensão Tecnológica",
+        "processo": "23158.000814/2026-01",
+        "tipo": "Projeto",
+        "coordenador": "Jefferson Ribeiro de Lima",
+        "ano": "2026",
+        "natureza": "Extensão"
+      },
+      {
+        "titulo": "Tutoria em Estudos Avançados",
+        "processo": "23158.000173/2018-77",
+        "tipo": "Projeto",
+        "coordenador": "Fabio de Oliveira Lima",
+        "ano": "2018",
+        "natureza": "Ensino"
+      },
+      {
+        "titulo": "Palestra -Lançamento de documentário: A beleza oculta no poder feminino",
+        "processo": "23158.000985/2025-41",
+        "tipo": "Evento",
+        "coordenador": "Adrianna Machado Meneguelli",
+        "ano": "2025",
+        "natureza": "Ensino"
+      },
+      {
+        "titulo": "Sistema de georreferenciamento e detecção de vibração e queda para implementação de uma caixa inteligente de transporte de órgãos.",
+        "processo": "23158.000568/2016-16",
+        "tipo": "Projeto",
+        "coordenador": "Flávio Lopes da Silva",
+        "ano": "2016",
+        "natureza": "Extensão"
+      },
+      {
+        "titulo": "Programação Visual Criativa com Scratch + Arduino",
+        "processo": "23158.000409/2016-11",
+        "tipo": "Curso",
+        "coordenador": "Moisés Savedra Omena",
+        "ano": "2016",
+        "natureza": "Extensão"
+      },
+      {
+        "titulo": "I Encontro Cultural do Núcleo de Estudos Afro-Brasileiros e Indígenas : Debates e reflexões no Dia da Consciência Negra",
+        "processo": "23158.002392/2019-62",
+        "tipo": "Evento",
+        "coordenador": "Diego Ramiro Araoz Alves",
+        "ano": "2019",
+        "natureza": "Ensino"
+      },
+      {
+        "titulo": "Acorde Musical",
+        "processo": "23158.000373/2016-68",
+        "tipo": "Projeto",
+        "coordenador": "Moisés Savedra Omena",
+        "ano": "2016",
+        "natureza": "Extensão"
+      }
+    ],
+    "nao_coletados": [],
+    "coord_sem_rank": [
+      [
+        "Ana Paula Klauck",
+        7,
+        9
+      ],
+      [
+        "Paulo Cezar Camargo Guedes",
+        4,
+        11
+      ],
+      [
+        "Marta Talitha Carvalho Freire Mendes",
+        3,
+        3
+      ],
+      [
+        "Giordana dos Santos Sperandio",
+        3,
+        5
+      ],
+      [
+        "Adrianna Machado Meneguelli",
+        2,
+        2
+      ],
+      [
+        "Tatiane Policário Chagas",
+        2,
+        5
+      ],
+      [
+        "Alessandro Bermudes Gomes",
+        2,
+        5
+      ],
+      [
+        "Adelson Pereira do Nascimento",
+        2,
+        3
+      ],
+      [
+        "Diego Ramiro Araoz Alves",
+        2,
+        3
+      ],
+      [
+        "Wagner Kirmse Caldas",
+        2,
+        5
+      ],
+      [
+        "Moisés Savedra Omena",
+        2,
+        10
+      ],
+      [
+        "Giovani Zanetti Neto",
+        1,
+        2
+      ]
+    ]
+  },
+  "indicadores": {
+    "alunos_unicos": 4845,
+    "total_publico": 7938,
+    "total_equipe": 2307,
+    "equipe_unica": 907,
+    "media_part_pessoa": 1.638390092879257,
+    "razao_aluno_equipe": 3.4408322496749024,
+    "turma_media": 25.941176470588236,
+    "publico_por_ano": [
+      [
+        "2013",
+        157
+      ],
+      [
+        "2014",
+        198
+      ],
+      [
+        "2015",
+        196
+      ],
+      [
+        "2016",
+        568
+      ],
+      [
+        "2017",
+        525
+      ],
+      [
+        "2018",
+        1555
+      ],
+      [
+        "2019",
+        388
+      ],
+      [
+        "2020",
+        1291
+      ],
+      [
+        "2021",
+        185
+      ],
+      [
+        "2022",
+        403
+      ],
+      [
+        "2023",
+        1329
+      ],
+      [
+        "2024",
+        447
+      ],
+      [
+        "2025",
+        438
+      ],
+      [
+        "2026",
+        258
+      ]
+    ],
+    "publico_por_coord": [
+      [
+        "Emmanuel Marques Silva",
+        1690
+      ],
+      [
+        "Wagner Kirmse Caldas",
+        891
+      ],
+      [
+        "Emilene Coco dos Santos",
+        682
+      ],
+      [
+        "Gabriel Tozatto Zago",
+        490
+      ],
+      [
+        "Rosilene de Sá Ribeiro",
+        352
+      ],
+      [
+        "Paulo Cezar Camargo Guedes",
+        306
+      ],
+      [
+        "Francisco José Casarim Rapchan",
+        278
+      ],
+      [
+        "Bruno Ramos Gonzaga",
+        275
+      ],
+      [
+        "Richard Junior Manuel Godinez Tello",
+        240
+      ],
+      [
+        "Alessandro Bermudes Gomes",
+        239
+      ]
+    ],
+    "recorrencia": [
+      [
+        "1 ação",
+        3486
+      ],
+      [
+        "2 ações",
+        619
+      ],
+      [
+        "3–4 ações",
+        514
+      ],
+      [
+        "5+ ações",
+        226
+      ]
+    ],
+    "turma_dist": [
+      [
+        "1–10",
+        106
+      ],
+      [
+        "11–25",
+        105
+      ],
+      [
+        "26–50",
+        53
+      ],
+      [
+        "51–100",
+        33
+      ],
+      [
+        "100+",
+        9
+      ]
+    ],
+    "aprovado_por_tipo": [
+      [
+        "Programa",
+        95
+      ],
+      [
+        "Evento",
+        93
+      ],
+      [
+        "Curso",
+        90
+      ],
+      [
+        "Projeto",
+        86
+      ]
+    ],
+    "cert_por_tipo": [
+      [
+        "Evento",
+        93
+      ],
+      [
+        "Curso",
+        90
+      ],
+      [
+        "Programa",
+        87
+      ],
+      [
+        "Projeto",
+        76
+      ]
+    ],
+    "composicao_equipe": [
+      [
+        "Outros",
+        1395
+      ],
+      [
+        "Discente",
+        680
+      ],
+      [
+        "Docente",
+        134
+      ],
+      [
+        "Técnico(a)",
+        98
+      ]
+    ]
+  },
+  "rede_programas": {
+    "n_programas": 7,
+    "maior_programa": [
+      "Ifes para todos",
+      9
+    ],
+    "n_coord_colab": 48,
+    "n_parcerias": 304,
+    "programas": [
+      [
+        "Ifes para todos",
+        9
+      ],
+      [
+        "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+        8
+      ],
+      [
+        "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+        5
+      ],
+      [
+        "Rede de Laboratórios de Educação em Desenvolvimento de Soluções - LEDS",
+        3
+      ],
+      [
+        "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+        2
+      ],
+      [
+        "LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão",
+        2
+      ],
+      [
+        "Incluir & Multiplicar",
+        1
+      ]
+    ],
+    "programas_publico": [
+      [
+        "Ifes para todos",
+        2311
+      ],
+      [
+        "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+        1550
+      ],
+      [
+        "LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão",
+        576
+      ],
+      [
+        "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+        140
+      ],
+      [
+        "Incluir & Multiplicar",
+        32
+      ],
+      [
+        "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+        25
+      ],
+      [
+        "Rede de Laboratórios de Educação em Desenvolvimento de Soluções - LEDS",
+        1
+      ]
+    ],
+    "coord_colab": [
+      [
+        "Emmanuel Marques Silva",
+        34
+      ],
+      [
+        "Bruno Ramos Gonzaga",
+        32
+      ],
+      [
+        "Giordana dos Santos Sperandio",
+        32
+      ],
+      [
+        "Wallas Gusmão Thomas",
+        27
+      ],
+      [
+        "Emilene Coco dos Santos",
+        26
+      ],
+      [
+        "Francisco José Casarim Rapchan",
+        23
+      ],
+      [
+        "Felipe Frechiani de Oliveira",
+        23
+      ],
+      [
+        "Rodrigo Fernandes Calhau",
+        21
+      ],
+      [
+        "Bruno Cardoso Coutinho",
+        20
+      ],
+      [
+        "Tatiane Policário Chagas",
+        20
+      ]
+    ],
+    "top_parcerias": [
+      [
+        "Felipe Frechiani de Oliveira ↔ Moisés Savedra Omena",
+        25
+      ],
+      [
+        "Emmanuel Marques Silva ↔ Francisco José Casarim Rapchan",
+        22
+      ],
+      [
+        "Emmanuel Marques Silva ↔ Richard Junior Manuel Godinez Tello",
+        13
+      ],
+      [
+        "Gabriel Tozatto Zago ↔ Richard Junior Manuel Godinez Tello",
+        13
+      ],
+      [
+        "Emmanuel Marques Silva ↔ Felipe Frechiani de Oliveira",
+        13
+      ],
+      [
+        "Emmanuel Marques Silva ↔ Moisés Savedra Omena",
+        12
+      ],
+      [
+        "Bruno Ramos Gonzaga ↔ Giordana dos Santos Sperandio",
+        11
+      ],
+      [
+        "Carlos Lins Borges Azevedo ↔ Felipe Frechiani de Oliveira",
+        11
+      ],
+      [
+        "Bruno Ramos Gonzaga ↔ Emmanuel Marques Silva",
+        10
+      ],
+      [
+        "Bruno Ramos Gonzaga ↔ Felipe Frechiani de Oliveira",
+        9
+      ]
+    ],
+    "grafo_nodes": [
+      "Emmanuel Marques Silva",
+      "Bruno Ramos Gonzaga",
+      "Giordana dos Santos Sperandio",
+      "Wallas Gusmão Thomas",
+      "Emilene Coco dos Santos",
+      "Francisco José Casarim Rapchan",
+      "Felipe Frechiani de Oliveira",
+      "Rodrigo Fernandes Calhau",
+      "Bruno Cardoso Coutinho",
+      "Tatiane Policário Chagas",
+      "Rosilene de Sá Ribeiro",
+      "Moisés Savedra Omena",
+      "Wagner Kirmse Caldas",
+      "Richard Junior Manuel Godinez Tello"
+    ],
+    "grafo_edges": [
+      [
+        0,
+        5,
+        22
+      ],
+      [
+        0,
+        13,
+        13
+      ],
+      [
+        5,
+        13,
+        5
+      ],
+      [
+        5,
+        7,
+        2
+      ],
+      [
+        8,
+        1,
+        2
+      ],
+      [
+        8,
+        0,
+        5
+      ],
+      [
+        8,
+        6,
+        2
+      ],
+      [
+        8,
+        5,
+        2
+      ],
+      [
+        8,
+        2,
+        2
+      ],
+      [
+        8,
+        7,
+        1
+      ],
+      [
+        8,
+        9,
+        1
+      ],
+      [
+        8,
+        3,
+        3
+      ],
+      [
+        1,
+        0,
+        10
+      ],
+      [
+        1,
+        6,
+        9
+      ],
+      [
+        1,
+        5,
+        1
+      ],
+      [
+        1,
+        2,
+        11
+      ],
+      [
+        1,
+        7,
+        3
+      ],
+      [
+        1,
+        9,
+        4
+      ],
+      [
+        1,
+        3,
+        5
+      ],
+      [
+        0,
+        6,
+        13
+      ],
+      [
+        0,
+        2,
+        6
+      ],
+      [
+        0,
+        7,
+        5
+      ],
+      [
+        0,
+        9,
+        6
+      ],
+      [
+        0,
+        3,
+        6
+      ],
+      [
+        6,
+        5,
+        7
+      ],
+      [
+        6,
+        2,
+        3
+      ],
+      [
+        6,
+        7,
+        7
+      ],
+      [
+        6,
+        9,
+        1
+      ],
+      [
+        6,
+        3,
+        1
+      ],
+      [
+        5,
+        2,
+        2
+      ],
+      [
+        5,
+        9,
+        1
+      ],
+      [
+        5,
+        3,
+        1
+      ],
+      [
+        2,
+        7,
+        3
+      ],
+      [
+        2,
+        9,
+        4
+      ],
+      [
+        2,
+        3,
+        5
+      ],
+      [
+        7,
+        9,
+        1
+      ],
+      [
+        7,
+        3,
+        4
+      ],
+      [
+        9,
+        3,
+        3
+      ],
+      [
+        8,
+        13,
+        2
+      ],
+      [
+        6,
+        13,
+        2
+      ],
+      [
+        5,
+        10,
+        2
+      ],
+      [
+        4,
+        5,
+        1
+      ],
+      [
+        0,
+        10,
+        6
+      ],
+      [
+        0,
+        11,
+        12
+      ],
+      [
+        6,
+        11,
+        25
+      ],
+      [
+        5,
+        11,
+        3
+      ],
+      [
+        1,
+        10,
+        6
+      ],
+      [
+        0,
+        12,
+        7
+      ],
+      [
+        8,
+        4,
+        1
+      ],
+      [
+        8,
+        10,
+        1
+      ],
+      [
+        1,
+        4,
+        1
+      ],
+      [
+        1,
+        13,
+        2
+      ],
+      [
+        4,
+        0,
+        2
+      ],
+      [
+        4,
+        2,
+        1
+      ],
+      [
+        4,
+        13,
+        1
+      ],
+      [
+        4,
+        10,
+        1
+      ],
+      [
+        4,
+        3,
+        2
+      ],
+      [
+        2,
+        13,
+        1
+      ],
+      [
+        2,
+        10,
+        2
+      ],
+      [
+        13,
+        10,
+        1
+      ],
+      [
+        13,
+        3,
+        4
+      ],
+      [
+        10,
+        3,
+        2
+      ],
+      [
+        1,
+        12,
+        2
+      ],
+      [
+        4,
+        6,
+        1
+      ],
+      [
+        4,
+        11,
+        1
+      ],
+      [
+        4,
+        7,
+        1
+      ],
+      [
+        11,
+        7,
+        4
+      ],
+      [
+        6,
+        10,
+        3
+      ],
+      [
+        1,
+        11,
+        7
+      ],
+      [
+        2,
+        11,
+        3
+      ],
+      [
+        11,
+        9,
+        1
+      ],
+      [
+        2,
+        12,
+        2
+      ],
+      [
+        10,
+        12,
+        1
+      ],
+      [
+        7,
+        12,
+        1
+      ],
+      [
+        4,
+        9,
+        1
+      ],
+      [
+        4,
+        12,
+        2
+      ],
+      [
+        6,
+        12,
+        8
+      ],
+      [
+        11,
+        12,
+        6
+      ],
+      [
+        5,
+        12,
+        1
+      ],
+      [
+        13,
+        9,
+        1
+      ],
+      [
+        13,
+        12,
+        1
+      ]
+    ]
+  },
+  "formados": {
+    "total_formados": 306,
+    "em_ext_publico": 168,
+    "em_ext_equipe": 108,
+    "em_ext_qualquer": 190,
+    "pct_qualquer": 62.091503267973856,
+    "participou_dist": [
+      [
+        "Participou da Extensão",
+        190
+      ],
+      [
+        "Sem registro",
+        116
+      ]
+    ],
+    "papel_dist": [
+      [
+        "Só público-alvo",
+        82
+      ],
+      [
+        "Só equipe",
+        22
+      ],
+      [
+        "Ambos",
+        86
+      ]
+    ],
+    "por_curso": [
+      [
+        "Sistemas de Informação (134/196)",
+        134
+      ],
+      [
+        "Engenharia de Controle e A (56/110)",
+        56
+      ]
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "acao_id": "3643",
+  "Processo nº": "23158.004223/2021-89",
+  "Título ação": "STEM - Experiência de Imersão e desenvolvimento de soluções para a área administrativa de uma empresa siderúrgica",
+  "Natureza": "Extensão",
+  "Tipo ação": "Projeto",
+  "Coordenador(a)": "Adelson Pereira do Nascimento",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "",
+  "Grande área conhecimento (inferida)": "Engenharias",
+  "Área temática principal": "Tecnologia e Produção",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "15/12/2024",
+  "Data de cadastro": "17/01/2022",
+  "Resumo": "O presente projeto visa capacitar talentos dentro das áreas de prioridade da ArcelorMittal Tubarão, em\nespecial, o desenvolvimento de competências em Automação de Processos Administrativos envolvendo\nferramentas de RPA & Office 365.\nAtualmente a TI e os Sistemas de Informação (SI) estão incorporados praticamente em todas as atividades\nempresariais, fornecendo suporte para melhoria na qualidade de serviços e produtos. Esta ação visa\ndesenvolver um projeto de extensão para a imersão de 5 alunos dos cursos superiores e técnicos\nconcomitantes/subsequentes do Campus Serra em projetos específicos da estrutura de Suprimentos da\nArcelorMittal, orientados tanto por coordenadores do IFES Serra como por funcionários da ArcelorMittal,\ncomo co-orientadores. Desta forma, proporcionará aos alunos o conhecimento da realidade empresarial\ne a aplicabilidade destas tecnologias no ambiente administrativo de uma grande empresa.",
+  "Campus": "Serra",
+  "total_participacoes": 15,
+  "publico_alvo_total": 11,
+  "atividades": [
+    {
+      "atividade_id": "12942",
+      "numero": "001",
+      "atividade": "STEM - Experiência de Imersão e desenvolvimento de soluções para a área administrativa de uma empresa siderúrgica",
+      "publico": 7,
+      "aprovados": 7,
+      "certificados": 7,
+      "equipe": 2
+    },
+    {
+      "atividade_id": "19911",
+      "numero": "002",
+      "atividade": "STEM - Experiência de Imersão e desenvolvimento de soluções para a área administrativa de uma empresa siderúrgica - Etapa 2024",
+      "publico": 4,
+      "aprovados": 4,
+      "certificados": 4,
+      "equipe": 2
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Adelson Pereira do Nascimento",
+      "funcoes": [
+        "COORDENADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Marlon de Oliveira Silva",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Éllen Oliveira Silva Neves",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ],
+      "vinculo": "Aluno"
+    }
+  ]
+}

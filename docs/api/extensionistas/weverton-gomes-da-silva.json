@@ -1,0 +1,24 @@
+{
+  "slug": "weverton-gomes-da-silva",
+  "nome": "Weverton Gomes da Silva",
+  "resumo_ia": "Atuou como expositor no projeto 'Física ao Alcance de Todos' em 2018.",
+  "anos": [
+    "2018"
+  ],
+  "funcoes": [
+    "EXPOSITOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "2021",
+      "titulo": "Física ao Alcance de Todos",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 429,
+      "funcoes": [
+        "EXPOSITOR(A)"
+      ]
+    }
+  ]
+}

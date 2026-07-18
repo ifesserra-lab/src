@@ -1,0 +1,39 @@
+{
+  "slug": "rafael-afonso-dos-anjos",
+  "nome": "Rafael Afonso dos Anjos",
+  "resumo_ia": "Atuou como aluno bolsista no Sistema de apoio para rastreio e geolocalização de transtornos mentais comuns na atenção primária à saúde em 2018 e, em 2016, como aluno bolsista, expositor e palestrante no LEDS – Laboratório de Extensão em Desenvolvimento de Soluções.",
+  "anos": [
+    "2016",
+    "2018"
+  ],
+  "funcoes": [
+    "ALUNO(A) BOLSISTA",
+    "EXPOSITOR(A)",
+    "PALESTRANTE"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1847",
+      "titulo": "Sistema de apoio para rastreio e geolocalização de transtornos mentais comuns na atenção primária a saúde",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 5,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ]
+    },
+    {
+      "acao_id": "901",
+      "titulo": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+      "tipo": "Programa",
+      "ano": "2016",
+      "n": 104,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA",
+        "EXPOSITOR(A)",
+        "PALESTRANTE"
+      ]
+    }
+  ]
+}

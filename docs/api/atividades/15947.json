@@ -1,0 +1,29 @@
+{
+  "atividade_id": "15947",
+  "numero": "045",
+  "atividade": "Visita Técnica à Brametal",
+  "acao_id": "3140",
+  "acao_titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+  "processo": "23158.001185/2020-56",
+  "coordenador_acao": "Emmanuel Marques Silva",
+  "publico_alvo": {
+    "total": 9,
+    "aprovados": 9,
+    "certificados": 9,
+    "situacao": {
+      "APROVADO": 9
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Richard Junior Manuel Godinez Tello",
+      "funcao": "COORDENADOR(A) ADJUNTO(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Renner Sartório Camargo",
+      "funcao": "COORDENADOR(A) TÉCNICO-CIENTÍFICO",
+      "vinculo": "Servidor"
+    }
+  ]
+}

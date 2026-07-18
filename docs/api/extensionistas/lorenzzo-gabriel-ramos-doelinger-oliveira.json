@@ -1,0 +1,47 @@
+{
+  "slug": "lorenzzo-gabriel-ramos-doelinger-oliveira",
+  "nome": "Lorenzzo Gabriel Ramos Doelinger Oliveira",
+  "resumo_ia": "Participou como aluno em atividade curricular no SmartIdea - Validação de Problemas e Ideias e como voluntário no SprintLab - Laboratório de Prototipação Acelerada, ambos em 2022. Em 2026, atuou como extensionista no Serviço de Orientação Financeira (SOF) da unidade Ifes Serra.",
+  "anos": [
+    "2022",
+    "2026"
+  ],
+  "funcoes": [
+    "ALUNO(A) EM ATIVIDADE CURRICULAR",
+    "ALUNO(A) VOLUNTARIO",
+    "EXTENSIONISTA"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "4034",
+      "titulo": "SmartIdea - Validação de Problemas e Ideias",
+      "tipo": "Projeto",
+      "ano": "2022",
+      "n": 31,
+      "funcoes": [
+        "ALUNO(A) EM ATIVIDADE CURRICULAR"
+      ]
+    },
+    {
+      "acao_id": "4215",
+      "titulo": "SprintLab - Laboratório de Prototipação Acelerada",
+      "tipo": "Programa",
+      "ano": "2022",
+      "n": 76,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ]
+    },
+    {
+      "acao_id": "5852",
+      "titulo": "SOF – Serviço de Orientação Financeira (unidade Ifes Serra)",
+      "tipo": "Projeto",
+      "ano": "2026",
+      "n": 316,
+      "funcoes": [
+        "EXTENSIONISTA"
+      ]
+    }
+  ]
+}

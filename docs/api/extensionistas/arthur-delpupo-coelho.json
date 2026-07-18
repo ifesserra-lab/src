@@ -1,0 +1,46 @@
+{
+  "slug": "arthur-delpupo-coelho",
+  "nome": "Arthur Delpupo Coelho",
+  "resumo_ia": "Participou como aluno(a) em atividade curricular no Programa Local Núcleo Incubador Campus Serra – NIS em 2021, como bolsista no projeto Pink Pepper Qualifier em 2022 e como aluno(a) em atividade curricular no projeto SmartIdea em 2022, atuando em ações de extensão.",
+  "anos": [
+    "2021",
+    "2022"
+  ],
+  "funcoes": [
+    "ALUNO(A) BOLSISTA",
+    "ALUNO(A) EM ATIVIDADE CURRICULAR"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "3423",
+      "titulo": "Programa Local Núcleo Incubador Campus Serra – NIS",
+      "tipo": "Programa",
+      "ano": "2021",
+      "n": 189,
+      "funcoes": [
+        "ALUNO(A) EM ATIVIDADE CURRICULAR"
+      ]
+    },
+    {
+      "acao_id": "4033",
+      "titulo": "Pink Pepper Qualifier: Determinação da qualidade produtiva dos frutos da Aroeira (Schinus terebinthifolius Raddi) usando Inteligência Computacional",
+      "tipo": "Projeto",
+      "ano": "2022",
+      "n": 164,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ]
+    },
+    {
+      "acao_id": "4034",
+      "titulo": "SmartIdea - Validação de Problemas e Ideias",
+      "tipo": "Projeto",
+      "ano": "2022",
+      "n": 31,
+      "funcoes": [
+        "ALUNO(A) EM ATIVIDADE CURRICULAR"
+      ]
+    }
+  ]
+}

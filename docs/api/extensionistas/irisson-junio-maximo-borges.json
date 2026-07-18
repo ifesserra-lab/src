@@ -1,0 +1,36 @@
+{
+  "slug": "irisson-junio-maximo-borges",
+  "nome": "Irisson Junio Máximo Borges",
+  "resumo_ia": "Participou como aluno voluntário em 2019 no projeto LifeBox, atuando no transporte e monitoramento inteligente de córneas. Também foi bolsista em 2016 no desenvolvimento de um sistema de apoio para monitorar a temperatura em caixas de transporte de órgãos.",
+  "anos": [
+    "2016",
+    "2019"
+  ],
+  "funcoes": [
+    "ALUNO(A) BOLSISTA",
+    "ALUNO(A) VOLUNTARIO"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "2193",
+      "titulo": "LifeBox: transporte e monitoramento de córnea de forma inteligente",
+      "tipo": "Projeto",
+      "ano": "2019",
+      "n": 8,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ]
+    },
+    {
+      "acao_id": "848",
+      "titulo": "Sistema de apoio para monitorar temperatura para preparaçãode caixas para transporte de órgão.",
+      "tipo": "Projeto",
+      "ano": "2016",
+      "n": 7,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ]
+    }
+  ]
+}

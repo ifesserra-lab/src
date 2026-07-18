@@ -1,0 +1,46 @@
+{
+  "slug": "eduardo-alves-figueiredo",
+  "nome": "Eduardo Alves Figueiredo",
+  "resumo_ia": "Participou como aluno voluntário no LAMPEX em 2020 e no SprintLab em 2022, além de integrar o SmartIdea como aluno em atividade curricular em 2022.",
+  "anos": [
+    "2020",
+    "2022"
+  ],
+  "funcoes": [
+    "ALUNO(A) EM ATIVIDADE CURRICULAR",
+    "ALUNO(A) VOLUNTARIO"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ]
+    },
+    {
+      "acao_id": "4034",
+      "titulo": "SmartIdea - Validação de Problemas e Ideias",
+      "tipo": "Projeto",
+      "ano": "2022",
+      "n": 31,
+      "funcoes": [
+        "ALUNO(A) EM ATIVIDADE CURRICULAR"
+      ]
+    },
+    {
+      "acao_id": "4215",
+      "titulo": "SprintLab - Laboratório de Prototipação Acelerada",
+      "tipo": "Programa",
+      "ano": "2022",
+      "n": 76,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ]
+    }
+  ]
+}

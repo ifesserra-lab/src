@@ -1,0 +1,59 @@
+{
+  "slug": "marcela-starling-ferreira-lage",
+  "nome": "Marcela Starling Ferreira Lage",
+  "resumo_ia": "Participou como apoio técnico no LAMPEX em 2020, aluna em atividade curricular no SmartIdea em 2022, aluna voluntária no SprintLab em 2022 e aluna bolsista no ConectaFapes em 2023, envolvendo-se em múltiplas frentes de extensão, como práticas extensionistas, validação de ideias e apoio à pesquisa e inovação.",
+  "anos": [
+    "2020",
+    "2022",
+    "2023"
+  ],
+  "funcoes": [
+    "ALUNO(A) BOLSISTA",
+    "ALUNO(A) EM ATIVIDADE CURRICULAR",
+    "ALUNO(A) VOLUNTARIO",
+    "APOIO TÉCNICO"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "APOIO TÉCNICO"
+      ]
+    },
+    {
+      "acao_id": "4034",
+      "titulo": "SmartIdea - Validação de Problemas e Ideias",
+      "tipo": "Projeto",
+      "ano": "2022",
+      "n": 31,
+      "funcoes": [
+        "ALUNO(A) EM ATIVIDADE CURRICULAR"
+      ]
+    },
+    {
+      "acao_id": "4215",
+      "titulo": "SprintLab - Laboratório de Prototipação Acelerada",
+      "tipo": "Programa",
+      "ano": "2022",
+      "n": 76,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ]
+    },
+    {
+      "acao_id": "4830",
+      "titulo": "ConectaFapes: Uma plataforma de apoio à Pesquisa, Desenvolvimento e Inovação",
+      "tipo": "Projeto",
+      "ano": "2023",
+      "n": 124,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "acao_id": "1939",
+  "Processo nº": "23158.000471/2018-67",
+  "Título ação": "Nova plataforma NVIDIA para HPC e Inteligência Artificial (IA)",
+  "Natureza": "Ensino",
+  "Tipo ação": "Projeto",
+  "Coordenador(a)": "Paulo Sérgio dos Santos Júnior",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "Ciências Exatas e da Terra",
+  "Área temática principal": "",
+  "Área temática principal (inferida)": "Tecnologia e Produção",
+  "Relatório aprovado": "Não",
+  "Data último relatório": "",
+  "Data de cadastro": "20/09/2018",
+  "Resumo": "Deep Learning (DL) é a técnica de Aprendizado de Máquina (ML) que vem proporcionando avanços em vários fluxos de trabalho industriais, comerciais e científicos. A Inteligência Artificial moderna é a 4ª revolução industrial. A nova plataforma de IA da NVIDIA, composta por hardware e software, está fornecendo o poder computacional exigido pelos recentes avanços em Deep Learning. A Volta, nossa maisnova e avançada arquitetura de GPUs foi especialmente projetada para as cargas de trabalho de computação de alto desempenho necessárias para treinamento e inferência de Redes Neurais Profundas com uma enorme quantidade de dados de treinamento. É a primeira arquitetura GPU que inclui Tensor Cores (TC), unidades de processamento projetadas para operações com Tensores em altíssima velocidade. A versão mais recente da linguagem CUDA (versão 9) e os SDKs da NVIDIA foram aprimorados para incluir algoritmos especializados e altamente otimizados para extrair o potencial completo de GPUs no treinamento DNN e nas tarefas de inferência em todos os Frameworks de Deep Learning como TensorFlow, CNTK, Caffe, etc. Uma grande variedade de dados pode ser eficientemente usada para treinamento, incluindo texto, áudio, imagens e vídeo. Este novo modelo de computação está fornecendo excelentes resultados em Visão Computacional, Processamento de Linguagem Natural, Tradução de Linguagem, Reconhecimento de Fala, Sistemas de Recomendação, Logística, Carros Autônomos e Robótic.O curso visa apresentar novas tecnologias para o desenvolvimento de aplicações na disciplina de Data Science.",
+  "Campus": "Serra",
+  "total_participacoes": 0,
+  "publico_alvo_total": 0,
+  "atividades": [],
+  "equipe_execucao": []
+}

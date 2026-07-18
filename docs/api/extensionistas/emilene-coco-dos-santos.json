@@ -1,0 +1,32 @@
+{
+  "slug": "emilene-coco-dos-santos",
+  "nome": "Emilene Coco dos Santos",
+  "resumo_ia": "Coordenou o projeto Atividades físicas adaptadas e inclusão (AFAI) em 2023, atuando também como coordenadora da mesma iniciativa no mesmo ano.",
+  "anos": [
+    "2023"
+  ],
+  "funcoes": [
+    "COORDENADOR(A)"
+  ],
+  "acoes_coordenadas": [
+    {
+      "acao_id": "4659",
+      "titulo": "Atividades físicas adaptadas e inclusão (AFAI)",
+      "tipo": "Projeto",
+      "ano": "2023",
+      "n": 298
+    }
+  ],
+  "participacoes_equipe": [
+    {
+      "acao_id": "4659",
+      "titulo": "Atividades físicas adaptadas e inclusão (AFAI)",
+      "tipo": "Projeto",
+      "ano": "2023",
+      "n": 298,
+      "funcoes": [
+        "COORDENADOR(A)"
+      ]
+    }
+  ]
+}

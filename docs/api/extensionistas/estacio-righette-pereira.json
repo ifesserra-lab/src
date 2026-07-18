@@ -1,0 +1,36 @@
+{
+  "slug": "estacio-righette-pereira",
+  "nome": "Estácio Righette Pereira",
+  "resumo_ia": "Participou como aluno voluntário no Curso de Pré-Incubação de Empreendimentos – modalidade Residência em 2017 e atuou como expositor no projeto Física ao Alcance de Todos em 2018.",
+  "anos": [
+    "2017",
+    "2018"
+  ],
+  "funcoes": [
+    "ALUNO(A) VOLUNTARIO",
+    "EXPOSITOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1406",
+      "titulo": "Curso de Pré-Incubação de Empreendimentos – modalidade Residência",
+      "tipo": "Curso",
+      "ano": "2017",
+      "n": 12,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ]
+    },
+    {
+      "acao_id": "2021",
+      "titulo": "Física ao Alcance de Todos",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 429,
+      "funcoes": [
+        "EXPOSITOR(A)"
+      ]
+    }
+  ]
+}

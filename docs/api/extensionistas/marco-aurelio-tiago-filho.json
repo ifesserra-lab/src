@@ -1,0 +1,35 @@
+{
+  "slug": "marco-aurelio-tiago-filho",
+  "nome": "Marco Aurélio Tiago Filho",
+  "resumo_ia": "Participou como aluno voluntário nas equipes do 'LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão' (2023) e 'Jovens Inventores: O poder da Tecnologia Maker no Desenvolvimento Social' (2025), atuando em projetos maker.",
+  "anos": [
+    "2023",
+    "2025"
+  ],
+  "funcoes": [
+    "ALUNO(A) VOLUNTARIO"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "4655",
+      "titulo": "LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão",
+      "tipo": "Programa",
+      "ano": "2023",
+      "n": 558,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ]
+    },
+    {
+      "acao_id": "5677",
+      "titulo": "Jovens Inventores: O poder da Tecnologia Maker no Desenvolvimento Social",
+      "tipo": "Projeto",
+      "ano": "2025",
+      "n": 48,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ]
+    }
+  ]
+}

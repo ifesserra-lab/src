@@ -1,0 +1,34 @@
+{
+  "atividade_id": "13757",
+  "numero": "001",
+  "atividade": "PEAM – Programa de Estudos Avançados em Matemática",
+  "acao_id": "3948",
+  "acao_titulo": "PEAM – Programa de Estudos Avançados em Matemática",
+  "processo": "23158.002486/2022-46",
+  "coordenador_acao": "Paulo Cezar Camargo Guedes",
+  "publico_alvo": {
+    "total": 39,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {
+      "CURSANDO": 39
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Leandro Moreira Vieira",
+      "funcao": "MONITOR(A)",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Gabriel Nazarh Aprahamian de Oliveira Romão",
+      "funcao": "MONITOR(A)",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Paulo Cezar Camargo Guedes",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

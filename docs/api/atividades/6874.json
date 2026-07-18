@@ -1,0 +1,105 @@
+{
+  "atividade_id": "6874",
+  "numero": "002",
+  "atividade": "Mulheres na Ciência",
+  "acao_id": "2082",
+  "acao_titulo": "Mulheres na Ciência",
+  "processo": "23158.001039/2018-93",
+  "coordenador_acao": "Giordana dos Santos Sperandio",
+  "publico_alvo": {
+    "total": 17,
+    "aprovados": 9,
+    "certificados": 9,
+    "situacao": {
+      "REPROVADO": 8,
+      "APROVADO": 9
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Giordana dos Santos Sperandio",
+      "funcao": "PROFESSOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Richard Junior Manuel Godinez Tello",
+      "funcao": "PALESTRANTE",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Nauvia Maria Cancelieri",
+      "funcao": "PALESTRANTE",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Emmanuel Marques Silva",
+      "funcao": "PALESTRANTE",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Ana Paula Klauck",
+      "funcao": "PROFESSOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Fidelis Zanetti de Castro",
+      "funcao": "PROFESSOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Tatiane Policário Chagas",
+      "funcao": "PROFESSOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Ernani Leite Ribeiro Filho",
+      "funcao": "PROFESSOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Josué Rego da Silva",
+      "funcao": "PALESTRANTE",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Wagner Scopel Falcão",
+      "funcao": "PALESTRANTE",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Maria Gabriela Siqueira Tavares",
+      "funcao": "ALUNO(A) VOLUNTARIO",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Éllen Oliveira Silva Neves",
+      "funcao": "ALUNO(A) VOLUNTARIO",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Sarah Silva Ferreira",
+      "funcao": "ALUNO(A) VOLUNTARIO",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Giordana dos Santos Sperandio",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Alessandra Aguiar Vilarinho",
+      "funcao": "COORDENADOR(A) ADJUNTO(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Graziela Barboza Guaitolini Ramos",
+      "funcao": "PROFESSOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Adriana Padua Lovatte",
+      "funcao": "PROFESSOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

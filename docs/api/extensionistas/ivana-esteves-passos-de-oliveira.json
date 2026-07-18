@@ -1,0 +1,24 @@
+{
+  "slug": "ivana-esteves-passos-de-oliveira",
+  "nome": "Ivana Esteves Passos de Oliveira",
+  "resumo_ia": "Desempenhou a função de palestrante no Programa Regular de Promoção da Cultura e da Arte no Ifes Campus Serra em 2016.",
+  "anos": [
+    "2016"
+  ],
+  "funcoes": [
+    "PALESTRANTE"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "718",
+      "titulo": "Programa Regular de Promoção da Cultura e da Arte no Ifes Campus Serra",
+      "tipo": "Programa",
+      "ano": "2016",
+      "n": 21,
+      "funcoes": [
+        "PALESTRANTE"
+      ]
+    }
+  ]
+}

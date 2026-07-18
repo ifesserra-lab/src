@@ -1,0 +1,24 @@
+{
+  "slug": "joao-pedro-spinasse-viana",
+  "nome": "João Pedro Spinassé Viana",
+  "resumo_ia": "Atuou como aluno voluntário na validação de problemas e ideias no projeto SmartIdea em 2022.",
+  "anos": [
+    "2022"
+  ],
+  "funcoes": [
+    "ALUNO(A) VOLUNTARIO"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "4034",
+      "titulo": "SmartIdea - Validação de Problemas e Ideias",
+      "tipo": "Projeto",
+      "ano": "2022",
+      "n": 31,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ]
+    }
+  ]
+}

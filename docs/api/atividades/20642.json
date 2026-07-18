@@ -1,0 +1,54 @@
+{
+  "atividade_id": "20642",
+  "numero": "001",
+  "atividade": "Asas para o Futuro - Eletricista Instalador Predial em Baixa Tensão",
+  "acao_id": "5645",
+  "acao_titulo": "Asas para o Futuro - Eletricista Instalador Predial em Baixa Tensão",
+  "processo": "23158.001713/2025-69",
+  "coordenador_acao": "Tatiane Policário Chagas",
+  "publico_alvo": {
+    "total": 29,
+    "aprovados": 29,
+    "certificados": 29,
+    "situacao": {
+      "APROVADO": 29
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Elika Capucho Delazare",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Gina Carla Maciel",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Eglalciane de Lyrio Tongo",
+      "funcao": "PROFESSOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Marcos Paulo Kohler Caldas",
+      "funcao": "PROFESSOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Tatiane Policário Chagas",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Matheus Policário Amorim",
+      "funcao": "MONITOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Manuelly Soares Silva",
+      "funcao": "MONITOR(A)",
+      "vinculo": "Aluno"
+    }
+  ]
+}

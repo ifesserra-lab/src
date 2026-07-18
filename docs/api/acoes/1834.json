@@ -1,0 +1,68 @@
+{
+  "acao_id": "1834",
+  "Processo nº": "23158.000317/2018-95",
+  "Título ação": "Sistema para predição de transtornos mentais comuns na atenção primária a saúde",
+  "Natureza": "Extensão",
+  "Tipo ação": "Projeto",
+  "Coordenador(a)": "Moisés Savedra Omena",
+  "Fomento": "PAEX-IFES",
+  "Ação vinculante": "23158.001139/2014-96 - LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+  "Grande área conhecimento": "",
+  "Grande área conhecimento (inferida)": "Ciências da Saúde",
+  "Área temática principal": "Tecnologia e Produção",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "20/12/2021",
+  "Data de cadastro": "31/07/2018",
+  "Resumo": "O presente projeto partiu de necessidades verificadas com os profissionais das áreas de saúde de Vitória verificadas em projetos anteriores realizados pelos professores parceiros da UFES. O projeto atual pretende utilizar uma base de dados já coletada e anonimizada por projetos anteriores da instituição parceira, a UFES. A intenção é fazer uma prova de conceito, para posteriormente auxiliar a tomada de decisões pelos profissionais da saúde. A base de dados já está disponível, coletada e anonimizada. Os pesquisadores nesse projeto não terão acesso a dados não anonimizados dos pacientes. Este projeto será realizado em paralelo com o projeto “Sistema de apoio para rastreio e geolocalização de transtornos mentais comuns na atenção primária a saúde” e com o projeto “Identificação de Transtornos Mentais Comuns e Abuso De Álcool/Drogas no Âmbito Da Atenção Primária à Saúde” submetido a EDITAL FAPES pela proponente Maria Carmen Viana, cujo coordenador adjunto do referido projeto é pesquisador principal.",
+  "Campus": "Serra",
+  "total_participacoes": 5,
+  "publico_alvo_total": 0,
+  "atividades": [
+    {
+      "atividade_id": "5763",
+      "numero": "001",
+      "atividade": "Sistema para predição de transtornos mentais comuns na atenção primária a saúde",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 5
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Andreângelo da Paixão Patuzzo",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Carlos Lins Borges Azevedo",
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Kleber André Lirio Picoli",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Moisés Savedra Omena",
+      "funcoes": [
+        "COORDENADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Rafaela Amorim Pessin",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    }
+  ]
+}

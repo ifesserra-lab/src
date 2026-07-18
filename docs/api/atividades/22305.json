@@ -1,0 +1,27 @@
+{
+  "atividade_id": "22305",
+  "numero": "001",
+  "atividade": "Oficinas e Tutorias de Apoio às Disciplinas Curriculares na Perspectiva Inclusiva – NAPNE",
+  "acao_id": "6059",
+  "acao_titulo": "Oficinas e Tutorias de Apoio às Disciplinas Curriculares na Perspectiva Inclusiva – NAPNE",
+  "processo": "23158.000710/2026-99",
+  "coordenador_acao": "Nauvia Maria Cancelieri",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Tania Mara Luiz dos Santos",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Nauvia Maria Cancelieri",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "isabella-sampaio-martins-dos-santos",
+  "nome": "Isabella Sampaio Martins dos Santos",
+  "resumo_ia": "Foi bolsista em 2021 no Programa Local Núcleo Incubador Campus Serra – NIS. Em 2022, atuou como voluntária no SprintLab – Laboratório de Prototipação Acelerada.",
+  "anos": [
+    "2021",
+    "2022"
+  ],
+  "funcoes": [
+    "ALUNO(A) BOLSISTA",
+    "ALUNO(A) VOLUNTARIO"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "3423",
+      "titulo": "Programa Local Núcleo Incubador Campus Serra – NIS",
+      "tipo": "Programa",
+      "ano": "2021",
+      "n": 189,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ]
+    },
+    {
+      "acao_id": "4215",
+      "titulo": "SprintLab - Laboratório de Prototipação Acelerada",
+      "tipo": "Programa",
+      "ano": "2022",
+      "n": 76,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ]
+    }
+  ]
+}

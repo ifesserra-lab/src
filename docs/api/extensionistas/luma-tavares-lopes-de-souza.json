@@ -1,0 +1,38 @@
+{
+  "slug": "luma-tavares-lopes-de-souza",
+  "nome": "Luma Tavares Lopes de Souza",
+  "resumo_ia": "Atuou como apoio técnico e colaboradora no projeto 'Conectando Talentos: Robótica e Programação no IFES-Serra' em 2024 e como extensionista no Serviço de Orientação Financeira (SOF) em 2026, participando de iniciativas de robótica, programação e orientação financeira.",
+  "anos": [
+    "2024",
+    "2026"
+  ],
+  "funcoes": [
+    "APOIO TÉCNICO",
+    "COLABORADOR(A)",
+    "EXTENSIONISTA"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "5086",
+      "titulo": "Conectando Talentos: Robótica e Programação no IFES-Serra",
+      "tipo": "Projeto",
+      "ano": "2024",
+      "n": 218,
+      "funcoes": [
+        "APOIO TÉCNICO",
+        "COLABORADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "5852",
+      "titulo": "SOF – Serviço de Orientação Financeira (unidade Ifes Serra)",
+      "tipo": "Projeto",
+      "ano": "2026",
+      "n": 316,
+      "funcoes": [
+        "EXTENSIONISTA"
+      ]
+    }
+  ]
+}

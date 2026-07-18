@@ -1,0 +1,57 @@
+{
+  "slug": "murilo-andrade-carvalho",
+  "nome": "Murilo Andrade Carvalho",
+  "resumo_ia": "Participou de ações de extensão como professor e aluno voluntário entre 2017 e 2019, envolvendo-se em projetos como 'PRÉ – IFES Campus Serra' e 'O IFES é o meu lugar', além de contribuir com o curso 'Matemática na Rede'.",
+  "anos": [
+    "2017",
+    "2018",
+    "2019"
+  ],
+  "funcoes": [
+    "ALUNO(A) VOLUNTARIO",
+    "PROFESSOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1117",
+      "titulo": "PRÉ – IFES Campus Serra",
+      "tipo": "Curso",
+      "ano": "2017",
+      "n": 48,
+      "funcoes": [
+        "PROFESSOR(A)"
+      ]
+    },
+    {
+      "acao_id": "2081",
+      "titulo": "O IFES é o meu lugar",
+      "tipo": "Curso",
+      "ano": "2018",
+      "n": 96,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ]
+    },
+    {
+      "acao_id": "2591",
+      "titulo": "O IFES é o meu lugar",
+      "tipo": "Curso",
+      "ano": "2019",
+      "n": 106,
+      "funcoes": [
+        "PROFESSOR(A)"
+      ]
+    },
+    {
+      "acao_id": "2650",
+      "titulo": "Matemática na Rede",
+      "tipo": "Curso",
+      "ano": "2019",
+      "n": 40,
+      "funcoes": [
+        "PROFESSOR(A)"
+      ]
+    }
+  ]
+}

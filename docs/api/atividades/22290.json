@@ -1,0 +1,79 @@
+{
+  "atividade_id": "22290",
+  "numero": "104",
+  "atividade": "Ideathon do XXII Simpósio Brasileiro de Sistemas de Informação SBSI 2026",
+  "acao_id": "3140",
+  "acao_titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+  "processo": "23158.001185/2020-56",
+  "coordenador_acao": "Emmanuel Marques Silva",
+  "publico_alvo": {
+    "total": 27,
+    "aprovados": 27,
+    "certificados": 27,
+    "situacao": {
+      "APROVADO": 27
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Karin Satie Komati",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Andressa Ramos Agnhesi Luppi",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Viviane Azevedo Moura",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Maria Eduarda Fiorio Cardoso",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Thaís Pedruzzi do Nascimento",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Claudia Cappelli",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Aline Bravin Prasser",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Thaissa Leslye Lourenço",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Camila Zacche de Aguiar",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Antonio Ricardo Alexandre Brasil",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Kelly Assis de Souza Gazolli",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Susiléa Abreu dos Santos Lima",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Convidado"
+    }
+  ]
+}

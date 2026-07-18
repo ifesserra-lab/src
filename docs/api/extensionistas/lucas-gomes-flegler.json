@@ -1,0 +1,64 @@
+{
+  "slug": "lucas-gomes-flegler",
+  "nome": "Lucas Gomes Flegler",
+  "resumo_ia": "Atuou como aluno(a) bolsista em 2018, 2019 e 2020 em projetos como ESPM-Empregos, ES Na Palma da Mão e Stone Connection. Em 2016, colaborou no LEDS – Laboratório de Extensão em Desenvolvimento de Soluções, exercendo funções como colaborador(a), expositor(a), organizador(a) e palestrante.",
+  "anos": [
+    "2016",
+    "2018",
+    "2019",
+    "2020"
+  ],
+  "funcoes": [
+    "ALUNO(A) BOLSISTA",
+    "COLABORADOR(A)",
+    "EXPOSITOR(A)",
+    "ORGANIZADOR(A)",
+    "PALESTRANTE"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1795",
+      "titulo": "ESPM-Empregos: Um serviço inteligente para promover a empregabilidade",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 7,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ]
+    },
+    {
+      "acao_id": "2285",
+      "titulo": "ES Na Palma da Mão: Uma Plataforma baseado em serviços para Cidades Humanas, Inteligentes e Sustentáveis",
+      "tipo": "Projeto",
+      "ano": "2019",
+      "n": 12,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ]
+    },
+    {
+      "acao_id": "3021",
+      "titulo": "Stone Connection",
+      "tipo": "Projeto",
+      "ano": "2020",
+      "n": 7,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ]
+    },
+    {
+      "acao_id": "901",
+      "titulo": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+      "tipo": "Programa",
+      "ano": "2016",
+      "n": 104,
+      "funcoes": [
+        "COLABORADOR(A)",
+        "EXPOSITOR(A)",
+        "ORGANIZADOR(A)",
+        "PALESTRANTE"
+      ]
+    }
+  ]
+}

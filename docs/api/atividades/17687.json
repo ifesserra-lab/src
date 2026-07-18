@@ -1,0 +1,49 @@
+{
+  "atividade_id": "17687",
+  "numero": "063",
+  "atividade": "Programa de Capacitação ZARUC",
+  "acao_id": "3140",
+  "acao_titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+  "processo": "23158.001185/2020-56",
+  "coordenador_acao": "Emmanuel Marques Silva",
+  "publico_alvo": {
+    "total": 6,
+    "aprovados": 6,
+    "certificados": 6,
+    "situacao": {
+      "APROVADO": 6
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Rubens Carlos Cortes",
+      "funcao": "TUTOR(A)",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Hudson Mereles Cerri",
+      "funcao": "TUTOR(A)",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Débora Pagung Souza",
+      "funcao": "APOIO TÉCNICO",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Arthur Chiabai Wagner",
+      "funcao": "TUTOR(A)",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Andrieli Soares de Souza",
+      "funcao": "TUTOR(A)",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Anderson Gomes",
+      "funcao": "TUTOR(A)",
+      "vinculo": "Convidado"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "acao_id": "382",
+  "Processo nº": "23158.001156/2014-23",
+  "Título ação": "Curso de Programação no LabView - Básico",
+  "Natureza": "Ensino",
+  "Tipo ação": "Curso",
+  "Coordenador(a)": "Marco Antônio de Souza Leite Cuadros",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "",
+  "Grande área conhecimento (inferida)": "Engenharias",
+  "Área temática principal": "",
+  "Área temática principal (inferida)": "Tecnologia e Produção",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "",
+  "Data de cadastro": "17/12/2014",
+  "Resumo": "O software LabView é um ambiente de programação gráfica que oferece facilidade de integração de software e hardware, sendo bastante útil em aplicações nas áreas da robótica, controle e automação.\n\nEste projeto propõe desenvolver as habilidades e competências no uso desta plataforma. Neste curso os alunos participarão de aulas teóricas e práticas realizadas nos laboratórios do Ifes - Campus Serra.",
+  "Campus": "Serra",
+  "total_participacoes": 15,
+  "publico_alvo_total": 15,
+  "atividades": [
+    {
+      "atividade_id": "562",
+      "numero": "001",
+      "atividade": "Programação no LabView - Básico",
+      "publico": 15,
+      "aprovados": 15,
+      "certificados": 15,
+      "equipe": 0
+    }
+  ],
+  "equipe_execucao": []
+}

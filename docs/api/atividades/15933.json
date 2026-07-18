@@ -1,0 +1,35 @@
+{
+  "atividade_id": "15933",
+  "numero": "001",
+  "atividade": "Materiais Rodantes Ferroviários",
+  "acao_id": "4589",
+  "acao_titulo": "Materiais Rodantes Ferroviários",
+  "processo": "23158.001853/2023-75",
+  "coordenador_acao": "Vinícius Secchin de Melo",
+  "publico_alvo": {
+    "total": 14,
+    "aprovados": 6,
+    "certificados": 6,
+    "situacao": {
+      "APROVADO": 6,
+      "REPROVADO": 8
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Bene Regis Figueiredo",
+      "funcao": "PROFESSOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Vinícius Secchin de Melo",
+      "funcao": "PROFESSOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Vinícius Secchin de Melo",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

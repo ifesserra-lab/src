@@ -1,0 +1,27 @@
+{
+  "atividade_id": "7809",
+  "numero": "024",
+  "atividade": "Tutoria em Informática Básica",
+  "acao_id": "650",
+  "acao_titulo": "Tutoria de Estudos Orientados",
+  "processo": "23158.000371/2015-98",
+  "coordenador_acao": "Bruno Ramos Gonzaga",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Jefferson de Oliveira Balduino",
+      "funcao": "PROFESSOR(A)",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Brenda Borges da Silva Prazeres",
+      "funcao": "ALUNO(A) VOLUNTARIO",
+      "vinculo": "Aluno"
+    }
+  ]
+}

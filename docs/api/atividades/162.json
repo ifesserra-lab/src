@@ -1,0 +1,18 @@
+{
+  "atividade_id": "162",
+  "numero": "001",
+  "atividade": "Eletricista Instalador Predial de Baixa Tensão",
+  "acao_id": "110",
+  "acao_titulo": "Curso de Eletricista Instalador Predial de Baixa Tensão",
+  "processo": "23158.000918/2013-93",
+  "coordenador_acao": "Elizangela Campos da Rosa Broetto",
+  "publico_alvo": {
+    "total": 9,
+    "aprovados": 9,
+    "certificados": 9,
+    "situacao": {
+      "APROVADO": 9
+    }
+  },
+  "equipe_execucao": []
+}

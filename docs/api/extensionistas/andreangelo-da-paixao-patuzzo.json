@@ -1,0 +1,61 @@
+{
+  "slug": "andreangelo-da-paixao-patuzzo",
+  "nome": "Andreângelo da Paixão Patuzzo",
+  "resumo_ia": "Desenvolveu atividades como aluno bolsista e voluntário em projetos de extensão voltados para saúde mental entre 2016 e 2019, além de atuar como expositor e palestrante no LEDS – Laboratório de Extensão em Desenvolvimento de Soluções.",
+  "anos": [
+    "2016",
+    "2018",
+    "2019"
+  ],
+  "funcoes": [
+    "ALUNO(A) BOLSISTA",
+    "ALUNO(A) VOLUNTARIO",
+    "EXPOSITOR(A)",
+    "PALESTRANTE"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1834",
+      "titulo": "Sistema para predição de transtornos mentais comuns na atenção primária a saúde",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 5,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ]
+    },
+    {
+      "acao_id": "1847",
+      "titulo": "Sistema de apoio para rastreio e geolocalização de transtornos mentais comuns na atenção primária a saúde",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 5,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ]
+    },
+    {
+      "acao_id": "2600",
+      "titulo": "Sistema para predição de transtornos mentais comuns na atenção primária a saúde",
+      "tipo": "Projeto",
+      "ano": "2019",
+      "n": 4,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ]
+    },
+    {
+      "acao_id": "901",
+      "titulo": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+      "tipo": "Programa",
+      "ano": "2016",
+      "n": 104,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA",
+        "EXPOSITOR(A)",
+        "PALESTRANTE"
+      ]
+    }
+  ]
+}

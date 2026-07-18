@@ -1,0 +1,32 @@
+{
+  "slug": "bertrand-olivier-sahli",
+  "nome": "Bertrand Olivier Sahli",
+  "resumo_ia": "Atuou como assessor, avaliador, instrutor, ministrante e orientador no LAMPEX – Laboratório Modelo de Práticas de Extensão em 2020, participando de múltiplas frentes de formação e avaliação em extensão.",
+  "anos": [
+    "2020"
+  ],
+  "funcoes": [
+    "ASSESSOR(A)",
+    "AVALIADOR(A)",
+    "INSTRUTOR(A)",
+    "MINISTRANTE",
+    "ORIENTADOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "ASSESSOR(A)",
+        "AVALIADOR(A)",
+        "INSTRUTOR(A)",
+        "MINISTRANTE",
+        "ORIENTADOR(A)"
+      ]
+    }
+  ]
+}

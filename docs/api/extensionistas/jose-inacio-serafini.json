@@ -1,0 +1,24 @@
+{
+  "slug": "jose-inacio-serafini",
+  "nome": "José Inácio Serafini",
+  "resumo_ia": "Atuou como avaliador na edição de 2015 do 'Desafio Ifes de Negócios Sociais', avaliando projetos apresentados.",
+  "anos": [
+    "2015"
+  ],
+  "funcoes": [
+    "AVALIADOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "569",
+      "titulo": "Desafio Ifes de Negócios Socais",
+      "tipo": "Evento",
+      "ano": "2015",
+      "n": 40,
+      "funcoes": [
+        "AVALIADOR(A)"
+      ]
+    }
+  ]
+}

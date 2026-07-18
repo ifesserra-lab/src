@@ -1,0 +1,36 @@
+{
+  "slug": "maria-luiza-guimaraes-silva",
+  "nome": "Maria Luiza Guimaraes Silva",
+  "resumo_ia": "Atuou como aluna bolsista no projeto Mutual Life: Um aplicativo para seguros colaborativos em 2018 e como intérprete no Desafio Ifes de Negócios Sociais em 2015.",
+  "anos": [
+    "2015",
+    "2018"
+  ],
+  "funcoes": [
+    "ALUNO(A) BOLSISTA",
+    "INTÉRPRETE"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1786",
+      "titulo": "Mutual Life: Um aplicativo para seguros colaborativos",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 4,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ]
+    },
+    {
+      "acao_id": "569",
+      "titulo": "Desafio Ifes de Negócios Socais",
+      "tipo": "Evento",
+      "ano": "2015",
+      "n": 40,
+      "funcoes": [
+        "INTÉRPRETE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "atividade_id": "18721",
+  "numero": "069",
+  "atividade": "Minicurso \"Introdução à Siderurgia\"",
+  "acao_id": "3140",
+  "acao_titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+  "processo": "23158.001185/2020-56",
+  "coordenador_acao": "Emmanuel Marques Silva",
+  "publico_alvo": {
+    "total": 53,
+    "aprovados": 53,
+    "certificados": 53,
+    "situacao": {
+      "APROVADO": 53
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Daniel Cruz Cavalieri",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Flávio Garcia Pereira",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Rosiane Ribeiro Rocha",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

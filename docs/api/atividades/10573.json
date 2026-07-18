@@ -1,0 +1,34 @@
+{
+  "atividade_id": "10573",
+  "numero": "016",
+  "atividade": "Ação Cineclubista \"Lançamento do Projeto\"",
+  "acao_id": "2505",
+  "acao_titulo": "Circuito Audiovisual",
+  "processo": "23158.001195/2019-35",
+  "coordenador_acao": "Amarildo Mendes Lemos",
+  "publico_alvo": {
+    "total": 11,
+    "aprovados": 11,
+    "certificados": 11,
+    "situacao": {
+      "APROVADO": 11
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Marcos Valério Guimarães",
+      "funcao": "COORDENADOR(A) DE ÁREA",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Denise Carla Goldner Coelho",
+      "funcao": "ASSESSOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Amarildo Mendes Lemos",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

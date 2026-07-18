@@ -1,0 +1,30 @@
+{
+  "atividade_id": "3693",
+  "numero": "006",
+  "atividade": "Oficina: Técnicas de gestão de projetos",
+  "acao_id": "1263",
+  "acao_titulo": "Ciclo de estudos 2017/2 do Ifes campus Serra",
+  "processo": "23158.000394/2017-64",
+  "coordenador_acao": "Gilmar Luiz Vassoler",
+  "publico_alvo": {
+    "total": 30,
+    "aprovados": 16,
+    "certificados": 16,
+    "situacao": {
+      "APROVADO": 16,
+      "REPROVADO": 14
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Rodrigo Fernandes Calhau",
+      "funcao": "INSTRUTOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Paulo Sérgio dos Santos Júnior",
+      "funcao": "INSTRUTOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

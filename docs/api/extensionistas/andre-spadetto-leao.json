@@ -1,0 +1,34 @@
+{
+  "slug": "andre-spadetto-leao",
+  "nome": "André Spadetto Leão",
+  "resumo_ia": "Engajou-se como aluno voluntário em dois projetos extensionistas em 2016: um sistema de monitoramento de temperatura para transporte de órgãos e no LEDS – Laboratório de Extensão em Desenvolvimento de Soluções.",
+  "anos": [
+    "2016"
+  ],
+  "funcoes": [
+    "ALUNO(A) VOLUNTARIO"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "848",
+      "titulo": "Sistema de apoio para monitorar temperatura para preparaçãode caixas para transporte de órgão.",
+      "tipo": "Projeto",
+      "ano": "2016",
+      "n": 7,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ]
+    },
+    {
+      "acao_id": "901",
+      "titulo": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+      "tipo": "Programa",
+      "ano": "2016",
+      "n": 104,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ]
+    }
+  ]
+}

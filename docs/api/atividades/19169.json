@@ -1,0 +1,37 @@
+{
+  "atividade_id": "19169",
+  "numero": "020",
+  "atividade": "Implementações do front-end do sistema Pink Pepper Qualifier - Etapa 1",
+  "acao_id": "4033",
+  "acao_titulo": "Pink Pepper Qualifier: Determinação da qualidade produtiva dos frutos da Aroeira (Schinus terebinthifolius Raddi) usando Inteligência Computacional",
+  "processo": "23158.002841/2022-87",
+  "coordenador_acao": "Fidelis Zanetti de Castro",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Eduarda Rodrigues Simões",
+      "funcao": "ALUNO(A) BOLSISTA",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Mayke Willans Christo Pereira",
+      "funcao": "ALUNO(A) BOLSISTA",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Thaís de Souza",
+      "funcao": "ALUNO(A) BOLSISTA",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Manoel Rodrigues Loureiro",
+      "funcao": "ALUNO(A) BOLSISTA",
+      "vinculo": "Aluno"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "lucas-velten-henker",
+  "nome": "Lucas Velten Henker",
+  "resumo_ia": "Foi aluno bolsista no Curso de Pré-Incubação de Empreendimentos – modalidade Residência em 2017, integrando atividades de fomento ao empreendedorismo no campus Serra.",
+  "anos": [
+    "2017"
+  ],
+  "funcoes": [
+    "ALUNO(A) BOLSISTA"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1406",
+      "titulo": "Curso de Pré-Incubação de Empreendimentos – modalidade Residência",
+      "tipo": "Curso",
+      "ano": "2017",
+      "n": 12,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ]
+    }
+  ]
+}

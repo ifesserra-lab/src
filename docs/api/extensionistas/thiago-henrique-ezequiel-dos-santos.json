@@ -1,0 +1,39 @@
+{
+  "slug": "thiago-henrique-ezequiel-dos-santos",
+  "nome": "Thiago Henrique Ezequiel dos Santos",
+  "resumo_ia": "Colaborou no LAMPEX – Laboratório Modelo de Práticas de Extensão em 2020, com apoio técnico e participação como aluno(a) voluntário(a); em 2024, atuou como colaborador(a) no projeto Conectando Talentos: Robótica e Programação no IFES-Serra.",
+  "anos": [
+    "2020",
+    "2024"
+  ],
+  "funcoes": [
+    "ALUNO(A) VOLUNTARIO",
+    "APOIO TÉCNICO",
+    "COLABORADOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO",
+        "APOIO TÉCNICO",
+        "COLABORADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "5086",
+      "titulo": "Conectando Talentos: Robótica e Programação no IFES-Serra",
+      "tipo": "Projeto",
+      "ano": "2024",
+      "n": 218,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "atividade_id": "22066",
+  "numero": "002",
+  "atividade": "Palestra promovida pelo LIEFIS: \"Finanças Pessoais: Eu, Meu Dinheiro e Minhas Decisões.",
+  "acao_id": "5852",
+  "acao_titulo": "SOF – Serviço de Orientação Financeira (unidade Ifes Serra)",
+  "processo": "23158.002622/2025-41",
+  "coordenador_acao": "Emmanuel Marques Silva",
+  "publico_alvo": {
+    "total": 27,
+    "aprovados": 27,
+    "certificados": 27,
+    "situacao": {
+      "APROVADO": 27
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Emmanuel Marques Silva",
+      "funcao": "PALESTRANTE",
+      "vinculo": "Servidor"
+    }
+  ]
+}

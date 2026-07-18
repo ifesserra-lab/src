@@ -1,0 +1,24 @@
+{
+  "slug": "veronica-maia-viana-marcial",
+  "nome": "Veronica Maia Viana Marcial",
+  "resumo_ia": "Participou como intérprete na equipe do Desafio Ifes de Negócios Socais em 2015.",
+  "anos": [
+    "2015"
+  ],
+  "funcoes": [
+    "INTÉRPRETE"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "569",
+      "titulo": "Desafio Ifes de Negócios Socais",
+      "tipo": "Evento",
+      "ano": "2015",
+      "n": 40,
+      "funcoes": [
+        "INTÉRPRETE"
+      ]
+    }
+  ]
+}

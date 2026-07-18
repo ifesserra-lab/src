@@ -1,0 +1,24 @@
+{
+  "slug": "larissa-campos-vieira",
+  "nome": "Larissa Campos Vieira",
+  "resumo_ia": "Expositora na ação 'Física ao Alcance de Todos' em 2018, contribuindo para a promoção do ensino de física de forma acessível.",
+  "anos": [
+    "2018"
+  ],
+  "funcoes": [
+    "EXPOSITOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "2021",
+      "titulo": "Física ao Alcance de Todos",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 429,
+      "funcoes": [
+        "EXPOSITOR(A)"
+      ]
+    }
+  ]
+}

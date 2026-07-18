@@ -1,0 +1,27 @@
+{
+  "atividade_id": "18019",
+  "numero": "066",
+  "atividade": "Produção de Material de Apoio Pedagógico para os Minicursos do Lampex na Edição 2023-2024",
+  "acao_id": "3140",
+  "acao_titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+  "processo": "23158.001185/2020-56",
+  "coordenador_acao": "Emmanuel Marques Silva",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Marllon Christiani dos Santos Ribeiro",
+      "funcao": "ALUNO(A) BOLSISTA",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Carlos Henrique Santos das Neves de Almeida Feu",
+      "funcao": "ALUNO(A) BOLSISTA",
+      "vinculo": "Aluno"
+    }
+  ]
+}

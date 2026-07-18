@@ -1,0 +1,24 @@
+{
+  "slug": "maria-gabriela-siqueira-tavares",
+  "nome": "Maria Gabriela Siqueira Tavares",
+  "resumo_ia": "Atuou como aluna voluntária no projeto Mulheres na Ciência em 2018, participando de ações extensionistas voltadas à promoção da participação feminina na ciência.",
+  "anos": [
+    "2018"
+  ],
+  "funcoes": [
+    "ALUNO(A) VOLUNTARIO"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "2082",
+      "titulo": "Mulheres na Ciência",
+      "tipo": "Curso",
+      "ano": "2018",
+      "n": 53,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ]
+    }
+  ]
+}

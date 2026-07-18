@@ -1,0 +1,18 @@
+{
+  "atividade_id": "547",
+  "numero": "001",
+  "atividade": "Capacitação em Aulas Práticas em Instrumentação Industrial",
+  "acao_id": "374",
+  "acao_titulo": "Curso de Capacitação em Aulas Práticas em Instrumentação Industrial",
+  "processo": "23158.001152/2014-45",
+  "coordenador_acao": "Emmanuel Marques Silva",
+  "publico_alvo": {
+    "total": 13,
+    "aprovados": 13,
+    "certificados": 13,
+    "situacao": {
+      "APROVADO": 13
+    }
+  },
+  "equipe_execucao": []
+}

@@ -1,0 +1,27 @@
+{
+  "atividade_id": "3671",
+  "numero": "011",
+  "atividade": "Minicurso “Tradução e Interpretação de Libras”",
+  "acao_id": "1238",
+  "acao_titulo": "II Seminário de Educação Especial no Instituto Federal do Espírito Santo",
+  "processo": "23158.000398/2017-42",
+  "coordenador_acao": "Renata Imaculada de Oliveira Teixeira",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Joaquim Cesar Cunha dos Santos",
+      "funcao": "INSTRUTOR(A)",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Fernanda dos Santos Nogueira",
+      "funcao": "INSTRUTOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

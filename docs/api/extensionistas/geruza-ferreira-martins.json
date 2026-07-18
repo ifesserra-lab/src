@@ -1,0 +1,33 @@
+{
+  "slug": "geruza-ferreira-martins",
+  "nome": "Geruza Ferreira Martins",
+  "resumo_ia": "Coordenou o projeto 'Ritornelo' em 2019 e atuou como apoio técnico na equipe do 'LAMPEX – Laboratório Modelo de Práticas de Extensão' em 2020.",
+  "anos": [
+    "2019",
+    "2020"
+  ],
+  "funcoes": [
+    "APOIO TÉCNICO"
+  ],
+  "acoes_coordenadas": [
+    {
+      "acao_id": "2750",
+      "titulo": "Ritornelo",
+      "tipo": "Projeto",
+      "ano": "2019",
+      "n": 0
+    }
+  ],
+  "participacoes_equipe": [
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "APOIO TÉCNICO"
+      ]
+    }
+  ]
+}

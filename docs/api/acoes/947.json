@@ -1,0 +1,60 @@
+{
+  "acao_id": "947",
+  "Processo nº": "23158.003281/2023-69",
+  "Título ação": "Rede de Laboratórios de Educação em Desenvolvimento de Soluções - LEDS",
+  "Natureza": "Extensão",
+  "Tipo ação": "Programa em Rede",
+  "Coordenador(a)": "Victorio Albani de Carvalho",
+  "Fomento": "PAEX-IFES",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "Ciências Sociais Aplicadas",
+  "Área temática principal": "Tecnologia e Produção",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "18/12/2019",
+  "Data de cadastro": "02/12/2016",
+  "Resumo": "Atualmente há uma falta de experiencia e vivencia por parte dos alunos e professores na resolução de probelmas reais.",
+  "Campus": "Serra",
+  "total_participacoes": 4,
+  "publico_alvo_total": 0,
+  "atividades": [
+    {
+      "atividade_id": "2286",
+      "numero": "001",
+      "atividade": "Rede de Laboratórios de Educação em Desenvolvimento de Soluções - LEDS",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 4
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Paulo Sérgio dos Santos Júnior",
+      "funcoes": [
+        "COORDENADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Rodrigo Fernandes Calhau",
+      "funcoes": [
+        "AUXILIAR TÉCNICO"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Victorio Albani de Carvalho",
+      "funcoes": [
+        "COORDENADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Walber Antonio Ramos Beltrame",
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)"
+      ],
+      "vinculo": "Servidor"
+    }
+  ]
+}

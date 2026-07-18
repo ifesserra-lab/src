@@ -1,0 +1,40 @@
+{
+  "slug": "faye-manski-queiroz",
+  "nome": "Faye Manski Queiroz",
+  "resumo_ia": "Atuou como expositora, monitora e pesquisadora na equipe do projeto Física ao Alcance de Todos em 2018 e como extensionista na mesma equipe em 2022.",
+  "anos": [
+    "2018",
+    "2022"
+  ],
+  "funcoes": [
+    "EXPOSITOR(A)",
+    "EXTENSIONISTA",
+    "MONITOR(A)",
+    "PESQUISADOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "2021",
+      "titulo": "Física ao Alcance de Todos",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 429,
+      "funcoes": [
+        "EXPOSITOR(A)",
+        "MONITOR(A)",
+        "PESQUISADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "3768",
+      "titulo": "Física ao Alcance de Todos",
+      "tipo": "Projeto",
+      "ano": "2022",
+      "n": 11,
+      "funcoes": [
+        "EXTENSIONISTA"
+      ]
+    }
+  ]
+}

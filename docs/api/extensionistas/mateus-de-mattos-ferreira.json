@@ -1,0 +1,36 @@
+{
+  "slug": "mateus-de-mattos-ferreira",
+  "nome": "Mateus de Mattos Ferreira",
+  "resumo_ia": "Foi expositor no projeto Física ao Alcance de Todos em 2018 e atuou como apoio técnico no LAMPEX – Laboratório Modelo de Práticas de Extensão em 2020.",
+  "anos": [
+    "2018",
+    "2020"
+  ],
+  "funcoes": [
+    "APOIO TÉCNICO",
+    "EXPOSITOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "2021",
+      "titulo": "Física ao Alcance de Todos",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 429,
+      "funcoes": [
+        "EXPOSITOR(A)"
+      ]
+    },
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "APOIO TÉCNICO"
+      ]
+    }
+  ]
+}

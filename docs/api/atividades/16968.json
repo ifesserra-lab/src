@@ -1,0 +1,27 @@
+{
+  "atividade_id": "16968",
+  "numero": "058",
+  "atividade": "Marketing Digital do Lampex na Edição 2022-2023",
+  "acao_id": "3140",
+  "acao_titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+  "processo": "23158.001185/2020-56",
+  "coordenador_acao": "Emmanuel Marques Silva",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Maycon Pequeno Silva",
+      "funcao": "DESIGNER",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Isaque da Silva Santos de Souza",
+      "funcao": "DESIGNER",
+      "vinculo": "Aluno"
+    }
+  ]
+}

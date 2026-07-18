@@ -1,0 +1,39 @@
+{
+  "atividade_id": "6796",
+  "numero": "012",
+  "atividade": "Tutoria em Física do 1° ano do Ensino Médio",
+  "acao_id": "650",
+  "acao_titulo": "Tutoria de Estudos Orientados",
+  "processo": "23158.000371/2015-98",
+  "coordenador_acao": "Bruno Ramos Gonzaga",
+  "publico_alvo": {
+    "total": 7,
+    "aprovados": 7,
+    "certificados": 7,
+    "situacao": {
+      "APROVADO": 7
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "João Victor Heringer",
+      "funcao": "ALUNO(A) VOLUNTARIO",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Pedro Soeiro Santanna",
+      "funcao": "ALUNO(A) VOLUNTARIO",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Tulio Boechat Rodrigues",
+      "funcao": "ALUNO(A) VOLUNTARIO",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Geovane de Araujo Ceolin",
+      "funcao": "TUTOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

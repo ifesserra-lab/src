@@ -1,0 +1,18 @@
+{
+  "descricao": "API estática do painel de Extensão — SRC/Ifes Campus Serra",
+  "privacidade": "Sem dados pessoais de alunos (público-alvo só contagens); equipe como crédito público (nome/função/vínculo).",
+  "endpoints": [
+    "api/painel.json",
+    "api/busca.json",
+    "api/acoes/index.json",
+    "api/acoes/<acao_id>.json",
+    "api/atividades/<atividade_id>.json",
+    "api/extensionistas/index.json",
+    "api/extensionistas/<slug>.json",
+    "api/sem-participacao.json",
+    "api/pendencias-relatorio.json"
+  ],
+  "acoes": 201,
+  "atividades": 525,
+  "extensionistas": 757
+}

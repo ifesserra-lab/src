@@ -1,0 +1,24 @@
+{
+  "atividade_id": "10562",
+  "numero": "005",
+  "atividade": "Oficina Especializada de Som",
+  "acao_id": "2505",
+  "acao_titulo": "Circuito Audiovisual",
+  "processo": "23158.001195/2019-35",
+  "coordenador_acao": "Amarildo Mendes Lemos",
+  "publico_alvo": {
+    "total": 10,
+    "aprovados": 10,
+    "certificados": 10,
+    "situacao": {
+      "APROVADO": 10
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Hugo Leonardo Castilhos dos Reis",
+      "funcao": "INSTRUTOR(A)",
+      "vinculo": "Convidado"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "victor-ramos-dessaune",
+  "nome": "Victor Ramos Dessaune",
+  "resumo_ia": "Desempenhou a função de Monitor(a) na equipe do projeto QUÍMICA VERDE APLICADA: oficinas e workshops em 2023, participando de ações extensionistas voltadas à disseminação de conhecimentos.",
+  "anos": [
+    "2023"
+  ],
+  "funcoes": [
+    "MONITOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "4754",
+      "titulo": "QUÍMICA VERDE APLICADA: oficinas e workshops",
+      "tipo": "Projeto",
+      "ano": "2023",
+      "n": 159,
+      "funcoes": [
+        "MONITOR(A)"
+      ]
+    }
+  ]
+}

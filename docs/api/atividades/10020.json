@@ -1,0 +1,69 @@
+{
+  "atividade_id": "10020",
+  "numero": "005",
+  "atividade": "Minicurso: Hacktoberfest LEDS",
+  "acao_id": "901",
+  "acao_titulo": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+  "processo": "23158.001139/2014-96",
+  "coordenador_acao": "Felipe Frechiani de Oliveira",
+  "publico_alvo": {
+    "total": 15,
+    "aprovados": 15,
+    "certificados": 0,
+    "situacao": {
+      "APROVADO": 15
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Matheus Kleber Rodrigues Barbosa",
+      "funcao": "PALESTRANTE",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Magno Macedo de Oliveira",
+      "funcao": "PALESTRANTE",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Lucas Gomes Flegler",
+      "funcao": "PALESTRANTE",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Helen França Medeiros",
+      "funcao": "PALESTRANTE",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Gary Moura da Silva",
+      "funcao": "PALESTRANTE",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Matheus Kleber Rodrigues Barbosa",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Lucas Gomes Flegler",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Gary Moura da Silva",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Magno Macedo de Oliveira",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Helen França Medeiros",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Aluno"
+    }
+  ]
+}

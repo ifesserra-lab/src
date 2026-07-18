@@ -1,0 +1,82 @@
+{
+  "slug": "ronaldo-aparecida-marques",
+  "nome": "Ronaldo Aparecida Marques",
+  "resumo_ia": "Colaborou no Programa Local Núcleo Incubador Campus Serra – NIS em 2017, atuando como membro de comitê gestor, mentor e instrutor no Curso de Pré-Incubação para Empreendedores. Também participou como expositor no LAMPEX em 2020 e coordenou o SOF – Serviço de Orientação Financeira em 2026, além de atuar como avaliador e coordenador adjunto em cursos de pré-incubação entre 2016 e 2017.",
+  "anos": [
+    "2016",
+    "2017",
+    "2020",
+    "2026"
+  ],
+  "funcoes": [
+    "AVALIADOR(A)",
+    "COLABORADOR(A)",
+    "COORDENADOR(A) ADJUNTO(A)",
+    "EXPOSITOR(A)",
+    "INSTRUTOR(A)",
+    "MEMBRO DE COMITÊ GESTOR",
+    "MENTOR(A)",
+    "ORIENTADOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1116",
+      "titulo": "Programa Local Núcleo Incubador Campus Serra – NIS",
+      "tipo": "Programa",
+      "ano": "2017",
+      "n": 220,
+      "funcoes": [
+        "COLABORADOR(A)",
+        "MEMBRO DE COMITÊ GESTOR",
+        "MENTOR(A)"
+      ]
+    },
+    {
+      "acao_id": "1261",
+      "titulo": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedora",
+      "tipo": "Curso",
+      "ano": "2017",
+      "n": 84,
+      "funcoes": [
+        "COLABORADOR(A)",
+        "INSTRUTOR(A)"
+      ]
+    },
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "EXPOSITOR(A)"
+      ]
+    },
+    {
+      "acao_id": "5852",
+      "titulo": "SOF – Serviço de Orientação Financeira (unidade Ifes Serra)",
+      "tipo": "Projeto",
+      "ano": "2026",
+      "n": 316,
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)",
+        "EXPOSITOR(A)",
+        "ORIENTADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "708",
+      "titulo": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedoras",
+      "tipo": "Curso",
+      "ano": "2016",
+      "n": 77,
+      "funcoes": [
+        "AVALIADOR(A)",
+        "COORDENADOR(A) ADJUNTO(A)",
+        "INSTRUTOR(A)",
+        "ORIENTADOR(A)"
+      ]
+    }
+  ]
+}

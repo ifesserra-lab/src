@@ -1,0 +1,24 @@
+{
+  "slug": "thais-de-souza",
+  "nome": "Thaís de Souza",
+  "resumo_ia": "Participou como aluno(a) bolsista no projeto Pink Pepper Qualifier em 2022, atuando em atividades de pesquisa e extensão relacionadas à qualidade produtiva dos frutos da Aroeira.",
+  "anos": [
+    "2022"
+  ],
+  "funcoes": [
+    "ALUNO(A) BOLSISTA"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "4033",
+      "titulo": "Pink Pepper Qualifier: Determinação da qualidade produtiva dos frutos da Aroeira (Schinus terebinthifolius Raddi) usando Inteligência Computacional",
+      "tipo": "Projeto",
+      "ano": "2022",
+      "n": 164,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ]
+    }
+  ]
+}

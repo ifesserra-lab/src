@@ -1,0 +1,42 @@
+{
+  "atividade_id": "3213",
+  "numero": "004",
+  "atividade": "Banca de Apresentação do Trabalho Final de Curso do aluno Renahn Pazini Marim",
+  "acao_id": "912",
+  "acao_titulo": "Curso de Pré-Incubação de Empreendimentos – modalidade Residência",
+  "processo": "23158.000537/2015-76",
+  "coordenador_acao": "Emmanuel Marques Silva",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Marcos Simão Guimarães",
+      "funcao": "AVALIADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Emerson Atílio Birchler",
+      "funcao": "AVALIADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Karin Satie Komati",
+      "funcao": "AVALIADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Felipe Frechiani de Oliveira",
+      "funcao": "AVALIADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Emmanuel Marques Silva",
+      "funcao": "AVALIADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

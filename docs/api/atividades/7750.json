@@ -1,0 +1,37 @@
+{
+  "atividade_id": "7750",
+  "numero": "009",
+  "atividade": "Trabalho de Iniciação Científica",
+  "acao_id": "2021",
+  "acao_titulo": "Física ao Alcance de Todos",
+  "processo": "23158.001115/2018-61",
+  "coordenador_acao": "Rosilene de Sá Ribeiro",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Leandro Melo de Sá",
+      "funcao": "ORIENTADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Isabelle Pereira Souza Dias",
+      "funcao": "PESQUISADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Faye Manski Queiroz",
+      "funcao": "PESQUISADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Rosilene de Sá Ribeiro",
+      "funcao": "ORIENTADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "julia-almeida-nascimento-lopes",
+  "nome": "Julia Almeida Nascimento Lopes",
+  "resumo_ia": "Atuou como organizadora do LAMPEX em 2020 e como bolsista e ministrante em projetos do LabMaker Serra em 2023 e 2025, além de participar como bolsista e voluntária no projeto Jovens Inventores em 2025.",
+  "anos": [
+    "2020",
+    "2023",
+    "2025"
+  ],
+  "funcoes": [
+    "ALUNO(A) BOLSISTA",
+    "ALUNO(A) VOLUNTARIO",
+    "MINISTRANTE",
+    "ORGANIZADOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "4655",
+      "titulo": "LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão",
+      "tipo": "Programa",
+      "ano": "2023",
+      "n": 558,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA",
+        "MINISTRANTE"
+      ]
+    },
+    {
+      "acao_id": "5641",
+      "titulo": "LabMaker 4.0: capacitando professores para a cultura maker e tecnologias da Indústria 4.0",
+      "tipo": "Projeto",
+      "ano": "2025",
+      "n": 73,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ]
+    },
+    {
+      "acao_id": "5677",
+      "titulo": "Jovens Inventores: O poder da Tecnologia Maker no Desenvolvimento Social",
+      "tipo": "Projeto",
+      "ano": "2025",
+      "n": 48,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA",
+        "ALUNO(A) VOLUNTARIO"
+      ]
+    }
+  ]
+}

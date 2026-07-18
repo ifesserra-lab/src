@@ -1,0 +1,22 @@
+{
+  "atividade_id": "10619",
+  "numero": "004",
+  "atividade": "Palestra \"Uma introdução à Robótica de Reabilitação e Robótica Vestível (Wearables Robotics)",
+  "acao_id": "2082",
+  "acao_titulo": "Mulheres na Ciência",
+  "processo": "23158.001039/2018-93",
+  "coordenador_acao": "Giordana dos Santos Sperandio",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Richard Junior Manuel Godinez Tello",
+      "funcao": "PALESTRANTE",
+      "vinculo": "Servidor"
+    }
+  ]
+}

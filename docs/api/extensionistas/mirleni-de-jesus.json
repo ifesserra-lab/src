@@ -1,0 +1,24 @@
+{
+  "slug": "mirleni-de-jesus",
+  "nome": "Mirleni de Jesus",
+  "resumo_ia": "Integrou a equipe do curso 'Programação Visual Criativa com Scratch' como instrutora em 2015, contribuindo para ações de extensão na área de programação criativa.",
+  "anos": [
+    "2015"
+  ],
+  "funcoes": [
+    "INSTRUTOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "542",
+      "titulo": "Programação Visual Criativa com Scratch",
+      "tipo": "Curso",
+      "ano": "2015",
+      "n": 25,
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ]
+    }
+  ]
+}

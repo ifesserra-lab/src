@@ -1,0 +1,36 @@
+{
+  "slug": "isabella-bissoli",
+  "nome": "Isabella Bissoli",
+  "resumo_ia": "Desenvolveu atividades de apoio técnico no LAMPEX em 2020. Em 2023, atuou como auxiliar técnico no projeto ConectaFapes, plataforma de apoio à Pesquisa, Desenvolvimento e Inovação.",
+  "anos": [
+    "2020",
+    "2023"
+  ],
+  "funcoes": [
+    "APOIO TÉCNICO",
+    "AUXILIAR TÉCNICO"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "APOIO TÉCNICO"
+      ]
+    },
+    {
+      "acao_id": "4830",
+      "titulo": "ConectaFapes: Uma plataforma de apoio à Pesquisa, Desenvolvimento e Inovação",
+      "tipo": "Projeto",
+      "ano": "2023",
+      "n": 124,
+      "funcoes": [
+        "AUXILIAR TÉCNICO"
+      ]
+    }
+  ]
+}

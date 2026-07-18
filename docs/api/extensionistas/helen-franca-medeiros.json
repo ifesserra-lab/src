@@ -1,0 +1,63 @@
+{
+  "slug": "helen-franca-medeiros",
+  "nome": "Helen França Medeiros",
+  "resumo_ia": "Desenvolveu atividades de extensão como bolsista na equipe ESPM-Empregos em 2018, palestrante na Tutoria de Estudos Orientados em 2019, voluntária na Stone Connection em 2020 e, entre 2016 e 2019, atuou como expositora, organizadora e palestrante na equipe LEDS – Laboratório de Extensão em Desenvolvimento de Soluções.",
+  "anos": [
+    "2016",
+    "2018",
+    "2019",
+    "2020"
+  ],
+  "funcoes": [
+    "ALUNO(A) BOLSISTA",
+    "ALUNO(A) VOLUNTARIO",
+    "EXPOSITOR(A)",
+    "ORGANIZADOR(A)",
+    "PALESTRANTE"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1795",
+      "titulo": "ESPM-Empregos: Um serviço inteligente para promover a empregabilidade",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 7,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ]
+    },
+    {
+      "acao_id": "2675",
+      "titulo": "Tutoria de Estudos Orientados: Compartilhando Saberes",
+      "tipo": "Projeto",
+      "ano": "2019",
+      "n": 19,
+      "funcoes": [
+        "PALESTRANTE"
+      ]
+    },
+    {
+      "acao_id": "3021",
+      "titulo": "Stone Connection",
+      "tipo": "Projeto",
+      "ano": "2020",
+      "n": 7,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ]
+    },
+    {
+      "acao_id": "901",
+      "titulo": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+      "tipo": "Programa",
+      "ano": "2016",
+      "n": 104,
+      "funcoes": [
+        "EXPOSITOR(A)",
+        "ORGANIZADOR(A)",
+        "PALESTRANTE"
+      ]
+    }
+  ]
+}

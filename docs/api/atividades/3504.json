@@ -1,0 +1,44 @@
+{
+  "atividade_id": "3504",
+  "numero": "006",
+  "atividade": "Tutoria de Estudos Orientados",
+  "acao_id": "650",
+  "acao_titulo": "Tutoria de Estudos Orientados",
+  "processo": "23158.000371/2015-98",
+  "coordenador_acao": "Bruno Ramos Gonzaga",
+  "publico_alvo": {
+    "total": 10,
+    "aprovados": 10,
+    "certificados": 10,
+    "situacao": {
+      "APROVADO": 10
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Wagner Teixeira da Costa",
+      "funcao": "CONSULTOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Geovane de Araujo Ceolin",
+      "funcao": "TUTOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Fabio de Oliveira Lima",
+      "funcao": "TUTOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Adriana Padua Lovatte",
+      "funcao": "TUTOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Bruno Ramos Gonzaga",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

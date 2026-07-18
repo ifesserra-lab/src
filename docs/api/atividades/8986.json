@@ -1,0 +1,37 @@
+{
+  "atividade_id": "8986",
+  "numero": "001",
+  "atividade": "Sistema para predição de transtornos mentais comuns na atenção primária a saúde",
+  "acao_id": "2600",
+  "acao_titulo": "Sistema para predição de transtornos mentais comuns na atenção primária a saúde",
+  "processo": "23158.001150/2019-61",
+  "coordenador_acao": "Moisés Savedra Omena",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Matheus de Souza Pereira de Oliveira",
+      "funcao": "ALUNO(A) BOLSISTA",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Serenna Ferrari Lima",
+      "funcao": "ALUNO(A) VOLUNTARIO",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Moisés Savedra Omena",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Andreângelo da Paixão Patuzzo",
+      "funcao": "ALUNO(A) BOLSISTA",
+      "vinculo": "Aluno"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "atividade_id": "12362",
+  "numero": "001",
+  "atividade": "Laboratório IFMaker Serra: um ambiente colaborativo de aprendizagem e desenvolvimento de soluções",
+  "acao_id": "3567",
+  "acao_titulo": "Laboratório IFMaker Serra: um ambiente colaborativo de aprendizagem e desenvolvimento de soluções",
+  "processo": "23158.003037/2021-04",
+  "coordenador_acao": "Richard Junior Manuel Godinez Tello",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Marcos Simão Guimarães",
+      "funcao": "MEMBRO DE COMITÊ GESTOR",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Francisco José Casarim Rapchan",
+      "funcao": "MEMBRO DE COMITÊ GESTOR",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Rosiane Ribeiro Rocha",
+      "funcao": "MEMBRO DE COMITÊ GESTOR",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Richard Junior Manuel Godinez Tello",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

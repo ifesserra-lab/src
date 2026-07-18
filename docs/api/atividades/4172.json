@@ -1,0 +1,40 @@
+{
+  "atividade_id": "4172",
+  "numero": "001",
+  "atividade": "Curso de Pré-Incubação de Empreendimentos – modalidade Residência",
+  "acao_id": "1406",
+  "acao_titulo": "Curso de Pré-Incubação de Empreendimentos – modalidade Residência",
+  "processo": "23158.001300/2017-74",
+  "coordenador_acao": "Felipe Frechiani de Oliveira",
+  "publico_alvo": {
+    "total": 8,
+    "aprovados": 2,
+    "certificados": 2,
+    "situacao": {
+      "REPROVADO": 6,
+      "APROVADO": 2
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Lucas Velten Henker",
+      "funcao": "ALUNO(A) BOLSISTA",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Emmanuel Marques Silva",
+      "funcao": "COORDENADOR(A) ADJUNTO(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Felipe Frechiani de Oliveira",
+      "funcao": "COORDENADOR(A) ADJUNTO(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Estácio Righette Pereira",
+      "funcao": "ALUNO(A) VOLUNTARIO",
+      "vinculo": "Aluno"
+    }
+  ]
+}

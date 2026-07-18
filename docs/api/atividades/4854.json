@@ -1,0 +1,24 @@
+{
+  "atividade_id": "4854",
+  "numero": "001",
+  "atividade": "Ifes para todos",
+  "acao_id": "1546",
+  "acao_titulo": "Ifes para todos",
+  "processo": "23158.001812/2017-31",
+  "coordenador_acao": "Alessandro Bermudes Gomes",
+  "publico_alvo": {
+    "total": 17,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {
+      "CURSANDO": 17
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Alessandro Bermudes Gomes",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

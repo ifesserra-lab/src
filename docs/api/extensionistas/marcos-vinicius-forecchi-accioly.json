@@ -1,0 +1,36 @@
+{
+  "slug": "marcos-vinicius-forecchi-accioly",
+  "nome": "Marcos Vinícius Forecchi Accioly",
+  "resumo_ia": "Mentorou no Desafio Ifes de Negócios Sociais em 2015 e colaborou no LEDS – Laboratório de Extensão em Desenvolvimento de Soluções em 2016.",
+  "anos": [
+    "2015",
+    "2016"
+  ],
+  "funcoes": [
+    "COLABORADOR(A)",
+    "MENTOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "569",
+      "titulo": "Desafio Ifes de Negócios Socais",
+      "tipo": "Evento",
+      "ano": "2015",
+      "n": 40,
+      "funcoes": [
+        "MENTOR(A)"
+      ]
+    },
+    {
+      "acao_id": "901",
+      "titulo": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+      "tipo": "Programa",
+      "ano": "2016",
+      "n": 104,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "slug": "paulo-sergio-dos-santos-junior",
+  "nome": "Paulo Sérgio dos Santos Júnior",
+  "resumo_ia": "Coordenou projetos de extensão como Mutual Life (2018) e ConectaFapes (2023), além de cursos como Despertar da Força (2016). Participou ativamente em equipes de extensão, atuando como coordenador, supervisor, colaborador e instrutor em iniciativas voltadas para inovação, empreendedorismo e desenvolvimento de soluções tecnológicas entre 2015 e 2019.",
+  "anos": [
+    "2015",
+    "2016",
+    "2018",
+    "2019",
+    "2023"
+  ],
+  "funcoes": [
+    "COLABORADOR(A)",
+    "COORDENADOR(A)",
+    "COORDENADOR(A) ADJUNTO(A)",
+    "INSTRUTOR(A)",
+    "SUPERVISOR(A)"
+  ],
+  "acoes_coordenadas": [
+    {
+      "acao_id": "1786",
+      "titulo": "Mutual Life: Um aplicativo para seguros colaborativos",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 4
+    },
+    {
+      "acao_id": "4830",
+      "titulo": "ConectaFapes: Uma plataforma de apoio à Pesquisa, Desenvolvimento e Inovação",
+      "tipo": "Projeto",
+      "ano": "2023",
+      "n": 124
+    },
+    {
+      "acao_id": "930",
+      "titulo": "Despertar da Força - Processos e Ferramentas para o Gerenciamento Ágil de Projetos: Uma Abordagem Prática",
+      "tipo": "Curso",
+      "ano": "2016",
+      "n": 68
+    }
+  ],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1786",
+      "titulo": "Mutual Life: Um aplicativo para seguros colaborativos",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 4,
+      "funcoes": [
+        "COORDENADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "1795",
+      "titulo": "ESPM-Empregos: Um serviço inteligente para promover a empregabilidade",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 7,
+      "funcoes": [
+        "SUPERVISOR(A)"
+      ]
+    },
+    {
+      "acao_id": "2193",
+      "titulo": "LifeBox: transporte e monitoramento de córnea de forma inteligente",
+      "tipo": "Projeto",
+      "ano": "2019",
+      "n": 8,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "2285",
+      "titulo": "ES Na Palma da Mão: Uma Plataforma baseado em serviços para Cidades Humanas, Inteligentes e Sustentáveis",
+      "tipo": "Projeto",
+      "ano": "2019",
+      "n": 12,
+      "funcoes": [
+        "COORDENADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "569",
+      "titulo": "Desafio Ifes de Negócios Socais",
+      "tipo": "Evento",
+      "ano": "2015",
+      "n": 40,
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)"
+      ]
+    },
+    {
+      "acao_id": "645",
+      "titulo": "SIPAC - Sistema de Informação da Produção Agropecuária capixaba",
+      "tipo": "Projeto",
+      "ano": "2016",
+      "n": 7,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "708",
+      "titulo": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedoras",
+      "tipo": "Curso",
+      "ano": "2016",
+      "n": 77,
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ]
+    },
+    {
+      "acao_id": "848",
+      "titulo": "Sistema de apoio para monitorar temperatura para preparaçãode caixas para transporte de órgão.",
+      "tipo": "Projeto",
+      "ano": "2016",
+      "n": 7,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "849",
+      "titulo": "Sistema para auxiliar a gestão da Produção Agropecuária capixaba",
+      "tipo": "Projeto",
+      "ano": "2016",
+      "n": 5,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "901",
+      "titulo": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+      "tipo": "Programa",
+      "ano": "2016",
+      "n": 104,
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)"
+      ]
+    },
+    {
+      "acao_id": "930",
+      "titulo": "Despertar da Força - Processos e Ferramentas para o Gerenciamento Ágil de Projetos: Uma Abordagem Prática",
+      "tipo": "Curso",
+      "ano": "2016",
+      "n": 68,
+      "funcoes": [
+        "COORDENADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "947",
+      "titulo": "Rede de Laboratórios de Educação em Desenvolvimento de Soluções - LEDS",
+      "tipo": "Programa em Rede",
+      "ano": "2016",
+      "n": 4,
+      "funcoes": [
+        "COORDENADOR(A)"
+      ]
+    }
+  ]
+}

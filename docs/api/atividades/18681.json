@@ -1,0 +1,37 @@
+{
+  "atividade_id": "18681",
+  "numero": "002",
+  "atividade": "Desenvolvimento do Módulo Inicial do Projeto Conecta Fapes",
+  "acao_id": "4830",
+  "acao_titulo": "ConectaFapes: Uma plataforma de apoio à Pesquisa, Desenvolvimento e Inovação",
+  "processo": "23158.003530/2023-16",
+  "coordenador_acao": "Paulo Sérgio dos Santos Júnior",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "André Luiz Coelho Silva",
+      "funcao": "ALUNO(A) BOLSISTA",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Vinícius de Jesus Estevam",
+      "funcao": "ALUNO(A) BOLSISTA",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Bruno Carvalho Caxias",
+      "funcao": "ALUNO(A) BOLSISTA",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Marcela Starling Ferreira Lage",
+      "funcao": "ALUNO(A) BOLSISTA",
+      "vinculo": "Aluno"
+    }
+  ]
+}

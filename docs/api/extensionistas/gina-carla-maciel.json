@@ -1,0 +1,35 @@
+{
+  "slug": "gina-carla-maciel",
+  "nome": "Gina Carla Maciel",
+  "resumo_ia": "Colaborou nas equipes dos projetos 'Mulheres Mil – Eletricista Instalador Predial em Baixa Tensão' em 2023 e 'Asas para o Futuro - Eletricista Instalador Predial em Baixa Tensão' em 2025.",
+  "anos": [
+    "2023",
+    "2025"
+  ],
+  "funcoes": [
+    "COLABORADOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "4820",
+      "titulo": "Mulheres Mil – Eletricista Instalador Predial em Baixa Tensão",
+      "tipo": "Curso",
+      "ano": "2023",
+      "n": 74,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "5645",
+      "titulo": "Asas para o Futuro - Eletricista Instalador Predial em Baixa Tensão",
+      "tipo": "Curso",
+      "ano": "2025",
+      "n": 36,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    }
+  ]
+}

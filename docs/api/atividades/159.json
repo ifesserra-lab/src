@@ -1,0 +1,18 @@
+{
+  "atividade_id": "159",
+  "numero": "002",
+  "atividade": "Auxiliar Administrativo",
+  "acao_id": "108",
+  "acao_titulo": "Curso de Auxiliar Administrativo",
+  "processo": "23158.000916/2013-02",
+  "coordenador_acao": "Elizangela Campos da Rosa Broetto",
+  "publico_alvo": {
+    "total": 29,
+    "aprovados": 29,
+    "certificados": 29,
+    "situacao": {
+      "APROVADO": 29
+    }
+  },
+  "equipe_execucao": []
+}

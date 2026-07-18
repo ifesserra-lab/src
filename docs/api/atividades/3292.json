@@ -1,0 +1,32 @@
+{
+  "atividade_id": "3292",
+  "numero": "004",
+  "atividade": "Mesa Temática \"Atentimento Educacional Especializado\"",
+  "acao_id": "1238",
+  "acao_titulo": "II Seminário de Educação Especial no Instituto Federal do Espírito Santo",
+  "processo": "23158.000398/2017-42",
+  "coordenador_acao": "Renata Imaculada de Oliveira Teixeira",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Josiane Beltrame Milanesi",
+      "funcao": "PALESTRANTE",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Renata Imaculada de Oliveira Teixeira",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Ariadna Pereira Siqueira Effgen",
+      "funcao": "PALESTRANTE",
+      "vinculo": "Convidado"
+    }
+  ]
+}

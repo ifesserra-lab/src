@@ -1,0 +1,41 @@
+{
+  "acao_id": "5184",
+  "Processo nº": "23158.001120/2024-11",
+  "Título ação": "Introdução à Linguagem LáTex para escrita de materiais acadêmicos",
+  "Natureza": "Ensino",
+  "Tipo ação": "Curso",
+  "Coordenador(a)": "Vinícius Secchin de Melo",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "Engenharias",
+  "Área temática principal": "",
+  "Área temática principal (inferida)": "Educação",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "15/04/2025",
+  "Data de cadastro": "19/09/2024",
+  "Resumo": "O presente curso visa proporcionar ao aluno uma formação complementar na área\nde programação, em particular a utilização da ferramenta LaTex na edição e escrita de materiais\nacadêmicos, tais como trabalhos de conclusão de curso, teses e dissertações, entre outors. O LáTex vem\nsendo uma importante ferramenta para a escrita de materiais com qualidade não somente de texto,\nmas principalmente quando envolve expressões matemáticas e termos científicos, bem como a\nnecessidade de um maior controle na editoração de um trabalho. Desta forma o LáTex torna-se uma\nferramenta fundamental para o auxílio à composição na elaboração de um trabalho acadêmico.",
+  "Campus": "Serra",
+  "total_participacoes": 12,
+  "publico_alvo_total": 10,
+  "atividades": [
+    {
+      "atividade_id": "18828",
+      "numero": "001",
+      "atividade": "Introdução à Linguagem LáTex para escrita de materiais acadêmicos",
+      "publico": 10,
+      "aprovados": 10,
+      "certificados": 8,
+      "equipe": 2
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Vinícius Secchin de Melo",
+      "funcoes": [
+        "COORDENADOR(A)",
+        "PROFESSOR(A)"
+      ],
+      "vinculo": "Servidor"
+    }
+  ]
+}

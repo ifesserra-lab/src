@@ -1,0 +1,19 @@
+{
+  "atividade_id": "6085",
+  "numero": "002",
+  "atividade": "Projeto Ifes Portas Abertas",
+  "acao_id": "1702",
+  "acao_titulo": "Ifes Portas Abertas",
+  "processo": "23158.000218/2018-11",
+  "coordenador_acao": "Wagner Kirmse Caldas",
+  "publico_alvo": {
+    "total": 244,
+    "aprovados": 243,
+    "certificados": 243,
+    "situacao": {
+      "APROVADO": 243,
+      "REPROVADO": 1
+    }
+  },
+  "equipe_execucao": []
+}

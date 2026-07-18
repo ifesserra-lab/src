@@ -1,0 +1,24 @@
+{
+  "slug": "renan-campista",
+  "nome": "Renan Campista",
+  "resumo_ia": "Participou como extensionista em 2020 no projeto 'LAMPEX – Laboratório Modelo de Práticas de Extensão', desenvolvendo atividades no Ifes Campus Serra.",
+  "anos": [
+    "2020"
+  ],
+  "funcoes": [
+    "EXTENSIONISTA"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "EXTENSIONISTA"
+      ]
+    }
+  ]
+}

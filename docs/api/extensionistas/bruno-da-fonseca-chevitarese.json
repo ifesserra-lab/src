@@ -1,0 +1,41 @@
+{
+  "slug": "bruno-da-fonseca-chevitarese",
+  "nome": "Bruno da Fonseca Chevitarese",
+  "resumo_ia": "Atuou como aluno voluntário, autor, instrutor e monitor no LAMPEX – Laboratório Modelo de Práticas de Extensão em 2020 e como aluno voluntário no SprintLab - Laboratório de Prototipação Acelerada em 2022, participando de atividades de extensão voltadas à inovação e prototipação.",
+  "anos": [
+    "2020",
+    "2022"
+  ],
+  "funcoes": [
+    "ALUNO(A) VOLUNTARIO",
+    "AUTOR(A)",
+    "INSTRUTOR(A)",
+    "MONITOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO",
+        "AUTOR(A)",
+        "INSTRUTOR(A)",
+        "MONITOR(A)"
+      ]
+    },
+    {
+      "acao_id": "4215",
+      "titulo": "SprintLab - Laboratório de Prototipação Acelerada",
+      "tipo": "Programa",
+      "ano": "2022",
+      "n": 76,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ]
+    }
+  ]
+}

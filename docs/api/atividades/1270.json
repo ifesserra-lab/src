@@ -1,0 +1,24 @@
+{
+  "atividade_id": "1270",
+  "numero": "001",
+  "atividade": "Introdução à Programação Competitiva",
+  "acao_id": "640",
+  "acao_titulo": "Introdução à Programação Competitiva",
+  "processo": "23158.000470/2015-71",
+  "coordenador_acao": "Jefferson Oliveira Andrade",
+  "publico_alvo": {
+    "total": 1,
+    "aprovados": 1,
+    "certificados": 1,
+    "situacao": {
+      "APROVADO": 1
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Jefferson Oliveira Andrade",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

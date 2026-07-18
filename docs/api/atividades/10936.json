@@ -1,0 +1,32 @@
+{
+  "atividade_id": "10936",
+  "numero": "001",
+  "atividade": "Sistema de apoio para rastreio e geolocalização de transtornos mentaiscomuns na atenção primária a saúde",
+  "acao_id": "2599",
+  "acao_titulo": "Sistema de apoio para rastreio e geolocalização de transtornos mentais",
+  "processo": "23158.001149/2019-36",
+  "coordenador_acao": "Carlos Lins Borges Azevedo",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Vitor Siqueira da Silva",
+      "funcao": "ALUNO(A) VOLUNTARIO",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Vinicius da Hora Corte",
+      "funcao": "ALUNO(A) BOLSISTA",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Carlos Lins Borges Azevedo",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

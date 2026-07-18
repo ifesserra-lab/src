@@ -1,0 +1,59 @@
+{
+  "slug": "edilson-luiz-do-nascimento",
+  "nome": "Edilson Luiz do Nascimento",
+  "resumo_ia": "Atuou como colaborador no Curso de Pré-Incubação para Empreendedores em 2017 e como auxiliar técnico na mesma ação em 2016. Em 2016, também foi mentor na Câmara de Assessoramento em Gestão e Tecnologia do Núcleo Incubador do campus Serra do Ifes. Em 2026, organizou o SOF – Serviço de Orientação Financeira na unidade Ifes Serra.",
+  "anos": [
+    "2016",
+    "2017",
+    "2026"
+  ],
+  "funcoes": [
+    "AUXILIAR TÉCNICO",
+    "COLABORADOR(A)",
+    "MENTOR(A)",
+    "ORGANIZADOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1261",
+      "titulo": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedora",
+      "tipo": "Curso",
+      "ano": "2017",
+      "n": 84,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "5852",
+      "titulo": "SOF – Serviço de Orientação Financeira (unidade Ifes Serra)",
+      "tipo": "Projeto",
+      "ano": "2026",
+      "n": 316,
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "708",
+      "titulo": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedoras",
+      "tipo": "Curso",
+      "ano": "2016",
+      "n": 77,
+      "funcoes": [
+        "AUXILIAR TÉCNICO"
+      ]
+    },
+    {
+      "acao_id": "730",
+      "titulo": "Câmara de Assessoramento em Gestão e Tecnologia do Núcleo Incubador do campus Serra do Ifes",
+      "tipo": "Projeto",
+      "ano": "2016",
+      "n": 9,
+      "funcoes": [
+        "MENTOR(A)"
+      ]
+    }
+  ]
+}

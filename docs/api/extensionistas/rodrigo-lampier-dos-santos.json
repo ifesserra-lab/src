@@ -1,0 +1,24 @@
+{
+  "slug": "rodrigo-lampier-dos-santos",
+  "nome": "Rodrigo Lampier dos Santos",
+  "resumo_ia": "Participou como intérprete no Desafio Ifes de Negócios Sociais em 2015, contribuindo para a acessibilidade em ações de extensão.",
+  "anos": [
+    "2015"
+  ],
+  "funcoes": [
+    "INTÉRPRETE"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "569",
+      "titulo": "Desafio Ifes de Negócios Socais",
+      "tipo": "Evento",
+      "ano": "2015",
+      "n": 40,
+      "funcoes": [
+        "INTÉRPRETE"
+      ]
+    }
+  ]
+}

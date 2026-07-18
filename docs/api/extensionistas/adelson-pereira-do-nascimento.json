@@ -1,0 +1,122 @@
+{
+  "slug": "adelson-pereira-do-nascimento",
+  "nome": "Adelson Pereira do Nascimento",
+  "resumo_ia": "Coordenou projetos como STEM (2022) e Empresa Morpheus Jr (2024), além de atuar como assessor, mentor e instrutor em programas de extensão como o Núcleo Incubador Campus Serra (NIS) entre 2017 e 2021, e colaborador no Jovens Inventores em 2025.",
+  "anos": [
+    "2017",
+    "2020",
+    "2021",
+    "2022",
+    "2024",
+    "2025"
+  ],
+  "funcoes": [
+    "ASSESSOR(A)",
+    "COLABORADOR(A)",
+    "CONSULTOR(A)",
+    "COORDENADOR(A)",
+    "INSTRUTOR(A)",
+    "MENTOR(A)",
+    "ORGANIZADOR(A)",
+    "ORIENTADOR(A)"
+  ],
+  "acoes_coordenadas": [
+    {
+      "acao_id": "3643",
+      "titulo": "STEM - Experiência de Imersão e desenvolvimento de soluções para a área administrativa de uma empresa siderúrgica",
+      "tipo": "Projeto",
+      "ano": "2022",
+      "n": 15
+    },
+    {
+      "acao_id": "4867",
+      "titulo": "Empresa Morpheus Jr",
+      "tipo": "Programa",
+      "ano": "2024",
+      "n": 0
+    },
+    {
+      "acao_id": "5199",
+      "titulo": "JOVEM APRENDIZ IFES CAMPUS SERRA",
+      "tipo": "Programa",
+      "ano": "2024",
+      "n": 0
+    }
+  ],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1116",
+      "titulo": "Programa Local Núcleo Incubador Campus Serra – NIS",
+      "tipo": "Programa",
+      "ano": "2017",
+      "n": 220,
+      "funcoes": [
+        "ASSESSOR(A)",
+        "COLABORADOR(A)",
+        "MENTOR(A)"
+      ]
+    },
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "ORGANIZADOR(A)",
+        "ORIENTADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "3423",
+      "titulo": "Programa Local Núcleo Incubador Campus Serra – NIS",
+      "tipo": "Programa",
+      "ano": "2021",
+      "n": 189,
+      "funcoes": [
+        "INSTRUTOR(A)",
+        "MENTOR(A)"
+      ]
+    },
+    {
+      "acao_id": "3431",
+      "titulo": "Lampex + empreendedor",
+      "tipo": "Projeto",
+      "ano": "2021",
+      "n": 14,
+      "funcoes": [
+        "ORIENTADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "3643",
+      "titulo": "STEM - Experiência de Imersão e desenvolvimento de soluções para a área administrativa de uma empresa siderúrgica",
+      "tipo": "Projeto",
+      "ano": "2022",
+      "n": 15,
+      "funcoes": [
+        "COORDENADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "4215",
+      "titulo": "SprintLab - Laboratório de Prototipação Acelerada",
+      "tipo": "Programa",
+      "ano": "2022",
+      "n": 76,
+      "funcoes": [
+        "CONSULTOR(A)"
+      ]
+    },
+    {
+      "acao_id": "5677",
+      "titulo": "Jovens Inventores: O poder da Tecnologia Maker no Desenvolvimento Social",
+      "tipo": "Projeto",
+      "ano": "2025",
+      "n": 48,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    }
+  ]
+}

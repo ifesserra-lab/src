@@ -1,0 +1,40 @@
+{
+  "slug": "hilario-seibel-junior",
+  "nome": "Hilario Seibel Junior",
+  "resumo_ia": "Coordenou a Maratona de Programação em 2018 e atuou como apoio técnico, organizador(a) e orientador(a) no LAMPEX – Laboratório Modelo de Práticas de Extensão em 2020.",
+  "anos": [
+    "2018",
+    "2020"
+  ],
+  "funcoes": [
+    "APOIO TÉCNICO",
+    "COORDENADOR(A) ADJUNTO(A)",
+    "ORGANIZADOR(A)",
+    "ORIENTADOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1816",
+      "titulo": "Maratona de Programação",
+      "tipo": "Evento",
+      "ano": "2018",
+      "n": 49,
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)"
+      ]
+    },
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "APOIO TÉCNICO",
+        "ORGANIZADOR(A)",
+        "ORIENTADOR(A)"
+      ]
+    }
+  ]
+}

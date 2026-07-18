@@ -1,0 +1,18 @@
+{
+  "atividade_id": "16280",
+  "numero": "005",
+  "atividade": "Oficina \"Manufatura Aditiva\"",
+  "acao_id": "4335",
+  "acao_titulo": "Oficinas do Mundo Maker",
+  "processo": "23158.000421/2023-47",
+  "coordenador_acao": "Rosiane Ribeiro Rocha",
+  "publico_alvo": {
+    "total": 10,
+    "aprovados": 10,
+    "certificados": 10,
+    "situacao": {
+      "APROVADO": 10
+    }
+  },
+  "equipe_execucao": []
+}

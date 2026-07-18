@@ -1,0 +1,24 @@
+{
+  "slug": "ian-drumond-duarte",
+  "nome": "Ian Drumond Duarte",
+  "resumo_ia": "Exerceu a função de professor(a) no PRÉ – IFES Campus Serra em 2017.",
+  "anos": [
+    "2017"
+  ],
+  "funcoes": [
+    "PROFESSOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1117",
+      "titulo": "PRÉ – IFES Campus Serra",
+      "tipo": "Curso",
+      "ano": "2017",
+      "n": 48,
+      "funcoes": [
+        "PROFESSOR(A)"
+      ]
+    }
+  ]
+}

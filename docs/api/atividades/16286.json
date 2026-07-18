@@ -1,0 +1,24 @@
+{
+  "atividade_id": "16286",
+  "numero": "011",
+  "atividade": "Minicurso \"Introdução à CNC a laser\"",
+  "acao_id": "4335",
+  "acao_titulo": "Oficinas do Mundo Maker",
+  "processo": "23158.000421/2023-47",
+  "coordenador_acao": "Rosiane Ribeiro Rocha",
+  "publico_alvo": {
+    "total": 7,
+    "aprovados": 7,
+    "certificados": 7,
+    "situacao": {
+      "APROVADO": 7
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Flávio Garcia Pereira",
+      "funcao": "PROFESSOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

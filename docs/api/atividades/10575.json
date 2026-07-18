@@ -1,0 +1,39 @@
+{
+  "atividade_id": "10575",
+  "numero": "018",
+  "atividade": "Ação Cineclubista \"O Silêncio dos Homens\"",
+  "acao_id": "2505",
+  "acao_titulo": "Circuito Audiovisual",
+  "processo": "23158.001195/2019-35",
+  "coordenador_acao": "Amarildo Mendes Lemos",
+  "publico_alvo": {
+    "total": 3,
+    "aprovados": 3,
+    "certificados": 3,
+    "situacao": {
+      "APROVADO": 3
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Marcos Valério Guimarães",
+      "funcao": "COORDENADOR(A) DE ÁREA",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Denise Carla Goldner Coelho",
+      "funcao": "ASSESSOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Wagner Scopel Falcão",
+      "funcao": "ASSESSOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Amarildo Mendes Lemos",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

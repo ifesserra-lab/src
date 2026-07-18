@@ -1,0 +1,32 @@
+{
+  "atividade_id": "3680",
+  "numero": "019",
+  "atividade": "Apresentação de Pôster \"Síndrome de asperger: um estudo de caso sobre as práticas docentes como possibilidade de aprendizagem\"",
+  "acao_id": "1238",
+  "acao_titulo": "II Seminário de Educação Especial no Instituto Federal do Espírito Santo",
+  "processo": "23158.000398/2017-42",
+  "coordenador_acao": "Renata Imaculada de Oliveira Teixeira",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Gianni Marcela Boechard Magalhães",
+      "funcao": "AUTOR(A)",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Verônica dos Santos Ribeiro",
+      "funcao": "AUTOR(A)",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Rayra Sarmento Ferreira Subtil",
+      "funcao": "AUTOR(A)",
+      "vinculo": "Convidado"
+    }
+  ]
+}

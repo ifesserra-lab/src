@@ -1,0 +1,30 @@
+{
+  "atividade_id": "2047",
+  "numero": "001",
+  "atividade": "Introdução ao Arduino e Microcontroladores",
+  "acao_id": "902",
+  "acao_titulo": "Introdução ao Arduino e Microcontroladores",
+  "processo": "23158.000650/2016-32",
+  "coordenador_acao": "Richard Junior Manuel Godinez Tello",
+  "publico_alvo": {
+    "total": 20,
+    "aprovados": 11,
+    "certificados": 11,
+    "situacao": {
+      "REPROVADO": 9,
+      "APROVADO": 11
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Richard Junior Manuel Godinez Tello",
+      "funcao": "INSTRUTOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Richard Junior Manuel Godinez Tello",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

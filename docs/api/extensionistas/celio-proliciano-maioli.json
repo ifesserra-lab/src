@@ -1,0 +1,24 @@
+{
+  "slug": "celio-proliciano-maioli",
+  "nome": "Celio Proliciano Maioli",
+  "resumo_ia": "Participou como comunicador oral no Desafio Ifes de Negócios Sociais em 2015, contribuindo com ações de extensão voltadas ao empreendedorismo social.",
+  "anos": [
+    "2015"
+  ],
+  "funcoes": [
+    "COMUNICADOR(A) ORAL"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "569",
+      "titulo": "Desafio Ifes de Negócios Socais",
+      "tipo": "Evento",
+      "ano": "2015",
+      "n": 40,
+      "funcoes": [
+        "COMUNICADOR(A) ORAL"
+      ]
+    }
+  ]
+}

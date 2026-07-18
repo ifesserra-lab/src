@@ -1,0 +1,34 @@
+{
+  "atividade_id": "14440",
+  "numero": "001",
+  "atividade": "Modelagem e Simulação de Conversores CC-CC - Z",
+  "acao_id": "4199",
+  "acao_titulo": "Modelagem e Simulação de Conversores CC-CC - Z",
+  "processo": "23158.003816/2022-11",
+  "coordenador_acao": "Vinícius Secchin de Melo",
+  "publico_alvo": {
+    "total": 3,
+    "aprovados": 3,
+    "certificados": 3,
+    "situacao": {
+      "APROVADO": 3
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Walbermark Marques dos Santos",
+      "funcao": "PROFESSOR(A)",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Vinícius Secchin de Melo",
+      "funcao": "PROFESSOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Vinícius Secchin de Melo",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

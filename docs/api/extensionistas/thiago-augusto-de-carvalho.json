@@ -1,0 +1,35 @@
+{
+  "slug": "thiago-augusto-de-carvalho",
+  "nome": "Thiago Augusto de Carvalho",
+  "resumo_ia": "Atuou como aluno(a) bolsista no projeto Pink Pepper Qualifier em 2022 e como aluno(a) voluntário no SprintLab - Laboratório de Prototipação Acelerada no mesmo ano, participando de atividades extensionistas.",
+  "anos": [
+    "2022"
+  ],
+  "funcoes": [
+    "ALUNO(A) BOLSISTA",
+    "ALUNO(A) VOLUNTARIO"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "4033",
+      "titulo": "Pink Pepper Qualifier: Determinação da qualidade produtiva dos frutos da Aroeira (Schinus terebinthifolius Raddi) usando Inteligência Computacional",
+      "tipo": "Projeto",
+      "ano": "2022",
+      "n": 164,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ]
+    },
+    {
+      "acao_id": "4215",
+      "titulo": "SprintLab - Laboratório de Prototipação Acelerada",
+      "tipo": "Programa",
+      "ano": "2022",
+      "n": 76,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ]
+    }
+  ]
+}

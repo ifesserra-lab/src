@@ -1,0 +1,24 @@
+{
+  "atividade_id": "10566",
+  "numero": "009",
+  "atividade": "Oficina Especializada de Produção",
+  "acao_id": "2505",
+  "acao_titulo": "Circuito Audiovisual",
+  "processo": "23158.001195/2019-35",
+  "coordenador_acao": "Amarildo Mendes Lemos",
+  "publico_alvo": {
+    "total": 3,
+    "aprovados": 3,
+    "certificados": 3,
+    "situacao": {
+      "APROVADO": 3
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Ursula Dart Bottrel do Nascimento",
+      "funcao": "INSTRUTOR(A)",
+      "vinculo": "Convidado"
+    }
+  ]
+}

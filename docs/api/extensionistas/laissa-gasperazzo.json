@@ -1,0 +1,24 @@
+{
+  "slug": "laissa-gasperazzo",
+  "nome": "Laíssa Gasperazzo",
+  "resumo_ia": "Atuou como aluna voluntária na equipe do 'LEDS – Laboratório de Extensão em Desenvolvimento de Soluções' em 2016, integrando ações de extensão relacionadas ao desenvolvimento de soluções.",
+  "anos": [
+    "2016"
+  ],
+  "funcoes": [
+    "ALUNO(A) VOLUNTARIO"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "901",
+      "titulo": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+      "tipo": "Programa",
+      "ano": "2016",
+      "n": 104,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ]
+    }
+  ]
+}

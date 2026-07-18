@@ -1,0 +1,35 @@
+{
+  "slug": "matheus-de-souza-pereira-de-oliveira",
+  "nome": "Matheus de Souza Pereira de Oliveira",
+  "resumo_ia": "Desenvolveu atividades como aluno bolsista no projeto 'Sistema para predição de transtornos mentais comuns na atenção primária à saúde' em 2019 e na sua continuidade em 2022, atuando em pesquisa aplicada à saúde mental.",
+  "anos": [
+    "2019",
+    "2022"
+  ],
+  "funcoes": [
+    "ALUNO(A) BOLSISTA"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "2600",
+      "titulo": "Sistema para predição de transtornos mentais comuns na atenção primária a saúde",
+      "tipo": "Projeto",
+      "ano": "2019",
+      "n": 4,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ]
+    },
+    {
+      "acao_id": "4051",
+      "titulo": "SISTEMA PARA PREDIÇÃO DE TRANSTORNOS MENTAIS COMUNS NA ATENÇÃO PRIMÁRIA À SAÚDE III",
+      "tipo": "Projeto",
+      "ano": "2022",
+      "n": 9,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ]
+    }
+  ]
+}

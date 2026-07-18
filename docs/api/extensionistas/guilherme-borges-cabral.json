@@ -1,0 +1,24 @@
+{
+  "slug": "guilherme-borges-cabral",
+  "nome": "Guilherme Borges Cabral",
+  "resumo_ia": "Expositor no SOF – Serviço de Orientação Financeira (unidade Ifes Serra) em 2026.",
+  "anos": [
+    "2026"
+  ],
+  "funcoes": [
+    "EXPOSITOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "5852",
+      "titulo": "SOF – Serviço de Orientação Financeira (unidade Ifes Serra)",
+      "tipo": "Projeto",
+      "ano": "2026",
+      "n": 316,
+      "funcoes": [
+        "EXPOSITOR(A)"
+      ]
+    }
+  ]
+}

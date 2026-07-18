@@ -1,0 +1,45 @@
+{
+  "slug": "danilo-de-oliveira",
+  "nome": "Danilo de Oliveira",
+  "resumo_ia": "Participou como bolsista nos projetos SIPAC e Sistema para auxiliar a gestão da Produção Agropecuária capixaba em 2016. Também atuou como voluntário no LEDS – Laboratório de Extensão em Desenvolvimento de Soluções no mesmo ano.",
+  "anos": [
+    "2016"
+  ],
+  "funcoes": [
+    "ALUNO(A) BOLSISTA",
+    "ALUNO(A) VOLUNTARIO"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "645",
+      "titulo": "SIPAC - Sistema de Informação da Produção Agropecuária capixaba",
+      "tipo": "Projeto",
+      "ano": "2016",
+      "n": 7,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ]
+    },
+    {
+      "acao_id": "849",
+      "titulo": "Sistema para auxiliar a gestão da Produção Agropecuária capixaba",
+      "tipo": "Projeto",
+      "ano": "2016",
+      "n": 5,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ]
+    },
+    {
+      "acao_id": "901",
+      "titulo": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+      "tipo": "Programa",
+      "ano": "2016",
+      "n": 104,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ]
+    }
+  ]
+}

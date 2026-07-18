@@ -1,0 +1,44 @@
+{
+  "atividade_id": "15712",
+  "numero": "044",
+  "atividade": "Minicurso de Introdução à Linguagem de Programação Python",
+  "acao_id": "3140",
+  "acao_titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+  "processo": "23158.001185/2020-56",
+  "coordenador_acao": "Emmanuel Marques Silva",
+  "publico_alvo": {
+    "total": 11,
+    "aprovados": 11,
+    "certificados": 11,
+    "situacao": {
+      "APROVADO": 11
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Isabel Passamani Soeiro",
+      "funcao": "INSTRUTOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Julio Cesar da Silva",
+      "funcao": "INSTRUTOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Bruno da Fonseca Chevitarese",
+      "funcao": "INSTRUTOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Isaque da Silva Santos de Souza",
+      "funcao": "INSTRUTOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Celeste Nascimento Souza Silva",
+      "funcao": "INSTRUTOR(A)",
+      "vinculo": "Aluno"
+    }
+  ]
+}

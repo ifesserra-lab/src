@@ -1,0 +1,24 @@
+{
+  "slug": "andre-almeida",
+  "nome": "André Almeida",
+  "resumo_ia": "Participou como palestrante no LAMPEX – Laboratório Modelo de Práticas de Extensão em 2020, colaborando com ações de extensão voltadas à formação acadêmica.",
+  "anos": [
+    "2020"
+  ],
+  "funcoes": [
+    "PALESTRANTE"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "PALESTRANTE"
+      ]
+    }
+  ]
+}

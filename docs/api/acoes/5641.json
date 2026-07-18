@@ -1,0 +1,150 @@
+{
+  "acao_id": "5641",
+  "Processo nº": "23158.001715/2025-58",
+  "Título ação": "LabMaker 4.0: capacitando professores para a cultura maker e tecnologias da Indústria 4.0",
+  "Natureza": "Extensão",
+  "Tipo ação": "Projeto",
+  "Coordenador(a)": "Rosiane Ribeiro Rocha",
+  "Fomento": "PAEX-IFES",
+  "Ação vinculante": "23158.001854/2023-10 - LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão",
+  "Grande área conhecimento": "",
+  "Grande área conhecimento (inferida)": "Engenharias",
+  "Área temática principal": "Educação",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "11/08/2025",
+  "Data de cadastro": "13/08/2025",
+  "Resumo": "O projeto “LabMaker 4.0: capacitando professores para a cultura maker e tecnologias da indústria 4.0”\ntem como principal objetivo capacitar professores da rede pública de ensino da região metropolitana da\nGrande Vitória nas tecnologias da cultura maker por meio de ações teóricas e práticas, com apoio da\ninfraestrutura e da expertise do Ifes Campus Serra, promovendo a inovação e a aplicação de\nmetodologias ativas no ambiente escolar. A ação será realizada com apoio da infraestrutura do LabMaker\ndo Ifes Campus Serra e contará com a participação de estudantes do campus, que atuarão como\ninstrutores, após formação específica. Durante o projeto, serão desenvolvidos materiais didáticos e\nrealizadas oficinas presenciais com foco em modelagem 3D, impressão 3D, manufatura subtrativa\n(usinagem CNC) e robótica básica. A proposta busca fortalecer a formação docente e contribuir para a\nmodernização das práticas pedagógicas, incentivando o aprendizado prático, a criatividade e o\nprotagonismo estudantil nas escolas públicas da região.\nAlém de beneficiar diretamente os professores participantes, o projeto também proporciona aos\nestudantes do Ifes a oportunidade de vivência extensionista e protagonismo, promovendo sua formação\ncidadã e técnica. A ação reforça o compromisso do Ifes com a transformação social e a inovação\neducacional na região.",
+  "Campus": "Serra",
+  "total_participacoes": 73,
+  "publico_alvo_total": 58,
+  "atividades": [
+    {
+      "atividade_id": "20613",
+      "numero": "001",
+      "atividade": "LabMaker 4.0: capacitando professores para a cultura maker e tecnologias da Indústria 4.0",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 11
+    },
+    {
+      "atividade_id": "20614",
+      "numero": "002",
+      "atividade": "Minicurso \"Cultura Maker, Indústria 4.0 e Modelagem 3D\"",
+      "publico": 16,
+      "aprovados": 16,
+      "certificados": 16,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "20615",
+      "numero": "003",
+      "atividade": "Minicurso \"Manufatura Aditiva\"",
+      "publico": 17,
+      "aprovados": 17,
+      "certificados": 17,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "20616",
+      "numero": "004",
+      "atividade": "Minicurso \"Manufatura Subtrativa\"",
+      "publico": 11,
+      "aprovados": 11,
+      "certificados": 11,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "20617",
+      "numero": "005",
+      "atividade": "Minicurso \"Introdução ao Arduino\"",
+      "publico": 14,
+      "aprovados": 14,
+      "certificados": 14,
+      "equipe": 1
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Flávio Garcia Pereira",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Gabriel Tozatto Zago",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "João Vitor Oliveira Scheidegger",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA",
+        "MINISTRANTE"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Julia Almeida Nascimento Lopes",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Leticia Comissario da Silva",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA",
+        "MINISTRANTE"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Marcos Simão Guimarães",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Richard Junior Manuel Godinez Tello",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Rosiane Ribeiro Rocha",
+      "funcoes": [
+        "COORDENADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Vitor Lopes Barbosa",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO",
+        "MINISTRANTE"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Yasmin Soares Cavatti",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA",
+        "MINISTRANTE"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Ícaro Lessa Secchin",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ],
+      "vinculo": "Aluno"
+    }
+  ]
+}

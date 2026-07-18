@@ -1,0 +1,47 @@
+{
+  "atividade_id": "9895",
+  "numero": "001",
+  "atividade": "I Am Here: Registro de Frequência por Reconhecimento Facial",
+  "acao_id": "2823",
+  "acao_titulo": "I Am Here: Registro de Frequência por Reconhecimento Facial",
+  "processo": "23158.001152/2019-50",
+  "coordenador_acao": "Fabiano Borges Ruy",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Olavo Jose Ferreira Curatola",
+      "funcao": "ALUNO(A) VOLUNTARIO",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Sarah Silva Ferreira",
+      "funcao": "ALUNO(A) VOLUNTARIO",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Fabiano Borges Ruy",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Renato de Sant'anna Lopes",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Olavo Jose Ferreira Curatola",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Joel Will Belmiro",
+      "funcao": "ALUNO(A) BOLSISTA",
+      "vinculo": "Aluno"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "marianna-stark-gardioli-rangel",
+  "nome": "Marianna Stark Gardioli Rangel",
+  "resumo_ia": "Monitora na equipe do LabMaker Serra em 2023, aluna em atividade curricular no projeto Atividades físicas adaptadas e inclusão (AFAI) em 2023 e monitora no projeto QUÍMICA VERDE APLICADA: oficinas e workshops em 2023.",
+  "anos": [
+    "2023"
+  ],
+  "funcoes": [
+    "ALUNO(A) EM ATIVIDADE CURRICULAR",
+    "MONITOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "4655",
+      "titulo": "LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão",
+      "tipo": "Programa",
+      "ano": "2023",
+      "n": 558,
+      "funcoes": [
+        "MONITOR(A)"
+      ]
+    },
+    {
+      "acao_id": "4659",
+      "titulo": "Atividades físicas adaptadas e inclusão (AFAI)",
+      "tipo": "Projeto",
+      "ano": "2023",
+      "n": 298,
+      "funcoes": [
+        "ALUNO(A) EM ATIVIDADE CURRICULAR"
+      ]
+    },
+    {
+      "acao_id": "4754",
+      "titulo": "QUÍMICA VERDE APLICADA: oficinas e workshops",
+      "tipo": "Projeto",
+      "ano": "2023",
+      "n": 159,
+      "funcoes": [
+        "MONITOR(A)"
+      ]
+    }
+  ]
+}

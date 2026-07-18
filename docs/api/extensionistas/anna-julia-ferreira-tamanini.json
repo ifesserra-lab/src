@@ -1,0 +1,36 @@
+{
+  "slug": "anna-julia-ferreira-tamanini",
+  "nome": "Anna Julia Ferreira Tamanini",
+  "resumo_ia": "Atuou como aluna voluntária no 'Ifes Portas Abertas' em 2018 e como palestrante no 'LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão' em 2023, envolvendo-se em atividades de extensão e divulgação científica.",
+  "anos": [
+    "2018",
+    "2023"
+  ],
+  "funcoes": [
+    "ALUNO(A) VOLUNTARIO",
+    "PALESTRANTE"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "2107",
+      "titulo": "Ifes Portas Abertas",
+      "tipo": "Programa",
+      "ano": "2018",
+      "n": 547,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ]
+    },
+    {
+      "acao_id": "4655",
+      "titulo": "LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão",
+      "tipo": "Programa",
+      "ano": "2023",
+      "n": 558,
+      "funcoes": [
+        "PALESTRANTE"
+      ]
+    }
+  ]
+}

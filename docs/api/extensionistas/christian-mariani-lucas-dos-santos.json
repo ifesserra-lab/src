@@ -1,0 +1,46 @@
+{
+  "slug": "christian-mariani-lucas-dos-santos",
+  "nome": "Christian Mariani Lucas dos Santos",
+  "resumo_ia": "Atuou como instrutor(a) nos cursos de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedoras em 2016 e 2017, além de palestrar na Semana de Controle e Automação em 2016.",
+  "anos": [
+    "2016",
+    "2017"
+  ],
+  "funcoes": [
+    "INSTRUTOR(A)",
+    "PALESTRANTE"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1261",
+      "titulo": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedora",
+      "tipo": "Curso",
+      "ano": "2017",
+      "n": 84,
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ]
+    },
+    {
+      "acao_id": "708",
+      "titulo": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedoras",
+      "tipo": "Curso",
+      "ano": "2016",
+      "n": 77,
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ]
+    },
+    {
+      "acao_id": "899",
+      "titulo": "SEMANA DE CONTROLE E AUTOMAÇÃO",
+      "tipo": "Evento",
+      "ano": "2016",
+      "n": 181,
+      "funcoes": [
+        "PALESTRANTE"
+      ]
+    }
+  ]
+}

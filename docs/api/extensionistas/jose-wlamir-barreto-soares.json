@@ -1,0 +1,24 @@
+{
+  "slug": "jose-wlamir-barreto-soares",
+  "nome": "José Wlamir Barreto Soares",
+  "resumo_ia": "Ministrou o curso 'Despertar da Força - Processos e Ferramentas para o Gerenciamento Ágil de Projetos: Uma Abordagem Prática' como instrutor em 2016.",
+  "anos": [
+    "2016"
+  ],
+  "funcoes": [
+    "INSTRUTOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "930",
+      "titulo": "Despertar da Força - Processos e Ferramentas para o Gerenciamento Ágil de Projetos: Uma Abordagem Prática",
+      "tipo": "Curso",
+      "ano": "2016",
+      "n": 68,
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ]
+    }
+  ]
+}

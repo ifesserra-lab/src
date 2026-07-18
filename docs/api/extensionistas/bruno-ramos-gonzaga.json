@@ -1,0 +1,109 @@
+{
+  "slug": "bruno-ramos-gonzaga",
+  "nome": "Bruno Ramos Gonzaga",
+  "resumo_ia": "Coordenou projetos e cursos de tutoria e ambientação pedagógica entre 2014 e 2020, além de atuar como professor em iniciativas como Mulheres na Ciência (2018) e Mulheres Mil (2023 e 2025), promovendo ações de extensão voltadas à educação e inclusão.",
+  "anos": [
+    "2015",
+    "2018",
+    "2019",
+    "2020",
+    "2023",
+    "2025"
+  ],
+  "funcoes": [
+    "COORDENADOR(A)",
+    "PROFESSOR(A)"
+  ],
+  "acoes_coordenadas": [
+    {
+      "acao_id": "2675",
+      "titulo": "Tutoria de Estudos Orientados: Compartilhando Saberes",
+      "tipo": "Projeto",
+      "ano": "2019",
+      "n": 19
+    },
+    {
+      "acao_id": "2773",
+      "titulo": "Ambientação Pedagógica: Didática e Técnicas de Ensino.",
+      "tipo": "Curso",
+      "ano": "2019",
+      "n": 13
+    },
+    {
+      "acao_id": "2931",
+      "titulo": "Tutoria de Estudos Orientados: Compartilhando Saberes",
+      "tipo": "Projeto",
+      "ano": "2020",
+      "n": 0
+    },
+    {
+      "acao_id": "451",
+      "titulo": "Tutoria de Estudos Orientados em Matemática Nº 01/2014",
+      "tipo": "Curso",
+      "ano": "2015",
+      "n": 38
+    }
+  ],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1633",
+      "titulo": "Mulheres na Ciência",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 21,
+      "funcoes": [
+        "PROFESSOR(A)"
+      ]
+    },
+    {
+      "acao_id": "2082",
+      "titulo": "Mulheres na Ciência",
+      "tipo": "Curso",
+      "ano": "2018",
+      "n": 53,
+      "funcoes": [
+        "PROFESSOR(A)"
+      ]
+    },
+    {
+      "acao_id": "2675",
+      "titulo": "Tutoria de Estudos Orientados: Compartilhando Saberes",
+      "tipo": "Projeto",
+      "ano": "2019",
+      "n": 19,
+      "funcoes": [
+        "COORDENADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "2773",
+      "titulo": "Ambientação Pedagógica: Didática e Técnicas de Ensino.",
+      "tipo": "Curso",
+      "ano": "2019",
+      "n": 13,
+      "funcoes": [
+        "COORDENADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "4820",
+      "titulo": "Mulheres Mil – Eletricista Instalador Predial em Baixa Tensão",
+      "tipo": "Curso",
+      "ano": "2023",
+      "n": 74,
+      "funcoes": [
+        "PROFESSOR(A)"
+      ]
+    },
+    {
+      "acao_id": "5357",
+      "titulo": "MULHERES MIL - Artesão em Bordado a mão",
+      "tipo": "Curso",
+      "ano": "2025",
+      "n": 35,
+      "funcoes": [
+        "PROFESSOR(A)"
+      ]
+    }
+  ]
+}

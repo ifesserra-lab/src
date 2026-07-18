@@ -1,0 +1,24 @@
+{
+  "atividade_id": "6519",
+  "numero": "002",
+  "atividade": "Palestra: Mulheres na Ciência - Palestrante: Rosilene de Sá Ribeiro",
+  "acao_id": "2021",
+  "acao_titulo": "Física ao Alcance de Todos",
+  "processo": "23158.001115/2018-61",
+  "coordenador_acao": "Rosilene de Sá Ribeiro",
+  "publico_alvo": {
+    "total": 6,
+    "aprovados": 6,
+    "certificados": 6,
+    "situacao": {
+      "APROVADO": 6
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Rosilene de Sá Ribeiro",
+      "funcao": "PALESTRANTE",
+      "vinculo": "Servidor"
+    }
+  ]
+}

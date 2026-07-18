@@ -1,0 +1,524 @@
+{
+  "atividade_id": "16108",
+  "numero": "001",
+  "atividade": "Atividades físicas adaptadas e inclusão (AFAI)",
+  "acao_id": "4659",
+  "acao_titulo": "Atividades físicas adaptadas e inclusão (AFAI)",
+  "processo": "23158.002161/2023-44",
+  "coordenador_acao": "Emilene Coco dos Santos",
+  "publico_alvo": {
+    "total": 197,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {
+      "CURSANDO": 197
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Yago Medeiros Barbosa",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Fabiane de Souza",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Marianna Stark Gardioli Rangel",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Luísa Coutinho Pimentel dos Santos",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Raphael Brandão dos Anjos Alvarenga",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Joaquim Oliveira Vieira",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Gianlucas de Jesus Silva",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Arthur Candido Maria",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Amanda Balestreiro Ferreira",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Matielo Pereira Lopes",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Simone Miranda dos Santos",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Jessica Pereira da Penha",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Maria do Carmo Quaresma de Almeida",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Eduardo José Miguel Lima Almeida",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Celésio José de Souza",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Igor Simer Romanhi",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Francisco Leal Alves",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "João Victor Magevski Calegari",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Estêvão Horsth Tesch Honório",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Arthur Freitas Mariquito",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Israel José Lima Nogueira",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Yasmin Soares Cavatti",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Rafael Pratti Dettmann",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Kevin Gomes Matos",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Vitória Loureiro Pimentel",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Sara Carolina Napoleão Pimenta",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Samily Souza Serafim",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Ryan Costa Rodrigues de Oliveira",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Raquel Souza Castro",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Raphael Lima Pagung",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Pedro Luiz Augusto Rosa",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Paulo Roberto Fonseca da Silva",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Oliver Justo Gomes Vieira",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Miguel Fonseca de Lima",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Miguel Antonio de Jesus Sperandio",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Michael de Oliveira Coutinho",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Mateus Sodré Martins",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Marina Ribeiro Jesus",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Mariany do Carmo",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Maria Eduarda Souza Silva",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Maria Eduarda Lira Moreira",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Maria Eduarda Franco Santana",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Luiz Ricardo Santos Saraíva",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Luiz Felipe de Souza Santos",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Luiz Augusto Bastos Correia",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Luan Bottoni do Carmo Oliveira",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Livia Macedo Silva dos Santos",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Leticia Amaral Valentim",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Lavínia Justos Gomes Vieira",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Kauan Tonani Barcelos da Silva",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Kalebe Souza Olegario",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Kalebe Pereira da Penha",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Kaique Renan da Silva Morais Anjos",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Kadu Freitas",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "João Victor Monteiro",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "João Lucas Fonseca da Silva Lima",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Jhonatan Fonseca de Lima",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Isabelle Sofia de Jesus Silva",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Isabela Schulz Vieira",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Isaac Siqueira de Lima Will",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Herian Louzada Ferreira Barbosa",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Gustavo da Conceição da Silva",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Guilherme Santanna de Freitas",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Fabio Bretas Magnani",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Evellin de Souza Moreschi",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Enzo Novaes de Rezende Costa",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Enzo Gabriel Santanna Siqueira",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Emmanuelly Kristini Nunes Costa",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Eduardo Lima Pagung",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Eduardo de Oliveira Pereira Ferreira",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Eduarda Grippa Santos",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Diogo Lucas Lima Ribeiro",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Davi Luiz Soares Siqueira Barros",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Bryan Costa Rodrigues de Oliveira",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Bruno Moreira Lourenço",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Bella dos Santos Cordeiro",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Arthur Gonçalves de Souza",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Ana Luiza Tonani Barcelos da Silva",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Ana Beatriz Rocha Mululo",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Amanda Luiza Soares Barros",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Aishila Sofia Oliveira Rosa",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Diego Casoto de Melo Zamprogno",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Davi Alvarenga Vieira",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Christhian de Barros Barcellos",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Daniel Ramos Dutra",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Daniel Pratti Dettmann",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Carlos Barroca Faria",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Camille Silva Santos",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Andrei Santos Freitas Silva",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Andre Luiz Siller de Deus",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Victor Campelo do Nascimento",
+      "funcao": "EXTENSIONISTA",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Lucas Salomão Vieira",
+      "funcao": "EXTENSIONISTA",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Leonardo Nascimento Borges",
+      "funcao": "EXTENSIONISTA",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Andre Luiz Oliveira",
+      "funcao": "EXTENSIONISTA",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Viviane Fernandes Santos",
+      "funcao": "EXTENSIONISTA",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Pamela Cristina Nunes Costa",
+      "funcao": "EXTENSIONISTA",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Ray Malta Neves Cardoso",
+      "funcao": "PROFESSOR(A)",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Regina Pereira de Souza",
+      "funcao": "GESTOR(A) DE PROJETO",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Gelba Malta Cardoso",
+      "funcao": "GESTOR(A) DE PROJETO",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Marcio de Lima Braga",
+      "funcao": "PROFESSOR(A)",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Emilene Coco dos Santos",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

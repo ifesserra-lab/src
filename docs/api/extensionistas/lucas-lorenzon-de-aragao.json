@@ -1,0 +1,24 @@
+{
+  "slug": "lucas-lorenzon-de-aragao",
+  "nome": "Lucas Lorenzon de Aragão",
+  "resumo_ia": "Atuou como avaliador(a) em 2015 no Desafio Ifes de Negócios Sociais, participando de atividades de extensão voltadas à avaliação de projetos.",
+  "anos": [
+    "2015"
+  ],
+  "funcoes": [
+    "AVALIADOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "569",
+      "titulo": "Desafio Ifes de Negócios Socais",
+      "tipo": "Evento",
+      "ano": "2015",
+      "n": 40,
+      "funcoes": [
+        "AVALIADOR(A)"
+      ]
+    }
+  ]
+}

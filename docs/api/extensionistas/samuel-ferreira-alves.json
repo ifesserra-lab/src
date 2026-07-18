@@ -1,0 +1,24 @@
+{
+  "slug": "samuel-ferreira-alves",
+  "nome": "Samuel Ferreira Alves",
+  "resumo_ia": "Atuou como aluno(a) voluntário na equipe do projeto SmartIdea - Validação de Problemas e Ideias em 2022.",
+  "anos": [
+    "2022"
+  ],
+  "funcoes": [
+    "ALUNO(A) VOLUNTARIO"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "4034",
+      "titulo": "SmartIdea - Validação de Problemas e Ideias",
+      "tipo": "Projeto",
+      "ano": "2022",
+      "n": 31,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ]
+    }
+  ]
+}

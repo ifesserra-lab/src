@@ -1,0 +1,54 @@
+{
+  "atividade_id": "17191",
+  "numero": "002",
+  "atividade": "Oficina de Design Sprint",
+  "acao_id": "4034",
+  "acao_titulo": "SmartIdea - Validação de Problemas e Ideias",
+  "processo": "23158.002921/2022-32",
+  "coordenador_acao": "Moisés Savedra Omena",
+  "publico_alvo": {
+    "total": 2,
+    "aprovados": 2,
+    "certificados": 2,
+    "situacao": {
+      "APROVADO": 2
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Moisés Savedra Omena",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Lucas Machado Santos",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Lorenzzo Gabriel Ramos Doelinger Oliveira",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Edimar Antonio da Cruz",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Carlos Henrique Costa Matos",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Arthur Delpupo Coelho",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Felipe Frechiani de Oliveira",
+      "funcao": "COORDENADOR(A) ADJUNTO(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "lucas-salomao-vieira",
+  "nome": "Lucas Salomão Vieira",
+  "resumo_ia": "Atuou como extensionista em 2023 no projeto Atividades físicas adaptadas e inclusão (AFAI), contribuindo em ações de extensão voltadas à inclusão por meio de atividades físicas.",
+  "anos": [
+    "2023"
+  ],
+  "funcoes": [
+    "EXTENSIONISTA"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "4659",
+      "titulo": "Atividades físicas adaptadas e inclusão (AFAI)",
+      "tipo": "Projeto",
+      "ano": "2023",
+      "n": 298,
+      "funcoes": [
+        "EXTENSIONISTA"
+      ]
+    }
+  ]
+}

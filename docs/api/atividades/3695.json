@@ -1,0 +1,25 @@
+{
+  "atividade_id": "3695",
+  "numero": "008",
+  "atividade": "Oficina: O que são ações de extensão e como preencher os formulários para cadastro?",
+  "acao_id": "1263",
+  "acao_titulo": "Ciclo de estudos 2017/2 do Ifes campus Serra",
+  "processo": "23158.000394/2017-64",
+  "coordenador_acao": "Gilmar Luiz Vassoler",
+  "publico_alvo": {
+    "total": 20,
+    "aprovados": 10,
+    "certificados": 10,
+    "situacao": {
+      "APROVADO": 10,
+      "REPROVADO": 10
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Emmanuel Marques Silva",
+      "funcao": "INSTRUTOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

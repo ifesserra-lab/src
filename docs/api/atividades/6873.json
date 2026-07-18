@@ -1,0 +1,50 @@
+{
+  "atividade_id": "6873",
+  "numero": "001",
+  "atividade": "Mulheres na Ciência",
+  "acao_id": "2082",
+  "acao_titulo": "Mulheres na Ciência",
+  "processo": "23158.001039/2018-93",
+  "coordenador_acao": "Giordana dos Santos Sperandio",
+  "publico_alvo": {
+    "total": 11,
+    "aprovados": 10,
+    "certificados": 10,
+    "situacao": {
+      "APROVADO": 10,
+      "REPROVADO": 1
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Giordana dos Santos Sperandio",
+      "funcao": "PROFESSOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Éllen Oliveira Silva Neves",
+      "funcao": "ALUNO(A) VOLUNTARIO",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Ana Rúbia Ramos Vicente",
+      "funcao": "MONITOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Alessandra Aguiar Vilarinho",
+      "funcao": "PROFESSOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Bruno Ramos Gonzaga",
+      "funcao": "PROFESSOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Giordana dos Santos Sperandio",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

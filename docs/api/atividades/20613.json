@@ -1,0 +1,72 @@
+{
+  "atividade_id": "20613",
+  "numero": "001",
+  "atividade": "LabMaker 4.0: capacitando professores para a cultura maker e tecnologias da Indústria 4.0",
+  "acao_id": "5641",
+  "acao_titulo": "LabMaker 4.0: capacitando professores para a cultura maker e tecnologias da Indústria 4.0",
+  "processo": "23158.001715/2025-58",
+  "coordenador_acao": "Rosiane Ribeiro Rocha",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Vitor Lopes Barbosa",
+      "funcao": "ALUNO(A) VOLUNTARIO",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Yasmin Soares Cavatti",
+      "funcao": "ALUNO(A) BOLSISTA",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "João Vitor Oliveira Scheidegger",
+      "funcao": "ALUNO(A) BOLSISTA",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Leticia Comissario da Silva",
+      "funcao": "ALUNO(A) BOLSISTA",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Ícaro Lessa Secchin",
+      "funcao": "ALUNO(A) BOLSISTA",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Julia Almeida Nascimento Lopes",
+      "funcao": "ALUNO(A) BOLSISTA",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Flávio Garcia Pereira",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Marcos Simão Guimarães",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Richard Junior Manuel Godinez Tello",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Gabriel Tozatto Zago",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Rosiane Ribeiro Rocha",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

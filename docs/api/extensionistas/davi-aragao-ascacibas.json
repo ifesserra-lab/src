@@ -1,0 +1,58 @@
+{
+  "slug": "davi-aragao-ascacibas",
+  "nome": "Davi Aragão Ascacibas",
+  "resumo_ia": "Atuou como professor no PRÉ – IFES Campus Serra em 2017 e como expositor no projeto Física ao Alcance de Todos em 2018. Também participou como voluntário e professor no projeto O IFES é o meu lugar em 2018 e 2019, respectivamente.",
+  "anos": [
+    "2017",
+    "2018",
+    "2019"
+  ],
+  "funcoes": [
+    "ALUNO(A) VOLUNTARIO",
+    "EXPOSITOR(A)",
+    "PROFESSOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1117",
+      "titulo": "PRÉ – IFES Campus Serra",
+      "tipo": "Curso",
+      "ano": "2017",
+      "n": 48,
+      "funcoes": [
+        "PROFESSOR(A)"
+      ]
+    },
+    {
+      "acao_id": "2021",
+      "titulo": "Física ao Alcance de Todos",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 429,
+      "funcoes": [
+        "EXPOSITOR(A)"
+      ]
+    },
+    {
+      "acao_id": "2081",
+      "titulo": "O IFES é o meu lugar",
+      "tipo": "Curso",
+      "ano": "2018",
+      "n": 96,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ]
+    },
+    {
+      "acao_id": "2591",
+      "titulo": "O IFES é o meu lugar",
+      "tipo": "Curso",
+      "ano": "2019",
+      "n": 106,
+      "funcoes": [
+        "PROFESSOR(A)"
+      ]
+    }
+  ]
+}

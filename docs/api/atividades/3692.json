@@ -1,0 +1,25 @@
+{
+  "atividade_id": "3692",
+  "numero": "005",
+  "atividade": "Oficina: Otimização da Matriz Orçamentária dos Campus do Ifes",
+  "acao_id": "1263",
+  "acao_titulo": "Ciclo de estudos 2017/2 do Ifes campus Serra",
+  "processo": "23158.000394/2017-64",
+  "coordenador_acao": "Gilmar Luiz Vassoler",
+  "publico_alvo": {
+    "total": 14,
+    "aprovados": 11,
+    "certificados": 11,
+    "situacao": {
+      "APROVADO": 11,
+      "REPROVADO": 3
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Fabricio Borelli",
+      "funcao": "INSTRUTOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

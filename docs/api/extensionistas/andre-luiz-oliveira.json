@@ -1,0 +1,24 @@
+{
+  "slug": "andre-luiz-oliveira",
+  "nome": "Andre Luiz Oliveira",
+  "resumo_ia": "Desenvolveu atividades como extensionista no projeto 'Atividades físicas adaptadas e inclusão (AFAI)' em 2023, atuando diretamente na promoção de práticas inclusivas.",
+  "anos": [
+    "2023"
+  ],
+  "funcoes": [
+    "EXTENSIONISTA"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "4659",
+      "titulo": "Atividades físicas adaptadas e inclusão (AFAI)",
+      "tipo": "Projeto",
+      "ano": "2023",
+      "n": 298,
+      "funcoes": [
+        "EXTENSIONISTA"
+      ]
+    }
+  ]
+}

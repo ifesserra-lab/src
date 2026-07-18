@@ -1,0 +1,24 @@
+{
+  "slug": "guilherme-firme-fiorot",
+  "nome": "Guilherme Firme Fiorot",
+  "resumo_ia": "Foi aluno bolsista no projeto Lampex + empreendedor em 2021.",
+  "anos": [
+    "2021"
+  ],
+  "funcoes": [
+    "ALUNO(A) BOLSISTA"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "3431",
+      "titulo": "Lampex + empreendedor",
+      "tipo": "Projeto",
+      "ano": "2021",
+      "n": 14,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ]
+    }
+  ]
+}

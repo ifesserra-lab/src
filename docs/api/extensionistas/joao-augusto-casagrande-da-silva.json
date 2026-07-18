@@ -1,0 +1,49 @@
+{
+  "slug": "joao-augusto-casagrande-da-silva",
+  "nome": "João Augusto Casagrande da Silva",
+  "resumo_ia": "Atuou como aluno voluntário na Maratona de Programação em 2018 e no LAMPEX em 2020, além de participar como aluno em atividade curricular no Núcleo Incubador Campus Serra em 2021, com apoio técnico no laboratório.",
+  "anos": [
+    "2018",
+    "2020",
+    "2021"
+  ],
+  "funcoes": [
+    "ALUNO(A) EM ATIVIDADE CURRICULAR",
+    "ALUNO(A) VOLUNTARIO",
+    "APOIO TÉCNICO"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1816",
+      "titulo": "Maratona de Programação",
+      "tipo": "Evento",
+      "ano": "2018",
+      "n": 49,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ]
+    },
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO",
+        "APOIO TÉCNICO"
+      ]
+    },
+    {
+      "acao_id": "3423",
+      "titulo": "Programa Local Núcleo Incubador Campus Serra – NIS",
+      "tipo": "Programa",
+      "ano": "2021",
+      "n": 189,
+      "funcoes": [
+        "ALUNO(A) EM ATIVIDADE CURRICULAR"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "ludmila-dias",
+  "nome": "Ludmila Dias",
+  "resumo_ia": "Participou como aluna voluntária no SprintLab - Laboratório de Prototipação Acelerada em 2022 e como apoio técnico no projeto Conectando Talentos: Robótica e Programação no IFES-Serra em 2024.",
+  "anos": [
+    "2022",
+    "2024"
+  ],
+  "funcoes": [
+    "ALUNO(A) VOLUNTARIO",
+    "APOIO TÉCNICO"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "4215",
+      "titulo": "SprintLab - Laboratório de Prototipação Acelerada",
+      "tipo": "Programa",
+      "ano": "2022",
+      "n": 76,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ]
+    },
+    {
+      "acao_id": "5086",
+      "titulo": "Conectando Talentos: Robótica e Programação no IFES-Serra",
+      "tipo": "Projeto",
+      "ano": "2024",
+      "n": 218,
+      "funcoes": [
+        "APOIO TÉCNICO"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "acao_id": "350",
+  "Processo nº": "23158.000694/2014-09",
+  "Título ação": "ISA SHOW ES 2014 - XIII Seminário e Exposição de Instrumentação, Sistemas, Elétrica e Automação",
+  "Natureza": "Extensão",
+  "Tipo ação": "Evento",
+  "Coordenador(a)": "Wagner Teixeira da Costa",
+  "Fomento": "PAEX-IFES",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "",
+  "Grande área conhecimento (inferida)": "Engenharias",
+  "Área temática principal": "",
+  "Área temática principal (inferida)": "Tecnologia e Produção",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "",
+  "Data de cadastro": "14/11/2014",
+  "Resumo": "O ISA SHOW ES é um evento de grande porte que promove espaço para desenvolvimento, realização de negócios e parcerias nos campos de instrumentação, sistemas, automação e elétrica, contando com a exposição de produtos e tecnologias oriundos de diversas empresas e instituições de ensino. Dessa forma, considerando que o GERA (Grupo de Energias Renováveis para Automação - Ifes - Campus Serra) tem o objetivo de desenvolver projetos em sistemas de energias renováveis e suas relações com sistemas automatizados, além de ajudar difundir este tema na sociedade, sua participação nesse evento torna-se uma importante maneira de divulgar as pesquisas realizadas na área de automação no campus Serra do Ifes.",
+  "Campus": "Serra",
+  "total_participacoes": 17,
+  "publico_alvo_total": 17,
+  "atividades": [
+    {
+      "atividade_id": "504",
+      "numero": "001",
+      "atividade": "Apresentação do Grupo de Pesquisa GERA - Grupo de Energias Renováveis para Automação",
+      "publico": 17,
+      "aprovados": 17,
+      "certificados": 17,
+      "equipe": 0
+    }
+  ],
+  "equipe_execucao": []
+}

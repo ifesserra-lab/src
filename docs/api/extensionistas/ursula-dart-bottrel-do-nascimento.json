@@ -1,0 +1,28 @@
+{
+  "slug": "ursula-dart-bottrel-do-nascimento",
+  "nome": "Ursula Dart Bottrel do Nascimento",
+  "resumo_ia": "Atuou como instrutor(a), pesquisador(a) e tutor(a) na equipe do Circuito Audiovisual em 2019.",
+  "anos": [
+    "2019"
+  ],
+  "funcoes": [
+    "INSTRUTOR(A)",
+    "PESQUISADOR(A)",
+    "TUTOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "2505",
+      "titulo": "Circuito Audiovisual",
+      "tipo": "Projeto",
+      "ano": "2019",
+      "n": 231,
+      "funcoes": [
+        "INSTRUTOR(A)",
+        "PESQUISADOR(A)",
+        "TUTOR(A)"
+      ]
+    }
+  ]
+}

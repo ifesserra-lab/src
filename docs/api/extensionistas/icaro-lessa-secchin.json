@@ -1,0 +1,62 @@
+{
+  "slug": "icaro-lessa-secchin",
+  "nome": "Ícaro Lessa Secchin",
+  "resumo_ia": "Atuou como aluno bolsista, voluntário e ministrante em 2023 no 'LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão'. Em 2024, colaborou no projeto 'Conectando Talentos: Robótica e Programação no IFES-Serra' e, em 2025, participou como aluno bolsista nos projetos 'LabMaker 4.0' e 'Jovens Inventores: O poder da Tecnologia Maker no Desenvolvimento Social'.",
+  "anos": [
+    "2023",
+    "2024",
+    "2025"
+  ],
+  "funcoes": [
+    "ALUNO(A) BOLSISTA",
+    "ALUNO(A) VOLUNTARIO",
+    "COLABORADOR(A)",
+    "MINISTRANTE"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "4655",
+      "titulo": "LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão",
+      "tipo": "Programa",
+      "ano": "2023",
+      "n": 558,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA",
+        "ALUNO(A) VOLUNTARIO",
+        "MINISTRANTE"
+      ]
+    },
+    {
+      "acao_id": "5086",
+      "titulo": "Conectando Talentos: Robótica e Programação no IFES-Serra",
+      "tipo": "Projeto",
+      "ano": "2024",
+      "n": 218,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "5641",
+      "titulo": "LabMaker 4.0: capacitando professores para a cultura maker e tecnologias da Indústria 4.0",
+      "tipo": "Projeto",
+      "ano": "2025",
+      "n": 73,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ]
+    },
+    {
+      "acao_id": "5677",
+      "titulo": "Jovens Inventores: O poder da Tecnologia Maker no Desenvolvimento Social",
+      "tipo": "Projeto",
+      "ano": "2025",
+      "n": 48,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA",
+        "ALUNO(A) VOLUNTARIO"
+      ]
+    }
+  ]
+}

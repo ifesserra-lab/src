@@ -1,0 +1,91 @@
+{
+  "slug": "elizangela-campos-da-rosa-broetto",
+  "nome": "Elizangela Campos da Rosa Broetto",
+  "resumo_ia": "Coordenou cursos de formação profissional em 2013 e atuou como mentora, colaboradora, instrutora, avaliadora, orientadora e coordenadora adjunta em projetos de extensão entre 2016 e 2020, incluindo o NIS, cursos de pré-incubação e o LAMPEX.",
+  "anos": [
+    "2013",
+    "2016",
+    "2017",
+    "2020"
+  ],
+  "funcoes": [
+    "AUXILIAR TÉCNICO",
+    "AVALIADOR(A)",
+    "COLABORADOR(A)",
+    "COORDENADOR(A) ADJUNTO(A)",
+    "INSTRUTOR(A)",
+    "MENTOR(A)",
+    "ORGANIZADOR(A)",
+    "ORIENTADOR(A)"
+  ],
+  "acoes_coordenadas": [
+    {
+      "acao_id": "108",
+      "titulo": "Curso de Auxiliar Administrativo",
+      "tipo": "Curso",
+      "ano": "2013",
+      "n": 74
+    },
+    {
+      "acao_id": "109",
+      "titulo": "Curso de Operador de Computador",
+      "tipo": "Curso",
+      "ano": "2013",
+      "n": 44
+    },
+    {
+      "acao_id": "110",
+      "titulo": "Curso de Eletricista Instalador Predial de Baixa Tensão",
+      "tipo": "Curso",
+      "ano": "2013",
+      "n": 39
+    }
+  ],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1116",
+      "titulo": "Programa Local Núcleo Incubador Campus Serra – NIS",
+      "tipo": "Programa",
+      "ano": "2017",
+      "n": 220,
+      "funcoes": [
+        "MENTOR(A)"
+      ]
+    },
+    {
+      "acao_id": "1261",
+      "titulo": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedora",
+      "tipo": "Curso",
+      "ano": "2017",
+      "n": 84,
+      "funcoes": [
+        "COLABORADOR(A)",
+        "INSTRUTOR(A)"
+      ]
+    },
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)",
+        "ORGANIZADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "708",
+      "titulo": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedoras",
+      "tipo": "Curso",
+      "ano": "2016",
+      "n": 77,
+      "funcoes": [
+        "AUXILIAR TÉCNICO",
+        "AVALIADOR(A)",
+        "INSTRUTOR(A)",
+        "ORIENTADOR(A)"
+      ]
+    }
+  ]
+}

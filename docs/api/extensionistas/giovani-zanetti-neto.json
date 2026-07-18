@@ -1,0 +1,57 @@
+{
+  "slug": "giovani-zanetti-neto",
+  "nome": "Giovani Zanetti Neto",
+  "resumo_ia": "Coordenou o curso 'Energia Solar Fotovoltaica' em 2017 e atuou como instrutor(a) no mesmo curso no mesmo ano. Também colaborou no 'Curso de Pré-Incubação para Empreendedores' em 2017 e foi orientador(a) e auxiliar técnico na modalidade 'Competências Empreendedoras' em 2016.",
+  "anos": [
+    "2016",
+    "2017"
+  ],
+  "funcoes": [
+    "AUXILIAR TÉCNICO",
+    "COLABORADOR(A)",
+    "INSTRUTOR(A)",
+    "ORIENTADOR(A)"
+  ],
+  "acoes_coordenadas": [
+    {
+      "acao_id": "986",
+      "titulo": "Energia Solar Fotovoltaica",
+      "tipo": "Curso",
+      "ano": "2017",
+      "n": 26
+    }
+  ],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1261",
+      "titulo": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedora",
+      "tipo": "Curso",
+      "ano": "2017",
+      "n": 84,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "708",
+      "titulo": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedoras",
+      "tipo": "Curso",
+      "ano": "2016",
+      "n": 77,
+      "funcoes": [
+        "AUXILIAR TÉCNICO",
+        "ORIENTADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "986",
+      "titulo": "Energia Solar Fotovoltaica",
+      "tipo": "Curso",
+      "ano": "2017",
+      "n": 26,
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ]
+    }
+  ]
+}

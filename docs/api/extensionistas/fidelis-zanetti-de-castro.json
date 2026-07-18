@@ -1,0 +1,84 @@
+{
+  "slug": "fidelis-zanetti-de-castro",
+  "nome": "Fidelis Zanetti de Castro",
+  "resumo_ia": "Coordenou projetos de extensão em 2022 e 2023, utilizando Inteligência Computacional para avaliação de frutos e identificação de pragas em culturas agrícolas. Participou como coordenador adjunto do Ifes Portas Abertas em 2018 e integrou equipes de eventos como Física ao Alcance de Todos e Mulheres na Ciência no mesmo ano.",
+  "anos": [
+    "2018",
+    "2022",
+    "2023"
+  ],
+  "funcoes": [
+    "COLABORADOR(A)",
+    "COORDENADOR(A)",
+    "COORDENADOR(A) ADJUNTO(A)",
+    "PROFESSOR(A)"
+  ],
+  "acoes_coordenadas": [
+    {
+      "acao_id": "4033",
+      "titulo": "Pink Pepper Qualifier: Determinação da qualidade produtiva dos frutos da Aroeira (Schinus terebinthifolius Raddi) usando Inteligência Computacional",
+      "tipo": "Projeto",
+      "ano": "2022",
+      "n": 164
+    },
+    {
+      "acao_id": "4507",
+      "titulo": "Solução web/mobile baseada em Inteligência Computacional para identificação de infestação por ácaros rajados (Tetranychus urticae) em culturas de morango",
+      "tipo": "Projeto",
+      "ano": "2023",
+      "n": 0
+    }
+  ],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1702",
+      "titulo": "Ifes Portas Abertas",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 387,
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)"
+      ]
+    },
+    {
+      "acao_id": "2021",
+      "titulo": "Física ao Alcance de Todos",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 429,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "2082",
+      "titulo": "Mulheres na Ciência",
+      "tipo": "Curso",
+      "ano": "2018",
+      "n": 53,
+      "funcoes": [
+        "PROFESSOR(A)"
+      ]
+    },
+    {
+      "acao_id": "2107",
+      "titulo": "Ifes Portas Abertas",
+      "tipo": "Programa",
+      "ano": "2018",
+      "n": 547,
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)"
+      ]
+    },
+    {
+      "acao_id": "4033",
+      "titulo": "Pink Pepper Qualifier: Determinação da qualidade produtiva dos frutos da Aroeira (Schinus terebinthifolius Raddi) usando Inteligência Computacional",
+      "tipo": "Projeto",
+      "ano": "2022",
+      "n": 164,
+      "funcoes": [
+        "COORDENADOR(A)"
+      ]
+    }
+  ]
+}

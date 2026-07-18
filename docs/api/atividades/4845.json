@@ -1,0 +1,37 @@
+{
+  "atividade_id": "4845",
+  "numero": "008",
+  "atividade": "Ciclo de Conversas do NAC 2016 – Redes Sociais: Crimes Digitais e cyberbullying",
+  "acao_id": "718",
+  "acao_titulo": "Programa Regular de Promoção da Cultura e da Arte no Ifes Campus Serra",
+  "processo": "23158.000332/2016-71",
+  "coordenador_acao": "Ana Paula Klauck",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Warleson dos Santos de Sales",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Amanda de Oliveira Ottoni",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Juliana Rangel Roque",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Gilberto Neves Sudre Filho",
+      "funcao": "PALESTRANTE",
+      "vinculo": "Servidor"
+    }
+  ]
+}

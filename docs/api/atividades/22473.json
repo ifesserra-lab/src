@@ -1,0 +1,39 @@
+{
+  "atividade_id": "22473",
+  "numero": "115",
+  "atividade": "Palestra de Cibersegurança e IA no Ambiente Educacional",
+  "acao_id": "3140",
+  "acao_titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+  "processo": "23158.001185/2020-56",
+  "coordenador_acao": "Emmanuel Marques Silva",
+  "publico_alvo": {
+    "total": 56,
+    "aprovados": 56,
+    "certificados": 56,
+    "situacao": {
+      "APROVADO": 56
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Bruno Cardoso Coutinho",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Jefferson Ribeiro de Lima",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Yan Dheimi Gomes Weise",
+      "funcao": "PALESTRANTE",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Vinicius Prata Lima",
+      "funcao": "PALESTRANTE",
+      "vinculo": "Convidado"
+    }
+  ]
+}

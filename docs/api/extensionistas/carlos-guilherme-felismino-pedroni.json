@@ -1,0 +1,24 @@
+{
+  "slug": "carlos-guilherme-felismino-pedroni",
+  "nome": "Carlos Guilherme Felismino Pedroni",
+  "resumo_ia": "Atuou como expositor no projeto Tutoria de Estudos Orientados: Compartilhando Saberes em 2019, compartilhando saberes por meio de ações extensionistas.",
+  "anos": [
+    "2019"
+  ],
+  "funcoes": [
+    "EXPOSITOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "2675",
+      "titulo": "Tutoria de Estudos Orientados: Compartilhando Saberes",
+      "tipo": "Projeto",
+      "ano": "2019",
+      "n": 19,
+      "funcoes": [
+        "EXPOSITOR(A)"
+      ]
+    }
+  ]
+}

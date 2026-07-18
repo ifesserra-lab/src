@@ -1,0 +1,39 @@
+{
+  "atividade_id": "17036",
+  "numero": "003",
+  "atividade": "Oficina \"A Química do cérebro: ondas gamma e efeitos da dimetiltriptamina de plantas medicinais/ roda de chá com meditação\"",
+  "acao_id": "4655",
+  "acao_titulo": "LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão",
+  "processo": "23158.001854/2023-10",
+  "coordenador_acao": "Gabriel Tozatto Zago",
+  "publico_alvo": {
+    "total": 15,
+    "aprovados": 15,
+    "certificados": 15,
+    "situacao": {
+      "APROVADO": 15
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Rosiane Ribeiro Rocha",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Matheus Tiago Amorim Pereira",
+      "funcao": "MONITOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Marianna Stark Gardioli Rangel",
+      "funcao": "MONITOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Nauvia Maria Cancelieri",
+      "funcao": "MINISTRANTE",
+      "vinculo": "Servidor"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "atividade_id": "5763",
+  "numero": "001",
+  "atividade": "Sistema para predição de transtornos mentais comuns na atenção primária a saúde",
+  "acao_id": "1834",
+  "acao_titulo": "Sistema para predição de transtornos mentais comuns na atenção primária a saúde",
+  "processo": "23158.000317/2018-95",
+  "coordenador_acao": "Moisés Savedra Omena",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Andreângelo da Paixão Patuzzo",
+      "funcao": "ALUNO(A) BOLSISTA",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Kleber André Lirio Picoli",
+      "funcao": "ALUNO(A) BOLSISTA",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Rafaela Amorim Pessin",
+      "funcao": "ALUNO(A) VOLUNTARIO",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Carlos Lins Borges Azevedo",
+      "funcao": "COORDENADOR(A) ADJUNTO(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Moisés Savedra Omena",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "atividade_id": "13765",
+  "numero": "001",
+  "atividade": "Oficina de Tutoria em Física",
+  "acao_id": "3954",
+  "acao_titulo": "Oficina de Tutoria em Física",
+  "processo": "23158.002428/2022-12",
+  "coordenador_acao": "Paulo Cezar Camargo Guedes",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Geraldo Simonetti Bello",
+      "funcao": "TUTOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Paulo Cezar Camargo Guedes",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "atividade_id": "10560",
+  "numero": "003",
+  "atividade": "Oficina de Sensibilização",
+  "acao_id": "2505",
+  "acao_titulo": "Circuito Audiovisual",
+  "processo": "23158.001195/2019-35",
+  "coordenador_acao": "Amarildo Mendes Lemos",
+  "publico_alvo": {
+    "total": 13,
+    "aprovados": 13,
+    "certificados": 13,
+    "situacao": {
+      "APROVADO": 13
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Wagner Scopel Falcão",
+      "funcao": "ASSESSOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

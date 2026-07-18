@@ -1,0 +1,36 @@
+{
+  "slug": "juliana-duarte-acerbi",
+  "nome": "Juliana Duarte Acerbi",
+  "resumo_ia": "Participou como intérprete no Desafio Ifes de Negócios Sociais em 2015 e como organizadora do evento Gametalk: vamos falar sobre games? em 2016.",
+  "anos": [
+    "2015",
+    "2016"
+  ],
+  "funcoes": [
+    "INTÉRPRETE",
+    "ORGANIZADOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "569",
+      "titulo": "Desafio Ifes de Negócios Socais",
+      "tipo": "Evento",
+      "ano": "2015",
+      "n": 40,
+      "funcoes": [
+        "INTÉRPRETE"
+      ]
+    },
+    {
+      "acao_id": "628",
+      "titulo": "Gametalk: vamos falar sobre games?",
+      "tipo": "Curso",
+      "ano": "2016",
+      "n": 3,
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ]
+    }
+  ]
+}

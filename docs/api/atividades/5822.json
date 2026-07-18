@@ -1,0 +1,24 @@
+{
+  "atividade_id": "5822",
+  "numero": "002",
+  "atividade": "Aplicação de Jogos Analógicos para melhoria de desempenho de alunos em lógica",
+  "acao_id": "1613",
+  "acao_titulo": "BoardGames: Divirta-se Estimulando Sua Mente",
+  "processo": "23158.000186/2018-46",
+  "coordenador_acao": "Flavio Severiano Lamas de Souza",
+  "publico_alvo": {
+    "total": 7,
+    "aprovados": 7,
+    "certificados": 7,
+    "situacao": {
+      "APROVADO": 7
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Flavio Severiano Lamas de Souza",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "acao_id": "640",
+  "Processo nº": "23158.000470/2015-71",
+  "Título ação": "Introdução à Programação Competitiva",
+  "Natureza": "Extensão",
+  "Tipo ação": "Curso",
+  "Coordenador(a)": "Jefferson Oliveira Andrade",
+  "Fomento": "PAEX-IFES",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "",
+  "Grande área conhecimento (inferida)": "Ciências Exatas e da Terra",
+  "Área temática principal": "",
+  "Área temática principal (inferida)": "Tecnologia e Produção",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "",
+  "Data de cadastro": "07/03/2016",
+  "Resumo": "Oferecer aulas teóricas e práticas de resolução de problemas computacionais utilizando técnicas de programação competitivas.",
+  "Campus": "Serra",
+  "total_participacoes": 2,
+  "publico_alvo_total": 1,
+  "atividades": [
+    {
+      "atividade_id": "1270",
+      "numero": "001",
+      "atividade": "Introdução à Programação Competitiva",
+      "publico": 1,
+      "aprovados": 1,
+      "certificados": 1,
+      "equipe": 1
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Jefferson Oliveira Andrade",
+      "funcoes": [
+        "COORDENADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    }
+  ]
+}

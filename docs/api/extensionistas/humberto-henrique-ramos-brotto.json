@@ -1,0 +1,35 @@
+{
+  "slug": "humberto-henrique-ramos-brotto",
+  "nome": "Humberto Henrique Ramos Brotto",
+  "resumo_ia": "Ministrou o Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedoras como instrutor(a) em 2016 e 2017.",
+  "anos": [
+    "2016",
+    "2017"
+  ],
+  "funcoes": [
+    "INSTRUTOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1261",
+      "titulo": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedora",
+      "tipo": "Curso",
+      "ano": "2017",
+      "n": 84,
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ]
+    },
+    {
+      "acao_id": "708",
+      "titulo": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedoras",
+      "tipo": "Curso",
+      "ano": "2016",
+      "n": 77,
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ]
+    }
+  ]
+}

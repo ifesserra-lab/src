@@ -1,0 +1,24 @@
+{
+  "slug": "lara-rocha-andrade",
+  "nome": "Lara Rocha Andrade",
+  "resumo_ia": "Atuou como palestrante no 'Programa Regular de Promoção da Cultura e da Arte no Ifes Campus Serra' em 2016, compartilhando saberes em sua área de atuação.",
+  "anos": [
+    "2016"
+  ],
+  "funcoes": [
+    "PALESTRANTE"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "718",
+      "titulo": "Programa Regular de Promoção da Cultura e da Arte no Ifes Campus Serra",
+      "tipo": "Programa",
+      "ano": "2016",
+      "n": 21,
+      "funcoes": [
+        "PALESTRANTE"
+      ]
+    }
+  ]
+}

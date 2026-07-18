@@ -1,0 +1,36 @@
+{
+  "slug": "vitoria-loureiro-pimentel",
+  "nome": "Vitória Loureiro Pimentel",
+  "resumo_ia": "Participou como aluna voluntária no Ifes Portas Abertas em 2018 e integrou o projeto Atividades físicas adaptadas e inclusão (AFAI) como aluna em atividade curricular em 2023.",
+  "anos": [
+    "2018",
+    "2023"
+  ],
+  "funcoes": [
+    "ALUNO(A) EM ATIVIDADE CURRICULAR",
+    "ALUNO(A) VOLUNTARIO"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "2107",
+      "titulo": "Ifes Portas Abertas",
+      "tipo": "Programa",
+      "ano": "2018",
+      "n": 547,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ]
+    },
+    {
+      "acao_id": "4659",
+      "titulo": "Atividades físicas adaptadas e inclusão (AFAI)",
+      "tipo": "Projeto",
+      "ano": "2023",
+      "n": 298,
+      "funcoes": [
+        "ALUNO(A) EM ATIVIDADE CURRICULAR"
+      ]
+    }
+  ]
+}

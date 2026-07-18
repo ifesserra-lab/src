@@ -1,0 +1,24 @@
+{
+  "slug": "arthur-de-souza-silva-mayerhofer",
+  "nome": "Arthur de Souza Silva Mayerhofer",
+  "resumo_ia": "Desempenhou a função de monitor(a) no projeto Física ao Alcance de Todos em 2018, apoiando ações de extensão na área de física.",
+  "anos": [
+    "2018"
+  ],
+  "funcoes": [
+    "MONITOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "2021",
+      "titulo": "Física ao Alcance de Todos",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 429,
+      "funcoes": [
+        "MONITOR(A)"
+      ]
+    }
+  ]
+}

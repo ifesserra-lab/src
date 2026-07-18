@@ -61,6 +61,17 @@ def _tile(valor, rotulo, sub="") -> str:
             f'<div class="tile-lbl">{escape(rotulo)}</div>{s}</div>')
 
 
+
+
+def _link_pessoa(nome, base: str, slugs: dict) -> str:
+    """Nome de pessoa vira link para a página do extensionista (quando existir)."""
+    from .extensionistas import _norm
+    slug = slugs.get(_norm(nome or ""))
+    rot = escape((nome or "—").strip() or "—")
+    return (f'<a class="lk" href="{base}extensionistas/{slug}.html">{rot}</a>'
+            if slug else rot)
+
+
 # ------------------------------------------------------------- página por ação
 def _agrupar_atividades(a: dict) -> dict[str, dict]:
     """Agrupa as participações de uma ação por atividade."""
@@ -84,7 +95,7 @@ def _agrupar_atividades(a: dict) -> dict[str, dict]:
     return ativm
 
 
-def _pagina_acao(a: dict) -> str:
+def _pagina_acao(a: dict, slugs: dict) -> str:
     ativm = _agrupar_atividades(a)
     linhas = []
     for k, m in sorted(ativm.items(), key=lambda kv: kv[1]["num"] or ""):
@@ -105,7 +116,7 @@ def _pagina_acao(a: dict) -> str:
             equipe.setdefault((p.get("Nome") or "—").strip(), set()).add(
                 (p.get("Função") or "—").strip())
     eq_rows = "".join(
-        f"<tr><td>{escape(n)}</td><td>{escape(', '.join(sorted(f)))}</td></tr>"
+        f"<tr><td>{_link_pessoa(n, '../', slugs)}</td><td>{escape(', '.join(sorted(f)))}</td></tr>"
         for n, f in sorted(equipe.items()))
     tabela_eq = (f'<div class="card" style="margin-top:14px"><table class="tb">'
                  f'<tr><th>Equipe de execução</th><th>Função(ões)</th></tr>{eq_rows}</table></div>'
@@ -114,7 +125,7 @@ def _pagina_acao(a: dict) -> str:
     pub_total = sum(m["pub"] for m in ativm.values())
     meta = f"""<div class="meta">
 <div><b>Processo</b>{escape(a.get('Processo nº') or '—')}</div>
-<div><b>Coordenador(a)</b>{escape(a.get('Coordenador(a)') or '—')}</div>
+<div><b>Coordenador(a)</b>{_link_pessoa(a.get('Coordenador(a)'), '../', slugs)}</div>
 <div><b>Natureza / Tipo</b>{escape(a.get('Natureza') or '—')} · {escape(a.get('Tipo ação') or '—')}</div>
 <div><b>Fomento</b>{escape(a.get('Fomento') or '—')}</div>
 <div><b>Cadastro</b>{escape(a.get('Data de cadastro') or '—')}</div>
@@ -136,7 +147,7 @@ def _pagina_acao(a: dict) -> str:
 
 
 # ------------------------------------------------------------- página por atividade
-def _pagina_atividade(a: dict, aid: str, m: dict) -> str:
+def _pagina_atividade(a: dict, aid: str, m: dict, slugs: dict) -> str:
     """Página de UMA atividade: contexto da ação-mãe + números + equipe nominal."""
     situ_rows = "".join(f"<tr><td>{escape(s)}</td><td>{n}</td></tr>"
                         for s, n in m["situ"].most_common())
@@ -147,7 +158,7 @@ def _pagina_atividade(a: dict, aid: str, m: dict) -> str:
     meta = f"""<div class="meta">
 <div><b>Ação</b><a class="lk" href="../acoes/{escape(str(a.get('acao_id')))}.html">{escape((a.get('Título ação') or '—')[:70])}</a></div>
 <div><b>Processo</b>{escape(a.get('Processo nº') or '—')}</div>
-<div><b>Coordenador(a) da ação</b>{escape(a.get('Coordenador(a)') or '—')}</div>
+<div><b>Coordenador(a) da ação</b>{_link_pessoa(a.get('Coordenador(a)'), '../', slugs)}</div>
 <div><b>Nº da atividade</b>{escape(m['num'] or '—')}</div>
 </div>"""
     blocos = [meta, tiles]
@@ -156,7 +167,7 @@ def _pagina_atividade(a: dict, aid: str, m: dict) -> str:
                       f'<table class="tb"><tr><th>Situação</th><th>Participantes</th></tr>{situ_rows}</table></div>')
     if m["eq"]:
         eq_rows = "".join(
-            f"<tr><td>{escape((p.get('Nome') or '—').strip())}</td>"
+            f"<tr><td>{_link_pessoa(p.get('Nome'), '../', slugs)}</td>"
             f"<td>{escape((p.get('Função') or '—').strip())}</td>"
             f"<td>{escape((p.get('Vínculo') or '—').strip())}</td></tr>"
             for p in sorted(m["eq"], key=lambda x: (x.get("Nome") or "")))
@@ -171,7 +182,7 @@ def _pagina_atividade(a: dict, aid: str, m: dict) -> str:
 
 
 # ------------------------------------------------------------- página geral
-def _pagina_geral(cons: dict) -> str:
+def _pagina_geral(cons: dict, slugs: dict) -> str:
     acoes = cons["acoes"]
     profs = set()
     alunos_cpf = set()
@@ -195,7 +206,7 @@ def _pagina_geral(cons: dict) -> str:
         f'<tr><td><a class="lk" href="{escape(str(a.get("acao_id")))}.html">'
         f'{escape((a.get("Título ação") or "—")[:80])}</a></td>'
         f'<td>{escape(a.get("Tipo ação") or "—")}</td>'
-        f'<td>{escape((a.get("Coordenador(a)") or "—")[:35])}</td>'
+        f'<td>{_link_pessoa(a.get("Coordenador(a)"), "../", slugs)}</td>'
         f'<td>{a.get("total_participacoes", 0)}</td>'
         f'<td><span class="badge">{escape((a.get("Data de cadastro") or "—")[-4:])}</span></td></tr>'
         for a in sorted(acoes, key=lambda x: -(x.get("total_participacoes") or 0)))
@@ -210,16 +221,18 @@ def _pagina_geral(cons: dict) -> str:
 
 
 # ------------------------------------------------------------- busca
-def _pagina_busca(cons: dict) -> str:
+def _pagina_busca(cons: dict, slugs: dict) -> str:
     """Busca por palavras-chave: título, resumo, coordenador, tipo, natureza, áreas."""
     idx = []
     for a in cons["acoes"]:
         area = (a.get("Área temática principal") or a.get("Área temática principal (inferida)") or "")
         ga = (a.get("Grande área conhecimento") or a.get("Grande área conhecimento (inferida)") or "")
+        from .extensionistas import _norm as _n
         idx.append({
             "id": a.get("acao_id"),
             "t": (a.get("Título ação") or "—")[:90],
             "c": (a.get("Coordenador(a)") or "—").strip(),
+            "cs": slugs.get(_n(a.get("Coordenador(a)") or "")),
             "tp": a.get("Tipo ação") or "—",
             "ano": (a.get("Data de cadastro") or "")[-4:],
             "n": a.get("total_participacoes", 0),
@@ -246,7 +259,7 @@ function render(q){
   if(!hits.length){out.innerHTML='<p class="vazio">Nada encontrado para esses termos. Tente palavras mais gerais.</p>';return;}
   let h = `<div class="card" style="margin-top:14px"><p class="sec-desc">${hits.length} ação(ões) encontrada(s)</p><table class="tb"><tr><th>Ação</th><th>Coordenador(a)</th><th>Tipo</th><th>Ano</th><th>Participações</th></tr>`;
   for(const a of hits)
-    h += `<tr><td><a class="lk" href="acoes/${a.id}.html">${a.t}</a></td><td>${a.c}</td><td>${a.tp}</td><td>${a.ano}</td><td>${a.n}</td></tr>`;
+    h += `<tr><td><a class="lk" href="acoes/${a.id}.html">${a.t}</a></td><td>${a.cs?`<a class="lk" href="extensionistas/${a.cs}.html">${a.c}</a>`:a.c}</td><td>${a.tp}</td><td>${a.ano}</td><td>${a.n}</td></tr>`;
   out.innerHTML = h + '</table></div>';
 }
 inp.addEventListener('input', e=>render(e.target.value)); render('');
@@ -272,7 +285,7 @@ document.querySelectorAll('.chips button').forEach(b=>b.addEventListener('click'
 
 
 # ------------------------------------------------------------- listas de gestão
-def _tabela_acoes(itens: list[dict], extra_col: tuple[str, str] | None = None) -> str:
+def _tabela_acoes(itens: list[dict], slugs: dict, extra_col: tuple[str, str] | None = None) -> str:
     cab = "<tr><th>Ação</th><th>Tipo</th><th>Coordenador(a)</th><th>Ano</th>"
     cab += f"<th>{escape(extra_col[0])}</th></tr>" if extra_col else "</tr>"
     rows = []
@@ -282,12 +295,12 @@ def _tabela_acoes(itens: list[dict], extra_col: tuple[str, str] | None = None) -
             f'<tr><td><a class="lk" href="acoes/{escape(str(it.get("acao_id")))}.html">'
             f'{escape((it.get("titulo") or "—")[:75])}</a></td>'
             f'<td>{escape(it.get("tipo") or "—")}</td>'
-            f'<td>{escape(it.get("coordenador") or "—")}</td>'
+            f'<td>{_link_pessoa(it.get("coordenador"), "", slugs)}</td>'
             f'<td>{escape(it.get("ano") or "—")}</td>{extra}</tr>')
     return f'<div class="card" style="margin-top:16px"><table class="tb">{cab}{"".join(rows)}</table></div>'
 
 
-def _pagina_sem_participacao(cons: dict) -> str:
+def _pagina_sem_participacao(cons: dict, slugs: dict) -> str:
     itens = []
     for a in cons["acoes"]:
         if a.get("total_participacoes", 0) == 0:
@@ -301,10 +314,10 @@ def _pagina_sem_participacao(cons: dict) -> str:
                 "Sem participações", f"Ações sem participações ({len(itens)})",
                 "Ações sem nenhum público-alvo nem equipe registrados no SRC — "
                 "pendência de registro a regularizar com o(a) coordenador(a)",
-                _tabela_acoes(itens))
+                _tabela_acoes(itens, slugs))
 
 
-def _pagina_pendencias(cons: dict) -> str:
+def _pagina_pendencias(cons: dict, slugs: dict) -> str:
     itens = []
     for a in cons["acoes"]:
         if (a.get("Relatório aprovado") or "").strip().lower() != "sim":
@@ -323,7 +336,7 @@ def _pagina_pendencias(cons: dict) -> str:
                 "Pendências", f"Pendências de relatório ({len(itens)})",
                 "Ações sem relatório final aprovado no SRC (inclui ações em andamento) — "
                 "com o(a) coordenador(a) responsável",
-                f'<div class="card">{top}</div>{_tabela_acoes(itens, ("Últ. relatório", "ultimo"))}')
+                f'<div class="card">{top}</div>{_tabela_acoes(itens, slugs, ("Últ. relatório", "ultimo"))}')
 
 
 # ------------------------------------------------------------- extensionistas
@@ -400,26 +413,30 @@ def gerar_site(
     out = Path(out_dir)
     (out / "acoes").mkdir(parents=True, exist_ok=True)
 
+    # mapa nome->slug dos extensionistas (para linkar nomes em todo o site)
+    from .extensionistas import _norm, coletar_extensionistas
+    pessoas = coletar_extensionistas(cons)
+    slugs = {_norm(p["nome"]): p["slug"] for p in pessoas}
+
     n = n_ativ = 0
     (out / "atividades").mkdir(exist_ok=True)
     for a in cons["acoes"]:
-        (out / "acoes" / f"{a.get('acao_id')}.html").write_text(_pagina_acao(a), encoding="utf-8")
+        (out / "acoes" / f"{a.get('acao_id')}.html").write_text(_pagina_acao(a, slugs), encoding="utf-8")
         n += 1
         for aid, m in _agrupar_atividades(a).items():
             if aid and aid != "?":
                 (out / "atividades" / f"{aid}.html").write_text(
-                    _pagina_atividade(a, aid, m), encoding="utf-8")
+                    _pagina_atividade(a, aid, m, slugs), encoding="utf-8")
                 n_ativ += 1
-    (out / "acoes" / "index.html").write_text(_pagina_geral(cons), encoding="utf-8")
-    busca = _pagina_busca(cons)
+    (out / "acoes" / "index.html").write_text(_pagina_geral(cons, slugs), encoding="utf-8")
+    busca = _pagina_busca(cons, slugs)
     (out / "index.html").write_text(busca, encoding="utf-8")   # busca é a home
     (out / "busca.html").write_text(busca, encoding="utf-8")   # compat links antigos
-    (out / "sem-participacao.html").write_text(_pagina_sem_participacao(cons), encoding="utf-8")
-    (out / "pendencias-relatorio.html").write_text(_pagina_pendencias(cons), encoding="utf-8")
+    (out / "sem-participacao.html").write_text(_pagina_sem_participacao(cons, slugs), encoding="utf-8")
+    (out / "pendencias-relatorio.html").write_text(_pagina_pendencias(cons, slugs), encoding="utf-8")
 
     # extensionistas (resumos IA vêm do cache gerado por gerar_resumos)
-    from .extensionistas import _CACHE_PADRAO, coletar_extensionistas
-    pessoas = coletar_extensionistas(cons)
+    from .extensionistas import _CACHE_PADRAO
     resumos = {}
     if Path(_CACHE_PADRAO).exists():
         resumos = json.loads(Path(_CACHE_PADRAO).read_text(encoding="utf-8"))

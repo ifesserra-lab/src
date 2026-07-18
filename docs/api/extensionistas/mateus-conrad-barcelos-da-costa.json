@@ -1,0 +1,38 @@
+{
+  "slug": "mateus-conrad-barcelos-da-costa",
+  "nome": "Mateus Conrad Barcelos da Costa",
+  "resumo_ia": "Colaborou no 'Programa Local Núcleo Incubador Campus Serra – NIS' em 2017 e atuou como instrutor(a) e organizador(a) no 'LAMPEX – Laboratório Modelo de Práticas de Extensão' em 2020.",
+  "anos": [
+    "2017",
+    "2020"
+  ],
+  "funcoes": [
+    "COLABORADOR(A)",
+    "INSTRUTOR(A)",
+    "ORGANIZADOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1116",
+      "titulo": "Programa Local Núcleo Incubador Campus Serra – NIS",
+      "tipo": "Programa",
+      "ano": "2017",
+      "n": 220,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "INSTRUTOR(A)",
+        "ORGANIZADOR(A)"
+      ]
+    }
+  ]
+}

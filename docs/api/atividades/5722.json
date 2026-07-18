@@ -1,0 +1,25 @@
+{
+  "atividade_id": "5722",
+  "numero": "001",
+  "atividade": "Academia Cisco nas Escolas Municipais da Serra - ES",
+  "acao_id": "1818",
+  "acao_titulo": "Academia Cisco nas Escolas Municipais da Serra - ES",
+  "processo": "23158.000258/2018-55",
+  "coordenador_acao": "Gilberto Neves Sudre Filho",
+  "publico_alvo": {
+    "total": 22,
+    "aprovados": 12,
+    "certificados": 0,
+    "situacao": {
+      "APROVADO": 12,
+      "CURSANDO": 10
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Gilberto Neves Sudre Filho",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

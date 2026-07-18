@@ -1,0 +1,36 @@
+{
+  "slug": "vinicius-gomes-caetano",
+  "nome": "Vinícius Gomes Caetano",
+  "resumo_ia": "Participou como aluno voluntário do LAMPEX em 2020 e integrou o Programa Local Núcleo Incubador Campus Serra – NIS em 2021 como aluno em atividade curricular.",
+  "anos": [
+    "2020",
+    "2021"
+  ],
+  "funcoes": [
+    "ALUNO(A) EM ATIVIDADE CURRICULAR",
+    "ALUNO(A) VOLUNTARIO"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ]
+    },
+    {
+      "acao_id": "3423",
+      "titulo": "Programa Local Núcleo Incubador Campus Serra – NIS",
+      "tipo": "Programa",
+      "ano": "2021",
+      "n": 189,
+      "funcoes": [
+        "ALUNO(A) EM ATIVIDADE CURRICULAR"
+      ]
+    }
+  ]
+}

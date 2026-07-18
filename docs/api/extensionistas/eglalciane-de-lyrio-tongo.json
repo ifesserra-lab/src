@@ -1,0 +1,66 @@
+{
+  "slug": "eglalciane-de-lyrio-tongo",
+  "nome": "Eglalciane de Lyrio Tongo",
+  "resumo_ia": "Coordenou o Núcleo de Educação Ambiental do Campus Serra – Ifes em 2025 e atuou como organizadora no LAMPEX (2020) e no SOF (2026), além de ser professora nos projetos Mulheres Mil (2023) e Asas para o Futuro (2025).",
+  "anos": [
+    "2020",
+    "2023",
+    "2025",
+    "2026"
+  ],
+  "funcoes": [
+    "ORGANIZADOR(A)",
+    "PROFESSOR(A)"
+  ],
+  "acoes_coordenadas": [
+    {
+      "acao_id": "5543",
+      "titulo": "Núcleo de Educação Ambiental do Campus Serra – Ifes",
+      "tipo": "Programa",
+      "ano": "2025",
+      "n": 0
+    }
+  ],
+  "participacoes_equipe": [
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "4820",
+      "titulo": "Mulheres Mil – Eletricista Instalador Predial em Baixa Tensão",
+      "tipo": "Curso",
+      "ano": "2023",
+      "n": 74,
+      "funcoes": [
+        "PROFESSOR(A)"
+      ]
+    },
+    {
+      "acao_id": "5645",
+      "titulo": "Asas para o Futuro - Eletricista Instalador Predial em Baixa Tensão",
+      "tipo": "Curso",
+      "ano": "2025",
+      "n": 36,
+      "funcoes": [
+        "PROFESSOR(A)"
+      ]
+    },
+    {
+      "acao_id": "5852",
+      "titulo": "SOF – Serviço de Orientação Financeira (unidade Ifes Serra)",
+      "tipo": "Projeto",
+      "ano": "2026",
+      "n": 316,
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ]
+    }
+  ]
+}

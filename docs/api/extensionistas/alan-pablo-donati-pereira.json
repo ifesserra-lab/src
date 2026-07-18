@@ -1,0 +1,24 @@
+{
+  "slug": "alan-pablo-donati-pereira",
+  "nome": "Alan Pablo Donati Pereira",
+  "resumo_ia": "Exerceu a função de instrutor na 'Semana de Controle e Automação' em 2016, contribuindo para a realização de atividades de extensão na área de controle e automação.",
+  "anos": [
+    "2016"
+  ],
+  "funcoes": [
+    "INSTRUTOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "899",
+      "titulo": "SEMANA DE CONTROLE E AUTOMAÇÃO",
+      "tipo": "Evento",
+      "ano": "2016",
+      "n": 181,
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ]
+    }
+  ]
+}

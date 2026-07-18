@@ -1,0 +1,97 @@
+{
+  "atividade_id": "17046",
+  "numero": "013",
+  "atividade": "Semana Nacional de Ciência e Tecnologia do IFES campus Serra",
+  "acao_id": "4655",
+  "acao_titulo": "LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão",
+  "processo": "23158.001854/2023-10",
+  "coordenador_acao": "Gabriel Tozatto Zago",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Vitor do Nascimento Ramos",
+      "funcao": "ALUNO(A) VOLUNTARIO",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Jonas Emanuel dos Santos Egert",
+      "funcao": "ALUNO(A) VOLUNTARIO",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Elisama Lima Sousa",
+      "funcao": "ALUNO(A) VOLUNTARIO",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Marco Aurélio Tiago Filho",
+      "funcao": "ALUNO(A) VOLUNTARIO",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Nicolas Nasário Ferreira",
+      "funcao": "ALUNO(A) VOLUNTARIO",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Matheus Santiago Ribeiro",
+      "funcao": "ALUNO(A) VOLUNTARIO",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Ícaro Lessa Secchin",
+      "funcao": "ALUNO(A) VOLUNTARIO",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Christofer de Oliveira Viana",
+      "funcao": "ALUNO(A) VOLUNTARIO",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Enzo Mandelli Pinheiro Rodrigues",
+      "funcao": "ALUNO(A) VOLUNTARIO",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Enzo Medeiros Agnez",
+      "funcao": "ALUNO(A) VOLUNTARIO",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Marcos Simão Guimarães",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Flávio Garcia Pereira",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Richard Junior Manuel Godinez Tello",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Karin Satie Komati",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Rosiane Ribeiro Rocha",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Gabriel Tozatto Zago",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

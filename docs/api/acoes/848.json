@@ -1,0 +1,81 @@
+{
+  "acao_id": "848",
+  "Processo nº": "23158.000571/2016-21",
+  "Título ação": "Sistema de apoio para monitorar temperatura para preparaçãode caixas para transporte de órgão.",
+  "Natureza": "Extensão",
+  "Tipo ação": "Projeto",
+  "Coordenador(a)": "Carlos Lins Borges Azevedo",
+  "Fomento": "PAEX-IFES",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "Ciências Exatas e da Terra",
+  "Área temática principal": "Saúde",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "28/02/2019",
+  "Data de cadastro": "19/09/2016",
+  "Resumo": "O presente projeto partiu de necessidades do Banco de Olhos do Hospital Evangelico e do\nCNCDO/ES (Central de Notificação, Captação e Distribuição de Órgãos) de preparar a\ncaixa responsável pelo transporte de órgão no estado do Espírito Santo. Atualmente, o\nprocesso de preparação de caixa para o transporte do órgão é oneroso. O transporte de\nórgãos é feito em caixas térmicas.\nNo processo atual, os enfermeiros investem 4 horas ou mais no processo de preparação\nda caixa. O processo de preparação tem como objetivo adequar a temperatura da caixa\nentre -4 e 8 graus, conforme normativa do Ministério da Saúde.\nApesar do processo ser consolidado pelas autoridades da saúde, esse é executado\nmanualmente. Os enfermeiros preparam o gelo ou gelox algumas horas antes do\ntransporte. Esses elementos são postos na caixa para o transporte, após esses elementos\nestarem em uma temperatura adequada.\nA tarefa seguinte é o monitoramento da caixa para se adequar ao intervalo de temperatura\ndescrito pela normativa do Ministério da Saúde. Esse monitoramento é feito manualmente\npor meio de um termômetro. A cada hora o enfermeiro monitora a temperatura da caixa e\nverifica se essa está adequada para o transporte. Essa tarefa apenas e finalizada quando a\ncaixa normaliza a temperatura. Vale ressaltar que para medir a temperatura é necessário\nabrir a caixa. Isso influenciando na medição da temperatura.\nComo pode ser observado na problemática acima, o processo de preparação da caixa é\noneroso e propicio a erros na medição. Afinal, há a necessidade de grande intervenção\nhumana.\nTendo como base os problemas supracitados, observou a necessidade de uma solução\nque auxilie o trabalho dos enfermeiros no processo de preparação da caixa. A solução é\ncomposta por um hardware e um software. O hardware é responsável por medir a\ntemperatura sem a necessidade de abrir a caixa. O software é responsável por apresentar\nas informações da medição e, assim, fornecer dados para uma tomada de decisão no\nprocesso de prepara da caixa.",
+  "Campus": "Serra",
+  "total_participacoes": 7,
+  "publico_alvo_total": 0,
+  "atividades": [
+    {
+      "atividade_id": "1939",
+      "numero": "001",
+      "atividade": "Sistema de apoio para monitorar temperatura para preparaçãode caixas para transporte de órgão.",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 7
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "André Spadetto Leão",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Antonione da Silva Mascarenhas Pinho",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Carlos Lins Borges Azevedo",
+      "funcoes": [
+        "COORDENADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Flávio Lopes da Silva",
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Irisson Junio Máximo Borges",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Lucas Almeida de Oliveira",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Paulo Sérgio dos Santos Júnior",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    }
+  ]
+}

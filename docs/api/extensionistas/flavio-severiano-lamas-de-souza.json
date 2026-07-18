@@ -1,0 +1,44 @@
+{
+  "slug": "flavio-severiano-lamas-de-souza",
+  "nome": "Flavio Severiano Lamas de Souza",
+  "resumo_ia": "Coordenou a Maratona de Programação em 2018 e atuou como orientador no evento Lampex + empreendedor em 2021.",
+  "anos": [
+    "2018",
+    "2021"
+  ],
+  "funcoes": [
+    "COORDENADOR(A)",
+    "ORIENTADOR(A)"
+  ],
+  "acoes_coordenadas": [
+    {
+      "acao_id": "1816",
+      "titulo": "Maratona de Programação",
+      "tipo": "Evento",
+      "ano": "2018",
+      "n": 49
+    }
+  ],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1816",
+      "titulo": "Maratona de Programação",
+      "tipo": "Evento",
+      "ano": "2018",
+      "n": 49,
+      "funcoes": [
+        "COORDENADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "3431",
+      "titulo": "Lampex + empreendedor",
+      "tipo": "Projeto",
+      "ano": "2021",
+      "n": 14,
+      "funcoes": [
+        "ORIENTADOR(A)"
+      ]
+    }
+  ]
+}

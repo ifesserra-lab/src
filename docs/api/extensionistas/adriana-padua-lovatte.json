@@ -1,0 +1,45 @@
+{
+  "slug": "adriana-padua-lovatte",
+  "nome": "Adriana Padua Lovatte",
+  "resumo_ia": "Atuou como professora e supervisora em projetos de extensão como Mulheres na Ciência (2018) e ESPM-Empregos (2018).",
+  "anos": [
+    "2018"
+  ],
+  "funcoes": [
+    "PROFESSOR(A)",
+    "SUPERVISOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1633",
+      "titulo": "Mulheres na Ciência",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 21,
+      "funcoes": [
+        "PROFESSOR(A)"
+      ]
+    },
+    {
+      "acao_id": "1795",
+      "titulo": "ESPM-Empregos: Um serviço inteligente para promover a empregabilidade",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 7,
+      "funcoes": [
+        "SUPERVISOR(A)"
+      ]
+    },
+    {
+      "acao_id": "2082",
+      "titulo": "Mulheres na Ciência",
+      "tipo": "Curso",
+      "ano": "2018",
+      "n": 53,
+      "funcoes": [
+        "PROFESSOR(A)"
+      ]
+    }
+  ]
+}

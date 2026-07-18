@@ -1,0 +1,89 @@
+{
+  "atividade_id": "20745",
+  "numero": "001",
+  "atividade": "Semana destinada à Educação Especial Inclusiva no Campus Serra",
+  "acao_id": "5667",
+  "acao_titulo": "Semana destinada à Educação Especial Inclusiva no Campus Serra",
+  "processo": "23158.001492/2025-29",
+  "coordenador_acao": "Emilene Coco dos Santos",
+  "publico_alvo": {
+    "total": 251,
+    "aprovados": 251,
+    "certificados": 251,
+    "situacao": {
+      "APROVADO": 251
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Rodrigo Fernandes Calhau",
+      "funcao": "DEBATEDOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Maikon Chaider Silva Scaldaferro",
+      "funcao": "DEBATEDOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Gabriel Santos da Silva Valbuza",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Adrianna Machado Meneguelli",
+      "funcao": "DEBATEDOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Fernanda Ferreyro Monticelli",
+      "funcao": "DEBATEDOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Adriana Pionttkovsky Barcellos",
+      "funcao": "PALESTRANTE",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Cynthia Kruger Quinino",
+      "funcao": "DEBATEDOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Richard Junior Manuel Godinez Tello",
+      "funcao": "PALESTRANTE",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Emilene Coco dos Santos",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Aline Freitas Pereira da Silva Belieni",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Renata Gomes de Jesus",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Fernanda Ferreyro Monticelli",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Adrianna Machado Meneguelli",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Emilene Coco dos Santos",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "wagner-scopel-falcao",
+  "nome": "Wagner Scopel Falcão",
+  "resumo_ia": null,
+  "anos": [
+    "2018",
+    "2019",
+    "2020"
+  ],
+  "funcoes": [
+    "APOIO TÉCNICO",
+    "ASSESSOR(A)",
+    "INSTRUTOR(A)",
+    "PALESTRANTE"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "2082",
+      "titulo": "Mulheres na Ciência",
+      "tipo": "Curso",
+      "ano": "2018",
+      "n": 53,
+      "funcoes": [
+        "PALESTRANTE"
+      ]
+    },
+    {
+      "acao_id": "2505",
+      "titulo": "Circuito Audiovisual",
+      "tipo": "Projeto",
+      "ano": "2019",
+      "n": 231,
+      "funcoes": [
+        "ASSESSOR(A)"
+      ]
+    },
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "APOIO TÉCNICO",
+        "INSTRUTOR(A)"
+      ]
+    }
+  ]
+}

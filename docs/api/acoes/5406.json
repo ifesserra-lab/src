@@ -1,0 +1,103 @@
+{
+  "acao_id": "5406",
+  "Processo nº": "23158.000213/2025-18",
+  "Título ação": "Jogos Estaduais do IFES 2025",
+  "Natureza": "Ensino",
+  "Tipo ação": "Projeto",
+  "Coordenador(a)": "Milainy Ludmila Santos Goulart",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "Ciências da Saúde",
+  "Área temática principal": "",
+  "Área temática principal (inferida)": "Cultura",
+  "Relatório aprovado": "Não",
+  "Data último relatório": "",
+  "Data de cadastro": "17/03/2025",
+  "Resumo": "Realização de oficinas esportivas para estudantes com interesse em participarem das competições a serem realizadas nos Jogos Estaduais do IFES 2025. Surge como proposta de formação \nvisando o fomento ao lazer, esporte e cultura.",
+  "Campus": "Serra",
+  "total_participacoes": 58,
+  "publico_alvo_total": 48,
+  "atividades": [
+    {
+      "atividade_id": "19823",
+      "numero": "001",
+      "atividade": "Jogos Estaduais do IFES 2025",
+      "publico": 48,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 10
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Andre Luiz Oliveira",
+      "funcoes": [
+        "AUXILIAR TÉCNICO"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Artur Bolda Amorim",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Emilly Martinelli Rossi",
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Jéssica Conti Garuzzi",
+      "funcoes": [
+        "AUXILIAR TÉCNICO"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Kleber Lucas Fernandes Pereira",
+      "funcoes": [
+        "AUXILIAR TÉCNICO"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Leonardo Zancheta Vieira",
+      "funcoes": [
+        "AUXILIAR TÉCNICO"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Marcio de Lima Braga",
+      "funcoes": [
+        "AUXILIAR TÉCNICO"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Matheus Tiago Amorim Pereira",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Milainy Ludmila Santos Goulart",
+      "funcoes": [
+        "COORDENADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Pedro Cardoso de Almeida",
+      "funcoes": [
+        "AUXILIAR TÉCNICO"
+      ],
+      "vinculo": "Convidado"
+    }
+  ]
+}

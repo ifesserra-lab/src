@@ -1,0 +1,40 @@
+{
+  "acao_id": "2522",
+  "Processo nº": "23158.001292/2019-28",
+  "Título ação": "I Seminário do Núcleo de Estudos Afro-Brasileiros e Indígenas do Ifes Campus Serra – Levantamento das referências culturais de São José do Queimado, Serra/ES",
+  "Natureza": "Pesquisa",
+  "Tipo ação": "Evento",
+  "Coordenador(a)": "Diego Ramiro Araoz Alves",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "Ciências Humanas",
+  "Área temática principal": "",
+  "Área temática principal (inferida)": "Cultura",
+  "Relatório aprovado": "Não",
+  "Data último relatório": "",
+  "Data de cadastro": "27/06/2019",
+  "Resumo": "O 1º Seminário do Núcleo de Estudos Afro-Brasileiros e Indígenas do IFES Campus Serra tem por objetivo principal apresentar os resultados parciais da pesquisa “Levantamento das referências culturais de São José do Queimado, Serra/ES” para os movimentos sociais, o Iphan, estudantes e demais interessados. Outro objetivo é debater, a partir do caso de Queimado, o tema da educação para as relações étnico-raciais em seus múltiplos aspectos, conforme descrito na programação. Para tanto, serão realizadas palestras, mesas-redondas, oficinas, atividades culturais e uma plenária visando o planejamento das atividades para o mês da consciência negra, em novembro, quando acontecerá o 2º Seminário do NEABI. Como resultado, espera-se estreitar as relações entre as instituições e instâncias governamentais envolvidas e os atores da sociedade civil que figuram como público-alvo deste evento, amadurecer o debate sobre os mecanismos de reconhecimento do Sítio Histórico e Arqueológico de São José do Queimado em nível nacional, além de difundir a cultura de reflexão sobre as relações étnico-raciais na comunidade escolar e, em particular, sobre os povos tradicionais e originários no Espírito Santo.",
+  "Campus": "Serra",
+  "total_participacoes": 1,
+  "publico_alvo_total": 0,
+  "atividades": [
+    {
+      "atividade_id": "8688",
+      "numero": "001",
+      "atividade": "I Seminário do Núcleo de Estudos Afro-Brasileiros e Indígenas do Ifes Campus Serra – Levantamento das referências culturais de São José do Queimado, Serra/ES",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 1
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Diego Ramiro Araoz Alves",
+      "funcoes": [
+        "COORDENADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    }
+  ]
+}

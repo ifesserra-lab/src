@@ -1,0 +1,89 @@
+{
+  "acao_id": "4597",
+  "Processo nº": "23158.002326/2023-88",
+  "Título ação": "O IFES é o meu lugar",
+  "Natureza": "Extensão",
+  "Tipo ação": "Projeto",
+  "Coordenador(a)": "Augusto Cesar Machado Ramos",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "23158.001812/2017-31 - Ifes para todos",
+  "Grande área conhecimento": "",
+  "Grande área conhecimento (inferida)": "Ciências Humanas",
+  "Área temática principal": "Educação",
+  "Relatório aprovado": "Não",
+  "Data último relatório": "",
+  "Data de cadastro": "18/07/2023",
+  "Resumo": "O Instituto Federal do Espírito Santo – Campus Serra foi inaugurado em 2001, e desde então\noferta cursos técnicos subsequentes e, posteriormente, cursos superiores e mestrado\nprofissional. Somente a partir de 2017, considerando-se as expectativas da comunidade local,\nesse campus passou a ofertar o ensino médio integrado à educação profissional, o que\nsignificou um grande avanço no que diz respeito ao acesso ao ensino médio de qualidade no\nreferido município.\nNesse contexto, o projeto “O IFES é o meu lugar” visa estimular os alunos da rede pública, por\nmeio de uma preparação para o processo seletivo do ensino médio integrado, com aulas\nexpositivas e dialogadas, bem como a resolução de exercícios das disciplinas do ensino\nfundamental, visando possibilitar a esses alunos uma revisão dos conteúdos trabalhados em\nsuas respectivas escolas. Nesse contexto, esperamos que os alunos estejam preparados e\nestimulados a realizarem uma boa prova no processo seletivo, como forma de ingresso ao\nensino médio integrado no IFES Campus Serra ou em qualquer instituição do IFES no estado.",
+  "Campus": "Serra",
+  "total_participacoes": 87,
+  "publico_alvo_total": 79,
+  "atividades": [
+    {
+      "atividade_id": "15941",
+      "numero": "001",
+      "atividade": "O IFES é o meu lugar",
+      "publico": 79,
+      "aprovados": 79,
+      "certificados": 79,
+      "equipe": 8
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Ana Julia Artem dos Santos",
+      "funcoes": [
+        "PROFESSOR(A) VOLUNTÁRIO"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Augusto Cesar Machado Ramos",
+      "funcoes": [
+        "COORDENADOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Elandia Aparecida Pereira Rodrigues",
+      "funcoes": [
+        "PROFESSOR(A) VOLUNTÁRIO"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Jefferson da Silva Bomfim",
+      "funcoes": [
+        "PROFESSOR(A) VOLUNTÁRIO"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Leandra Mendes da Silva Piffer",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Marcos Antônio Tavares de Souza",
+      "funcoes": [
+        "PROFESSOR(A) VOLUNTÁRIO"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Nicole Silva Loss",
+      "funcoes": [
+        "PROFESSOR(A) VOLUNTÁRIO"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Paulo Cezar Camargo Guedes",
+      "funcoes": [
+        "PROFESSOR(A) VOLUNTÁRIO"
+      ],
+      "vinculo": "Convidado"
+    }
+  ]
+}

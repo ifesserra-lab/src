@@ -1,0 +1,19 @@
+{
+  "atividade_id": "573",
+  "numero": "001",
+  "atividade": "Introdução ao Arduino - Módulo Básico",
+  "acao_id": "391",
+  "acao_titulo": "Curso de Introdução ao Arduino - Módulo Básico",
+  "processo": "23158.001183/2014-04",
+  "coordenador_acao": "Flávio Lopes da Silva",
+  "publico_alvo": {
+    "total": 23,
+    "aprovados": 21,
+    "certificados": 21,
+    "situacao": {
+      "APROVADO": 21,
+      "REPROVADO": 2
+    }
+  },
+  "equipe_execucao": []
+}

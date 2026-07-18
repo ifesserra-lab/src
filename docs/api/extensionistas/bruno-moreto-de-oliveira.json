@@ -1,0 +1,24 @@
+{
+  "slug": "bruno-moreto-de-oliveira",
+  "nome": "Bruno Moreto de Oliveira",
+  "resumo_ia": "Desempenhou a função de aluno voluntário na Maratona de Programação em 2018, colaborando em atividades de extensão voltadas à programação e tecnologia.",
+  "anos": [
+    "2018"
+  ],
+  "funcoes": [
+    "ALUNO(A) VOLUNTARIO"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1816",
+      "titulo": "Maratona de Programação",
+      "tipo": "Evento",
+      "ano": "2018",
+      "n": 49,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ]
+    }
+  ]
+}

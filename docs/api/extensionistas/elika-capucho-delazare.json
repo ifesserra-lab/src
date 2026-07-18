@@ -1,0 +1,34 @@
+{
+  "slug": "elika-capucho-delazare",
+  "nome": "Elika Capucho Delazare",
+  "resumo_ia": "Colaborou nos projetos Mulheres Mil - Artesão em Bordado a mão (2025) e Asas para o Futuro - Eletricista Instalador Predial em Baixa Tensão (2025).",
+  "anos": [
+    "2025"
+  ],
+  "funcoes": [
+    "COLABORADOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "5357",
+      "titulo": "MULHERES MIL - Artesão em Bordado a mão",
+      "tipo": "Curso",
+      "ano": "2025",
+      "n": 35,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "5645",
+      "titulo": "Asas para o Futuro - Eletricista Instalador Predial em Baixa Tensão",
+      "tipo": "Curso",
+      "ano": "2025",
+      "n": 36,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    }
+  ]
+}

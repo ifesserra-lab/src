@@ -1,0 +1,107 @@
+{
+  "atividade_id": "22289",
+  "numero": "103",
+  "atividade": "XXII Simpósio Brasileiro de Sistemas de Informação SBSI 2026",
+  "acao_id": "3140",
+  "acao_titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+  "processo": "23158.001185/2020-56",
+  "coordenador_acao": "Emmanuel Marques Silva",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Karyna Martins Carbas",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Ricardo Modenese Ramalho",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Lucas Silverio Gums",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Julia Almeida Nascimento Lopes",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Rafael Machado Souza",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Erick Kenzo Komati",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Romulo Alves Luciano",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Jose Augusto Costa Breciani",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Samiya Harumi",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Anyssa Satimi Komati Andrade",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Davi Campos Sutil",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Gustavo Saraiva Mariano",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Alice Lourenço dos Reis",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Jefferson Oliveira Andrade",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Karin Satie Komati",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Danilo de Paula e Silva",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Hilário Tomaz Alves de Oliveira",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Hilario Seibel Junior",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

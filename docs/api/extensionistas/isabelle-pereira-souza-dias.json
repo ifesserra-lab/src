@@ -1,0 +1,26 @@
+{
+  "slug": "isabelle-pereira-souza-dias",
+  "nome": "Isabelle Pereira Souza Dias",
+  "resumo_ia": "Atuou como monitora e pesquisadora no projeto Física ao Alcance de Todos em 2018.",
+  "anos": [
+    "2018"
+  ],
+  "funcoes": [
+    "MONITOR(A)",
+    "PESQUISADOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "2021",
+      "titulo": "Física ao Alcance de Todos",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 429,
+      "funcoes": [
+        "MONITOR(A)",
+        "PESQUISADOR(A)"
+      ]
+    }
+  ]
+}

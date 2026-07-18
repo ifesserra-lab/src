@@ -1,0 +1,105 @@
+{
+  "slug": "alessandro-bermudes-gomes",
+  "nome": "Alessandro Bermudes Gomes",
+  "resumo_ia": "Coordenou o curso 'PRÉ – IFES Campus Serra' em 2017 e o programa 'Ifes para todos' em 2018. Participou como coordenador adjunto em ações como 'O IFES é o meu lugar' (2018 e 2019) e 'Ifes Portas Abertas' (2018), além de colaborar no 'Curso de Pré-Incubação para Empreendedores' em 2017. Também organizou o 'SOF – Serviço de Orientação Financeira' em 2026.",
+  "anos": [
+    "2017",
+    "2018",
+    "2019",
+    "2026"
+  ],
+  "funcoes": [
+    "COLABORADOR(A)",
+    "COORDENADOR(A)",
+    "COORDENADOR(A) ADJUNTO(A)",
+    "ORGANIZADOR(A)"
+  ],
+  "acoes_coordenadas": [
+    {
+      "acao_id": "1117",
+      "titulo": "PRÉ – IFES Campus Serra",
+      "tipo": "Curso",
+      "ano": "2017",
+      "n": 48
+    },
+    {
+      "acao_id": "1546",
+      "titulo": "Ifes para todos",
+      "tipo": "Programa",
+      "ano": "2018",
+      "n": 18
+    }
+  ],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1117",
+      "titulo": "PRÉ – IFES Campus Serra",
+      "tipo": "Curso",
+      "ano": "2017",
+      "n": 48,
+      "funcoes": [
+        "COORDENADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "1261",
+      "titulo": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedora",
+      "tipo": "Curso",
+      "ano": "2017",
+      "n": 84,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "1546",
+      "titulo": "Ifes para todos",
+      "tipo": "Programa",
+      "ano": "2018",
+      "n": 18,
+      "funcoes": [
+        "COORDENADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "2081",
+      "titulo": "O IFES é o meu lugar",
+      "tipo": "Curso",
+      "ano": "2018",
+      "n": 96,
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)"
+      ]
+    },
+    {
+      "acao_id": "2107",
+      "titulo": "Ifes Portas Abertas",
+      "tipo": "Programa",
+      "ano": "2018",
+      "n": 547,
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)"
+      ]
+    },
+    {
+      "acao_id": "2591",
+      "titulo": "O IFES é o meu lugar",
+      "tipo": "Curso",
+      "ano": "2019",
+      "n": 106,
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)"
+      ]
+    },
+    {
+      "acao_id": "5852",
+      "titulo": "SOF – Serviço de Orientação Financeira (unidade Ifes Serra)",
+      "tipo": "Projeto",
+      "ano": "2026",
+      "n": 316,
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ]
+    }
+  ]
+}

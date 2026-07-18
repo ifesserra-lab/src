@@ -1,0 +1,26 @@
+{
+  "slug": "marcos-valerio-guimaraes",
+  "nome": "Marcos Valério Guimarães",
+  "resumo_ia": "Coordenou a área de audiovisual e atuou como instrutor no Circuito Audiovisual em 2019.",
+  "anos": [
+    "2019"
+  ],
+  "funcoes": [
+    "COORDENADOR(A) DE ÁREA",
+    "INSTRUTOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "2505",
+      "titulo": "Circuito Audiovisual",
+      "tipo": "Projeto",
+      "ano": "2019",
+      "n": 231,
+      "funcoes": [
+        "COORDENADOR(A) DE ÁREA",
+        "INSTRUTOR(A)"
+      ]
+    }
+  ]
+}

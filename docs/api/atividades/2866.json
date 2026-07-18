@@ -1,0 +1,24 @@
+{
+  "atividade_id": "2866",
+  "numero": "001",
+  "atividade": "Coral Musicante",
+  "acao_id": "1106",
+  "acao_titulo": "Coral Musicante",
+  "processo": "23158.000151/2017-26",
+  "coordenador_acao": "Ricardo Ramos Costa",
+  "publico_alvo": {
+    "total": 20,
+    "aprovados": 20,
+    "certificados": 20,
+    "situacao": {
+      "APROVADO": 20
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Ricardo Ramos Costa",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

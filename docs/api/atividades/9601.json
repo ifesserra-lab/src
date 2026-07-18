@@ -1,0 +1,97 @@
+{
+  "atividade_id": "9601",
+  "numero": "017",
+  "atividade": "Mostra Tecnológica na Semana Nacional de Ciência e Tecnologia 2019",
+  "acao_id": "2021",
+  "acao_titulo": "Física ao Alcance de Todos",
+  "processo": "23158.001115/2018-61",
+  "coordenador_acao": "Rosilene de Sá Ribeiro",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Davi Aragão Ascacibas",
+      "funcao": "EXPOSITOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Estácio Righette Pereira",
+      "funcao": "EXPOSITOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Marcelo Victor Ferreira Barbosa",
+      "funcao": "EXPOSITOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Ramyson de Araujo Nascimento",
+      "funcao": "EXPOSITOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Bruno Rocha Pratti",
+      "funcao": "EXPOSITOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Thiago Viguini de Carvalho",
+      "funcao": "EXPOSITOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Luis Felippe Klein Faria",
+      "funcao": "EXPOSITOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Guilherme Lopes de Oliveira",
+      "funcao": "EXPOSITOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Marcos Antonio da Hora Borges",
+      "funcao": "EXPOSITOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Vantuil Manoel Thebas",
+      "funcao": "EXPOSITOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Luiz Filipe dos Santos Schelemberg",
+      "funcao": "EXPOSITOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Thais Gonçalves de Lima",
+      "funcao": "EXPOSITOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Brenno Pelegrino Costa Guimarães",
+      "funcao": "EXPOSITOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Faye Manski Queiroz",
+      "funcao": "EXPOSITOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Leandro Melo de Sá",
+      "funcao": "COORDENADOR(A) ADJUNTO(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Rosilene de Sá Ribeiro",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

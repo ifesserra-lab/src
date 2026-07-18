@@ -1,0 +1,49 @@
+{
+  "acao_id": "1613",
+  "Processo nº": "23158.000186/2018-46",
+  "Título ação": "BoardGames: Divirta-se Estimulando Sua Mente",
+  "Natureza": "Ensino",
+  "Tipo ação": "Projeto",
+  "Coordenador(a)": "Flavio Severiano Lamas de Souza",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "Linguística, Letras e Artes",
+  "Área temática principal": "",
+  "Área temática principal (inferida)": "Educação",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "03/04/2018",
+  "Data de cadastro": "04/04/2018",
+  "Resumo": "Oferecer ambientes lúdicos que estimulem os alunos a desenvolverem táticas, estratégias, novas formas de pensamento que os mantenham na instituição e dêem ainda mais valor a mesma. \n\nO estímulo proporcionado por jogos que demandem raciocínio lógico, controle de área, gestão de recursos limitados e/ou outras habilidades inerentes de cada tipo de temática lúdica é de extremo valor tanto na vida acadêmica quanto laboral.\n\nO desafio proporcionado de querer se auto aprimorar diante das restrições que a atividade demanda quanto a satisfação que o jogador adquire quando o mesmo se vê melhorando passo a passo que repete os desafios e tenta novas táticas é muito recompensador. Esse ambiente de re-jogabilidade faz com que os participantes queiram constantemente se aprimorar nos quesitos de cada temática, quanto se divertirem durante o processo ao mesmo tempo que estão melhorando suas habilidades continuamente.",
+  "Campus": "Serra",
+  "total_participacoes": 11,
+  "publico_alvo_total": 9,
+  "atividades": [
+    {
+      "atividade_id": "5132",
+      "numero": "001",
+      "atividade": "BoardGames: Divirta-se Estimulando Sua Mente",
+      "publico": 2,
+      "aprovados": 2,
+      "certificados": 2,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "5822",
+      "numero": "002",
+      "atividade": "Aplicação de Jogos Analógicos para melhoria de desempenho de alunos em lógica",
+      "publico": 7,
+      "aprovados": 7,
+      "certificados": 7,
+      "equipe": 1
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Flavio Severiano Lamas de Souza",
+      "funcoes": [
+        "COORDENADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    }
+  ]
+}

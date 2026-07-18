@@ -1,0 +1,24 @@
+{
+  "slug": "joao-pedro-pagotto-da-costa",
+  "nome": "João Pedro Pagotto da Costa",
+  "resumo_ia": "Exerce a função de extensionista no Serviço de Orientação Financeira da unidade Ifes Serra em 2026.",
+  "anos": [
+    "2026"
+  ],
+  "funcoes": [
+    "EXTENSIONISTA"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "5852",
+      "titulo": "SOF – Serviço de Orientação Financeira (unidade Ifes Serra)",
+      "tipo": "Projeto",
+      "ano": "2026",
+      "n": 316,
+      "funcoes": [
+        "EXTENSIONISTA"
+      ]
+    }
+  ]
+}

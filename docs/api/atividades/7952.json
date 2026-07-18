@@ -1,0 +1,25 @@
+{
+  "atividade_id": "7952",
+  "numero": "002",
+  "atividade": "Cursos: \"Conecte-se, Introdução a Cybersegurança, Empreendedorismo e Introdução a IoT\"",
+  "acao_id": "1818",
+  "acao_titulo": "Academia Cisco nas Escolas Municipais da Serra - ES",
+  "processo": "23158.000258/2018-55",
+  "coordenador_acao": "Gilberto Neves Sudre Filho",
+  "publico_alvo": {
+    "total": 22,
+    "aprovados": 12,
+    "certificados": 12,
+    "situacao": {
+      "REPROVADO": 10,
+      "APROVADO": 12
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Gilberto Neves Sudre Filho",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

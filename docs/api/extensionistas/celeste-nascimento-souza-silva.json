@@ -1,0 +1,28 @@
+{
+  "slug": "celeste-nascimento-souza-silva",
+  "nome": "Celeste Nascimento Souza Silva",
+  "resumo_ia": "Atuou como aluno bolsista, autor e instrutor no LAMPEX – Laboratório Modelo de Práticas de Extensão em 2020, desenvolvendo atividades de extensão acadêmica.",
+  "anos": [
+    "2020"
+  ],
+  "funcoes": [
+    "ALUNO(A) BOLSISTA",
+    "AUTOR(A)",
+    "INSTRUTOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA",
+        "AUTOR(A)",
+        "INSTRUTOR(A)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "atividade_id": "7802",
+  "numero": "017",
+  "atividade": "Tutoria em Cálculo I",
+  "acao_id": "650",
+  "acao_titulo": "Tutoria de Estudos Orientados",
+  "processo": "23158.000371/2015-98",
+  "coordenador_acao": "Bruno Ramos Gonzaga",
+  "publico_alvo": {
+    "total": 4,
+    "aprovados": 4,
+    "certificados": 4,
+    "situacao": {
+      "APROVADO": 4
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Thiago Mascarello Vitor",
+      "funcao": "ALUNO(A) VOLUNTARIO",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Marcelo Victor Ferreira Barbosa",
+      "funcao": "ALUNO(A) VOLUNTARIO",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Guilherme Lopes de Oliveira",
+      "funcao": "ALUNO(A) VOLUNTARIO",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Emannuel Richard de Souza Corrêa",
+      "funcao": "ALUNO(A) VOLUNTARIO",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Bruno Ramos Gonzaga",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Graziela Barboza Guaitolini Ramos",
+      "funcao": "PROFESSOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

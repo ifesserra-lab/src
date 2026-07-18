@@ -1,0 +1,210 @@
+{
+  "acao_id": "1263",
+  "Processo nº": "23158.000394/2017-64",
+  "Título ação": "Ciclo de estudos 2017/2 do Ifes campus Serra",
+  "Natureza": "Desenv. Institucional",
+  "Tipo ação": "Evento",
+  "Coordenador(a)": "Gilmar Luiz Vassoler",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "",
+  "Área temática principal": "",
+  "Área temática principal (inferida)": "Educação",
+  "Relatório aprovado": "Não",
+  "Data último relatório": "",
+  "Data de cadastro": "08/08/2017",
+  "Resumo": "Ciclo de estudos",
+  "Campus": "Serra",
+  "total_participacoes": 142,
+  "publico_alvo_total": 126,
+  "atividades": [
+    {
+      "atividade_id": "3355",
+      "numero": "001",
+      "atividade": "Ciclo de estudos 2017/2 do Ifes campus Serra",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 6
+    },
+    {
+      "atividade_id": "3689",
+      "numero": "002",
+      "atividade": "Palestra: O servidor público e suas responsabilidades na Solicitação de Compras Públicas",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "3690",
+      "numero": "003",
+      "atividade": "Palestra: Fundamentos da Educação",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "3691",
+      "numero": "004",
+      "atividade": "Oficina: Avaliação da aprendizagem: estudos de caso em uma abordagem qualitativa",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "3692",
+      "numero": "005",
+      "atividade": "Oficina: Otimização da Matriz Orçamentária dos Campus do Ifes",
+      "publico": 14,
+      "aprovados": 11,
+      "certificados": 11,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "3693",
+      "numero": "006",
+      "atividade": "Oficina: Técnicas de gestão de projetos",
+      "publico": 30,
+      "aprovados": 16,
+      "certificados": 16,
+      "equipe": 2
+    },
+    {
+      "atividade_id": "3694",
+      "numero": "007",
+      "atividade": "Oficina: Dinâmicas para uma prática pedagógica motivacional",
+      "publico": 41,
+      "aprovados": 34,
+      "certificados": 34,
+      "equipe": 2
+    },
+    {
+      "atividade_id": "3695",
+      "numero": "008",
+      "atividade": "Oficina: O que são ações de extensão e como preencher os formulários para cadastro?",
+      "publico": 20,
+      "aprovados": 10,
+      "certificados": 10,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "3696",
+      "numero": "009",
+      "atividade": "Oficina: Como preencher a Solicitação de Compras e Contratação?",
+      "publico": 21,
+      "aprovados": 17,
+      "certificados": 17,
+      "equipe": 1
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Caroline Magevsky",
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Eglalciane de Lyrio Tongo",
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Emerson Atílio Birchler",
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Emmanuel Marques Silva",
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Fabricio Borelli",
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Gilmar Luiz Vassoler",
+      "funcoes": [
+        "COORDENADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Juciéli Alves da Costa",
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Lydia Marcia Braga Bazet",
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Maurício Abdalla Guerrieri",
+      "funcoes": [
+        "PALESTRANTE"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Paulo Sérgio dos Santos Júnior",
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Rodrigo Fernandes Calhau",
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Ronaldo Aparecida Marques",
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Sival Roque Torezani",
+      "funcoes": [
+        "PALESTRANTE"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Sônia Marta Bortolotti Ribeiro",
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Wagner Poltroniere Entringer",
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ],
+      "vinculo": "Servidor"
+    }
+  ]
+}

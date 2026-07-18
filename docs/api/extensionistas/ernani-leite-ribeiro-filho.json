@@ -1,0 +1,59 @@
+{
+  "slug": "ernani-leite-ribeiro-filho",
+  "nome": "Ernani Leite Ribeiro Filho",
+  "resumo_ia": "Atuou como professor no projeto Mulheres na Ciência em 2018, colaborou na Programação Visual Criativa com Scratch em 2015 e organizou o Programa Regular de Promoção da Cultura e da Arte no Ifes Campus Serra em 2016. Também foi avaliador no Desafio Ifes de Negócios Socais em 2015.",
+  "anos": [
+    "2015",
+    "2016",
+    "2018"
+  ],
+  "funcoes": [
+    "AVALIADOR(A)",
+    "COLABORADOR(A)",
+    "ORGANIZADOR(A)",
+    "PROFESSOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "2082",
+      "titulo": "Mulheres na Ciência",
+      "tipo": "Curso",
+      "ano": "2018",
+      "n": 53,
+      "funcoes": [
+        "PROFESSOR(A)"
+      ]
+    },
+    {
+      "acao_id": "542",
+      "titulo": "Programação Visual Criativa com Scratch",
+      "tipo": "Curso",
+      "ano": "2015",
+      "n": 25,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "569",
+      "titulo": "Desafio Ifes de Negócios Socais",
+      "tipo": "Evento",
+      "ano": "2015",
+      "n": 40,
+      "funcoes": [
+        "AVALIADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "718",
+      "titulo": "Programa Regular de Promoção da Cultura e da Arte no Ifes Campus Serra",
+      "tipo": "Programa",
+      "ano": "2016",
+      "n": 21,
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ]
+    }
+  ]
+}

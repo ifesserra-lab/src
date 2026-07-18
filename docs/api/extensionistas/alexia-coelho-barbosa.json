@@ -1,0 +1,47 @@
+{
+  "slug": "alexia-coelho-barbosa",
+  "nome": "Alexia Coelho Barbosa",
+  "resumo_ia": "Atuou como professora no PRÉ – IFES Campus Serra em 2017 e como professora voluntária na campanha 'O IFES é o meu lugar' em 2019. Participou como aluna voluntária na mesma campanha em 2018.",
+  "anos": [
+    "2017",
+    "2018",
+    "2019"
+  ],
+  "funcoes": [
+    "ALUNO(A) VOLUNTARIO",
+    "PROFESSOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1117",
+      "titulo": "PRÉ – IFES Campus Serra",
+      "tipo": "Curso",
+      "ano": "2017",
+      "n": 48,
+      "funcoes": [
+        "PROFESSOR(A)"
+      ]
+    },
+    {
+      "acao_id": "2081",
+      "titulo": "O IFES é o meu lugar",
+      "tipo": "Curso",
+      "ano": "2018",
+      "n": 96,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ]
+    },
+    {
+      "acao_id": "2591",
+      "titulo": "O IFES é o meu lugar",
+      "tipo": "Curso",
+      "ano": "2019",
+      "n": 106,
+      "funcoes": [
+        "PROFESSOR(A)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "acao_id": "374",
+  "Processo nº": "23158.001152/2014-45",
+  "Título ação": "Curso de Capacitação em Aulas Práticas em Instrumentação Industrial",
+  "Natureza": "Ensino",
+  "Tipo ação": "Curso",
+  "Coordenador(a)": "Emmanuel Marques Silva",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "",
+  "Grande área conhecimento (inferida)": "Engenharias",
+  "Área temática principal": "",
+  "Área temática principal (inferida)": "Tecnologia e Produção",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "",
+  "Data de cadastro": "10/12/2014",
+  "Resumo": "A SETEC, em articulação com o CONIF e as Instituições Proponentes: Instituto Federal de Brasília, Instituto Federal do Espírito Santo, Instituto Federal do Sul de Minas, Instituto Federal de Minas Gerais, Instituto Federal de Santa Catarina e Instituto Federal da Paraíba objetivam promover a formação continuada de docentes da carreira do EBTT em aulas práticas, cuja contribuição refletirá no aprimoramento da formação do corpo discente das instituições da Rede Federal.\n\nNesse contexto, realizar-se-à, no âmbito do Plano de Formação Continuada dos Servidores da Rede Federal de Educação Profissional - PLAFOR, o Programa de Capacitação em Aulas Práticas para os professores da Rede Federal.\n\nA implementação do Curso de Capacitação em Aulas Práticas na RFEPCT será de responsabilidade das instituições proponentes, com o apoio da SETEC/MEC, em parceria com as demais instituições que compõem a RFEPCT.\n\nObjetivos do Curso:\nO Programa de Capacitação em Aulas Práticas na RFEPCT está estruturado com o propósito de promover a interação entre os professores colaboradores e os professores participantes, e será subdividido em cursos de aulas práticas.\n* Professores-colaboradores: responsáveis pela operacionalização do programa;\n* Professores-participantes: alunos do curso e participantes das aulas práticas.\n\nObjetivo Geral:\nPromover e estimular a interação entre os professores da rede dos institutos federais para o desenvolvimento de práticas de laboratório da área de instrumentação industrial.\n\nObjetivos Específicos:\n* Capacitar professores;\n* Criar roteiros normalizados de práticas de laboratório;\n* Padronizar metodologias de ensino nas práticas de laboratório;\n* Compartilhar experiências.",
+  "Campus": "Serra",
+  "total_participacoes": 13,
+  "publico_alvo_total": 13,
+  "atividades": [
+    {
+      "atividade_id": "547",
+      "numero": "001",
+      "atividade": "Capacitação em Aulas Práticas em Instrumentação Industrial",
+      "publico": 13,
+      "aprovados": 13,
+      "certificados": 13,
+      "equipe": 0
+    }
+  ],
+  "equipe_execucao": []
+}

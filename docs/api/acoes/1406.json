@@ -1,0 +1,60 @@
+{
+  "acao_id": "1406",
+  "Processo nº": "23158.001300/2017-74",
+  "Título ação": "Curso de Pré-Incubação de Empreendimentos – modalidade Residência",
+  "Natureza": "Extensão",
+  "Tipo ação": "Curso",
+  "Coordenador(a)": "Felipe Frechiani de Oliveira",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "23147.002020/2025-12 - Rede de Incubação de Empreendimento",
+  "Grande área conhecimento": "Ciências Sociais Aplicadas",
+  "Área temática principal": "Tecnologia e Produção",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "28/12/2018",
+  "Data de cadastro": "23/11/2017",
+  "Resumo": "O Curso de Pré-Incubação de Empreendimentos – modalidade Residência surge com o intuito de oferecer um conjunto de atividades tais como capacitação, assessorias, orientações nas áreas de gestão e tecnológica, além de infraestrutura, de forma a apoiar novos empreendedores no desenvolvimento de ideias com posterior geração de produtos, processos ou modelo de negócio com vistas à transformá-los em um empreendimento apto aos processos seletivos de incubação.",
+  "Campus": "Serra",
+  "total_participacoes": 12,
+  "publico_alvo_total": 8,
+  "atividades": [
+    {
+      "atividade_id": "4172",
+      "numero": "001",
+      "atividade": "Curso de Pré-Incubação de Empreendimentos – modalidade Residência",
+      "publico": 8,
+      "aprovados": 2,
+      "certificados": 2,
+      "equipe": 4
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Emmanuel Marques Silva",
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Estácio Righette Pereira",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Felipe Frechiani de Oliveira",
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Lucas Velten Henker",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ],
+      "vinculo": "Aluno"
+    }
+  ]
+}

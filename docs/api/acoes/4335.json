@@ -1,0 +1,158 @@
+{
+  "acao_id": "4335",
+  "Processo nº": "23158.000421/2023-47",
+  "Título ação": "Oficinas do Mundo Maker",
+  "Natureza": "Ensino",
+  "Tipo ação": "Projeto",
+  "Coordenador(a)": "Rosiane Ribeiro Rocha",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "Engenharias",
+  "Área temática principal": "Educação",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "12/12/2023",
+  "Data de cadastro": "20/03/2023",
+  "Resumo": "O Laboratório Maker possui grande potencial para enriquecer a formação dos estudantes na direção de  torná-los produtores de tecnologia e não apenas consumidores. Possibilita impulsionar a aprendizagem \ninterdisciplinar, o protagonismo do estudante e trazer mais frequentemente temas relacionados às  disciplinas STEM (Science, Technology, Engineering, Mathematics). Dentro desse contexto, o presente \nprojeto tem como objetivo oferecer aos estudantes do IFES campus Serra oficinas e minicursos  relacionadas com a cultura maker e incentivar que esses alunos aprendam novos conteúdos além \ndaqueles adquiridos em sala de aula nas áreas de modelagem 3D, impressão 3D, microcontroladores e  robótica.",
+  "Campus": "Serra",
+  "total_participacoes": 133,
+  "publico_alvo_total": 124,
+  "atividades": [
+    {
+      "atividade_id": "15000",
+      "numero": "001",
+      "atividade": "Oficinas do Mundo Maker",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 5
+    },
+    {
+      "atividade_id": "16277",
+      "numero": "002",
+      "atividade": "Oficina \"Pensamento Computacional\"",
+      "publico": 18,
+      "aprovados": 18,
+      "certificados": 18,
+      "equipe": 0
+    },
+    {
+      "atividade_id": "16278",
+      "numero": "003",
+      "atividade": "Oficina \"Robótica Arduino\"",
+      "publico": 15,
+      "aprovados": 15,
+      "certificados": 15,
+      "equipe": 0
+    },
+    {
+      "atividade_id": "16279",
+      "numero": "004",
+      "atividade": "Oficina \"Modelagem 3D\"",
+      "publico": 14,
+      "aprovados": 14,
+      "certificados": 14,
+      "equipe": 0
+    },
+    {
+      "atividade_id": "16280",
+      "numero": "005",
+      "atividade": "Oficina \"Manufatura Aditiva\"",
+      "publico": 10,
+      "aprovados": 10,
+      "certificados": 10,
+      "equipe": 0
+    },
+    {
+      "atividade_id": "16281",
+      "numero": "006",
+      "atividade": "Oficina \"Manufatura Subtrativa\"",
+      "publico": 10,
+      "aprovados": 10,
+      "certificados": 10,
+      "equipe": 0
+    },
+    {
+      "atividade_id": "16282",
+      "numero": "007",
+      "atividade": "Oficina \"Gestão de Projetos\"",
+      "publico": 29,
+      "aprovados": 29,
+      "certificados": 28,
+      "equipe": 0
+    },
+    {
+      "atividade_id": "16283",
+      "numero": "008",
+      "atividade": "Minicurso “Introdução ao Arduino e Microcontroladores”",
+      "publico": 2,
+      "aprovados": 2,
+      "certificados": 2,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "16284",
+      "numero": "009",
+      "atividade": "Minicurso “Introdução à Robótica Móvel”",
+      "publico": 12,
+      "aprovados": 12,
+      "certificados": 12,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "16285",
+      "numero": "010",
+      "atividade": "Minicurso “Introdução à Impressão 3D”",
+      "publico": 7,
+      "aprovados": 7,
+      "certificados": 7,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "16286",
+      "numero": "011",
+      "atividade": "Minicurso \"Introdução à CNC a laser\"",
+      "publico": 7,
+      "aprovados": 7,
+      "certificados": 7,
+      "equipe": 1
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Flávio Garcia Pereira",
+      "funcoes": [
+        "COLABORADOR(A)",
+        "PROFESSOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Gabriel Tozatto Zago",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Marcos Simão Guimarães",
+      "funcoes": [
+        "PROFESSOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Richard Junior Manuel Godinez Tello",
+      "funcoes": [
+        "PROFESSOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Rosiane Ribeiro Rocha",
+      "funcoes": [
+        "COORDENADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    }
+  ]
+}

@@ -1,0 +1,306 @@
+{
+  "acao_id": "5852",
+  "Processo nº": "23158.002622/2025-41",
+  "Título ação": "SOF – Serviço de Orientação Financeira (unidade Ifes Serra)",
+  "Natureza": "Extensão",
+  "Tipo ação": "Projeto",
+  "Coordenador(a)": "Emmanuel Marques Silva",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "23158.001185/2020-56 - LAMPEX – Laboratório Modelo de Práticas de Extensão",
+  "Grande área conhecimento": "Ciências Exatas e da Terra",
+  "Área temática principal": "Educação",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "27/03/2026",
+  "Data de cadastro": "05/01/2026",
+  "Resumo": "O Serviço de Orientação Financeira – SOF (unidade campus Serra do Ifes) foi criado para oferecer assessoria gratuita a\nindivíduos e famílias que enfrentam situações econômico-financeiras adversas, como baixa liquidez ou\nendividamento; que desejam aprimorar seu planejamento e bem-estar financeiro; ou que necessitam de apoio para\nalcançar metas específicas, como a aquisição de bens ou a formação de patrimônio (poupança e investimento -\nexceto mercado de capitais).\nNeste contexto, o Instituto Federal do Espírito Santo – Campus Serra (IFES Serra), por meio do Serviço de Orientação\nFinanceira (SOF), propõe à Prefeitura Municipal da Serra (PMS) uma parceria estratégica voltada à promoção da\neducação financeira, prevenção ao endividamento e fortalecimento da cidadania econômica no município. A iniciativa\nestá alinhada às políticas públicas municipais de inclusão social, bem-estar e desenvolvimento humano, buscando\nampliar a capacidade da PMS em oferecer apoio técnico e educativo às famílias serranas, especialmente as em\nsituação de vulnerabilidade.",
+  "Campus": "Serra",
+  "total_participacoes": 316,
+  "publico_alvo_total": 258,
+  "atividades": [
+    {
+      "atividade_id": "21690",
+      "numero": "001",
+      "atividade": "SOF – Serviço de Orientação Financeira (unidade Ifes Serra)",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 2
+    },
+    {
+      "atividade_id": "22066",
+      "numero": "002",
+      "atividade": "Palestra promovida pelo LIEFIS: \"Finanças Pessoais: Eu, Meu Dinheiro e Minhas Decisões.",
+      "publico": 27,
+      "aprovados": 27,
+      "certificados": 27,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "22067",
+      "numero": "003",
+      "atividade": "Palestra promovida pelo LIEFIS: \"Finanças Pessoais: Eu, Meu Dinheiro e Minhas Decisões.",
+      "publico": 79,
+      "aprovados": 79,
+      "certificados": 79,
+      "equipe": 5
+    },
+    {
+      "atividade_id": "22069",
+      "numero": "005",
+      "atividade": "SOF - Serviço de Orientação Financeira",
+      "publico": 9,
+      "aprovados": 9,
+      "certificados": 9,
+      "equipe": 5
+    },
+    {
+      "atividade_id": "22070",
+      "numero": "006",
+      "atividade": "SOF - Serviço de Orientação Financeira",
+      "publico": 13,
+      "aprovados": 13,
+      "certificados": 13,
+      "equipe": 7
+    },
+    {
+      "atividade_id": "22071",
+      "numero": "007",
+      "atividade": "SOF - Serviço de Orientação Financeira",
+      "publico": 12,
+      "aprovados": 12,
+      "certificados": 12,
+      "equipe": 3
+    },
+    {
+      "atividade_id": "22073",
+      "numero": "009",
+      "atividade": "Workshop: Mercado de Capitais na Prática – Fundamentos da Compra, Venda e Valorização das Ações",
+      "publico": 40,
+      "aprovados": 40,
+      "certificados": 40,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "22074",
+      "numero": "010",
+      "atividade": "Workshop: Mercado de Capitais na Prática – Fundamentos da Compra, Venda e Valorização das Ações",
+      "publico": 31,
+      "aprovados": 31,
+      "certificados": 31,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "22250",
+      "numero": "012",
+      "atividade": "Palestra promovida pelo LIEFIS: \"Demandas emocionais e comportamentais no processo de endividamento\".",
+      "publico": 18,
+      "aprovados": 18,
+      "certificados": 18,
+      "equipe": 12
+    },
+    {
+      "atividade_id": "22251",
+      "numero": "013",
+      "atividade": "Palestra promovida pelo LIEFIS: \"Compreendendo a Lei do Superendividamento\".",
+      "publico": 29,
+      "aprovados": 28,
+      "certificados": 28,
+      "equipe": 15
+    },
+    {
+      "atividade_id": "22552",
+      "numero": "014",
+      "atividade": "ESX 2026 – Espírito Santo Innovation Experience, evento de inovação, tecnologia e empreendedorismo, realizado em Vitória, Espírito Santo, e promovido pelo Sebrae/ES e pela Mobilização Capixaba pela Inovação (MCI)",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 6
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Alessandro Bermudes Gomes",
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Alex Rossoni Junior",
+      "funcoes": [
+        "EXTENSIONISTA"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Edilson Luiz do Nascimento",
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Eglalciane de Lyrio Tongo",
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Emmanuel Marques Silva",
+      "funcoes": [
+        "COORDENADOR(A)",
+        "EXPOSITOR(A)",
+        "INSTRUTOR(A)",
+        "ORIENTADOR(A)",
+        "PALESTRANTE"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Felipe Becalli Trindade",
+      "funcoes": [
+        "EXPOSITOR(A)",
+        "EXTENSIONISTA"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Guilherme Borges Cabral",
+      "funcoes": [
+        "EXPOSITOR(A)"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Gustavo Laube Schwartz",
+      "funcoes": [
+        "EXPOSITOR(A)",
+        "EXTENSIONISTA"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Irene Schmidt da Silva Alves",
+      "funcoes": [
+        "EXTENSIONISTA"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Irlane Schmidt da Silva Alves",
+      "funcoes": [
+        "EXTENSIONISTA"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Jefferson Ribeiro de Lima",
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "João Pedro Pagotto da Costa",
+      "funcoes": [
+        "EXTENSIONISTA"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Juliano Antônio da Silveira",
+      "funcoes": [
+        "EXTENSIONISTA"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Lorenzzo Gabriel Ramos Doelinger Oliveira",
+      "funcoes": [
+        "EXTENSIONISTA"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Luiz Guilherme de Souza Zottich",
+      "funcoes": [
+        "EXTENSIONISTA"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Luma Tavares Lopes de Souza",
+      "funcoes": [
+        "EXTENSIONISTA"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Mafe Mattos",
+      "funcoes": [
+        "EXTENSIONISTA"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Maycon Pequeno Silva",
+      "funcoes": [
+        "EXTENSIONISTA"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Nicole Ribeiro Schayder da Silva",
+      "funcoes": [
+        "PALESTRANTE"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Patricia Maria Bortolon",
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Pedro Carvalho Goularte",
+      "funcoes": [
+        "PALESTRANTE"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Renata Baptista",
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Ronaldo Aparecida Marques",
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)",
+        "EXPOSITOR(A)",
+        "ORIENTADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Thalison Vinícius Euzebio Ribeiro",
+      "funcoes": [
+        "EXTENSIONISTA"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Thiago Almeida Deps Caldeira",
+      "funcoes": [
+        "EXPOSITOR(A)",
+        "EXTENSIONISTA"
+      ],
+      "vinculo": "Aluno"
+    }
+  ]
+}

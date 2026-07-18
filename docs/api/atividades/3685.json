@@ -1,0 +1,27 @@
+{
+  "atividade_id": "3685",
+  "numero": "024",
+  "atividade": "Apresentação de Pôster \"A monitoria e os alunos com necessidades específicas no Ifes campus Vitória\"",
+  "acao_id": "1238",
+  "acao_titulo": "II Seminário de Educação Especial no Instituto Federal do Espírito Santo",
+  "processo": "23158.000398/2017-42",
+  "coordenador_acao": "Renata Imaculada de Oliveira Teixeira",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Mayara Nascimento Natividade",
+      "funcao": "AUTOR(A)",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Fernanda dos Santos Nogueira",
+      "funcao": "AUTOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

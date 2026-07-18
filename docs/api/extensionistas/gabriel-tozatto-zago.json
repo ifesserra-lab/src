@@ -1,0 +1,74 @@
+{
+  "slug": "gabriel-tozatto-zago",
+  "nome": "Gabriel Tozatto Zago",
+  "resumo_ia": "Coordenou o LabMaker Serra em 2023 e o projeto Cultura Impressa em 2025. Participou como colaborador no LabMaker Serra em 2023, membro do comitê gestor do Conectando Talentos em 2024 e instrutor na Semana de Controle e Automação em 2016.",
+  "anos": [
+    "2016",
+    "2023",
+    "2024",
+    "2025"
+  ],
+  "funcoes": [
+    "COLABORADOR(A)",
+    "INSTRUTOR(A)",
+    "MEMBRO DE COMITÊ GESTOR"
+  ],
+  "acoes_coordenadas": [
+    {
+      "acao_id": "4655",
+      "titulo": "LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão",
+      "tipo": "Programa",
+      "ano": "2023",
+      "n": 558
+    },
+    {
+      "acao_id": "5646",
+      "titulo": "Cultura Impressa: Esculturas 3D de artesãos locais com filamento de material reciclado",
+      "tipo": "Projeto",
+      "ano": "2025",
+      "n": 0
+    }
+  ],
+  "participacoes_equipe": [
+    {
+      "acao_id": "4655",
+      "titulo": "LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão",
+      "tipo": "Programa",
+      "ano": "2023",
+      "n": 558,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "5086",
+      "titulo": "Conectando Talentos: Robótica e Programação no IFES-Serra",
+      "tipo": "Projeto",
+      "ano": "2024",
+      "n": 218,
+      "funcoes": [
+        "MEMBRO DE COMITÊ GESTOR"
+      ]
+    },
+    {
+      "acao_id": "5641",
+      "titulo": "LabMaker 4.0: capacitando professores para a cultura maker e tecnologias da Indústria 4.0",
+      "tipo": "Projeto",
+      "ano": "2025",
+      "n": 73,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "899",
+      "titulo": "SEMANA DE CONTROLE E AUTOMAÇÃO",
+      "tipo": "Evento",
+      "ano": "2016",
+      "n": 181,
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ]
+    }
+  ]
+}

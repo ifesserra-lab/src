@@ -1,0 +1,24 @@
+{
+  "atividade_id": "10567",
+  "numero": "010",
+  "atividade": "Oficina Especializada de Direção de Arte",
+  "acao_id": "2505",
+  "acao_titulo": "Circuito Audiovisual",
+  "processo": "23158.001195/2019-35",
+  "coordenador_acao": "Amarildo Mendes Lemos",
+  "publico_alvo": {
+    "total": 5,
+    "aprovados": 5,
+    "certificados": 5,
+    "situacao": {
+      "APROVADO": 5
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Edson Ferreira da Silva Júnior",
+      "funcao": "INSTRUTOR(A)",
+      "vinculo": "Convidado"
+    }
+  ]
+}

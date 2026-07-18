@@ -1,0 +1,29 @@
+{
+  "atividade_id": "17146",
+  "numero": "003",
+  "atividade": "Oficina de saboaria - segunda edição",
+  "acao_id": "4754",
+  "acao_titulo": "QUÍMICA VERDE APLICADA: oficinas e workshops",
+  "processo": "23158.002680/2023-11",
+  "coordenador_acao": "Nauvia Maria Cancelieri",
+  "publico_alvo": {
+    "total": 15,
+    "aprovados": 15,
+    "certificados": 15,
+    "situacao": {
+      "APROVADO": 15
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Gabriel Santos da Silva Valbuza",
+      "funcao": "MONITOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Nauvia Maria Cancelieri",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

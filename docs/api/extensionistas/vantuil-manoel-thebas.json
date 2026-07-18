@@ -1,0 +1,24 @@
+{
+  "slug": "vantuil-manoel-thebas",
+  "nome": "Vantuil Manoel Thebas",
+  "resumo_ia": "Atuou como expositor(a) na equipe do projeto Física ao Alcance de Todos em 2018.",
+  "anos": [
+    "2018"
+  ],
+  "funcoes": [
+    "EXPOSITOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "2021",
+      "titulo": "Física ao Alcance de Todos",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 429,
+      "funcoes": [
+        "EXPOSITOR(A)"
+      ]
+    }
+  ]
+}

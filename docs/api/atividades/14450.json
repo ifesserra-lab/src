@@ -1,0 +1,35 @@
+{
+  "atividade_id": "14450",
+  "numero": "001",
+  "atividade": "Introdução aos Veículos Elétricos",
+  "acao_id": "4204",
+  "acao_titulo": "Introdução aos Veículos Elétricos",
+  "processo": "23158.002380/2022-42",
+  "coordenador_acao": "Vinícius Secchin de Melo",
+  "publico_alvo": {
+    "total": 11,
+    "aprovados": 9,
+    "certificados": 9,
+    "situacao": {
+      "APROVADO": 9,
+      "REPROVADO": 2
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Flávio Barcelos Braz da Silva",
+      "funcao": "PROFESSOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Vinícius Secchin de Melo",
+      "funcao": "PROFESSOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Vinícius Secchin de Melo",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

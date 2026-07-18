@@ -1,0 +1,36 @@
+{
+  "slug": "matheus-butter-dias",
+  "nome": "Matheus Butter Dias",
+  "resumo_ia": "Colaborou no LAMPEX – Laboratório Modelo de Práticas de Extensão em 2020 e participou como aluno em atividade curricular no Programa Local Núcleo Incubador Campus Serra – NIS em 2021.",
+  "anos": [
+    "2020",
+    "2021"
+  ],
+  "funcoes": [
+    "ALUNO(A) EM ATIVIDADE CURRICULAR",
+    "COLABORADOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "3423",
+      "titulo": "Programa Local Núcleo Incubador Campus Serra – NIS",
+      "tipo": "Programa",
+      "ano": "2021",
+      "n": 189,
+      "funcoes": [
+        "ALUNO(A) EM ATIVIDADE CURRICULAR"
+      ]
+    }
+  ]
+}

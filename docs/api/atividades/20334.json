@@ -1,0 +1,27 @@
+{
+  "atividade_id": "20334",
+  "numero": "087",
+  "atividade": "Workshop de Inteligência Artificial na Semana da Engenharia",
+  "acao_id": "3140",
+  "acao_titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+  "processo": "23158.001185/2020-56",
+  "coordenador_acao": "Emmanuel Marques Silva",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Lucas Silverio Gums",
+      "funcao": "INSTRUTOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Marllon Christiani dos Santos Ribeiro",
+      "funcao": "INSTRUTOR(A)",
+      "vinculo": "Aluno"
+    }
+  ]
+}

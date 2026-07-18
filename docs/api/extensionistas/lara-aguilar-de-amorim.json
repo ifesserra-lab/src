@@ -1,0 +1,28 @@
+{
+  "slug": "lara-aguilar-de-amorim",
+  "nome": "Lara Aguilar de Amorim",
+  "resumo_ia": "Atuou como aluna voluntária, apoio técnico e instrutora no LAMPEX – Laboratório Modelo de Práticas de Extensão em 2020, participando ativamente de ações extensionistas.",
+  "anos": [
+    "2020"
+  ],
+  "funcoes": [
+    "ALUNO(A) VOLUNTARIO",
+    "APOIO TÉCNICO",
+    "INSTRUTOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO",
+        "APOIO TÉCNICO",
+        "INSTRUTOR(A)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "gustavo-saraiva-mariano",
+  "nome": "Gustavo Saraiva Mariano",
+  "resumo_ia": "Extensionista e organizador do LAMPEX – Laboratório Modelo de Práticas de Extensão em 2020, coordenando atividades da equipe.",
+  "anos": [
+    "2020"
+  ],
+  "funcoes": [
+    "EXTENSIONISTA",
+    "ORGANIZADOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "EXTENSIONISTA",
+        "ORGANIZADOR(A)"
+      ]
+    }
+  ]
+}

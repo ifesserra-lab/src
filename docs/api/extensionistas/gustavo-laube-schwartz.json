@@ -1,0 +1,26 @@
+{
+  "slug": "gustavo-laube-schwartz",
+  "nome": "Gustavo Laube Schwartz",
+  "resumo_ia": "Expositor e extensionista do SOF – Serviço de Orientação Financeira (unidade Ifes Serra) em 2026, atuando em atividades de orientação financeira.",
+  "anos": [
+    "2026"
+  ],
+  "funcoes": [
+    "EXPOSITOR(A)",
+    "EXTENSIONISTA"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "5852",
+      "titulo": "SOF – Serviço de Orientação Financeira (unidade Ifes Serra)",
+      "tipo": "Projeto",
+      "ano": "2026",
+      "n": 316,
+      "funcoes": [
+        "EXPOSITOR(A)",
+        "EXTENSIONISTA"
+      ]
+    }
+  ]
+}

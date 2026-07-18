@@ -1,0 +1,47 @@
+{
+  "slug": "elton-siqueira-moura",
+  "nome": "Elton Siqueira Moura",
+  "resumo_ia": "Coordenou o Programa Local Núcleo Incubador Campus Serra – NIS em 2017, o evento Inova Serra em 2018 e atuou como mentor no Desafio Ifes de Negócios Sociais em 2015, em ações de extensão voltadas ao empreendedorismo e inovação.",
+  "anos": [
+    "2015",
+    "2017",
+    "2018"
+  ],
+  "funcoes": [
+    "COORDENADOR(A)",
+    "MENTOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1116",
+      "titulo": "Programa Local Núcleo Incubador Campus Serra – NIS",
+      "tipo": "Programa",
+      "ano": "2017",
+      "n": 220,
+      "funcoes": [
+        "COORDENADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "1883",
+      "titulo": "Inova Serra",
+      "tipo": "Programa",
+      "ano": "2018",
+      "n": 6,
+      "funcoes": [
+        "COORDENADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "569",
+      "titulo": "Desafio Ifes de Negócios Socais",
+      "tipo": "Evento",
+      "ano": "2015",
+      "n": 40,
+      "funcoes": [
+        "MENTOR(A)"
+      ]
+    }
+  ]
+}

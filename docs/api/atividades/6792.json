@@ -1,0 +1,34 @@
+{
+  "atividade_id": "6792",
+  "numero": "008",
+  "atividade": "Tutoria em Cálculo I e Cálculo II",
+  "acao_id": "650",
+  "acao_titulo": "Tutoria de Estudos Orientados",
+  "processo": "23158.000371/2015-98",
+  "coordenador_acao": "Bruno Ramos Gonzaga",
+  "publico_alvo": {
+    "total": 1,
+    "aprovados": 1,
+    "certificados": 1,
+    "situacao": {
+      "APROVADO": 1
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Thiago Machado Oliveira",
+      "funcao": "ALUNO(A) VOLUNTARIO",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Adriana Padua Lovatte",
+      "funcao": "TUTOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Fabio de Oliveira Lima",
+      "funcao": "TUTOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

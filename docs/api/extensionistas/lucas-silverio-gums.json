@@ -1,0 +1,28 @@
+{
+  "slug": "lucas-silverio-gums",
+  "nome": "Lucas Silverio Gums",
+  "resumo_ia": "Atuou como instrutor, monitor e organizador no LAMPEX – Laboratório Modelo de Práticas de Extensão em 2020, contribuindo para a execução de atividades extensionistas no campus Serra.",
+  "anos": [
+    "2020"
+  ],
+  "funcoes": [
+    "INSTRUTOR(A)",
+    "MONITOR(A)",
+    "ORGANIZADOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "INSTRUTOR(A)",
+        "MONITOR(A)",
+        "ORGANIZADOR(A)"
+      ]
+    }
+  ]
+}

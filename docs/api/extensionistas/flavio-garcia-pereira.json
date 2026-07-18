@@ -1,0 +1,69 @@
+{
+  "slug": "flavio-garcia-pereira",
+  "nome": "Flávio Garcia Pereira",
+  "resumo_ia": "Integrou o comitê gestor do Programa Local Núcleo Incubador Campus Serra – NIS em 2017 e atuou como organizador do LAMPEX em 2020. Colaborou em projetos como LabMaker Serra em 2023 e em iniciativas de capacitação para a cultura maker em 2025.",
+  "anos": [
+    "2017",
+    "2020",
+    "2023",
+    "2025"
+  ],
+  "funcoes": [
+    "COLABORADOR(A)",
+    "MEMBRO DE COMITÊ GESTOR",
+    "ORGANIZADOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1116",
+      "titulo": "Programa Local Núcleo Incubador Campus Serra – NIS",
+      "tipo": "Programa",
+      "ano": "2017",
+      "n": 220,
+      "funcoes": [
+        "MEMBRO DE COMITÊ GESTOR"
+      ]
+    },
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "4655",
+      "titulo": "LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão",
+      "tipo": "Programa",
+      "ano": "2023",
+      "n": 558,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "5641",
+      "titulo": "LabMaker 4.0: capacitando professores para a cultura maker e tecnologias da Indústria 4.0",
+      "tipo": "Projeto",
+      "ano": "2025",
+      "n": 73,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "5677",
+      "titulo": "Jovens Inventores: O poder da Tecnologia Maker no Desenvolvimento Social",
+      "tipo": "Projeto",
+      "ano": "2025",
+      "n": 48,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "atividade_id": "17043",
+  "numero": "010",
+  "atividade": "Minicurso \"Habitats de Inovação\"",
+  "acao_id": "4655",
+  "acao_titulo": "LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão",
+  "processo": "23158.001854/2023-10",
+  "coordenador_acao": "Gabriel Tozatto Zago",
+  "publico_alvo": {
+    "total": 16,
+    "aprovados": 16,
+    "certificados": 16,
+    "situacao": {
+      "APROVADO": 16
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Francisco José Casarim Rapchan",
+      "funcao": "INSTRUTOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Rosiane Ribeiro Rocha",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

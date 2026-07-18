@@ -1,0 +1,34 @@
+{
+  "atividade_id": "21813",
+  "numero": "003",
+  "atividade": "Minicurso: Treinamento em Robótica",
+  "acao_id": "5086",
+  "acao_titulo": "Conectando Talentos: Robótica e Programação no IFES-Serra",
+  "processo": "23158.000842/2024-59",
+  "coordenador_acao": "Richard Junior Manuel Godinez Tello",
+  "publico_alvo": {
+    "total": 9,
+    "aprovados": 9,
+    "certificados": 9,
+    "situacao": {
+      "APROVADO": 9
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Kauã Alexandre Bernardes",
+      "funcao": "MONITOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Maria Clara Peterle de Souza",
+      "funcao": "MONITOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Richard Junior Manuel Godinez Tello",
+      "funcao": "INSTRUTOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "atividade_id": "6798",
+  "numero": "014",
+  "atividade": "Tutoria em Eletricidade Aplicada",
+  "acao_id": "650",
+  "acao_titulo": "Tutoria de Estudos Orientados",
+  "processo": "23158.000371/2015-98",
+  "coordenador_acao": "Bruno Ramos Gonzaga",
+  "publico_alvo": {
+    "total": 7,
+    "aprovados": 7,
+    "certificados": 7,
+    "situacao": {
+      "APROVADO": 7
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Járede dos Santos",
+      "funcao": "ALUNO(A) VOLUNTARIO",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Tatiane Policário Chagas",
+      "funcao": "TUTOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

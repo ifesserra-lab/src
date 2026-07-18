@@ -1,0 +1,52 @@
+{
+  "atividade_id": "5638",
+  "numero": "001",
+  "atividade": "ESPM-Empregos: Um serviço inteligente para promover a empregabilidade",
+  "acao_id": "1795",
+  "acao_titulo": "ESPM-Empregos: Um serviço inteligente para promover a empregabilidade",
+  "processo": "23158.000386/2018-07",
+  "coordenador_acao": "Moisés Savedra Omena",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Adriana Padua Lovatte",
+      "funcao": "SUPERVISOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Helen França Medeiros",
+      "funcao": "ALUNO(A) BOLSISTA",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Magno Macedo de Oliveira",
+      "funcao": "ALUNO(A) BOLSISTA",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Lucas Gomes Flegler",
+      "funcao": "ALUNO(A) BOLSISTA",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Paulo Sérgio dos Santos Júnior",
+      "funcao": "SUPERVISOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Sergio Nery Simões",
+      "funcao": "COORDENADOR(A) ADJUNTO(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Moisés Savedra Omena",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

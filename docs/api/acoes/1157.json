@@ -1,0 +1,47 @@
+{
+  "acao_id": "1157",
+  "Processo nº": "23158.000277/2017-08",
+  "Título ação": "Palestra \"Inteligência Artificial para Detecção Automática de Defeitos em Processos Industriais\"",
+  "Natureza": "Pesquisa",
+  "Tipo ação": "Evento",
+  "Coordenador(a)": "Leonardo Azevedo Scardua",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "Engenharias",
+  "Área temática principal": "",
+  "Área temática principal (inferida)": "Tecnologia e Produção",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "17/08/2017",
+  "Data de cadastro": "31/05/2017",
+  "Resumo": "Palestra sobre Inteligência Artificial para Detecção Automática de Defeitos em Processos Industriais organizada por membros do Grupo de Pesquisa NERA - Núcleo de Estudos em Robótica e Automação, campus Serra.",
+  "Campus": "Serra",
+  "total_participacoes": 7,
+  "publico_alvo_total": 5,
+  "atividades": [
+    {
+      "atividade_id": "3066",
+      "numero": "001",
+      "atividade": "Palestra \"Inteligência Artificial para Detecção Automática de Defeitos em Processos Industriais",
+      "publico": 5,
+      "aprovados": 5,
+      "certificados": 5,
+      "equipe": 2
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Francisco de Assis Boldt",
+      "funcoes": [
+        "MINISTRANTE"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Richard Junior Manuel Godinez Tello",
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)"
+      ],
+      "vinculo": "Servidor"
+    }
+  ]
+}

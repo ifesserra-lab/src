@@ -1,0 +1,87 @@
+{
+  "atividade_id": "10343",
+  "numero": "012",
+  "atividade": "Expositor: Apresentação de Projetos do LEDS no Sebrae StartupSummit 2019",
+  "acao_id": "901",
+  "acao_titulo": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+  "processo": "23158.001139/2014-96",
+  "coordenador_acao": "Felipe Frechiani de Oliveira",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Rodrigo Fernandes Calhau",
+      "funcao": "EXPOSITOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Felipe Frechiani de Oliveira",
+      "funcao": "EXPOSITOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Fabiano Borges Ruy",
+      "funcao": "EXPOSITOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Sarah Silva Ferreira",
+      "funcao": "EXPOSITOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Gary Moura da Silva",
+      "funcao": "EXPOSITOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Lucas Gomes Flegler",
+      "funcao": "EXPOSITOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Olavo Jose Ferreira Curatola",
+      "funcao": "EXPOSITOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Rafaela Amorim Pessin",
+      "funcao": "EXPOSITOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Joel Will Belmiro",
+      "funcao": "EXPOSITOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Renato de Sant'anna Lopes",
+      "funcao": "EXPOSITOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Tarcisio Bruni Rangel",
+      "funcao": "EXPOSITOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Andreângelo da Paixão Patuzzo",
+      "funcao": "EXPOSITOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Helen França Medeiros",
+      "funcao": "EXPOSITOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Rafael Afonso dos Anjos",
+      "funcao": "EXPOSITOR(A)",
+      "vinculo": "Aluno"
+    }
+  ]
+}

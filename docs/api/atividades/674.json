@@ -1,0 +1,19 @@
+{
+  "atividade_id": "674",
+  "numero": "001",
+  "atividade": "Tutoria de Estudos Orientados em Matemática Nº 01/2014",
+  "acao_id": "451",
+  "acao_titulo": "Tutoria de Estudos Orientados em Matemática Nº 01/2014",
+  "processo": "23158.001171/2014-71",
+  "coordenador_acao": "Bruno Ramos Gonzaga",
+  "publico_alvo": {
+    "total": 38,
+    "aprovados": 18,
+    "certificados": 18,
+    "situacao": {
+      "REPROVADO": 20,
+      "APROVADO": 18
+    }
+  },
+  "equipe_execucao": []
+}

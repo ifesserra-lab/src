@@ -1,0 +1,24 @@
+{
+  "atividade_id": "16065",
+  "numero": "047",
+  "atividade": "Palestra \"Diversidade no mundo do trabalho\" - I Semana do Estágio e Emprego IFES Campus Serra",
+  "acao_id": "3140",
+  "acao_titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+  "processo": "23158.001185/2020-56",
+  "coordenador_acao": "Emmanuel Marques Silva",
+  "publico_alvo": {
+    "total": 64,
+    "aprovados": 64,
+    "certificados": 64,
+    "situacao": {
+      "APROVADO": 64
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Cláudia Gonçalves de Freitas",
+      "funcao": "EXPOSITOR(A)",
+      "vinculo": "Convidado"
+    }
+  ]
+}

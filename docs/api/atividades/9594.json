@@ -1,0 +1,24 @@
+{
+  "atividade_id": "9594",
+  "numero": "010",
+  "atividade": "Palestra: Mulheres na Ciência durante a Semana Nacional de Ciência e Tecnologia 2019",
+  "acao_id": "2021",
+  "acao_titulo": "Física ao Alcance de Todos",
+  "processo": "23158.001115/2018-61",
+  "coordenador_acao": "Rosilene de Sá Ribeiro",
+  "publico_alvo": {
+    "total": 49,
+    "aprovados": 49,
+    "certificados": 49,
+    "situacao": {
+      "APROVADO": 49
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Rosilene de Sá Ribeiro",
+      "funcao": "PALESTRANTE",
+      "vinculo": "Servidor"
+    }
+  ]
+}

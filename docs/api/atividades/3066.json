@@ -1,0 +1,29 @@
+{
+  "atividade_id": "3066",
+  "numero": "001",
+  "atividade": "Palestra \"Inteligência Artificial para Detecção Automática de Defeitos em Processos Industriais",
+  "acao_id": "1157",
+  "acao_titulo": "Palestra \"Inteligência Artificial para Detecção Automática de Defeitos em Processos Industriais\"",
+  "processo": "23158.000277/2017-08",
+  "coordenador_acao": "Leonardo Azevedo Scardua",
+  "publico_alvo": {
+    "total": 5,
+    "aprovados": 5,
+    "certificados": 5,
+    "situacao": {
+      "APROVADO": 5
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Francisco de Assis Boldt",
+      "funcao": "MINISTRANTE",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Richard Junior Manuel Godinez Tello",
+      "funcao": "COORDENADOR(A) ADJUNTO(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

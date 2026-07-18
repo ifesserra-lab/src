@@ -1,0 +1,24 @@
+{
+  "slug": "rafael-rabello-de-carvalho-guzzo",
+  "nome": "Rafael Rabello de Carvalho Guzzo",
+  "resumo_ia": "Atuou como intérprete no Desafio Ifes de Negócios Sociais em 2015, integrando a equipe de extensão.",
+  "anos": [
+    "2015"
+  ],
+  "funcoes": [
+    "INTÉRPRETE"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "569",
+      "titulo": "Desafio Ifes de Negócios Socais",
+      "tipo": "Evento",
+      "ano": "2015",
+      "n": 40,
+      "funcoes": [
+        "INTÉRPRETE"
+      ]
+    }
+  ]
+}

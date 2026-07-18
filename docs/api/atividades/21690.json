@@ -1,0 +1,27 @@
+{
+  "atividade_id": "21690",
+  "numero": "001",
+  "atividade": "SOF – Serviço de Orientação Financeira (unidade Ifes Serra)",
+  "acao_id": "5852",
+  "acao_titulo": "SOF – Serviço de Orientação Financeira (unidade Ifes Serra)",
+  "processo": "23158.002622/2025-41",
+  "coordenador_acao": "Emmanuel Marques Silva",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Emmanuel Marques Silva",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Ronaldo Aparecida Marques",
+      "funcao": "COORDENADOR(A) ADJUNTO(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

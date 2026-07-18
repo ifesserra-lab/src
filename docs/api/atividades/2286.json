@@ -1,0 +1,37 @@
+{
+  "atividade_id": "2286",
+  "numero": "001",
+  "atividade": "Rede de Laboratórios de Educação em Desenvolvimento de Soluções - LEDS",
+  "acao_id": "947",
+  "acao_titulo": "Rede de Laboratórios de Educação em Desenvolvimento de Soluções - LEDS",
+  "processo": "23158.003281/2023-69",
+  "coordenador_acao": "Victorio Albani de Carvalho",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Victorio Albani de Carvalho",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Walber Antonio Ramos Beltrame",
+      "funcao": "COORDENADOR(A) ADJUNTO(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Rodrigo Fernandes Calhau",
+      "funcao": "AUXILIAR TÉCNICO",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Paulo Sérgio dos Santos Júnior",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

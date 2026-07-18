@@ -1,0 +1,38 @@
+{
+  "slug": "maycon-pequeno-silva",
+  "nome": "Maycon Pequeno Silva",
+  "resumo_ia": "Atuou como apoio técnico e designer no LAMPEX – Laboratório Modelo de Práticas de Extensão em 2020 e como extensionista no SOF – Serviço de Orientação Financeira do campus Serra em 2026.",
+  "anos": [
+    "2020",
+    "2026"
+  ],
+  "funcoes": [
+    "APOIO TÉCNICO",
+    "DESIGNER",
+    "EXTENSIONISTA"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "APOIO TÉCNICO",
+        "DESIGNER"
+      ]
+    },
+    {
+      "acao_id": "5852",
+      "titulo": "SOF – Serviço de Orientação Financeira (unidade Ifes Serra)",
+      "tipo": "Projeto",
+      "ano": "2026",
+      "n": 316,
+      "funcoes": [
+        "EXTENSIONISTA"
+      ]
+    }
+  ]
+}

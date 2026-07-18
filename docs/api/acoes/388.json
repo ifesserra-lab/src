@@ -1,0 +1,33 @@
+{
+  "acao_id": "388",
+  "Processo nº": "23158.001085/2014-69",
+  "Título ação": "Curso de Aprofundamento de Estudos em Matemática Aplicada à Engenharia",
+  "Natureza": "Ensino",
+  "Tipo ação": "Curso",
+  "Coordenador(a)": "Bruno Ramos Gonzaga",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "",
+  "Grande área conhecimento (inferida)": "Engenharias",
+  "Área temática principal": "",
+  "Área temática principal (inferida)": "Educação",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "",
+  "Data de cadastro": "23/12/2014",
+  "Resumo": "O curso de Aprofundamento de Estudos em Matemática Aplicada à Engenharia será ministrado em 12 horas, sendo duas horas por disciplina: Cálculo I, Cálculo II, Cálculo III, Álgebra Linear, Geometria Análitica e Estatística, sendo que em cada disciplina, serão abordados tópicos de unidades curriculares.",
+  "Campus": "Serra",
+  "total_participacoes": 12,
+  "publico_alvo_total": 12,
+  "atividades": [
+    {
+      "atividade_id": "569",
+      "numero": "001",
+      "atividade": "Aprofundamento de Estudos em Matemática Aplicada à Engenharia",
+      "publico": 12,
+      "aprovados": 7,
+      "certificados": 7,
+      "equipe": 0
+    }
+  ],
+  "equipe_execucao": []
+}

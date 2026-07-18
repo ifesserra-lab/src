@@ -1,0 +1,29 @@
+{
+  "atividade_id": "19702",
+  "numero": "020",
+  "atividade": "Minicurso \"Robótica\" do Projeto SerraMaker: fomentando a cultura Maker no município da Serra",
+  "acao_id": "4655",
+  "acao_titulo": "LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão",
+  "processo": "23158.001854/2023-10",
+  "coordenador_acao": "Gabriel Tozatto Zago",
+  "publico_alvo": {
+    "total": 18,
+    "aprovados": 18,
+    "certificados": 18,
+    "situacao": {
+      "APROVADO": 18
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Julia Almeida Nascimento Lopes",
+      "funcao": "MINISTRANTE",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Enzo Medeiros Agnez",
+      "funcao": "MINISTRANTE",
+      "vinculo": "Aluno"
+    }
+  ]
+}

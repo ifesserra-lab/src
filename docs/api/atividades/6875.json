@@ -1,0 +1,22 @@
+{
+  "atividade_id": "6875",
+  "numero": "003",
+  "atividade": "Mulheres na Ciência",
+  "acao_id": "2082",
+  "acao_titulo": "Mulheres na Ciência",
+  "processo": "23158.001039/2018-93",
+  "coordenador_acao": "Giordana dos Santos Sperandio",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Giordana dos Santos Sperandio",
+      "funcao": "PROFESSOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

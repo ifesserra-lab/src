@@ -1,0 +1,36 @@
+{
+  "slug": "mafe-mattos",
+  "nome": "Mafe Mattos",
+  "resumo_ia": "Atuou como instrutora no LAMPEX – Laboratório Modelo de Práticas de Extensão em 2020 e como extensionista no Serviço de Orientação Financeira (SOF) da unidade Ifes Serra em 2026, envolvendo-se em práticas extensionistas de formação e orientação.",
+  "anos": [
+    "2020",
+    "2026"
+  ],
+  "funcoes": [
+    "EXTENSIONISTA",
+    "INSTRUTOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ]
+    },
+    {
+      "acao_id": "5852",
+      "titulo": "SOF – Serviço de Orientação Financeira (unidade Ifes Serra)",
+      "tipo": "Projeto",
+      "ano": "2026",
+      "n": 316,
+      "funcoes": [
+        "EXTENSIONISTA"
+      ]
+    }
+  ]
+}

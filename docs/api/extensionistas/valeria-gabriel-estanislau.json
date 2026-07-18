@@ -1,0 +1,46 @@
+{
+  "slug": "valeria-gabriel-estanislau",
+  "nome": "Valéria Gabriel Estanislau",
+  "resumo_ia": "Integrou o comitê gestor do Programa Local Núcleo Incubador Campus Serra – NIS em 2017; organizou o Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedora no mesmo ano; e organizou o LAMPEX – Laboratório Modelo de Práticas de Extensão em 2020.",
+  "anos": [
+    "2017",
+    "2020"
+  ],
+  "funcoes": [
+    "MEMBRO DE COMITÊ GESTOR",
+    "ORGANIZADOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1116",
+      "titulo": "Programa Local Núcleo Incubador Campus Serra – NIS",
+      "tipo": "Programa",
+      "ano": "2017",
+      "n": 220,
+      "funcoes": [
+        "MEMBRO DE COMITÊ GESTOR"
+      ]
+    },
+    {
+      "acao_id": "1261",
+      "titulo": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedora",
+      "tipo": "Curso",
+      "ano": "2017",
+      "n": 84,
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ]
+    }
+  ]
+}

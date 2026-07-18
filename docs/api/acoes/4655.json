@@ -1,0 +1,436 @@
+{
+  "acao_id": "4655",
+  "Processo nº": "23158.001854/2023-10",
+  "Título ação": "LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão",
+  "Natureza": "Extensão",
+  "Tipo ação": "Programa",
+  "Coordenador(a)": "Gabriel Tozatto Zago",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "",
+  "Grande área conhecimento (inferida)": "Engenharias",
+  "Área temática principal": "Tecnologia e Produção",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "09/10/2024",
+  "Data de cadastro": "23/08/2023",
+  "Resumo": "O presente projeto visa oferecer treinamentos a partir da cultura Maker para professores das redes\npública e privadas nas tecnologias habilitadoras da indústria 4.0. O laboratório Maker chamado de\nLabMaker é um espaço para geração de soluções a partir de problemas reais. A abordagem da cultura\nMaker, cuja filosofia é chamada “Do It Yourself!”, apresenta a ideia de que qualquer pessoa consegue\nconstruir, consertar ou criar seus próprios objetos ou soluções diante de determinados problemas ou\nsituações.\nO Campus Serra do Ifes foi contemplado através da Edital Nº 35/2020 (Chamada Pública SETEC/MEC)\nvia Edital de chamada Interna - PROEX/PRPPG - IFES - 03/2020 com 1 laboratório equipado com\ndiversos equipamentos para sua implementação, entre os que podemos citar: Impressoras 3D,\nnotebooks, Ferramentas, projetor, kits de Arduíno/Robótica, kits de Lego, Máquina CNC Laser, Scanner\n3D etc.\nEste projeto propõe fomentar a cultura maker no município de Serra através de capacitação de\nprofessores do ensino fundamental e médio que propagarão o conhecimento obtido em suas instituições\nde atuação.",
+  "Campus": "Serra",
+  "total_participacoes": 558,
+  "publico_alvo_total": 490,
+  "atividades": [
+    {
+      "atividade_id": "17035",
+      "numero": "002",
+      "atividade": "Palestra \"Robótica, Programação e Simulações: desenvolvendo o pensamento computacional nas aulas\"",
+      "publico": 80,
+      "aprovados": 80,
+      "certificados": 80,
+      "equipe": 2
+    },
+    {
+      "atividade_id": "17036",
+      "numero": "003",
+      "atividade": "Oficina \"A Química do cérebro: ondas gamma e efeitos da dimetiltriptamina de plantas medicinais/ roda de chá com meditação\"",
+      "publico": 15,
+      "aprovados": 15,
+      "certificados": 15,
+      "equipe": 4
+    },
+    {
+      "atividade_id": "17037",
+      "numero": "004",
+      "atividade": "Oficina \"Pintura em pneus\"",
+      "publico": 9,
+      "aprovados": 9,
+      "certificados": 9,
+      "equipe": 3
+    },
+    {
+      "atividade_id": "17038",
+      "numero": "005",
+      "atividade": "Oficina \"Introdução aos Sistemas Microcontrolados: uso do Arduino e ESP32\"",
+      "publico": 5,
+      "aprovados": 5,
+      "certificados": 5,
+      "equipe": 2
+    },
+    {
+      "atividade_id": "17039",
+      "numero": "006",
+      "atividade": "Palestra \"Incubadora de Empreendimentos: Instrumento para Empreendedorismo e Inovação\"",
+      "publico": 45,
+      "aprovados": 45,
+      "certificados": 45,
+      "equipe": 3
+    },
+    {
+      "atividade_id": "17040",
+      "numero": "007",
+      "atividade": "Palestra \"Prontualize, solução que promove bem-estar emocional e mental\"",
+      "publico": 28,
+      "aprovados": 28,
+      "certificados": 28,
+      "equipe": 3
+    },
+    {
+      "atividade_id": "17041",
+      "numero": "008",
+      "atividade": "Palestra \"Inovação Sustentável: A Jornada da Intechno\"",
+      "publico": 75,
+      "aprovados": 75,
+      "certificados": 75,
+      "equipe": 2
+    },
+    {
+      "atividade_id": "17042",
+      "numero": "009",
+      "atividade": "Palestra \"A experiência de inclusão de biografias de pesquisadoras na Wikipédia\"",
+      "publico": 67,
+      "aprovados": 67,
+      "certificados": 67,
+      "equipe": 3
+    },
+    {
+      "atividade_id": "17043",
+      "numero": "010",
+      "atividade": "Minicurso \"Habitats de Inovação\"",
+      "publico": 16,
+      "aprovados": 16,
+      "certificados": 16,
+      "equipe": 2
+    },
+    {
+      "atividade_id": "17044",
+      "numero": "011",
+      "atividade": "Palestra \" Crimes Cibernéticos e Cyberbullying no Brasil\"",
+      "publico": 34,
+      "aprovados": 34,
+      "certificados": 34,
+      "equipe": 2
+    },
+    {
+      "atividade_id": "17045",
+      "numero": "012",
+      "atividade": "Palestra \"Mulher de energia solar: MEGA SOLUÇÕES ENERGÉTICAS\"",
+      "publico": 46,
+      "aprovados": 46,
+      "certificados": 46,
+      "equipe": 2
+    },
+    {
+      "atividade_id": "17046",
+      "numero": "013",
+      "atividade": "Semana Nacional de Ciência e Tecnologia do IFES campus Serra",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 16
+    },
+    {
+      "atividade_id": "19697",
+      "numero": "015",
+      "atividade": "SerraMaker: fomentando a cultura Maker no município da Serra",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 13
+    },
+    {
+      "atividade_id": "19698",
+      "numero": "016",
+      "atividade": "Construindo Juntos no LabMaker Serra: Uma proposta de Educação com Sustentabilidade",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 6
+    },
+    {
+      "atividade_id": "19699",
+      "numero": "017",
+      "atividade": "Minicurso \"Modelagem 3D\" do Projeto SerraMaker: fomentando a cultura Maker no município da Serra",
+      "publico": 18,
+      "aprovados": 18,
+      "certificados": 18,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "19700",
+      "numero": "018",
+      "atividade": "Minicurso \"Manufatura Aditiva\" do Projeto SerraMaker: fomentando a cultura Maker no município da Serra",
+      "publico": 16,
+      "aprovados": 16,
+      "certificados": 16,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "19701",
+      "numero": "019",
+      "atividade": "Minicurso \"Manufatura Subtrativa\" do Projeto SerraMaker: fomentando a cultura Maker no município da Serra",
+      "publico": 18,
+      "aprovados": 18,
+      "certificados": 18,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "19702",
+      "numero": "020",
+      "atividade": "Minicurso \"Robótica\" do Projeto SerraMaker: fomentando a cultura Maker no município da Serra",
+      "publico": 18,
+      "aprovados": 18,
+      "certificados": 18,
+      "equipe": 2
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Anna Julia Ferreira Tamanini",
+      "funcoes": [
+        "PALESTRANTE"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Ary Francisco Tomé",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Christofer de Oliveira Viana",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA",
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Cristiane de Oliveira Veronesi",
+      "funcoes": [
+        "PALESTRANTE"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Debora Galavote Moura",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA",
+        "MINISTRANTE"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Eduardo Pinheiro Monteiro",
+      "funcoes": [
+        "PALESTRANTE"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Elisama Lima Sousa",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Enzo Mandelli Pinheiro Rodrigues",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA",
+        "ALUNO(A) VOLUNTARIO",
+        "MINISTRANTE"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Enzo Medeiros Agnez",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA",
+        "ALUNO(A) VOLUNTARIO",
+        "MINISTRANTE"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Flávio Garcia Pereira",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Francisco José Casarim Rapchan",
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Gabriel Tozatto Zago",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Giovani de Oliveira Silva Jr",
+      "funcoes": [
+        "PALESTRANTE"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Herlane de Souza dos Santos",
+      "funcoes": [
+        "PALESTRANTE"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Jonas Emanuel dos Santos Egert",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Julia Almeida Nascimento Lopes",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA",
+        "MINISTRANTE"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Karin Satie Komati",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Laisa Bernabe do Carmo",
+      "funcoes": [
+        "PALESTRANTE"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Leonardo Gonçalves Batista",
+      "funcoes": [
+        "PALESTRANTE"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Leticia Comissario da Silva",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Marco Aurélio Tiago Filho",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Marcos Simão Guimarães",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Mariana Marchiore Birro",
+      "funcoes": [
+        "PALESTRANTE"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Marianna Stark Gardioli Rangel",
+      "funcoes": [
+        "MONITOR(A)"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Matheus Santiago Ribeiro",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Matheus Tiago Amorim Pereira",
+      "funcoes": [
+        "MONITOR(A)"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Nauvia Maria Cancelieri",
+      "funcoes": [
+        "MINISTRANTE"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Nicolas Nasário Ferreira",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Renata Carneiro Sousa",
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Richard Junior Manuel Godinez Tello",
+      "funcoes": [
+        "COLABORADOR(A)",
+        "INSTRUTOR(A)",
+        "PALESTRANTE"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Rodiney Pereira da Silva",
+      "funcoes": [
+        "PALESTRANTE"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Rosiane Ribeiro Rocha",
+      "funcoes": [
+        "GESTOR(A) DE PROJETO",
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Vitor do Nascimento Ramos",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Ícaro Lessa Secchin",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA",
+        "ALUNO(A) VOLUNTARIO",
+        "MINISTRANTE"
+      ],
+      "vinculo": "Aluno"
+    }
+  ]
+}

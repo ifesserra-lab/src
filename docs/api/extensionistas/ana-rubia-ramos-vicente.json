@@ -1,0 +1,69 @@
+{
+  "slug": "ana-rubia-ramos-vicente",
+  "nome": "Ana Rúbia Ramos Vicente",
+  "resumo_ia": "Atuou como aluna voluntária em diversas ações extensionistas entre 2016 e 2019, incluindo 'Maratona de Programação' (2018), 'Mulheres na Ciência' (2018), 'Tutoria de Estudos Orientados: Compartilhando Saberes' (2019), 'SIPAC' (2016) e 'LEDS – Laboratório de Extensão em Desenvolvimento de Soluções' (2016), desempenhando funções como monitora e palestrante.",
+  "anos": [
+    "2016",
+    "2018",
+    "2019"
+  ],
+  "funcoes": [
+    "ALUNO(A) VOLUNTARIO",
+    "MONITOR(A)",
+    "PALESTRANTE"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1816",
+      "titulo": "Maratona de Programação",
+      "tipo": "Evento",
+      "ano": "2018",
+      "n": 49,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ]
+    },
+    {
+      "acao_id": "2082",
+      "titulo": "Mulheres na Ciência",
+      "tipo": "Curso",
+      "ano": "2018",
+      "n": 53,
+      "funcoes": [
+        "MONITOR(A)"
+      ]
+    },
+    {
+      "acao_id": "2675",
+      "titulo": "Tutoria de Estudos Orientados: Compartilhando Saberes",
+      "tipo": "Projeto",
+      "ano": "2019",
+      "n": 19,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO",
+        "PALESTRANTE"
+      ]
+    },
+    {
+      "acao_id": "645",
+      "titulo": "SIPAC - Sistema de Informação da Produção Agropecuária capixaba",
+      "tipo": "Projeto",
+      "ano": "2016",
+      "n": 7,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ]
+    },
+    {
+      "acao_id": "901",
+      "titulo": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+      "tipo": "Programa",
+      "ano": "2016",
+      "n": 104,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ]
+    }
+  ]
+}

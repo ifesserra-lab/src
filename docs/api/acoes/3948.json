@@ -1,0 +1,54 @@
+{
+  "acao_id": "3948",
+  "Processo nº": "23158.002486/2022-46",
+  "Título ação": "PEAM – Programa de Estudos Avançados em Matemática",
+  "Natureza": "Ensino",
+  "Tipo ação": "Programa",
+  "Coordenador(a)": "Paulo Cezar Camargo Guedes",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "Ciências Exatas e da Terra",
+  "Área temática principal": "",
+  "Área temática principal (inferida)": "Educação",
+  "Relatório aprovado": "Não",
+  "Data último relatório": "",
+  "Data de cadastro": "14/07/2022",
+  "Resumo": "Esta proposta de atividade complementar ao ensino consiste no oferecimento de encontros semanais aos estudantes dos cursos técnicos integrados ao Ensino Médio abordando tópicos da área de Matemática não totalmente contemplados no currículo escolar dos estudantes, seja em sua variedade e/ou profundidade.",
+  "Campus": "Serra",
+  "total_participacoes": 42,
+  "publico_alvo_total": 39,
+  "atividades": [
+    {
+      "atividade_id": "13757",
+      "numero": "001",
+      "atividade": "PEAM – Programa de Estudos Avançados em Matemática",
+      "publico": 39,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 3
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Gabriel Nazarh Aprahamian de Oliveira Romão",
+      "funcoes": [
+        "MONITOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Leandro Moreira Vieira",
+      "funcoes": [
+        "MONITOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Paulo Cezar Camargo Guedes",
+      "funcoes": [
+        "COORDENADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "daniel-cruz-cavalieri",
+  "nome": "Daniel Cruz Cavalieri",
+  "resumo_ia": "Participou como membro do comitê gestor do 'Programa Local Núcleo Incubador Campus Serra – NIS' em 2017, organizou o 'LAMPEX – Laboratório Modelo de Práticas de Extensão' em 2020 e atuou como orientador no 'Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedoras' em 2016.",
+  "anos": [
+    "2016",
+    "2017",
+    "2020"
+  ],
+  "funcoes": [
+    "MEMBRO DE COMITÊ GESTOR",
+    "ORGANIZADOR(A)",
+    "ORIENTADOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1116",
+      "titulo": "Programa Local Núcleo Incubador Campus Serra – NIS",
+      "tipo": "Programa",
+      "ano": "2017",
+      "n": 220,
+      "funcoes": [
+        "MEMBRO DE COMITÊ GESTOR"
+      ]
+    },
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "708",
+      "titulo": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedoras",
+      "tipo": "Curso",
+      "ano": "2016",
+      "n": 77,
+      "funcoes": [
+        "ORIENTADOR(A)"
+      ]
+    }
+  ]
+}

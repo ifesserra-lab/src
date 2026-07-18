@@ -1,0 +1,24 @@
+{
+  "slug": "andre-malverdes",
+  "nome": "André Malverdes",
+  "resumo_ia": "Atuou como assessor no Circuito Audiovisual em 2019, participando de ações extensionistas voltadas à cultura e comunicação.",
+  "anos": [
+    "2019"
+  ],
+  "funcoes": [
+    "ASSESSOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "2505",
+      "titulo": "Circuito Audiovisual",
+      "tipo": "Projeto",
+      "ano": "2019",
+      "n": 231,
+      "funcoes": [
+        "ASSESSOR(A)"
+      ]
+    }
+  ]
+}

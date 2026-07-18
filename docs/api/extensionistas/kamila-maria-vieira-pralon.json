@@ -1,0 +1,36 @@
+{
+  "slug": "kamila-maria-vieira-pralon",
+  "nome": "Kamila Maria Vieira Pralon",
+  "resumo_ia": "Participou como intérprete no Desafio Ifes de Negócios Sociais em 2015 e como organizadora na Semana de Controle e Automação em 2016.",
+  "anos": [
+    "2015",
+    "2016"
+  ],
+  "funcoes": [
+    "INTÉRPRETE",
+    "ORGANIZADOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "569",
+      "titulo": "Desafio Ifes de Negócios Socais",
+      "tipo": "Evento",
+      "ano": "2015",
+      "n": 40,
+      "funcoes": [
+        "INTÉRPRETE"
+      ]
+    },
+    {
+      "acao_id": "899",
+      "titulo": "SEMANA DE CONTROLE E AUTOMAÇÃO",
+      "tipo": "Evento",
+      "ano": "2016",
+      "n": 181,
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ]
+    }
+  ]
+}

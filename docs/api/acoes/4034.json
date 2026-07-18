@@ -1,0 +1,186 @@
+{
+  "acao_id": "4034",
+  "Processo nº": "23158.002921/2022-32",
+  "Título ação": "SmartIdea - Validação de Problemas e Ideias",
+  "Natureza": "Extensão",
+  "Tipo ação": "Projeto",
+  "Coordenador(a)": "Moisés Savedra Omena",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "23158.001821/2021-50 - LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+  "Grande área conhecimento": "",
+  "Grande área conhecimento (inferida)": "Engenharias",
+  "Área temática principal": "Tecnologia e Produção",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "31/12/2024",
+  "Data de cadastro": "05/09/2022",
+  "Resumo": "Iniciar a concretização de uma ideia culmina em dificuldades práticas que vão desde a falta de\nconhecimento de processos, da tecnologia a ser utilizada ou desenvolvida. Este gap,\ncomumente, impossibilita uma rápida prototipação de ideias que dependem de ferramentas\ntecnológicas. Este projeto visa testar um novo processo focado na para validação de ideias,\npautado também no curto prazo e na redução de custos, apoiado por meio de uma metodologia\nprópria e num software a ser desenvolvido no projeto visando , gerenciamento e análise das\nfases e métricas relativas ao processo condizente, para que seja possível validar ideias no\ncontexto dos habitats de inovação ou empresas, economizando tempo e recursos. Além disso,\no software permitirá avaliar a performance do processo para que seja possível de forma\nquantitativa aferir a qualidade do processo atrelado a metodologia e gerar evoluções e\nmelhorias pertinentes.",
+  "Campus": "Serra",
+  "total_participacoes": 31,
+  "publico_alvo_total": 5,
+  "atividades": [
+    {
+      "atividade_id": "13928",
+      "numero": "001",
+      "atividade": "SmartIdea - Validação de Problemas e Ideias",
+      "publico": 1,
+      "aprovados": 1,
+      "certificados": 0,
+      "equipe": 9
+    },
+    {
+      "atividade_id": "17191",
+      "numero": "002",
+      "atividade": "Oficina de Design Sprint",
+      "publico": 2,
+      "aprovados": 2,
+      "certificados": 2,
+      "equipe": 7
+    },
+    {
+      "atividade_id": "17192",
+      "numero": "003",
+      "atividade": "Oficina de Low-Code",
+      "publico": 2,
+      "aprovados": 2,
+      "certificados": 2,
+      "equipe": 10
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Arthur Delpupo Coelho",
+      "funcoes": [
+        "ALUNO(A) EM ATIVIDADE CURRICULAR"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Carlos Henrique Costa Matos",
+      "funcoes": [
+        "ALUNO(A) EM ATIVIDADE CURRICULAR"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Edimar Antonio da Cruz",
+      "funcoes": [
+        "ALUNO(A) EM ATIVIDADE CURRICULAR"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Eduardo Alves Figueiredo",
+      "funcoes": [
+        "ALUNO(A) EM ATIVIDADE CURRICULAR"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Felipe Frechiani de Oliveira",
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Fernanda Jaimara do Nascimento",
+      "funcoes": [
+        "ALUNO(A) EM ATIVIDADE CURRICULAR"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Harian Adami Chagas Radaelli",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "João Pedro Spinassé Viana",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Kaua Mateus de Barros Terra",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Larissa Batista Rangel",
+      "funcoes": [
+        "ALUNO(A) EM ATIVIDADE CURRICULAR"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Lorenzzo Gabriel Ramos Doelinger Oliveira",
+      "funcoes": [
+        "ALUNO(A) EM ATIVIDADE CURRICULAR"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Lucas Machado Santos",
+      "funcoes": [
+        "ALUNO(A) EM ATIVIDADE CURRICULAR"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Marcela Starling Ferreira Lage",
+      "funcoes": [
+        "ALUNO(A) EM ATIVIDADE CURRICULAR"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Maressa Karen Henrique da Silva",
+      "funcoes": [
+        "ALUNO(A) EM ATIVIDADE CURRICULAR",
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Mateus Lannes Cunha",
+      "funcoes": [
+        "ALUNO(A) EM ATIVIDADE CURRICULAR",
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Moisés Savedra Omena",
+      "funcoes": [
+        "COORDENADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Rodrigo Fernandes Calhau",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Rubens do Nascimento Corrêa Júnior",
+      "funcoes": [
+        "ALUNO(A) EM ATIVIDADE CURRICULAR"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Samuel Ferreira Alves",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    }
+  ]
+}

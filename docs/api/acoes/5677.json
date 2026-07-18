@@ -1,0 +1,129 @@
+{
+  "acao_id": "5677",
+  "Processo nº": "23158.001703/2025-23",
+  "Título ação": "Jovens Inventores: O poder da Tecnologia Maker no Desenvolvimento Social",
+  "Natureza": "Extensão",
+  "Tipo ação": "Projeto",
+  "Coordenador(a)": "Richard Junior Manuel Godinez Tello",
+  "Fomento": "FAPES",
+  "Ação vinculante": "23158.001854/2023-10 - LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão",
+  "Grande área conhecimento": "",
+  "Grande área conhecimento (inferida)": "Engenharias",
+  "Área temática principal": "Educação",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "23/02/2026",
+  "Data de cadastro": "03/09/2025",
+  "Resumo": "O projeto visa capacitar 60 jovens em situação de vulnerabilidade social através de oficinas práticas de modelagem 3D, manufatura aditiva, manufatura subtrativa e robótica. Promove o desenvolvimento de competências técnicas e socio emocionais, favorecendo a inclusão social e a empregabilidade, com envolvimento de docentes e alunos do IFES – Campus Serra e do Instituto Xavier.",
+  "Campus": "Serra",
+  "total_participacoes": 48,
+  "publico_alvo_total": 28,
+  "atividades": [
+    {
+      "atividade_id": "20756",
+      "numero": "001",
+      "atividade": "Jovens Inventores: O poder da Tecnologia Maker no Desenvolvimento Social",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 10
+    },
+    {
+      "atividade_id": "21872",
+      "numero": "002",
+      "atividade": "Jovens Inventores: O poder da Tecnologia Maker no Desenvolvimento Social",
+      "publico": 28,
+      "aprovados": 28,
+      "certificados": 28,
+      "equipe": 10
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Adelson Pereira do Nascimento",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Enzo Mandelli Pinheiro Rodrigues",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Enzo Medeiros Agnez",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Flávio Garcia Pereira",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Julia Almeida Nascimento Lopes",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA",
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Leticia Comissario da Silva",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Marco Aurélio Tiago Filho",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Pedro Henrique Nascimento Vieira",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Richard Junior Manuel Godinez Tello",
+      "funcoes": [
+        "COLABORADOR(A)",
+        "COORDENADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Rosiane Ribeiro Rocha",
+      "funcoes": [
+        "COORDENADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Wallas Gusmão Thomas",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Ícaro Lessa Secchin",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA",
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    }
+  ]
+}

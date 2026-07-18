@@ -1,0 +1,47 @@
+{
+  "acao_id": "4589",
+  "Processo nº": "23158.001853/2023-75",
+  "Título ação": "Materiais Rodantes Ferroviários",
+  "Natureza": "Ensino",
+  "Tipo ação": "Curso",
+  "Coordenador(a)": "Vinícius Secchin de Melo",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "Engenharias",
+  "Área temática principal": "Tecnologia e Produção",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "26/02/2024",
+  "Data de cadastro": "16/07/2023",
+  "Resumo": "No proposto curso serão apresentados os modelos de locomotivas atualmente utilizadas pelas principais\nferrovias brasileiras, bem como seus componentes elétricos, eletrônicos e mecânicos, e o funcionamento\nde todos como um sistema. Serão também apresentados os modelos/tipos de vagões ferroviários e uma\nbreve introdução ao sistema de sinalização ferroviárias.",
+  "Campus": "Serra",
+  "total_participacoes": 17,
+  "publico_alvo_total": 14,
+  "atividades": [
+    {
+      "atividade_id": "15933",
+      "numero": "001",
+      "atividade": "Materiais Rodantes Ferroviários",
+      "publico": 14,
+      "aprovados": 6,
+      "certificados": 6,
+      "equipe": 3
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Bene Regis Figueiredo",
+      "funcoes": [
+        "PROFESSOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Vinícius Secchin de Melo",
+      "funcoes": [
+        "COORDENADOR(A)",
+        "PROFESSOR(A)"
+      ],
+      "vinculo": "Servidor"
+    }
+  ]
+}

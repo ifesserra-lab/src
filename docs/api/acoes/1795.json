@@ -1,0 +1,82 @@
+{
+  "acao_id": "1795",
+  "Processo nº": "23158.000386/2018-07",
+  "Título ação": "ESPM-Empregos: Um serviço inteligente para promover a empregabilidade",
+  "Natureza": "Extensão",
+  "Tipo ação": "Projeto",
+  "Coordenador(a)": "Moisés Savedra Omena",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "23158.001139/2014-96 - LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+  "Grande área conhecimento": "",
+  "Grande área conhecimento (inferida)": "Ciências Sociais Aplicadas",
+  "Área temática principal": "Tecnologia e Produção",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "05/03/2020",
+  "Data de cadastro": "09/07/2018",
+  "Resumo": "A presente ação tem como objetivo desenvolver um serviço inteligente que auxilie o governo do estado do Espírito Santo na gestão de ações que envolvam o aumento da empregabilidade e diminuição do desemprego. São atribuições desse serviço: (i) sugestão de vaga de emprego conforme o perfil do candidato e (ii) sugestão de vagas em cursos de formação. \n\nPara atingir o objetivo supracitado, será realizado um conjunto de estudos envolvendo especialistas em  Empregabilidade, Data Science, Matemática, Engenharia de Software e Bancos de dados. Nesse sentido, para maximizar as possibilidades de sucesso do projeto,  o grupo de pesquisa denominado Data Science and Complex Networks juntamente com o Leds/Campus Serra, especialistas do governo do estado e alunos envolvidos, estarão trabalhando de modo colaborativo.",
+  "Campus": "Serra",
+  "total_participacoes": 7,
+  "publico_alvo_total": 0,
+  "atividades": [
+    {
+      "atividade_id": "5638",
+      "numero": "001",
+      "atividade": "ESPM-Empregos: Um serviço inteligente para promover a empregabilidade",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 7
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Adriana Padua Lovatte",
+      "funcoes": [
+        "SUPERVISOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Helen França Medeiros",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Lucas Gomes Flegler",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Magno Macedo de Oliveira",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Moisés Savedra Omena",
+      "funcoes": [
+        "COORDENADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Paulo Sérgio dos Santos Júnior",
+      "funcoes": [
+        "SUPERVISOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Sergio Nery Simões",
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)"
+      ],
+      "vinculo": "Servidor"
+    }
+  ]
+}

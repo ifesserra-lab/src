@@ -1,0 +1,47 @@
+{
+  "acao_id": "4847",
+  "Processo nº": "23158.003752/2023-39",
+  "Título ação": "Projeto Avançar – Nivelamento em Matemática",
+  "Natureza": "Ensino",
+  "Tipo ação": "Curso",
+  "Coordenador(a)": "Augusto Cesar Machado Ramos",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "Ciências Exatas e da Terra",
+  "Área temática principal": "",
+  "Área temática principal (inferida)": "Educação",
+  "Relatório aprovado": "Não",
+  "Data último relatório": "",
+  "Data de cadastro": "22/12/2023",
+  "Resumo": "A ação objetiva alinhar e sistematizar uma proposta de intervenção pedagógica que visa minimizar às\nlacunas no processo de aprendizagem trazidas pelos alunos ingressantes nos Cursos Técnicos\nIntegrados ao Ensino Médio do Ifes – Campus Serra. A designação AVANÇAR, foi pensada no sentido de\no aluno adquirir o conhecimento necessário para AVANÇAR e superar suas dificuldades. Nesse sentido,\no Projeto AVANÇAR no campus Serra, propõe um curso de nivelamento em Matemática, com carga\nhorária de 120 horas, distribuídas em 30 semanas, abordando conteúdos fundamentais para a inserção\ndesses alunos no ensino médio e para aplicação nas demais disciplinas nas áreas de exatas e aplicadas\nde nossos cursos técnicos.",
+  "Campus": "Serra",
+  "total_participacoes": 2,
+  "publico_alvo_total": 0,
+  "atividades": [
+    {
+      "atividade_id": "17463",
+      "numero": "001",
+      "atividade": "Projeto Avançar – Nivelamento em Matemática",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 2
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Augusto Cesar Machado Ramos",
+      "funcoes": [
+        "COORDENADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Paulo Cezar Camargo Guedes",
+      "funcoes": [
+        "PROFESSOR(A)"
+      ],
+      "vinculo": "Convidado"
+    }
+  ]
+}

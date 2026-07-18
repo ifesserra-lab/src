@@ -1,0 +1,24 @@
+{
+  "atividade_id": "19699",
+  "numero": "017",
+  "atividade": "Minicurso \"Modelagem 3D\" do Projeto SerraMaker: fomentando a cultura Maker no município da Serra",
+  "acao_id": "4655",
+  "acao_titulo": "LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão",
+  "processo": "23158.001854/2023-10",
+  "coordenador_acao": "Gabriel Tozatto Zago",
+  "publico_alvo": {
+    "total": 18,
+    "aprovados": 18,
+    "certificados": 18,
+    "situacao": {
+      "APROVADO": 18
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Ícaro Lessa Secchin",
+      "funcao": "MINISTRANTE",
+      "vinculo": "Aluno"
+    }
+  ]
+}

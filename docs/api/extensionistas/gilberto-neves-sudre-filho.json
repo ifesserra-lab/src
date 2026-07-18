@@ -1,0 +1,54 @@
+{
+  "slug": "gilberto-neves-sudre-filho",
+  "nome": "Gilberto Neves Sudre Filho",
+  "resumo_ia": "Coordenou o projeto 'Academia Cisco nas Escolas Municipais da Serra - ES' em 2018 e atuou como palestrante em eventos extensionistas como o 'Programa Regular de Promoção da Cultura e da Arte' em 2016 e a 'Semana de Controle e Automação' no mesmo ano.",
+  "anos": [
+    "2016",
+    "2018"
+  ],
+  "funcoes": [
+    "COORDENADOR(A)",
+    "PALESTRANTE"
+  ],
+  "acoes_coordenadas": [
+    {
+      "acao_id": "1818",
+      "titulo": "Academia Cisco nas Escolas Municipais da Serra - ES",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 46
+    }
+  ],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1818",
+      "titulo": "Academia Cisco nas Escolas Municipais da Serra - ES",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 46,
+      "funcoes": [
+        "COORDENADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "718",
+      "titulo": "Programa Regular de Promoção da Cultura e da Arte no Ifes Campus Serra",
+      "tipo": "Programa",
+      "ano": "2016",
+      "n": 21,
+      "funcoes": [
+        "PALESTRANTE"
+      ]
+    },
+    {
+      "acao_id": "899",
+      "titulo": "SEMANA DE CONTROLE E AUTOMAÇÃO",
+      "tipo": "Evento",
+      "ano": "2016",
+      "n": 181,
+      "funcoes": [
+        "PALESTRANTE"
+      ]
+    }
+  ]
+}

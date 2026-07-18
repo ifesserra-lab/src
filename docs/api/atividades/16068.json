@@ -1,0 +1,24 @@
+{
+  "atividade_id": "16068",
+  "numero": "050",
+  "atividade": "Palestra: Macrotendências de trabalho e emprego no Espírito Santo - I Semana do Estágio e Emprego IFES Campus Serra",
+  "acao_id": "3140",
+  "acao_titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+  "processo": "23158.001185/2020-56",
+  "coordenador_acao": "Emmanuel Marques Silva",
+  "publico_alvo": {
+    "total": 43,
+    "aprovados": 43,
+    "certificados": 43,
+    "situacao": {
+      "APROVADO": 43
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Kleber Alves",
+      "funcao": "EXPOSITOR(A)",
+      "vinculo": "Convidado"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "ruan-rody-de-melo-da-costa",
+  "nome": "Ruan Rody de Melo da Costa",
+  "resumo_ia": "Atuou como auxiliar técnico no projeto 'ConectaFapes: Uma plataforma de apoio à Pesquisa, Desenvolvimento e Inovação' em 2023.",
+  "anos": [
+    "2023"
+  ],
+  "funcoes": [
+    "AUXILIAR TÉCNICO"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "4830",
+      "titulo": "ConectaFapes: Uma plataforma de apoio à Pesquisa, Desenvolvimento e Inovação",
+      "tipo": "Projeto",
+      "ano": "2023",
+      "n": 124,
+      "funcoes": [
+        "AUXILIAR TÉCNICO"
+      ]
+    }
+  ]
+}

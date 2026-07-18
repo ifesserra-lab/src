@@ -1,0 +1,22 @@
+{
+  "atividade_id": "22312",
+  "numero": "008",
+  "atividade": "Oficina de Musicoterapia",
+  "acao_id": "6059",
+  "acao_titulo": "Oficinas e Tutorias de Apoio às Disciplinas Curriculares na Perspectiva Inclusiva – NAPNE",
+  "processo": "23158.000710/2026-99",
+  "coordenador_acao": "Nauvia Maria Cancelieri",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Pedro Henrique Santos Modenesi",
+      "funcao": "PROFESSOR(A)",
+      "vinculo": "Convidado"
+    }
+  ]
+}

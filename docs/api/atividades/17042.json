@@ -1,0 +1,34 @@
+{
+  "atividade_id": "17042",
+  "numero": "009",
+  "atividade": "Palestra \"A experiência de inclusão de biografias de pesquisadoras na Wikipédia\"",
+  "acao_id": "4655",
+  "acao_titulo": "LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão",
+  "processo": "23158.001854/2023-10",
+  "coordenador_acao": "Gabriel Tozatto Zago",
+  "publico_alvo": {
+    "total": 67,
+    "aprovados": 67,
+    "certificados": 67,
+    "situacao": {
+      "APROVADO": 67
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Rosiane Ribeiro Rocha",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Herlane de Souza dos Santos",
+      "funcao": "PALESTRANTE",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Anna Julia Ferreira Tamanini",
+      "funcao": "PALESTRANTE",
+      "vinculo": "Aluno"
+    }
+  ]
+}

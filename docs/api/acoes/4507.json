@@ -1,0 +1,22 @@
+{
+  "acao_id": "4507",
+  "Processo nº": "23158.001802/2023-43",
+  "Título ação": "Solução web/mobile baseada em Inteligência Computacional para identificação de infestação por ácaros rajados (Tetranychus urticae) em culturas de morango",
+  "Natureza": "Extensão",
+  "Tipo ação": "Projeto",
+  "Coordenador(a)": "Fidelis Zanetti de Castro",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "23158.001821/2021-50 - LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+  "Grande área conhecimento": "",
+  "Grande área conhecimento (inferida)": "Ciências Agrárias",
+  "Área temática principal": "Tecnologia e Produção",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "15/12/2023",
+  "Data de cadastro": "26/05/2023",
+  "Resumo": "No estado do Espírito Santo, o morango é uma das frutas de maior importância socioeconômica. Seu\ncultivo é feito, predominantemente, em propriedades de base familiar situadas em terras frias. Sua cultura\ncontribui para a fixação de inúmeras famílias em zonas rurais e proporciona alto retorno econômico em\nciclos produtivos curtos, os quais variam de 60 a 90 dias. O ácaro rajado (Tetranychus urticae) foi\nelencado como uma das pragas mais presentes e danosas aos cultivos do morango presentes em nosso\nlócus de pesquisa, o município de Santa Maria de Jetibá, principal produtor do estado do ES. Com efeito,\nmais de 60% dos produtores da região declararam prejuízos de até 20% devido a infestações por ácaros\nrajados (GALEANO, E. A. V. et al., 2022). Este projeto visa a construção de um sistema web para\nidentificação do ácaro rajado por meio de foto e sua análise por um algoritmo baseado em redes neurais\nprofundas com o intuito de gerar alerta para a aplicação de correções necessárias para evitar ou mitigar\na infestação da doença.",
+  "Campus": "Serra",
+  "total_participacoes": 0,
+  "publico_alvo_total": 0,
+  "atividades": [],
+  "equipe_execucao": []
+}

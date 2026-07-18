@@ -1,0 +1,24 @@
+{
+  "atividade_id": "20615",
+  "numero": "003",
+  "atividade": "Minicurso \"Manufatura Aditiva\"",
+  "acao_id": "5641",
+  "acao_titulo": "LabMaker 4.0: capacitando professores para a cultura maker e tecnologias da Indústria 4.0",
+  "processo": "23158.001715/2025-58",
+  "coordenador_acao": "Rosiane Ribeiro Rocha",
+  "publico_alvo": {
+    "total": 17,
+    "aprovados": 17,
+    "certificados": 17,
+    "situacao": {
+      "APROVADO": 17
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Leticia Comissario da Silva",
+      "funcao": "MINISTRANTE",
+      "vinculo": "Aluno"
+    }
+  ]
+}

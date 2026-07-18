@@ -1,0 +1,24 @@
+{
+  "slug": "paulo-jose-de-almeida-barbosa",
+  "nome": "Paulo José de Almeida Barbosa",
+  "resumo_ia": "Colaborou na 'SEMANA DE CONTROLE E AUTOMAÇÃO' em 2016, apoiando a organização e realização do evento.",
+  "anos": [
+    "2016"
+  ],
+  "funcoes": [
+    "COLABORADOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "899",
+      "titulo": "SEMANA DE CONTROLE E AUTOMAÇÃO",
+      "tipo": "Evento",
+      "ano": "2016",
+      "n": 181,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    }
+  ]
+}

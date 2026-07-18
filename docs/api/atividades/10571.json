@@ -1,0 +1,24 @@
+{
+  "atividade_id": "10571",
+  "numero": "014",
+  "atividade": "Master Class de Optimização de Redes",
+  "acao_id": "2505",
+  "acao_titulo": "Circuito Audiovisual",
+  "processo": "23158.001195/2019-35",
+  "coordenador_acao": "Amarildo Mendes Lemos",
+  "publico_alvo": {
+    "total": 7,
+    "aprovados": 7,
+    "certificados": 7,
+    "situacao": {
+      "APROVADO": 7
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Marcos Valério Guimarães",
+      "funcao": "INSTRUTOR(A)",
+      "vinculo": "Convidado"
+    }
+  ]
+}

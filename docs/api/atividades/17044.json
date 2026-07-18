@@ -1,0 +1,29 @@
+{
+  "atividade_id": "17044",
+  "numero": "011",
+  "atividade": "Palestra \" Crimes Cibernéticos e Cyberbullying no Brasil\"",
+  "acao_id": "4655",
+  "acao_titulo": "LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão",
+  "processo": "23158.001854/2023-10",
+  "coordenador_acao": "Gabriel Tozatto Zago",
+  "publico_alvo": {
+    "total": 34,
+    "aprovados": 34,
+    "certificados": 34,
+    "situacao": {
+      "APROVADO": 34
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Eduardo Pinheiro Monteiro",
+      "funcao": "PALESTRANTE",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Rosiane Ribeiro Rocha",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

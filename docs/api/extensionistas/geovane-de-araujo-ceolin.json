@@ -1,0 +1,24 @@
+{
+  "slug": "geovane-de-araujo-ceolin",
+  "nome": "Geovane de Araujo Ceolin",
+  "resumo_ia": "Participou como professor(a) na equipe do projeto 'Mulheres na Ciência' em 2018, contribuindo para ações extensionistas voltadas à promoção da ciência entre mulheres.",
+  "anos": [
+    "2018"
+  ],
+  "funcoes": [
+    "PROFESSOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1633",
+      "titulo": "Mulheres na Ciência",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 21,
+      "funcoes": [
+        "PROFESSOR(A)"
+      ]
+    }
+  ]
+}

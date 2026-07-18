@@ -1,0 +1,24 @@
+{
+  "slug": "luiza-broseghini-pin",
+  "nome": "Luiza Broseghini Pin",
+  "resumo_ia": "Atuou como organizadora na Semana de Controle e Automação em 2016, coordenando ações de extensão voltadas ao controle e automação.",
+  "anos": [
+    "2016"
+  ],
+  "funcoes": [
+    "ORGANIZADOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "899",
+      "titulo": "SEMANA DE CONTROLE E AUTOMAÇÃO",
+      "tipo": "Evento",
+      "ano": "2016",
+      "n": 181,
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ]
+    }
+  ]
+}

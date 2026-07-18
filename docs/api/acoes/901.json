@@ -1,0 +1,425 @@
+{
+  "acao_id": "901",
+  "Processo nº": "23158.001139/2014-96",
+  "Título ação": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+  "Natureza": "Extensão",
+  "Tipo ação": "Programa",
+  "Coordenador(a)": "Felipe Frechiani de Oliveira",
+  "Fomento": "PAEX-IFES",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "Ciências Exatas e da Terra",
+  "Área temática principal": "Educação",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "16/12/2019",
+  "Data de cadastro": "21/10/2016",
+  "Resumo": "O programa Leds cria dentro do núcleo incubador do campus Serra um ambiente que simula o dia-a-dia empresarial. Nesse ambiente alunos se beneficiam da experiência profissional de servidores e parceiros que orientam o desenvolvimento de produtos, processos e serviços, para a sociedade. \n\nEsse ambiente propicia um aprendizado vivencial para alunos e servidores por meio da cooperação mútua. Além disso, o Leds proporciona um ambiente prático e de experimentação no qual alunos, servidores e parceiros de instituições públicas e privadas podem interagir e, assim, gerar conhecimento e inovações que beneficiem a sociedade. Com isso, o Leds deseja tornar-se referência entre alunos, empresas e sociedade no geral no aprendizado prático e efetivo e em soluções inovativas no âmbito das tecnologias industriais, sociais e da economia criativa.\n\nO programa funciona a partir do envolvimento de três atores: Público alvo, Executores,  Tutores de projeto:\nO Público alvo são clientes ou usuários dos produtos, processos e serviços do programa. Dentre esses estão a industria, os órgãos públicos, a sociedade organizada e o próprio Ifes. \nOs Executores são os alunos, que orientados por servidores, terão oportunidade de desenvolver competências de construção, modelagem, gestão e empreendedorismo e inovação. \nOs Tutores de projeto são servidores responsáveis pelo suporte técnico,  metodológico, gerencial e empreendedor e inovativo de cada projeto no qual estão os alunos. Assim, atendo a demanda do Público alvo. Dessa forma, os Tutores de projeto serão beneficiados com um ambiente em que possam colocar em prática assuntos geralmente tratados no campo teórico em disciplinas curriculares, buscando o aprofundamento desses.",
+  "Campus": "Serra",
+  "total_participacoes": 104,
+  "publico_alvo_total": 25,
+  "atividades": [
+    {
+      "atividade_id": "2297",
+      "numero": "001",
+      "atividade": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 42
+    },
+    {
+      "atividade_id": "10017",
+      "numero": "002",
+      "atividade": "Minicurso: Introdução a metodologia LEDS",
+      "publico": 10,
+      "aprovados": 10,
+      "certificados": 0,
+      "equipe": 2
+    },
+    {
+      "atividade_id": "10019",
+      "numero": "004",
+      "atividade": "Palestra: Apresentação de Projetos LEDS",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 11
+    },
+    {
+      "atividade_id": "10020",
+      "numero": "005",
+      "atividade": "Minicurso: Hacktoberfest LEDS",
+      "publico": 15,
+      "aprovados": 15,
+      "certificados": 0,
+      "equipe": 10
+    },
+    {
+      "atividade_id": "10343",
+      "numero": "012",
+      "atividade": "Expositor: Apresentação de Projetos do LEDS no Sebrae StartupSummit 2019",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 14
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Ana Carolina Cebin Pereira",
+      "funcoes": [
+        "AUXILIAR TÉCNICO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Ana Rúbia Ramos Vicente",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Andreângelo da Paixão Patuzzo",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA",
+        "EXPOSITOR(A)",
+        "PALESTRANTE"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "André Spadetto Leão",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Anne Caroline Silva",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Brendon Mauro",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Breno Sampaio Grillo",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Carlos Lins Borges Azevedo",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Cristian da Silva Anterio",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Danilo de Oliveira",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "David Pantaleão Vilaça",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Diego Pasti",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Eduardo Couto Rodrigues",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Fabiano Borges Ruy",
+      "funcoes": [
+        "EXPOSITOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Felipe Frechiani de Oliveira",
+      "funcoes": [
+        "COLABORADOR(A)",
+        "COORDENADOR(A)",
+        "EXPOSITOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Flávio Giraldeli Bianca",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Flávio Lopes da Silva",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Gary Moura da Silva",
+      "funcoes": [
+        "COLABORADOR(A)",
+        "EXPOSITOR(A)",
+        "ORGANIZADOR(A)",
+        "PALESTRANTE"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Gustavo Matozinho Lima",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Helen França Medeiros",
+      "funcoes": [
+        "EXPOSITOR(A)",
+        "ORGANIZADOR(A)",
+        "PALESTRANTE"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Icaro Duarte Gavazza Lima",
+      "funcoes": [
+        "PALESTRANTE"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Icaro Gandine Fialho Weiler",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Ivana Amorim Julião",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Jennifer Camille Gomes Duarte",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Joel Will Belmiro",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA",
+        "EXPOSITOR(A)",
+        "PALESTRANTE"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Laíssa Gasperazzo",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Lucas Caetano Possatti",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Lucas Gomes Flegler",
+      "funcoes": [
+        "COLABORADOR(A)",
+        "EXPOSITOR(A)",
+        "ORGANIZADOR(A)",
+        "PALESTRANTE"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Magno Macedo de Oliveira",
+      "funcoes": [
+        "ORGANIZADOR(A)",
+        "PALESTRANTE"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Marcos Antonio Carneiro de Paula",
+      "funcoes": [
+        "PALESTRANTE"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Marcos Aurélio Melo Dias",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Marcos Vinícius Forecchi Accioly",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Marlon Woelffel Candoti",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Matheus Kleber Rodrigues Barbosa",
+      "funcoes": [
+        "COLABORADOR(A)",
+        "ORGANIZADOR(A)",
+        "PALESTRANTE"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Moisés Savedra Omena",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Olavo Jose Ferreira Curatola",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO",
+        "EXPOSITOR(A)",
+        "PALESTRANTE"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Paulo Ricardo Viana Ferreira",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Paulo Sérgio dos Santos Júnior",
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Phillipe Alcantara Fonseca Lopes",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Rafael Afonso dos Anjos",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA",
+        "EXPOSITOR(A)",
+        "PALESTRANTE"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Rafaela Amorim Pessin",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA",
+        "EXPOSITOR(A)",
+        "PALESTRANTE"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Renan Costa Nascimento",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Renato de Sant'anna Lopes",
+      "funcoes": [
+        "COLABORADOR(A)",
+        "EXPOSITOR(A)"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Rodrigo Fernandes Calhau",
+      "funcoes": [
+        "COORDENADOR(A)",
+        "EXPOSITOR(A)",
+        "MENTOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Sarah Silva Ferreira",
+      "funcoes": [
+        "AUXILIAR TÉCNICO",
+        "EXPOSITOR(A)"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Sergio Nery Simões",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Tarcisio Bruni Rangel",
+      "funcoes": [
+        "COLABORADOR(A)",
+        "EXPOSITOR(A)"
+      ],
+      "vinculo": "Aluno"
+    }
+  ]
+}

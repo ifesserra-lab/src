@@ -1,0 +1,29 @@
+{
+  "atividade_id": "16970",
+  "numero": "060",
+  "atividade": "Minicurso de Introdução à Programação com o Python 3",
+  "acao_id": "3140",
+  "acao_titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+  "processo": "23158.001185/2020-56",
+  "coordenador_acao": "Emmanuel Marques Silva",
+  "publico_alvo": {
+    "total": 9,
+    "aprovados": 9,
+    "certificados": 9,
+    "situacao": {
+      "APROVADO": 9
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Carlos Henrique Costa Matos",
+      "funcao": "INSTRUTOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Bruno da Fonseca Chevitarese",
+      "funcao": "INSTRUTOR(A)",
+      "vinculo": "Aluno"
+    }
+  ]
+}

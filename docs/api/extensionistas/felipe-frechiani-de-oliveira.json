@@ -1,0 +1,225 @@
+{
+  "slug": "felipe-frechiani-de-oliveira",
+  "nome": "Felipe Frechiani de Oliveira",
+  "resumo_ia": "Coordenou diversos programas e projetos de extensão entre 2016 e 2022, como LEDS, ES Na Palma da Mão e SprintLab, além de participar como membro de comitê gestor e colaborador em iniciativas como o Núcleo Incubador Campus Serra e o Sistema de apoio para rastreio de transtornos mentais.",
+  "anos": [
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022"
+  ],
+  "funcoes": [
+    "AUXILIAR TÉCNICO",
+    "AVALIADOR(A)",
+    "COLABORADOR(A)",
+    "COORDENADOR(A)",
+    "COORDENADOR(A) ADJUNTO(A)",
+    "EXPOSITOR(A)",
+    "MEMBRO DE COMITÊ GESTOR",
+    "MENTOR(A)"
+  ],
+  "acoes_coordenadas": [
+    {
+      "acao_id": "1406",
+      "titulo": "Curso de Pré-Incubação de Empreendimentos – modalidade Residência",
+      "tipo": "Curso",
+      "ano": "2017",
+      "n": 12
+    },
+    {
+      "acao_id": "1838",
+      "titulo": "LEDS – Laboratório de Extensão e Desenvolvimento de Soluções",
+      "tipo": "Programa",
+      "ano": "2018",
+      "n": 4
+    },
+    {
+      "acao_id": "2285",
+      "titulo": "ES Na Palma da Mão: Uma Plataforma baseado em serviços para Cidades Humanas, Inteligentes e Sustentáveis",
+      "tipo": "Projeto",
+      "ano": "2019",
+      "n": 12
+    },
+    {
+      "acao_id": "2786",
+      "titulo": "My Pay: Um ERP em nuvem para foodtrucks",
+      "tipo": "Projeto",
+      "ano": "2019",
+      "n": 0
+    },
+    {
+      "acao_id": "4215",
+      "titulo": "SprintLab - Laboratório de Prototipação Acelerada",
+      "tipo": "Programa",
+      "ano": "2022",
+      "n": 76
+    },
+    {
+      "acao_id": "901",
+      "titulo": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+      "tipo": "Programa",
+      "ano": "2016",
+      "n": 104
+    }
+  ],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1116",
+      "titulo": "Programa Local Núcleo Incubador Campus Serra – NIS",
+      "tipo": "Programa",
+      "ano": "2017",
+      "n": 220,
+      "funcoes": [
+        "MEMBRO DE COMITÊ GESTOR"
+      ]
+    },
+    {
+      "acao_id": "1261",
+      "titulo": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedora",
+      "tipo": "Curso",
+      "ano": "2017",
+      "n": 84,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "1406",
+      "titulo": "Curso de Pré-Incubação de Empreendimentos – modalidade Residência",
+      "tipo": "Curso",
+      "ano": "2017",
+      "n": 12,
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)"
+      ]
+    },
+    {
+      "acao_id": "1838",
+      "titulo": "LEDS – Laboratório de Extensão e Desenvolvimento de Soluções",
+      "tipo": "Programa",
+      "ano": "2018",
+      "n": 4,
+      "funcoes": [
+        "COORDENADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "1847",
+      "titulo": "Sistema de apoio para rastreio e geolocalização de transtornos mentais comuns na atenção primária a saúde",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 5,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "2193",
+      "titulo": "LifeBox: transporte e monitoramento de córnea de forma inteligente",
+      "tipo": "Projeto",
+      "ano": "2019",
+      "n": 8,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "2285",
+      "titulo": "ES Na Palma da Mão: Uma Plataforma baseado em serviços para Cidades Humanas, Inteligentes e Sustentáveis",
+      "tipo": "Projeto",
+      "ano": "2019",
+      "n": 12,
+      "funcoes": [
+        "COORDENADOR(A)",
+        "COORDENADOR(A) ADJUNTO(A)"
+      ]
+    },
+    {
+      "acao_id": "3021",
+      "titulo": "Stone Connection",
+      "tipo": "Projeto",
+      "ano": "2020",
+      "n": 7,
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)"
+      ]
+    },
+    {
+      "acao_id": "3422",
+      "titulo": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+      "tipo": "Programa",
+      "ano": "2021",
+      "n": 1,
+      "funcoes": [
+        "COORDENADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "4034",
+      "titulo": "SmartIdea - Validação de Problemas e Ideias",
+      "tipo": "Projeto",
+      "ano": "2022",
+      "n": 31,
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)"
+      ]
+    },
+    {
+      "acao_id": "4215",
+      "titulo": "SprintLab - Laboratório de Prototipação Acelerada",
+      "tipo": "Programa",
+      "ano": "2022",
+      "n": 76,
+      "funcoes": [
+        "COORDENADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "708",
+      "titulo": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedoras",
+      "tipo": "Curso",
+      "ano": "2016",
+      "n": 77,
+      "funcoes": [
+        "AUXILIAR TÉCNICO",
+        "AVALIADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "730",
+      "titulo": "Câmara de Assessoramento em Gestão e Tecnologia do Núcleo Incubador do campus Serra do Ifes",
+      "tipo": "Projeto",
+      "ano": "2016",
+      "n": 9,
+      "funcoes": [
+        "MENTOR(A)"
+      ]
+    },
+    {
+      "acao_id": "901",
+      "titulo": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+      "tipo": "Programa",
+      "ano": "2016",
+      "n": 104,
+      "funcoes": [
+        "COLABORADOR(A)",
+        "COORDENADOR(A)",
+        "EXPOSITOR(A)"
+      ]
+    },
+    {
+      "acao_id": "912",
+      "titulo": "Curso de Pré-Incubação de Empreendimentos – modalidade Residência",
+      "tipo": "Curso",
+      "ano": "2016",
+      "n": 21,
+      "funcoes": [
+        "AVALIADOR(A)",
+        "COORDENADOR(A) ADJUNTO(A)"
+      ]
+    }
+  ]
+}

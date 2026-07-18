@@ -1,0 +1,81 @@
+{
+  "acao_id": "5645",
+  "Processo nº": "23158.001713/2025-69",
+  "Título ação": "Asas para o Futuro - Eletricista Instalador Predial em Baixa Tensão",
+  "Natureza": "Extensão",
+  "Tipo ação": "Curso",
+  "Coordenador(a)": "Tatiane Policário Chagas",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "23147.005985/2025-67 - Asas para o Futuro",
+  "Grande área conhecimento": "Engenharias",
+  "Área temática principal": "Tecnologia e Produção",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "06/04/2026",
+  "Data de cadastro": "19/08/2025",
+  "Resumo": "Este documento apresenta a proposta de Curso de Formação Inicial e Continuada (FIC) em Eletricista Instalador Predial em baixa tensão, com carga horária de 200 horas, especialmente desenvolvido para turmas de mulheres. As atividades serão estruturadas em três encontros semanais, com 5 aulas por dia, 15 horas semanais por cerca de 4 meses, totalizado as 200 horas, distribuídas e organizadas para oferecer um espaço de formação e desenvolvimento das mulheres participantes. O curso foi estruturado para promover a inclusão digital, o empoderamento feminino e o desenvolvimento de competências técnicas e sociais necessárias para o mercado de trabalho atual. A proposta pedagógica fundamenta-se em metodologias ativas e participativas, valorizando os saberes prévios das estudantes e promovendo a construção coletiva do conhecimento. O curso está organizado em dois módulos principais: um módulo básico, com foco em desenvolvimento pessoal, cidadania e empoderamento feminino; e um módulo técnico, composto por 3 componentes curriculares, voltado para as competências específicas de eletricidade, instalações elétricas prediais de baixa tensão e normas de segurança em trabalhos com eletricidade. Serão trabalhados temas transversais como empreendedorismo, inclusão digital, saúde da mulher e economia familiar. A matriz curricular foi desenvolvida com base em referenciais de cursos similares e nas melhores práticas pedagógicas para formação de mulheres em tecnologia, buscando contribuir para a redução das desigualdades de\ngênero no setor e para a ampliação das oportunidades profissionais para o público feminino.",
+  "Campus": "Serra",
+  "total_participacoes": 36,
+  "publico_alvo_total": 29,
+  "atividades": [
+    {
+      "atividade_id": "20642",
+      "numero": "001",
+      "atividade": "Asas para o Futuro - Eletricista Instalador Predial em Baixa Tensão",
+      "publico": 29,
+      "aprovados": 29,
+      "certificados": 29,
+      "equipe": 7
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Eglalciane de Lyrio Tongo",
+      "funcoes": [
+        "PROFESSOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Elika Capucho Delazare",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Gina Carla Maciel",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Manuelly Soares Silva",
+      "funcoes": [
+        "MONITOR(A)"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Marcos Paulo Kohler Caldas",
+      "funcoes": [
+        "PROFESSOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Matheus Policário Amorim",
+      "funcoes": [
+        "MONITOR(A)"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Tatiane Policário Chagas",
+      "funcoes": [
+        "COORDENADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    }
+  ]
+}

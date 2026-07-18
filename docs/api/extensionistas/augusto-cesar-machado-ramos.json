@@ -1,0 +1,32 @@
+{
+  "slug": "augusto-cesar-machado-ramos",
+  "nome": "Augusto Cesar Machado Ramos",
+  "resumo_ia": "Coordenou e participou como coordenador(a) do projeto O IFES é o meu lugar em 2023, liderando ações extensionistas.",
+  "anos": [
+    "2023"
+  ],
+  "funcoes": [
+    "COORDENADOR(A)"
+  ],
+  "acoes_coordenadas": [
+    {
+      "acao_id": "4597",
+      "titulo": "O IFES é o meu lugar",
+      "tipo": "Projeto",
+      "ano": "2023",
+      "n": 87
+    }
+  ],
+  "participacoes_equipe": [
+    {
+      "acao_id": "4597",
+      "titulo": "O IFES é o meu lugar",
+      "tipo": "Projeto",
+      "ano": "2023",
+      "n": 87,
+      "funcoes": [
+        "COORDENADOR(A)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "atividade_id": "3836",
+  "numero": "028",
+  "atividade": "Apresentação de Pôster \"Novas Tecnologias e Acessibilidade nas Bibliotecas do Instituto Federal do Espírito Santo\"",
+  "acao_id": "1238",
+  "acao_titulo": "II Seminário de Educação Especial no Instituto Federal do Espírito Santo",
+  "processo": "23158.000398/2017-42",
+  "coordenador_acao": "Renata Imaculada de Oliveira Teixeira",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Helano da Silva Santana Mendes",
+      "funcao": "INTÉRPRETE",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Joyce Karolina Ribeiro Baiense",
+      "funcao": "INTÉRPRETE",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Rosilene Supriano de Jesus Rosa",
+      "funcao": "AUTOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

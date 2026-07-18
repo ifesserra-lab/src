@@ -1,0 +1,38 @@
+{
+  "slug": "thiago-almeida-deps-caldeira",
+  "nome": "Thiago Almeida Deps Caldeira",
+  "resumo_ia": "Colaborou como extensionista no SOF – Serviço de Orientação Financeira em 2026 e como expositor no mesmo projeto. Em 2024, atuou como colaborador(a) no projeto Conectando Talentos: Robótica e Programação no IFES-Serra.",
+  "anos": [
+    "2024",
+    "2026"
+  ],
+  "funcoes": [
+    "COLABORADOR(A)",
+    "EXPOSITOR(A)",
+    "EXTENSIONISTA"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "5086",
+      "titulo": "Conectando Talentos: Robótica e Programação no IFES-Serra",
+      "tipo": "Projeto",
+      "ano": "2024",
+      "n": 218,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "5852",
+      "titulo": "SOF – Serviço de Orientação Financeira (unidade Ifes Serra)",
+      "tipo": "Projeto",
+      "ano": "2026",
+      "n": 316,
+      "funcoes": [
+        "EXPOSITOR(A)",
+        "EXTENSIONISTA"
+      ]
+    }
+  ]
+}

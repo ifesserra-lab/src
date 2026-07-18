@@ -1,0 +1,29 @@
+{
+  "atividade_id": "17041",
+  "numero": "008",
+  "atividade": "Palestra \"Inovação Sustentável: A Jornada da Intechno\"",
+  "acao_id": "4655",
+  "acao_titulo": "LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão",
+  "processo": "23158.001854/2023-10",
+  "coordenador_acao": "Gabriel Tozatto Zago",
+  "publico_alvo": {
+    "total": 75,
+    "aprovados": 75,
+    "certificados": 75,
+    "situacao": {
+      "APROVADO": 75
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Giovani de Oliveira Silva Jr",
+      "funcao": "PALESTRANTE",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Rosiane Ribeiro Rocha",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

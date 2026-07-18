@@ -1,0 +1,300 @@
+{
+  "acao_id": "2505",
+  "Processo nº": "23158.001195/2019-35",
+  "Título ação": "Circuito Audiovisual",
+  "Natureza": "Extensão",
+  "Tipo ação": "Projeto",
+  "Coordenador(a)": "Amarildo Mendes Lemos",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "",
+  "Grande área conhecimento (inferida)": "Linguística, Letras e Artes",
+  "Área temática principal": "Cultura",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "17/09/2021",
+  "Data de cadastro": "13/06/2019",
+  "Resumo": "O presente projeto de extensão, Circuito Audiovisual, tem como objetivo promover e difundir a cultura audiovisual por meio de oficinas oferecidas na modalidade presencial. Serão oferecidas oficinas de roteiro, produção, direção, câmera e fotografia, som, direção de arte e montagem de edição. O projeto também compreende a formação de profissionais da educação com metodologias alternativas com a utilização das Tecnologias de Informação e Comunicação (TIC), ao capacitar professores para utilização da produção audiovisual como recurso pedagógico. O projeto será realizado em três polos de produção (e formação) agregando um conjunto de oficinas e de práticas que forjam um ciclo de pensar, sentir e fazer cinema. Cada polo apresentará, ao longo e ao fim do projeto, produtos audiovisuais específicos e o conjunto exibido em mostras e em plataformas digitais. O projeto pretende sensibilizar um amplo público, além de capacitar jovens e multiplicadores do município de Serra, através da valorização de patrimônios culturais locais e do incentivo a formas de empoderamento por meio da cultura e sua economia. \nPalavras",
+  "Campus": "Serra",
+  "total_participacoes": 231,
+  "publico_alvo_total": 192,
+  "atividades": [
+    {
+      "atividade_id": "8630",
+      "numero": "001",
+      "atividade": "Circuito Audiovisual",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 7
+    },
+    {
+      "atividade_id": "10559",
+      "numero": "002",
+      "atividade": "Oficina de Sensibilização",
+      "publico": 19,
+      "aprovados": 19,
+      "certificados": 19,
+      "equipe": 2
+    },
+    {
+      "atividade_id": "10560",
+      "numero": "003",
+      "atividade": "Oficina de Sensibilização",
+      "publico": 13,
+      "aprovados": 13,
+      "certificados": 13,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "10561",
+      "numero": "004",
+      "atividade": "Oficina Especializada de Roteiro",
+      "publico": 10,
+      "aprovados": 10,
+      "certificados": 10,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "10562",
+      "numero": "005",
+      "atividade": "Oficina Especializada de Som",
+      "publico": 10,
+      "aprovados": 10,
+      "certificados": 10,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "10563",
+      "numero": "006",
+      "atividade": "Oficina Especializada de Direção",
+      "publico": 7,
+      "aprovados": 7,
+      "certificados": 7,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "10564",
+      "numero": "007",
+      "atividade": "Oficina Especializada de Câmera & Fotografia",
+      "publico": 8,
+      "aprovados": 8,
+      "certificados": 8,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "10565",
+      "numero": "008",
+      "atividade": "Oficina Especializada de Montagem e Direção",
+      "publico": 5,
+      "aprovados": 5,
+      "certificados": 5,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "10566",
+      "numero": "009",
+      "atividade": "Oficina Especializada de Produção",
+      "publico": 3,
+      "aprovados": 3,
+      "certificados": 3,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "10567",
+      "numero": "010",
+      "atividade": "Oficina Especializada de Direção de Arte",
+      "publico": 5,
+      "aprovados": 5,
+      "certificados": 5,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "10568",
+      "numero": "011",
+      "atividade": "Ateliê de Produção Audiovisual",
+      "publico": 12,
+      "aprovados": 12,
+      "certificados": 12,
+      "equipe": 2
+    },
+    {
+      "atividade_id": "10569",
+      "numero": "012",
+      "atividade": "Pesquisa em Audiovisual",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 2
+    },
+    {
+      "atividade_id": "10570",
+      "numero": "013",
+      "atividade": "Ateliê de Produção Audiovisual",
+      "publico": 8,
+      "aprovados": 8,
+      "certificados": 8,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "10571",
+      "numero": "014",
+      "atividade": "Master Class de Optimização de Redes",
+      "publico": 7,
+      "aprovados": 7,
+      "certificados": 7,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "10572",
+      "numero": "015",
+      "atividade": "Master Class de Distribuição de Circulação",
+      "publico": 6,
+      "aprovados": 6,
+      "certificados": 6,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "10573",
+      "numero": "016",
+      "atividade": "Ação Cineclubista \"Lançamento do Projeto\"",
+      "publico": 11,
+      "aprovados": 11,
+      "certificados": 11,
+      "equipe": 3
+    },
+    {
+      "atividade_id": "10574",
+      "numero": "017",
+      "atividade": "Ação Cineclubista \"Mestre Pastinha, Rei da Capoeira\"",
+      "publico": 36,
+      "aprovados": 36,
+      "certificados": 36,
+      "equipe": 2
+    },
+    {
+      "atividade_id": "10575",
+      "numero": "018",
+      "atividade": "Ação Cineclubista \"O Silêncio dos Homens\"",
+      "publico": 3,
+      "aprovados": 3,
+      "certificados": 3,
+      "equipe": 4
+    },
+    {
+      "atividade_id": "10576",
+      "numero": "019",
+      "atividade": "Ação Cineclubista \"produção Polo 3\"",
+      "publico": 13,
+      "aprovados": 13,
+      "certificados": 13,
+      "equipe": 4
+    },
+    {
+      "atividade_id": "10577",
+      "numero": "020",
+      "atividade": "Oficina Cinema e Educação: preservação do patrimônio histórico e cultural",
+      "publico": 16,
+      "aprovados": 16,
+      "certificados": 16,
+      "equipe": 2
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Amarildo Mendes Lemos",
+      "funcoes": [
+        "COORDENADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "André Malverdes",
+      "funcoes": [
+        "ASSESSOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Brígida Penna Rocha Moreira",
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Denise Carla Goldner Coelho",
+      "funcoes": [
+        "ASSESSOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Diego Ramiro Araoz Alves",
+      "funcoes": [
+        "COORDENADOR(A) DE ÁREA"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Diego do Nascimento Rodrigues Flores",
+      "funcoes": [
+        "COORDENADOR(A) DE ÁREA"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Edson Ferreira da Silva Júnior",
+      "funcoes": [
+        "INSTRUTOR(A)",
+        "PESQUISADOR(A)",
+        "TUTOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Francisco Xavier Pereira Neto",
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Gustavo Senna Martins de Almeida",
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Hugo Leonardo Castilhos dos Reis",
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Marcos Valério Guimarães",
+      "funcoes": [
+        "COORDENADOR(A) DE ÁREA",
+        "INSTRUTOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Ursula Dart Bottrel do Nascimento",
+      "funcoes": [
+        "INSTRUTOR(A)",
+        "PESQUISADOR(A)",
+        "TUTOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Wagner Scopel Falcão",
+      "funcoes": [
+        "ASSESSOR(A)"
+      ],
+      "vinculo": "Servidor"
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "acao_id": "2107",
+  "Processo nº": "23158.001172/2018-40",
+  "Título ação": "Ifes Portas Abertas",
+  "Natureza": "Extensão",
+  "Tipo ação": "Programa",
+  "Coordenador(a)": "Wagner Kirmse Caldas",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "23158.001812/2017-31 - Ifes para todos",
+  "Grande área conhecimento": "",
+  "Área temática principal": "Educação",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "08/12/2019",
+  "Data de cadastro": "26/11/2018",
+  "Resumo": "O programa “Ifes Portas Abertas” é uma evolução do projeto “Ifes Portas Abertas”, o qual foi realizado durante o ano de 2018, atendendo mais de vinte escolas e mais de 400 alunos. Esse programa tem por objetivo receber a visita de alunos da rede pública e privada, a princípio aqueles cursando os oitavos e nonos anos do ensino fundamental e os alunos do ensino médio, para que eles possam conhecer o Campus e os cursos nele ofertados. Para isso, a cada visita, um grupo de recepção ficará a disposição dos visitantes, apresentando: a estrutura organizacional; os cursos; o processo seletivo; e as instalações do Campus. Esse grupo de recepção será formado por professores, técnicos administrativos e alunos regulares, totalizando um máximo de seis pessoas, de nossos cursos. O Programa também poderá atuar na recepção de alunos público-alvo do PROEJA, mediante a participação de professores que atuam nesse nível de ensino, de forma a poder lhes ofertar atendimento nas visitas noturnas. Não obstante, o programa ainda prevê a participação avulsa da sociedade, onde pais de alunos poderão trazer seus filhos para participar da ação em datas onde haverá a visita de escolas. Com isso, é esperado um maior reconhecimento do Instituto, pela comunidade, principalmente da Serra, porém, com pretensão de atingir a região Grande Vitória, fazendo com que mais alunos possam conhecer suas possibilidades de estudo. É nossa meta que esse programa auxilie na ampliação da relação candidatos x vaga dos cursos ofertados.",
+  "Campus": "Serra",
+  "total_participacoes": 547,
+  "publico_alvo_total": 501,
+  "atividades": [
+    {
+      "atividade_id": "7247",
+      "numero": "001",
+      "atividade": "Ifes Portas Abertas",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 2
+    },
+    {
+      "atividade_id": "8914",
+      "numero": "002",
+      "atividade": "Ifes Portas Abertas",
+      "publico": 59,
+      "aprovados": 59,
+      "certificados": 59,
+      "equipe": 0
+    },
+    {
+      "atividade_id": "8915",
+      "numero": "003",
+      "atividade": "Ifes Portas Abertas",
+      "publico": 20,
+      "aprovados": 20,
+      "certificados": 20,
+      "equipe": 0
+    },
+    {
+      "atividade_id": "8916",
+      "numero": "004",
+      "atividade": "Ifes Portas Abertas",
+      "publico": 59,
+      "aprovados": 59,
+      "certificados": 59,
+      "equipe": 0
+    },
+    {
+      "atividade_id": "8917",
+      "numero": "005",
+      "atividade": "Ifes Portas Abertas",
+      "publico": 11,
+      "aprovados": 11,
+      "certificados": 11,
+      "equipe": 0
+    },
+    {
+      "atividade_id": "8918",
+      "numero": "006",
+      "atividade": "Ifes Portas Abertas",
+      "publico": 12,
+      "aprovados": 12,
+      "certificados": 12,
+      "equipe": 0
+    },
+    {
+      "atividade_id": "8919",
+      "numero": "007",
+      "atividade": "Ifes Portas Abertas",
+      "publico": 27,
+      "aprovados": 27,
+      "certificados": 27,
+      "equipe": 0
+    },
+    {
+      "atividade_id": "8920",
+      "numero": "008",
+      "atividade": "Ifes Portas Abertas",
+      "publico": 17,
+      "aprovados": 17,
+      "certificados": 17,
+      "equipe": 0
+    },
+    {
+      "atividade_id": "8921",
+      "numero": "009",
+      "atividade": "Ifes Portas Abertas",
+      "publico": 48,
+      "aprovados": 48,
+      "certificados": 48,
+      "equipe": 0
+    },
+    {
+      "atividade_id": "8922",
+      "numero": "010",
+      "atividade": "Ifes Portas Abertas",
+      "publico": 8,
+      "aprovados": 8,
+      "certificados": 8,
+      "equipe": 0
+    },
+    {
+      "atividade_id": "8923",
+      "numero": "011",
+      "atividade": "Ifes Portas Abertas",
+      "publico": 31,
+      "aprovados": 31,
+      "certificados": 31,
+      "equipe": 0
+    },
+    {
+      "atividade_id": "14466",
+      "numero": "012",
+      "atividade": "Visita EEEF Francisco Alves Mendes",
+      "publico": 65,
+      "aprovados": 65,
+      "certificados": 0,
+      "equipe": 10
+    },
+    {
+      "atividade_id": "14467",
+      "numero": "013",
+      "atividade": "Visita EMEF Jonas Farias 1",
+      "publico": 9,
+      "aprovados": 9,
+      "certificados": 0,
+      "equipe": 9
+    },
+    {
+      "atividade_id": "14468",
+      "numero": "014",
+      "atividade": "Visita EMEF Jonas Farias 2",
+      "publico": 8,
+      "aprovados": 8,
+      "certificados": 0,
+      "equipe": 9
+    },
+    {
+      "atividade_id": "14469",
+      "numero": "015",
+      "atividade": "Visita CEEFMTI Joaquim Beato",
+      "publico": 36,
+      "aprovados": 36,
+      "certificados": 0,
+      "equipe": 8
+    },
+    {
+      "atividade_id": "14470",
+      "numero": "016",
+      "atividade": "Visita EEEFM Nova Carapina",
+      "publico": 91,
+      "aprovados": 91,
+      "certificados": 0,
+      "equipe": 8
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Alessandro Bermudes Gomes",
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Anna Julia Ferreira Tamanini",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Eloá Rauta Ramos de Lima",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Fidelis Zanetti de Castro",
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Gabriela Maria Machado",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Herlane de Souza dos Santos",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Maria Eduarda Lira Moreira",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Nicolas dos Santos Cerón",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Vitória Loureiro Pimentel",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Wagner Kirmse Caldas",
+      "funcoes": [
+        "COORDENADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Walter Guilherme Candeia",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    }
+  ]
+}

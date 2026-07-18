@@ -1,0 +1,24 @@
+{
+  "slug": "viviane-fernandes-santos",
+  "nome": "Viviane Fernandes Santos",
+  "resumo_ia": "Atuou como extensionista no projeto 'Atividades físicas adaptadas e inclusão (AFAI)' em 2023, desenvolvendo ações voltadas à inclusão por meio de atividades físicas.",
+  "anos": [
+    "2023"
+  ],
+  "funcoes": [
+    "EXTENSIONISTA"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "4659",
+      "titulo": "Atividades físicas adaptadas e inclusão (AFAI)",
+      "tipo": "Projeto",
+      "ano": "2023",
+      "n": 298,
+      "funcoes": [
+        "EXTENSIONISTA"
+      ]
+    }
+  ]
+}

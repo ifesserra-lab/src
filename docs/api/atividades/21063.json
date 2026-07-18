@@ -1,0 +1,62 @@
+{
+  "atividade_id": "21063",
+  "numero": "093",
+  "atividade": "Equipe de organização da Maratona de Programação 2025",
+  "acao_id": "3140",
+  "acao_titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+  "processo": "23158.001185/2020-56",
+  "coordenador_acao": "Emmanuel Marques Silva",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Karin Satie Komati",
+      "funcao": "MENTOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Jefferson Oliveira Andrade",
+      "funcao": "MENTOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Hilario Seibel Junior",
+      "funcao": "APOIO TÉCNICO",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Vitor Faiçal Campana",
+      "funcao": "APOIO TÉCNICO",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Luiz Felipe Elizeta dos Santos",
+      "funcao": "APOIO TÉCNICO",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Davi Henrique Comério",
+      "funcao": "APOIO TÉCNICO",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Vivian Moreira Gomes de Lacerda",
+      "funcao": "APOIO TÉCNICO",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Anyssa Satimi Komati Andrade",
+      "funcao": "APOIO TÉCNICO",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Caio Cesar Oliva Coronel",
+      "funcao": "APOIO TÉCNICO",
+      "vinculo": "Aluno"
+    }
+  ]
+}

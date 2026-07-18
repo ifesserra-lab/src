@@ -1,0 +1,69 @@
+{
+  "slug": "gilmar-luiz-vassoler",
+  "nome": "Gilmar Luiz Vassoler",
+  "resumo_ia": "Coordenou a 'Semana de Ciência e Tecnologia do Campus Serra do Ifes' em 2017 e integrou o comitê gestor e organização do 'Programa Local Núcleo Incubador Campus Serra – NIS' no mesmo ano. Também atuou como avaliador(a) no 'Curso de Pré-Incubação para Empreendedores' em 2017 e colaborou no projeto 'Inova Serra' em 2018.",
+  "anos": [
+    "2016",
+    "2017",
+    "2018"
+  ],
+  "funcoes": [
+    "AVALIADOR(A)",
+    "COLABORADOR(A)",
+    "COORDENADOR(A) ADJUNTO(A)",
+    "MEMBRO DE COMITÊ GESTOR",
+    "ORGANIZADOR(A)"
+  ],
+  "acoes_coordenadas": [
+    {
+      "acao_id": "1426",
+      "titulo": "Semana de Ciência e Tecnologia do Campus Serra do Ifes",
+      "tipo": "Evento",
+      "ano": "2017",
+      "n": 0
+    }
+  ],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1116",
+      "titulo": "Programa Local Núcleo Incubador Campus Serra – NIS",
+      "tipo": "Programa",
+      "ano": "2017",
+      "n": 220,
+      "funcoes": [
+        "MEMBRO DE COMITÊ GESTOR",
+        "ORGANIZADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "1261",
+      "titulo": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedora",
+      "tipo": "Curso",
+      "ano": "2017",
+      "n": 84,
+      "funcoes": [
+        "AVALIADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "1883",
+      "titulo": "Inova Serra",
+      "tipo": "Programa",
+      "ano": "2018",
+      "n": 6,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "730",
+      "titulo": "Câmara de Assessoramento em Gestão e Tecnologia do Núcleo Incubador do campus Serra do Ifes",
+      "tipo": "Projeto",
+      "ano": "2016",
+      "n": 9,
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)"
+      ]
+    }
+  ]
+}

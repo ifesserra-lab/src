@@ -1,0 +1,51 @@
+{
+  "acao_id": "108",
+  "Processo nº": "23158.000916/2013-02",
+  "Título ação": "Curso de Auxiliar Administrativo",
+  "Natureza": "Extensão",
+  "Tipo ação": "Curso",
+  "Coordenador(a)": "Elizangela Campos da Rosa Broetto",
+  "Fomento": "PRONATEC",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "",
+  "Grande área conhecimento (inferida)": "Ciências Sociais Aplicadas",
+  "Área temática principal": "",
+  "Área temática principal (inferida)": "Trabalho",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "",
+  "Data de cadastro": "14/10/2013",
+  "Resumo": "Atuar nos processos administrativos da empresa, executando atividades de apoio nas áreas de recursos humanos, finanças, produção, logística e vendas, observando os procedimentos operacionais e a legislação.",
+  "Campus": "Serra",
+  "total_participacoes": 74,
+  "publico_alvo_total": 74,
+  "atividades": [
+    {
+      "atividade_id": "158",
+      "numero": "001",
+      "atividade": "Auxiliar Administrativo",
+      "publico": 20,
+      "aprovados": 20,
+      "certificados": 20,
+      "equipe": 0
+    },
+    {
+      "atividade_id": "159",
+      "numero": "002",
+      "atividade": "Auxiliar Administrativo",
+      "publico": 29,
+      "aprovados": 29,
+      "certificados": 29,
+      "equipe": 0
+    },
+    {
+      "atividade_id": "518",
+      "numero": "003",
+      "atividade": "Auxiliar Administrativo",
+      "publico": 25,
+      "aprovados": 25,
+      "certificados": 25,
+      "equipe": 0
+    }
+  ],
+  "equipe_execucao": []
+}

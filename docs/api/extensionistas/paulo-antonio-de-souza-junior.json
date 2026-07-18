@@ -1,0 +1,24 @@
+{
+  "slug": "paulo-antonio-de-souza-junior",
+  "nome": "Paulo Antonio de Souza Junior",
+  "resumo_ia": "Atuou como palestrante na ação 'Física ao Alcance de Todos' em 2020, contribuindo com sua expertise na área de física para a comunidade externa.",
+  "anos": [
+    "2020"
+  ],
+  "funcoes": [
+    "PALESTRANTE"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "2932",
+      "titulo": "Física ao Alcance de Todos",
+      "tipo": "Projeto",
+      "ano": "2020",
+      "n": 10,
+      "funcoes": [
+        "PALESTRANTE"
+      ]
+    }
+  ]
+}

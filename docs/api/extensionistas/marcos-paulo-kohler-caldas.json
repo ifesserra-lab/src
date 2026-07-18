@@ -1,0 +1,60 @@
+{
+  "slug": "marcos-paulo-kohler-caldas",
+  "nome": "Marcos Paulo Kohler Caldas",
+  "resumo_ia": "Atuou como professor e orientador em cursos de eletricista instalador predial de baixa tensão, coordenou o projeto Conectando Talentos: Robótica e Programação no IFES-Serra em 2024 e integrou o comitê gestor do Asas para o Futuro em 2025.",
+  "anos": [
+    "2022",
+    "2023",
+    "2024",
+    "2025"
+  ],
+  "funcoes": [
+    "MEMBRO DE COMITÊ GESTOR",
+    "ORIENTADOR(A)",
+    "PROFESSOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "4209",
+      "titulo": "ELETRICISTA INSTALADOR PREDIAL DE BAIXA TENSÃO",
+      "tipo": "Curso",
+      "ano": "2022",
+      "n": 26,
+      "funcoes": [
+        "PROFESSOR(A)"
+      ]
+    },
+    {
+      "acao_id": "4820",
+      "titulo": "Mulheres Mil – Eletricista Instalador Predial em Baixa Tensão",
+      "tipo": "Curso",
+      "ano": "2023",
+      "n": 74,
+      "funcoes": [
+        "ORIENTADOR(A)",
+        "PROFESSOR(A)"
+      ]
+    },
+    {
+      "acao_id": "5086",
+      "titulo": "Conectando Talentos: Robótica e Programação no IFES-Serra",
+      "tipo": "Projeto",
+      "ano": "2024",
+      "n": 218,
+      "funcoes": [
+        "MEMBRO DE COMITÊ GESTOR"
+      ]
+    },
+    {
+      "acao_id": "5645",
+      "titulo": "Asas para o Futuro - Eletricista Instalador Predial em Baixa Tensão",
+      "tipo": "Curso",
+      "ano": "2025",
+      "n": 36,
+      "funcoes": [
+        "PROFESSOR(A)"
+      ]
+    }
+  ]
+}

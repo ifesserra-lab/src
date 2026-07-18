@@ -1,0 +1,39 @@
+{
+  "acao_id": "986",
+  "Processo nº": "23158.000731/2016-32",
+  "Título ação": "Energia Solar Fotovoltaica",
+  "Natureza": "Extensão",
+  "Tipo ação": "Curso",
+  "Coordenador(a)": "Giovani Zanetti Neto",
+  "Fomento": "PAEX-IFES",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "Engenharias",
+  "Área temática principal": "Tecnologia e Produção",
+  "Relatório aprovado": "Não",
+  "Data último relatório": "",
+  "Data de cadastro": "30/01/2017",
+  "Resumo": "O curso de extensão Energia Solar Fotovoltaica tem por objetivo abordar fundamento teóricos e aspectos práticos do uso da energia solar para geração de energia elétrica. O curso se organiza em quatro módulos que compreendem as características de painéis solares fotovoltaicos, os sistemas solares fotovoltaicos, os processos físicos e químicos envolvidos e aspectos práticos relacionados ao projeto, instalação e manutenção de plantas solares.",
+  "Campus": "Serra",
+  "total_participacoes": 26,
+  "publico_alvo_total": 25,
+  "atividades": [
+    {
+      "atividade_id": "2570",
+      "numero": "001",
+      "atividade": "Energia Solar Fotovoltaica",
+      "publico": 25,
+      "aprovados": 25,
+      "certificados": 25,
+      "equipe": 1
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Giovani Zanetti Neto",
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ],
+      "vinculo": "Servidor"
+    }
+  ]
+}

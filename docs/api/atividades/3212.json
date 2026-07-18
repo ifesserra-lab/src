@@ -1,0 +1,42 @@
+{
+  "atividade_id": "3212",
+  "numero": "003",
+  "atividade": "Banca de Apresentação do Trabalho Final de Curso do aluno Carlos de Melo Batista",
+  "acao_id": "912",
+  "acao_titulo": "Curso de Pré-Incubação de Empreendimentos – modalidade Residência",
+  "processo": "23158.000537/2015-76",
+  "coordenador_acao": "Emmanuel Marques Silva",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Marcos Simão Guimarães",
+      "funcao": "AVALIADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Felipe Frechiani de Oliveira",
+      "funcao": "AVALIADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Emerson Atílio Birchler",
+      "funcao": "AVALIADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Karin Satie Komati",
+      "funcao": "AVALIADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Emmanuel Marques Silva",
+      "funcao": "AVALIADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

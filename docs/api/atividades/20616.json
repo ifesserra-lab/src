@@ -1,0 +1,24 @@
+{
+  "atividade_id": "20616",
+  "numero": "004",
+  "atividade": "Minicurso \"Manufatura Subtrativa\"",
+  "acao_id": "5641",
+  "acao_titulo": "LabMaker 4.0: capacitando professores para a cultura maker e tecnologias da Indústria 4.0",
+  "processo": "23158.001715/2025-58",
+  "coordenador_acao": "Rosiane Ribeiro Rocha",
+  "publico_alvo": {
+    "total": 11,
+    "aprovados": 11,
+    "certificados": 11,
+    "situacao": {
+      "APROVADO": 11
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Vitor Lopes Barbosa",
+      "funcao": "MINISTRANTE",
+      "vinculo": "Aluno"
+    }
+  ]
+}

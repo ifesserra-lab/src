@@ -1,0 +1,43 @@
+{
+  "slug": "daniel-ribeiro-trindade",
+  "nome": "Daniel Ribeiro Trindade",
+  "resumo_ia": "Coordenou o projeto ALGolfSwing: Análise de Desempenho Esportivo para Golf em 2018 e atuou como orientador no mesmo projeto. Também participou como organizador na Maratona de Programação em 2018.",
+  "anos": [
+    "2018"
+  ],
+  "funcoes": [
+    "ORGANIZADOR(A)",
+    "ORIENTADOR(A)"
+  ],
+  "acoes_coordenadas": [
+    {
+      "acao_id": "1831",
+      "titulo": "ALGolfSwing: Análise de Desempenho Esportivo para Golf",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 2
+    }
+  ],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1816",
+      "titulo": "Maratona de Programação",
+      "tipo": "Evento",
+      "ano": "2018",
+      "n": 49,
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "1831",
+      "titulo": "ALGolfSwing: Análise de Desempenho Esportivo para Golf",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 2,
+      "funcoes": [
+        "ORIENTADOR(A)"
+      ]
+    }
+  ]
+}

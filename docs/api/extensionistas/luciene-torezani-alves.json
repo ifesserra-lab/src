@@ -1,0 +1,24 @@
+{
+  "slug": "luciene-torezani-alves",
+  "nome": "Luciene Torezani Alves",
+  "resumo_ia": "Desenvolveu atividades de apoio técnico no LAMPEX – Laboratório Modelo de Práticas de Extensão em 2020, auxiliando na execução de projetos de extensão.",
+  "anos": [
+    "2020"
+  ],
+  "funcoes": [
+    "APOIO TÉCNICO"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "APOIO TÉCNICO"
+      ]
+    }
+  ]
+}

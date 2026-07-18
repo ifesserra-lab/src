@@ -1,0 +1,120 @@
+{
+  "acao_id": "6059",
+  "Processo nº": "23158.000710/2026-99",
+  "Título ação": "Oficinas e Tutorias de Apoio às Disciplinas Curriculares na Perspectiva Inclusiva – NAPNE",
+  "Natureza": "Ensino",
+  "Tipo ação": "Projeto",
+  "Coordenador(a)": "Nauvia Maria Cancelieri",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "Linguística, Letras e Artes",
+  "Área temática principal": "",
+  "Área temática principal (inferida)": "Educação",
+  "Relatório aprovado": "Não",
+  "Data último relatório": "",
+  "Data de cadastro": "20/05/2026",
+  "Resumo": "A ação “Oficinas e Tutorias de Apoio às Disciplinas Curriculares na Perspectiva Inclusiva –\nNAPNE” destina-se aos estudantes público-alvo da Educação Especial acompanhados pelo\nnúcleo, incluindo aqueles com deficiência intelectual, Transtorno do Espectro Autista (TEA),\ndeficiência visual, auditiva, física, altas habilidades/superdotação e dupla excepcionalidade\n(2e), conforme as necessidades educacionais específicas identificadas. A proposta\nfundamenta-se na oferta de apoio educacional especializado, na perspectiva da\ncomplementação e suplementação do processo de ensino-aprendizagem, sendo subsidiada\npela atuação articulada do professor de AEE, dos professores regentes e dos tutores. A\ncomplementação visa apoiar a superação de barreiras à aprendizagem nas disciplinas da área\nde exatas e técnicas, por meio da retomada de conteúdos estruturantes, adaptação de\nestratégias pedagógicas, flexibilização de procedimentos e utilização de recursos de\nacessibilidade. A suplementação contempla o enriquecimento curricular, o aprofundamento\nconceitual e a ampliação de desafios acadêmicos, favorecendo o desenvolvimento de\npotencialidades e a ampliação do repertório formativo. A ação será organizada em dois\nformatos: tutoria, com atendimento individualizado ou em pequenos grupos, e oficinas\ncoletivas com participação de até 20 estudantes, utilizando metodologias diferenciadas e\nestratégias inclusivas, com vistas à promoção da equidade, da permanência e do êxito\nacadêmico. Adicionalmente, serão desenvolvidas práticas voltadas ao fortalecimento\nsocioemocional, por meio de oficinas como atenção plena, arteterapia e musicoterapia,\nvisando à autorregulação, à melhoria da concentração e ao apoio ao processo de\naprendizagem.",
+  "Campus": "Serra",
+  "total_participacoes": 9,
+  "publico_alvo_total": 0,
+  "atividades": [
+    {
+      "atividade_id": "22305",
+      "numero": "001",
+      "atividade": "Oficinas e Tutorias de Apoio às Disciplinas Curriculares na Perspectiva Inclusiva – NAPNE",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 2
+    },
+    {
+      "atividade_id": "22306",
+      "numero": "002",
+      "atividade": "Oficina de Apoio às Disciplinas Curriculares com Articulação entre Professor Regente e Professor de AEE",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 3
+    },
+    {
+      "atividade_id": "22307",
+      "numero": "003",
+      "atividade": "Oficinas Pedagógicas Especializadas – Professor AEE",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "22311",
+      "numero": "007",
+      "atividade": "Oficina de Arteterapia",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 2
+    },
+    {
+      "atividade_id": "22312",
+      "numero": "008",
+      "atividade": "Oficina de Musicoterapia",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 1
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Alessandra Aguiar Vilarinho",
+      "funcoes": [
+        "PROFESSOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Lucas Nascimento Pirajá Carvalho",
+      "funcoes": [
+        "TUTOR(A)"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Nauvia Maria Cancelieri",
+      "funcoes": [
+        "COORDENADOR(A)",
+        "PROFESSOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Pedro Henrique Santos Modenesi",
+      "funcoes": [
+        "PROFESSOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Ryan Santos Gois",
+      "funcoes": [
+        "TUTOR(A)"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Tania Mara Luiz dos Santos",
+      "funcoes": [
+        "ORGANIZADOR(A)",
+        "PROFESSOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Tatiane Policário Chagas",
+      "funcoes": [
+        "PROFESSOR(A)"
+      ],
+      "vinculo": "Servidor"
+    }
+  ]
+}

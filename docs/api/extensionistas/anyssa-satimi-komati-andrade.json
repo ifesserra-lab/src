@@ -1,0 +1,40 @@
+{
+  "slug": "anyssa-satimi-komati-andrade",
+  "nome": "Anyssa Satimi Komati Andrade",
+  "resumo_ia": "Atuou como apoio técnico, extensionista e organizadora da equipe do 'LAMPEX – Laboratório Modelo de Práticas de Extensão' em 2020 e como colaboradora no projeto 'Conectando Talentos: Robótica e Programação no IFES-Serra' em 2024, envolvendo-se em múltiplas frentes de extensão.",
+  "anos": [
+    "2020",
+    "2024"
+  ],
+  "funcoes": [
+    "APOIO TÉCNICO",
+    "COLABORADOR(A)",
+    "EXTENSIONISTA",
+    "ORGANIZADOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "APOIO TÉCNICO",
+        "EXTENSIONISTA",
+        "ORGANIZADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "5086",
+      "titulo": "Conectando Talentos: Robótica e Programação no IFES-Serra",
+      "tipo": "Projeto",
+      "ano": "2024",
+      "n": 218,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    }
+  ]
+}

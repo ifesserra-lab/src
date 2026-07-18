@@ -1,0 +1,19 @@
+{
+  "atividade_id": "457",
+  "numero": "001",
+  "atividade": "Calibração de Instrumentos",
+  "acao_id": "318",
+  "acao_titulo": "Curso de Calibração de Instrumentos",
+  "processo": "23158.000816/2014-59",
+  "coordenador_acao": "Marco Antônio de Souza Leite Cuadros",
+  "publico_alvo": {
+    "total": 20,
+    "aprovados": 19,
+    "certificados": 19,
+    "situacao": {
+      "APROVADO": 19,
+      "REPROVADO": 1
+    }
+  },
+  "equipe_execucao": []
+}

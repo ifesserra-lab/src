@@ -1,0 +1,108 @@
+{
+  "slug": "karin-satie-komati",
+  "nome": "Karin Satie Komati",
+  "resumo_ia": "Desenvolveu atividades como assessora, membro de comitê gestor, organizadora e instrutora no Núcleo Incubador Campus Serra (NIS) entre 2016 e 2017, além de coordenar e colaborar em projetos como o LAMPEX (2020) e o LabMaker Serra (2023), e integrar comitês gestores em 2024.",
+  "anos": [
+    "2016",
+    "2017",
+    "2020",
+    "2023",
+    "2024"
+  ],
+  "funcoes": [
+    "APOIO TÉCNICO",
+    "ASSESSOR(A)",
+    "AUXILIAR TÉCNICO",
+    "AVALIADOR(A)",
+    "COLABORADOR(A)",
+    "COORDENADOR(A) TÉCNICO-CIENTÍFICO",
+    "INSTRUTOR(A)",
+    "MEMBRO DE COMITÊ GESTOR",
+    "MENTOR(A)",
+    "ORGANIZADOR(A)",
+    "ORIENTADOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1116",
+      "titulo": "Programa Local Núcleo Incubador Campus Serra – NIS",
+      "tipo": "Programa",
+      "ano": "2017",
+      "n": 220,
+      "funcoes": [
+        "ASSESSOR(A)",
+        "MEMBRO DE COMITÊ GESTOR",
+        "ORGANIZADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "1261",
+      "titulo": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedora",
+      "tipo": "Curso",
+      "ano": "2017",
+      "n": 84,
+      "funcoes": [
+        "COLABORADOR(A)",
+        "INSTRUTOR(A)"
+      ]
+    },
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "APOIO TÉCNICO",
+        "COLABORADOR(A)",
+        "COORDENADOR(A) TÉCNICO-CIENTÍFICO",
+        "MENTOR(A)",
+        "ORGANIZADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "4655",
+      "titulo": "LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão",
+      "tipo": "Programa",
+      "ano": "2023",
+      "n": 558,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "5086",
+      "titulo": "Conectando Talentos: Robótica e Programação no IFES-Serra",
+      "tipo": "Projeto",
+      "ano": "2024",
+      "n": 218,
+      "funcoes": [
+        "MEMBRO DE COMITÊ GESTOR"
+      ]
+    },
+    {
+      "acao_id": "708",
+      "titulo": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedoras",
+      "tipo": "Curso",
+      "ano": "2016",
+      "n": 77,
+      "funcoes": [
+        "AUXILIAR TÉCNICO",
+        "AVALIADOR(A)",
+        "INSTRUTOR(A)",
+        "ORIENTADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "912",
+      "titulo": "Curso de Pré-Incubação de Empreendimentos – modalidade Residência",
+      "tipo": "Curso",
+      "ano": "2016",
+      "n": 21,
+      "funcoes": [
+        "AVALIADOR(A)"
+      ]
+    }
+  ]
+}

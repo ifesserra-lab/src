@@ -1,0 +1,59 @@
+{
+  "atividade_id": "6522",
+  "numero": "005",
+  "atividade": "Minicurso: Introdução ao Arduino e Microcontroladores",
+  "acao_id": "2021",
+  "acao_titulo": "Física ao Alcance de Todos",
+  "processo": "23158.001115/2018-61",
+  "coordenador_acao": "Rosilene de Sá Ribeiro",
+  "publico_alvo": {
+    "total": 30,
+    "aprovados": 30,
+    "certificados": 30,
+    "situacao": {
+      "APROVADO": 30
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Renan dos Santos Siqueira",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Leandro Melo de Sá",
+      "funcao": "COORDENADOR(A) ADJUNTO(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Arthur de Souza Silva Mayerhofer",
+      "funcao": "MONITOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Isabelle Pereira Souza Dias",
+      "funcao": "MONITOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Junior Aguilar Amorim",
+      "funcao": "MONITOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Faye Manski Queiroz",
+      "funcao": "MONITOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Rosilene de Sá Ribeiro",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Richard Junior Manuel Godinez Tello",
+      "funcao": "INSTRUTOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

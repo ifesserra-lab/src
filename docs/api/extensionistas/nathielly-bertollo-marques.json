@@ -1,0 +1,24 @@
+{
+  "slug": "nathielly-bertollo-marques",
+  "nome": "Nathielly Bertollo Marques",
+  "resumo_ia": "Participou como professora na equipe do projeto 'O IFES é o meu lugar' em 2019, integrando ações de extensão voltadas à comunidade acadêmica.",
+  "anos": [
+    "2019"
+  ],
+  "funcoes": [
+    "PROFESSOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "2591",
+      "titulo": "O IFES é o meu lugar",
+      "tipo": "Curso",
+      "ano": "2019",
+      "n": 106,
+      "funcoes": [
+        "PROFESSOR(A)"
+      ]
+    }
+  ]
+}

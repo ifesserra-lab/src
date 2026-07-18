@@ -1,0 +1,47 @@
+{
+  "slug": "leticia-comissario-da-silva",
+  "nome": "Leticia Comissario da Silva",
+  "resumo_ia": "Participou como aluna bolsista no projeto LabMaker Serra em 2023 e como bolsista e ministrante nos projetos LabMaker 4.0 em 2025 e Jovens Inventores em 2025.",
+  "anos": [
+    "2023",
+    "2025"
+  ],
+  "funcoes": [
+    "ALUNO(A) BOLSISTA",
+    "MINISTRANTE"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "4655",
+      "titulo": "LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão",
+      "tipo": "Programa",
+      "ano": "2023",
+      "n": 558,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ]
+    },
+    {
+      "acao_id": "5641",
+      "titulo": "LabMaker 4.0: capacitando professores para a cultura maker e tecnologias da Indústria 4.0",
+      "tipo": "Projeto",
+      "ano": "2025",
+      "n": 73,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA",
+        "MINISTRANTE"
+      ]
+    },
+    {
+      "acao_id": "5677",
+      "titulo": "Jovens Inventores: O poder da Tecnologia Maker no Desenvolvimento Social",
+      "tipo": "Projeto",
+      "ano": "2025",
+      "n": 48,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ]
+    }
+  ]
+}

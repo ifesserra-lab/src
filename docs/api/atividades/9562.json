@@ -1,0 +1,54 @@
+{
+  "atividade_id": "9562",
+  "numero": "001",
+  "atividade": "Ambientação Pedagógica: Didática e Técnicas de Ensino.",
+  "acao_id": "2773",
+  "acao_titulo": "Ambientação Pedagógica: Didática e Técnicas de Ensino.",
+  "processo": "23158.001963/2019-05",
+  "coordenador_acao": "Bruno Ramos Gonzaga",
+  "publico_alvo": {
+    "total": 6,
+    "aprovados": 6,
+    "certificados": 6,
+    "situacao": {
+      "APROVADO": 6
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Cláudia Ribeiro de Moraes",
+      "funcao": "PROFESSOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Emmanuel Marques Silva",
+      "funcao": "COORDENADOR(A) ADJUNTO(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Priscila dos Santos Moreira",
+      "funcao": "PROFESSOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Richard Junior Manuel Godinez Tello",
+      "funcao": "PALESTRANTE",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Wagner Kirmse Caldas",
+      "funcao": "PROFESSOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Tatiane Policário Chagas",
+      "funcao": "PROFESSOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Bruno Ramos Gonzaga",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

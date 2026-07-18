@@ -1,0 +1,34 @@
+{
+  "atividade_id": "20747",
+  "numero": "005",
+  "atividade": "Do Sensorial ao Tecnológico — Extração de Óleos Essenciais por Arraste a Vapor",
+  "acao_id": "4754",
+  "acao_titulo": "QUÍMICA VERDE APLICADA: oficinas e workshops",
+  "processo": "23158.002680/2023-11",
+  "coordenador_acao": "Nauvia Maria Cancelieri",
+  "publico_alvo": {
+    "total": 24,
+    "aprovados": 24,
+    "certificados": 24,
+    "situacao": {
+      "APROVADO": 24
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Gabriel Santos da Silva Valbuza",
+      "funcao": "MONITOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Kauã Alexandre Bernardes",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Nauvia Maria Cancelieri",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

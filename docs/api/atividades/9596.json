@@ -1,0 +1,29 @@
+{
+  "atividade_id": "9596",
+  "numero": "012",
+  "atividade": "Minicurso: Ideias para brincar: Programando com Arduino e Raspberry Pi na Semana Nacional de Ciência e Tecnologia 2019",
+  "acao_id": "2021",
+  "acao_titulo": "Física ao Alcance de Todos",
+  "processo": "23158.001115/2018-61",
+  "coordenador_acao": "Rosilene de Sá Ribeiro",
+  "publico_alvo": {
+    "total": 29,
+    "aprovados": 29,
+    "certificados": 27,
+    "situacao": {
+      "APROVADO": 29
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Rosilene de Sá Ribeiro",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Richard Junior Manuel Godinez Tello",
+      "funcao": "PALESTRANTE",
+      "vinculo": "Servidor"
+    }
+  ]
+}

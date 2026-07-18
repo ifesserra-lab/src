@@ -1,0 +1,49 @@
+{
+  "acao_id": "916",
+  "Processo nº": "23150.000715/2016-11",
+  "Título ação": "Inglês Instrumental para leitura",
+  "Natureza": "Ensino",
+  "Tipo ação": "Curso",
+  "Coordenador(a)": "Rosângela Guimarães Seba",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "Linguística, Letras e Artes",
+  "Área temática principal": "",
+  "Área temática principal (inferida)": "Educação",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "",
+  "Data de cadastro": "08/11/2016",
+  "Resumo": "O Curso de Inglês Instrumental para leitura na modalidade presencial capacita os participantes para ler e compreender textos técnicos autênticos em inglês nas áreas de Automação Industrial e de Informática com finalidade acadêmica e profissional nos diferentes niveis de compreensão.",
+  "Campus": "Serra",
+  "total_participacoes": 29,
+  "publico_alvo_total": 27,
+  "atividades": [
+    {
+      "atividade_id": "2134",
+      "numero": "001",
+      "atividade": "Inglês Instrumental para leitura – módulo 1",
+      "publico": 16,
+      "aprovados": 16,
+      "certificados": 16,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "2135",
+      "numero": "002",
+      "atividade": "Inglês Instrumental para Automação Industrial – módulo 1",
+      "publico": 11,
+      "aprovados": 11,
+      "certificados": 11,
+      "equipe": 1
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Rosângela Guimarães Seba",
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ],
+      "vinculo": "Servidor"
+    }
+  ]
+}

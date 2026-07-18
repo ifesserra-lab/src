@@ -1,0 +1,24 @@
+{
+  "slug": "renzo-gomes-avance",
+  "nome": "Renzo Gomes Avance",
+  "resumo_ia": "Prestou apoio técnico ao LAMPEX – Laboratório Modelo de Práticas de Extensão em 2020, contribuindo com atividades extensionistas desenvolvidas pela equipe.",
+  "anos": [
+    "2020"
+  ],
+  "funcoes": [
+    "APOIO TÉCNICO"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "APOIO TÉCNICO"
+      ]
+    }
+  ]
+}

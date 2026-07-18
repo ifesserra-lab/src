@@ -1,0 +1,39 @@
+{
+  "atividade_id": "19329",
+  "numero": "004",
+  "atividade": "1 Oficina de sabão com visão sustentável.",
+  "acao_id": "4754",
+  "acao_titulo": "QUÍMICA VERDE APLICADA: oficinas e workshops",
+  "processo": "23158.002680/2023-11",
+  "coordenador_acao": "Nauvia Maria Cancelieri",
+  "publico_alvo": {
+    "total": 34,
+    "aprovados": 34,
+    "certificados": 34,
+    "situacao": {
+      "APROVADO": 34
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Akilanny Silva Cruz",
+      "funcao": "MONITOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Angelo dos Santos Teixeira",
+      "funcao": "MONITOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Kauã Alexandre Bernardes",
+      "funcao": "MONITOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Victor Ramos Dessaune",
+      "funcao": "MONITOR(A)",
+      "vinculo": "Aluno"
+    }
+  ]
+}

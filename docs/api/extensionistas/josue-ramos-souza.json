@@ -1,0 +1,26 @@
+{
+  "slug": "josue-ramos-souza",
+  "nome": "Josué Ramos Souza",
+  "resumo_ia": "Extensionista e monitor do LAMPEX – Laboratório Modelo de Práticas de Extensão em 2020, atuando em ações coordenadas e de monitoria no projeto.",
+  "anos": [
+    "2020"
+  ],
+  "funcoes": [
+    "EXTENSIONISTA",
+    "MONITOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "EXTENSIONISTA",
+        "MONITOR(A)"
+      ]
+    }
+  ]
+}

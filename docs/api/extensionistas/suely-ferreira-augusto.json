@@ -1,0 +1,24 @@
+{
+  "slug": "suely-ferreira-augusto",
+  "nome": "Suely Ferreira Augusto",
+  "resumo_ia": "Colaborou na equipe do projeto 'Inova Serra' em 2018.",
+  "anos": [
+    "2018"
+  ],
+  "funcoes": [
+    "COLABORADOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1883",
+      "titulo": "Inova Serra",
+      "tipo": "Programa",
+      "ano": "2018",
+      "n": 6,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    }
+  ]
+}

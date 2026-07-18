@@ -1,0 +1,37 @@
+{
+  "atividade_id": "5629",
+  "numero": "001",
+  "atividade": "Mutual Life: Um aplicativo para seguros colaborativos",
+  "acao_id": "1786",
+  "acao_titulo": "Mutual Life: Um aplicativo para seguros colaborativos",
+  "processo": "23158.001579/2017-96",
+  "coordenador_acao": "Paulo Sérgio dos Santos Júnior",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Yago Souza Santos",
+      "funcao": "ALUNO(A) BOLSISTA",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Maria Luiza Guimaraes Silva",
+      "funcao": "ALUNO(A) BOLSISTA",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Rodrigo Fernandes Calhau",
+      "funcao": "COORDENADOR(A) ADJUNTO(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Paulo Sérgio dos Santos Júnior",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

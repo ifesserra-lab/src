@@ -1,0 +1,38 @@
+{
+  "slug": "lucas-eduardo-da-silva-pacheco",
+  "nome": "Lucas Eduardo da Silva Pacheco",
+  "resumo_ia": "Atuou como aluno(a) bolsista e voluntário em 2020 no projeto IFES Contra a Covid-19 e como extensionista em 2022 no projeto Física ao Alcance de Todos, envolvendo-se em iniciativas de extensão voltadas à ciência e à saúde.",
+  "anos": [
+    "2020",
+    "2022"
+  ],
+  "funcoes": [
+    "ALUNO(A) BOLSISTA",
+    "ALUNO(A) VOLUNTARIO",
+    "EXTENSIONISTA"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "3139",
+      "titulo": "IFES Contra a Covid-19",
+      "tipo": "Projeto",
+      "ano": "2020",
+      "n": 9,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA",
+        "ALUNO(A) VOLUNTARIO"
+      ]
+    },
+    {
+      "acao_id": "3768",
+      "titulo": "Física ao Alcance de Todos",
+      "tipo": "Projeto",
+      "ano": "2022",
+      "n": 11,
+      "funcoes": [
+        "EXTENSIONISTA"
+      ]
+    }
+  ]
+}

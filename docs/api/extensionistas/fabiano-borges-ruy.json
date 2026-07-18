@@ -1,0 +1,56 @@
+{
+  "slug": "fabiano-borges-ruy",
+  "nome": "Fabiano Borges Ruy",
+  "resumo_ia": "Coordenou o projeto I Am Here: Registro de Frequência por Reconhecimento Facial em 2019, atuou como membro do comitê gestor do Programa Local Núcleo Incubador Campus Serra – NIS em 2017 e como expositor no LEDS – Laboratório de Extensão em Desenvolvimento de Soluções em 2016.",
+  "anos": [
+    "2016",
+    "2017",
+    "2019"
+  ],
+  "funcoes": [
+    "COORDENADOR(A)",
+    "EXPOSITOR(A)",
+    "MEMBRO DE COMITÊ GESTOR"
+  ],
+  "acoes_coordenadas": [
+    {
+      "acao_id": "2823",
+      "titulo": "I Am Here: Registro de Frequência por Reconhecimento Facial",
+      "tipo": "Projeto",
+      "ano": "2019",
+      "n": 6
+    }
+  ],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1116",
+      "titulo": "Programa Local Núcleo Incubador Campus Serra – NIS",
+      "tipo": "Programa",
+      "ano": "2017",
+      "n": 220,
+      "funcoes": [
+        "MEMBRO DE COMITÊ GESTOR"
+      ]
+    },
+    {
+      "acao_id": "2823",
+      "titulo": "I Am Here: Registro de Frequência por Reconhecimento Facial",
+      "tipo": "Projeto",
+      "ano": "2019",
+      "n": 6,
+      "funcoes": [
+        "COORDENADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "901",
+      "titulo": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+      "tipo": "Programa",
+      "ano": "2016",
+      "n": 104,
+      "funcoes": [
+        "EXPOSITOR(A)"
+      ]
+    }
+  ]
+}

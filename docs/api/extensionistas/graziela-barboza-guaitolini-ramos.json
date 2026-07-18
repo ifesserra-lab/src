@@ -1,0 +1,38 @@
+{
+  "slug": "graziela-barboza-guaitolini-ramos",
+  "nome": "Graziela Barboza Guaitolini Ramos",
+  "resumo_ia": "Atuou como professora no projeto Mulheres na Ciência em 2018 e como organizadora e orientadora no LAMPEX – Laboratório Modelo de Práticas de Extensão em 2020.",
+  "anos": [
+    "2018",
+    "2020"
+  ],
+  "funcoes": [
+    "ORGANIZADOR(A)",
+    "ORIENTADOR(A)",
+    "PROFESSOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "2082",
+      "titulo": "Mulheres na Ciência",
+      "tipo": "Curso",
+      "ano": "2018",
+      "n": 53,
+      "funcoes": [
+        "PROFESSOR(A)"
+      ]
+    },
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "ORGANIZADOR(A)",
+        "ORIENTADOR(A)"
+      ]
+    }
+  ]
+}

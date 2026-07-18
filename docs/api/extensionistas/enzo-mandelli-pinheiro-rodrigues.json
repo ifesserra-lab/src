@@ -1,0 +1,39 @@
+{
+  "slug": "enzo-mandelli-pinheiro-rodrigues",
+  "nome": "Enzo Mandelli Pinheiro Rodrigues",
+  "resumo_ia": "Participou como aluno bolsista, voluntário e ministrante no LabMaker Serra em 2023, além de atuar como aluno voluntário no projeto Jovens Inventores em 2025.",
+  "anos": [
+    "2023",
+    "2025"
+  ],
+  "funcoes": [
+    "ALUNO(A) BOLSISTA",
+    "ALUNO(A) VOLUNTARIO",
+    "MINISTRANTE"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "4655",
+      "titulo": "LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão",
+      "tipo": "Programa",
+      "ano": "2023",
+      "n": 558,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA",
+        "ALUNO(A) VOLUNTARIO",
+        "MINISTRANTE"
+      ]
+    },
+    {
+      "acao_id": "5677",
+      "titulo": "Jovens Inventores: O poder da Tecnologia Maker no Desenvolvimento Social",
+      "tipo": "Projeto",
+      "ano": "2025",
+      "n": 48,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ]
+    }
+  ]
+}

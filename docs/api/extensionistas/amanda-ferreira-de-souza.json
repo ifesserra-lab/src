@@ -1,0 +1,24 @@
+{
+  "slug": "amanda-ferreira-de-souza",
+  "nome": "Amanda Ferreira de Souza",
+  "resumo_ia": "Atuou como aluna voluntária na equipe 'Maratona de Programação' em 2018, participando de atividades de extensão relacionadas à programação e competição.",
+  "anos": [
+    "2018"
+  ],
+  "funcoes": [
+    "ALUNO(A) VOLUNTARIO"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1816",
+      "titulo": "Maratona de Programação",
+      "tipo": "Evento",
+      "ano": "2018",
+      "n": 49,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ]
+    }
+  ]
+}

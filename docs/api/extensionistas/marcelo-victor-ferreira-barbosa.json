@@ -1,0 +1,48 @@
+{
+  "slug": "marcelo-victor-ferreira-barbosa",
+  "nome": "Marcelo Victor Ferreira Barbosa",
+  "resumo_ia": "Atuou como expositor no projeto Física ao Alcance de Todos em 2018, aluno voluntário na Tutoria de Estudos Orientados em 2019 e aluno bolsista no LAMPEX em 2020, contribuindo para ações de divulgação científica, tutoria e práticas extensionistas.",
+  "anos": [
+    "2018",
+    "2019",
+    "2020"
+  ],
+  "funcoes": [
+    "ALUNO(A) BOLSISTA",
+    "ALUNO(A) VOLUNTARIO",
+    "EXPOSITOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "2021",
+      "titulo": "Física ao Alcance de Todos",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 429,
+      "funcoes": [
+        "EXPOSITOR(A)"
+      ]
+    },
+    {
+      "acao_id": "2675",
+      "titulo": "Tutoria de Estudos Orientados: Compartilhando Saberes",
+      "tipo": "Projeto",
+      "ano": "2019",
+      "n": 19,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ]
+    },
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ]
+    }
+  ]
+}

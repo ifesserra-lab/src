@@ -1,0 +1,26 @@
+{
+  "slug": "leandro-everton-alves-costa",
+  "nome": "Leandro Everton Alves Costa",
+  "resumo_ia": "Desenvolveu atividades como apoio técnico e monitor no 'LAMPEX – Laboratório Modelo de Práticas de Extensão' em 2020, atuando em práticas extensionistas no laboratório.",
+  "anos": [
+    "2020"
+  ],
+  "funcoes": [
+    "APOIO TÉCNICO",
+    "MONITOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "APOIO TÉCNICO",
+        "MONITOR(A)"
+      ]
+    }
+  ]
+}

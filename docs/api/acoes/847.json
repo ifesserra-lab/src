@@ -1,0 +1,21 @@
+{
+  "acao_id": "847",
+  "Processo nº": "23158.000568/2016-16",
+  "Título ação": "Sistema de georreferenciamento e detecção de vibração e queda para implementação de uma caixa inteligente de transporte de órgãos.",
+  "Natureza": "Extensão",
+  "Tipo ação": "Projeto",
+  "Coordenador(a)": "Flávio Lopes da Silva",
+  "Fomento": "PAEX-IFES",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "Ciências Exatas e da Terra",
+  "Área temática principal": "Saúde",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "12/06/2017",
+  "Data de cadastro": "19/09/2016",
+  "Resumo": "O presente projeto partiu de necessidades da CNCDO/ES – Central de Notificação,\nCaptação e Distribuição de Órgãos do Espírito Santo – na distribuição de órgãos entre as\nunidades do estado e da região sudeste. Atualmente o transporte de órgãos é feito em\ncaixas térmicas com monitoramento de maneira precária. A unidade emissora do órgão não\npossui nenhuma informação do transporte, devendo confiar plenamente no trabalho do\ntransportador. Na maioria das vezes a caixa térmica não retorna para a unidade de origem,\ngerando transtornos e custos indesejáveis.\nPara melhorar o processo de Distribuição de órgãos é preciso adotar meios para monitorar\no transporte do órgão. A partir dessa necessidade de melhoria, pensou-se na criação de\num sistema que ajudasse nesse ponto, o Sistema de transporte e monitoramento\ngeorreferenciado de córnea.\nEsse sistema fará o monitoramento georreferenciado da caixa transportadora do órgão e\nverificará de forma contínua a vibração da caixa, atendendo as normas do Ministério da\nSaúde. O sistema também irá dispor de uma comunicação via bluetooth com uma versão\npara dispositivos móveis. Dessa forma, o transportador terá acesso a todos os parâmetros\ninternos da caixa. Esse sistema gerará ao final do transporte, relatórios que ajudarão nos\nprocedimentos da CNCDO.",
+  "Campus": "Serra",
+  "total_participacoes": 0,
+  "publico_alvo_total": 0,
+  "atividades": [],
+  "equipe_execucao": []
+}

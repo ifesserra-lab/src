@@ -1,0 +1,24 @@
+{
+  "slug": "michelle-kapiche-alonso",
+  "nome": "Michelle Kapiche Alonso",
+  "resumo_ia": "Como professora, integrou a equipe do projeto 'O IFES é o meu lugar' em 2019, participando de ações extensionistas voltadas à comunidade acadêmica e local.",
+  "anos": [
+    "2019"
+  ],
+  "funcoes": [
+    "PROFESSOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "2591",
+      "titulo": "O IFES é o meu lugar",
+      "tipo": "Curso",
+      "ano": "2019",
+      "n": 106,
+      "funcoes": [
+        "PROFESSOR(A)"
+      ]
+    }
+  ]
+}

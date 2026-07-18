@@ -1,0 +1,97 @@
+{
+  "atividade_id": "21062",
+  "numero": "092",
+  "atividade": "Equipe de organização do SCAI 2025",
+  "acao_id": "3140",
+  "acao_titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+  "processo": "23158.001185/2020-56",
+  "coordenador_acao": "Emmanuel Marques Silva",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Allister Campos Caetano",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Hilário Tomaz Alves de Oliveira",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Richard Junior Manuel Godinez Tello",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Karin Satie Komati",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Enzo Hubner",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Larissa Batista Rangel",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Nicolas Loose",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Caio Cesar Oliva Coronel",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Irlane Schmidt da Silva Alves",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Irene Schmidt da Silva Alves",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Miguel de Menezes Ribeiro",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "David de Assis",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Vivian Moreira Gomes de Lacerda",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Thiago Fabiano",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Matheus Florindo de Deus Barboza Gonçalves",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Thiago Henrique Ezequiel dos Santos",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Aluno"
+    }
+  ]
+}

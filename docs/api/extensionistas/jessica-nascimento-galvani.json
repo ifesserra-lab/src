@@ -1,0 +1,24 @@
+{
+  "slug": "jessica-nascimento-galvani",
+  "nome": "Jéssica Nascimento Galvani",
+  "resumo_ia": "Desempenhou o papel de mentora no Núcleo Incubador Campus Serra – NIS em 2017.",
+  "anos": [
+    "2017"
+  ],
+  "funcoes": [
+    "MENTOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1116",
+      "titulo": "Programa Local Núcleo Incubador Campus Serra – NIS",
+      "tipo": "Programa",
+      "ano": "2017",
+      "n": 220,
+      "funcoes": [
+        "MENTOR(A)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "atividade_id": "12942",
+  "numero": "001",
+  "atividade": "STEM - Experiência de Imersão e desenvolvimento de soluções para a área administrativa de uma empresa siderúrgica",
+  "acao_id": "3643",
+  "acao_titulo": "STEM - Experiência de Imersão e desenvolvimento de soluções para a área administrativa de uma empresa siderúrgica",
+  "processo": "23158.004223/2021-89",
+  "coordenador_acao": "Adelson Pereira do Nascimento",
+  "publico_alvo": {
+    "total": 7,
+    "aprovados": 7,
+    "certificados": 7,
+    "situacao": {
+      "APROVADO": 7
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Éllen Oliveira Silva Neves",
+      "funcao": "ALUNO(A) BOLSISTA",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Adelson Pereira do Nascimento",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

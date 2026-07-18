@@ -1,0 +1,104 @@
+{
+  "acao_id": "2932",
+  "Processo nº": "23158.000471/2020-31",
+  "Título ação": "Física ao Alcance de Todos",
+  "Natureza": "Extensão",
+  "Tipo ação": "Projeto",
+  "Coordenador(a)": "Rosilene de Sá Ribeiro",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "23158.001812/2017-31 - Ifes para todos",
+  "Grande área conhecimento": "",
+  "Grande área conhecimento (inferida)": "Ciências Exatas e da Terra",
+  "Área temática principal": "Educação",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "30/11/2020",
+  "Data de cadastro": "10/03/2020",
+  "Resumo": "Neste projeto iremos montar e organizar a sala 911T localizada no Campus Serra do Ifes com o objetivo de\ncriarmos um espaço não formal de ensino e aprendizagem. Este espaço será inaugurado no decorrer do\nprimeiro semestre de 2020 e contará com vários experimentos de diversas áreas, principalmente de física,\nsendo a maioria dos experimentos automatizados. Este espaço estará aberto para visitações orientadas de\nescolas e grupos externos previamente agendados durante o decorrer do ano, dando apoio também ao\nprojeto Ifes portas abertas, já existente no campus. Além deste espaço que iremos montar e expor aos\nvisitantes, iremos organizar e realizar a SNCT de 2020, onde teremos várias ações como palestras,\nminicursos, e mostra tecnológica. Para os minicursos é desejável que sejam estudantes a partir do\n9oano.Valeressaltar que os experimentos que serão expostos na sala 911T são experimentos construídos\npor alunos do Ifes Serra sob nossa orientação.\nUma mostra permanente do conjunto de experimentos produzidos permitirá a divulgação, capilarização e\napropriação do conhecimento adquirido de forma contínua.\nAlém disso, este projeto possibilita uma estreita interface com a área de computação, através da\nprogramação de microcontroladores que fazem a automação dos experimentos. Por isso ele também\ncontempla ações envolvendo o aprendizado de técnicas de programação do Arduino através de minicursos\nsobre como programar o Arduino e como aplicar esta programação, a qual é semelhante àquela realizada\nem robôs industriais.\nPortanto, o projeto aproxima o jovem estudante e a comunidade em geral da tecnologia empregada no\nmercado de trabalho, servindo, assim, como multiplicador dessa atividade, além de ser mais atrativa aos\nolhos dos jovens, que estão imersos no mundo tecnológico.",
+  "Campus": "Serra",
+  "total_participacoes": 10,
+  "publico_alvo_total": 0,
+  "atividades": [
+    {
+      "atividade_id": "10285",
+      "numero": "001",
+      "atividade": "Física ao Alcance de Todos",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 5
+    },
+    {
+      "atividade_id": "11166",
+      "numero": "002",
+      "atividade": "Palestra: Introdução à Internet das Coisas na Semana Nacional de Ciência e Tecnologia (SNCT 2020) do Campus Serra",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "11167",
+      "numero": "003",
+      "atividade": "Palestra: Ética na Inteligência Artificial na Semana Nacional de Ciência e Tecnologia (SNCT 2020) do Campus Serra",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "11168",
+      "numero": "004",
+      "atividade": "Palestra: Uma Breve História da Inteligência Artificial na Semana Nacional de Ciência e Tecnologia (SNCT 2020) do Campus Serra",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "11169",
+      "numero": "005",
+      "atividade": "Coordenação da Semana Nacional de Ciência e Tecnologia (SNCT 2020) do Campus Serra",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 2
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Jefferson Oliveira Andrade",
+      "funcoes": [
+        "PALESTRANTE"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Leandro Melo de Sá",
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Paulo Antonio de Souza Junior",
+      "funcoes": [
+        "PALESTRANTE"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Richard Junior Manuel Godinez Tello",
+      "funcoes": [
+        "PALESTRANTE"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Rosilene de Sá Ribeiro",
+      "funcoes": [
+        "COORDENADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    }
+  ]
+}

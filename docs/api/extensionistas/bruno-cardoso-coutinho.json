@@ -1,0 +1,82 @@
+{
+  "slug": "bruno-cardoso-coutinho",
+  "nome": "Bruno Cardoso Coutinho",
+  "resumo_ia": "Coordenou projetos e cursos de extensão como 'Incluir & Multiplicar' e 'Informática Básica Para Agentes Multiplicadores' em 2019, além de atuar como coordenador(a) adjunto(a), organizador(a) e coordenador(a) em ações como 'Lampex – Laboratório Modelo de Práticas de Extensão' (2020) e 'Lampex + empreendedor' (2021).",
+  "anos": [
+    "2019",
+    "2020",
+    "2021"
+  ],
+  "funcoes": [
+    "COORDENADOR(A)",
+    "COORDENADOR(A) ADJUNTO(A)",
+    "ORGANIZADOR(A)"
+  ],
+  "acoes_coordenadas": [
+    {
+      "acao_id": "2595",
+      "titulo": "Incluir & Multiplicar",
+      "tipo": "Projeto",
+      "ano": "2019",
+      "n": 5
+    },
+    {
+      "acao_id": "2783",
+      "titulo": "Informática Básica Para Agentes Multiplicadores.",
+      "tipo": "Curso",
+      "ano": "2019",
+      "n": 42
+    },
+    {
+      "acao_id": "3431",
+      "titulo": "Lampex + empreendedor",
+      "tipo": "Projeto",
+      "ano": "2021",
+      "n": 14
+    }
+  ],
+  "participacoes_equipe": [
+    {
+      "acao_id": "2595",
+      "titulo": "Incluir & Multiplicar",
+      "tipo": "Projeto",
+      "ano": "2019",
+      "n": 5,
+      "funcoes": [
+        "COORDENADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "2783",
+      "titulo": "Informática Básica Para Agentes Multiplicadores.",
+      "tipo": "Curso",
+      "ano": "2019",
+      "n": 42,
+      "funcoes": [
+        "COORDENADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "COORDENADOR(A)",
+        "COORDENADOR(A) ADJUNTO(A)",
+        "ORGANIZADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "3431",
+      "titulo": "Lampex + empreendedor",
+      "tipo": "Projeto",
+      "ano": "2021",
+      "n": 14,
+      "funcoes": [
+        "COORDENADOR(A)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "arthur-de-almeida-macedo",
+  "nome": "Arthur de Almeida Macedo",
+  "resumo_ia": "Participou como palestrante na Semana de Controle e Automação em 2016, contribuindo com ações de extensão na área de automação.",
+  "anos": [
+    "2016"
+  ],
+  "funcoes": [
+    "PALESTRANTE"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "899",
+      "titulo": "SEMANA DE CONTROLE E AUTOMAÇÃO",
+      "tipo": "Evento",
+      "ano": "2016",
+      "n": 181,
+      "funcoes": [
+        "PALESTRANTE"
+      ]
+    }
+  ]
+}

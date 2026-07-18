@@ -1,0 +1,28 @@
+{
+  "slug": "isaque-da-silva-santos-de-souza",
+  "nome": "Isaque da Silva Santos de Souza",
+  "resumo_ia": "Desenvolveu atividades como aluno bolsista, designer e instrutor no LAMPEX – Laboratório Modelo de Práticas de Extensão em 2020.",
+  "anos": [
+    "2020"
+  ],
+  "funcoes": [
+    "ALUNO(A) BOLSISTA",
+    "DESIGNER",
+    "INSTRUTOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA",
+        "DESIGNER",
+        "INSTRUTOR(A)"
+      ]
+    }
+  ]
+}

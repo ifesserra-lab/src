@@ -1,0 +1,47 @@
+{
+  "slug": "david-de-assis",
+  "nome": "David de Assis",
+  "resumo_ia": "Atuou como colaborador em 2020 no 'LAMPEX – Laboratório Modelo de Práticas de Extensão', monitor em 2022 no projeto 'Operador de Computador' e monitor em 2023 no curso 'Mulheres Mil – Eletricista Instalador Predial em Baixa Tensão', participando de ações de extensão voltadas à formação técnica e inclusão social.",
+  "anos": [
+    "2020",
+    "2022",
+    "2023"
+  ],
+  "funcoes": [
+    "COLABORADOR(A)",
+    "MONITOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "4210",
+      "titulo": "Operador de Computador",
+      "tipo": "Curso",
+      "ano": "2022",
+      "n": 23,
+      "funcoes": [
+        "MONITOR(A)"
+      ]
+    },
+    {
+      "acao_id": "4820",
+      "titulo": "Mulheres Mil – Eletricista Instalador Predial em Baixa Tensão",
+      "tipo": "Curso",
+      "ano": "2023",
+      "n": 74,
+      "funcoes": [
+        "MONITOR(A)"
+      ]
+    }
+  ]
+}

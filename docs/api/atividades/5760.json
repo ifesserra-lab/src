@@ -1,0 +1,27 @@
+{
+  "atividade_id": "5760",
+  "numero": "001",
+  "atividade": "ALGolfSwing: Análise de Desempenho Esportivo para Golf",
+  "acao_id": "1831",
+  "acao_titulo": "ALGolfSwing: Análise de Desempenho Esportivo para Golf",
+  "processo": "23158.000342/2017-98",
+  "coordenador_acao": "Daniel Ribeiro Trindade",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Daniel Ribeiro Trindade",
+      "funcao": "ORIENTADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Jordan de Oliveira Kau Lyrio",
+      "funcao": "ALUNO(A) VOLUNTARIO",
+      "vinculo": "Aluno"
+    }
+  ]
+}

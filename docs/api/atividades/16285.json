@@ -1,0 +1,24 @@
+{
+  "atividade_id": "16285",
+  "numero": "010",
+  "atividade": "Minicurso “Introdução à Impressão 3D”",
+  "acao_id": "4335",
+  "acao_titulo": "Oficinas do Mundo Maker",
+  "processo": "23158.000421/2023-47",
+  "coordenador_acao": "Rosiane Ribeiro Rocha",
+  "publico_alvo": {
+    "total": 7,
+    "aprovados": 7,
+    "certificados": 7,
+    "situacao": {
+      "APROVADO": 7
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Marcos Simão Guimarães",
+      "funcao": "PROFESSOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

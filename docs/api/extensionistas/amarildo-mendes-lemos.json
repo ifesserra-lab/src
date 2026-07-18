@@ -1,0 +1,44 @@
+{
+  "slug": "amarildo-mendes-lemos",
+  "nome": "Amarildo Mendes Lemos",
+  "resumo_ia": "Coordenou o 'Circuito Audiovisual' em 2019 e participou como professor no 'PRÉ – IFES Campus Serra' em 2017, além de coordenar o mesmo projeto em 2019, atuando em ações de extensão audiovisual e educacional.",
+  "anos": [
+    "2017",
+    "2019"
+  ],
+  "funcoes": [
+    "COORDENADOR(A)",
+    "PROFESSOR(A)"
+  ],
+  "acoes_coordenadas": [
+    {
+      "acao_id": "2505",
+      "titulo": "Circuito Audiovisual",
+      "tipo": "Projeto",
+      "ano": "2019",
+      "n": 231
+    }
+  ],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1117",
+      "titulo": "PRÉ – IFES Campus Serra",
+      "tipo": "Curso",
+      "ano": "2017",
+      "n": 48,
+      "funcoes": [
+        "PROFESSOR(A)"
+      ]
+    },
+    {
+      "acao_id": "2505",
+      "titulo": "Circuito Audiovisual",
+      "tipo": "Projeto",
+      "ano": "2019",
+      "n": 231,
+      "funcoes": [
+        "COORDENADOR(A)"
+      ]
+    }
+  ]
+}

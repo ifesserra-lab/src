@@ -1,0 +1,24 @@
+{
+  "slug": "diego-de-deus-bazilio",
+  "nome": "Diego de Deus Bazilio",
+  "resumo_ia": "Colaborou na organização da Semana de Controle e Automação em 2016, atuando como membro da equipe responsável pela execução das atividades extensionistas do evento.",
+  "anos": [
+    "2016"
+  ],
+  "funcoes": [
+    "COLABORADOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "899",
+      "titulo": "SEMANA DE CONTROLE E AUTOMAÇÃO",
+      "tipo": "Evento",
+      "ano": "2016",
+      "n": 181,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    }
+  ]
+}

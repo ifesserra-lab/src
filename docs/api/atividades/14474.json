@@ -1,0 +1,34 @@
+{
+  "atividade_id": "14474",
+  "numero": "002",
+  "atividade": "ELETRICISTA INSTALADOR PREDIAL DE BAIXA TENSÃO",
+  "acao_id": "4209",
+  "acao_titulo": "ELETRICISTA INSTALADOR PREDIAL DE BAIXA TENSÃO",
+  "processo": "23158.004091/2022-88",
+  "coordenador_acao": "Renner Sartório Camargo",
+  "publico_alvo": {
+    "total": 23,
+    "aprovados": 23,
+    "certificados": 23,
+    "situacao": {
+      "APROVADO": 23
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Tatiane Policário Chagas",
+      "funcao": "COORDENADOR(A) ADJUNTO(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Nicolas Nasário Ferreira",
+      "funcao": "MONITOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Marcos Paulo Kohler Caldas",
+      "funcao": "PROFESSOR(A)",
+      "vinculo": "Convidado"
+    }
+  ]
+}

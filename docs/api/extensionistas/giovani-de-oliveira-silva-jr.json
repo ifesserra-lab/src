@@ -1,0 +1,37 @@
+{
+  "slug": "giovani-de-oliveira-silva-jr",
+  "nome": "Giovani de Oliveira Silva Jr",
+  "resumo_ia": "Participou como expositor e palestrante no Programa Local Núcleo Incubador Campus Serra – NIS em 2017 e como palestrante no LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão em 2023.",
+  "anos": [
+    "2017",
+    "2023"
+  ],
+  "funcoes": [
+    "EXPOSITOR(A)",
+    "PALESTRANTE"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1116",
+      "titulo": "Programa Local Núcleo Incubador Campus Serra – NIS",
+      "tipo": "Programa",
+      "ano": "2017",
+      "n": 220,
+      "funcoes": [
+        "EXPOSITOR(A)",
+        "PALESTRANTE"
+      ]
+    },
+    {
+      "acao_id": "4655",
+      "titulo": "LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão",
+      "tipo": "Programa",
+      "ano": "2023",
+      "n": 558,
+      "funcoes": [
+        "PALESTRANTE"
+      ]
+    }
+  ]
+}

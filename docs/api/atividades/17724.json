@@ -1,0 +1,22 @@
+{
+  "atividade_id": "17724",
+  "numero": "001",
+  "atividade": "Jogos Internos do Campus Serra",
+  "acao_id": "4894",
+  "acao_titulo": "Jogos Internos do Campus Serra",
+  "processo": "23158.000310/2024-11",
+  "coordenador_acao": "Milainy Ludmila Santos Goulart",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Milainy Ludmila Santos Goulart",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

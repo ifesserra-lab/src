@@ -1,0 +1,24 @@
+{
+  "slug": "renato-eugenio-da-mota",
+  "nome": "Renato Eugênio da Mota",
+  "resumo_ia": "Renato Eugênio da Mota atuou como colaborador no curso de Programação Visual Criativa com Scratch em 2015, contribuindo para a promoção de habilidades digitais por meio de oficinas de programação.",
+  "anos": [
+    "2015"
+  ],
+  "funcoes": [
+    "COLABORADOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "542",
+      "titulo": "Programação Visual Criativa com Scratch",
+      "tipo": "Curso",
+      "ano": "2015",
+      "n": 25,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    }
+  ]
+}

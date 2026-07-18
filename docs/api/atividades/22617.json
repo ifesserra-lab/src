@@ -1,0 +1,24 @@
+{
+  "atividade_id": "22617",
+  "numero": "117",
+  "atividade": "O Panorama da Computação Quântica: Dos Princípios às Perspectivas Futuras",
+  "acao_id": "3140",
+  "acao_titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+  "processo": "23158.001185/2020-56",
+  "coordenador_acao": "Emmanuel Marques Silva",
+  "publico_alvo": {
+    "total": 48,
+    "aprovados": 48,
+    "certificados": 48,
+    "situacao": {
+      "APROVADO": 48
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Graziela Barboza Guaitolini Ramos",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

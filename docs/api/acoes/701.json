@@ -1,0 +1,48 @@
+{
+  "acao_id": "701",
+  "Processo nº": "23158.000280/2016-33",
+  "Título ação": "Programação de Máquinas CNC",
+  "Natureza": "Ensino",
+  "Tipo ação": "Curso",
+  "Coordenador(a)": "Felipe Nascimento Martins",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "",
+  "Grande área conhecimento (inferida)": "Engenharias",
+  "Área temática principal": "",
+  "Área temática principal (inferida)": "Tecnologia e Produção",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "",
+  "Data de cadastro": "31/05/2016",
+  "Resumo": "O curso apresentará uma visão geral da tecnologia de Comando Numérico Computacional (CNC) do ponto de vista da sua utilização, ou seja, a programação de máquinas que utilizam este recurso. A importância da oferta desse curso é evidenciada pelo fato de não existir disciplina sobre este tema nem no curso Técnico em Automação Industrial e nem no curso de graduação em Engenharia de Controle e Automação ofertados pelo Campus Serra.",
+  "Campus": "Serra",
+  "total_participacoes": 24,
+  "publico_alvo_total": 22,
+  "atividades": [
+    {
+      "atividade_id": "1361",
+      "numero": "001",
+      "atividade": "Programação de Máquinas CNC",
+      "publico": 22,
+      "aprovados": 8,
+      "certificados": 8,
+      "equipe": 2
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Alan Pablo Donati Pereira",
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Felipe Nascimento Martins",
+      "funcoes": [
+        "COORDENADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    }
+  ]
+}

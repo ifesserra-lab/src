@@ -1,0 +1,44 @@
+{
+  "slug": "wallas-gusmao-thomas",
+  "nome": "Wallas Gusmão Thomas",
+  "resumo_ia": "Coordenou a Semana de Controle e Automação em 2016 e atuou como colaborador no projeto 'Jovens Inventores: O poder da Tecnologia Maker no Desenvolvimento Social' em 2025.",
+  "anos": [
+    "2016",
+    "2025"
+  ],
+  "funcoes": [
+    "COLABORADOR(A)",
+    "COORDENADOR(A)"
+  ],
+  "acoes_coordenadas": [
+    {
+      "acao_id": "899",
+      "titulo": "SEMANA DE CONTROLE E AUTOMAÇÃO",
+      "tipo": "Evento",
+      "ano": "2016",
+      "n": 181
+    }
+  ],
+  "participacoes_equipe": [
+    {
+      "acao_id": "5677",
+      "titulo": "Jovens Inventores: O poder da Tecnologia Maker no Desenvolvimento Social",
+      "tipo": "Projeto",
+      "ano": "2025",
+      "n": 48,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "899",
+      "titulo": "SEMANA DE CONTROLE E AUTOMAÇÃO",
+      "tipo": "Evento",
+      "ano": "2016",
+      "n": 181,
+      "funcoes": [
+        "COORDENADOR(A)"
+      ]
+    }
+  ]
+}

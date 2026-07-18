@@ -1,0 +1,59 @@
+{
+  "atividade_id": "20470",
+  "numero": "002",
+  "atividade": "Mulheres Mil – Eletricista Instalador Predial em Baixa Tensão",
+  "acao_id": "4820",
+  "acao_titulo": "Mulheres Mil – Eletricista Instalador Predial em Baixa Tensão",
+  "processo": "23158.003498/2023-79",
+  "coordenador_acao": "Tatiane Policário Chagas",
+  "publico_alvo": {
+    "total": 20,
+    "aprovados": 20,
+    "certificados": 20,
+    "situacao": {
+      "APROVADO": 20
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Bruno Ramos Gonzaga",
+      "funcao": "PROFESSOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Gina Carla Maciel",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Cynthia Kruger Quinino",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Marcos Paulo Kohler Caldas",
+      "funcao": "ORIENTADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Eglalciane de Lyrio Tongo",
+      "funcao": "PROFESSOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Tatiane Policário Chagas",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Marcos Paulo Kohler Caldas",
+      "funcao": "PROFESSOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Matheus Policário Amorim",
+      "funcao": "MONITOR(A)",
+      "vinculo": "Aluno"
+    }
+  ]
+}

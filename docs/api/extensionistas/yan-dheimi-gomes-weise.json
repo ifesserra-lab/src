@@ -1,0 +1,24 @@
+{
+  "slug": "yan-dheimi-gomes-weise",
+  "nome": "Yan Dheimi Gomes Weise",
+  "resumo_ia": "Atuou como palestrante em 2020 na equipe do 'LAMPEX – Laboratório Modelo de Práticas de Extensão', participando de atividades de disseminação de práticas extensionistas.",
+  "anos": [
+    "2020"
+  ],
+  "funcoes": [
+    "PALESTRANTE"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "PALESTRANTE"
+      ]
+    }
+  ]
+}

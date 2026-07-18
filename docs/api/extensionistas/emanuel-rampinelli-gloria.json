@@ -1,0 +1,26 @@
+{
+  "slug": "emanuel-rampinelli-gloria",
+  "nome": "Emanuel Rampinelli Gloria",
+  "resumo_ia": "Participou como autor e instrutor no LAMPEX – Laboratório Modelo de Práticas de Extensão em 2020, contribuindo para ações extensionistas no campus Serra do Ifes.",
+  "anos": [
+    "2020"
+  ],
+  "funcoes": [
+    "AUTOR(A)",
+    "INSTRUTOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "AUTOR(A)",
+        "INSTRUTOR(A)"
+      ]
+    }
+  ]
+}

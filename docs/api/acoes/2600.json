@@ -1,0 +1,61 @@
+{
+  "acao_id": "2600",
+  "Processo nº": "23158.001150/2019-61",
+  "Título ação": "Sistema para predição de transtornos mentais comuns na atenção primária a saúde",
+  "Natureza": "Extensão",
+  "Tipo ação": "Projeto",
+  "Coordenador(a)": "Moisés Savedra Omena",
+  "Fomento": "PAEX-IFES",
+  "Ação vinculante": "23158.003281/2023-69 - Rede de Laboratórios de Educação em Desenvolvimento de Soluções - LEDS",
+  "Grande área conhecimento": "",
+  "Grande área conhecimento (inferida)": "Ciências da Saúde",
+  "Área temática principal": "Tecnologia e Produção",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "15/12/2023",
+  "Data de cadastro": "15/08/2019",
+  "Resumo": "O presente projeto partiu de necessidades verificadas com os profissionais das áreas de saúde de Vitória verificadas em projetos anteriores realizados pelos professores parceiros da UFES.   Estudos epidemiológicos tem mostrado à alta prevalência e o impacto importante dos transtornos mentais na saúde pública (Demyttenaere et al., 2004; Report, 1993). Os transtornos mentais foram responsáveis por quase um terço de anos vividos com incapacidade no mundo em 2005 (Lopez, Mathers, Ezzati, Jamison, & Murray, 2006). Além disso, os transtornos mentais ampliam a morbidade e incapacidade associada a outros problemas de saúde (Moussavi et al., 2007).  \n \nHá ainda um número pequeno de acesso ao tratamento em grande parte da  população geral , quando levado em conta a alta prevalência de transtornos mentais na população (Prince et al., 2007). Segundo o estudo de Gonçalves et al. (2014), há alta prevalência de transtornos mentais em 27 Unidades de Saúde da Família de quatro capitais. Foram verificadas taxas elevadas em todos os municípios pesquisados: 51,9% (Rio de Janeiro), 53,3% (São Paulo), 64,3% (Fortaleza) e 57,7% (Porto Alegre). De acordo com os dados acima, sabe-se que a maior parte dos indivíduos com transtornos mentais não recebe tratamento.  \n \nA necessidade de superação da deficiência de cobertura à saúde mental tem sido intensamente debatida no Brasil e no mundo. \n Uma possível resposta a esse desafio é representada pela implementação de soluções computacionais baseadas em ciência de dados e aprendizado de máquina. Essas soluções são capazes de, a partir de dados já existentes, prever a prevalência dos transtornos mentais em indivíduos, assim como a sua gravidade clínica e necessidade de intervenção.  \n A introdução de aprendizado de máquina, com modelos de interações causais e predição de risco, pode previamente indicar a probabilidade individual de início ou piora de episódios de transtornos mentais, permitindo a instituição de assistência precoce, abreviação do quadro clínico e redução da comorbidade e da incapacitação. Esses procedimentos também podem ser suportados por algoritmos que indicam a necessidade de tratamento e fazem o seguimento da resposta do paciente às terapêuticas instituídas. \n O projeto atual pretende utilizar uma base de dados já coletada e anonimizada por projetos anteriores da instituição parceira, a UFES. A intenção é fazer uma prova de conceito, para posteriormente  auxiliar a tomada de decisões pelos profissionais da saúde.  A base de dados já está disponível, coletada e anonimizada. Os pesquisadores nesse projeto não terão acesso a dados não anonimizados dos pacientes. \n Este projeto será realizado em paralelo com o projeto “Sistema de apoio para rastreio e geolocalização de transtornos mentais comuns na atenção primária a saúde” e com o projeto “Identificação de Transtornos Mentais Comuns e Abuso De Álcool/Drogas no  Âmbito Da  Atenção Primária à Saúde” submetido a EDITAL FAPES pela proponente Maria Carmen Viana, cujo",
+  "Campus": "Serra",
+  "total_participacoes": 4,
+  "publico_alvo_total": 0,
+  "atividades": [
+    {
+      "atividade_id": "8986",
+      "numero": "001",
+      "atividade": "Sistema para predição de transtornos mentais comuns na atenção primária a saúde",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 4
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Andreângelo da Paixão Patuzzo",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Matheus de Souza Pereira de Oliveira",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Moisés Savedra Omena",
+      "funcoes": [
+        "COORDENADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Serenna Ferrari Lima",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    }
+  ]
+}

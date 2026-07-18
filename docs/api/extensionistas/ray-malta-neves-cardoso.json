@@ -1,0 +1,24 @@
+{
+  "slug": "ray-malta-neves-cardoso",
+  "nome": "Ray Malta Neves Cardoso",
+  "resumo_ia": "Atuou como professora na equipe 'Atividades físicas adaptadas e inclusão (AFAI)' em 2023, coordenando ações voltadas à inclusão por meio de atividades físicas.",
+  "anos": [
+    "2023"
+  ],
+  "funcoes": [
+    "PROFESSOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "4659",
+      "titulo": "Atividades físicas adaptadas e inclusão (AFAI)",
+      "tipo": "Projeto",
+      "ano": "2023",
+      "n": 298,
+      "funcoes": [
+        "PROFESSOR(A)"
+      ]
+    }
+  ]
+}

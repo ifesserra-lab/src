@@ -1,0 +1,24 @@
+{
+  "slug": "lucas-almeida-de-oliveira",
+  "nome": "Lucas Almeida de Oliveira",
+  "resumo_ia": "Atuou como aluno bolsista no projeto de sistema de monitoramento de temperatura para transporte de órgãos em 2016, integrando ações de extensão tecnológica.",
+  "anos": [
+    "2016"
+  ],
+  "funcoes": [
+    "ALUNO(A) BOLSISTA"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "848",
+      "titulo": "Sistema de apoio para monitorar temperatura para preparaçãode caixas para transporte de órgão.",
+      "tipo": "Projeto",
+      "ano": "2016",
+      "n": 7,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ]
+    }
+  ]
+}

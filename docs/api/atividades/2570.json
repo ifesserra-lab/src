@@ -1,0 +1,24 @@
+{
+  "atividade_id": "2570",
+  "numero": "001",
+  "atividade": "Energia Solar Fotovoltaica",
+  "acao_id": "986",
+  "acao_titulo": "Energia Solar Fotovoltaica",
+  "processo": "23158.000731/2016-32",
+  "coordenador_acao": "Giovani Zanetti Neto",
+  "publico_alvo": {
+    "total": 25,
+    "aprovados": 25,
+    "certificados": 25,
+    "situacao": {
+      "APROVADO": 25
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Giovani Zanetti Neto",
+      "funcao": "INSTRUTOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "atividade_id": "20614",
+  "numero": "002",
+  "atividade": "Minicurso \"Cultura Maker, Indústria 4.0 e Modelagem 3D\"",
+  "acao_id": "5641",
+  "acao_titulo": "LabMaker 4.0: capacitando professores para a cultura maker e tecnologias da Indústria 4.0",
+  "processo": "23158.001715/2025-58",
+  "coordenador_acao": "Rosiane Ribeiro Rocha",
+  "publico_alvo": {
+    "total": 16,
+    "aprovados": 16,
+    "certificados": 16,
+    "situacao": {
+      "APROVADO": 16
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Yasmin Soares Cavatti",
+      "funcao": "MINISTRANTE",
+      "vinculo": "Aluno"
+    }
+  ]
+}

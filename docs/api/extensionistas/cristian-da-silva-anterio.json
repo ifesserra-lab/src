@@ -1,0 +1,45 @@
+{
+  "slug": "cristian-da-silva-anterio",
+  "nome": "Cristian da Silva Anterio",
+  "resumo_ia": "Atuou como aluno bolsista e voluntário em 2016 em projetos voltados ao desenvolvimento de sistemas para gestão da produção agropecuária capixaba, integrando a equipe do SIPAC e do LEDS.",
+  "anos": [
+    "2016"
+  ],
+  "funcoes": [
+    "ALUNO(A) BOLSISTA",
+    "ALUNO(A) VOLUNTARIO"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "645",
+      "titulo": "SIPAC - Sistema de Informação da Produção Agropecuária capixaba",
+      "tipo": "Projeto",
+      "ano": "2016",
+      "n": 7,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ]
+    },
+    {
+      "acao_id": "849",
+      "titulo": "Sistema para auxiliar a gestão da Produção Agropecuária capixaba",
+      "tipo": "Projeto",
+      "ano": "2016",
+      "n": 5,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ]
+    },
+    {
+      "acao_id": "901",
+      "titulo": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+      "tipo": "Programa",
+      "ano": "2016",
+      "n": 104,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ]
+    }
+  ]
+}

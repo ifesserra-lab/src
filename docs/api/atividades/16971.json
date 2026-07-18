@@ -1,0 +1,42 @@
+{
+  "atividade_id": "16971",
+  "numero": "061",
+  "atividade": "Produção de Material de Apoio Pedagógico para os Minicursos do Lampex na Edição 2022-2023",
+  "acao_id": "3140",
+  "acao_titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+  "processo": "23158.001185/2020-56",
+  "coordenador_acao": "Emmanuel Marques Silva",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Natan Paschoal Cypriano",
+      "funcao": "AUTOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Emanuel Rampinelli Gloria",
+      "funcao": "AUTOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Matheus Costa Evangelista",
+      "funcao": "AUTOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Bruno da Fonseca Chevitarese",
+      "funcao": "AUTOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Celeste Nascimento Souza Silva",
+      "funcao": "AUTOR(A)",
+      "vinculo": "Aluno"
+    }
+  ]
+}

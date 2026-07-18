@@ -1,0 +1,64 @@
+{
+  "atividade_id": "13928",
+  "numero": "001",
+  "atividade": "SmartIdea - Validação de Problemas e Ideias",
+  "acao_id": "4034",
+  "acao_titulo": "SmartIdea - Validação de Problemas e Ideias",
+  "processo": "23158.002921/2022-32",
+  "coordenador_acao": "Moisés Savedra Omena",
+  "publico_alvo": {
+    "total": 1,
+    "aprovados": 1,
+    "certificados": 0,
+    "situacao": {
+      "APROVADO": 1
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "João Pedro Spinassé Viana",
+      "funcao": "ALUNO(A) VOLUNTARIO",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Samuel Ferreira Alves",
+      "funcao": "ALUNO(A) VOLUNTARIO",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Maressa Karen Henrique da Silva",
+      "funcao": "ALUNO(A) VOLUNTARIO",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Harian Adami Chagas Radaelli",
+      "funcao": "ALUNO(A) VOLUNTARIO",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Mateus Lannes Cunha",
+      "funcao": "ALUNO(A) VOLUNTARIO",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Kaua Mateus de Barros Terra",
+      "funcao": "ALUNO(A) VOLUNTARIO",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Rodrigo Fernandes Calhau",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Felipe Frechiani de Oliveira",
+      "funcao": "COORDENADOR(A) ADJUNTO(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Moisés Savedra Omena",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

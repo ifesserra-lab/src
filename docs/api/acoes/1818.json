@@ -1,0 +1,49 @@
+{
+  "acao_id": "1818",
+  "Processo nº": "23158.000258/2018-55",
+  "Título ação": "Academia Cisco nas Escolas Municipais da Serra - ES",
+  "Natureza": "Extensão",
+  "Tipo ação": "Projeto",
+  "Coordenador(a)": "Gilberto Neves Sudre Filho",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "",
+  "Grande área conhecimento (inferida)": "Ciências Exatas e da Terra",
+  "Área temática principal": "Tecnologia e Produção",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "24/10/2019",
+  "Data de cadastro": "20/07/2018",
+  "Resumo": "O projeto consiste na capacitação de professores das escolas municipais da Serra – ES para que estes possam ministrar os cursos oferecidos pela Academia Cisco. \n\nCom a capacitação dos professores será possível oferecer cursos em áreas de Empreendedorismo, Programação de Computadores, Redes de Computadores e Segurança da Informação aos alunos das escolas municipais. \n\nO mercado de Tecnologia da Informação apresenta uma alta demanda para profissionais com conhecimento nos assuntos abordados nos cursos. Esta formação vai certamente facilitar aos alunos ocuparem as oportunidades existentes.",
+  "Campus": "Serra",
+  "total_participacoes": 46,
+  "publico_alvo_total": 44,
+  "atividades": [
+    {
+      "atividade_id": "5722",
+      "numero": "001",
+      "atividade": "Academia Cisco nas Escolas Municipais da Serra - ES",
+      "publico": 22,
+      "aprovados": 12,
+      "certificados": 0,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "7952",
+      "numero": "002",
+      "atividade": "Cursos: \"Conecte-se, Introdução a Cybersegurança, Empreendedorismo e Introdução a IoT\"",
+      "publico": 22,
+      "aprovados": 12,
+      "certificados": 12,
+      "equipe": 1
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Gilberto Neves Sudre Filho",
+      "funcoes": [
+        "COORDENADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    }
+  ]
+}

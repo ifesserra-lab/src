@@ -1,0 +1,27 @@
+{
+  "atividade_id": "9125",
+  "numero": "031",
+  "atividade": "Tutoria em Algoritmos e Estrutura de Dados",
+  "acao_id": "650",
+  "acao_titulo": "Tutoria de Estudos Orientados",
+  "processo": "23158.000371/2015-98",
+  "coordenador_acao": "Bruno Ramos Gonzaga",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Hilário Tomaz Alves de Oliveira",
+      "funcao": "PROFESSOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Samuel Ribeiro do Nascimento",
+      "funcao": "ALUNO(A) VOLUNTARIO",
+      "vinculo": "Aluno"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "atividade_id": "17192",
+  "numero": "003",
+  "atividade": "Oficina de Low-Code",
+  "acao_id": "4034",
+  "acao_titulo": "SmartIdea - Validação de Problemas e Ideias",
+  "processo": "23158.002921/2022-32",
+  "coordenador_acao": "Moisés Savedra Omena",
+  "publico_alvo": {
+    "total": 2,
+    "aprovados": 2,
+    "certificados": 2,
+    "situacao": {
+      "APROVADO": 2
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Rubens do Nascimento Corrêa Júnior",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Mateus Lannes Cunha",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Maressa Karen Henrique da Silva",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Marcela Starling Ferreira Lage",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Larissa Batista Rangel",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Fernanda Jaimara do Nascimento",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Eduardo Alves Figueiredo",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Edimar Antonio da Cruz",
+      "funcao": "ALUNO(A) EM ATIVIDADE CURRICULAR",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Moisés Savedra Omena",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Felipe Frechiani de Oliveira",
+      "funcao": "COORDENADOR(A) ADJUNTO(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "jefferson-da-silva-bomfim",
+  "nome": "Jefferson da Silva Bomfim",
+  "resumo_ia": "Atuou como professor voluntário no projeto 'O IFES é o meu lugar' em 2023, colaborando com ações de integração e divulgação institucional.",
+  "anos": [
+    "2023"
+  ],
+  "funcoes": [
+    "PROFESSOR(A) VOLUNTÁRIO"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "4597",
+      "titulo": "O IFES é o meu lugar",
+      "tipo": "Projeto",
+      "ano": "2023",
+      "n": 87,
+      "funcoes": [
+        "PROFESSOR(A) VOLUNTÁRIO"
+      ]
+    }
+  ]
+}

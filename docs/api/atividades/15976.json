@@ -1,0 +1,49 @@
+{
+  "atividade_id": "15976",
+  "numero": "001",
+  "atividade": "Projeto Expedição IFES",
+  "acao_id": "4617",
+  "acao_titulo": "Projeto Expedição IFES",
+  "processo": "23158.002529/2023-74",
+  "coordenador_acao": "Bene Regis Figueiredo",
+  "publico_alvo": {
+    "total": 81,
+    "aprovados": 81,
+    "certificados": 81,
+    "situacao": {
+      "APROVADO": 81
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Tatiane Policário Chagas",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Aline Pimentel Benedicto",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Alessandro Bermudes Gomes",
+      "funcao": "COORDENADOR(A) ADJUNTO(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Paulo Cezar Camargo Guedes",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Emilene Coco dos Santos",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Wagner Kirmse Caldas",
+      "funcao": "COORDENADOR(A) ADJUNTO(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

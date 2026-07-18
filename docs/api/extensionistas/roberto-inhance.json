@@ -1,0 +1,24 @@
+{
+  "slug": "roberto-inhance",
+  "nome": "Roberto Inhance",
+  "resumo_ia": "Integrante do comitê gestor do Programa Local Núcleo Incubador Campus Serra – NIS em 2017, atuando em atividades de gestão extensionista.",
+  "anos": [
+    "2017"
+  ],
+  "funcoes": [
+    "MEMBRO DE COMITÊ GESTOR"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1116",
+      "titulo": "Programa Local Núcleo Incubador Campus Serra – NIS",
+      "tipo": "Programa",
+      "ano": "2017",
+      "n": 220,
+      "funcoes": [
+        "MEMBRO DE COMITÊ GESTOR"
+      ]
+    }
+  ]
+}

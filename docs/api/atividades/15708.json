@@ -1,0 +1,49 @@
+{
+  "atividade_id": "15708",
+  "numero": "002",
+  "atividade": "Monitoria primeiro semestre",
+  "acao_id": "4564",
+  "acao_titulo": "MONITORIA",
+  "processo": "23158.001565/2023-11",
+  "coordenador_acao": "Wagner Kirmse Caldas",
+  "publico_alvo": {
+    "total": 5,
+    "aprovados": 5,
+    "certificados": 5,
+    "situacao": {
+      "APROVADO": 5
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Nauvia Maria Cancelieri",
+      "funcao": "ORIENTADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "João Vitor Oliveira Scheidegger",
+      "funcao": "MONITOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Luiza de Oliveira Guidine",
+      "funcao": "MONITOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Christofer de Oliveira Viana",
+      "funcao": "MONITOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Israel Magalhães do Carmo",
+      "funcao": "MONITOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Matheus Silva Caldas",
+      "funcao": "MONITOR(A)",
+      "vinculo": "Aluno"
+    }
+  ]
+}

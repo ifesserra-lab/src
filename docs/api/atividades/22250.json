@@ -1,0 +1,79 @@
+{
+  "atividade_id": "22250",
+  "numero": "012",
+  "atividade": "Palestra promovida pelo LIEFIS: \"Demandas emocionais e comportamentais no processo de endividamento\".",
+  "acao_id": "5852",
+  "acao_titulo": "SOF – Serviço de Orientação Financeira (unidade Ifes Serra)",
+  "processo": "23158.002622/2025-41",
+  "coordenador_acao": "Emmanuel Marques Silva",
+  "publico_alvo": {
+    "total": 18,
+    "aprovados": 18,
+    "certificados": 18,
+    "situacao": {
+      "APROVADO": 18
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Emmanuel Marques Silva",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Thalison Vinícius Euzebio Ribeiro",
+      "funcao": "EXTENSIONISTA",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Alex Rossoni Junior",
+      "funcao": "EXTENSIONISTA",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Thiago Almeida Deps Caldeira",
+      "funcao": "EXTENSIONISTA",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Luiz Guilherme de Souza Zottich",
+      "funcao": "EXTENSIONISTA",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "João Pedro Pagotto da Costa",
+      "funcao": "EXTENSIONISTA",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Gustavo Laube Schwartz",
+      "funcao": "EXTENSIONISTA",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Nicole Ribeiro Schayder da Silva",
+      "funcao": "PALESTRANTE",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Lorenzzo Gabriel Ramos Doelinger Oliveira",
+      "funcao": "EXTENSIONISTA",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Juliano Antônio da Silveira",
+      "funcao": "EXTENSIONISTA",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Renata Baptista",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Patricia Maria Bortolon",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Convidado"
+    }
+  ]
+}

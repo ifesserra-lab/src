@@ -1,0 +1,24 @@
+{
+  "slug": "lucas-xavier-da-silva",
+  "nome": "Lucas Xavier da Silva",
+  "resumo_ia": "Atuou como expositor na ação Física ao Alcance de Todos em 2018, participando da disseminação de saberes científicos para a comunidade.",
+  "anos": [
+    "2018"
+  ],
+  "funcoes": [
+    "EXPOSITOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "2021",
+      "titulo": "Física ao Alcance de Todos",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 429,
+      "funcoes": [
+        "EXPOSITOR(A)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "atividade_id": "10561",
+  "numero": "004",
+  "atividade": "Oficina Especializada de Roteiro",
+  "acao_id": "2505",
+  "acao_titulo": "Circuito Audiovisual",
+  "processo": "23158.001195/2019-35",
+  "coordenador_acao": "Amarildo Mendes Lemos",
+  "publico_alvo": {
+    "total": 10,
+    "aprovados": 10,
+    "certificados": 10,
+    "situacao": {
+      "APROVADO": 10
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Edson Ferreira da Silva Júnior",
+      "funcao": "INSTRUTOR(A)",
+      "vinculo": "Convidado"
+    }
+  ]
+}

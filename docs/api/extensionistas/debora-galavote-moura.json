@@ -1,0 +1,39 @@
+{
+  "slug": "debora-galavote-moura",
+  "nome": "Debora Galavote Moura",
+  "resumo_ia": "Participou como aluna bolsista e ministrante em 2023 na equipe 'LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão' e como aluna voluntária e monitora em 2023 na equipe 'QUÍMICA VERDE APLICADA: oficinas e workshops', atuando em ações de extensão voltadas à promoção de espaços makers e oficinas de química verde.",
+  "anos": [
+    "2023"
+  ],
+  "funcoes": [
+    "ALUNO(A) BOLSISTA",
+    "ALUNO(A) VOLUNTARIO",
+    "MINISTRANTE",
+    "MONITOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "4655",
+      "titulo": "LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão",
+      "tipo": "Programa",
+      "ano": "2023",
+      "n": 558,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA",
+        "MINISTRANTE"
+      ]
+    },
+    {
+      "acao_id": "4754",
+      "titulo": "QUÍMICA VERDE APLICADA: oficinas e workshops",
+      "tipo": "Projeto",
+      "ano": "2023",
+      "n": 159,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO",
+        "MONITOR(A)"
+      ]
+    }
+  ]
+}

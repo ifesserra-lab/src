@@ -1,0 +1,29 @@
+{
+  "atividade_id": "5747",
+  "numero": "001",
+  "atividade": "Desenvolvimento de um sistema multiplataforma para robôs de assistência e manutenção de quadras esportivas",
+  "acao_id": "1829",
+  "acao_titulo": "Desenvolvimento de um sistema multiplataforma para robôs de assistência e manutenção de quadras esportivas",
+  "processo": "23158.000341/2017-43",
+  "coordenador_acao": "Richard Junior Manuel Godinez Tello",
+  "publico_alvo": {
+    "total": 1,
+    "aprovados": 1,
+    "certificados": 1,
+    "situacao": {
+      "APROVADO": 1
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Richard Junior Manuel Godinez Tello",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Richard Junior Manuel Godinez Tello",
+      "funcao": "ORIENTADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

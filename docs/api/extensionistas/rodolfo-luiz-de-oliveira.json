@@ -1,0 +1,36 @@
+{
+  "slug": "rodolfo-luiz-de-oliveira",
+  "nome": "Rodolfo Luiz de Oliveira",
+  "resumo_ia": "Participou como expositor no projeto 'Física ao Alcance de Todos' em 2018 e como gestor de projeto no LAMPEX – Laboratório Modelo de Práticas de Extensão em 2020, atuando em atividades extensionistas de divulgação científica e gestão.",
+  "anos": [
+    "2018",
+    "2020"
+  ],
+  "funcoes": [
+    "EXPOSITOR(A)",
+    "GESTOR(A) DE PROJETO"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "2021",
+      "titulo": "Física ao Alcance de Todos",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 429,
+      "funcoes": [
+        "EXPOSITOR(A)"
+      ]
+    },
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "GESTOR(A) DE PROJETO"
+      ]
+    }
+  ]
+}

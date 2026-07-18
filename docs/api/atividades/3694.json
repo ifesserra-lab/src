@@ -1,0 +1,30 @@
+{
+  "atividade_id": "3694",
+  "numero": "007",
+  "atividade": "Oficina: Dinâmicas para uma prática pedagógica motivacional",
+  "acao_id": "1263",
+  "acao_titulo": "Ciclo de estudos 2017/2 do Ifes campus Serra",
+  "processo": "23158.000394/2017-64",
+  "coordenador_acao": "Gilmar Luiz Vassoler",
+  "publico_alvo": {
+    "total": 41,
+    "aprovados": 34,
+    "certificados": 34,
+    "situacao": {
+      "APROVADO": 34,
+      "REPROVADO": 7
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Caroline Magevsky",
+      "funcao": "INSTRUTOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Sônia Marta Bortolotti Ribeiro",
+      "funcao": "INSTRUTOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

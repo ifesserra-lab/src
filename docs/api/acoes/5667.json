@@ -1,0 +1,113 @@
+{
+  "acao_id": "5667",
+  "Processo nº": "23158.001492/2025-29",
+  "Título ação": "Semana destinada à Educação Especial Inclusiva no Campus Serra",
+  "Natureza": "Ensino",
+  "Tipo ação": "Evento",
+  "Coordenador(a)": "Emilene Coco dos Santos",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "Ciências Humanas",
+  "Área temática principal": "",
+  "Área temática principal (inferida)": "Educação",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "14/10/2025",
+  "Data de cadastro": "01/09/2025",
+  "Resumo": "Este projeto trata da proposta para a Semana destinada à Educação Especial Inclusiva no Campus Serra \nprevista no calendário acadêmico no ano de 2025. Essa ação possibilitará a reflexão e debate sobre os \ndesafios vividos pelas pessoas com deficiência na sociedade excludente. Setembro verde é o mês de \nconscientizar a população sobre a importância da inclusão social de pessoas com deficiência. Assim, o \nmês é marcado por campanhas em todo o país com o objetivo de colocar os direitos das pessoas com \ndeficiência nas principais pautas. Por meio de atividades como cine debate e culminância de atividades \npedagógicas da área de linguagens será uma oportunidade para o desenvolvimento de práticas \ninclusivas considerando a luta da pessoa com deficiência para fazer parte da sociedade. Para avaliação \ndas atividades, será aplicado um formulário Google forms com questões relacionadas ao grau de \nsatisfação e sugestões para os próximos projetos. Espera-se, com esta semana, contribuir para a \ncriação de contextos significativos de inclusão, motivar a comunidade acadêmica para a luta \nanticapacitista e possibilitar a construção de práticas inclusivas nos cursos do campus Serra.",
+  "Campus": "Serra",
+  "total_participacoes": 265,
+  "publico_alvo_total": 251,
+  "atividades": [
+    {
+      "atividade_id": "20745",
+      "numero": "001",
+      "atividade": "Semana destinada à Educação Especial Inclusiva no Campus Serra",
+      "publico": 251,
+      "aprovados": 251,
+      "certificados": 251,
+      "equipe": 14
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Adriana Pionttkovsky Barcellos",
+      "funcoes": [
+        "PALESTRANTE"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Adrianna Machado Meneguelli",
+      "funcoes": [
+        "DEBATEDOR(A)",
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Aline Freitas Pereira da Silva Belieni",
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Cynthia Kruger Quinino",
+      "funcoes": [
+        "DEBATEDOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Emilene Coco dos Santos",
+      "funcoes": [
+        "COORDENADOR(A)",
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Fernanda Ferreyro Monticelli",
+      "funcoes": [
+        "DEBATEDOR(A)",
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Gabriel Santos da Silva Valbuza",
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Maikon Chaider Silva Scaldaferro",
+      "funcoes": [
+        "DEBATEDOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Renata Gomes de Jesus",
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Richard Junior Manuel Godinez Tello",
+      "funcoes": [
+        "PALESTRANTE"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Rodrigo Fernandes Calhau",
+      "funcoes": [
+        "DEBATEDOR(A)"
+      ],
+      "vinculo": "Servidor"
+    }
+  ]
+}

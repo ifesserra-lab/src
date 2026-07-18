@@ -1,0 +1,24 @@
+{
+  "atividade_id": "12278",
+  "numero": "001",
+  "atividade": "A mitologia grega vista a partir da arte e da literatura",
+  "acao_id": "3526",
+  "acao_titulo": "A mitologia grega vista a partir da arte e da literatura",
+  "processo": "23158.002558/2021-36",
+  "coordenador_acao": "Maikon Chaider Silva Scaldaferro",
+  "publico_alvo": {
+    "total": 8,
+    "aprovados": 8,
+    "certificados": 8,
+    "situacao": {
+      "APROVADO": 8
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Maikon Chaider Silva Scaldaferro",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

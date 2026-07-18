@@ -1,0 +1,44 @@
+{
+  "atividade_id": "9577",
+  "numero": "001",
+  "atividade": "Informática Básica Para Agentes Multiplicadores.",
+  "acao_id": "2783",
+  "acao_titulo": "Informática Básica Para Agentes Multiplicadores.",
+  "processo": "23158.001983/2019-47",
+  "coordenador_acao": "Bruno Cardoso Coutinho",
+  "publico_alvo": {
+    "total": 16,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {
+      "CURSANDO": 16
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Juliana Rohsner Vianna Toniati",
+      "funcao": "COORDENADOR(A) ADJUNTO(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Ridley Francis Miranda Amorim",
+      "funcao": "COORDENADOR(A) ADJUNTO(A)",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Gabriel Victor Ferreira de Araújo",
+      "funcao": "PROFESSOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Renata Imaculada de Oliveira Teixeira",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Bruno Cardoso Coutinho",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "atividade_id": "2154",
+  "numero": "001",
+  "atividade": "Despertar da Força - Processos e Ferramentas para o Gerenciamento Ágil de Projetos: Uma Abordagem Prática",
+  "acao_id": "930",
+  "acao_titulo": "Despertar da Força - Processos e Ferramentas para o Gerenciamento Ágil de Projetos: Uma Abordagem Prática",
+  "processo": "23158.000635/2016-94",
+  "coordenador_acao": "Paulo Sérgio dos Santos Júnior",
+  "publico_alvo": {
+    "total": 53,
+    "aprovados": 53,
+    "certificados": 53,
+    "situacao": {
+      "APROVADO": 53
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Marcio Bender Machado",
+      "funcao": "INSTRUTOR(A)",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Paulo Ditarso Maciel Junior",
+      "funcao": "MENTOR(A)",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Nadja da Nóbrega Rodrigues",
+      "funcao": "MENTOR(A)",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Heremita Brasileiro Lira",
+      "funcao": "MENTOR(A)",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Paula Felipe Schlemper de Oliveira",
+      "funcao": "INSTRUTOR(A)",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Lukese Rosa Menegussi",
+      "funcao": "INSTRUTOR(A)",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "José Wlamir Barreto Soares",
+      "funcao": "INSTRUTOR(A)",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Jaqueline Carlos",
+      "funcao": "INSTRUTOR(A)",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Francisco Petronio Alencar de Medeiros",
+      "funcao": "INSTRUTOR(A)",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "José de Irigon de Irigon",
+      "funcao": "MENTOR(A)",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Rafaela Elisa Maurin Benedicto",
+      "funcao": "MENTOR(A)",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Vinicius Kruger da Costa",
+      "funcao": "MENTOR(A)",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Andréia Sias Rodrigues",
+      "funcao": "MENTOR(A)",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Flávio Lopes da Silva",
+      "funcao": "COORDENADOR(A) ADJUNTO(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Paulo Sérgio dos Santos Júnior",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

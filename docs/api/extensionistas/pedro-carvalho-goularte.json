@@ -1,0 +1,24 @@
+{
+  "slug": "pedro-carvalho-goularte",
+  "nome": "Pedro Carvalho Goularte",
+  "resumo_ia": "Atuou como palestrante no Serviço de Orientação Financeira (SOF) da unidade Ifes Serra em 2026.",
+  "anos": [
+    "2026"
+  ],
+  "funcoes": [
+    "PALESTRANTE"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "5852",
+      "titulo": "SOF – Serviço de Orientação Financeira (unidade Ifes Serra)",
+      "tipo": "Projeto",
+      "ano": "2026",
+      "n": 316,
+      "funcoes": [
+        "PALESTRANTE"
+      ]
+    }
+  ]
+}

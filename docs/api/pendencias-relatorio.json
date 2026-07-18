@@ -1,0 +1,410 @@
+[
+  {
+    "acao_id": "1263",
+    "titulo": "Ciclo de estudos 2017/2 do Ifes campus Serra",
+    "tipo": "Evento",
+    "coordenador": "Gilmar Luiz Vassoler",
+    "ano": "2017",
+    "ultimo_relatorio": null
+  },
+  {
+    "acao_id": "1426",
+    "titulo": "Semana de Ciência e Tecnologia do Campus Serra do Ifes",
+    "tipo": "Evento",
+    "coordenador": "Gilmar Luiz Vassoler",
+    "ano": "2017",
+    "ultimo_relatorio": null
+  },
+  {
+    "acao_id": "1939",
+    "titulo": "Nova plataforma NVIDIA para HPC e Inteligência Artificial (IA)",
+    "tipo": "Projeto",
+    "coordenador": "Paulo Sérgio dos Santos Júnior",
+    "ano": "2018",
+    "ultimo_relatorio": null
+  },
+  {
+    "acao_id": "1945",
+    "titulo": "Intenção Profissional",
+    "tipo": "Projeto",
+    "coordenador": "Wallas Gusmão Thomas",
+    "ano": "2018",
+    "ultimo_relatorio": null
+  },
+  {
+    "acao_id": "2268",
+    "titulo": "Jornalismo",
+    "tipo": "Projeto",
+    "coordenador": "Ana Paula Klauck",
+    "ano": "2019",
+    "ultimo_relatorio": null
+  },
+  {
+    "acao_id": "2327",
+    "titulo": "Diálogos que Transformam",
+    "tipo": "Projeto",
+    "coordenador": "Giordana dos Santos Sperandio",
+    "ano": "2019",
+    "ultimo_relatorio": null
+  },
+  {
+    "acao_id": "2328",
+    "titulo": "Projeto Expedição IFES – Conhecendo o Brasil",
+    "tipo": "Projeto",
+    "coordenador": "Alessandro Bermudes Gomes",
+    "ano": "2019",
+    "ultimo_relatorio": null
+  },
+  {
+    "acao_id": "2365",
+    "titulo": "Coral Musicante",
+    "tipo": "Projeto",
+    "coordenador": "Ricardo Ramos Costa",
+    "ano": "2019",
+    "ultimo_relatorio": null
+  },
+  {
+    "acao_id": "2366",
+    "titulo": "Fitoterápicos em Horta: Compostos Químicos em Ação",
+    "tipo": "Projeto",
+    "coordenador": "Nauvia Maria Cancelieri",
+    "ano": "2019",
+    "ultimo_relatorio": null
+  },
+  {
+    "acao_id": "2522",
+    "titulo": "I Seminário do Núcleo de Estudos Afro-Brasileiros e Indígenas do Ifes Campus Serra – Levantamento das referências culturais de São José do Queimado, Serra/ES",
+    "tipo": "Evento",
+    "coordenador": "Diego Ramiro Araoz Alves",
+    "ano": "2019",
+    "ultimo_relatorio": null
+  },
+  {
+    "acao_id": "2799",
+    "titulo": "I Encontro Cultural do Núcleo de Estudos Afro-Brasileiros e Indígenas : Debates e reflexões no Dia da Consciência Negra",
+    "tipo": "Evento",
+    "coordenador": "Diego Ramiro Araoz Alves",
+    "ano": "2019",
+    "ultimo_relatorio": null
+  },
+  {
+    "acao_id": "2836",
+    "titulo": "II Vivências de Queimado",
+    "tipo": "Evento",
+    "coordenador": "Diego Ramiro Araoz Alves",
+    "ano": "2019",
+    "ultimo_relatorio": null
+  },
+  {
+    "acao_id": "2892",
+    "titulo": "\"(Con)versando sobre – Temas transversais\"",
+    "tipo": "Projeto",
+    "coordenador": "Cibelle Zanforlin Cesconetto Toresani",
+    "ano": "2020",
+    "ultimo_relatorio": null
+  },
+  {
+    "acao_id": "2913",
+    "titulo": "Projeto \"Física e Química na Prática\"",
+    "tipo": "Projeto",
+    "coordenador": "Rosiane Ribeiro Rocha",
+    "ano": "2020",
+    "ultimo_relatorio": null
+  },
+  {
+    "acao_id": "2930",
+    "titulo": "2º Seminário do Núcleo de Estudos Afro-Brasileiros e Indígenas do IFES Campus Serra – “Educação e Patrimônio: O Caso de São José do Queimado”",
+    "tipo": "Projeto",
+    "coordenador": "Leonardo Matiazzi Corrêa",
+    "ano": "2020",
+    "ultimo_relatorio": null
+  },
+  {
+    "acao_id": "2931",
+    "titulo": "Tutoria de Estudos Orientados: Compartilhando Saberes",
+    "tipo": "Projeto",
+    "coordenador": "Bruno Ramos Gonzaga",
+    "ano": "2020",
+    "ultimo_relatorio": null
+  },
+  {
+    "acao_id": "3647",
+    "titulo": "O povo preto realmente é livre?",
+    "tipo": "Evento",
+    "coordenador": "Lívia de Azevedo Silveira Rangel",
+    "ano": "2022",
+    "ultimo_relatorio": null
+  },
+  {
+    "acao_id": "3871",
+    "titulo": "Palestra sobre Rap e cultura hip hop",
+    "tipo": "Evento",
+    "coordenador": "Ana Paula Klauck",
+    "ano": "2022",
+    "ultimo_relatorio": null
+  },
+  {
+    "acao_id": "3946",
+    "titulo": "Estudos e Práticas para Simulação de Organizações Internacionais e Direitos Humanos",
+    "tipo": "Programa",
+    "coordenador": "Nicole Silva Loss",
+    "ano": "2022",
+    "ultimo_relatorio": null
+  },
+  {
+    "acao_id": "3948",
+    "titulo": "PEAM – Programa de Estudos Avançados em Matemática",
+    "tipo": "Programa",
+    "coordenador": "Paulo Cezar Camargo Guedes",
+    "ano": "2022",
+    "ultimo_relatorio": null
+  },
+  {
+    "acao_id": "3950",
+    "titulo": "Oficina de Tutoria em Matemática",
+    "tipo": "Projeto",
+    "coordenador": "Paulo Cezar Camargo Guedes",
+    "ano": "2022",
+    "ultimo_relatorio": null
+  },
+  {
+    "acao_id": "3951",
+    "titulo": "Oficina de Tutoria em Matemática",
+    "tipo": "Projeto",
+    "coordenador": "Paulo Cezar Camargo Guedes",
+    "ano": "2022",
+    "ultimo_relatorio": null
+  },
+  {
+    "acao_id": "3952",
+    "titulo": "Oficina de Tutoria em Física",
+    "tipo": "Projeto",
+    "coordenador": "Paulo Cezar Camargo Guedes",
+    "ano": "2022",
+    "ultimo_relatorio": null
+  },
+  {
+    "acao_id": "3954",
+    "titulo": "Oficina de Tutoria em Física",
+    "tipo": "Projeto",
+    "coordenador": "Paulo Cezar Camargo Guedes",
+    "ano": "2022",
+    "ultimo_relatorio": null
+  },
+  {
+    "acao_id": "4308",
+    "titulo": "Monitoria de Programação para Web",
+    "tipo": "Prestação de Serviço",
+    "coordenador": "Marta Talitha Carvalho Freire Mendes",
+    "ano": "2023",
+    "ultimo_relatorio": null
+  },
+  {
+    "acao_id": "4597",
+    "titulo": "O IFES é o meu lugar",
+    "tipo": "Projeto",
+    "coordenador": "Augusto Cesar Machado Ramos",
+    "ano": "2023",
+    "ultimo_relatorio": null
+  },
+  {
+    "acao_id": "4629",
+    "titulo": "“Conversando sobre”",
+    "tipo": "Evento",
+    "coordenador": "Erica Giles Bragança",
+    "ano": "2023",
+    "ultimo_relatorio": null
+  },
+  {
+    "acao_id": "4846",
+    "titulo": "PEAM – Programa de Estudos Avançados em Matemática",
+    "tipo": "Evento",
+    "coordenador": "Paulo Cezar Camargo Guedes",
+    "ano": "2023",
+    "ultimo_relatorio": null
+  },
+  {
+    "acao_id": "4847",
+    "titulo": "Projeto Avançar – Nivelamento em Matemática",
+    "tipo": "Curso",
+    "coordenador": "Augusto Cesar Machado Ramos",
+    "ano": "2023",
+    "ultimo_relatorio": null
+  },
+  {
+    "acao_id": "4962",
+    "titulo": "SEMANA DE INTEGRAÇÃO",
+    "tipo": "Curso",
+    "coordenador": "Wagner Kirmse Caldas",
+    "ano": "2024",
+    "ultimo_relatorio": null
+  },
+  {
+    "acao_id": "5016",
+    "titulo": "CAIS: Ancorando Cultura e Arte no Ifes Serra",
+    "tipo": "Projeto",
+    "coordenador": "Emerson Atílio Birchler",
+    "ano": "2024",
+    "ultimo_relatorio": null
+  },
+  {
+    "acao_id": "5086",
+    "titulo": "Conectando Talentos: Robótica e Programação no IFES-Serra",
+    "tipo": "Projeto",
+    "coordenador": "Richard Junior Manuel Godinez Tello",
+    "ano": "2024",
+    "ultimo_relatorio": null
+  },
+  {
+    "acao_id": "5246",
+    "titulo": "Semana da Consciência Negra – IFES-Serra - 2024",
+    "tipo": "Evento",
+    "coordenador": "Amarildo Mendes Lemos",
+    "ano": "2024",
+    "ultimo_relatorio": null
+  },
+  {
+    "acao_id": "5258",
+    "titulo": "Inclusão e Tecnologia: Robótica para Pessoas com Autismo no IFES Serra",
+    "tipo": "Projeto",
+    "coordenador": "Marco Antônio de Souza Leite Cuadros",
+    "ano": "2024",
+    "ultimo_relatorio": null
+  },
+  {
+    "acao_id": "5406",
+    "titulo": "Jogos Estaduais do IFES 2025",
+    "tipo": "Projeto",
+    "coordenador": "Milainy Ludmila Santos Goulart",
+    "ano": "2025",
+    "ultimo_relatorio": null
+  },
+  {
+    "acao_id": "5421",
+    "titulo": "Parque Científico e Tecnológico do InovaSerra – PCTec InovaSerra",
+    "tipo": "Programa",
+    "coordenador": "Francisco José Casarim Rapchan",
+    "ano": "2025",
+    "ultimo_relatorio": null
+  },
+  {
+    "acao_id": "5539",
+    "titulo": "Conexão Ciência: Transformação Digital das Atividades do Centro de Ciência Educação e Cultura - Praça da Ciência",
+    "tipo": "Projeto",
+    "coordenador": "Vitor Faiçal Campana",
+    "ano": "2025",
+    "ultimo_relatorio": null
+  },
+  {
+    "acao_id": "5545",
+    "titulo": "Palestra -Lançamento de documentário: A beleza oculta no poder feminino",
+    "tipo": "Evento",
+    "coordenador": "Adrianna Machado Meneguelli",
+    "ano": "2025",
+    "ultimo_relatorio": null
+  },
+  {
+    "acao_id": "5546",
+    "titulo": "Clube de leitura",
+    "tipo": "Curso",
+    "coordenador": "Alexander Jeferson Nassau Borges",
+    "ano": "2025",
+    "ultimo_relatorio": null
+  },
+  {
+    "acao_id": "5646",
+    "titulo": "Cultura Impressa: Esculturas 3D de artesãos locais com filamento de material reciclado",
+    "tipo": "Projeto",
+    "coordenador": "Gabriel Tozatto Zago",
+    "ano": "2025",
+    "ultimo_relatorio": null
+  },
+  {
+    "acao_id": "5907",
+    "titulo": "Mulheres Mil - Eletricista Instalador Predial em Baixa Tensão",
+    "tipo": "Curso",
+    "coordenador": "Tatiane Policário Chagas",
+    "ano": "2026",
+    "ultimo_relatorio": null
+  },
+  {
+    "acao_id": "5974",
+    "titulo": "Escrita de Material Instrucional",
+    "tipo": "Curso",
+    "coordenador": "Vinícius Secchin de Melo",
+    "ano": "2026",
+    "ultimo_relatorio": null
+  },
+  {
+    "acao_id": "5988",
+    "titulo": "English for Global Careers",
+    "tipo": "Curso",
+    "coordenador": "Giordana dos Santos Sperandio",
+    "ano": "2026",
+    "ultimo_relatorio": null
+  },
+  {
+    "acao_id": "5989",
+    "titulo": "I COLÓQUIO DE PRODUÇÃO E CRIATIVIDADE – CAMPUS SERRA",
+    "tipo": "Evento",
+    "coordenador": "Adrianna Machado Meneguelli",
+    "ano": "2026",
+    "ultimo_relatorio": null
+  },
+  {
+    "acao_id": "6012",
+    "titulo": "Oficina de Crochê Tramando",
+    "tipo": "Projeto",
+    "coordenador": "Alessandra Aguiar Vilarinho",
+    "ano": "2026",
+    "ultimo_relatorio": null
+  },
+  {
+    "acao_id": "6059",
+    "titulo": "Oficinas e Tutorias de Apoio às Disciplinas Curriculares na Perspectiva Inclusiva – NAPNE",
+    "tipo": "Projeto",
+    "coordenador": "Nauvia Maria Cancelieri",
+    "ano": "2026",
+    "ultimo_relatorio": null
+  },
+  {
+    "acao_id": "6101",
+    "titulo": "Oficina de Formação Profissional em Realidade Virtual para Jovens e Realizadores de Audiovisual na Serra",
+    "tipo": "Projeto",
+    "coordenador": "Celio Proliciano Maioli",
+    "ano": "2026",
+    "ultimo_relatorio": null
+  },
+  {
+    "acao_id": "6104",
+    "titulo": "APEXT 2026 – Atendimentos Personalizados e Monitorias de Extensão Tecnológica",
+    "tipo": "Projeto",
+    "coordenador": "Jefferson Ribeiro de Lima",
+    "ano": "2026",
+    "ultimo_relatorio": null
+  },
+  {
+    "acao_id": "6146",
+    "titulo": "Jogos Internos do Campus Serra (JICS)",
+    "tipo": "Evento",
+    "coordenador": "Milainy Ludmila Santos Goulart",
+    "ano": "2026",
+    "ultimo_relatorio": null
+  },
+  {
+    "acao_id": "930",
+    "titulo": "Despertar da Força - Processos e Ferramentas para o Gerenciamento Ágil de Projetos: Uma Abordagem Prática",
+    "tipo": "Curso",
+    "coordenador": "Paulo Sérgio dos Santos Júnior",
+    "ano": "2016",
+    "ultimo_relatorio": null
+  },
+  {
+    "acao_id": "986",
+    "titulo": "Energia Solar Fotovoltaica",
+    "tipo": "Curso",
+    "coordenador": "Giovani Zanetti Neto",
+    "ano": "2017",
+    "ultimo_relatorio": null
+  }
+]

@@ -1,0 +1,72 @@
+{
+  "slug": "jefferson-oliveira-andrade",
+  "nome": "Jefferson Oliveira Andrade",
+  "resumo_ia": "Coordenou o curso 'Introdução à Programação Competitiva' em 2016 e atuou como organizador na 'Maratona de Programação' em 2018. Em 2020, participou como palestrante, apoio técnico, instrutor, mentor e organizador no 'LAMPEX – Laboratório Modelo de Práticas de Extensão'.",
+  "anos": [
+    "2016",
+    "2018",
+    "2020"
+  ],
+  "funcoes": [
+    "APOIO TÉCNICO",
+    "COORDENADOR(A)",
+    "INSTRUTOR(A)",
+    "MENTOR(A)",
+    "ORGANIZADOR(A)",
+    "PALESTRANTE"
+  ],
+  "acoes_coordenadas": [
+    {
+      "acao_id": "640",
+      "titulo": "Introdução à Programação Competitiva",
+      "tipo": "Curso",
+      "ano": "2016",
+      "n": 2
+    }
+  ],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1816",
+      "titulo": "Maratona de Programação",
+      "tipo": "Evento",
+      "ano": "2018",
+      "n": 49,
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "2932",
+      "titulo": "Física ao Alcance de Todos",
+      "tipo": "Projeto",
+      "ano": "2020",
+      "n": 10,
+      "funcoes": [
+        "PALESTRANTE"
+      ]
+    },
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "APOIO TÉCNICO",
+        "INSTRUTOR(A)",
+        "MENTOR(A)",
+        "ORGANIZADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "640",
+      "titulo": "Introdução à Programação Competitiva",
+      "tipo": "Curso",
+      "ano": "2016",
+      "n": 2,
+      "funcoes": [
+        "COORDENADOR(A)"
+      ]
+    }
+  ]
+}

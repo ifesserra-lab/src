@@ -1,0 +1,69 @@
+{
+  "acao_id": "542",
+  "Processo nº": "23158.000727/2015-93",
+  "Título ação": "Programação Visual Criativa com Scratch",
+  "Natureza": "Extensão",
+  "Tipo ação": "Curso",
+  "Coordenador(a)": "Moisés Savedra Omena",
+  "Fomento": "PAEX-IFES",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "",
+  "Grande área conhecimento (inferida)": "Ciências Exatas e da Terra",
+  "Área temática principal": "",
+  "Área temática principal (inferida)": "Educação",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "",
+  "Data de cadastro": "26/10/2015",
+  "Resumo": "O curso intitulado por Programação Visual Criativa com Scratch tem como base a ferramenta de programação visual Scratch. Sua concepção parte do pressuposto de que o aluno é o protagonista das ações e que elas proporcionam a construção do conhecimento. Assim o curso “Programando com Scratch”, busca viabilizar a troca de experiências e socialização de conhecimento.\nA presente proposta de curso surgiu como iniciativa da aluna do curso técnico de informática do IFES campus Serra, Mirleni de Jesus, que também atua como professora da disciplina de matemática da escola CEC - Centro Educacional Castelo. A motivação principal para a elaboração deste projeto deu-se durante suas aulas na referida escola, nas quais pôde observar que os alunos da instituição estudada costumam apresentar enorme dificuldade nos conceitos matemáticos relacionados à frações, equações do 1º grau, entre outros. Neste contexto, na tentativa de minimizar estas dificuldades apresentadas, a aluna do Ifes buscou, como ponto de partida, estudar alternativas que visem a melhorar o desempenho acadêmico na disciplina em questão por meio da utilização dos conceitos estudados em seu curso técnico.\nAssim, sob a orientação do Prof. Moisés Savedra Omena, professor do Ifes campus Serra, foi elaborada a matriz curricular do curso Programação Visual Criativa com Scratch, cuja proposta de extensão tem por objetivo estimular os alunos da escola CEC com desafios lógicos, com vistas a impactar de forma positiva o processo de reflexão, criatividade e busca de novas formas de aprendizagem/conhecimento. No desenvolver do projeto, pretende-se que os alunos compreendam tais conceitos de forma lúdica e prazerosa, alcançando êxito na absorção dos conteúdos e atividades propostas.",
+  "Campus": "Serra",
+  "total_participacoes": 25,
+  "publico_alvo_total": 20,
+  "atividades": [
+    {
+      "atividade_id": "923",
+      "numero": "001",
+      "atividade": "Programação Visual Criativa com Scratch",
+      "publico": 20,
+      "aprovados": 20,
+      "certificados": 20,
+      "equipe": 5
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Alessandra Aguiar Vilarinho",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Ernani Leite Ribeiro Filho",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Mirleni de Jesus",
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Moisés Savedra Omena",
+      "funcoes": [
+        "COORDENADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Renato Eugênio da Mota",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Convidado"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "atividade_id": "10017",
+  "numero": "002",
+  "atividade": "Minicurso: Introdução a metodologia LEDS",
+  "acao_id": "901",
+  "acao_titulo": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+  "processo": "23158.001139/2014-96",
+  "coordenador_acao": "Felipe Frechiani de Oliveira",
+  "publico_alvo": {
+    "total": 10,
+    "aprovados": 10,
+    "certificados": 0,
+    "situacao": {
+      "APROVADO": 10
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Rodrigo Fernandes Calhau",
+      "funcao": "MENTOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Felipe Frechiani de Oliveira",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

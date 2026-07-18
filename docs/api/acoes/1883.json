@@ -1,0 +1,75 @@
+{
+  "acao_id": "1883",
+  "Processo nº": "23158.001058/2018-10",
+  "Título ação": "Inova Serra",
+  "Natureza": "Extensão",
+  "Tipo ação": "Programa",
+  "Coordenador(a)": "Francisco José Casarim Rapchan",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "23147.002020/2025-12 - Rede de Incubação de Empreendimento",
+  "Grande área conhecimento": "",
+  "Grande área conhecimento (inferida)": "Engenharias",
+  "Área temática principal": "Tecnologia e Produção",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "12/02/2021",
+  "Data de cadastro": "04/09/2018",
+  "Resumo": "O Programa Inova Serra tem por objetivo precípuo a criação do Polo de Inovação e Negócios Tecnológicos em todo o município da Serra até o ano de 2020, com vistas à disseminação da cultura de inovação, com ações voltadas para o (i) aumento da competitividade das empresas serranas, (ii)  estimular o ambiente produtivo em todos os níveis, e (iii) fortalecer as parcerias com empresas públicas e privadas, ICTs e Governo do Estado, visando promover a conexão em rede e posicionar a Serra como principal polo de inovação e negócios tecnológicos do Espírito Santo.",
+  "Campus": "Serra",
+  "total_participacoes": 6,
+  "publico_alvo_total": 0,
+  "atividades": [
+    {
+      "atividade_id": "5921",
+      "numero": "001",
+      "atividade": "Inova Serra",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 6
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Elton Siqueira Moura",
+      "funcoes": [
+        "COORDENADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Emmanuel Marques Silva",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Francisco José Casarim Rapchan",
+      "funcoes": [
+        "COORDENADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Gilmar Luiz Vassoler",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "José Geraldo das Neves Orlandi",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Suely Ferreira Augusto",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Convidado"
+    }
+  ]
+}

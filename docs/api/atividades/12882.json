@@ -1,0 +1,22 @@
+{
+  "atividade_id": "12882",
+  "numero": "032",
+  "atividade": "Acompanhamento e orientação da atividade de criação de MOOC \"Consultas SQL em Banco de Dados Relacionais\" em conjunto com os professores Vitor Faiçal Campana e Edilson Nascimento",
+  "acao_id": "3140",
+  "acao_titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+  "processo": "23158.001185/2020-56",
+  "coordenador_acao": "Emmanuel Marques Silva",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Bertrand Olivier Sahli",
+      "funcao": "ORIENTADOR(A)",
+      "vinculo": "Convidado"
+    }
+  ]
+}

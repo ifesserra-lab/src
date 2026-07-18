@@ -1,0 +1,24 @@
+{
+  "slug": "rafael-de-almeida-viana-gusmao",
+  "nome": "Rafael de Almeida Viana Gusmão",
+  "resumo_ia": "Exerceu a função de professor na equipe do projeto Matemática na Rede em 2019.",
+  "anos": [
+    "2019"
+  ],
+  "funcoes": [
+    "PROFESSOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "2650",
+      "titulo": "Matemática na Rede",
+      "tipo": "Curso",
+      "ano": "2019",
+      "n": 40,
+      "funcoes": [
+        "PROFESSOR(A)"
+      ]
+    }
+  ]
+}

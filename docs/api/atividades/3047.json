@@ -1,0 +1,52 @@
+{
+  "atividade_id": "3047",
+  "numero": "009",
+  "atividade": "Comitê Gestor do Núcleo Incubador campus Serra do Ifes - NIS",
+  "acao_id": "1116",
+  "acao_titulo": "Programa Local Núcleo Incubador Campus Serra – NIS",
+  "processo": "23158.000163/2017-51",
+  "coordenador_acao": "Francisco José Casarim Rapchan",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Walace Andrade Cruz Nascimento",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Flávio Barcelos Braz da Silva",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Juciéli Alves da Costa",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Marcos Simão Guimarães",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Adelson Pereira do Nascimento",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Ronaldo Aparecida Marques",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Karin Satie Komati",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

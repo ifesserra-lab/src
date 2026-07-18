@@ -1,0 +1,24 @@
+{
+  "slug": "gabriel-ravani-do-rosario",
+  "nome": "Gabriel Ravani do Rosario",
+  "resumo_ia": "Foi aluno bolsista no projeto 'IFES Contra a Covid-19' em 2020, participando de iniciativas extensionistas voltadas ao enfrentamento da pandemia.",
+  "anos": [
+    "2020"
+  ],
+  "funcoes": [
+    "ALUNO(A) BOLSISTA"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "3139",
+      "titulo": "IFES Contra a Covid-19",
+      "tipo": "Projeto",
+      "ano": "2020",
+      "n": 9,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ]
+    }
+  ]
+}

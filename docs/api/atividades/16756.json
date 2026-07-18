@@ -1,0 +1,47 @@
+{
+  "atividade_id": "16756",
+  "numero": "001",
+  "atividade": "QUÍMICA VERDE APLICADA: oficinas e workshops",
+  "acao_id": "4754",
+  "acao_titulo": "QUÍMICA VERDE APLICADA: oficinas e workshops",
+  "processo": "23158.002680/2023-11",
+  "coordenador_acao": "Nauvia Maria Cancelieri",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Matheus Tiago Amorim Pereira",
+      "funcao": "MONITOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Debora Galavote Moura",
+      "funcao": "MONITOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Nauvia Maria Cancelieri",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Julia Sagrillo Barreiros",
+      "funcao": "MONITOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Marianna Stark Gardioli Rangel",
+      "funcao": "MONITOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Nauvia Maria Cancelieri",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Convidado"
+    }
+  ]
+}

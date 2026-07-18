@@ -1,0 +1,22 @@
+{
+  "atividade_id": "3690",
+  "numero": "003",
+  "atividade": "Palestra: Fundamentos da Educação",
+  "acao_id": "1263",
+  "acao_titulo": "Ciclo de estudos 2017/2 do Ifes campus Serra",
+  "processo": "23158.000394/2017-64",
+  "coordenador_acao": "Gilmar Luiz Vassoler",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Maurício Abdalla Guerrieri",
+      "funcao": "PALESTRANTE",
+      "vinculo": "Convidado"
+    }
+  ]
+}

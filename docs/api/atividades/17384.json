@@ -1,0 +1,44 @@
+{
+  "atividade_id": "17384",
+  "numero": "001",
+  "atividade": "ConectaFapes: Uma plataforma de apoio à Pesquisa, Desenvolvimento e Inovação",
+  "acao_id": "4830",
+  "acao_titulo": "ConectaFapes: Uma plataforma de apoio à Pesquisa, Desenvolvimento e Inovação",
+  "processo": "23158.003530/2023-16",
+  "coordenador_acao": "Paulo Sérgio dos Santos Júnior",
+  "publico_alvo": {
+    "total": 66,
+    "aprovados": 66,
+    "certificados": 66,
+    "situacao": {
+      "APROVADO": 66
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Arthur Cremasco Amaral",
+      "funcao": "AUXILIAR TÉCNICO",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Victor Emerson Siqueira de Souza",
+      "funcao": "AUXILIAR TÉCNICO",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Emanuel Hoffmann Sperandio Cott",
+      "funcao": "AUXILIAR TÉCNICO",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Isabella Bissoli",
+      "funcao": "AUXILIAR TÉCNICO",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Ruan Rody de Melo da Costa",
+      "funcao": "AUXILIAR TÉCNICO",
+      "vinculo": "Aluno"
+    }
+  ]
+}

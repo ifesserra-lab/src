@@ -1,0 +1,106 @@
+{
+  "acao_id": "4820",
+  "Processo nº": "23158.003498/2023-79",
+  "Título ação": "Mulheres Mil – Eletricista Instalador Predial em Baixa Tensão",
+  "Natureza": "Extensão",
+  "Tipo ação": "Curso",
+  "Coordenador(a)": "Tatiane Policário Chagas",
+  "Fomento": "MULHERES MIL",
+  "Ação vinculante": "23147.007905/2023-46 - Mulheres Mil",
+  "Grande área conhecimento": "",
+  "Grande área conhecimento (inferida)": "Engenharias",
+  "Área temática principal": "Tecnologia e Produção",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "02/04/2026",
+  "Data de cadastro": "07/12/2023",
+  "Resumo": "Visando ainda garantir a permanência e o êxito escolar, às alunas que apresentarem dificuldade de aprendizagem será disponibilizado, pelos professores, apoio pedagógico. Será incentivada a montagem de grupos de estudos a fim de minimizar as dificuldades individuais encontradas no decorrer do processo de aprendizagem.\nCaberá ao professor de cada componente curricular informar, ao serviço pedagógico, a relação de alunos infrequentes. Esses dados contribuirão para que essa equipe trace estratégias preventivas e de reintegração das ausentes.\nVale ressaltar que durante todo o curso, as alunas serão motivadas a prosseguir seus estudos por meio dos demais cursos ofertados pelo IFES.\nO docente deverá criar um clima de confiança, respeito mútuo, de colaboração e de compromisso com o bem comum, onde favoreça a aprendizagem das discentes. Lembrar-se que na avaliação o lema é conhecer para ajudar, identificar a deficiência para adequar às necessidades de formação que leve em conta as possibilidades reais de cada participante do curso e o desenvolvimento de suas capacidades. As atividades serão estruturadas em um encontro semanal, com carga horária total de 160 horas, distribuídas e organizadas para oferecer um espaço de formação e desenvolvimento das mulheres participantes.",
+  "Campus": "Serra",
+  "total_participacoes": 74,
+  "publico_alvo_total": 62,
+  "atividades": [
+    {
+      "atividade_id": "17244",
+      "numero": "001",
+      "atividade": "Mulheres Mil – Eletricista Instalador Predial em Baixa Tensão",
+      "publico": 42,
+      "aprovados": 42,
+      "certificados": 42,
+      "equipe": 4
+    },
+    {
+      "atividade_id": "20470",
+      "numero": "002",
+      "atividade": "Mulheres Mil – Eletricista Instalador Predial em Baixa Tensão",
+      "publico": 20,
+      "aprovados": 20,
+      "certificados": 20,
+      "equipe": 8
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Bruno Ramos Gonzaga",
+      "funcoes": [
+        "PROFESSOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Cynthia Kruger Quinino",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "David de Assis",
+      "funcoes": [
+        "MONITOR(A)"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Edjane Martins da Silva",
+      "funcoes": [
+        "PROFESSOR(A) VOLUNTÁRIO"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Eglalciane de Lyrio Tongo",
+      "funcoes": [
+        "PROFESSOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Gina Carla Maciel",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Marcos Paulo Kohler Caldas",
+      "funcoes": [
+        "ORIENTADOR(A)",
+        "PROFESSOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Matheus Policário Amorim",
+      "funcoes": [
+        "MONITOR(A)"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Tatiane Policário Chagas",
+      "funcoes": [
+        "COORDENADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    }
+  ]
+}

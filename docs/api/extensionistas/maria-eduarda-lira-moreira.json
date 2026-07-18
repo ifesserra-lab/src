@@ -1,0 +1,36 @@
+{
+  "slug": "maria-eduarda-lira-moreira",
+  "nome": "Maria Eduarda Lira Moreira",
+  "resumo_ia": "Atuou como aluna voluntária no Ifes Portas Abertas em 2018 e como aluna em atividade curricular no projeto Atividades físicas adaptadas e inclusão (AFAI) em 2023, envolvendo-se em iniciativas de extensão e inclusão social.",
+  "anos": [
+    "2018",
+    "2023"
+  ],
+  "funcoes": [
+    "ALUNO(A) EM ATIVIDADE CURRICULAR",
+    "ALUNO(A) VOLUNTARIO"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "2107",
+      "titulo": "Ifes Portas Abertas",
+      "tipo": "Programa",
+      "ano": "2018",
+      "n": 547,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ]
+    },
+    {
+      "acao_id": "4659",
+      "titulo": "Atividades físicas adaptadas e inclusão (AFAI)",
+      "tipo": "Projeto",
+      "ano": "2023",
+      "n": 298,
+      "funcoes": [
+        "ALUNO(A) EM ATIVIDADE CURRICULAR"
+      ]
+    }
+  ]
+}

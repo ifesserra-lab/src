@@ -1,0 +1,27 @@
+{
+  "atividade_id": "7247",
+  "numero": "001",
+  "atividade": "Ifes Portas Abertas",
+  "acao_id": "2107",
+  "acao_titulo": "Ifes Portas Abertas",
+  "processo": "23158.001172/2018-40",
+  "coordenador_acao": "Wagner Kirmse Caldas",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Wagner Kirmse Caldas",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Fidelis Zanetti de Castro",
+      "funcao": "COORDENADOR(A) ADJUNTO(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "atividade_id": "8630",
+  "numero": "001",
+  "atividade": "Circuito Audiovisual",
+  "acao_id": "2505",
+  "acao_titulo": "Circuito Audiovisual",
+  "processo": "23158.001195/2019-35",
+  "coordenador_acao": "Amarildo Mendes Lemos",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "André Malverdes",
+      "funcao": "ASSESSOR(A)",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Wagner Scopel Falcão",
+      "funcao": "ASSESSOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Marcos Valério Guimarães",
+      "funcao": "COORDENADOR(A) DE ÁREA",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Diego do Nascimento Rodrigues Flores",
+      "funcao": "COORDENADOR(A) DE ÁREA",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Diego Ramiro Araoz Alves",
+      "funcao": "COORDENADOR(A) DE ÁREA",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Denise Carla Goldner Coelho",
+      "funcao": "ASSESSOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Amarildo Mendes Lemos",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

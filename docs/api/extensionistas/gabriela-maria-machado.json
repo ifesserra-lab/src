@@ -1,0 +1,24 @@
+{
+  "slug": "gabriela-maria-machado",
+  "nome": "Gabriela Maria Machado",
+  "resumo_ia": "Participou como aluna voluntária no evento Ifes Portas Abertas em 2018.",
+  "anos": [
+    "2018"
+  ],
+  "funcoes": [
+    "ALUNO(A) VOLUNTARIO"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "2107",
+      "titulo": "Ifes Portas Abertas",
+      "tipo": "Programa",
+      "ano": "2018",
+      "n": 547,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ]
+    }
+  ]
+}

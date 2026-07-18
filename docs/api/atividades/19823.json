@@ -1,0 +1,69 @@
+{
+  "atividade_id": "19823",
+  "numero": "001",
+  "atividade": "Jogos Estaduais do IFES 2025",
+  "acao_id": "5406",
+  "acao_titulo": "Jogos Estaduais do IFES 2025",
+  "processo": "23158.000213/2025-18",
+  "coordenador_acao": "Milainy Ludmila Santos Goulart",
+  "publico_alvo": {
+    "total": 48,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {
+      "CURSANDO": 48
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Andre Luiz Oliveira",
+      "funcao": "AUXILIAR TÉCNICO",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Milainy Ludmila Santos Goulart",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Marcio de Lima Braga",
+      "funcao": "AUXILIAR TÉCNICO",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Matheus Tiago Amorim Pereira",
+      "funcao": "ALUNO(A) VOLUNTARIO",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Artur Bolda Amorim",
+      "funcao": "ALUNO(A) VOLUNTARIO",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Kleber Lucas Fernandes Pereira",
+      "funcao": "AUXILIAR TÉCNICO",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Pedro Cardoso de Almeida",
+      "funcao": "AUXILIAR TÉCNICO",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Leonardo Zancheta Vieira",
+      "funcao": "AUXILIAR TÉCNICO",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Jéssica Conti Garuzzi",
+      "funcao": "AUXILIAR TÉCNICO",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Emilly Martinelli Rossi",
+      "funcao": "COORDENADOR(A) ADJUNTO(A)",
+      "vinculo": "Convidado"
+    }
+  ]
+}

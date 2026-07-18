@@ -1,0 +1,24 @@
+{
+  "atividade_id": "16066",
+  "numero": "048",
+  "atividade": "Palestra \"Comportamento x Atitude: A importância do protagonismo dentro das organizações\" - I Semana do Estágio e Emprego IFES Campus Serra",
+  "acao_id": "3140",
+  "acao_titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+  "processo": "23158.001185/2020-56",
+  "coordenador_acao": "Emmanuel Marques Silva",
+  "publico_alvo": {
+    "total": 76,
+    "aprovados": 76,
+    "certificados": 76,
+    "situacao": {
+      "APROVADO": 76
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Maria Heloisa Neves Guimarães",
+      "funcao": "PALESTRANTE",
+      "vinculo": "Convidado"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "atividade_id": "14253",
+  "numero": "004",
+  "atividade": "Visita guiada: Trilha do Ouro",
+  "acao_id": "4163",
+  "acao_titulo": "Expedição Ifes",
+  "processo": "23158.002269/2022-56",
+  "coordenador_acao": "Alessandro Bermudes Gomes",
+  "publico_alvo": {
+    "total": 57,
+    "aprovados": 57,
+    "certificados": 57,
+    "situacao": {
+      "APROVADO": 57
+    }
+  },
+  "equipe_execucao": []
+}

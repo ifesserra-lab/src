@@ -1,0 +1,24 @@
+{
+  "slug": "elisa-moreira-costa",
+  "nome": "Elisa Moreira Costa",
+  "resumo_ia": "Colaborou no projeto Conectando Talentos: Robótica e Programação no IFES-Serra em 2024.",
+  "anos": [
+    "2024"
+  ],
+  "funcoes": [
+    "COLABORADOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "5086",
+      "titulo": "Conectando Talentos: Robótica e Programação no IFES-Serra",
+      "tipo": "Projeto",
+      "ano": "2024",
+      "n": 218,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "slug": "richard-junior-manuel-godinez-tello",
+  "nome": "Richard Junior Manuel Godinez Tello",
+  "resumo_ia": "Coordenou e orientou projetos de extensão entre 2018 e 2025, como sistemas robóticos, ambientes maker e iniciativas de robótica educacional, além de atuar como colaborador, instrutor e palestrante em cursos e eventos extensionistas entre 2017 e 2023.",
+  "anos": [
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2023",
+    "2024",
+    "2025"
+  ],
+  "funcoes": [
+    "APOIO TÉCNICO",
+    "AUXILIAR TÉCNICO",
+    "COLABORADOR(A)",
+    "COORDENADOR(A)",
+    "COORDENADOR(A) ADJUNTO(A)",
+    "INSTRUTOR(A)",
+    "ORIENTADOR(A)",
+    "PALESTRANTE"
+  ],
+  "acoes_coordenadas": [
+    {
+      "acao_id": "1829",
+      "titulo": "Desenvolvimento de um sistema multiplataforma para robôs de assistência e manutenção de quadras esportivas",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 3
+    },
+    {
+      "acao_id": "3567",
+      "titulo": "Laboratório IFMaker Serra: um ambiente colaborativo de aprendizagem e desenvolvimento de soluções",
+      "tipo": "Projeto",
+      "ano": "2021",
+      "n": 4
+    },
+    {
+      "acao_id": "5086",
+      "titulo": "Conectando Talentos: Robótica e Programação no IFES-Serra",
+      "tipo": "Projeto",
+      "ano": "2024",
+      "n": 218
+    },
+    {
+      "acao_id": "5677",
+      "titulo": "Jovens Inventores: O poder da Tecnologia Maker no Desenvolvimento Social",
+      "tipo": "Projeto",
+      "ano": "2025",
+      "n": 48
+    }
+  ],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1261",
+      "titulo": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedora",
+      "tipo": "Curso",
+      "ano": "2017",
+      "n": 84,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "1829",
+      "titulo": "Desenvolvimento de um sistema multiplataforma para robôs de assistência e manutenção de quadras esportivas",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 3,
+      "funcoes": [
+        "COORDENADOR(A)",
+        "ORIENTADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "2021",
+      "titulo": "Física ao Alcance de Todos",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 429,
+      "funcoes": [
+        "INSTRUTOR(A)",
+        "PALESTRANTE"
+      ]
+    },
+    {
+      "acao_id": "2082",
+      "titulo": "Mulheres na Ciência",
+      "tipo": "Curso",
+      "ano": "2018",
+      "n": 53,
+      "funcoes": [
+        "PALESTRANTE"
+      ]
+    },
+    {
+      "acao_id": "2773",
+      "titulo": "Ambientação Pedagógica: Didática e Técnicas de Ensino.",
+      "tipo": "Curso",
+      "ano": "2019",
+      "n": 13,
+      "funcoes": [
+        "PALESTRANTE"
+      ]
+    },
+    {
+      "acao_id": "2932",
+      "titulo": "Física ao Alcance de Todos",
+      "tipo": "Projeto",
+      "ano": "2020",
+      "n": 10,
+      "funcoes": [
+        "PALESTRANTE"
+      ]
+    },
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "APOIO TÉCNICO",
+        "COLABORADOR(A)",
+        "COORDENADOR(A) ADJUNTO(A)"
+      ]
+    },
+    {
+      "acao_id": "3431",
+      "titulo": "Lampex + empreendedor",
+      "tipo": "Projeto",
+      "ano": "2021",
+      "n": 14,
+      "funcoes": [
+        "ORIENTADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "3567",
+      "titulo": "Laboratório IFMaker Serra: um ambiente colaborativo de aprendizagem e desenvolvimento de soluções",
+      "tipo": "Projeto",
+      "ano": "2021",
+      "n": 4,
+      "funcoes": [
+        "COORDENADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "4655",
+      "titulo": "LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão",
+      "tipo": "Programa",
+      "ano": "2023",
+      "n": 558,
+      "funcoes": [
+        "COLABORADOR(A)",
+        "INSTRUTOR(A)",
+        "PALESTRANTE"
+      ]
+    },
+    {
+      "acao_id": "5086",
+      "titulo": "Conectando Talentos: Robótica e Programação no IFES-Serra",
+      "tipo": "Projeto",
+      "ano": "2024",
+      "n": 218,
+      "funcoes": [
+        "COORDENADOR(A)",
+        "INSTRUTOR(A)"
+      ]
+    },
+    {
+      "acao_id": "5641",
+      "titulo": "LabMaker 4.0: capacitando professores para a cultura maker e tecnologias da Indústria 4.0",
+      "tipo": "Projeto",
+      "ano": "2025",
+      "n": 73,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "5677",
+      "titulo": "Jovens Inventores: O poder da Tecnologia Maker no Desenvolvimento Social",
+      "tipo": "Projeto",
+      "ano": "2025",
+      "n": 48,
+      "funcoes": [
+        "COLABORADOR(A)",
+        "COORDENADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "708",
+      "titulo": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedoras",
+      "tipo": "Curso",
+      "ano": "2016",
+      "n": 77,
+      "funcoes": [
+        "AUXILIAR TÉCNICO"
+      ]
+    },
+    {
+      "acao_id": "899",
+      "titulo": "SEMANA DE CONTROLE E AUTOMAÇÃO",
+      "tipo": "Evento",
+      "ano": "2016",
+      "n": 181,
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ]
+    }
+  ]
+}

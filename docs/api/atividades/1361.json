@@ -1,0 +1,30 @@
+{
+  "atividade_id": "1361",
+  "numero": "001",
+  "atividade": "Programação de Máquinas CNC",
+  "acao_id": "701",
+  "acao_titulo": "Programação de Máquinas CNC",
+  "processo": "23158.000280/2016-33",
+  "coordenador_acao": "Felipe Nascimento Martins",
+  "publico_alvo": {
+    "total": 22,
+    "aprovados": 8,
+    "certificados": 8,
+    "situacao": {
+      "REPROVADO": 14,
+      "APROVADO": 8
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Alan Pablo Donati Pereira",
+      "funcao": "INSTRUTOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Felipe Nascimento Martins",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

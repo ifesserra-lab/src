@@ -1,0 +1,22 @@
+{
+  "atividade_id": "11167",
+  "numero": "003",
+  "atividade": "Palestra: Ética na Inteligência Artificial na Semana Nacional de Ciência e Tecnologia (SNCT 2020) do Campus Serra",
+  "acao_id": "2932",
+  "acao_titulo": "Física ao Alcance de Todos",
+  "processo": "23158.000471/2020-31",
+  "coordenador_acao": "Rosilene de Sá Ribeiro",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Paulo Antonio de Souza Junior",
+      "funcao": "PALESTRANTE",
+      "vinculo": "Convidado"
+    }
+  ]
+}

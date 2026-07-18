@@ -1,0 +1,24 @@
+{
+  "slug": "luana-santos-lemos",
+  "nome": "Luana Santos Lemos",
+  "resumo_ia": "Exerceu a função de coordenadora adjunta na equipe PRÉ – IFES Campus Serra em 2017, auxiliando na gestão de atividades de extensão.",
+  "anos": [
+    "2017"
+  ],
+  "funcoes": [
+    "COORDENADOR(A) ADJUNTO(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1117",
+      "titulo": "PRÉ – IFES Campus Serra",
+      "tipo": "Curso",
+      "ano": "2017",
+      "n": 48,
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "acao_id": "5357",
+  "Processo nº": "23158.000236/2025-14",
+  "Título ação": "MULHERES MIL - Artesão em Bordado a mão",
+  "Natureza": "Extensão",
+  "Tipo ação": "Curso",
+  "Coordenador(a)": "Tatiane Policário Chagas",
+  "Fomento": "MULHERES MIL",
+  "Ação vinculante": "23147.007905/2023-46 - Mulheres Mil",
+  "Grande área conhecimento": "Ciências Sociais Aplicadas",
+  "Área temática principal": "Cultura",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "06/04/2026",
+  "Data de cadastro": "24/02/2025",
+  "Resumo": "O curso de formação inicial e continuada (FIC) Artesão em bordado a mão - artesão crocheteiro, denominado “Liberdade em suas mãos” é uma o oficina de crochê(*) ou croché (em francês crochet) com periodicidade semanal onde a técnica do crochê será ensinada à mulheres inexperientes e desenvolvida para as experientes, com a apresentação de novos usos do crochê aplicando materiais tradicionais e alternativos. A oficina “ Liberdade em suas mãos” usará a arte do crochê para proporcionar aos praticantes desta técnica artesanal relaxamento, concentração, destreza manual, criatividade, interação social, e geração de renda. Serão encontros semanais, com duração de cinco horas, para apresentação de uma técnica de crochê, produção de peças para venda, assim como inclusão digital, conceitos de administração e economia, cuidados para a saúde física e mental.\nVisando garantir a permanência e o êxito escolar, às alunas que apresentarem dificuldade de aprendizagem será disponibilizado, pelos professores, apoio pedagógico. Será incentivada a montagem de grupos de estudos a fim de minimizar as dificuldades individuais encontradas no decorrer do processo de aprendizagem. Os alunos terão monitores para auxiliar no processo de aprendizagem. Caberá ao professor de cada componente curricular informar, ao serviço pedagógico, a relação de alunos infrequentes. Esses dados contribuirão para que essa equipe trace estratégias preventivas e de reintegração das ausentes. O docente deverá criar um clima de confiança, respeito mútuo, de colaboração e de compromisso com o bem comum, onde favoreça a aprendizagem das discentes. Destaca-se que na avaliação o lema é conhecer para ajudar, identificar a deficiência para adequar às necessidades de formação que leve em conta as possibilidades reais de cada participante do curso e o desenvolvimento de suas capacidades. As atividades serão estruturadas em um encontro semanal, com carga horária total de 160 horas, distribuídas e organizadas para oferecer um espaço de formação e desenvolvimento das mulheres participantes. As alunas serão motivadas a prosseguir seus estudos por meio dos demais cursos ofertados pelo IFES.",
+  "Campus": "Serra",
+  "total_participacoes": 35,
+  "publico_alvo_total": 24,
+  "atividades": [
+    {
+      "atividade_id": "19716",
+      "numero": "001",
+      "atividade": "MULHERES MIL - Artesão em Bordado a mão",
+      "publico": 24,
+      "aprovados": 24,
+      "certificados": 24,
+      "equipe": 11
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Alessandra Aguiar Vilarinho",
+      "funcoes": [
+        "ORIENTADOR(A)",
+        "PROFESSOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Bruno Ramos Gonzaga",
+      "funcoes": [
+        "PROFESSOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Cynthia Kruger Quinino",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Davi Campos Sutil",
+      "funcoes": [
+        "MONITOR(A)"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Elika Capucho Delazare",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Elisa Andrade de Jesus",
+      "funcoes": [
+        "MONITOR(A)"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Emmanuel Marques Silva",
+      "funcoes": [
+        "PROFESSOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Luiz Felipe Elizeta dos Santos",
+      "funcoes": [
+        "MONITOR(A)"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Remerson Victor Silva da Assurreição",
+      "funcoes": [
+        "MONITOR(A)"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Tatiane Policário Chagas",
+      "funcoes": [
+        "COORDENADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    }
+  ]
+}

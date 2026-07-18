@@ -1,0 +1,29 @@
+{
+  "atividade_id": "10574",
+  "numero": "017",
+  "atividade": "Ação Cineclubista \"Mestre Pastinha, Rei da Capoeira\"",
+  "acao_id": "2505",
+  "acao_titulo": "Circuito Audiovisual",
+  "processo": "23158.001195/2019-35",
+  "coordenador_acao": "Amarildo Mendes Lemos",
+  "publico_alvo": {
+    "total": 36,
+    "aprovados": 36,
+    "certificados": 36,
+    "situacao": {
+      "APROVADO": 36
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Denise Carla Goldner Coelho",
+      "funcao": "ASSESSOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Amarildo Mendes Lemos",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

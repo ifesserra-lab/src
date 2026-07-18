@@ -1,0 +1,38 @@
+{
+  "slug": "joao-vitor-oliveira-scheidegger",
+  "nome": "João Vitor Oliveira Scheidegger",
+  "resumo_ia": "Desempenhou as funções de monitor no LAMPEX – Laboratório Modelo de Práticas de Extensão em 2020 e, em 2025, atuou como bolsista e ministrante no LabMaker 4.0, capacitando professores em cultura maker e tecnologias da Indústria 4.0.",
+  "anos": [
+    "2020",
+    "2025"
+  ],
+  "funcoes": [
+    "ALUNO(A) BOLSISTA",
+    "MINISTRANTE",
+    "MONITOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "MONITOR(A)"
+      ]
+    },
+    {
+      "acao_id": "5641",
+      "titulo": "LabMaker 4.0: capacitando professores para a cultura maker e tecnologias da Indústria 4.0",
+      "tipo": "Projeto",
+      "ano": "2025",
+      "n": 73,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA",
+        "MINISTRANTE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "atividade_id": "10564",
+  "numero": "007",
+  "atividade": "Oficina Especializada de Câmera & Fotografia",
+  "acao_id": "2505",
+  "acao_titulo": "Circuito Audiovisual",
+  "processo": "23158.001195/2019-35",
+  "coordenador_acao": "Amarildo Mendes Lemos",
+  "publico_alvo": {
+    "total": 8,
+    "aprovados": 8,
+    "certificados": 8,
+    "situacao": {
+      "APROVADO": 8
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Francisco Xavier Pereira Neto",
+      "funcao": "INSTRUTOR(A)",
+      "vinculo": "Convidado"
+    }
+  ]
+}

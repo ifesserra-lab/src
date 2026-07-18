@@ -1,0 +1,34 @@
+{
+  "atividade_id": "17040",
+  "numero": "007",
+  "atividade": "Palestra \"Prontualize, solução que promove bem-estar emocional e mental\"",
+  "acao_id": "4655",
+  "acao_titulo": "LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão",
+  "processo": "23158.001854/2023-10",
+  "coordenador_acao": "Gabriel Tozatto Zago",
+  "publico_alvo": {
+    "total": 28,
+    "aprovados": 28,
+    "certificados": 28,
+    "situacao": {
+      "APROVADO": 28
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Cristiane de Oliveira Veronesi",
+      "funcao": "PALESTRANTE",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Rodiney Pereira da Silva",
+      "funcao": "PALESTRANTE",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Rosiane Ribeiro Rocha",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

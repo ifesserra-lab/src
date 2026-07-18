@@ -1,0 +1,453 @@
+{
+  "acao_id": "1116",
+  "Processo nº": "23158.000163/2017-51",
+  "Título ação": "Programa Local Núcleo Incubador Campus Serra – NIS",
+  "Natureza": "Extensão",
+  "Tipo ação": "Programa",
+  "Coordenador(a)": "Francisco José Casarim Rapchan",
+  "Fomento": "PAEX-IFES",
+  "Ação vinculante": "23147.002020/2025-12 - Rede de Incubação de Empreendimento",
+  "Grande área conhecimento": "Ciências Sociais Aplicadas",
+  "Área temática principal": "Tecnologia e Produção",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "15/01/2021",
+  "Data de cadastro": "10/05/2017",
+  "Resumo": "A Incubadora do Ifes é concebida como um ambiente educacional propício para o desenvolvimento de competências (conhecimentos, habilidades e atitudes) empreendedoras e inovadoras por meio de atividades que contemplam alunos, servidores e comunidade externa. Busca contribuir para o desenvolvimento socioeconômico local e regional sendo referência no trabalho de apoio a empreendimentos inovadores do Estado do Espírito Santo. \n\nA incubadora do Ifes encontra-se institucionalizada pela Resolução do Conselho Superior n.º 70/2011, de 08 de dezembro de 2011, que define regras e procedimentos para a institucionalização de Núcleos Incubadores de empreendimentos de base tecnológica, social e cultural. \n\nO Programa Local do Núcleo Incubador Campus Serra – NIS encontra-se diretamente vinculado e alinhado com o Programa Institucional em Rede de Incubação de Empreendimentos desenvolvido pela Agência de Inovação do Ifes (Agifes).  O programa local citado tem como principal objetivo oferecer um conjunto de atividades que proporcionam suporte ao desenvolvimento de projetos inovadores, por meio de iniciativas próprias e em parceria com a rede constituída por Núcleos Incubadores do Ifes com potencial de abrangência em todos os campi da instituição.\n\nDesse modo, todas as ações, processos e projetos institucionais desenvolvidos pelo Núcleo Incubador Campus Serra – NIS estão diretamente relacionados com a função estratégica integradora e articuladora do Programa Institucional em Rede de Incubação de Empreendimentos.",
+  "Campus": "Serra",
+  "total_participacoes": 220,
+  "publico_alvo_total": 126,
+  "atividades": [
+    {
+      "atividade_id": "3053",
+      "numero": "001",
+      "atividade": "Programa Local Núcleo Incubador Campus Serra – NIS",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 4
+    },
+    {
+      "atividade_id": "2877",
+      "numero": "002",
+      "atividade": "Apresentação do projeto \"Motor a Combustão Interna Transparente - Translucidus\" no evento MEC SHOW 2016 - 9ª FEIRA DA METALMECÂNICA, ENERGIA E AUTOMAÇÃO.",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 2
+    },
+    {
+      "atividade_id": "3038",
+      "numero": "003",
+      "atividade": "Congresso Internacional WFCP 2016 e 40ª Reditec realizado na Praça do Papa, em Vitória/ES",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 2
+    },
+    {
+      "atividade_id": "3042",
+      "numero": "004",
+      "atividade": "Apresentação do projeto \"Motor a Combustão Interna Transparente - Translucidus\" no evento MEC SHOW 2015 - 8ª FEIRA DA METALMECÂNICA, ENERGIA E AUTOMAÇÃO.",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 2
+    },
+    {
+      "atividade_id": "3043",
+      "numero": "005",
+      "atividade": "Palestra \"O Emprego do Motor Transparente no Aprimoramento Didático\" no evento Youth Camp 2016 realizado no Instituto Federal do Espírito Santo - Campus Serra",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "3044",
+      "numero": "006",
+      "atividade": "Comitê Gestor do Núcleo Incubador campus Serra do Ifes - NIS",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 7
+    },
+    {
+      "atividade_id": "3045",
+      "numero": "007",
+      "atividade": "Comitê Gestor do Núcleo Incubador campus Serra do Ifes - NIS",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 6
+    },
+    {
+      "atividade_id": "3046",
+      "numero": "008",
+      "atividade": "Comitê Gestor do Núcleo Incubador campus Serra do Ifes - NIS",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 7
+    },
+    {
+      "atividade_id": "3047",
+      "numero": "009",
+      "atividade": "Comitê Gestor do Núcleo Incubador campus Serra do Ifes - NIS",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 7
+    },
+    {
+      "atividade_id": "3048",
+      "numero": "010",
+      "atividade": "Comitê Gestor do Núcleo Incubador campus Serra do Ifes - NIS",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 7
+    },
+    {
+      "atividade_id": "3049",
+      "numero": "011",
+      "atividade": "Comitê Gestor do Núcleo Incubador campus Serra do Ifes - NIS",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 6
+    },
+    {
+      "atividade_id": "6652",
+      "numero": "014",
+      "atividade": "Palestra: Incubadora de Empresas: Apresentação da Incubadora e do Diagnóstico das principais demandas Jurídicas e Administrativas dos Programas de Incubação de Empreendimentos do Núcleo Incubador do Campus Serra do Ifes",
+      "publico": 100,
+      "aprovados": 100,
+      "certificados": 100,
+      "equipe": 0
+    },
+    {
+      "atividade_id": "10997",
+      "numero": "017",
+      "atividade": "Capacitação em \"Modelagem de Novos Negócios\"",
+      "publico": 24,
+      "aprovados": 24,
+      "certificados": 24,
+      "equipe": 4
+    },
+    {
+      "atividade_id": "11215",
+      "numero": "018",
+      "atividade": "'Melhoria e manutenção dos processos internos envolvendo sistemas de informação para elaboração e geração de relatórios do Núcleo de Inovação do campus Serra e do Núcleo Incubador do campus Serra.",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 2
+    },
+    {
+      "atividade_id": "11584",
+      "numero": "019",
+      "atividade": "Membro do Comtê Gestor do Núcleo Incubador campus Serra do Ifes - NIS",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 7
+    },
+    {
+      "atividade_id": "11585",
+      "numero": "020",
+      "atividade": "Membro do Comtê Gestor do Núcleo Incubador campus Serra do Ifes - NIS",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 7
+    },
+    {
+      "atividade_id": "11586",
+      "numero": "021",
+      "atividade": "Membro do Comtê Gestor do Núcleo Incubador campus Serra do Ifes - NIS",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 7
+    },
+    {
+      "atividade_id": "11587",
+      "numero": "022",
+      "atividade": "Membro do Comtê Gestor do Núcleo Incubador campus Serra do Ifes - NIS",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 7
+    },
+    {
+      "atividade_id": "11625",
+      "numero": "023",
+      "atividade": "Capacitação em \"Modelagens de Novos Negócios\"",
+      "publico": 2,
+      "aprovados": 2,
+      "certificados": 2,
+      "equipe": 9
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Adelson Pereira do Nascimento",
+      "funcoes": [
+        "ASSESSOR(A)",
+        "COLABORADOR(A)",
+        "MENTOR(A)"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Bene Regis Figueiredo",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Claudemir Jose Malacarne",
+      "funcoes": [
+        "EXPOSITOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Daniel Arrais",
+      "funcoes": [
+        "MENTOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Daniel Cruz Cavalieri",
+      "funcoes": [
+        "MEMBRO DE COMITÊ GESTOR"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Dennia Lúcia Goldner Schrock",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Dirceu Soares Júnior",
+      "funcoes": [
+        "COLABORADOR(A)",
+        "MEMBRO DE COMITÊ GESTOR"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Elizangela Campos da Rosa Broetto",
+      "funcoes": [
+        "MENTOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Elton Siqueira Moura",
+      "funcoes": [
+        "COORDENADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Emerson Atílio Birchler",
+      "funcoes": [
+        "COLABORADOR(A)",
+        "MEMBRO DE COMITÊ GESTOR"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Emmanuel Marques Silva",
+      "funcoes": [
+        "COORDENADOR(A)",
+        "MENTOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Fabiano Borges Ruy",
+      "funcoes": [
+        "MEMBRO DE COMITÊ GESTOR"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Felipe Frechiani de Oliveira",
+      "funcoes": [
+        "MEMBRO DE COMITÊ GESTOR"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Flaviana de Souza",
+      "funcoes": [
+        "MENTOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Flávio Barcelos Braz da Silva",
+      "funcoes": [
+        "COLABORADOR(A)",
+        "MEMBRO DE COMITÊ GESTOR"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Flávio Garcia Pereira",
+      "funcoes": [
+        "MEMBRO DE COMITÊ GESTOR"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Francisco José Casarim Rapchan",
+      "funcoes": [
+        "COORDENADOR(A)",
+        "MENTOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Gilmar Luiz Vassoler",
+      "funcoes": [
+        "MEMBRO DE COMITÊ GESTOR",
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Giovani de Oliveira Silva Jr",
+      "funcoes": [
+        "EXPOSITOR(A)",
+        "PALESTRANTE"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Jennifer Gonçalves do Amaral",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Juciéli Alves da Costa",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Jéssica Nascimento Galvani",
+      "funcoes": [
+        "MENTOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Jéssica Yamada",
+      "funcoes": [
+        "MENTOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Karin Satie Komati",
+      "funcoes": [
+        "ASSESSOR(A)",
+        "MEMBRO DE COMITÊ GESTOR",
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Marcos Simão Guimarães",
+      "funcoes": [
+        "COLABORADOR(A)",
+        "MEMBRO DE COMITÊ GESTOR"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Mateus Conrad Barcelos da Costa",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Michele Silva da Mata Caetano",
+      "funcoes": [
+        "MENTOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Renata Carneiro Sousa",
+      "funcoes": [
+        "MEMBRO DE COMITÊ GESTOR"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Renato Tannure Rotta de Almeida",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Roberto Inhance",
+      "funcoes": [
+        "MEMBRO DE COMITÊ GESTOR"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Ronaldo Aparecida Marques",
+      "funcoes": [
+        "COLABORADOR(A)",
+        "MEMBRO DE COMITÊ GESTOR",
+        "MENTOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Rosilene de Sá Ribeiro",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Sâmela Pedrada Cardoso",
+      "funcoes": [
+        "MENTOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Valéria Gabriel Estanislau",
+      "funcoes": [
+        "MEMBRO DE COMITÊ GESTOR"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Walace Andrade Cruz Nascimento",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Aluno"
+    }
+  ]
+}

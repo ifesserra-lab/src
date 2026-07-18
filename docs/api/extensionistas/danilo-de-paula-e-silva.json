@@ -1,0 +1,26 @@
+{
+  "slug": "danilo-de-paula-e-silva",
+  "nome": "Danilo de Paula e Silva",
+  "resumo_ia": "Atuou como apoio técnico e organizador no LAMPEX – Laboratório Modelo de Práticas de Extensão em 2020.",
+  "anos": [
+    "2020"
+  ],
+  "funcoes": [
+    "APOIO TÉCNICO",
+    "ORGANIZADOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "APOIO TÉCNICO",
+        "ORGANIZADOR(A)"
+      ]
+    }
+  ]
+}

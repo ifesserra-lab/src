@@ -1,0 +1,48 @@
+{
+  "slug": "leandro-melo-de-sa",
+  "nome": "Leandro Melo de Sá",
+  "resumo_ia": "Coordenou e orientou o projeto 'Física ao Alcance de Todos' como coordenador adjunto nos anos de 2018, 2020 e 2022, atuando em ações de extensão voltadas à divulgação da física.",
+  "anos": [
+    "2018",
+    "2020",
+    "2022"
+  ],
+  "funcoes": [
+    "COORDENADOR(A) ADJUNTO(A)",
+    "ORIENTADOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "2021",
+      "titulo": "Física ao Alcance de Todos",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 429,
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)",
+        "ORIENTADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "2932",
+      "titulo": "Física ao Alcance de Todos",
+      "tipo": "Projeto",
+      "ano": "2020",
+      "n": 10,
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)"
+      ]
+    },
+    {
+      "acao_id": "3768",
+      "titulo": "Física ao Alcance de Todos",
+      "tipo": "Projeto",
+      "ano": "2022",
+      "n": 11,
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)"
+      ]
+    }
+  ]
+}

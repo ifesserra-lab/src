@@ -1,0 +1,34 @@
+{
+  "atividade_id": "16742",
+  "numero": "056",
+  "atividade": "Minicurso de Informática Básica - Fundamentos de Informática e Habilidades Digitais",
+  "acao_id": "3140",
+  "acao_titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+  "processo": "23158.001185/2020-56",
+  "coordenador_acao": "Emmanuel Marques Silva",
+  "publico_alvo": {
+    "total": 18,
+    "aprovados": 18,
+    "certificados": 18,
+    "situacao": {
+      "APROVADO": 18
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Celeste Nascimento Souza Silva",
+      "funcao": "INSTRUTOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Isaque da Silva Santos de Souza",
+      "funcao": "INSTRUTOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Julio Cesar da Silva",
+      "funcao": "INSTRUTOR(A)",
+      "vinculo": "Aluno"
+    }
+  ]
+}

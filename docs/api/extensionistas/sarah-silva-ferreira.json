@@ -1,0 +1,49 @@
+{
+  "slug": "sarah-silva-ferreira",
+  "nome": "Sarah Silva Ferreira",
+  "resumo_ia": "Atuou como aluno(a) voluntário nas equipes Mulheres na Ciência (2018) e I Am Here: Registro de Frequência por Reconhecimento Facial (2019), além de auxiliar técnico e expositor(a) no LEDS – Laboratório de Extensão em Desenvolvimento de Soluções em 2016.",
+  "anos": [
+    "2016",
+    "2018",
+    "2019"
+  ],
+  "funcoes": [
+    "ALUNO(A) VOLUNTARIO",
+    "AUXILIAR TÉCNICO",
+    "EXPOSITOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "2082",
+      "titulo": "Mulheres na Ciência",
+      "tipo": "Curso",
+      "ano": "2018",
+      "n": 53,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ]
+    },
+    {
+      "acao_id": "2823",
+      "titulo": "I Am Here: Registro de Frequência por Reconhecimento Facial",
+      "tipo": "Projeto",
+      "ano": "2019",
+      "n": 6,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ]
+    },
+    {
+      "acao_id": "901",
+      "titulo": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+      "tipo": "Programa",
+      "ano": "2016",
+      "n": 104,
+      "funcoes": [
+        "AUXILIAR TÉCNICO",
+        "EXPOSITOR(A)"
+      ]
+    }
+  ]
+}

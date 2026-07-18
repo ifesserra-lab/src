@@ -1,0 +1,34 @@
+{
+  "atividade_id": "17037",
+  "numero": "004",
+  "atividade": "Oficina \"Pintura em pneus\"",
+  "acao_id": "4655",
+  "acao_titulo": "LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão",
+  "processo": "23158.001854/2023-10",
+  "coordenador_acao": "Gabriel Tozatto Zago",
+  "publico_alvo": {
+    "total": 9,
+    "aprovados": 9,
+    "certificados": 9,
+    "situacao": {
+      "APROVADO": 9
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Ary Francisco Tomé",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Renata Carneiro Sousa",
+      "funcao": "INSTRUTOR(A)",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Rosiane Ribeiro Rocha",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

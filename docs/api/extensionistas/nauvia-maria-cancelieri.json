@@ -1,0 +1,57 @@
+{
+  "slug": "nauvia-maria-cancelieri",
+  "nome": "Nauvia Maria Cancelieri",
+  "resumo_ia": "Coordenou e organizou o projeto 'QUÍMICA VERDADE APLICADA: oficinas e workshops' em 2023, além de atuar como palestrante no projeto 'Mulheres na Ciência' em 2018 e ministrante no LabMaker Serra em 2023.",
+  "anos": [
+    "2018",
+    "2023"
+  ],
+  "funcoes": [
+    "COORDENADOR(A)",
+    "MINISTRANTE",
+    "ORGANIZADOR(A)",
+    "PALESTRANTE"
+  ],
+  "acoes_coordenadas": [
+    {
+      "acao_id": "4754",
+      "titulo": "QUÍMICA VERDE APLICADA: oficinas e workshops",
+      "tipo": "Projeto",
+      "ano": "2023",
+      "n": 159
+    }
+  ],
+  "participacoes_equipe": [
+    {
+      "acao_id": "2082",
+      "titulo": "Mulheres na Ciência",
+      "tipo": "Curso",
+      "ano": "2018",
+      "n": 53,
+      "funcoes": [
+        "PALESTRANTE"
+      ]
+    },
+    {
+      "acao_id": "4655",
+      "titulo": "LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão",
+      "tipo": "Programa",
+      "ano": "2023",
+      "n": 558,
+      "funcoes": [
+        "MINISTRANTE"
+      ]
+    },
+    {
+      "acao_id": "4754",
+      "titulo": "QUÍMICA VERDE APLICADA: oficinas e workshops",
+      "tipo": "Projeto",
+      "ano": "2023",
+      "n": 159,
+      "funcoes": [
+        "COORDENADOR(A)",
+        "ORGANIZADOR(A)"
+      ]
+    }
+  ]
+}

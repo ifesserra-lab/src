@@ -1,0 +1,29 @@
+{
+  "atividade_id": "16986",
+  "numero": "002",
+  "atividade": "Oficina Produtos renováveis",
+  "acao_id": "4754",
+  "acao_titulo": "QUÍMICA VERDE APLICADA: oficinas e workshops",
+  "processo": "23158.002680/2023-11",
+  "coordenador_acao": "Nauvia Maria Cancelieri",
+  "publico_alvo": {
+    "total": 69,
+    "aprovados": 69,
+    "certificados": 69,
+    "situacao": {
+      "APROVADO": 69
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Debora Galavote Moura",
+      "funcao": "ALUNO(A) VOLUNTARIO",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Nauvia Maria Cancelieri",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

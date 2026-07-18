@@ -1,0 +1,27 @@
+{
+  "atividade_id": "17463",
+  "numero": "001",
+  "atividade": "Projeto Avançar – Nivelamento em Matemática",
+  "acao_id": "4847",
+  "acao_titulo": "Projeto Avançar – Nivelamento em Matemática",
+  "processo": "23158.003752/2023-39",
+  "coordenador_acao": "Augusto Cesar Machado Ramos",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Paulo Cezar Camargo Guedes",
+      "funcao": "PROFESSOR(A)",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Augusto Cesar Machado Ramos",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

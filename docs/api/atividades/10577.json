@@ -1,0 +1,29 @@
+{
+  "atividade_id": "10577",
+  "numero": "020",
+  "atividade": "Oficina Cinema e Educação: preservação do patrimônio histórico e cultural",
+  "acao_id": "2505",
+  "acao_titulo": "Circuito Audiovisual",
+  "processo": "23158.001195/2019-35",
+  "coordenador_acao": "Amarildo Mendes Lemos",
+  "publico_alvo": {
+    "total": 16,
+    "aprovados": 16,
+    "certificados": 16,
+    "situacao": {
+      "APROVADO": 16
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Marcos Valério Guimarães",
+      "funcao": "INSTRUTOR(A)",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Denise Carla Goldner Coelho",
+      "funcao": "ASSESSOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

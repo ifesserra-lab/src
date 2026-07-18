@@ -1,0 +1,258 @@
+{
+  "acao_id": "1261",
+  "Processo nº": "23158.000370/2017-13",
+  "Título ação": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedora",
+  "Natureza": "Extensão",
+  "Tipo ação": "Curso",
+  "Coordenador(a)": "Emmanuel Marques Silva",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "23147.002020/2025-12 - Rede de Incubação de Empreendimento",
+  "Grande área conhecimento": "",
+  "Grande área conhecimento (inferida)": "Ciências Sociais Aplicadas",
+  "Área temática principal": "Tecnologia e Produção",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "15/12/2019",
+  "Data de cadastro": "08/08/2017",
+  "Resumo": "Objetivo: Capacitar empreendedores com conhecimentos básicos da área de Gestão Empresarial com vistas a desenvolver e fortalecer características de comportamento empreendedor. O curso tem como foco principal o desenvolvimento de propostas de empreendimentos que possuam aderência a uma ou mais áreas de atuação do Ifes Campus Serra, que são: a) Tecnologia da Informação e da Comunicação (TIC); b) Informática; c) Automação; d) Tecnologia Assistiva; e) Tecnologias Educacionais; f) Gestão da Inovação; g) Eletroeletrônica; h) Metalmecânica; i) Energia; j) Tecnologia para sustentabilidade e preservação do meio ambiente.\n\nMétodo: Aulas conceituais expositivas para o desenvolvimento do plano de negócios, com acompanhamento e orientação na área de gestão e tecnológica, seguida de apresentações ao longo do curso do modelo de negócios e da evolução do estado da ideia e do negócio proposto.\n\nResultados Esperados: Capacitar potenciais empreendedores e desenvolver ideias de negócios com vistas fomentar a abertura de novos empreendimentos de base tecnológica e aumentar o potencial de sucesso de negócios inovadores e tornando-os aptos a participar de processos seletivos de incubação (Pré-Incubação Modalidade Residência e Incubação de Empreendimentos).",
+  "Campus": "Serra",
+  "total_participacoes": 84,
+  "publico_alvo_total": 37,
+  "atividades": [
+    {
+      "atividade_id": "3353",
+      "numero": "001",
+      "atividade": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedora",
+      "publico": 15,
+      "aprovados": 9,
+      "certificados": 9,
+      "equipe": 16
+    },
+    {
+      "atividade_id": "4502",
+      "numero": "002",
+      "atividade": "Seminário de Apresentação dos Empreendimentos",
+      "publico": 1,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 13
+    },
+    {
+      "atividade_id": "4818",
+      "numero": "003",
+      "atividade": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedora",
+      "publico": 12,
+      "aprovados": 9,
+      "certificados": 9,
+      "equipe": 14
+    },
+    {
+      "atividade_id": "4819",
+      "numero": "004",
+      "atividade": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedora",
+      "publico": 9,
+      "aprovados": 6,
+      "certificados": 6,
+      "equipe": 4
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Alessandro Bermudes Gomes",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Camila Braga Guimarães",
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)",
+        "INSTRUTOR(A)",
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Christian Mariani Lucas dos Santos",
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Dirceu Soares Júnior",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Edilson Luiz do Nascimento",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Elizangela Campos da Rosa Broetto",
+      "funcoes": [
+        "COLABORADOR(A)",
+        "INSTRUTOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Emerson Atílio Birchler",
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Emmanuel Marques Silva",
+      "funcoes": [
+        "COORDENADOR(A)",
+        "INSTRUTOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Erley Crevelin Valentim",
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Felipe Frechiani de Oliveira",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Flávio Barcelos Braz da Silva",
+      "funcoes": [
+        "COLABORADOR(A)",
+        "INSTRUTOR(A)"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Francisco José Casarim Rapchan",
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Gilmar Luiz Vassoler",
+      "funcoes": [
+        "AVALIADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Giovani Zanetti Neto",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Humberto Henrique Ramos Brotto",
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Jefferson Ribeiro de Lima",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Karin Satie Komati",
+      "funcoes": [
+        "COLABORADOR(A)",
+        "INSTRUTOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Leonardo Azevedo Scardua",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Luis Henrique Rosado Torres",
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)",
+        "INSTRUTOR(A)",
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Marcos Simão Guimarães",
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Moisés Savedra Omena",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Richard Junior Manuel Godinez Tello",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Rodolpho da Cruz Rangel",
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Rodrigo Fernandes Calhau",
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Ronaldo Aparecida Marques",
+      "funcoes": [
+        "COLABORADOR(A)",
+        "INSTRUTOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Sandro de Freitas Nascimento",
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Valéria Gabriel Estanislau",
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Aluno"
+    }
+  ]
+}

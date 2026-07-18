@@ -1,0 +1,77 @@
+{
+  "slug": "giordana-dos-santos-sperandio",
+  "nome": "Giordana dos Santos Sperandio",
+  "resumo_ia": "Coordenou os projetos 'Mulheres na Ciência' (curso e projeto) em 2018 e atuou como ministrante e professora no 'PRÉ – IFES Campus Serra' em 2017. Também foi orientadora no 'LAMPEX – Laboratório Modelo de Práticas de Extensão' em 2020.",
+  "anos": [
+    "2017",
+    "2018",
+    "2020"
+  ],
+  "funcoes": [
+    "COORDENADOR(A)",
+    "MINISTRANTE",
+    "ORIENTADOR(A)",
+    "PROFESSOR(A)"
+  ],
+  "acoes_coordenadas": [
+    {
+      "acao_id": "1633",
+      "titulo": "Mulheres na Ciência",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 21
+    },
+    {
+      "acao_id": "2082",
+      "titulo": "Mulheres na Ciência",
+      "tipo": "Curso",
+      "ano": "2018",
+      "n": 53
+    }
+  ],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1117",
+      "titulo": "PRÉ – IFES Campus Serra",
+      "tipo": "Curso",
+      "ano": "2017",
+      "n": 48,
+      "funcoes": [
+        "MINISTRANTE",
+        "PROFESSOR(A)"
+      ]
+    },
+    {
+      "acao_id": "1633",
+      "titulo": "Mulheres na Ciência",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 21,
+      "funcoes": [
+        "COORDENADOR(A)",
+        "PROFESSOR(A)"
+      ]
+    },
+    {
+      "acao_id": "2082",
+      "titulo": "Mulheres na Ciência",
+      "tipo": "Curso",
+      "ano": "2018",
+      "n": 53,
+      "funcoes": [
+        "COORDENADOR(A)",
+        "PROFESSOR(A)"
+      ]
+    },
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "ORIENTADOR(A)"
+      ]
+    }
+  ]
+}

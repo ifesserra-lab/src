@@ -1,0 +1,55 @@
+{
+  "slug": "jefferson-ribeiro-de-lima",
+  "nome": "Jefferson Ribeiro de Lima",
+  "resumo_ia": "Coordenou o projeto 'APEXT 2026 – Atendimentos Personalizados e Monitorias de Extensão Tecnológica' em 2026 e atuou como colaborador no 'Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedora' em 2017. Em 2020, organizou o 'LAMPEX – Laboratório Modelo de Práticas de Extensão' e, em 2026, organizou o 'SOF – Serviço de Orientação Financeira'.",
+  "anos": [
+    "2017",
+    "2020",
+    "2026"
+  ],
+  "funcoes": [
+    "COLABORADOR(A)",
+    "ORGANIZADOR(A)"
+  ],
+  "acoes_coordenadas": [
+    {
+      "acao_id": "6104",
+      "titulo": "APEXT 2026 – Atendimentos Personalizados e Monitorias de Extensão Tecnológica",
+      "tipo": "Projeto",
+      "ano": "2026",
+      "n": 0
+    }
+  ],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1261",
+      "titulo": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedora",
+      "tipo": "Curso",
+      "ano": "2017",
+      "n": 84,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "5852",
+      "titulo": "SOF – Serviço de Orientação Financeira (unidade Ifes Serra)",
+      "tipo": "Projeto",
+      "ano": "2026",
+      "n": 316,
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ]
+    }
+  ]
+}

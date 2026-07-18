@@ -1,0 +1,24 @@
+{
+  "slug": "eduardo-couto-rodrigues",
+  "nome": "Eduardo Couto Rodrigues",
+  "resumo_ia": "Colaborou no LEDS em 2016.",
+  "anos": [
+    "2016"
+  ],
+  "funcoes": [
+    "COLABORADOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "901",
+      "titulo": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+      "tipo": "Programa",
+      "ano": "2016",
+      "n": 104,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    }
+  ]
+}

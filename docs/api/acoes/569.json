@@ -1,0 +1,314 @@
+{
+  "acao_id": "569",
+  "Processo nº": "23158.000717/2015-58",
+  "Título ação": "Desafio Ifes de Negócios Socais",
+  "Natureza": "Extensão",
+  "Tipo ação": "Evento",
+  "Coordenador(a)": "Rodrigo Fernandes Calhau",
+  "Fomento": "PAEX-IFES",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "",
+  "Grande área conhecimento (inferida)": "Ciências Sociais Aplicadas",
+  "Área temática principal": "",
+  "Área temática principal (inferida)": "Trabalho",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "18/12/2019",
+  "Data de cadastro": "26/11/2015",
+  "Resumo": "O DESAFIO IFES DE NEGÓCIOS SOCIAIS acontecerá em dois momentos. No primeiro momento, serão realizados 4 workshops sobre Quadro de Modelo de Negócios e negócios sociais nos seguintes campi do Ifes: Vitória, Serra, Vila Velha e Cariacica. No segundo momento será o desafio , onde participantes irão desenvolver as propostas de negócio por meio de modelos de negócio, com o suporte dos mentores. Além do modelo de negócio, os participantes irão construir protótipos, bem como, irão apresentar o negócio usando diferentes técnicas. Ao final do desafio, as melhores propostas serão premiadas. \nO evento será organizado pelo Laboratório de Extensão em Desenvolvimento de Sistemas (Leds) do Ifes/Serra. O Leds é um ambiente de aprendizado vivencial e prático no qual os alunos fazem a ponte entre teoria e prática utilizando projeto que visão solucionar um problema social e gerar inovação. Dessa forma, estimulando nos participantes as habilidades e atitudes que podem ser importante para a sociedade, o mercado de trabalho e para sua vida pessoal.\n\nAlém da participação do Leds, o evento terá o apoio de 15 alunos do curso de graduação de Negócios e Sistema de Informação da Pro Academy finlandesa. A Pro Academy, presente na Universidade de Ciências Aplicadas de Tamk, é um centro de empreendedorismo que visa ensinar esse conceito na prática e na vivência. Esses alunos atuaram como mentores e como responsáveis por registrar os acontecimentos do evento.",
+  "Campus": "Serra",
+  "total_participacoes": 40,
+  "publico_alvo_total": 0,
+  "atividades": [
+    {
+      "atividade_id": "1271",
+      "numero": "001",
+      "atividade": "Desafio Ifes de Negócios Socais",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 40
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Ana Paula Klauck",
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "André Silva Aguiar",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Aurélia Hubner Peixouto",
+      "funcoes": [
+        "AVALIADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Beatriz Ramos Souza",
+      "funcoes": [
+        "INTÉRPRETE"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Bruno Lima Zattoni",
+      "funcoes": [
+        "INTÉRPRETE"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Caio Abelar Kinupp Monteiro",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Caio Fabio Vargas Morais",
+      "funcoes": [
+        "INTÉRPRETE"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Celio Proliciano Maioli",
+      "funcoes": [
+        "COMUNICADOR(A) ORAL"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Eduardo Sousa Lima",
+      "funcoes": [
+        "INTÉRPRETE"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Elton Siqueira Moura",
+      "funcoes": [
+        "MENTOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Emmanuel Marques Silva",
+      "funcoes": [
+        "AVALIADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Ernani Leite Ribeiro Filho",
+      "funcoes": [
+        "AVALIADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Fellipe Pesente",
+      "funcoes": [
+        "INTÉRPRETE"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Hanna Tátila de Sousa",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Ieda Zannoti",
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Ivana Amorim Julião",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Jennifer Camille Gomes Duarte",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "José Inácio Serafini",
+      "funcoes": [
+        "AVALIADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "João Paulo Lebarck Pizzaia",
+      "funcoes": [
+        "INTÉRPRETE"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "João Vitor Zanchetta Corres",
+      "funcoes": [
+        "INTÉRPRETE"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Juliana Duarte Acerbi",
+      "funcoes": [
+        "INTÉRPRETE"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Juliana Yuri Kanezaki de Souza",
+      "funcoes": [
+        "INTÉRPRETE"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Kamila Maria Vieira Pralon",
+      "funcoes": [
+        "INTÉRPRETE"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Leticia Schulthais Senna",
+      "funcoes": [
+        "INTÉRPRETE"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Lucas Lorenzon de Aragão",
+      "funcoes": [
+        "AVALIADOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Marcos Vinícius Forecchi Accioly",
+      "funcoes": [
+        "MENTOR(A)"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Maria Luiza Guimaraes Silva",
+      "funcoes": [
+        "INTÉRPRETE"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Moisés Savedra Omena",
+      "funcoes": [
+        "MENTOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Paulo Gabriel Mello Mota",
+      "funcoes": [
+        "INTÉRPRETE"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Paulo Sérgio dos Santos Júnior",
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Rafael Rabello de Carvalho Guzzo",
+      "funcoes": [
+        "INTÉRPRETE"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Renata Có e Gomes",
+      "funcoes": [
+        "MENTOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Rodrigo Fernandes Calhau",
+      "funcoes": [
+        "COORDENADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Rodrigo Lampier dos Santos",
+      "funcoes": [
+        "INTÉRPRETE"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Sandro de Freitas Nascimento",
+      "funcoes": [
+        "MENTOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Thamiris Ramos Oliveira",
+      "funcoes": [
+        "INTÉRPRETE"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Thanner Soares Silva",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Timoteo de Rezende Potin",
+      "funcoes": [
+        "INTÉRPRETE"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Veronica Maia Viana Marcial",
+      "funcoes": [
+        "INTÉRPRETE"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Walber Antonio Ramos Beltrame",
+      "funcoes": [
+        "MENTOR(A)"
+      ],
+      "vinculo": "Servidor"
+    }
+  ]
+}

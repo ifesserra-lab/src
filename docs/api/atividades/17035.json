@@ -1,0 +1,29 @@
+{
+  "atividade_id": "17035",
+  "numero": "002",
+  "atividade": "Palestra \"Robótica, Programação e Simulações: desenvolvendo o pensamento computacional nas aulas\"",
+  "acao_id": "4655",
+  "acao_titulo": "LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão",
+  "processo": "23158.001854/2023-10",
+  "coordenador_acao": "Gabriel Tozatto Zago",
+  "publico_alvo": {
+    "total": 80,
+    "aprovados": 80,
+    "certificados": 80,
+    "situacao": {
+      "APROVADO": 80
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Rosiane Ribeiro Rocha",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Richard Junior Manuel Godinez Tello",
+      "funcao": "PALESTRANTE",
+      "vinculo": "Servidor"
+    }
+  ]
+}

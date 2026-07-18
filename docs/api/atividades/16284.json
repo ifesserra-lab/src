@@ -1,0 +1,24 @@
+{
+  "atividade_id": "16284",
+  "numero": "009",
+  "atividade": "Minicurso “Introdução à Robótica Móvel”",
+  "acao_id": "4335",
+  "acao_titulo": "Oficinas do Mundo Maker",
+  "processo": "23158.000421/2023-47",
+  "coordenador_acao": "Rosiane Ribeiro Rocha",
+  "publico_alvo": {
+    "total": 12,
+    "aprovados": 12,
+    "certificados": 12,
+    "situacao": {
+      "APROVADO": 12
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Richard Junior Manuel Godinez Tello",
+      "funcao": "PROFESSOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

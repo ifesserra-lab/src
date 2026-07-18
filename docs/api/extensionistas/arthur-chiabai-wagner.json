@@ -1,0 +1,24 @@
+{
+  "slug": "arthur-chiabai-wagner",
+  "nome": "Arthur Chiabai Wagner",
+  "resumo_ia": "Desempenhou a função de tutor(a) no LAMPEX – Laboratório Modelo de Práticas de Extensão em 2020, apoiando as atividades extensionistas da equipe.",
+  "anos": [
+    "2020"
+  ],
+  "funcoes": [
+    "TUTOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "TUTOR(A)"
+      ]
+    }
+  ]
+}

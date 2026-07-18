@@ -1,0 +1,18 @@
+{
+  "atividade_id": "14250",
+  "numero": "001",
+  "atividade": "Expedição Ifes",
+  "acao_id": "4163",
+  "acao_titulo": "Expedição Ifes",
+  "processo": "23158.002269/2022-56",
+  "coordenador_acao": "Alessandro Bermudes Gomes",
+  "publico_alvo": {
+    "total": 9,
+    "aprovados": 9,
+    "certificados": 0,
+    "situacao": {
+      "APROVADO": 9
+    }
+  },
+  "equipe_execucao": []
+}

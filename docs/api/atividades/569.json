@@ -1,0 +1,19 @@
+{
+  "atividade_id": "569",
+  "numero": "001",
+  "atividade": "Aprofundamento de Estudos em Matemática Aplicada à Engenharia",
+  "acao_id": "388",
+  "acao_titulo": "Curso de Aprofundamento de Estudos em Matemática Aplicada à Engenharia",
+  "processo": "23158.001085/2014-69",
+  "coordenador_acao": "Bruno Ramos Gonzaga",
+  "publico_alvo": {
+    "total": 12,
+    "aprovados": 7,
+    "certificados": 7,
+    "situacao": {
+      "REPROVADO": 5,
+      "APROVADO": 7
+    }
+  },
+  "equipe_execucao": []
+}

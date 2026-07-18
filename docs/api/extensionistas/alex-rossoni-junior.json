@@ -1,0 +1,24 @@
+{
+  "slug": "alex-rossoni-junior",
+  "nome": "Alex Rossoni Junior",
+  "resumo_ia": "Atua como extensionista no Serviço de Orientação Financeira (SOF) da unidade Ifes Serra, com previsão de participação em 2026.",
+  "anos": [
+    "2026"
+  ],
+  "funcoes": [
+    "EXTENSIONISTA"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "5852",
+      "titulo": "SOF – Serviço de Orientação Financeira (unidade Ifes Serra)",
+      "tipo": "Projeto",
+      "ano": "2026",
+      "n": 316,
+      "funcoes": [
+        "EXTENSIONISTA"
+      ]
+    }
+  ]
+}

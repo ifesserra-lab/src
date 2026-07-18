@@ -1,0 +1,24 @@
+{
+  "slug": "miguel-castro-gomes",
+  "nome": "Miguel Castro Gomes",
+  "resumo_ia": "Atuou como colaborador na equipe da 'SEMANA DE CONTROLE E AUTOMAÇÃO' em 2016, contribuindo em ações extensionistas relacionadas à área de controle e automação.",
+  "anos": [
+    "2016"
+  ],
+  "funcoes": [
+    "COLABORADOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "899",
+      "titulo": "SEMANA DE CONTROLE E AUTOMAÇÃO",
+      "tipo": "Evento",
+      "ano": "2016",
+      "n": 181,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    }
+  ]
+}

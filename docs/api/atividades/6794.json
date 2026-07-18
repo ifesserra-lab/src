@@ -1,0 +1,34 @@
+{
+  "atividade_id": "6794",
+  "numero": "010",
+  "atividade": "Tutoria em Matemática do 2º ano do Ensino Médio",
+  "acao_id": "650",
+  "acao_titulo": "Tutoria de Estudos Orientados",
+  "processo": "23158.000371/2015-98",
+  "coordenador_acao": "Bruno Ramos Gonzaga",
+  "publico_alvo": {
+    "total": 3,
+    "aprovados": 3,
+    "certificados": 3,
+    "situacao": {
+      "APROVADO": 3
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Thiago Machado Oliveira",
+      "funcao": "MONITOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Graziela Barboza Guaitolini Ramos",
+      "funcao": "TUTOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Bruno Ramos Gonzaga",
+      "funcao": "TUTOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

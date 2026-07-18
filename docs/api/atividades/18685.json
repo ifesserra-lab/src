@@ -1,0 +1,49 @@
+{
+  "atividade_id": "18685",
+  "numero": "001",
+  "atividade": "Semana destinada à Educação Especial Inclusiva - Setembro Verde",
+  "acao_id": "5138",
+  "acao_titulo": "Semana destinada à Educação Especial Inclusiva - Setembro Verde",
+  "processo": "23158.001293/2024-30",
+  "coordenador_acao": "Emilene Coco dos Santos",
+  "publico_alvo": {
+    "total": 216,
+    "aprovados": 216,
+    "certificados": 216,
+    "situacao": {
+      "APROVADO": 216
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Juciéli Alves da Costa",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Ludmila dos Santos Santana Perovano",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Paula Mariani Taquete Rodrigues",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Odiléia Jô Figueiredo",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Laís Carla Simeão da Silva Santos",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Emilene Coco dos Santos",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

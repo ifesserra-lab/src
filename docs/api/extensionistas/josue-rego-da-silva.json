@@ -1,0 +1,24 @@
+{
+  "slug": "josue-rego-da-silva",
+  "nome": "Josué Rego da Silva",
+  "resumo_ia": "Participou como palestrante na ação 'Mulheres na Ciência' em 2018, contribuindo com sua expertise para o evento.",
+  "anos": [
+    "2018"
+  ],
+  "funcoes": [
+    "PALESTRANTE"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "2082",
+      "titulo": "Mulheres na Ciência",
+      "tipo": "Curso",
+      "ano": "2018",
+      "n": 53,
+      "funcoes": [
+        "PALESTRANTE"
+      ]
+    }
+  ]
+}

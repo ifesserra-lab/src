@@ -1,0 +1,82 @@
+{
+  "acao_id": "3021",
+  "Processo nº": "23158.001241/2020-96",
+  "Título ação": "Stone Connection",
+  "Natureza": "Extensão",
+  "Tipo ação": "Projeto",
+  "Coordenador(a)": "Moisés Savedra Omena",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "23158.001139/2014-96 - LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+  "Grande área conhecimento": "",
+  "Grande área conhecimento (inferida)": "Engenharias",
+  "Área temática principal": "Tecnologia e Produção",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "17/11/2021",
+  "Data de cadastro": "29/07/2020",
+  "Resumo": "O Espírito Santo é hoje o líder no mercado de rochas ornamentais brasileiro, sendo responsável por\n82% das exportações (A gazeta, 2020). Segundo o Sindirochas (2019), o Brasil ocupa a 4º posição de\npaíses que mais produziram pedras naturais, sendo responsável por 7% da produção mundial do setor\nde rochas. Entretanto, uma das principais adversidades do setor, ocorre devido a dificuldade de\nconexão entre oferta e procura. De um lado, diversos produtores procuram vender seus blocos e\nplacas, com diversos tipos e qualidade, e do outro, compradores estão em busca de rochas que\npossuem diversas características específicas. A solução proposta seguirá processos de engenharia de\nsoftwares praticados no LEDS visando maximizar os resultados obtidos.\nDentre os resultados esperados destacamos o hub de comercialização Stone Connection que visará a\nconexão entre compradores, vendedores e futuramente outros envolvidos no processo e cadeia\nprodutiva como por exemplo seguradoras e transportadoras.",
+  "Campus": "Serra",
+  "total_participacoes": 7,
+  "publico_alvo_total": 0,
+  "atividades": [
+    {
+      "atividade_id": "10681",
+      "numero": "001",
+      "atividade": "Stone Connection",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 7
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Felipe Frechiani de Oliveira",
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Gary Moura da Silva",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Helen França Medeiros",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Icaro Duarte Gavazza Lima",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Lucas Gomes Flegler",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Moisés Savedra Omena",
+      "funcoes": [
+        "COORDENADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Rodrigo Fernandes Calhau",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    }
+  ]
+}

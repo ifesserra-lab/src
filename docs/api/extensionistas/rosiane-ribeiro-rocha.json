@@ -1,0 +1,107 @@
+{
+  "slug": "rosiane-ribeiro-rocha",
+  "nome": "Rosiane Ribeiro Rocha",
+  "resumo_ia": "Coordenou o projeto IFES Contra a Covid-19 em 2020 e o LabMaker 4.0 em 2025. Participou como coordenadora e organizadora em ações como LAMPEX, Laboratório IFMaker Serra e LabMaker Serra entre 2020 e 2023, além de coordenar projetos como Conectando Talentos e Jovens Inventores em 2024 e 2025.",
+  "anos": [
+    "2020",
+    "2021",
+    "2023",
+    "2024",
+    "2025"
+  ],
+  "funcoes": [
+    "COORDENADOR(A)",
+    "GESTOR(A) DE PROJETO",
+    "MEMBRO DE COMITÊ GESTOR",
+    "ORGANIZADOR(A)"
+  ],
+  "acoes_coordenadas": [
+    {
+      "acao_id": "3139",
+      "titulo": "IFES Contra a Covid-19",
+      "tipo": "Projeto",
+      "ano": "2020",
+      "n": 9
+    },
+    {
+      "acao_id": "5641",
+      "titulo": "LabMaker 4.0: capacitando professores para a cultura maker e tecnologias da Indústria 4.0",
+      "tipo": "Projeto",
+      "ano": "2025",
+      "n": 73
+    }
+  ],
+  "participacoes_equipe": [
+    {
+      "acao_id": "3139",
+      "titulo": "IFES Contra a Covid-19",
+      "tipo": "Projeto",
+      "ano": "2020",
+      "n": 9,
+      "funcoes": [
+        "COORDENADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "3567",
+      "titulo": "Laboratório IFMaker Serra: um ambiente colaborativo de aprendizagem e desenvolvimento de soluções",
+      "tipo": "Projeto",
+      "ano": "2021",
+      "n": 4,
+      "funcoes": [
+        "MEMBRO DE COMITÊ GESTOR"
+      ]
+    },
+    {
+      "acao_id": "4655",
+      "titulo": "LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão",
+      "tipo": "Programa",
+      "ano": "2023",
+      "n": 558,
+      "funcoes": [
+        "GESTOR(A) DE PROJETO",
+        "ORGANIZADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "5086",
+      "titulo": "Conectando Talentos: Robótica e Programação no IFES-Serra",
+      "tipo": "Projeto",
+      "ano": "2024",
+      "n": 218,
+      "funcoes": [
+        "MEMBRO DE COMITÊ GESTOR"
+      ]
+    },
+    {
+      "acao_id": "5641",
+      "titulo": "LabMaker 4.0: capacitando professores para a cultura maker e tecnologias da Indústria 4.0",
+      "tipo": "Projeto",
+      "ano": "2025",
+      "n": 73,
+      "funcoes": [
+        "COORDENADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "5677",
+      "titulo": "Jovens Inventores: O poder da Tecnologia Maker no Desenvolvimento Social",
+      "tipo": "Projeto",
+      "ano": "2025",
+      "n": 48,
+      "funcoes": [
+        "COORDENADOR(A)"
+      ]
+    }
+  ]
+}

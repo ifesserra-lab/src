@@ -1,0 +1,39 @@
+{
+  "atividade_id": "17244",
+  "numero": "001",
+  "atividade": "Mulheres Mil – Eletricista Instalador Predial em Baixa Tensão",
+  "acao_id": "4820",
+  "acao_titulo": "Mulheres Mil – Eletricista Instalador Predial em Baixa Tensão",
+  "processo": "23158.003498/2023-79",
+  "coordenador_acao": "Tatiane Policário Chagas",
+  "publico_alvo": {
+    "total": 42,
+    "aprovados": 42,
+    "certificados": 42,
+    "situacao": {
+      "APROVADO": 42
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Edjane Martins da Silva",
+      "funcao": "PROFESSOR(A) VOLUNTÁRIO",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Marcos Paulo Kohler Caldas",
+      "funcao": "PROFESSOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Tatiane Policário Chagas",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "David de Assis",
+      "funcao": "MONITOR(A)",
+      "vinculo": "Aluno"
+    }
+  ]
+}

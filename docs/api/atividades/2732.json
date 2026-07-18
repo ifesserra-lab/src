@@ -1,0 +1,190 @@
+{
+  "atividade_id": "2732",
+  "numero": "001",
+  "atividade": "SEMANA DE CONTROLE E AUTOMAÇÃO",
+  "acao_id": "899",
+  "acao_titulo": "SEMANA DE CONTROLE E AUTOMAÇÃO",
+  "processo": "23158.000680/2016-49",
+  "coordenador_acao": "Wallas Gusmão Thomas",
+  "publico_alvo": {
+    "total": 69,
+    "aprovados": 59,
+    "certificados": 59,
+    "situacao": {
+      "REPROVADO": 10,
+      "APROVADO": 59
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "João Antonio Campos Panceri",
+      "funcao": "DEBATEDOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Gabriel Tozatto Zago",
+      "funcao": "INSTRUTOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Arthur de Almeida Macedo",
+      "funcao": "PALESTRANTE",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "João Pedro Quirino Filho",
+      "funcao": "DEBATEDOR(A)",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Alan Afif Helal",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Christian Mariani Lucas dos Santos",
+      "funcao": "PALESTRANTE",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Cloves Antonio Wotkovsky Junior",
+      "funcao": "PALESTRANTE",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Emmanuel Marques Silva",
+      "funcao": "PALESTRANTE",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Sérgio Estevam da Costa Junior",
+      "funcao": "INSTRUTOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "José Martins de Oliveira Junior",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Diego de Deus Bazilio",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Richard Junior Manuel Godinez Tello",
+      "funcao": "INSTRUTOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Alan Pablo Donati Pereira",
+      "funcao": "INSTRUTOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Gilberto Neves Sudre Filho",
+      "funcao": "PALESTRANTE",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Diego Pereira de Carvalho Pires",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Luiza Alcantara dos Santos",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Paulo José de Almeida Barbosa",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Ana Carolina dos Santos Rangel",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Adriano Felipe Salgado Barros",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Filipe Nolasco Anastácio",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Miguel Castro Gomes",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Jéssica Vieira Alvarenga dos Passos",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Pedro Wander Marques Sanches Matos",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "João Victor Bonella Lopes",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "João Vitor Zanchetta Corres",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Breno Siquara Azevedo",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Luis Felippe Klein Faria",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Estevão Nolasco Fonseca",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Eduardo Pereira Tavares",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Cleiton Maximo Junior",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Kamila Maria Vieira Pralon",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Alexandre Elias de Amorim Pagung",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Luiza Broseghini Pin",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Wallas Gusmão Thomas",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

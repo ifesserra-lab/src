@@ -1,0 +1,61 @@
+{
+  "acao_id": "1786",
+  "Processo nº": "23158.001579/2017-96",
+  "Título ação": "Mutual Life: Um aplicativo para seguros colaborativos",
+  "Natureza": "Extensão",
+  "Tipo ação": "Projeto",
+  "Coordenador(a)": "Paulo Sérgio dos Santos Júnior",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "23158.001139/2014-96 - LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+  "Grande área conhecimento": "",
+  "Grande área conhecimento (inferida)": "Ciências Sociais Aplicadas",
+  "Área temática principal": "Educação",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "14/05/2019",
+  "Data de cadastro": "05/07/2018",
+  "Resumo": "O projeto tem como objetivo auxiliar no desenvolvimento da plataforma de seguros colaborativos e cooperativos Mutual.Life. A ideia presente no projeto é resgatar o mutualismo de forma segura e transparente, proporcionando, portanto, uma relação mais simétrica e justa para os participantes, mas também eliminando os riscos de má gestão, fraudes e outros problemas historicamente frequentes nas associações de mútuo.Para isso, o projeto tem como objetivo desenvolver o aplicativo para smartphones da plataforma de seguros.",
+  "Campus": "Serra",
+  "total_participacoes": 4,
+  "publico_alvo_total": 0,
+  "atividades": [
+    {
+      "atividade_id": "5629",
+      "numero": "001",
+      "atividade": "Mutual Life: Um aplicativo para seguros colaborativos",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 4
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Maria Luiza Guimaraes Silva",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Paulo Sérgio dos Santos Júnior",
+      "funcoes": [
+        "COORDENADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Rodrigo Fernandes Calhau",
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Yago Souza Santos",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ],
+      "vinculo": "Aluno"
+    }
+  ]
+}

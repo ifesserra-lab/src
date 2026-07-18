@@ -1,0 +1,89 @@
+{
+  "acao_id": "1945",
+  "Processo nº": "23158.001069/2018-08",
+  "Título ação": "Intenção Profissional",
+  "Natureza": "Ensino",
+  "Tipo ação": "Projeto",
+  "Coordenador(a)": "Wallas Gusmão Thomas",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "Ciências Humanas",
+  "Área temática principal": "",
+  "Área temática principal (inferida)": "Educação",
+  "Relatório aprovado": "Não",
+  "Data último relatório": "",
+  "Data de cadastro": "21/09/2018",
+  "Resumo": "Promover a informação e a reflexão dos alunos do 2º Ano do Ensino Médio do Campus Serra sobre as possibilidades, as oportunidades, os desafios, as implicações da construção e da vivência de uma carreira profissional;\n\nA orientação profissional e a reflexão sobre o tema são trabalhos importantes a serem desenvolvidos em escolas de ensino médio, já que os alunos estão no período da adolescência. Neste período da vida, há uma busca pela identidade profissional, sendo, portanto, necessária uma reflexão sobre os interesses e os critérios relevantes a esta escolha. O processo de escolha profissional inclui principalmente o autoconhecimento e o conhecimento das diversas possibilidades e demandas do mercado de trabalho.\nA adolescência constitui-se de uma fase permeada por mudanças físicas, mentais, emocionais e sociais. O jovem acaba sendo afetado por essas alterações, justamente no período em que precisa tomar decisões quanto a sua carreira profissional. Segundo Lucchiari (1993, p.11), \"o momento da escolha de uma profissão coincide com a fase do desenvolvimento na qual o jovem está definindo sua identidade: quem ele quer ser e quem não quer ser\". Sem a orientação adequada e com as expectativas que a família e a própria escola depositam sobre ele em relação ao futuro, o jovem pode se precipitar em sua escolha profissional (Fachin & Orzechowski, 2014).\nA escola, como instância formadora, tem o papel de oferecer informações aos alunos sobre as profissões existentes e conscientizar a reflexão sobre o mundo de trabalho e as diversas possibilidades de atuação profissional, conforme a Lei 9394/1996, que trata sobre as diretrizes e bases da educação nacional, em específico no artigo 27º, que apresenta os conteúdos curriculares da educação básica, incluindo, entre esses conteúdos, a orientação para o trabalho.  \nFerretti (1997) sugere que sejam criadas condições para que adolescentes possam refletir sobre o processo de escolha profissional e seu ingresso no mercado de trabalho, entendendo sobre o funcionamento da sociedade e de seu papel na mesma. O objetivo da orientação profissional segundo este autor é o de auxiliar o jovem no processo de escolha de modo que este realize opções ocupacionais adequadas.\nOs profissionais da escola, atuando de forma intencional, podem estimular que seus alunos desenvolvam autonomia e responsabilidade no desenvolvimento do seu projeto de vida, contemplando o que ele é, o que pretende ser, e o que quer conquistar, o que significa ter clareza sobre seus interesses e sonhos para que posso construir relações sobre suas expectativas futuras e as diversas possibilidades que o mercado de trabalho pode oferecer (Fachin & Orzechowski, 2014).\nDentro deste contexto, é de grande importância desenvolver projetos no âmbito da orientação profissional em nossa escola, principalmente para oportunizar aos nossos alunos a discussão sobre a sociedade e os significados da sua escolha profissional, preparando-os de forma mais crítica e consciente par",
+  "Campus": "Serra",
+  "total_participacoes": 60,
+  "publico_alvo_total": 52,
+  "atividades": [
+    {
+      "atividade_id": "6035",
+      "numero": "001",
+      "atividade": "Intenção Profissional",
+      "publico": 52,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 8
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Ana Paula Klauck",
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Caroline Magevsky",
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Cynthia Kruger Quinino",
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Diego Ramiro Araoz Alves",
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Giordana dos Santos Sperandio",
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Hilario Seibel Junior",
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Rosiane Ribeiro Rocha",
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Tatiane Policário Chagas",
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    }
+  ]
+}

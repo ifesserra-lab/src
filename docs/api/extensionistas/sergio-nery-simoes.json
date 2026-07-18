@@ -1,0 +1,77 @@
+{
+  "slug": "sergio-nery-simoes",
+  "nome": "Sergio Nery Simões",
+  "resumo_ia": "Coordenou o projeto SIPAC - Sistema de Informação da Produção Agropecuária capixaba em 2016 e atuou como coordenador(a) adjunto(a) no projeto ESPM-Empregos: Um serviço inteligente para promover a empregabilidade em 2018. Também participou como apoio técnico no LAMPEX em 2020 e como colaborador(a) no LEDS em 2016.",
+  "anos": [
+    "2016",
+    "2018",
+    "2020"
+  ],
+  "funcoes": [
+    "APOIO TÉCNICO",
+    "COLABORADOR(A)",
+    "COORDENADOR(A)",
+    "COORDENADOR(A) ADJUNTO(A)"
+  ],
+  "acoes_coordenadas": [
+    {
+      "acao_id": "645",
+      "titulo": "SIPAC - Sistema de Informação da Produção Agropecuária capixaba",
+      "tipo": "Projeto",
+      "ano": "2016",
+      "n": 7
+    }
+  ],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1795",
+      "titulo": "ESPM-Empregos: Um serviço inteligente para promover a empregabilidade",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 7,
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)"
+      ]
+    },
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "APOIO TÉCNICO"
+      ]
+    },
+    {
+      "acao_id": "645",
+      "titulo": "SIPAC - Sistema de Informação da Produção Agropecuária capixaba",
+      "tipo": "Projeto",
+      "ano": "2016",
+      "n": 7,
+      "funcoes": [
+        "COORDENADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "849",
+      "titulo": "Sistema para auxiliar a gestão da Produção Agropecuária capixaba",
+      "tipo": "Projeto",
+      "ano": "2016",
+      "n": 5,
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)"
+      ]
+    },
+    {
+      "acao_id": "901",
+      "titulo": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+      "tipo": "Programa",
+      "ano": "2016",
+      "n": 104,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    }
+  ]
+}

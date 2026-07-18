@@ -1,0 +1,55 @@
+{
+  "acao_id": "4106",
+  "Processo nº": "23158.003715/2022-40",
+  "Título ação": "Projeto e elaboração de placas de circuito impresso - Z",
+  "Natureza": "Ensino",
+  "Tipo ação": "Curso",
+  "Coordenador(a)": "Vinícius Secchin de Melo",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "Engenharias",
+  "Área temática principal": "",
+  "Área temática principal (inferida)": "Tecnologia e Produção",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "10/05/2023",
+  "Data de cadastro": "13/10/2022",
+  "Resumo": "O presente curso visa proporcionar ao aluno uma formação complementar na área de eletrônica, tendo como objetivo de aprendizado a utilização de softwares para projeto de placas de circuito impresso, e métodos de confecção das mesmas.",
+  "Campus": "Serra",
+  "total_participacoes": 7,
+  "publico_alvo_total": 3,
+  "atividades": [
+    {
+      "atividade_id": "14109",
+      "numero": "001",
+      "atividade": "Projeto e elaboração de placas de circuito impresso - Z",
+      "publico": 3,
+      "aprovados": 3,
+      "certificados": 3,
+      "equipe": 4
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Alexandre Secchin de Melo",
+      "funcoes": [
+        "PROFESSOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Richard Junior Manuel Godinez Tello",
+      "funcoes": [
+        "PROFESSOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Vinícius Secchin de Melo",
+      "funcoes": [
+        "COORDENADOR(A)",
+        "PROFESSOR(A)"
+      ],
+      "vinculo": "Servidor"
+    }
+  ]
+}

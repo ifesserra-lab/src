@@ -1,0 +1,114 @@
+{
+  "slug": "francisco-jose-casarim-rapchan",
+  "nome": "Francisco José Casarim Rapchan",
+  "resumo_ia": "Coordenou programas de extensão como o Núcleo Incubador Campus Serra (NIS) em 2017, 2021 e 2025, além de atuar como mentor, professor e instrutor em iniciativas como Inova Serra, PCTec InovaSerra e IFMaker Serra entre 2017 e 2023.",
+  "anos": [
+    "2017",
+    "2018",
+    "2021",
+    "2023",
+    "2025"
+  ],
+  "funcoes": [
+    "COORDENADOR(A)",
+    "COORDENADOR(A) ADJUNTO(A)",
+    "INSTRUTOR(A)",
+    "MEMBRO DE COMITÊ GESTOR",
+    "MENTOR(A)",
+    "PROFESSOR(A)"
+  ],
+  "acoes_coordenadas": [
+    {
+      "acao_id": "1116",
+      "titulo": "Programa Local Núcleo Incubador Campus Serra – NIS",
+      "tipo": "Programa",
+      "ano": "2017",
+      "n": 220
+    },
+    {
+      "acao_id": "1883",
+      "titulo": "Inova Serra",
+      "tipo": "Programa",
+      "ano": "2018",
+      "n": 6
+    },
+    {
+      "acao_id": "3423",
+      "titulo": "Programa Local Núcleo Incubador Campus Serra – NIS",
+      "tipo": "Programa",
+      "ano": "2021",
+      "n": 189
+    },
+    {
+      "acao_id": "5421",
+      "titulo": "Parque Científico e Tecnológico do InovaSerra – PCTec InovaSerra",
+      "tipo": "Programa",
+      "ano": "2025",
+      "n": 0
+    }
+  ],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1116",
+      "titulo": "Programa Local Núcleo Incubador Campus Serra – NIS",
+      "tipo": "Programa",
+      "ano": "2017",
+      "n": 220,
+      "funcoes": [
+        "COORDENADOR(A)",
+        "MENTOR(A)"
+      ]
+    },
+    {
+      "acao_id": "1261",
+      "titulo": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedora",
+      "tipo": "Curso",
+      "ano": "2017",
+      "n": 84,
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)"
+      ]
+    },
+    {
+      "acao_id": "1883",
+      "titulo": "Inova Serra",
+      "tipo": "Programa",
+      "ano": "2018",
+      "n": 6,
+      "funcoes": [
+        "COORDENADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "3423",
+      "titulo": "Programa Local Núcleo Incubador Campus Serra – NIS",
+      "tipo": "Programa",
+      "ano": "2021",
+      "n": 189,
+      "funcoes": [
+        "COORDENADOR(A)",
+        "PROFESSOR(A)"
+      ]
+    },
+    {
+      "acao_id": "3567",
+      "titulo": "Laboratório IFMaker Serra: um ambiente colaborativo de aprendizagem e desenvolvimento de soluções",
+      "tipo": "Projeto",
+      "ano": "2021",
+      "n": 4,
+      "funcoes": [
+        "MEMBRO DE COMITÊ GESTOR"
+      ]
+    },
+    {
+      "acao_id": "4655",
+      "titulo": "LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão",
+      "tipo": "Programa",
+      "ano": "2023",
+      "n": 558,
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ]
+    }
+  ]
+}

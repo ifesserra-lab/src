@@ -1,0 +1,24 @@
+{
+  "slug": "ramyson-de-araujo-nascimento",
+  "nome": "Ramyson de Araujo Nascimento",
+  "resumo_ia": "Participou como expositora na ação 'Física ao Alcance de Todos' em 2018, contribuindo para a disseminação de conhecimentos científicos junto ao público.",
+  "anos": [
+    "2018"
+  ],
+  "funcoes": [
+    "EXPOSITOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "2021",
+      "titulo": "Física ao Alcance de Todos",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 429,
+      "funcoes": [
+        "EXPOSITOR(A)"
+      ]
+    }
+  ]
+}

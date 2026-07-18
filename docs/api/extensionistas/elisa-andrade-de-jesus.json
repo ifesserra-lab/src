@@ -1,0 +1,24 @@
+{
+  "slug": "elisa-andrade-de-jesus",
+  "nome": "Elisa Andrade de Jesus",
+  "resumo_ia": "Atuou como monitora no projeto Mulheres Mil - Artesão em Bordado a mão em 2025.",
+  "anos": [
+    "2025"
+  ],
+  "funcoes": [
+    "MONITOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "5357",
+      "titulo": "MULHERES MIL - Artesão em Bordado a mão",
+      "tipo": "Curso",
+      "ano": "2025",
+      "n": 35,
+      "funcoes": [
+        "MONITOR(A)"
+      ]
+    }
+  ]
+}

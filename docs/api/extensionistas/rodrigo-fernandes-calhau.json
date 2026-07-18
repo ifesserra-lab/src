@@ -1,0 +1,124 @@
+{
+  "slug": "rodrigo-fernandes-calhau",
+  "nome": "Rodrigo Fernandes Calhau",
+  "resumo_ia": "Coordenou o Desafio Ifes de Negócios Sociais em 2015 e o projeto Sistema de Informação para Notificação, Captação, Distribuição de Órgãos em 2016. Também atuou como instrutor e coordenador em cursos de pré-incubação, além de participar como colaborador em projetos como Mutual Life, Stone Connection e SmartIdea entre 2016 e 2022.",
+  "anos": [
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2020",
+    "2022"
+  ],
+  "funcoes": [
+    "AUXILIAR TÉCNICO",
+    "COLABORADOR(A)",
+    "COORDENADOR(A)",
+    "COORDENADOR(A) ADJUNTO(A)",
+    "EXPOSITOR(A)",
+    "INSTRUTOR(A)",
+    "MENTOR(A)",
+    "ORIENTADOR(A)"
+  ],
+  "acoes_coordenadas": [
+    {
+      "acao_id": "569",
+      "titulo": "Desafio Ifes de Negócios Socais",
+      "tipo": "Evento",
+      "ano": "2015",
+      "n": 40
+    },
+    {
+      "acao_id": "617",
+      "titulo": "Sistema de Informação para Notificação, Captação, Distribuição de Órgão",
+      "tipo": "Projeto",
+      "ano": "2016",
+      "n": 0
+    }
+  ],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1261",
+      "titulo": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedora",
+      "tipo": "Curso",
+      "ano": "2017",
+      "n": 84,
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ]
+    },
+    {
+      "acao_id": "1786",
+      "titulo": "Mutual Life: Um aplicativo para seguros colaborativos",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 4,
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)"
+      ]
+    },
+    {
+      "acao_id": "3021",
+      "titulo": "Stone Connection",
+      "tipo": "Projeto",
+      "ano": "2020",
+      "n": 7,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "4034",
+      "titulo": "SmartIdea - Validação de Problemas e Ideias",
+      "tipo": "Projeto",
+      "ano": "2022",
+      "n": 31,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "569",
+      "titulo": "Desafio Ifes de Negócios Socais",
+      "tipo": "Evento",
+      "ano": "2015",
+      "n": 40,
+      "funcoes": [
+        "COORDENADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "708",
+      "titulo": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedoras",
+      "tipo": "Curso",
+      "ano": "2016",
+      "n": 77,
+      "funcoes": [
+        "INSTRUTOR(A)",
+        "ORIENTADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "901",
+      "titulo": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+      "tipo": "Programa",
+      "ano": "2016",
+      "n": 104,
+      "funcoes": [
+        "COORDENADOR(A)",
+        "EXPOSITOR(A)",
+        "MENTOR(A)"
+      ]
+    },
+    {
+      "acao_id": "947",
+      "titulo": "Rede de Laboratórios de Educação em Desenvolvimento de Soluções - LEDS",
+      "tipo": "Programa em Rede",
+      "ano": "2016",
+      "n": 4,
+      "funcoes": [
+        "AUXILIAR TÉCNICO"
+      ]
+    }
+  ]
+}

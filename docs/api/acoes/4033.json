@@ -1,0 +1,446 @@
+{
+  "acao_id": "4033",
+  "Processo nº": "23158.002841/2022-87",
+  "Título ação": "Pink Pepper Qualifier: Determinação da qualidade produtiva dos frutos da Aroeira (Schinus terebinthifolius Raddi) usando Inteligência Computacional",
+  "Natureza": "Extensão",
+  "Tipo ação": "Projeto",
+  "Coordenador(a)": "Fidelis Zanetti de Castro",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "23158.001821/2021-50 - LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+  "Grande área conhecimento": "",
+  "Grande área conhecimento (inferida)": "Ciências Agrárias",
+  "Área temática principal": "Tecnologia e Produção",
+  "Relatório aprovado": "Sim",
+  "Data último relatório": "15/12/2024",
+  "Data de cadastro": "05/09/2022",
+  "Resumo": "O projeto intitulado “Pink Pepper Qualifier: Determinação da qualidade produtiva dos frutos da Aroeira\n(Schinus terebinthifolius Raddi) usando Inteligência Computacional” visa desenvolver um sistema\ninteligente para determinar a qualidade produtiva da pimenta rosa baseado na implementação,\ntreinamento, teste e validação de redes neurais profundas voltadas para a tarefa de segmentação de\nimagens por instâncias. Imagens NIR (Near Infrared), obtidas in loco de plantio por meio de sobrevoo\npor drone equipado com uma câmera específica, servirão para determinação de regiões de interesse\nusando-se cálculo de índices de vegetação saudável. Frutos coletados das regiões de interesse\nfornecerão dados biofísicos e dados químicos, obtidos por análise de campo e laboratorial. As imagens\ne demais parâmetros formarão um dataset para treinamento dos modelos de redes neurais, as quais\nfornecerão resultados que serão validados do ponto de vista da plausibilidade biológica por um\nespecialista da área. Por fim, sistemas em versão Web e Mobile propiciarão aos seus usuários obter\nacesso ao nível de qualidade dos seus frutos por meio da captura de fotos.",
+  "Campus": "Serra",
+  "total_participacoes": 164,
+  "publico_alvo_total": 0,
+  "atividades": [
+    {
+      "atividade_id": "13927",
+      "numero": "001",
+      "atividade": "Pink Pepper Qualifier: Determinação da qualidade produtiva dos frutos da Aroeira (Schinus terebinthifolius Raddi) usando Inteligência Computacional",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 16
+    },
+    {
+      "atividade_id": "19151",
+      "numero": "002",
+      "atividade": "1ª viagem técnica à região do Nativo/SM para realização de entrevistas com produtores de pimenta rosa",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 5
+    },
+    {
+      "atividade_id": "19152",
+      "numero": "003",
+      "atividade": "2ª viagem técnica à região do Nativo/SM para realização de entrevistas com produtores de pimenta rosa",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 5
+    },
+    {
+      "atividade_id": "19153",
+      "numero": "004",
+      "atividade": "3ª viagem técnica à região do Nativo/SM para realização de entrevistas com produtores de pimenta rosa",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 6
+    },
+    {
+      "atividade_id": "19154",
+      "numero": "005",
+      "atividade": "Estudo de algoritmos de redes neurais profundas voltadas para segmentação de imagens",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 5
+    },
+    {
+      "atividade_id": "19155",
+      "numero": "006",
+      "atividade": "Captura de fotos de pimentas em diferentes estádios fenológicos de maturação - Etapa 1",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 5
+    },
+    {
+      "atividade_id": "19156",
+      "numero": "007",
+      "atividade": "Captura de fotos de pimentas em diferentes estádios fenológicos de maturação - Etapa 2",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 5
+    },
+    {
+      "atividade_id": "19157",
+      "numero": "008",
+      "atividade": "Captura de fotos de pimentas em diferentes estádios fenológicos de maturação - Etapa 3",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 6
+    },
+    {
+      "atividade_id": "19158",
+      "numero": "009",
+      "atividade": "Coleta de frutos para realização de análises químicas - Etapa 1",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 5
+    },
+    {
+      "atividade_id": "19159",
+      "numero": "010",
+      "atividade": "Coleta de frutos para realização de análises químicas - Etapa 2",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 5
+    },
+    {
+      "atividade_id": "19160",
+      "numero": "011",
+      "atividade": "Coleta de frutos para realização de análises químicas - Etapa 3",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 6
+    },
+    {
+      "atividade_id": "19165",
+      "numero": "016",
+      "atividade": "Montagem de uma primeira versão de uma base de dados de fotos de pimenta rosa",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 5
+    },
+    {
+      "atividade_id": "19166",
+      "numero": "017",
+      "atividade": "Implementações do back-end do sistema Pink Pepper Qualifier - Etapa 1",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 4
+    },
+    {
+      "atividade_id": "19167",
+      "numero": "018",
+      "atividade": "Implementações do back-end do sistema Pink Pepper Qualifier - Etapa 2",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 6
+    },
+    {
+      "atividade_id": "19168",
+      "numero": "019",
+      "atividade": "Implementações do back-end do sistema Pink Pepper Qualifier - Etapa 3",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 3
+    },
+    {
+      "atividade_id": "19169",
+      "numero": "020",
+      "atividade": "Implementações do front-end do sistema Pink Pepper Qualifier - Etapa 1",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 4
+    },
+    {
+      "atividade_id": "19170",
+      "numero": "021",
+      "atividade": "Implementações do front-end do sistema Pink Pepper Qualifier - Etapa 2",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 5
+    },
+    {
+      "atividade_id": "19171",
+      "numero": "022",
+      "atividade": "Implementações do front-end do sistema Pink Pepper Qualifier - Etapa 3",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 3
+    },
+    {
+      "atividade_id": "19172",
+      "numero": "023",
+      "atividade": "Gravação de uma reportagem para o Jornal do Campo da TV Gazeta",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 6
+    },
+    {
+      "atividade_id": "19173",
+      "numero": "024",
+      "atividade": "Participação em mentorias do Sebrae",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 11
+    },
+    {
+      "atividade_id": "19174",
+      "numero": "025",
+      "atividade": "Implementação de algoritmos de redes neurais profundas voltadas para segmentação de imagens de pimenta rosa",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 4
+    },
+    {
+      "atividade_id": "19175",
+      "numero": "026",
+      "atividade": "Realização de ajustes hiperparamétricos dos modelos de redes neurais",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 2
+    },
+    {
+      "atividade_id": "19176",
+      "numero": "027",
+      "atividade": "Realização de análises cromatográficas de frutos",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "19177",
+      "numero": "028",
+      "atividade": "Apresentação no “Primeiro Seminário de Empreendedorismo na Rede Federal” (para uma banca de especialistas empresários e representantes de entidades governamentais) de um pitch sobre a solução Pink Pepper Qualifier.",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 2
+    },
+    {
+      "atividade_id": "19178",
+      "numero": "029",
+      "atividade": "Modelagem e implementação do banco de dados da solução Pink Pepper Qualifier - Etapa 1",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 4
+    },
+    {
+      "atividade_id": "19179",
+      "numero": "030",
+      "atividade": "Modelagem e implementação do banco de dados da solução Pink Pepper Qualifier - Etapa 2",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 7
+    },
+    {
+      "atividade_id": "19180",
+      "numero": "031",
+      "atividade": "Modelagem e implementação do banco de dados da solução Pink Pepper Qualifier - Etapa 3",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 3
+    },
+    {
+      "atividade_id": "19181",
+      "numero": "032",
+      "atividade": "Montagem de uma segunda base de dados de fotos de pimenta rosa",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 11
+    },
+    {
+      "atividade_id": "19182",
+      "numero": "033",
+      "atividade": "Produção de um documentário referente à inauguração da sede da NATIVA - Associação de Produtores de Aroeira do ES",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 2
+    },
+    {
+      "atividade_id": "19183",
+      "numero": "034",
+      "atividade": "Realização da palestra intitulada \"Agricultura 4.0 e qualidade da pimenta rosa\" no 1° Festival Brasileiro de Pimenta Rosa",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 2
+    },
+    {
+      "atividade_id": "19184",
+      "numero": "035",
+      "atividade": "Realização de palestra intitulada \"Qualidade produtiva da pimenta rosa usando Inteligência Computacional\" no TecnoAgro 2022",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "19185",
+      "numero": "036",
+      "atividade": "Realização da palestra intitulada “Aplicativo Pink: Uma solução para avaliar a qualidade produtiva da pimenta rosa”, proferida no 2° Festival Brasileiro de Pimenta Rosa.",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "19186",
+      "numero": "037",
+      "atividade": "Realização de sobrevoos de plantios utilizando drones durante o 2° Festival de Pimenta Rosa",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 1
+    },
+    {
+      "atividade_id": "19187",
+      "numero": "038",
+      "atividade": "Desenvolvimento de protótipos de tela do aplicativo Pink Pepper Qualifier - Etapa 1",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 4
+    },
+    {
+      "atividade_id": "19188",
+      "numero": "039",
+      "atividade": "Desenvolvimento de protótipos de tela do aplicativo Pink Pepper Qualifier - Etapa 2",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 3
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Arthur Delpupo Coelho",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Davi Mulullo Alcântara",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA",
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Douglas de Oliveira Alkimim",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Eduarda Rodrigues Simões",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Fidelis Zanetti de Castro",
+      "funcoes": [
+        "COORDENADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Filipe Anunciação Batista de Moura",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Inaê Santos Gonçalves",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Lucas Gabriel Araújo Codeco",
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Manoel Rodrigues Loureiro",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Matheus Teixeira de Aguiar",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Mayke Willans Christo Pereira",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Raynan Araujo da Silva",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Sofia de Alcantara Silva",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA",
+        "ALUNO(A) VOLUNTARIO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Thaís de Souza",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Thiago Augusto de Carvalho",
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ],
+      "vinculo": "Aluno"
+    }
+  ]
+}

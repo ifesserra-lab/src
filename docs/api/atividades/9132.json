@@ -1,0 +1,24 @@
+{
+  "atividade_id": "9132",
+  "numero": "038",
+  "atividade": "Tutoria em Matemática do 3º ano do Ensino Médio Integrado",
+  "acao_id": "650",
+  "acao_titulo": "Tutoria de Estudos Orientados",
+  "processo": "23158.000371/2015-98",
+  "coordenador_acao": "Bruno Ramos Gonzaga",
+  "publico_alvo": {
+    "total": 6,
+    "aprovados": 6,
+    "certificados": 6,
+    "situacao": {
+      "APROVADO": 6
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Bruno Ramos Gonzaga",
+      "funcao": "PROFESSOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

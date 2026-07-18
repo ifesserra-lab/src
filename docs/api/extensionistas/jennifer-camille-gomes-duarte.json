@@ -1,0 +1,35 @@
+{
+  "slug": "jennifer-camille-gomes-duarte",
+  "nome": "Jennifer Camille Gomes Duarte",
+  "resumo_ia": "Participou como aluna voluntária no 'Desafio Ifes de Negócios Sociais' em 2015 e no 'LEDS – Laboratório de Extensão em Desenvolvimento de Soluções' em 2016, atuando em atividades extensionistas voltadas ao empreendedorismo e inovação.",
+  "anos": [
+    "2015",
+    "2016"
+  ],
+  "funcoes": [
+    "ALUNO(A) VOLUNTARIO"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "569",
+      "titulo": "Desafio Ifes de Negócios Socais",
+      "tipo": "Evento",
+      "ano": "2015",
+      "n": 40,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ]
+    },
+    {
+      "acao_id": "901",
+      "titulo": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+      "tipo": "Programa",
+      "ano": "2016",
+      "n": 104,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "manuelly-soares-silva",
+  "nome": "Manuelly Soares Silva",
+  "resumo_ia": "Desempenhou a função de monitora no projeto Asas para o Futuro - Eletricista Instalador Predial em Baixa Tensão em 2025, apoiando atividades de formação profissional na área elétrica.",
+  "anos": [
+    "2025"
+  ],
+  "funcoes": [
+    "MONITOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "5645",
+      "titulo": "Asas para o Futuro - Eletricista Instalador Predial em Baixa Tensão",
+      "tipo": "Curso",
+      "ano": "2025",
+      "n": 36,
+      "funcoes": [
+        "MONITOR(A)"
+      ]
+    }
+  ]
+}

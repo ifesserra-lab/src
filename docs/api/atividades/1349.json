@@ -1,0 +1,32 @@
+{
+  "atividade_id": "1349",
+  "numero": "001",
+  "atividade": "Gametalk: vamos falar sobre games?",
+  "acao_id": "628",
+  "acao_titulo": "Gametalk: vamos falar sobre games?",
+  "processo": "23158.000808/2015-93",
+  "coordenador_acao": "Ana Paula Klauck",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Juliana Duarte Acerbi",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Beatriz Ramos Souza",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Ana Paula Klauck",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

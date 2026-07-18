@@ -1,0 +1,36 @@
+{
+  "slug": "sandro-de-freitas-nascimento",
+  "nome": "Sandro de Freitas Nascimento",
+  "resumo_ia": "Atuou como instrutor(a) no Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedora em 2017 e como mentor(a) no Desafio Ifes de Negócios Sociais em 2015.",
+  "anos": [
+    "2015",
+    "2017"
+  ],
+  "funcoes": [
+    "INSTRUTOR(A)",
+    "MENTOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1261",
+      "titulo": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedora",
+      "tipo": "Curso",
+      "ano": "2017",
+      "n": 84,
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ]
+    },
+    {
+      "acao_id": "569",
+      "titulo": "Desafio Ifes de Negócios Socais",
+      "tipo": "Evento",
+      "ano": "2015",
+      "n": 40,
+      "funcoes": [
+        "MENTOR(A)"
+      ]
+    }
+  ]
+}

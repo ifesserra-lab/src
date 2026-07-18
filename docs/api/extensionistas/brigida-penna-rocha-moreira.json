@@ -1,0 +1,24 @@
+{
+  "slug": "brigida-penna-rocha-moreira",
+  "nome": "Brígida Penna Rocha Moreira",
+  "resumo_ia": "Atuou como instrutora no Circuito Audiovisual em 2019, contribuindo para a realização de atividades de extensão na área de comunicação e audiovisual.",
+  "anos": [
+    "2019"
+  ],
+  "funcoes": [
+    "INSTRUTOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "2505",
+      "titulo": "Circuito Audiovisual",
+      "tipo": "Projeto",
+      "ano": "2019",
+      "n": 231,
+      "funcoes": [
+        "INSTRUTOR(A)"
+      ]
+    }
+  ]
+}

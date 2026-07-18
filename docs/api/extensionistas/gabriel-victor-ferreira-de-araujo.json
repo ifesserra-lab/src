@@ -1,0 +1,48 @@
+{
+  "slug": "gabriel-victor-ferreira-de-araujo",
+  "nome": "Gabriel Victor Ferreira de Araújo",
+  "resumo_ia": "Atuou como aluno bolsista no projeto Incluir & Multiplicar em 2019 e no LAMPEX em 2020. Ministrou cursos de Informática Básica para Agentes Multiplicadores em 2019.",
+  "anos": [
+    "2019",
+    "2020"
+  ],
+  "funcoes": [
+    "ALUNO(A) BOLSISTA",
+    "INSTRUTOR(A)",
+    "PROFESSOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "2595",
+      "titulo": "Incluir & Multiplicar",
+      "tipo": "Projeto",
+      "ano": "2019",
+      "n": 5,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ]
+    },
+    {
+      "acao_id": "2783",
+      "titulo": "Informática Básica Para Agentes Multiplicadores.",
+      "tipo": "Curso",
+      "ano": "2019",
+      "n": 42,
+      "funcoes": [
+        "INSTRUTOR(A)",
+        "PROFESSOR(A)"
+      ]
+    },
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ]
+    }
+  ]
+}

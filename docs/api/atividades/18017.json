@@ -1,0 +1,29 @@
+{
+  "atividade_id": "18017",
+  "numero": "064",
+  "atividade": "Minicurso de Informática Básica – Módulo I",
+  "acao_id": "3140",
+  "acao_titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+  "processo": "23158.001185/2020-56",
+  "coordenador_acao": "Emmanuel Marques Silva",
+  "publico_alvo": {
+    "total": 9,
+    "aprovados": 9,
+    "certificados": 9,
+    "situacao": {
+      "APROVADO": 9
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Bruno Cardoso Coutinho",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Carlos Henrique Santos das Neves de Almeida Feu",
+      "funcao": "INSTRUTOR(A)",
+      "vinculo": "Aluno"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "gustavo-olmo-santana",
+  "nome": "Gustavo Olmo Santana",
+  "resumo_ia": "Expositor da equipe Física ao Alcance de Todos em 2018, envolvido em ações de popularização da física.",
+  "anos": [
+    "2018"
+  ],
+  "funcoes": [
+    "EXPOSITOR(A)"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "2021",
+      "titulo": "Física ao Alcance de Todos",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 429,
+      "funcoes": [
+        "EXPOSITOR(A)"
+      ]
+    }
+  ]
+}

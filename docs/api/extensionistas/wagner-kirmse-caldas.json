@@ -1,0 +1,73 @@
+{
+  "slug": "wagner-kirmse-caldas",
+  "nome": "Wagner Kirmse Caldas",
+  "resumo_ia": "Coordenou o 'Ifes Portas Abertas' em 2018, tanto como projeto quanto programa, além de atuar como coordenador e professor em 2019 e orientador no 'LAMPEX' em 2020, desenvolvendo ações de extensão e ensino.",
+  "anos": [
+    "2018",
+    "2019",
+    "2020"
+  ],
+  "funcoes": [
+    "COORDENADOR(A)",
+    "ORIENTADOR(A)",
+    "PROFESSOR(A)"
+  ],
+  "acoes_coordenadas": [
+    {
+      "acao_id": "1702",
+      "titulo": "Ifes Portas Abertas",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 387
+    },
+    {
+      "acao_id": "2107",
+      "titulo": "Ifes Portas Abertas",
+      "tipo": "Programa",
+      "ano": "2018",
+      "n": 547
+    }
+  ],
+  "participacoes_equipe": [
+    {
+      "acao_id": "1702",
+      "titulo": "Ifes Portas Abertas",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 387,
+      "funcoes": [
+        "COORDENADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "2107",
+      "titulo": "Ifes Portas Abertas",
+      "tipo": "Programa",
+      "ano": "2018",
+      "n": 547,
+      "funcoes": [
+        "COORDENADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "2773",
+      "titulo": "Ambientação Pedagógica: Didática e Técnicas de Ensino.",
+      "tipo": "Curso",
+      "ano": "2019",
+      "n": 13,
+      "funcoes": [
+        "PROFESSOR(A)"
+      ]
+    },
+    {
+      "acao_id": "3140",
+      "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "tipo": "Programa",
+      "ano": "2020",
+      "n": 1611,
+      "funcoes": [
+        "ORIENTADOR(A)"
+      ]
+    }
+  ]
+}

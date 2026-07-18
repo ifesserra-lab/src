@@ -1,0 +1,26 @@
+{
+  "atividade_id": "8186",
+  "numero": "001",
+  "atividade": "Fitoterápicos em Horta: Compostos Químicos em Ação",
+  "acao_id": "2366",
+  "acao_titulo": "Fitoterápicos em Horta: Compostos Químicos em Ação",
+  "processo": "23156.000102/2019-55",
+  "coordenador_acao": "Nauvia Maria Cancelieri",
+  "publico_alvo": {
+    "total": 26,
+    "aprovados": 2,
+    "certificados": 0,
+    "situacao": {
+      "CURSANDO": 23,
+      "APROVADO": 2,
+      "REPROVADO": 1
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Nauvia Maria Cancelieri",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

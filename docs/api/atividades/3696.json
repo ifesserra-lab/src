@@ -1,0 +1,25 @@
+{
+  "atividade_id": "3696",
+  "numero": "009",
+  "atividade": "Oficina: Como preencher a Solicitação de Compras e Contratação?",
+  "acao_id": "1263",
+  "acao_titulo": "Ciclo de estudos 2017/2 do Ifes campus Serra",
+  "processo": "23158.000394/2017-64",
+  "coordenador_acao": "Gilmar Luiz Vassoler",
+  "publico_alvo": {
+    "total": 21,
+    "aprovados": 17,
+    "certificados": 17,
+    "situacao": {
+      "APROVADO": 17,
+      "REPROVADO": 4
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Wagner Poltroniere Entringer",
+      "funcao": "INSTRUTOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

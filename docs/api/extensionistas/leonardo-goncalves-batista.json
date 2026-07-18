@@ -1,0 +1,24 @@
+{
+  "slug": "leonardo-goncalves-batista",
+  "nome": "Leonardo Gonçalves Batista",
+  "resumo_ia": "Atuou como palestrante na equipe do 'LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão' em 2023, participando de ações extensionistas no âmbito maker.",
+  "anos": [
+    "2023"
+  ],
+  "funcoes": [
+    "PALESTRANTE"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "4655",
+      "titulo": "LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão",
+      "tipo": "Programa",
+      "ano": "2023",
+      "n": 558,
+      "funcoes": [
+        "PALESTRANTE"
+      ]
+    }
+  ]
+}

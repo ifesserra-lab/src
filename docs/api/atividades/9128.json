@@ -1,0 +1,29 @@
+{
+  "atividade_id": "9128",
+  "numero": "034",
+  "atividade": "Tutoria em Circuitos de Corrente Contínua",
+  "acao_id": "650",
+  "acao_titulo": "Tutoria de Estudos Orientados",
+  "processo": "23158.000371/2015-98",
+  "coordenador_acao": "Bruno Ramos Gonzaga",
+  "publico_alvo": {
+    "total": 2,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {
+      "CURSANDO": 2
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Luiz Guilherme Riva Tonini",
+      "funcao": "PROFESSOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Geovani Lima Telles",
+      "funcao": "ALUNO(A) VOLUNTARIO",
+      "vinculo": "Aluno"
+    }
+  ]
+}

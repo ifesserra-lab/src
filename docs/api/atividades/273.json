@@ -1,0 +1,19 @@
+{
+  "atividade_id": "273",
+  "numero": "001",
+  "atividade": "Exposição do Trabalho: \"Soluções de Inovação da Empresa Zaruc\"",
+  "acao_id": "190",
+  "acao_titulo": "7ª Feira de Metalmecânica, Energia e Automação - MEC SHOW - 2014",
+  "processo": "23158.000472/2014-88",
+  "coordenador_acao": "Emmanuel Marques Silva",
+  "publico_alvo": {
+    "total": 8,
+    "aprovados": 7,
+    "certificados": 7,
+    "situacao": {
+      "APROVADO": 7,
+      "REPROVADO": 1
+    }
+  },
+  "equipe_execucao": []
+}

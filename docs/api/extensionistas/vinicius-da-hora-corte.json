@@ -1,0 +1,36 @@
+{
+  "slug": "vinicius-da-hora-corte",
+  "nome": "Vinicius da Hora Corte",
+  "resumo_ia": "Participou como Aluno(a) Bolsista no projeto Sistema de apoio para rastreio e geolocalização de transtornos mentais em 2019 e como Aluno(a) em Atividade Curricular no Programa Local Núcleo Incubador Campus Serra – NIS em 2021.",
+  "anos": [
+    "2019",
+    "2021"
+  ],
+  "funcoes": [
+    "ALUNO(A) BOLSISTA",
+    "ALUNO(A) EM ATIVIDADE CURRICULAR"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "2599",
+      "titulo": "Sistema de apoio para rastreio e geolocalização de transtornos mentais",
+      "tipo": "Projeto",
+      "ano": "2019",
+      "n": 3,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ]
+    },
+    {
+      "acao_id": "3423",
+      "titulo": "Programa Local Núcleo Incubador Campus Serra – NIS",
+      "tipo": "Programa",
+      "ano": "2021",
+      "n": 189,
+      "funcoes": [
+        "ALUNO(A) EM ATIVIDADE CURRICULAR"
+      ]
+    }
+  ]
+}

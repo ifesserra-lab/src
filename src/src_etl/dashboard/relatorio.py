@@ -202,6 +202,44 @@ def _barras(dados: list[tuple[str, int]], *, unidade: str = "") -> str:
             + "".join(linhas) + "</svg>")
 
 
+def _linha(dados: list[tuple[str, int]], *, unidade: str = "") -> str:
+    """Gráfico de linha/área (série única) com valor em cada ponto."""
+    if not dados:
+        return '<p class="vazio">Sem dados ainda.</p>'
+    W, H = 1000, 250
+    pl, pr, pt, pb = 22, 22, 30, 40
+    iw, ih = W - pl - pr, H - pt - pb
+    n = len(dados)
+    mx = max(v for _, v in dados) or 1
+    pts = []
+    for i, (ano, v) in enumerate(dados):
+        x = pl + (iw * i / (n - 1) if n > 1 else iw / 2)
+        y = pt + ih * (1 - v / mx)
+        pts.append((x, y, str(ano), v))
+    linha = " ".join(f"{x:.1f},{y:.1f}" for x, y, _, _ in pts)
+    area = f"{pts[0][0]:.1f},{pt+ih:.0f} {linha} {pts[-1][0]:.1f},{pt+ih:.0f}"
+    grid = "".join(
+        f'<line x1="{pl}" y1="{pt+ih*f:.0f}" x2="{W-pr}" y2="{pt+ih*f:.0f}" '
+        f'stroke="var(--grid)" stroke-width="1"/>' for f in (0.0, 0.5, 1.0))
+    passo = 1 if n <= 12 else (n // 10 + 1)
+    corpo = []
+    for i, (x, y, ano, v) in enumerate(pts):
+        corpo.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="7" fill="transparent">'
+                     f'<title>{escape(ano)}: {v}{escape(unidade)}</title></circle>'
+                     f'<circle cx="{x:.1f}" cy="{y:.1f}" r="3.2" fill="var(--series-1)"/>'
+                     f'<text x="{x:.1f}" y="{y-10:.1f}" text-anchor="middle" class="val">{v}{escape(unidade)}</text>')
+        if i % passo == 0 or i == n - 1:
+            corpo.append(f'<text x="{x:.1f}" y="{H-14}" text-anchor="middle" class="lbl">{escape(ano)}</text>')
+    return (f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" style="display:block">'
+            f'<defs><linearGradient id="lng" x1="0" y1="0" x2="0" y2="1">'
+            f'<stop offset="0" stop-color="var(--series-1)" stop-opacity="0.28"/>'
+            f'<stop offset="1" stop-color="var(--series-1)" stop-opacity="0"/></linearGradient></defs>'
+            f'{grid}<polygon points="{area}" fill="url(#lng)"/>'
+            f'<polyline points="{linha}" fill="none" stroke="var(--series-1)" stroke-width="2.5" '
+            f'stroke-linejoin="round" stroke-linecap="round"/>'
+            + "".join(corpo) + "</svg>")
+
+
 def _donut(dados: list[tuple[str, int]]) -> str:
     """Donut categórico (ordem fixa da paleta) + legenda."""
     if not dados:
@@ -378,7 +416,7 @@ def blocos_relatorio(a: dict) -> tuple[str, str]:
                "PRONATEC etc.). 'SEM VÍNCULO' significa que a ação não declarou fonte de fomento — "
                "geralmente executada só com recursos próprios/voluntariado. Percentual alto de "
                "SEM VÍNCULO sinaliza baixa captação de recursos externos."),
-        _secao("Ações por ano de cadastro", _barras(a["anos"]),
+        _secao("Ações por ano de cadastro", _linha(a["anos"]),
                "Volume de ações cadastradas por ano.",
                explica="Quantidade de ações registradas no SRC em cada ano (pela data de cadastro, "
                "não pela data de execução). Mostra a tendência histórica de produção do campus. "

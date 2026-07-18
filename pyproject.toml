@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "src-etl"
-version = "0.31.0"
+version = "0.32.0"
 description = "ETL das ações públicas do SRC/Ifes (Sistema de Registro e Emissão de Certificados) com Playwright + httpx."
 readme = "README.md"
 requires-python = ">=3.10"

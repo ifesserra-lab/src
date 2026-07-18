@@ -440,26 +440,32 @@ def _projetos_por_ano(p: dict) -> list[tuple[str, int, int, int]]:
     - ações         = ações distintas que coordenou ou participou.
     - participações = quantas vezes a PESSOA participou, como coordenadora
                       (1 por ação) ou na equipe (1 por atividade em que atuou).
-    - impacto       = nº de pessoas impactadas = público-alvo distinto dessas ações.
+    - impacto       = pessoas impactadas pelas participações dela: público-alvo
+                      da ação inteira quando coordenou; público-alvo das
+                      atividades em que atuou quando foi da equipe.
     """
     from collections import Counter as _C
     acoes, parts, impacto = _C(), _C(), _C()
     vistos: set = set()
     vistos_ativ: set = set()
+    coordenadas = {(r["ano"], r["acao_id"]) for r in p["coordena"]}
     for r in p["coordena"] + p["participa"]:
         chave = (r["ano"], r["acao_id"])
         if r["ano"] and chave not in vistos:
             vistos.add(chave)
             acoes[r["ano"]] += 1
-            impacto[r["ano"]] += r.get("pub", 0)
-    for r in p["coordena"]:                 # coordenar = 1 participação por ação
+    for r in p["coordena"]:                 # coordenar = 1 participação; impacto = público da ação
         if r["ano"]:
             parts[r["ano"]] += 1
+            impacto[r["ano"]] += r.get("pub", 0)
     for at in p.get("atividades", []):      # equipe = 1 participação por atividade atuada
         ch = (at["ano"], at["atividade_id"])
         if at["ano"] and ch not in vistos_ativ:
             vistos_ativ.add(ch)
             parts[at["ano"]] += 1
+            # impacto da atividade só se ela NÃO coordena a ação (senão já contado acima)
+            if (at["ano"], at.get("acao_id")) not in coordenadas:
+                impacto[at["ano"]] += at.get("pub", 0)
     anos = sorted(set(acoes) | set(parts))
     return [(a, acoes[a], parts[a], impacto[a]) for a in anos]
 
@@ -479,8 +485,8 @@ def _pagina_extensionista(p: dict, resumo: str | None, colabs: list) -> str:
         blocos.append(f'<div class="card" style="margin-top:14px"><h2>Ações, participações e impacto por ano</h2>'
                       f'<p class="sec-desc">Por ano: <b>ações</b> (coordenadas ou em equipe), '
                       f'<b>participações</b> da pessoa (1 por ação coordenada + 1 por atividade em que atuou) '
-                      f'e <b>pessoas impactadas</b> (público-alvo distinto dessas ações). '
-                      f'Escalas independentes por série.</p>'
+                      f'e <b>pessoas impactadas</b> pelas participações dela (público-alvo da ação quando '
+                      f'coordenou; da atividade quando foi da equipe). Escalas independentes por série.</p>'
                       f'{_barras_v2(ppa)}</div>')
     if p["coordena"]:
         rows = "".join(

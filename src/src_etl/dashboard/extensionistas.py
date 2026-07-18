@@ -53,10 +53,16 @@ def coletar_extensionistas(consolidado: dict) -> list[dict]:
     for a in consolidado.get("acoes", []):
         if "extens" not in _norm(a.get("Natureza")):
             continue
-        # pessoas impactadas = público-alvo DISTINTO da ação (CPF é só p/ deduplicar)
-        pub = len({(part.get("CPF") or part.get("Nome"))
-                   for part in a.get("participacoes", [])
-                   if (part.get("tipo") or "").startswith("Públic")})
+        # pessoas impactadas = público-alvo DISTINTO (CPF é só p/ deduplicar).
+        # nível da ação (p/ coordenação) e por atividade (p/ quem atuou na equipe).
+        pub_por_ativ: dict[str, set] = defaultdict(set)
+        pub_acao: set = set()
+        for part in a.get("participacoes", []):
+            if (part.get("tipo") or "").startswith("Públic"):
+                pid = part.get("CPF") or part.get("Nome")
+                pub_acao.add(pid)
+                pub_por_ativ[str(part.get("atividade_id"))].add(pid)
+        pub = len(pub_acao)
         ref = {"acao_id": a.get("acao_id"), "titulo": a.get("Título ação") or "—",
                "tipo": a.get("Tipo ação") or "—", "ano": (a.get("Data de cadastro") or "")[-4:],
                "n": a.get("total_participacoes", 0), "pub": pub}
@@ -83,7 +89,9 @@ def coletar_extensionistas(consolidado: dict) -> list[dict]:
             p["funcoes"] |= funcoes
             p["anos"].add(ref["ano"])
             for aid in ativ_nesta_acao[nome]:
-                p["atividades"].append({"ano": ref["ano"], "atividade_id": aid})
+                p["atividades"].append({"ano": ref["ano"], "atividade_id": aid,
+                                        "acao_id": ref["acao_id"],
+                                        "pub": len(pub_por_ativ.get(aid, ()))})
 
     out = []
     slugs: dict[str, int] = {}  # noqa: reaproveitado abaixo como contador de slug

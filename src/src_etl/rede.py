@@ -160,16 +160,38 @@ def blocos_rede(a: dict) -> tuple[str, str]:
     ])
     secoes = [
         _secao("Programas por nº de ações vinculadas", _barras(a["programas"]),
-               'Ações "guarda-chuva" que agregam outras (campo Ação vinculante) — ex.: LAMPEX, LEDS.'),
+               'Ações "guarda-chuva" que agregam outras (campo Ação vinculante) — ex.: LAMPEX, LEDS.',
+               explica="No SRC, uma ação pode declarar outra como 'Ação vinculante' — isso cria "
+               "programas guarda-chuva que abrigam projetos/cursos/eventos filhos. Este gráfico "
+               "conta quantas ações filhas cada programa agrega, usando a consulta oficial de "
+               "ações vinculadas do sistema (não o campo de texto, que é incompleto). Mede o papel "
+               "estruturante do programa: quanto mais filhas, mais ele funciona como plataforma."),
         _secao("Programas por público agregado", _barras(a["programas_publico"]),
-               "Público-alvo do próprio programa + das ações filhas."),
+               "Público-alvo do próprio programa + das ações filhas.",
+               explica="Alcance total do ecossistema de cada programa: soma o público-alvo "
+               "registrado nas atividades do PRÓPRIO programa com o público de todas as suas "
+               "ações filhas. Exemplo: LAMPEX = participantes das suas 117 atividades internas + "
+               "participantes dos projetos vinculados a ele. Mede o impacto consolidado do "
+               "programa como um todo, não apenas o que está formalmente 'dentro' dele. "
+               "Base: participações (pessoas podem repetir entre atividades)."),
         _secao("Rede de colaboração entre coordenadores(as)", _grafo(a["grafo_nodes"], a["grafo_edges"]),
                "Cada elo liga dois coordenadores que compartilham uma mesma pessoa na equipe. "
-               "Passe o mouse nos nós para ver os nomes."),
+               "Passe o mouse nos nós para ver os nomes.",
+               explica="Grafo de 'quem ajuda quem': dois coordenadores ficam conectados quando uma "
+               "mesma pessoa (identificada por CPF, nunca exibido) participou da equipe de "
+               "execução de ações de ambos. Linhas mais grossas = mais pessoas em comum. Mostra "
+               "os núcleos de cooperação real do campus — laboratórios e grupos que trocam "
+               "bolsistas, voluntários e colaboradores. Exibe os 14 coordenadores mais conectados."),
         _secao("Coordenadores(as) mais colaborativos", _barras(a["coord_colab"]),
-               "Nº de parceiros distintos (coordenadores com equipe em comum)."),
+               "Nº de parceiros distintos (coordenadores com equipe em comum).",
+               explica="Para cada coordenador(a), o número de OUTROS coordenadores com quem "
+               "compartilha ao menos uma pessoa de equipe. É o 'grau' do nó na rede acima: valores "
+               "altos indicam articuladores — pessoas que conectam grupos diferentes da extensão."),
         _secao("Principais parcerias", _lista_pares(a["top_parcerias"], "pessoas em comum"),
-               "Pares de coordenadores com mais pessoas de equipe em comum."),
+               "Pares de coordenadores com mais pessoas de equipe em comum.",
+               explica="As duplas de coordenadores com maior interseção de equipe. Muitas pessoas "
+               "em comum normalmente indica laboratório/grupo compartilhado ou linha de trabalho "
+               "conjunta de longo prazo — parcerias estruturais, não pontuais."),
     ]
     return tiles, "".join(secoes)
 

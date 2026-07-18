@@ -1,0 +1,119 @@
+<!doctype html><html lang='pt-br'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>Tutoria de Estudos Orientados</title><style>
+:root{
+  color-scheme:light;
+  --plane:#f4f7fe; --surface-1:#ffffff;
+  --text-primary:#2b3674; --text-secondary:#707eae; --muted:#a3aed0;
+  --grid:#e9edf7; --border:#e0e5f2; --series-1:#4318ff;
+  --radius:20px; --shadow:0 18px 40px rgba(112,144,176,.12);
+}
+@media (prefers-color-scheme:dark){:root:where(:not([data-theme=light])){
+  color-scheme:dark;
+  --plane:#0b1437; --surface-1:#111c44;
+  --text-primary:#ffffff; --text-secondary:#a3aed0; --muted:#8f9bba;
+  --grid:#ffffff14; --border:#ffffff1f; --series-1:#7551ff;
+  --shadow:0 18px 40px rgba(0,0,0,.35);
+}}
+:root[data-theme=dark]{
+  color-scheme:dark;
+  --plane:#0b1437; --surface-1:#111c44;
+  --text-primary:#ffffff; --text-secondary:#a3aed0; --muted:#8f9bba;
+  --grid:#ffffff14; --border:#ffffff1f; --series-1:#7551ff;
+  --shadow:0 18px 40px rgba(0,0,0,.35);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--plane);color:var(--text-primary);
+font-family:"DM Sans",system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.45}
+.wrap{max-width:1040px;margin:0 auto;padding:32px 20px 64px}
+header h1{margin:0 0 4px;font-size:1.7rem;letter-spacing:-.02em}
+header .sub{color:var(--text-secondary);margin:0 0 8px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:16px;margin:20px 0 8px}
+.tile{background:var(--surface-1);border:1px solid var(--border);border-radius:var(--radius);
+padding:18px 20px;box-shadow:var(--shadow)}
+.tile-val{font-size:2rem;font-weight:700;letter-spacing:-.03em}
+.tile-lbl{color:var(--text-secondary);font-size:.85rem;margin-top:2px;font-weight:600}
+.tile-sub{color:var(--muted);font-size:.75rem;margin-top:4px}
+section{margin-top:26px}h2{font-size:1.12rem;margin:0 0 2px;letter-spacing:-.01em}
+.sec-desc{color:var(--text-secondary);font-size:.85rem;margin:0 0 10px}
+.card{background:var(--surface-1);border:1px solid var(--border);border-radius:var(--radius);
+padding:20px;overflow-x:auto;box-shadow:var(--shadow)}
+.lbl{fill:var(--text-secondary);font-size:12px}
+.val{fill:var(--text-primary);font-size:12px;font-weight:700}
+.vazio{color:var(--muted);margin:0;font-size:.9rem}
+.donut-wrap{display:flex;gap:24px;align-items:center;flex-wrap:wrap}
+.donut-num{fill:var(--text-primary);font-size:26px;font-weight:700}
+.donut-cap{fill:var(--muted);font-size:11px}
+.leg{display:flex;flex-direction:column;gap:6px;min-width:220px}
+.leg-item{display:flex;align-items:center;gap:8px;font-size:.85rem}
+.sw{width:12px;height:12px;border-radius:4px;flex:none}
+.leg-nome{flex:1}.leg-val{color:var(--text-secondary);font-variant-numeric:tabular-nums}
+footer{margin-top:36px;color:var(--muted);font-size:.78rem;border-top:1px solid var(--border);padding-top:12px}
+.pii{background:color-mix(in srgb,var(--series-1) 8%,transparent);border:1px solid var(--border);
+border-radius:14px;padding:10px 14px;font-size:.82rem;color:var(--text-secondary);margin-top:16px}
+.lista{max-height:360px;overflow-y:auto;display:flex;flex-direction:column;gap:1px}
+.li{display:grid;grid-template-columns:1fr auto auto;gap:12px;align-items:center;
+padding:8px 4px;border-bottom:1px solid var(--grid);font-size:.85rem}
+.li4{grid-template-columns:1fr auto auto auto}
+.li-coord{color:var(--text-secondary);font-size:.78rem;white-space:nowrap}
+.li-tit{color:var(--text-primary)}
+.li-tipo{color:var(--muted);font-size:.75rem;border:1px solid var(--border);border-radius:20px;padding:1px 8px}
+.li-proc{color:var(--text-secondary);font-variant-numeric:tabular-nums;font-size:.8rem}
+.net-lbl{fill:var(--text-secondary);font-size:11px;font-weight:600}
+.topnav{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0 2px}
+.topnav a{padding:9px 16px;border-radius:14px;font-weight:700;font-size:.85rem;text-decoration:none;
+color:var(--text-secondary);background:var(--surface-1);border:1px solid var(--border);box-shadow:var(--shadow)}
+.topnav a:hover,.topnav a.on{background:var(--series-1);color:#fff;border-color:var(--series-1)}
+.explica{margin-top:12px;border-top:1px dashed var(--grid);padding-top:8px}
+.explica summary{cursor:pointer;color:var(--series-1);font-size:.82rem;font-weight:700}
+.explica p{color:var(--text-secondary);font-size:.84rem;margin:8px 0 0;max-width:70ch}
+.nota{background:#fff4e0;color:#8a5a00;border:1px solid #ffd98a;border-radius:12px;
+padding:10px 14px;font-size:.85rem;font-weight:600;margin:14px 0}
+:root[data-theme=dark] .nota,@media (prefers-color-scheme:dark){.nota{background:#3a2e10;color:#ffcf5c;border-color:#5c4a1a}}
+/* abas (CSS puro) */
+.tabs>input{position:absolute;opacity:0;pointer-events:none}
+.tabbar{display:flex;gap:10px;margin:22px 0 4px;flex-wrap:wrap}
+.tabbar label{padding:11px 20px;border-radius:16px;cursor:pointer;font-weight:700;font-size:.9rem;
+color:var(--text-secondary);background:var(--surface-1);border:1px solid var(--border);
+box-shadow:var(--shadow);transition:all .15s}
+.tabbar label:hover{color:var(--text-primary)}
+#tab1:checked~.tabbar label[for=tab1],
+#tab2:checked~.tabbar label[for=tab2],
+#tab3:checked~.tabbar label[for=tab3],
+#tab4:checked~.tabbar label[for=tab4]{background:var(--series-1);color:#fff;border-color:var(--series-1)}
+.panel{display:none}
+#tab1:checked~.p1{display:block}
+#tab2:checked~.p2{display:block}
+#tab3:checked~.p3{display:block}
+#tab4:checked~.p4{display:block}
+
+.topnav{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0 6px}
+.topnav a{padding:9px 16px;border-radius:14px;font-weight:700;font-size:.85rem;text-decoration:none;
+color:var(--text-secondary);background:var(--surface-1);border:1px solid var(--border);box-shadow:var(--shadow)}
+.topnav a:hover,.topnav a.on{background:var(--series-1);color:#fff;border-color:var(--series-1)}
+table.tb{width:100%;border-collapse:collapse;font-size:.85rem}
+table.tb th{color:var(--text-secondary);text-align:left;padding:8px 10px;border-bottom:2px solid var(--grid);font-size:.78rem;text-transform:uppercase;letter-spacing:.04em}
+table.tb td{padding:8px 10px;border-bottom:1px solid var(--grid);vertical-align:top}
+table.tb tr:hover td{background:color-mix(in srgb,var(--series-1) 5%,transparent)}
+a.lk{color:var(--series-1);text-decoration:none;font-weight:600}
+a.lk:hover{text-decoration:underline}
+.meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;margin:14px 0}
+.meta div{background:var(--surface-1);border:1px solid var(--border);border-radius:14px;padding:10px 14px;font-size:.85rem}
+.meta b{display:block;color:var(--text-secondary);font-size:.72rem;text-transform:uppercase;letter-spacing:.05em;margin-bottom:2px}
+.resumo{background:var(--surface-1);border:1px solid var(--border);border-radius:var(--radius);padding:18px;
+box-shadow:var(--shadow);color:var(--text-secondary);max-width:75ch;line-height:1.55;font-size:.92rem}
+input.busca{width:100%;padding:14px 18px;border-radius:16px;border:1px solid var(--border);
+background:var(--surface-1);color:var(--text-primary);font-size:1rem;box-shadow:var(--shadow);outline:none}
+input.busca:focus{border-color:var(--series-1)}
+.badge{display:inline-block;border:1px solid var(--border);border-radius:20px;padding:1px 10px;
+font-size:.75rem;color:var(--muted);white-space:nowrap}
+</style></head><body><div class='wrap'><div class="topnav"><a href="../index.html" class="">Painel</a><a href="../acoes/index.html" class="">Ações</a><a href="../busca.html" class="">Buscar coordenador</a><a href="../sem-participacao.html" class="">Sem participações</a><a href="../pendencias-relatorio.html" class="">Pendências de relatório</a></div><header><h1>Tutoria de Estudos Orientados</h1><p class='sub'>Ação do SRC/Ifes — Campus Serra</p></header><div class="meta">
+<div><b>Processo</b>23158.000371/2015-98</div>
+<div><b>Coordenador(a)</b>Bruno Ramos Gonzaga</div>
+<div><b>Natureza / Tipo</b>Ensino · Curso</div>
+<div><b>Fomento</b>SEM VÍNCULO</div>
+<div><b>Cadastro</b>06/04/2016</div>
+<div><b>Relatório aprovado</b>Sim</div>
+</div><div class="resumo">Analisando os índices de retenção em disciplinas dos primeiros períodos acadêmicos dos cursos de Bacharelado em Sistemas de Informação e Engenharia de Controle e Automação do Instituto Federal do Espírito Santo (Campus Serra), têm-se observado que, ao longo dos anos tem havido um grande crescimento, comportamento este que tem gerado uma grande preocupação por parte da equipe pedagógica, levando-se a se inferir que a base estudantil em matemática dos alunos de um modo geral, tem se mostrado pouco eficiente, em especial os que possuem atividades acadêmicas em período integral, estudantes-trabalhadores que embarcam e ficam dias sem aulas ou qualquer estudante que não possuem competências necessárias ao bom desempenho escolar.
+
+Assim, torna-se necessário uma intervenção pedagógica, possibilitando uma melhora nos estudos dos alunos, maior motivação, inclusão, garantir a permanência, visando cada vez mais oferecer ensino público de qualidade para a sociedade.
+
+Diante deste contexto, o Ifes campus Serra inicia seu projeto de Tutoria de Estudos Orientados em Matemática, cujo qual acontecerá em forma de encontros presenciais e à distância, entre professores, alunos e pedagogos, com o intuito de aumentar a possibilidade de sucesso acadêmico através do atendimento diferenciado do aluno, uma vez que cada aluno terá a oportunidade, através de metodologia complementar e paralela, de aprender o conteúdo ou a unidade curricular que mais necessita e no seu ritmo, sendo que o mesmo terá acompanhamento pedagógico para apresentar seu rendimento ou suas dificuldades.</div><div class="tiles"><div class="tile"><div class="tile-val">33</div><div class="tile-lbl">Atividades</div></div><div class="tile"><div class="tile-val">214</div><div class="tile-lbl">Alunos atendidos</div><div class="tile-sub">participações de público</div></div><div class="tile"><div class="tile-val">73</div><div class="tile-lbl">Pessoas na equipe</div></div></div><div class="card" style="margin-top:14px"><table class="tb"><tr><th>Nº</th><th>Atividade</th><th>Público</th><th>Aprovados</th><th>Certificados</th><th>Equipe</th></tr><tr><td>001</td><td>Tutoria de Estudos Orientados em Matemática</td><td>14</td><td>14</td><td>14</td><td>6</td></tr><tr><td>002</td><td>Tutoria de Estudos Orientados em Matemática</td><td>14</td><td>14</td><td>14</td><td>11</td></tr><tr><td>003</td><td>Tutoria de Estudos Orientados</td><td>16</td><td>16</td><td>16</td><td>10</td></tr><tr><td>004</td><td>Tutoria de Estudos Orientados</td><td>8</td><td>8</td><td>8</td><td>8</td></tr><tr><td>005</td><td>Tutoria de Estudos Orientados</td><td>6</td><td>6</td><td>6</td><td>12</td></tr><tr><td>006</td><td>Tutoria de Estudos Orientados</td><td>10</td><td>10</td><td>10</td><td>5</td></tr><tr><td>007</td><td>Tutoria de Estudos Orientados</td><td>17</td><td>17</td><td>17</td><td>16</td></tr><tr><td>008</td><td>Tutoria em Cálculo I e Cálculo II</td><td>1</td><td>1</td><td>1</td><td>3</td></tr><tr><td>009</td><td>Tutoria em Matemática do 1º ano do Ensino Médio</td><td>27</td><td>27</td><td>27</td><td>2</td></tr><tr><td>010</td><td>Tutoria em Matemática do 2º ano do Ensino Médio</td><td>3</td><td>3</td><td>3</td><td>3</td></tr><tr><td>012</td><td>Tutoria em Física do 1° ano do Ensino Médio</td><td>7</td><td>7</td><td>7</td><td>4</td></tr><tr><td>013</td><td>Tutoria em Física do 2° ano do Ensino Médio</td><td>4</td><td>4</td><td>4</td><td>2</td></tr><tr><td>014</td><td>Tutoria em Eletricidade Aplicada</td><td>7</td><td>7</td><td>7</td><td>2</td></tr><tr><td>016</td><td>Tutoria em Matemática - Proeja</td><td>4</td><td>4</td><td>4</td><td>2</td></tr><tr><td>017</td><td>Tutoria em Cálculo I</td><td>4</td><td>4</td><td>4</td><td>6</td></tr><tr><td>019</td><td>Tutoria em Cálculo III</td><td>0</td><td>0</td><td>0</td><td>2</td></tr><tr><td>024</td><td>Tutoria em Informática Básica</td><td>0</td><td>0</td><td>0</td><td>2</td></tr><tr><td>025</td><td>Tutoria em Lógica</td><td>2</td><td>2</td><td>2</td><td>2</td></tr><tr><td>026</td><td>Tutoria em Matemática</td><td>27</td><td>27</td><td>27</td><td>11</td></tr><tr><td>027</td><td>Tutoria em Programação 1 Para o Ensino Médio</td><td>0</td><td>0</td><td>0</td><td>2</td></tr><tr><td>028</td><td>Tutoria em Programação 1 Para o Ensino Superior</td><td>2</td><td>2</td><td>2</td><td>2</td></tr><tr><td>029</td><td>Tutoria em Estrutura de Dados</td><td>0</td><td>0</td><td>0</td><td>3</td></tr><tr><td>030</td><td>Tutoria em Ferramentas Tecnológicas e Educacionais</td><td>0</td><td>0</td><td>0</td><td>2</td></tr><tr><td>031</td><td>Tutoria em Algoritmos e Estrutura de Dados</td><td>0</td><td>0</td><td>0</td><td>2</td></tr><tr><td>032</td><td>Tutoria em Cálculo I</td><td>2</td><td>2</td><td>2</td><td>3</td></tr><tr><td>034</td><td>Tutoria em Circuitos de Corrente Contínua</td><td>2</td><td>0</td><td>0</td><td>2</td></tr><tr><td>035</td><td>Tutoria em Introdução ao Cálculo</td><td>4</td><td>4</td><td>4</td><td>3</td></tr><tr><td>036</td><td>Tutoria em Lógica Matemática</td><td>1</td><td>1</td><td>1</td><td>3</td></tr><tr><td>037</td><td>Tutoria em Matemática do 1º ano do Ensino Médio Integrado</td><td>23</td><td>23</td><td>23</td><td>6</td></tr><tr><td>038</td><td>Tutoria em Matemática do 3º ano do Ensino Médio Integrado</td><td>6</td><td>6</td><td>6</td><td>1</td></tr><tr><td>039</td><td>Tutoria em Matemática dos Cursos Técnicos Noturnos</td><td>3</td><td>3</td><td>3</td><td>5</td></tr><tr><td>040</td><td>Tutoria em Programação I Para o Ensino Médio</td><td>0</td><td>0</td><td>0</td><td>4</td></tr><tr><td>041</td><td>Tutoria em Programação I Para o Curso em Bacharelado em Sistemas de Informação</td><td>0</td><td>0</td><td>0</td><td>2</td></tr></table></div><div class="card" style="margin-top:14px"><table class="tb"><tr><th>Equipe de execução</th><th>Função(ões)</th></tr><tr><td>Adriana Padua Lovatte</td><td>PROFESSOR(A), TUTOR(A)</td></tr><tr><td>Adriele Ramos de Oliveira</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Alejandro Alves Fortunato</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Alessandra Aguiar Vilarinho</td><td>PROFESSOR(A), TUTOR(A)</td></tr><tr><td>Ana Rúbia Ramos Vicente</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Andreângelo da Paixão Patuzzo</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Arthur Mappa Soares</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Brenda Borges da Silva Prazeres</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Breno Nogueira de Castro</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Bruno Ramos Gonzaga</td><td>COORDENADOR(A), PROFESSOR(A), TUTOR(A)</td></tr><tr><td>Davi Aragão Ascacibas</td><td>MONITOR(A)</td></tr><tr><td>Emannuel Richard de Souza Corrêa</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Emanuel Rampinelli Gloria</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Ernani Leite Ribeiro Filho</td><td>TUTOR(A)</td></tr><tr><td>Estevão Turbay de Lyra</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Estácio Righette Pereira</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Fabio de Oliveira Lima</td><td>COORDENADOR(A), TUTOR(A)</td></tr><tr><td>Felipe Mozer Barina</td><td>MONITOR(A)</td></tr><tr><td>Gabriel Dias Barros</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Gabriel Gonçalves da Costa</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Geovane de Araujo Ceolin</td><td>TUTOR(A)</td></tr><tr><td>Geovani Lima Telles</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Geraldo Simonetti Bello</td><td>TUTOR(A)</td></tr><tr><td>Graziela Barboza Guaitolini Ramos</td><td>PROFESSOR(A), TUTOR(A)</td></tr><tr><td>Guilherme Lopes de Oliveira</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Guilherme Ribeiro de Andrade</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Haisla Esteves Grosman</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Helen França Medeiros</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Hiago Aguiar de Souza</td><td>MONITOR(A)</td></tr><tr><td>Hilário Tomaz Alves de Oliveira</td><td>PROFESSOR(A)</td></tr><tr><td>Hudson Curto Dalprá</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Iaggo Rauta Ramos de Lima</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Jackson Willian Silva Agostinho</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Jefferson de Oliveira Balduino</td><td>PROFESSOR(A)</td></tr><tr><td>João Paulo Lebarck Pizzaia</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>João Victor Heringer</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Julia Nunes de Oliveira</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Járede dos Santos</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Kelly Assis de Souza Gazolli</td><td>PROFESSOR(A), TUTOR(A)</td></tr><tr><td>Klara Matos Gazoli</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Larissa Vervloet Mendonça</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Luana Cordeiro de Almeida</td><td>TUTOR(A)</td></tr><tr><td>Lucas Velten Henker</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Lucca Vieira Canal</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Luis Felippe Klein Faria</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Luiz Guilherme Riva Tonini</td><td>PROFESSOR(A)</td></tr><tr><td>Marcela Soares Esteca</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Marcelo Victor Ferreira Barbosa</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Maressa Karen Henrique da Silva</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Maria Eduarda Justino Braga</td><td>MONITOR(A)</td></tr><tr><td>Matheus de Souza Pereira de Oliveira</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Nathan Titonelli Leonardo</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Olavo Jose Ferreira Curatola</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Otavio Damazio Rosa</td><td>MONITOR(A)</td></tr><tr><td>Paulo Cezar Camargo Guedes</td><td>PROFESSOR(A), TUTOR(A)</td></tr><tr><td>Pedro Soeiro Santanna</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Rafael de Almeida Viana Gusmão</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Raphael Pinto de Almeida</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Renan Georgio Carvalho Cuzzuol</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Samuel Ribeiro do Nascimento</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Sibely Smiderle Alves</td><td>MONITOR(A)</td></tr><tr><td>Stella Rodrigues Bezerra</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Tales da Silva Amaral</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Tatiane Policário Chagas</td><td>TUTOR(A)</td></tr><tr><td>Thais da Silva Ferrarini</td><td>ALUNO(A) BOLSISTA</td></tr><tr><td>Thaís de Souza</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Thiago Machado Oliveira</td><td>ALUNO(A) VOLUNTARIO, MONITOR(A)</td></tr><tr><td>Thiago Mascarello Vitor</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Tulio Boechat Rodrigues</td><td>ALUNO(A) VOLUNTARIO, MONITOR(A)</td></tr><tr><td>Vitor Siqueira da Silva</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Wagner Teixeira da Costa</td><td>CONSULTOR(A)</td></tr><tr><td>Wallas Gusmão Thomas</td><td>TUTOR(A)</td></tr><tr><td>Wemerson Ricardo Peixoto Dazilio</td><td>ALUNO(A) VOLUNTARIO</td></tr></table></div><div class='pii'>Público-alvo é mostrado apenas como contagem — nomes, CPF e e-mail de alunos atendidos não são publicados. A equipe de execução é listada como crédito público (sem dados pessoais).</div></div></body></html>

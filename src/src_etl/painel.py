@@ -85,10 +85,19 @@ border-radius:14px;padding:10px 14px;font-size:.82rem;color:var(--text-secondary
 .lista{max-height:360px;overflow-y:auto;display:flex;flex-direction:column;gap:1px}
 .li{display:grid;grid-template-columns:1fr auto auto;gap:12px;align-items:center;
 padding:8px 4px;border-bottom:1px solid var(--grid);font-size:.85rem}
+.li4{grid-template-columns:1fr auto auto auto}
+.li-coord{color:var(--text-secondary);font-size:.78rem;white-space:nowrap}
 .li-tit{color:var(--text-primary)}
 .li-tipo{color:var(--muted);font-size:.75rem;border:1px solid var(--border);border-radius:20px;padding:1px 8px}
 .li-proc{color:var(--text-secondary);font-variant-numeric:tabular-nums;font-size:.8rem}
 .net-lbl{fill:var(--text-secondary);font-size:11px;font-weight:600}
+.topnav{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0 2px}
+.topnav a{padding:9px 16px;border-radius:14px;font-weight:700;font-size:.85rem;text-decoration:none;
+color:var(--text-secondary);background:var(--surface-1);border:1px solid var(--border);box-shadow:var(--shadow)}
+.topnav a:hover,.topnav a.on{background:var(--series-1);color:#fff;border-color:var(--series-1)}
+.explica{margin-top:12px;border-top:1px dashed var(--grid);padding-top:8px}
+.explica summary{cursor:pointer;color:var(--series-1);font-size:.82rem;font-weight:700}
+.explica p{color:var(--text-secondary);font-size:.84rem;margin:8px 0 0;max-width:70ch}
 .nota{background:#fff4e0;color:#8a5a00;border:1px solid #ffd98a;border-radius:12px;
 padding:10px 14px;font-size:.85rem;font-weight:600;margin:14px 0}
 :root[data-theme=dark] .nota,@media (prefers-color-scheme:dark){.nota{background:#3a2e10;color:#ffcf5c;border-color:#5c4a1a}}
@@ -141,9 +150,16 @@ def gerar_painel(
         relatorio._CAT = original
 
     banner = (f'<div class="nota">{escape(nota)}</div>' if nota else "")
+    topnav = ('<div class="topnav">'
+              '<a class="on" href="index.html">Painel</a>'
+              '<a href="acoes/index.html">Ações</a>'
+              '<a href="busca.html">Buscar coordenador</a>'
+              '<a href="sem-participacao.html">Sem participações</a>'
+              '<a href="pendencias-relatorio.html">Pendências de relatório</a></div>')
     corpo = f"""<div class="wrap">
 <header><h1>{escape(titulo)}</h1>
 <p class="sub">Painel analítico — visão geral, indicadores e rede de colaboração</p></header>
+{topnav}
 {banner}
 <div class="tabs">
   <input type="radio" name="tab" id="tab1" checked>

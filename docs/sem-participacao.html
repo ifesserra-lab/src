@@ -1,0 +1,108 @@
+<!doctype html><html lang='pt-br'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>Ações sem participações — Campus Serra</title><style>
+:root{
+  color-scheme:light;
+  --plane:#f4f7fe; --surface-1:#ffffff;
+  --text-primary:#2b3674; --text-secondary:#707eae; --muted:#a3aed0;
+  --grid:#e9edf7; --border:#e0e5f2; --series-1:#4318ff;
+  --radius:20px; --shadow:0 18px 40px rgba(112,144,176,.12);
+}
+@media (prefers-color-scheme:dark){:root:where(:not([data-theme=light])){
+  color-scheme:dark;
+  --plane:#0b1437; --surface-1:#111c44;
+  --text-primary:#ffffff; --text-secondary:#a3aed0; --muted:#8f9bba;
+  --grid:#ffffff14; --border:#ffffff1f; --series-1:#7551ff;
+  --shadow:0 18px 40px rgba(0,0,0,.35);
+}}
+:root[data-theme=dark]{
+  color-scheme:dark;
+  --plane:#0b1437; --surface-1:#111c44;
+  --text-primary:#ffffff; --text-secondary:#a3aed0; --muted:#8f9bba;
+  --grid:#ffffff14; --border:#ffffff1f; --series-1:#7551ff;
+  --shadow:0 18px 40px rgba(0,0,0,.35);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--plane);color:var(--text-primary);
+font-family:"DM Sans",system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.45}
+.wrap{max-width:1040px;margin:0 auto;padding:32px 20px 64px}
+header h1{margin:0 0 4px;font-size:1.7rem;letter-spacing:-.02em}
+header .sub{color:var(--text-secondary);margin:0 0 8px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:16px;margin:20px 0 8px}
+.tile{background:var(--surface-1);border:1px solid var(--border);border-radius:var(--radius);
+padding:18px 20px;box-shadow:var(--shadow)}
+.tile-val{font-size:2rem;font-weight:700;letter-spacing:-.03em}
+.tile-lbl{color:var(--text-secondary);font-size:.85rem;margin-top:2px;font-weight:600}
+.tile-sub{color:var(--muted);font-size:.75rem;margin-top:4px}
+section{margin-top:26px}h2{font-size:1.12rem;margin:0 0 2px;letter-spacing:-.01em}
+.sec-desc{color:var(--text-secondary);font-size:.85rem;margin:0 0 10px}
+.card{background:var(--surface-1);border:1px solid var(--border);border-radius:var(--radius);
+padding:20px;overflow-x:auto;box-shadow:var(--shadow)}
+.lbl{fill:var(--text-secondary);font-size:12px}
+.val{fill:var(--text-primary);font-size:12px;font-weight:700}
+.vazio{color:var(--muted);margin:0;font-size:.9rem}
+.donut-wrap{display:flex;gap:24px;align-items:center;flex-wrap:wrap}
+.donut-num{fill:var(--text-primary);font-size:26px;font-weight:700}
+.donut-cap{fill:var(--muted);font-size:11px}
+.leg{display:flex;flex-direction:column;gap:6px;min-width:220px}
+.leg-item{display:flex;align-items:center;gap:8px;font-size:.85rem}
+.sw{width:12px;height:12px;border-radius:4px;flex:none}
+.leg-nome{flex:1}.leg-val{color:var(--text-secondary);font-variant-numeric:tabular-nums}
+footer{margin-top:36px;color:var(--muted);font-size:.78rem;border-top:1px solid var(--border);padding-top:12px}
+.pii{background:color-mix(in srgb,var(--series-1) 8%,transparent);border:1px solid var(--border);
+border-radius:14px;padding:10px 14px;font-size:.82rem;color:var(--text-secondary);margin-top:16px}
+.lista{max-height:360px;overflow-y:auto;display:flex;flex-direction:column;gap:1px}
+.li{display:grid;grid-template-columns:1fr auto auto;gap:12px;align-items:center;
+padding:8px 4px;border-bottom:1px solid var(--grid);font-size:.85rem}
+.li4{grid-template-columns:1fr auto auto auto}
+.li-coord{color:var(--text-secondary);font-size:.78rem;white-space:nowrap}
+.li-tit{color:var(--text-primary)}
+.li-tipo{color:var(--muted);font-size:.75rem;border:1px solid var(--border);border-radius:20px;padding:1px 8px}
+.li-proc{color:var(--text-secondary);font-variant-numeric:tabular-nums;font-size:.8rem}
+.net-lbl{fill:var(--text-secondary);font-size:11px;font-weight:600}
+.topnav{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0 2px}
+.topnav a{padding:9px 16px;border-radius:14px;font-weight:700;font-size:.85rem;text-decoration:none;
+color:var(--text-secondary);background:var(--surface-1);border:1px solid var(--border);box-shadow:var(--shadow)}
+.topnav a:hover,.topnav a.on{background:var(--series-1);color:#fff;border-color:var(--series-1)}
+.explica{margin-top:12px;border-top:1px dashed var(--grid);padding-top:8px}
+.explica summary{cursor:pointer;color:var(--series-1);font-size:.82rem;font-weight:700}
+.explica p{color:var(--text-secondary);font-size:.84rem;margin:8px 0 0;max-width:70ch}
+.nota{background:#fff4e0;color:#8a5a00;border:1px solid #ffd98a;border-radius:12px;
+padding:10px 14px;font-size:.85rem;font-weight:600;margin:14px 0}
+:root[data-theme=dark] .nota,@media (prefers-color-scheme:dark){.nota{background:#3a2e10;color:#ffcf5c;border-color:#5c4a1a}}
+/* abas (CSS puro) */
+.tabs>input{position:absolute;opacity:0;pointer-events:none}
+.tabbar{display:flex;gap:10px;margin:22px 0 4px;flex-wrap:wrap}
+.tabbar label{padding:11px 20px;border-radius:16px;cursor:pointer;font-weight:700;font-size:.9rem;
+color:var(--text-secondary);background:var(--surface-1);border:1px solid var(--border);
+box-shadow:var(--shadow);transition:all .15s}
+.tabbar label:hover{color:var(--text-primary)}
+#tab1:checked~.tabbar label[for=tab1],
+#tab2:checked~.tabbar label[for=tab2],
+#tab3:checked~.tabbar label[for=tab3],
+#tab4:checked~.tabbar label[for=tab4]{background:var(--series-1);color:#fff;border-color:var(--series-1)}
+.panel{display:none}
+#tab1:checked~.p1{display:block}
+#tab2:checked~.p2{display:block}
+#tab3:checked~.p3{display:block}
+#tab4:checked~.p4{display:block}
+
+.topnav{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0 6px}
+.topnav a{padding:9px 16px;border-radius:14px;font-weight:700;font-size:.85rem;text-decoration:none;
+color:var(--text-secondary);background:var(--surface-1);border:1px solid var(--border);box-shadow:var(--shadow)}
+.topnav a:hover,.topnav a.on{background:var(--series-1);color:#fff;border-color:var(--series-1)}
+table.tb{width:100%;border-collapse:collapse;font-size:.85rem}
+table.tb th{color:var(--text-secondary);text-align:left;padding:8px 10px;border-bottom:2px solid var(--grid);font-size:.78rem;text-transform:uppercase;letter-spacing:.04em}
+table.tb td{padding:8px 10px;border-bottom:1px solid var(--grid);vertical-align:top}
+table.tb tr:hover td{background:color-mix(in srgb,var(--series-1) 5%,transparent)}
+a.lk{color:var(--series-1);text-decoration:none;font-weight:600}
+a.lk:hover{text-decoration:underline}
+.meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;margin:14px 0}
+.meta div{background:var(--surface-1);border:1px solid var(--border);border-radius:14px;padding:10px 14px;font-size:.85rem}
+.meta b{display:block;color:var(--text-secondary);font-size:.72rem;text-transform:uppercase;letter-spacing:.05em;margin-bottom:2px}
+.resumo{background:var(--surface-1);border:1px solid var(--border);border-radius:var(--radius);padding:18px;
+box-shadow:var(--shadow);color:var(--text-secondary);max-width:75ch;line-height:1.55;font-size:.92rem}
+input.busca{width:100%;padding:14px 18px;border-radius:16px;border:1px solid var(--border);
+background:var(--surface-1);color:var(--text-primary);font-size:1rem;box-shadow:var(--shadow);outline:none}
+input.busca:focus{border-color:var(--series-1)}
+.badge{display:inline-block;border:1px solid var(--border);border-radius:20px;padding:1px 10px;
+font-size:.75rem;color:var(--muted);white-space:nowrap}
+</style></head><body><div class='wrap'><div class="topnav"><a href="index.html" class="">Painel</a><a href="acoes/index.html" class="">Ações</a><a href="busca.html" class="">Buscar coordenador</a><a href="sem-participacao.html" class="on">Sem participações</a><a href="pendencias-relatorio.html" class="">Pendências de relatório</a></div><header><h1>Ações sem participações (52)</h1><p class='sub'>Ações sem nenhum público-alvo nem equipe registrados no SRC — pendência de registro a regularizar com o(a) coordenador(a)</p></header><div class="card" style="margin-top:16px"><table class="tb"><tr><th>Ação</th><th>Tipo</th><th>Coordenador(a)</th><th>Ano</th></tr><tr><td><a class="lk" href="acoes/4867.html">Empresa Morpheus Jr</a></td><td>Programa</td><td>Adelson Pereira do Nascimento</td><td>2024</td></tr><tr><td><a class="lk" href="acoes/5199.html">JOVEM APRENDIZ IFES CAMPUS SERRA</a></td><td>Programa</td><td>Adelson Pereira do Nascimento</td><td>2024</td></tr><tr><td><a class="lk" href="acoes/5545.html">Palestra -Lançamento de documentário: A beleza oculta no poder feminino</a></td><td>Evento</td><td>Adrianna Machado Meneguelli</td><td>2025</td></tr><tr><td><a class="lk" href="acoes/1648.html">Projeto Expedição IFES – Conhecendo o Brasil</a></td><td>Projeto</td><td>Alessandro Bermudes Gomes</td><td>2018</td></tr><tr><td><a class="lk" href="acoes/2328.html">Projeto Expedição IFES – Conhecendo o Brasil</a></td><td>Projeto</td><td>Alessandro Bermudes Gomes</td><td>2019</td></tr><tr><td><a class="lk" href="acoes/5546.html">Clube de leitura</a></td><td>Curso</td><td>Alexander Jeferson Nassau Borges</td><td>2025</td></tr><tr><td><a class="lk" href="acoes/392.html">Curso de Leitura em Língua Inglesa</a></td><td>Curso</td><td>Ana Paula Klauck</td><td>2015</td></tr><tr><td><a class="lk" href="acoes/709.html">Let&#x27;s Talk: Conversação em língua inglesa</a></td><td>Projeto</td><td>Ana Paula Klauck</td><td>2016</td></tr><tr><td><a class="lk" href="acoes/1175.html">Let&#x27;s Talk - oficina de conversação em inglês para o Técnico Integrado</a></td><td>Projeto</td><td>Ana Paula Klauck</td><td>2017</td></tr><tr><td><a class="lk" href="acoes/2268.html">Jornalismo</a></td><td>Projeto</td><td>Ana Paula Klauck</td><td>2019</td></tr><tr><td><a class="lk" href="acoes/3553.html">Let&#x27;s Talk - Oficinas de conversação em língua inglesa</a></td><td>Projeto</td><td>Ana Paula Klauck</td><td>2021</td></tr><tr><td><a class="lk" href="acoes/3871.html">Palestra sobre Rap e cultura hip hop</a></td><td>Evento</td><td>Ana Paula Klauck</td><td>2022</td></tr><tr><td><a class="lk" href="acoes/4064.html">Laboratório de Escrita Criativa</a></td><td>Evento</td><td>Ana Paula Klauck</td><td>2022</td></tr><tr><td><a class="lk" href="acoes/2931.html">Tutoria de Estudos Orientados: Compartilhando Saberes</a></td><td>Projeto</td><td>Bruno Ramos Gonzaga</td><td>2020</td></tr><tr><td><a class="lk" href="acoes/2892.html">&quot;(Con)versando sobre – Temas transversais&quot;</a></td><td>Projeto</td><td>Cibelle Zanforlin Cesconetto Toresani</td><td>2020</td></tr><tr><td><a class="lk" href="acoes/2799.html">I Encontro Cultural do Núcleo de Estudos Afro-Brasileiros e Indígenas : Deb</a></td><td>Evento</td><td>Diego Ramiro Araoz Alves</td><td>2019</td></tr><tr><td><a class="lk" href="acoes/2836.html">II Vivências de Queimado</a></td><td>Evento</td><td>Diego Ramiro Araoz Alves</td><td>2019</td></tr><tr><td><a class="lk" href="acoes/5543.html">Núcleo de Educação Ambiental do Campus Serra – Ifes</a></td><td>Programa</td><td>Eglalciane de Lyrio Tongo</td><td>2025</td></tr><tr><td><a class="lk" href="acoes/5016.html">CAIS: Ancorando Cultura e Arte no Ifes Serra</a></td><td>Projeto</td><td>Emerson Atílio Birchler</td><td>2024</td></tr><tr><td><a class="lk" href="acoes/1592.html">Tutoria em Estudos Avançados</a></td><td>Projeto</td><td>Fabio de Oliveira Lima</td><td>2018</td></tr><tr><td><a class="lk" href="acoes/2786.html">My Pay: Um ERP em nuvem para foodtrucks</a></td><td>Projeto</td><td>Felipe Frechiani de Oliveira</td><td>2019</td></tr><tr><td><a class="lk" href="acoes/465.html">Workshop sobre as Ações de Internacionalização do Ifes</a></td><td>Evento</td><td>Fernanda de Souza Hott</td><td>2015</td></tr><tr><td><a class="lk" href="acoes/4507.html">Solução web/mobile baseada em Inteligência Computacional para identificação</a></td><td>Projeto</td><td>Fidelis Zanetti de Castro</td><td>2023</td></tr><tr><td><a class="lk" href="acoes/847.html">Sistema de georreferenciamento e detecção de vibração e queda para implemen</a></td><td>Projeto</td><td>Flávio Lopes da Silva</td><td>2016</td></tr><tr><td><a class="lk" href="acoes/5421.html">Parque Científico e Tecnológico do InovaSerra – PCTec InovaSerra</a></td><td>Programa</td><td>Francisco José Casarim Rapchan</td><td>2025</td></tr><tr><td><a class="lk" href="acoes/5646.html">Cultura Impressa: Esculturas 3D de artesãos locais com filamento de materia</a></td><td>Projeto</td><td>Gabriel Tozatto Zago</td><td>2025</td></tr><tr><td><a class="lk" href="acoes/2750.html">Ritornelo</a></td><td>Projeto</td><td>Geruza Ferreira Martins</td><td>2019</td></tr><tr><td><a class="lk" href="acoes/1426.html">Semana de Ciência e Tecnologia do Campus Serra do Ifes</a></td><td>Evento</td><td>Gilmar Luiz Vassoler</td><td>2017</td></tr><tr><td><a class="lk" href="acoes/1604.html">Improving your English</a></td><td>Projeto</td><td>Giordana dos Santos Sperandio</td><td>2018</td></tr><tr><td><a class="lk" href="acoes/2327.html">Diálogos que Transformam</a></td><td>Projeto</td><td>Giordana dos Santos Sperandio</td><td>2019</td></tr><tr><td><a class="lk" href="acoes/1591.html">OFICINA  DE FÍSICA</a></td><td>Projeto</td><td>Giovani Zanetti Neto</td><td>2018</td></tr><tr><td><a class="lk" href="acoes/6104.html">APEXT 2026 – Atendimentos Personalizados e Monitorias de Extensão Tecnológi</a></td><td>Projeto</td><td>Jefferson Ribeiro de Lima</td><td>2026</td></tr><tr><td><a class="lk" href="acoes/2930.html">2º Seminário do Núcleo de Estudos Afro-Brasileiros e Indígenas do IFES Camp</a></td><td>Projeto</td><td>Leonardo Matiazzi Corrêa</td><td>2020</td></tr><tr><td><a class="lk" href="acoes/3647.html">O povo preto realmente é livre?</a></td><td>Evento</td><td>Lívia de Azevedo Silveira Rangel</td><td>2022</td></tr><tr><td><a class="lk" href="acoes/5258.html">Inclusão e Tecnologia: Robótica para Pessoas com Autismo no IFES Serra</a></td><td>Projeto</td><td>Marco Antônio de Souza Leite Cuadros</td><td>2024</td></tr><tr><td><a class="lk" href="acoes/4308.html">Monitoria de Programação para Web</a></td><td>Prestação de Serviço</td><td>Marta Talitha Carvalho Freire Mendes</td><td>2023</td></tr><tr><td><a class="lk" href="acoes/4808.html">Letramento Tecnológico para Idosos</a></td><td>Projeto</td><td>Marta Talitha Carvalho Freire Mendes</td><td>2023</td></tr><tr><td><a class="lk" href="acoes/5065.html">Portal de Comunicação para Denunciar Casos de Violência Contra a Pessoas Id</a></td><td>Projeto</td><td>Marta Talitha Carvalho Freire Mendes</td><td>2024</td></tr><tr><td><a class="lk" href="acoes/6146.html">Jogos Internos do Campus Serra (JICS)</a></td><td>Evento</td><td>Milainy Ludmila Santos Goulart</td><td>2026</td></tr><tr><td><a class="lk" href="acoes/719.html">Programação Visual Criativa com Scratch + Arduino</a></td><td>Curso</td><td>Moisés Savedra Omena</td><td>2016</td></tr><tr><td><a class="lk" href="acoes/723.html">Acorde Musical</a></td><td>Projeto</td><td>Moisés Savedra Omena</td><td>2016</td></tr><tr><td><a class="lk" href="acoes/3950.html">Oficina de Tutoria em Matemática</a></td><td>Projeto</td><td>Paulo Cezar Camargo Guedes</td><td>2022</td></tr><tr><td><a class="lk" href="acoes/3951.html">Oficina de Tutoria em Matemática</a></td><td>Projeto</td><td>Paulo Cezar Camargo Guedes</td><td>2022</td></tr><tr><td><a class="lk" href="acoes/3952.html">Oficina de Tutoria em Física</a></td><td>Projeto</td><td>Paulo Cezar Camargo Guedes</td><td>2022</td></tr><tr><td><a class="lk" href="acoes/4846.html">PEAM – Programa de Estudos Avançados em Matemática</a></td><td>Evento</td><td>Paulo Cezar Camargo Guedes</td><td>2023</td></tr><tr><td><a class="lk" href="acoes/1939.html">Nova plataforma NVIDIA para HPC e Inteligência Artificial (IA)</a></td><td>Projeto</td><td>Paulo Sérgio dos Santos Júnior</td><td>2018</td></tr><tr><td><a class="lk" href="acoes/2365.html">Coral Musicante</a></td><td>Projeto</td><td>Ricardo Ramos Costa</td><td>2019</td></tr><tr><td><a class="lk" href="acoes/617.html">Sistema de Informação para Notificação, Captação, Distribuição de Órgão</a></td><td>Projeto</td><td>Rodrigo Fernandes Calhau</td><td>2016</td></tr><tr><td><a class="lk" href="acoes/5539.html">Conexão Ciência: Transformação Digital das Atividades do Centro de Ciência </a></td><td>Projeto</td><td>Vitor Faiçal Campana</td><td>2025</td></tr><tr><td><a class="lk" href="acoes/1652.html">Livro do Ano</a></td><td>Projeto</td><td>Wagner Kirmse Caldas</td><td>2018</td></tr><tr><td><a class="lk" href="acoes/4962.html">SEMANA DE INTEGRAÇÃO</a></td><td>Curso</td><td>Wagner Kirmse Caldas</td><td>2024</td></tr><tr><td><a class="lk" href="acoes/466.html">Projeto Conhecer</a></td><td>Evento</td><td>Wagner Teixeira da Costa</td><td>2015</td></tr></table></div></div></body></html>

@@ -142,19 +142,45 @@ def blocos_indicadores(a: dict) -> tuple[str, str]:
 
     secoes = [
         _secao("Alunos atendidos por ano", _barras(a["publico_por_ano"]),
-               "Alcance (participações de público) por ano de cadastro da ação."),
+               "Alcance (participações de público) por ano de cadastro da ação.",
+               explica="Soma das participações de público-alvo agrupadas pelo ano de cadastro da "
+               "ação correspondente. Diferente do gráfico 'ações por ano' (que conta cadastros), "
+               "este mede PESSOAS alcançadas ao longo do tempo — uma ação só, se for grande, pode "
+               "dominar o ano. Base: participações (a mesma pessoa em 2 atividades conta 2)."),
         _secao("Recorrência de participação", _donut(a["recorrencia"]),
-               "Quantas pessoas distintas participaram de 1, 2, 3–4 ou 5+ ações."),
+               "Quantas pessoas distintas participaram de 1, 2, 3–4 ou 5+ ações.",
+               explica="Pessoas únicas (deduplicadas por CPF) classificadas pelo número de "
+               "participações que acumulam. A faixa '1 ação' é o público de passagem; '5+' é o "
+               "núcleo fiel que orbita a extensão do campus. Recorrência alta aumenta a diferença "
+               "entre participações totais e alunos únicos."),
         _secao("Tamanho de turma (por atividade)", _donut(a["turma_dist"]),
-               "Distribuição do público por atividade em faixas."),
+               "Distribuição do público por atividade em faixas.",
+               explica="Cada atividade (turma/oferta dentro de uma ação) classificada pelo número "
+               "de participantes de público-alvo que registrou. Mostra o formato típico de "
+               "atendimento: muitas turmas pequenas (1–10, 11–25) indicam trabalho de proximidade; "
+               "faixas 100+ são eventos de massa."),
         _secao("Top 10 coordenadores por alunos atendidos", _barras(a["publico_por_coord"]),
-               "Impacto por coordenador — soma do público-alvo (≠ nº de ações)."),
+               "Impacto por coordenador — soma do público-alvo (≠ nº de ações).",
+               explica="Soma das participações de público-alvo de todas as ações de cada "
+               "coordenador(a). Complementa o ranking por nº de ações: alguém com poucas ações "
+               "grandes pode ter mais impacto de alcance do que alguém com muitas ações pequenas."),
         _secao("Taxa de aprovação por tipo de ação", _barras(a["aprovado_por_tipo"], unidade="%"),
-               "% de participantes com situação APROVADO, por tipo."),
+               "% de participantes com situação APROVADO, por tipo.",
+               explica="Dentro de cada tipo (Curso, Projeto, Evento, Programa), a fração das "
+               "participações de público-alvo cujo status é APROVADO. Taxas menores em formatos "
+               "longos (Projeto/Curso) normalmente refletem evasão ao longo do tempo; eventos "
+               "pontuais aprovam quase todos os presentes."),
         _secao("Taxa de certificação por tipo de ação", _barras(a["cert_por_tipo"], unidade="%"),
-               "% de participantes com certificado emitido, por tipo."),
+               "% de participantes com certificado emitido, por tipo.",
+               explica="Dentro de cada tipo, a fração das participações com certificado emitido no "
+               "SRC. Se a certificação fica muito abaixo da aprovação no mesmo tipo, há aprovados "
+               "sem certificado — atraso ou omissão na emissão, que a gestão pode cobrar."),
         _secao("Composição da equipe executora", _donut(a["composicao_equipe"]),
-               "Perfil dos membros de equipe por função."),
+               "Perfil dos membros de equipe por função.",
+               explica="Vínculos de equipe agrupados em classes: Discente (aluno bolsista, "
+               "voluntário, atividade curricular), Docente (professor), Técnico(a) e Outros "
+               "(colaboradores externos, convidados, funções não tipificadas). Mede quem faz a "
+               "extensão acontecer — e o peso do protagonismo estudantil."),
     ]
     return tiles, "".join(secoes)
 

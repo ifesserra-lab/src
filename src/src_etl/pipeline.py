@@ -44,11 +44,12 @@ async def extrair_campus(
     headless: bool = True,
     max_acoes: int | None = None,
     on_progress=None,
+    workers: int = 1,
 ) -> list[Acao]:
     """Extrai as ações de UM campus e devolve modelos `Acao` validados."""
     log = on_progress or (lambda _m: None)
     linhas = await coletar_campus(
-        campus, headless=headless, max_acoes=max_acoes, on_progress=log
+        campus, headless=headless, max_acoes=max_acoes, on_progress=log, workers=workers
     )
     log(f"[{campus}] coletadas {len(linhas)} ações; baixando detalhes")
 
@@ -76,6 +77,7 @@ async def extrair_campi(
     headless: bool = True,
     max_acoes: int | None = None,
     on_progress=None,
+    workers: int = 1,
 ) -> dict[str, list[Acao]]:
     """Extrai um, vários ou todos os campi. Devolve {campus: [Acao, ...]}."""
     log = on_progress or (lambda _m: None)
@@ -85,7 +87,7 @@ async def extrair_campi(
     resultado: dict[str, list[Acao]] = {}
     for c in campi:
         resultado[c] = await extrair_campus(
-            c, headless=headless, max_acoes=max_acoes, on_progress=log
+            c, headless=headless, max_acoes=max_acoes, on_progress=log, workers=workers
         )
     return resultado
 
@@ -167,15 +169,18 @@ def run(
     headless: bool = True,
     max_acoes: int | None = None,
     on_progress=None,
+    workers: int = 1,
 ) -> dict[str, list[Acao]]:
     """Ponto de entrada síncrono: extrai o(s) campus(es) e salva os JSONs.
 
     Args:
         campus: None (todos) | "Serra" (um) | ["Serra", "Vitória"] (conjunto).
         out_dir: diretório-base de saída (um subdiretório por campus).
+        workers: abas paralelas no crawl público (agiliza; ignora max_acoes).
     """
     dados = asyncio.run(
-        extrair_campi(campus, headless=headless, max_acoes=max_acoes, on_progress=on_progress)
+        extrair_campi(campus, headless=headless, max_acoes=max_acoes,
+                      on_progress=on_progress, workers=workers)
     )
     salvar_por_campus(dados, out_dir)
     return dados

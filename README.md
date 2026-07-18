@@ -36,7 +36,16 @@ src-etl --list-campi
 
 # teste rápido (limita nº de ações por campus)
 src-etl --campus Serra --max 5 --out data
+
+# crawl público em paralelo (K abas dividem as páginas — agiliza; ignora --max)
+src-etl --campus Serra --workers 4 --out data
 ```
+
+> **Paralelismo:** só a etapa pública paraleliza (`--workers`), pois não tem
+> login. A etapa autenticada (participações) **não** paraleliza: o SRC mantém
+> uma única sessão por usuário e a paginação das tabelas é via AJAX (precisa de
+> navegador) — logins concorrentes colidem. Ela salva 1 JSON por processo
+> incrementalmente e faz *resume* (pula processos já salvos numa nova execução).
 
 Saída: `data/<campus>/acao_<id>.json` + `data/<campus>/_index.json`.
 

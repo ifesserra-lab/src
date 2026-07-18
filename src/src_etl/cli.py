@@ -29,6 +29,8 @@ def main(argv: list[str] | None = None) -> int:
 
     parser.add_argument("--out", default="data", help="Diretório-base de saída")
     parser.add_argument("--max", type=int, default=None, help="Limite de ações por campus (teste)")
+    parser.add_argument("--workers", type=int, default=1,
+                        help="Abas paralelas no crawl público (agiliza; ignora --max)")
     parser.add_argument("--no-headless", action="store_true", help="Mostra o navegador")
     args = parser.parse_args(argv)
 
@@ -45,6 +47,7 @@ def main(argv: list[str] | None = None) -> int:
         out_dir=args.out,
         headless=headless,
         max_acoes=args.max,
+        workers=args.workers,
         on_progress=lambda m: print(f"[src-etl] {m}", file=sys.stderr),
     )
     total = sum(len(v) for v in dados.values())

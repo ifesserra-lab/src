@@ -17,7 +17,8 @@ from typing import Iterable
 import httpx
 
 from .detail import USER_AGENT, fetch_detalhe
-from .models import Acao
+from .gerenciar import coletar_participacoes
+from .models import Acao, AcaoParticipacoes
 from .scraper import coletar_campus, listar_campi
 
 CampusArg = str | Iterable[str] | None
@@ -111,6 +112,42 @@ def salvar_por_campus(dados: dict[str, list[Acao]], out_dir: str | Path) -> Path
     for campus, acoes in dados.items():
         salvar_json_por_acao(acoes, base / _slug(campus))
     return base
+
+
+def processos_de_index(index_path: str | Path) -> list[str]:
+    """Extrai os números de processo de um _index.json gerado pela etapa pública."""
+    dados = json.loads(Path(index_path).read_text(encoding="utf-8"))
+    vistos, out = set(), []
+    for item in dados:
+        proc = item.get("processo")
+        if proc and proc not in vistos:
+            vistos.add(proc)
+            out.append(proc)
+    return out
+
+
+def run_participacoes(
+    processos: list[str],
+    out_dir: str | Path = "data",
+    *,
+    user: str | None = None,
+    senha: str | None = None,
+    headless: bool = True,
+    on_progress=None,
+) -> dict[str, AcaoParticipacoes]:
+    """Coleta participações (público-alvo + equipe) e salva 1 JSON por processo."""
+    import asyncio
+
+    dados = asyncio.run(
+        coletar_participacoes(processos, user=user, senha=senha,
+                              headless=headless, on_progress=on_progress)
+    )
+    out = Path(out_dir)
+    out.mkdir(parents=True, exist_ok=True)
+    for proc, ap in dados.items():
+        nome = "participacoes_" + proc.replace("/", "-") + ".json"
+        (out / nome).write_text(ap.model_dump_json(indent=2), encoding="utf-8")
+    return dados
 
 
 def run(

@@ -40,6 +40,49 @@ src-etl --campus Serra --max 5 --out data
 
 Saída: `data/<campus>/acao_<id>.json` + `data/<campus>/_index.json`.
 
+### Participações (autenticado) — alunos atendidos + equipe executora
+
+Após baixar as ações, esta etapa entra em **Gerenciar → Ações**, pesquisa pelo
+**número do processo** e, para cada atividade, coleta o **público-alvo (alunos
+atendidos)** e a **equipe de execução**, gerando **um JSON por processo**.
+
+Exige login. Coloque as credenciais no `.env` (já ignorado pelo git):
+
+```
+USER=seu_usuario
+PASSWORD=sua_senha
+```
+
+```bash
+# processos explícitos
+src-etl-part --processo 23158.002622/2025-41 --out data/participacoes
+
+# reaproveitando o índice da etapa pública (todos os processos daquele campus)
+src-etl-part --from-index data/serra/_index.json --out data/participacoes
+```
+
+Saída: `data/participacoes/participacoes_<processo>.json`, no formato:
+
+```json
+{
+  "processo": "23158.002622/2025-41",
+  "total_atividades": 10,
+  "total_publico_alvo": 79,
+  "total_equipe": 25,
+  "atividades": [
+    {
+      "num": "002", "atividade": "...", "atividade_id": "22066",
+      "publico_alvo": [ {"Nome": "...", "CPF": "...", "E-mail": "...", "Situação": "..."} ],
+      "equipe_execucao": [ {"Nome": "...", "Função": "...", "Vínculo": "..."} ]
+    }
+  ]
+}
+```
+
+> ⚠️ **Dados pessoais**: esta etapa coleta nome, CPF e e-mail de alunos.
+> O resultado fica **apenas local** (`data/` está no `.gitignore`) — nunca
+> commite nem publique. Use somente com acesso autorizado ao sistema.
+
 ## Uso — API
 
 ```python
@@ -51,6 +94,11 @@ dados = run("Serra", out_dir="data", max_acoes=5)   # {campus: [Acao, ...]}
 # conjunto ou todos
 run(["Serra", "Vitória"], out_dir="data")
 run(None, out_dir="data")           # None = todos os campi
+
+# etapa autenticada: participações por processo (1 JSON por processo)
+from src_etl import run_participacoes, processos_de_index
+run_participacoes(["23158.002622/2025-41"], out_dir="data/participacoes")
+run_participacoes(processos_de_index("data/serra/_index.json"), out_dir="data/participacoes")
 ```
 
 O parâmetro **campus** aceita: `None` (todos), `"Serra"` (um) ou

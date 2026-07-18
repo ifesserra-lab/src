@@ -37,3 +37,28 @@ class Acao(BaseModel):
     def from_labels(cls, acao_id: str, campos: dict[str, str], **extra) -> "Acao":
         """Cria a partir do dict rótulo->valor extraído do panelGrid."""
         return cls(acao_id=acao_id, **{**campos, **extra})
+
+
+class AtividadeParticipacoes(BaseModel):
+    """Uma atividade da ação, com público-alvo (alunos atendidos) e equipe.
+
+    Cada pessoa é um dict rótulo->valor (colunas da tabela), preservando os
+    campos como aparecem no sistema (Nome, CPF, E-mail, Situação, ...).
+    """
+
+    num: str | None = None
+    atividade: str | None = None
+    atividade_id: str | None = None
+    tipo: str | None = None
+    publico_alvo: list[dict[str, str]] = Field(default_factory=list)
+    equipe_execucao: list[dict[str, str]] = Field(default_factory=list)
+
+
+class AcaoParticipacoes(BaseModel):
+    """Participações de uma ação (por processo), agregando suas atividades."""
+
+    processo: str
+    total_atividades: int = 0
+    total_publico_alvo: int = 0
+    total_equipe: int = 0
+    atividades: list[AtividadeParticipacoes] = Field(default_factory=list)

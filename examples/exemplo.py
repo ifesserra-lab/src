@@ -76,9 +76,24 @@ def exemplo_async() -> None:
         print(f"    {a.acao_id} | {a.tipo} | {a.coordenador} | {a.titulo}")
 
 
+# ---------------------------------------------------------------------------
+# 6) Participações (autenticado): alunos atendidos + equipe executora
+#    Requer .env com USER / PASSWORD. Gera 1 JSON por processo.
+# ---------------------------------------------------------------------------
+def exemplo_participacoes() -> None:
+    from src_etl import run_participacoes
+    print("\n[6] Participações do processo SOF -> ./saida/participacoes")
+    dados = run_participacoes(
+        ["23158.002622/2025-41"], out_dir="saida/participacoes", on_progress=log
+    )
+    for proc, ap in dados.items():
+        print(f"    {proc}: {ap.total_publico_alvo} alunos | {ap.total_equipe} equipe")
+
+
 if __name__ == "__main__":
     exemplo_listar_campi()
     exemplo_um_campus()
     exemplo_async()
-    # exemplo_conjunto()   # descomente para testar conjunto
-    # exemplo_todos()      # descomente para baixar TODOS (demorado)
+    # exemplo_conjunto()      # descomente para testar conjunto
+    # exemplo_todos()         # descomente para baixar TODOS (demorado)
+    # exemplo_participacoes() # descomente (requer login no .env)

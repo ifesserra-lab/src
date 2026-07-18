@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "src-etl"
-version = "0.8.0"
+version = "0.9.0"
 description = "ETL das ações públicas do SRC/Ifes (Sistema de Registro e Emissão de Certificados) com Playwright + httpx."
 readme = "README.md"
 requires-python = ">=3.10"
@@ -32,6 +32,7 @@ src-etl-part = "src_etl.cli_part:main"
 src-etl-report = "src_etl.relatorio:_cli"
 src-etl-enrich = "src_etl.enriquecer:_cli"
 src-etl-consolidate = "src_etl.consolidar:_cli"
+src-etl-indicadores = "src_etl.indicadores:_cli"
 
 [project.urls]
 Homepage = "https://github.com/ifesserra-lab/SRC_ETL"

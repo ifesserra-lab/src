@@ -47,21 +47,26 @@ def coletar_extensionistas(consolidado: dict) -> list[dict]:
         k = _norm(nome)
         if k not in pessoas:
             pessoas[k] = {"nome": nome.strip(), "coordena": [], "participa": [],
-                          "funcoes": set(), "anos": set()}
+                          "atividades": [], "funcoes": set(), "anos": set()}
         return pessoas[k]
 
     for a in consolidado.get("acoes", []):
         if "extens" not in _norm(a.get("Natureza")):
             continue
+        # pessoas impactadas = público-alvo DISTINTO da ação (CPF é só p/ deduplicar)
+        pub = len({(part.get("CPF") or part.get("Nome"))
+                   for part in a.get("participacoes", [])
+                   if (part.get("tipo") or "").startswith("Públic")})
         ref = {"acao_id": a.get("acao_id"), "titulo": a.get("Título ação") or "—",
                "tipo": a.get("Tipo ação") or "—", "ano": (a.get("Data de cadastro") or "")[-4:],
-               "n": a.get("total_participacoes", 0)}
+               "n": a.get("total_participacoes", 0), "pub": pub}
         coord = (a.get("Coordenador(a)") or "").strip()
         if coord:
             p = _pega(coord)
             p["coordena"].append(ref)
             p["anos"].add(ref["ano"])
         vistos_nesta_acao: dict[str, set] = defaultdict(set)
+        ativ_nesta_acao: dict[str, set] = defaultdict(set)   # nome -> {atividade_id} realmente atuadas
         for part in a.get("participacoes", []):
             if part.get("tipo", "").startswith("Público"):
                 continue
@@ -69,11 +74,16 @@ def coletar_extensionistas(consolidado: dict) -> list[dict]:
             if not nome:
                 continue
             vistos_nesta_acao[nome].add((part.get("Função") or "—").strip())
+            aid = part.get("atividade_id")
+            if aid:
+                ativ_nesta_acao[nome].add(str(aid))
         for nome, funcoes in vistos_nesta_acao.items():
             p = _pega(nome)
             p["participa"].append({**ref, "funcoes": sorted(funcoes)})
             p["funcoes"] |= funcoes
             p["anos"].add(ref["ano"])
+            for aid in ativ_nesta_acao[nome]:
+                p["atividades"].append({"ano": ref["ano"], "atividade_id": aid})
 
     out = []
     slugs: dict[str, int] = {}  # noqa: reaproveitado abaixo como contador de slug

@@ -200,8 +200,13 @@ async def coletar_participacoes(
     senha: str | None = None,
     headless: bool = True,
     on_progress=None,
+    on_processo=None,
 ) -> dict[str, AcaoParticipacoes]:
-    """Login e coleta participações de vários processos (sessão única)."""
+    """Login e coleta participações de vários processos (sessão única).
+
+    on_processo(AcaoParticipacoes): callback chamado ao concluir cada processo
+    (permite salvar incrementalmente e não perder progresso em jobs longos).
+    """
     log = on_progress or (lambda _m: None)
     if not user or not senha:
         user, senha = carregar_credenciais()
@@ -214,7 +219,10 @@ async def coletar_participacoes(
         log("login OK")
         for proc in processos:
             try:
-                resultado[proc] = await _coletar_processo(page, proc, user, senha, log)
+                ap = await _coletar_processo(page, proc, user, senha, log)
+                resultado[proc] = ap
+                if on_processo:
+                    on_processo(ap)   # salva já, protege progresso
             except Exception as e:
                 log(f"[{proc}] ERRO: {e}")
         # logout best-effort

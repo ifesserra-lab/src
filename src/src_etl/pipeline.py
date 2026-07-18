@@ -138,15 +138,25 @@ def run_participacoes(
     """Coleta participações (público-alvo + equipe) e salva 1 JSON por processo."""
     import asyncio
 
-    dados = asyncio.run(
-        coletar_participacoes(processos, user=user, senha=senha,
-                              headless=headless, on_progress=on_progress)
-    )
     out = Path(out_dir)
     out.mkdir(parents=True, exist_ok=True)
-    for proc, ap in dados.items():
-        nome = "participacoes_" + proc.replace("/", "-") + ".json"
-        (out / nome).write_text(ap.model_dump_json(indent=2), encoding="utf-8")
+
+    def _arquivo(proc: str) -> Path:
+        return out / ("participacoes_" + proc.replace("/", "-") + ".json")
+
+    # resume: pula processos já salvos
+    pendentes = [p for p in processos if not _arquivo(p).exists()]
+    if len(pendentes) < len(processos) and on_progress:
+        on_progress(f"resume: {len(processos)-len(pendentes)} já salvos, "
+                    f"{len(pendentes)} pendentes")
+
+    def salvar(ap: AcaoParticipacoes) -> None:  # save incremental
+        _arquivo(ap.processo).write_text(ap.model_dump_json(indent=2), encoding="utf-8")
+
+    dados = asyncio.run(
+        coletar_participacoes(pendentes, user=user, senha=senha, headless=headless,
+                              on_progress=on_progress, on_processo=salvar)
+    )
     return dados
 
 

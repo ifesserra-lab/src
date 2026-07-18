@@ -19,7 +19,7 @@ from collections import Counter
 from html import escape
 from pathlib import Path
 
-from .painel import HORIZON_CSS
+from .painel import HORIZON_CSS, montar_shell
 
 _EXTRA_CSS = """
 .topnav{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0 6px}
@@ -45,22 +45,14 @@ font-size:.75rem;color:var(--muted);white-space:nowrap}
 """
 
 
-def _doc(titulo: str, corpo: str) -> str:
+def _doc(titulo_tab: str, base: str, ativo: str, crumb: str,
+         titulo: str, sub: str, conteudo: str) -> str:
+    """Documento completo no layout Horizon (sidebar + breadcrumb + conteúdo)."""
+    shell = montar_shell(base, ativo, crumb, titulo, sub, conteudo)
     return (f"<!doctype html><html lang='pt-br'><head><meta charset='utf-8'>"
             f"<meta name='viewport' content='width=device-width,initial-scale=1'>"
-            f"<title>{escape(titulo)}</title><style>{HORIZON_CSS}{_EXTRA_CSS}</style></head>"
-            f"<body><div class='wrap'>{corpo}</div></body></html>")
-
-
-def _nav(base: str, ativo: str) -> str:
-    itens = [("index.html", "Painel"), ("acoes/index.html", "Ações"),
-             ("busca.html", "Buscar coordenador"),
-             ("sem-participacao.html", "Sem participações"),
-             ("pendencias-relatorio.html", "Pendências de relatório")]
-    links = "".join(
-        f'<a href="{base}{href}" class="{"on" if href == ativo else ""}">{escape(rotulo)}</a>'
-        for href, rotulo in itens)
-    return f'<div class="topnav">{links}</div>'
+            f"<title>{escape(titulo_tab)}</title><style>{HORIZON_CSS}{_EXTRA_CSS}</style></head>"
+            f"<body>{shell}</body></html>")
 
 
 def _tile(valor, rotulo, sub="") -> str:
@@ -126,13 +118,14 @@ def _pagina_acao(a: dict) -> str:
              f'{_tile(pub_total, "Alunos atendidos", "participações de público")}'
              f'{_tile(len(equipe), "Pessoas na equipe")}</div>')
 
-    corpo = (f"{_nav('../', '')}<header><h1>{escape(a.get('Título ação') or 'Ação')}</h1>"
-             f"<p class='sub'>Ação do SRC/Ifes — Campus {escape(a.get('Campus') or a.get('campus') or '')}</p></header>"
-             f"{meta}{resumo}{tiles}{tabela_ativ}{tabela_eq}"
-             f"<div class='pii'>Público-alvo é mostrado apenas como contagem — nomes, CPF e "
-             f"e-mail de alunos atendidos não são publicados. A equipe de execução é listada "
-             f"como crédito público (sem dados pessoais).</div>")
-    return _doc(a.get("Título ação") or "Ação", corpo)
+    conteudo = (f"{meta}{resumo}{tiles}{tabela_ativ}{tabela_eq}"
+                f"<div class='pii'>Público-alvo é mostrado apenas como contagem — nomes, CPF e "
+                f"e-mail de alunos atendidos não são publicados. A equipe de execução é listada "
+                f"como crédito público (sem dados pessoais).</div>")
+    return _doc(a.get("Título ação") or "Ação", "../", "", "Ação",
+                a.get("Título ação") or "Ação",
+                f"Ação do SRC/Ifes — Campus {a.get('Campus') or a.get('campus') or ''}",
+                conteudo)
 
 
 # ------------------------------------------------------------- página geral
@@ -168,46 +161,62 @@ def _pagina_geral(cons: dict) -> str:
               f'<tr><th>Ação</th><th>Tipo</th><th>Coordenador(a)</th>'
               f'<th>Participações</th><th>Ano</th></tr>{rows}</table></div>')
 
-    corpo = (f"{_nav('../', 'acoes/index.html')}<header><h1>O que foi feito — Campus Serra</h1>"
-             f"<p class='sub'>Resumo geral das ações de extensão e ensino registradas no SRC</p></header>"
-             f"{tiles}{tabela}")
-    return _doc("Ações — Campus Serra", corpo)
+    return _doc("Ações — Campus Serra", "../", "acoes/index.html", "Ações",
+                "O que foi feito — Campus Serra",
+                "Resumo geral das ações de extensão e ensino registradas no SRC",
+                f"{tiles}{tabela}")
 
 
 # ------------------------------------------------------------- busca
 def _pagina_busca(cons: dict) -> str:
-    idx: dict[str, list] = {}
+    """Busca por palavras-chave: título, resumo, coordenador, tipo, natureza, áreas."""
+    idx = []
     for a in cons["acoes"]:
-        c = (a.get("Coordenador(a)") or "—").strip() or "—"
-        idx.setdefault(c, []).append({
-            "t": (a.get("Título ação") or "—")[:80], "id": a.get("acao_id"),
+        area = (a.get("Área temática principal") or a.get("Área temática principal (inferida)") or "")
+        ga = (a.get("Grande área conhecimento") or a.get("Grande área conhecimento (inferida)") or "")
+        idx.append({
+            "id": a.get("acao_id"),
+            "t": (a.get("Título ação") or "—")[:90],
+            "c": (a.get("Coordenador(a)") or "—").strip(),
+            "tp": a.get("Tipo ação") or "—",
+            "ano": (a.get("Data de cadastro") or "")[-4:],
             "n": a.get("total_participacoes", 0),
-            "ano": (a.get("Data de cadastro") or "")[-4:]})
+            # blob de busca: tudo que pode ser palavra-chave
+            "b": " ".join([
+                a.get("Título ação") or "", a.get("Coordenador(a)") or "",
+                a.get("Tipo ação") or "", a.get("Natureza") or "",
+                area, ga, a.get("Fomento") or "", a.get("Processo nº") or "",
+                (a.get("Resumo") or "")[:400]]),
+        })
     dados = json.dumps(idx, ensure_ascii=False)
     script = """
 <script>
 const IDX = __DADOS__;
+const norm = s => s.normalize('NFD').replace(/[\\u0300-\\u036f]/g,'').toLowerCase();
+IDX.forEach(a => a.nb = norm(a.b));
 const inp = document.getElementById('q'), out = document.getElementById('res');
 function render(q){
-  q = q.trim().toLowerCase(); out.innerHTML='';
-  if(q.length<2){out.innerHTML='<p class="vazio">Digite ao menos 2 letras do nome.</p>';return;}
-  const nomes = Object.keys(IDX).filter(n=>n.toLowerCase().includes(q)).sort();
-  if(!nomes.length){out.innerHTML='<p class="vazio">Nenhum coordenador(a) encontrado.</p>';return;}
-  for(const n of nomes){
-    const acs = IDX[n];
-    let h = `<div class="card" style="margin-top:14px"><h2>${n} <span class="badge">${acs.length} ação(ões)</span></h2><table class="tb">`;
-    for(const a of acs.sort((x,y)=>y.n-x.n))
-      h += `<tr><td><a class="lk" href="acoes/${a.id}.html">${a.t}</a></td><td>${a.ano}</td><td>${a.n} participações</td></tr>`;
-    out.innerHTML += h + '</table></div>';
-  }
+  out.innerHTML='';
+  const termos = norm(q.trim()).split(/\\s+/).filter(t=>t.length>=2);
+  if(!termos.length){out.innerHTML='<p class="vazio">Digite palavras-chave: tema (robótica, inglês, saúde), coordenador(a), tipo (curso, evento), fomento, ano...</p>';return;}
+  const hits = IDX.filter(a => termos.every(t => a.nb.includes(t)))
+                  .sort((x,y)=>y.n-x.n);
+  if(!hits.length){out.innerHTML='<p class="vazio">Nada encontrado para esses termos. Tente palavras mais gerais.</p>';return;}
+  let h = `<div class="card" style="margin-top:14px"><p class="sec-desc">${hits.length} ação(ões) encontrada(s)</p><table class="tb"><tr><th>Ação</th><th>Coordenador(a)</th><th>Tipo</th><th>Ano</th><th>Participações</th></tr>`;
+  for(const a of hits)
+    h += `<tr><td><a class="lk" href="acoes/${a.id}.html">${a.t}</a></td><td>${a.c}</td><td>${a.tp}</td><td>${a.ano}</td><td>${a.n}</td></tr>`;
+  out.innerHTML = h + '</table></div>';
 }
 inp.addEventListener('input', e=>render(e.target.value)); render('');
 </script>""".replace("__DADOS__", dados)
-    corpo = (f"{_nav('', 'busca.html')}<header><h1>Buscar coordenador(a)</h1>"
-             f"<p class='sub'>Digite o nome para ver os projetos/ações e abrir a página de cada um</p></header>"
-             f'<input class="busca" id="q" type="search" placeholder="Ex.: Emmanuel, Klauck, Moisés...">'
-             f'<div id="res"></div>{script}')
-    return _doc("Buscar coordenador — Campus Serra", corpo)
+    conteudo = (f'<input class="busca" id="q" type="search" '
+                f'placeholder="Ex.: robótica, inglês, curso 2024, Emmanuel, FAPES...">'
+                f'<div id="res"></div>{script}')
+    return _doc("Buscar — Campus Serra", "", "busca.html", "Buscar",
+                "Buscar ações e coordenadores",
+                "Busca por palavras-chave em título, resumo, coordenador(a), tipo, "
+                "natureza, área temática, fomento e processo — combine termos livremente",
+                conteudo)
 
 
 # ------------------------------------------------------------- listas de gestão
@@ -236,11 +245,11 @@ def _pagina_sem_participacao(cons: dict) -> str:
                           "coordenador": (a.get("Coordenador(a)") or "—").strip(),
                           "ano": (a.get("Data de cadastro") or "")[-4:]})
     itens.sort(key=lambda x: (x["coordenador"], x["ano"]))
-    corpo = (f"{_nav('', 'sem-participacao.html')}<header><h1>Ações sem participações ({len(itens)})</h1>"
-             f"<p class='sub'>Ações sem nenhum público-alvo nem equipe registrados no SRC — "
-             f"pendência de registro a regularizar com o(a) coordenador(a)</p></header>"
-             f"{_tabela_acoes(itens)}")
-    return _doc("Ações sem participações — Campus Serra", corpo)
+    return _doc("Ações sem participações — Campus Serra", "", "sem-participacao.html",
+                "Sem participações", f"Ações sem participações ({len(itens)})",
+                "Ações sem nenhum público-alvo nem equipe registrados no SRC — "
+                "pendência de registro a regularizar com o(a) coordenador(a)",
+                _tabela_acoes(itens))
 
 
 def _pagina_pendencias(cons: dict) -> str:
@@ -258,12 +267,11 @@ def _pagina_pendencias(cons: dict) -> str:
     cont = Counter(i["coordenador"] for i in itens)
     top = "".join(f'<span class="badge" style="margin:3px">{escape(n)}: {q}</span>'
                   for n, q in cont.most_common(12))
-    corpo = (f"{_nav('', 'pendencias-relatorio.html')}<header><h1>Pendências de relatório ({len(itens)})</h1>"
-             f"<p class='sub'>Ações sem relatório final aprovado no SRC (inclui ações em andamento) — "
-             f"com o(a) coordenador(a) responsável</p></header>"
-             f'<div class="card">{top}</div>'
-             f"{_tabela_acoes(itens, ('Últ. relatório', 'ultimo'))}")
-    return _doc("Pendências de relatório — Campus Serra", corpo)
+    return _doc("Pendências de relatório — Campus Serra", "", "pendencias-relatorio.html",
+                "Pendências", f"Pendências de relatório ({len(itens)})",
+                "Ações sem relatório final aprovado no SRC (inclui ações em andamento) — "
+                "com o(a) coordenador(a) responsável",
+                f'<div class="card">{top}</div>{_tabela_acoes(itens, ("Últ. relatório", "ultimo"))}')
 
 
 # ------------------------------------------------------------- orquestração

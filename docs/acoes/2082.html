@@ -23,7 +23,41 @@
 *{box-sizing:border-box}
 body{margin:0;background:var(--plane);color:var(--text-primary);
 font-family:"DM Sans",system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.45}
-.wrap{max-width:1040px;margin:0 auto;padding:32px 20px 64px}
+/* ---- app shell (Horizon): sidebar + conteúdo ---- */
+.shell{display:flex;min-height:100vh}
+.sidebar{width:260px;flex:none;background:var(--surface-1);border-right:1px solid var(--border);
+padding:28px 20px;position:sticky;top:0;height:100vh;overflow-y:auto;display:flex;flex-direction:column}
+.brand{font-weight:800;font-size:1.15rem;letter-spacing:-.02em;padding:0 8px 20px;
+border-bottom:1px solid var(--grid);margin-bottom:18px}
+.brand small{display:block;font-weight:600;font-size:.72rem;color:var(--muted);
+text-transform:uppercase;letter-spacing:.08em;margin-top:3px}
+.snav{display:flex;flex-direction:column;gap:4px}
+.snav a{display:flex;align-items:center;gap:12px;padding:11px 12px;border-radius:12px;
+text-decoration:none;color:var(--text-secondary);font-weight:600;font-size:.9rem;position:relative}
+.snav a svg{width:18px;height:18px;flex:none;stroke:currentColor;fill:none;stroke-width:2;
+stroke-linecap:round;stroke-linejoin:round}
+.snav a:hover{color:var(--text-primary)}
+.snav a.on{color:var(--text-primary)}
+.snav a.on::after{content:'';position:absolute;right:-20px;top:8px;bottom:8px;width:4px;
+border-radius:4px;background:var(--series-1)}
+.snav a.on svg{stroke:var(--series-1)}
+.sfoot{margin-top:auto;padding:16px 8px 0;color:var(--muted);font-size:.72rem}
+.main{flex:1;min-width:0}
+.wrap{max-width:1080px;margin:0 auto;padding:28px 26px 64px}
+.crumb{color:var(--text-secondary);font-size:.8rem;margin:0 0 2px}
+.crumb b{color:var(--text-primary)}
+@media (max-width:900px){
+  .shell{flex-direction:column}
+  .sidebar{width:100%;height:auto;position:static;padding:14px 16px;border-right:0;
+  border-bottom:1px solid var(--border)}
+  .brand{border:0;padding:0 0 10px;margin:0}
+  .snav{flex-direction:row;overflow-x:auto;gap:6px}
+  .snav a{white-space:nowrap;padding:9px 12px}
+  .snav a.on{background:var(--series-1);color:#fff}
+  .snav a.on::after{display:none}
+  .snav a.on svg{stroke:#fff}
+  .sfoot{display:none}
+}
 header h1{margin:0 0 4px;font-size:1.7rem;letter-spacing:-.02em}
 header .sub{color:var(--text-secondary);margin:0 0 8px}
 .tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:16px;margin:20px 0 8px}
@@ -105,11 +139,21 @@ background:var(--surface-1);color:var(--text-primary);font-size:1rem;box-shadow:
 input.busca:focus{border-color:var(--series-1)}
 .badge{display:inline-block;border:1px solid var(--border);border-radius:20px;padding:1px 10px;
 font-size:.75rem;color:var(--muted);white-space:nowrap}
-</style></head><body><div class='wrap'><div class="topnav"><a href="../index.html" class="">Painel</a><a href="../acoes/index.html" class="">Ações</a><a href="../busca.html" class="">Buscar coordenador</a><a href="../sem-participacao.html" class="">Sem participações</a><a href="../pendencias-relatorio.html" class="">Pendências de relatório</a></div><header><h1>Mulheres na Ciência</h1><p class='sub'>Ação do SRC/Ifes — Campus Serra</p></header><div class="meta">
+</style></head><body><div class="shell">
+<aside class="sidebar">
+  <div class="brand">SRC · Campus Serra<small>Extensão &amp; Ensino — Ifes</small></div>
+  <nav class="snav"><a href="../index.html" class=""><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg><span>Painel</span></a><a href="../acoes/index.html" class=""><svg viewBox="0 0 24 24"><path d="M12 2 2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg><span>Ações</span></a><a href="../busca.html" class=""><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg><span>Buscar</span></a><a href="../sem-participacao.html" class=""><svg viewBox="0 0 24 24"><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg><span>Sem participações</span></a><a href="../pendencias-relatorio.html" class=""><svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M9 15h6"/><path d="M9 11h3"/></svg><span>Pendências</span></a></nav>
+  <div class="sfoot">Dados: SRC/Ifes · agregados<br>Gerado por src-etl</div>
+</aside>
+<div class="main"><div class="wrap">
+<p class="crumb">Páginas / <b>Ação</b></p>
+<header><h1>Mulheres na Ciência</h1><p class="sub">Ação do SRC/Ifes — Campus Serra</p></header>
+<div class="meta">
 <div><b>Processo</b>23158.001039/2018-93</div>
 <div><b>Coordenador(a)</b>Giordana dos Santos Sperandio</div>
 <div><b>Natureza / Tipo</b>Extensão · Curso</div>
 <div><b>Fomento</b>SEM VÍNCULO</div>
 <div><b>Cadastro</b>01/11/2018</div>
 <div><b>Relatório aprovado</b>Sim</div>
-</div><div class="resumo">O objetivo deste curso é promover, à jovens mulheres, uma visão do mundo tecnológico e científico, possibilitando a participação plena das mulheres, rompendo com barreiras e injustiças históricas no mundo científico bem como fomentar o empoderamento feminino. Intencionando ampliar suas condições e perspectivas de vida, este curso contará com a participação de 18 alunas de 2 escolas públicas estaduais parceiras, localizadas no município de Serra, para oportunizar estudos de programação na linguagem Python, aprendizado da língua inglesa com utilização do software Wolfram Mathematica. No dia 8 de março de 2017, a diretora executiva da Onu Mulheres Phumzile Mlambo- Ngcuka fez um discurso sobre a igualdade de gênero, e na oportunidade disse “Queremos construir para as mulheres um mundo do trabalho diferente. Conforme as meninas cresçam, elas devem ser expostas a um vasto leque de carreiras e encorajadas a fazer escolhas que as levem além dos serviços tradicionais e de cuidado, para profissões na indústria, na arte, no serviço público, na agricultura modera e na ciência”.</div><div class="tiles"><div class="tile"><div class="tile-val">4</div><div class="tile-lbl">Atividades</div></div><div class="tile"><div class="tile-val">28</div><div class="tile-lbl">Alunos atendidos</div><div class="tile-sub">participações de público</div></div><div class="tile"><div class="tile-val">18</div><div class="tile-lbl">Pessoas na equipe</div></div></div><div class="card" style="margin-top:14px"><table class="tb"><tr><th>Nº</th><th>Atividade</th><th>Público</th><th>Aprovados</th><th>Certificados</th><th>Equipe</th></tr><tr><td>001</td><td>Mulheres na Ciência</td><td>11</td><td>10</td><td>10</td><td>6</td></tr><tr><td>002</td><td>Mulheres na Ciência</td><td>17</td><td>9</td><td>9</td><td>17</td></tr><tr><td>003</td><td>Mulheres na Ciência</td><td>0</td><td>0</td><td>0</td><td>1</td></tr><tr><td>004</td><td>Palestra &quot;Uma introdução à Robótica de Reabilitação e Robótica Vestível (Wearables Robotic</td><td>0</td><td>0</td><td>0</td><td>1</td></tr></table></div><div class="card" style="margin-top:14px"><table class="tb"><tr><th>Equipe de execução</th><th>Função(ões)</th></tr><tr><td>Adriana Padua Lovatte</td><td>PROFESSOR(A)</td></tr><tr><td>Alessandra Aguiar Vilarinho</td><td>COORDENADOR(A) ADJUNTO(A), PROFESSOR(A)</td></tr><tr><td>Ana Paula Klauck</td><td>PROFESSOR(A)</td></tr><tr><td>Ana Rúbia Ramos Vicente</td><td>MONITOR(A)</td></tr><tr><td>Bruno Ramos Gonzaga</td><td>PROFESSOR(A)</td></tr><tr><td>Emmanuel Marques Silva</td><td>PALESTRANTE</td></tr><tr><td>Ernani Leite Ribeiro Filho</td><td>PROFESSOR(A)</td></tr><tr><td>Fidelis Zanetti de Castro</td><td>PROFESSOR(A)</td></tr><tr><td>Giordana dos Santos Sperandio</td><td>COORDENADOR(A), PROFESSOR(A)</td></tr><tr><td>Graziela Barboza Guaitolini Ramos</td><td>PROFESSOR(A)</td></tr><tr><td>Josué Rego da Silva</td><td>PALESTRANTE</td></tr><tr><td>Maria Gabriela Siqueira Tavares</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Nauvia Maria Cancelieri</td><td>PALESTRANTE</td></tr><tr><td>Richard Junior Manuel Godinez Tello</td><td>PALESTRANTE</td></tr><tr><td>Sarah Silva Ferreira</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Tatiane Policário Chagas</td><td>PROFESSOR(A)</td></tr><tr><td>Wagner Scopel Falcão</td><td>PALESTRANTE</td></tr><tr><td>Éllen Oliveira Silva Neves</td><td>ALUNO(A) VOLUNTARIO</td></tr></table></div><div class='pii'>Público-alvo é mostrado apenas como contagem — nomes, CPF e e-mail de alunos atendidos não são publicados. A equipe de execução é listada como crédito público (sem dados pessoais).</div></div></body></html>
+</div><div class="resumo">O objetivo deste curso é promover, à jovens mulheres, uma visão do mundo tecnológico e científico, possibilitando a participação plena das mulheres, rompendo com barreiras e injustiças históricas no mundo científico bem como fomentar o empoderamento feminino. Intencionando ampliar suas condições e perspectivas de vida, este curso contará com a participação de 18 alunas de 2 escolas públicas estaduais parceiras, localizadas no município de Serra, para oportunizar estudos de programação na linguagem Python, aprendizado da língua inglesa com utilização do software Wolfram Mathematica. No dia 8 de março de 2017, a diretora executiva da Onu Mulheres Phumzile Mlambo- Ngcuka fez um discurso sobre a igualdade de gênero, e na oportunidade disse “Queremos construir para as mulheres um mundo do trabalho diferente. Conforme as meninas cresçam, elas devem ser expostas a um vasto leque de carreiras e encorajadas a fazer escolhas que as levem além dos serviços tradicionais e de cuidado, para profissões na indústria, na arte, no serviço público, na agricultura modera e na ciência”.</div><div class="tiles"><div class="tile"><div class="tile-val">4</div><div class="tile-lbl">Atividades</div></div><div class="tile"><div class="tile-val">28</div><div class="tile-lbl">Alunos atendidos</div><div class="tile-sub">participações de público</div></div><div class="tile"><div class="tile-val">18</div><div class="tile-lbl">Pessoas na equipe</div></div></div><div class="card" style="margin-top:14px"><table class="tb"><tr><th>Nº</th><th>Atividade</th><th>Público</th><th>Aprovados</th><th>Certificados</th><th>Equipe</th></tr><tr><td>001</td><td>Mulheres na Ciência</td><td>11</td><td>10</td><td>10</td><td>6</td></tr><tr><td>002</td><td>Mulheres na Ciência</td><td>17</td><td>9</td><td>9</td><td>17</td></tr><tr><td>003</td><td>Mulheres na Ciência</td><td>0</td><td>0</td><td>0</td><td>1</td></tr><tr><td>004</td><td>Palestra &quot;Uma introdução à Robótica de Reabilitação e Robótica Vestível (Wearables Robotic</td><td>0</td><td>0</td><td>0</td><td>1</td></tr></table></div><div class="card" style="margin-top:14px"><table class="tb"><tr><th>Equipe de execução</th><th>Função(ões)</th></tr><tr><td>Adriana Padua Lovatte</td><td>PROFESSOR(A)</td></tr><tr><td>Alessandra Aguiar Vilarinho</td><td>COORDENADOR(A) ADJUNTO(A), PROFESSOR(A)</td></tr><tr><td>Ana Paula Klauck</td><td>PROFESSOR(A)</td></tr><tr><td>Ana Rúbia Ramos Vicente</td><td>MONITOR(A)</td></tr><tr><td>Bruno Ramos Gonzaga</td><td>PROFESSOR(A)</td></tr><tr><td>Emmanuel Marques Silva</td><td>PALESTRANTE</td></tr><tr><td>Ernani Leite Ribeiro Filho</td><td>PROFESSOR(A)</td></tr><tr><td>Fidelis Zanetti de Castro</td><td>PROFESSOR(A)</td></tr><tr><td>Giordana dos Santos Sperandio</td><td>COORDENADOR(A), PROFESSOR(A)</td></tr><tr><td>Graziela Barboza Guaitolini Ramos</td><td>PROFESSOR(A)</td></tr><tr><td>Josué Rego da Silva</td><td>PALESTRANTE</td></tr><tr><td>Maria Gabriela Siqueira Tavares</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Nauvia Maria Cancelieri</td><td>PALESTRANTE</td></tr><tr><td>Richard Junior Manuel Godinez Tello</td><td>PALESTRANTE</td></tr><tr><td>Sarah Silva Ferreira</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Tatiane Policário Chagas</td><td>PROFESSOR(A)</td></tr><tr><td>Wagner Scopel Falcão</td><td>PALESTRANTE</td></tr><tr><td>Éllen Oliveira Silva Neves</td><td>ALUNO(A) VOLUNTARIO</td></tr></table></div><div class='pii'>Público-alvo é mostrado apenas como contagem — nomes, CPF e e-mail de alunos atendidos não são publicados. A equipe de execução é listada como crédito público (sem dados pessoais).</div>
+</div></div></div></body></html>

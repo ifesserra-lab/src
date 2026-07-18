@@ -56,7 +56,41 @@ HORIZON_CSS = """
 *{box-sizing:border-box}
 body{margin:0;background:var(--plane);color:var(--text-primary);
 font-family:"DM Sans",system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.45}
-.wrap{max-width:1040px;margin:0 auto;padding:32px 20px 64px}
+/* ---- app shell (Horizon): sidebar + conteúdo ---- */
+.shell{display:flex;min-height:100vh}
+.sidebar{width:260px;flex:none;background:var(--surface-1);border-right:1px solid var(--border);
+padding:28px 20px;position:sticky;top:0;height:100vh;overflow-y:auto;display:flex;flex-direction:column}
+.brand{font-weight:800;font-size:1.15rem;letter-spacing:-.02em;padding:0 8px 20px;
+border-bottom:1px solid var(--grid);margin-bottom:18px}
+.brand small{display:block;font-weight:600;font-size:.72rem;color:var(--muted);
+text-transform:uppercase;letter-spacing:.08em;margin-top:3px}
+.snav{display:flex;flex-direction:column;gap:4px}
+.snav a{display:flex;align-items:center;gap:12px;padding:11px 12px;border-radius:12px;
+text-decoration:none;color:var(--text-secondary);font-weight:600;font-size:.9rem;position:relative}
+.snav a svg{width:18px;height:18px;flex:none;stroke:currentColor;fill:none;stroke-width:2;
+stroke-linecap:round;stroke-linejoin:round}
+.snav a:hover{color:var(--text-primary)}
+.snav a.on{color:var(--text-primary)}
+.snav a.on::after{content:'';position:absolute;right:-20px;top:8px;bottom:8px;width:4px;
+border-radius:4px;background:var(--series-1)}
+.snav a.on svg{stroke:var(--series-1)}
+.sfoot{margin-top:auto;padding:16px 8px 0;color:var(--muted);font-size:.72rem}
+.main{flex:1;min-width:0}
+.wrap{max-width:1080px;margin:0 auto;padding:28px 26px 64px}
+.crumb{color:var(--text-secondary);font-size:.8rem;margin:0 0 2px}
+.crumb b{color:var(--text-primary)}
+@media (max-width:900px){
+  .shell{flex-direction:column}
+  .sidebar{width:100%;height:auto;position:static;padding:14px 16px;border-right:0;
+  border-bottom:1px solid var(--border)}
+  .brand{border:0;padding:0 0 10px;margin:0}
+  .snav{flex-direction:row;overflow-x:auto;gap:6px}
+  .snav a{white-space:nowrap;padding:9px 12px}
+  .snav a.on{background:var(--series-1);color:#fff}
+  .snav a.on::after{display:none}
+  .snav a.on svg{stroke:#fff}
+  .sfoot{display:none}
+}
 header h1{margin:0 0 4px;font-size:1.7rem;letter-spacing:-.02em}
 header .sub{color:var(--text-secondary);margin:0 0 8px}
 .tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:16px;margin:20px 0 8px}
@@ -120,6 +154,38 @@ box-shadow:var(--shadow);transition:all .15s}
 """
 
 
+_ICONES = {
+    "painel": '<svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>',
+    "acoes": '<svg viewBox="0 0 24 24"><path d="M12 2 2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>',
+    "busca": '<svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>',
+    "sem": '<svg viewBox="0 0 24 24"><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>',
+    "pend": '<svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M9 15h6"/><path d="M9 11h3"/></svg>',
+}
+
+_NAV_ITENS = [("index.html", "Painel", "painel"), ("acoes/index.html", "Ações", "acoes"),
+              ("busca.html", "Buscar", "busca"), ("sem-participacao.html", "Sem participações", "sem"),
+              ("pendencias-relatorio.html", "Pendências", "pend")]
+
+
+def montar_shell(base: str, ativo: str, crumb: str, titulo: str, sub: str, corpo: str) -> str:
+    """Layout Horizon: sidebar com brand/ícones + conteúdo com breadcrumb."""
+    links = "".join(
+        f'<a href="{base}{href}" class="{"on" if href == ativo else ""}">'
+        f'{_ICONES[ic]}<span>{escape(rotulo)}</span></a>'
+        for href, rotulo, ic in _NAV_ITENS)
+    return f"""<div class="shell">
+<aside class="sidebar">
+  <div class="brand">SRC · Campus Serra<small>Extensão &amp; Ensino — Ifes</small></div>
+  <nav class="snav">{links}</nav>
+  <div class="sfoot">Dados: SRC/Ifes · agregados<br>Gerado por src-etl</div>
+</aside>
+<div class="main"><div class="wrap">
+<p class="crumb">Páginas / <b>{escape(crumb)}</b></p>
+<header><h1>{escape(titulo)}</h1><p class="sub">{escape(sub)}</p></header>
+{corpo}
+</div></div></div>"""
+
+
 def gerar_painel(
     acoes_dir: str | Path = "data/serra",
     part_dir: str | Path = "data/participacoes",
@@ -150,17 +216,7 @@ def gerar_painel(
         relatorio._CAT = original
 
     banner = (f'<div class="nota">{escape(nota)}</div>' if nota else "")
-    topnav = ('<div class="topnav">'
-              '<a class="on" href="index.html">Painel</a>'
-              '<a href="acoes/index.html">Ações</a>'
-              '<a href="busca.html">Buscar coordenador</a>'
-              '<a href="sem-participacao.html">Sem participações</a>'
-              '<a href="pendencias-relatorio.html">Pendências de relatório</a></div>')
-    corpo = f"""<div class="wrap">
-<header><h1>{escape(titulo)}</h1>
-<p class="sub">Painel analítico — visão geral, indicadores e rede de colaboração</p></header>
-{topnav}
-{banner}
+    conteudo = f"""{banner}
 <div class="tabs">
   <input type="radio" name="tab" id="tab1" checked>
   <input type="radio" name="tab" id="tab2">
@@ -174,8 +230,10 @@ def gerar_painel(
 </div>
 <div class="pii">Painel <b>agregado</b>: sem nomes de alunos, CPF ou e-mail. Coordenadores(as)
 são dado público do sistema; membros de equipe entram só como elo, nunca exibidos.</div>
-<footer>Gerado por src-etl · {a_rel['n_acoes']} ações · {a_ind['alunos_unicos']} alunos únicos · {a_net['n_programas']} programas.</footer>
-</div>"""
+<footer>Gerado por src-etl · {a_rel['n_acoes']} ações · {a_ind['alunos_unicos']} alunos únicos · {a_net['n_programas']} programas.</footer>"""
+    corpo = montar_shell(
+        "", "index.html", "Painel", titulo,
+        "Painel analítico — visão geral, indicadores e rede de colaboração", conteudo)
 
     doc = (f"<!doctype html><html lang='pt-br'><head><meta charset='utf-8'>"
            f"<meta name='viewport' content='width=device-width,initial-scale=1'>"

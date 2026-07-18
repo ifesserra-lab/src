@@ -49,6 +49,8 @@ outline:none;font-family:inherit;transition:border-color .15s,box-shadow .15s;mi
 input.busca:focus{border-color:var(--series-1);
 box-shadow:0 0 0 3px color-mix(in srgb,var(--series-1) 20%,transparent)}
 input[type=search]:focus-visible{outline:2px solid var(--accent-focus);outline-offset:1px}
+.busca-intro{text-align:center;max-width:64ch;margin:22px auto 4px;
+color:var(--text-secondary);font-size:15px}
 .badge{display:inline-block;border:1px solid var(--grid);border-radius:6px;padding:3px 10px;
 font-size:11.5px;font-weight:500;color:var(--text-secondary);white-space:nowrap;
 background:var(--surface-1)}
@@ -466,7 +468,11 @@ document.querySelectorAll('.chips button').forEach(b=>b.addEventListener('click'
   q.dispatchEvent(new Event('input')); q.focus();
 }));
 </script>"""
+    intro = ("Busque nas 201 ações e nos extensionistas por palavras-chave — título, resumo, "
+             "coordenador(a), tipo, área temática, fomento, processo; veja iniciativas e "
+             "participações de cada pessoa")
     conteudo = (f'{_bloco_marketing(cons)}'
+                f'<p class="sub busca-intro">{escape(intro)}</p>'
                 f'<input class="busca" id="q" type="search" '
                 f'placeholder="Busque por tema, extensionista, tipo, fomento, ano..."'
                 f'><div class="chips">{chips}</div>'

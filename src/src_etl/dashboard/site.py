@@ -21,7 +21,7 @@ from pathlib import Path
 
 from .painel import HORIZON_CSS, montar_shell
 from .relatorio import _barras, _donut, _tile as _tiler, _secao
-from .jornada import agregar_jornada
+from .jornada import agregar_jornada, svg_curva_fase, svg_funil, svg_timeline
 
 _EXTRA_CSS = """
 table.tb{width:100%;border-collapse:collapse;font-size:13px}
@@ -51,6 +51,8 @@ box-shadow:0 0 0 3px color-mix(in srgb,var(--series-1) 20%,transparent)}
 .badge{display:inline-block;border:1px solid var(--grid);border-radius:6px;padding:3px 10px;
 font-size:11.5px;font-weight:500;color:var(--text-secondary);white-space:nowrap;
 background:var(--surface-1)}
+.tl-t{fill:var(--text-primary);font-size:14px;font-weight:600}
+.tl-s{fill:var(--muted);font-size:12px}
 """
 
 
@@ -427,18 +429,28 @@ def _pagina_jornada(cons: dict, formandos_dir: str) -> str:
         _tiler(a["apos_formar"], "Voltaram após formar", "vínculo de egresso"),
         "</div>"])
     secoes = [
+        _secao("Linha do tempo média", svg_timeline(a),
+               "Percurso típico do formado: do ingresso à formatura, com a 1ª extensão no meio.",
+               explica="Linha do tempo em escala pelas medianas: o ingresso (matrícula) na "
+               "esquerda, a formatura na direita (curso ~4 anos) e o ponto médio em que os "
+               "formados registram a primeira participação em extensão. O trecho colorido é o "
+               "tempo típico até o primeiro contato com a extensão."),
+        _secao("Funil da jornada", svg_funil(a),
+               "De todos os formados até os que seguem ativos após formar.",
+               explica="Afunilamento: quantos dos formados chegaram a participar de extensão e, "
+               "desses, quantos continuaram ativos como egressos (participação após a formatura). "
+               "Mede alcance e retenção de longo prazo da extensão junto aos formados."),
+        _secao("Quando, na trajetória do curso, acontece a 1ª extensão", svg_curva_fase(a),
+               "Densidade da primeira participação ao longo de 0% (ingresso) → 100% (formatura).",
+               explica="Distribui a primeira extensão pela posição relativa no curso (decis de "
+               "0% a 100% do período ingresso→formatura). Picos no começo indicam calouros "
+               "engajados; picos no fim indicam envolvimento tardio (ex.: TCC/estágio). Considera "
+               "só participações durante o curso — egressos entram no funil acima."),
         _secao("Quando o aluno entra na extensão (anos após ingresso)", _barras(a["dist_ing_ext"]),
                f'Duração mediana do curso (ingresso→formatura): {a["med_dur"]:.1f} anos.',
                explica="Para cada formado que fez extensão, quantos anos depois de INGRESSAR no "
                "curso (lido da matrícula) ele registra a primeira participação em ação de "
-               "Extensão. Concentração nos primeiros anos = engajamento precoce; cauda longa = "
-               "quem só se envolve perto de formar."),
-        _secao("Em que fase do curso faz extensão", _donut(a["fase"]),
-               "Momento da 1ª extensão relativo ao período ingresso→formatura.",
-               explica="Posição da primeira extensão dentro da trajetória do curso: início "
-               "(primeiro terço), meio, fim ou já como egresso (após a formatura registrada). "
-               "Revela se a extensão é porta de entrada, complemento ao longo do curso ou "
-               "atividade de conclusão — e quanto os egressos permanecem ativos."),
+               "Extensão. Distribuição bimodal (calouros vs. veteranos) aparece aqui."),
         _secao("Adesão à extensão por curso", _barras(a["por_curso"], unidade="%"),
                "% de formados de cada curso que participaram de Extensão."),
     ]

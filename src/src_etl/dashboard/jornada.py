@@ -19,6 +19,7 @@ import statistics
 import unicodedata
 from collections import Counter, defaultdict
 from datetime import datetime
+from html import escape
 from pathlib import Path
 
 _MAT = re.compile(r"^(\d{4})(\d)([A-Z]+)")
@@ -86,6 +87,7 @@ def agregar_jornada(consolidado: dict, formandos_dir: str | Path = "data/formand
     com_ext = 0
     ing_ext, ext_form, dur = [], [], []
     fase = Counter()
+    decis = [0] * 10             # posição da 1ª extensão na trajetória (0–100%)
     ing_ano = Counter()          # participações em extensão por ano de ingresso
     curso_tot, curso_ext = Counter(), Counter()
     apos_formar = 0
@@ -111,6 +113,8 @@ def agregar_jornada(consolidado: dict, formandos_dir: str | Path = "data/formand
             frac = (extd - ingd) / (formd - ingd)
             fase["No início (0–33%)" if frac < 0.33 else "No meio (33–66%)" if frac < 0.66
                  else "No fim (66–100%)" if frac <= 1.05 else "Após formar"] += 1
+            if 0 <= frac <= 1:
+                decis[min(9, int(frac * 10))] += 1
 
     def _dist_anos(vals):
         c = Counter(max(0, round(v)) for v in vals if v >= -0.5)
@@ -130,5 +134,81 @@ def agregar_jornada(consolidado: dict, formandos_dir: str | Path = "data/formand
         "apos_formar": apos_formar,
         "dist_ing_ext": _dist_anos(ing_ext),
         "fase": [(k, fase[k]) for k in ordem_fase if fase[k]],
+        "decis": decis,
         "por_curso": [(f"{c[:26]} ({e}/{n})", round(e / n * 100)) for c, e, n in por_curso if n],
     }
+
+
+def svg_timeline(a: dict) -> str:
+    """Linha do tempo média da jornada: Ingresso → 1ª extensão → Formatura."""
+    dur = a["med_dur"] or 4
+    p_ext = max(0.08, min(0.9, (a["med_ing_ext"] or 0) / dur))  # posição relativa
+    W, H, y = 900, 150, 78
+    x0, x1 = 70, W - 70
+    x_ext = x0 + (x1 - x0) * p_ext
+    sub_ext = f'+{a["med_ing_ext"]:.1f} anos'.replace(".", ",")
+    sub_form = f'curso ~{a["med_dur"]:.0f} anos'.replace(".", ",")
+
+    def marco(x, titulo, sub, cor="var(--series-1)"):
+        return (f'<circle cx="{x:.0f}" cy="{y}" r="9" fill="{cor}" stroke="var(--surface-1)" stroke-width="3"/>'
+                f'<text x="{x:.0f}" y="{y-22}" text-anchor="middle" class="tl-t">{escape(titulo)}</text>'
+                f'<text x="{x:.0f}" y="{y+30}" text-anchor="middle" class="tl-s">{escape(sub)}</text>')
+
+    return (
+        f'<svg viewBox="0 0 {W} {H}" width="100%" role="img">'
+        f'<line x1="{x0}" y1="{y}" x2="{x1}" y2="{y}" stroke="var(--grid)" stroke-width="4" stroke-linecap="round"/>'
+        f'<line x1="{x0}" y1="{y}" x2="{x_ext:.0f}" y2="{y}" stroke="var(--series-1)" stroke-width="4" stroke-linecap="round" opacity=".55"/>'
+        + marco(x0, "Ingresso", "matrícula")
+        + marco(x_ext, "1ª extensão", sub_ext)
+        + marco(x1, "Formatura", sub_form, "var(--text-secondary)")
+        + '</svg>')
+
+
+def svg_curva_fase(a: dict) -> str:
+    """Área: densidade de quando (0–100% do curso) acontece a 1ª extensão."""
+    dec = a["decis"]
+    if not any(dec):
+        return '<p class="vazio">Sem dados.</p>'
+    W, H, pad = 900, 220, 34
+    iw, ih = W - 2 * pad, H - 2 * pad
+    mx = max(dec) or 1
+    n = len(dec)
+    pts = []
+    for i, v in enumerate(dec):
+        x = pad + iw * (i + 0.5) / n
+        yv = pad + ih * (1 - v / mx)
+        pts.append((x, yv))
+    linha = " ".join(f"{x:.0f},{y:.0f}" for x, y in pts)
+    area = (f'{pad},{pad+ih} ' + linha + f' {pad+iw},{pad+ih}')
+    barras = "".join(
+        f'<text x="{pts[i][0]:.0f}" y="{pts[i][1]-8:.0f}" text-anchor="middle" class="val">{v}</text>'
+        for i, v in enumerate(dec) if v)
+    eixo = (f'<text x="{pad}" y="{H-8}" class="tl-s">Ingresso</text>'
+            f'<text x="{pad+iw}" y="{H-8}" text-anchor="end" class="tl-s">Formatura</text>')
+    return (f'<svg viewBox="0 0 {W} {H}" width="100%" role="img">'
+            f'<polyline points="{area}" fill="var(--series-1)" fill-opacity=".14" stroke="none"/>'
+            f'<polyline points="{linha}" fill="none" stroke="var(--series-1)" stroke-width="2.5" '
+            f'stroke-linejoin="round"/>'
+            + "".join(f'<circle cx="{x:.0f}" cy="{y:.0f}" r="3.5" fill="var(--series-1)"/>'
+                      for x, y in pts)
+            + barras + eixo + '</svg>')
+
+
+def svg_funil(a: dict) -> str:
+    """Funil: formados -> fizeram extensão -> voltaram após formar."""
+    etapas = [("Formados", a["n_formados"], "var(--muted)"),
+              ("Fizeram extensão", a["com_ext"], "var(--series-1)"),
+              ("Ativos após formar", a["apos_formar"], "var(--cta)")]
+    base = a["n_formados"] or 1
+    W, lh = 900, 54
+    linhas = []
+    for i, (rot, val, cor) in enumerate(etapas):
+        w = max(40, (val / base) * (W - 220))
+        yv = i * lh + 6
+        pct = round(val / base * 100)
+        linhas.append(
+            f'<text x="200" y="{yv+30}" text-anchor="end" class="lbl">{escape(rot)}</text>'
+            f'<rect x="210" y="{yv+8}" width="{w:.0f}" height="34" rx="6" fill="{cor}"/>'
+            f'<text x="{210+w+10:.0f}" y="{yv+30}" class="val">{val} · {pct}%</text>')
+    return (f'<svg viewBox="0 0 {W} {len(etapas)*lh+12}" width="100%" role="img">'
+            + "".join(linhas) + "</svg>")

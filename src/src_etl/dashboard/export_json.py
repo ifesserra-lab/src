@@ -23,6 +23,7 @@ CLI:  src-etl-export --consolidado data/serra_consolidado.json --out docs
 from __future__ import annotations
 
 import json
+import re
 from pathlib import Path
 
 from .extensionistas import _CACHE_PADRAO, coletar_extensionistas
@@ -41,10 +42,34 @@ _CAMPOS_ACAO = [
 ]
 
 
+# ---------------------------------------------------------------- trava de PII
+_RE_CPF = re.compile(r"\d{3}\.\d{3}\.\d{3}-\d{2}")
+_RE_11DIG = re.compile(r"(?<!\d)\d{11}(?!\d)")
+_RE_EMAIL = re.compile(r"[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}")
+_CHAVES_PROIBIDAS = {"CPF", "cpf", "E-mail", "Email", "email", "Nasc.", "nascimento"}
+
+
+def auditar_pii(texto: str, origem: str = "") -> None:
+    """Levanta RuntimeError se o texto contiver CPF, e-mail ou chave proibida.
+
+    Trava de segurança: NENHUM JSON exportado pode conter dado pessoal de aluno.
+    """
+    if _RE_CPF.search(texto):
+        raise RuntimeError(f"PII bloqueada (CPF formatado) em {origem}")
+    if _RE_EMAIL.search(texto):
+        raise RuntimeError(f"PII bloqueada (e-mail) em {origem}")
+    if _RE_11DIG.search(texto):
+        raise RuntimeError(f"PII bloqueada (11 dígitos, possível CPF) em {origem}")
+    for chave in _CHAVES_PROIBIDAS:
+        if f'"{chave}"' in texto:
+            raise RuntimeError(f"PII bloqueada (chave '{chave}') em {origem}")
+
+
 def _grava(path: Path, dados) -> None:
+    texto = json.dumps(dados, ensure_ascii=False, indent=2, default=list)
+    auditar_pii(texto, str(path))   # nunca grava JSON com PII
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(dados, ensure_ascii=False, indent=2, default=list),
-                    encoding="utf-8")
+    path.write_text(texto, encoding="utf-8")
 
 
 def _equipe_publica(membros: list[dict]) -> list[dict]:
@@ -128,18 +153,23 @@ def exportar_api(
     if Path(_CACHE_PADRAO).exists():
         resumos = json.loads(Path(_CACHE_PADRAO).read_text(encoding="utf-8"))
     pessoas = coletar_extensionistas(cons)
-    idx_ext = []
+    idx_ext, todos_ext = [], []
     for p in pessoas:
-        _grava(api / "extensionistas" / f"{p['slug']}.json", {
+        registro = {
             "slug": p["slug"], "nome": p["nome"],
             "resumo_ia": resumos.get(p["slug"]),
             "anos": p["anos"], "funcoes": p["funcoes"],
             "acoes_coordenadas": p["coordena"],
-            "participacoes_equipe": p["participa"]})
+            "participacoes_equipe": p["participa"]}
+        _grava(api / "extensionistas" / f"{p['slug']}.json", registro)
+        todos_ext.append(registro)
         idx_ext.append({"slug": p["slug"], "nome": p["nome"],
+                        "funcoes": p["funcoes"], "anos": p["anos"],
                         "coordena": len(p["coordena"]), "equipe": len(p["participa"]),
                         "url": f"api/extensionistas/{p['slug']}.json"})
     _grava(api / "extensionistas" / "index.json", idx_ext)
+    # lista completa (todos os extensionistas com trajetória e resumo) num só arquivo
+    _grava(api / "extensionistas" / "todos.json", todos_ext)
 
     # agregados do painel (4 abas)
     acoes_raw = _carregar_acoes(acoes_dir)
@@ -192,7 +222,8 @@ def exportar_api(
                        "equipe como crédito público (nome/função/vínculo).",
         "endpoints": ["api/painel.json", "api/busca.json", "api/acoes/index.json",
                       "api/acoes/<acao_id>.json", "api/atividades/<atividade_id>.json",
-                      "api/extensionistas/index.json", "api/extensionistas/<slug>.json",
+                      "api/extensionistas/index.json", "api/extensionistas/todos.json",
+                      "api/extensionistas/<slug>.json",
                       "api/sem-participacao.json", "api/pendencias-relatorio.json"],
         **stats})
     return stats

@@ -8,6 +8,7 @@
     "api/acoes/<acao_id>.json",
     "api/atividades/<atividade_id>.json",
     "api/extensionistas/index.json",
+    "api/extensionistas/todos.json",
     "api/extensionistas/<slug>.json",
     "api/sem-participacao.json",
     "api/pendencias-relatorio.json"

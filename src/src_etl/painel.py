@@ -17,6 +17,7 @@ from html import escape
 from pathlib import Path
 
 from . import relatorio
+from .formados import agregar_formados, blocos_formados
 from .indicadores import agregar_indicadores, blocos_indicadores
 from .rede import agregar_rede, blocos_rede
 from .relatorio import (
@@ -88,6 +89,9 @@ padding:8px 4px;border-bottom:1px solid var(--grid);font-size:.85rem}
 .li-tipo{color:var(--muted);font-size:.75rem;border:1px solid var(--border);border-radius:20px;padding:1px 8px}
 .li-proc{color:var(--text-secondary);font-variant-numeric:tabular-nums;font-size:.8rem}
 .net-lbl{fill:var(--text-secondary);font-size:11px;font-weight:600}
+.nota{background:#fff4e0;color:#8a5a00;border:1px solid #ffd98a;border-radius:12px;
+padding:10px 14px;font-size:.85rem;font-weight:600;margin:14px 0}
+:root[data-theme=dark] .nota,@media (prefers-color-scheme:dark){.nota{background:#3a2e10;color:#ffcf5c;border-color:#5c4a1a}}
 /* abas (CSS puro) */
 .tabs>input{position:absolute;opacity:0;pointer-events:none}
 .tabbar{display:flex;gap:10px;margin:22px 0 4px;flex-wrap:wrap}
@@ -97,11 +101,13 @@ box-shadow:var(--shadow);transition:all .15s}
 .tabbar label:hover{color:var(--text-primary)}
 #tab1:checked~.tabbar label[for=tab1],
 #tab2:checked~.tabbar label[for=tab2],
-#tab3:checked~.tabbar label[for=tab3]{background:var(--series-1);color:#fff;border-color:var(--series-1)}
+#tab3:checked~.tabbar label[for=tab3],
+#tab4:checked~.tabbar label[for=tab4]{background:var(--series-1);color:#fff;border-color:var(--series-1)}
 .panel{display:none}
 #tab1:checked~.p1{display:block}
 #tab2:checked~.p2{display:block}
 #tab3:checked~.p3{display:block}
+#tab4:checked~.p4{display:block}
 """
 
 
@@ -112,6 +118,8 @@ def gerar_painel(
     out_html: str | Path = "painel.html",
     *,
     titulo: str = "SRC/Ifes — Campus Serra",
+    nota: str = "",
+    formandos_dir: str | Path = "data/formandos",
 ) -> Path:
     # aplica a paleta categórica do Horizon aos donuts (rebind do global usado por _donut)
     original = relatorio._CAT
@@ -124,20 +132,29 @@ def gerar_painel(
         t2, s2 = blocos_indicadores(a_ind)
         a_net = agregar_rede(consolidado)
         t3, s3 = blocos_rede(a_net)
+        try:  # aba Formados (opcional — depende das planilhas)
+            a_form = agregar_formados(consolidado, formandos_dir)
+            t4, s4 = blocos_formados(a_form)
+        except Exception:
+            a_form, t4, s4 = None, "", ""
     finally:
         relatorio._CAT = original
 
+    banner = (f'<div class="nota">{escape(nota)}</div>' if nota else "")
     corpo = f"""<div class="wrap">
 <header><h1>{escape(titulo)}</h1>
 <p class="sub">Painel analítico — visão geral, indicadores e rede de colaboração</p></header>
+{banner}
 <div class="tabs">
   <input type="radio" name="tab" id="tab1" checked>
   <input type="radio" name="tab" id="tab2">
   <input type="radio" name="tab" id="tab3">
-  <div class="tabbar"><label for="tab1">Visão geral</label><label for="tab2">Indicadores</label><label for="tab3">Rede &amp; programas</label></div>
+  <input type="radio" name="tab" id="tab4">
+  <div class="tabbar"><label for="tab1">Visão geral</label><label for="tab2">Indicadores</label><label for="tab3">Rede &amp; programas</label>{('<label for="tab4">Formados na Extensão</label>' if t4 else '')}</div>
   <div class="panel p1"><div class="tiles">{t1}</div>{s1}</div>
   <div class="panel p2"><div class="tiles">{t2}</div>{s2}</div>
   <div class="panel p3"><div class="tiles">{t3}</div>{s3}</div>
+  {(f'<div class="panel p4"><div class="tiles">{t4}</div>{s4}<div class="pii">Cruzamento por nome (planilhas de formados não têm CPF): pode haver homônimos/variações. Só contagens agregadas — sem nomes.</div></div>' if t4 else '')}
 </div>
 <div class="pii">Painel <b>agregado</b>: sem nomes de alunos, CPF ou e-mail. Coordenadores(as)
 são dado público do sistema; membros de equipe entram só como elo, nunca exibidos.</div>

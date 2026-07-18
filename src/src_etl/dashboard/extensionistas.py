@@ -71,6 +71,7 @@ def coletar_extensionistas(consolidado: dict) -> list[dict]:
             p = _pega(coord)
             p["coordena"].append(ref)
             p["anos"].add(ref["ano"])
+        ativ_nome: dict[str, str] = {}   # atividade_id -> nome da atividade
         vistos_nesta_acao: dict[str, set] = defaultdict(set)
         ativ_nesta_acao: dict[str, set] = defaultdict(set)   # nome -> {atividade_id} realmente atuadas
         for part in a.get("participacoes", []):
@@ -83,6 +84,7 @@ def coletar_extensionistas(consolidado: dict) -> list[dict]:
             aid = part.get("atividade_id")
             if aid:
                 ativ_nesta_acao[nome].add(str(aid))
+                ativ_nome[str(aid)] = (part.get("atividade") or "").strip()
         for nome, funcoes in vistos_nesta_acao.items():
             p = _pega(nome)
             p["participa"].append({**ref, "funcoes": sorted(funcoes)})
@@ -91,6 +93,7 @@ def coletar_extensionistas(consolidado: dict) -> list[dict]:
             for aid in ativ_nesta_acao[nome]:
                 p["atividades"].append({"ano": ref["ano"], "atividade_id": aid,
                                         "acao_id": ref["acao_id"],
+                                        "atividade": ativ_nome.get(aid, ""),
                                         "pub": len(pub_por_ativ.get(aid, ()))})
 
     out = []

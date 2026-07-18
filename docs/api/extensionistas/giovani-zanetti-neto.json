@@ -18,7 +18,8 @@
       "titulo": "Energia Solar Fotovoltaica",
       "tipo": "Curso",
       "ano": "2017",
-      "n": 26
+      "n": 26,
+      "pub": 25
     }
   ],
   "participacoes_equipe": [
@@ -28,6 +29,7 @@
       "tipo": "Curso",
       "ano": "2017",
       "n": 84,
+      "pub": 36,
       "funcoes": [
         "COLABORADOR(A)"
       ]
@@ -38,6 +40,7 @@
       "tipo": "Curso",
       "ano": "2016",
       "n": 77,
+      "pub": 29,
       "funcoes": [
         "AUXILIAR TÉCNICO",
         "ORIENTADOR(A)"
@@ -49,6 +52,7 @@
       "tipo": "Curso",
       "ano": "2017",
       "n": 26,
+      "pub": 25,
       "funcoes": [
         "INSTRUTOR(A)"
       ]

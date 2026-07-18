@@ -21,14 +21,16 @@
       "titulo": "IFES Contra a Covid-19",
       "tipo": "Projeto",
       "ano": "2020",
-      "n": 9
+      "n": 9,
+      "pub": 1
     },
     {
       "acao_id": "5641",
       "titulo": "LabMaker 4.0: capacitando professores para a cultura maker e tecnologias da Indústria 4.0",
       "tipo": "Projeto",
       "ano": "2025",
-      "n": 73
+      "n": 73,
+      "pub": 17
     }
   ],
   "participacoes_equipe": [
@@ -38,6 +40,7 @@
       "tipo": "Projeto",
       "ano": "2020",
       "n": 9,
+      "pub": 1,
       "funcoes": [
         "COORDENADOR(A)"
       ]
@@ -48,6 +51,7 @@
       "tipo": "Programa",
       "ano": "2020",
       "n": 1611,
+      "pub": 905,
       "funcoes": [
         "ORGANIZADOR(A)"
       ]
@@ -58,6 +62,7 @@
       "tipo": "Projeto",
       "ano": "2021",
       "n": 4,
+      "pub": 0,
       "funcoes": [
         "MEMBRO DE COMITÊ GESTOR"
       ]
@@ -68,6 +73,7 @@
       "tipo": "Programa",
       "ano": "2023",
       "n": 558,
+      "pub": 258,
       "funcoes": [
         "GESTOR(A) DE PROJETO",
         "ORGANIZADOR(A)"
@@ -79,6 +85,7 @@
       "tipo": "Projeto",
       "ano": "2024",
       "n": 218,
+      "pub": 168,
       "funcoes": [
         "MEMBRO DE COMITÊ GESTOR"
       ]
@@ -89,6 +96,7 @@
       "tipo": "Projeto",
       "ano": "2025",
       "n": 73,
+      "pub": 17,
       "funcoes": [
         "COORDENADOR(A)"
       ]
@@ -99,6 +107,7 @@
       "tipo": "Projeto",
       "ano": "2025",
       "n": 48,
+      "pub": 28,
       "funcoes": [
         "COORDENADOR(A)"
       ]

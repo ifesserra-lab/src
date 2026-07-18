@@ -18,6 +18,7 @@
       "tipo": "Projeto",
       "ano": "2018",
       "n": 4,
+      "pub": 0,
       "funcoes": [
         "ALUNO(A) BOLSISTA"
       ]
@@ -28,6 +29,7 @@
       "tipo": "Evento",
       "ano": "2015",
       "n": 40,
+      "pub": 0,
       "funcoes": [
         "INTÉRPRETE"
       ]

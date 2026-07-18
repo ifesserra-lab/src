@@ -19,6 +19,7 @@
       "tipo": "Programa",
       "ano": "2017",
       "n": 220,
+      "pub": 126,
       "funcoes": [
         "COLABORADOR(A)",
         "MEMBRO DE COMITÊ GESTOR"
@@ -30,6 +31,7 @@
       "tipo": "Curso",
       "ano": "2017",
       "n": 84,
+      "pub": 36,
       "funcoes": [
         "COLABORADOR(A)"
       ]
@@ -40,6 +42,7 @@
       "tipo": "Projeto",
       "ano": "2016",
       "n": 9,
+      "pub": 0,
       "funcoes": [
         "ASSESSOR(A)"
       ]

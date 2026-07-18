@@ -17,6 +17,7 @@
       "tipo": "Programa",
       "ano": "2023",
       "n": 558,
+      "pub": 258,
       "funcoes": [
         "MONITOR(A)"
       ]
@@ -27,6 +28,7 @@
       "tipo": "Projeto",
       "ano": "2023",
       "n": 298,
+      "pub": 197,
       "funcoes": [
         "ALUNO(A) EM ATIVIDADE CURRICULAR"
       ]
@@ -37,6 +39,7 @@
       "tipo": "Projeto",
       "ano": "2023",
       "n": 159,
+      "pub": 134,
       "funcoes": [
         "MONITOR(A)"
       ]

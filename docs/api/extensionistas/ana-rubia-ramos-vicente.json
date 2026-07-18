@@ -20,6 +20,7 @@
       "tipo": "Evento",
       "ano": "2018",
       "n": 49,
+      "pub": 37,
       "funcoes": [
         "ALUNO(A) VOLUNTARIO"
       ]
@@ -30,6 +31,7 @@
       "tipo": "Curso",
       "ano": "2018",
       "n": 53,
+      "pub": 25,
       "funcoes": [
         "MONITOR(A)"
       ]
@@ -40,6 +42,7 @@
       "tipo": "Projeto",
       "ano": "2019",
       "n": 19,
+      "pub": 5,
       "funcoes": [
         "ALUNO(A) VOLUNTARIO",
         "PALESTRANTE"
@@ -51,6 +54,7 @@
       "tipo": "Projeto",
       "ano": "2016",
       "n": 7,
+      "pub": 1,
       "funcoes": [
         "ALUNO(A) VOLUNTARIO"
       ]
@@ -61,6 +65,7 @@
       "tipo": "Programa",
       "ano": "2016",
       "n": 104,
+      "pub": 22,
       "funcoes": [
         "ALUNO(A) VOLUNTARIO"
       ]

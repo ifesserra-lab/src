@@ -19,6 +19,7 @@
       "tipo": "Projeto",
       "ano": "2020",
       "n": 9,
+      "pub": 1,
       "funcoes": [
         "ALUNO(A) BOLSISTA",
         "ALUNO(A) VOLUNTARIO"
@@ -30,6 +31,7 @@
       "tipo": "Projeto",
       "ano": "2022",
       "n": 11,
+      "pub": 3,
       "funcoes": [
         "EXTENSIONISTA"
       ]

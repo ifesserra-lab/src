@@ -15,7 +15,8 @@
       "titulo": "Ritornelo",
       "tipo": "Projeto",
       "ano": "2019",
-      "n": 0
+      "n": 0,
+      "pub": 0
     }
   ],
   "participacoes_equipe": [
@@ -25,6 +26,7 @@
       "tipo": "Programa",
       "ano": "2020",
       "n": 1611,
+      "pub": 905,
       "funcoes": [
         "APOIO TÉCNICO"
       ]

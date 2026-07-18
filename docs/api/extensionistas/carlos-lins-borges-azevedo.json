@@ -19,28 +19,32 @@
       "titulo": "Sistema de apoio para rastreio e geolocalização de transtornos mentais comuns na atenção primária a saúde",
       "tipo": "Projeto",
       "ano": "2018",
-      "n": 5
+      "n": 5,
+      "pub": 0
     },
     {
       "acao_id": "2193",
       "titulo": "LifeBox: transporte e monitoramento de córnea de forma inteligente",
       "tipo": "Projeto",
       "ano": "2019",
-      "n": 8
+      "n": 8,
+      "pub": 0
     },
     {
       "acao_id": "2599",
       "titulo": "Sistema de apoio para rastreio e geolocalização de transtornos mentais",
       "tipo": "Projeto",
       "ano": "2019",
-      "n": 3
+      "n": 3,
+      "pub": 0
     },
     {
       "acao_id": "848",
       "titulo": "Sistema de apoio para monitorar temperatura para preparaçãode caixas para transporte de órgão.",
       "tipo": "Projeto",
       "ano": "2016",
-      "n": 7
+      "n": 7,
+      "pub": 0
     }
   ],
   "participacoes_equipe": [
@@ -50,6 +54,7 @@
       "tipo": "Projeto",
       "ano": "2018",
       "n": 5,
+      "pub": 0,
       "funcoes": [
         "COORDENADOR(A) ADJUNTO(A)"
       ]
@@ -60,6 +65,7 @@
       "tipo": "Projeto",
       "ano": "2018",
       "n": 5,
+      "pub": 0,
       "funcoes": [
         "COORDENADOR(A)"
       ]
@@ -70,6 +76,7 @@
       "tipo": "Projeto",
       "ano": "2019",
       "n": 8,
+      "pub": 0,
       "funcoes": [
         "COORDENADOR(A)"
       ]
@@ -80,6 +87,7 @@
       "tipo": "Projeto",
       "ano": "2019",
       "n": 3,
+      "pub": 0,
       "funcoes": [
         "COORDENADOR(A)"
       ]
@@ -90,6 +98,7 @@
       "tipo": "Curso",
       "ano": "2016",
       "n": 77,
+      "pub": 29,
       "funcoes": [
         "AUXILIAR TÉCNICO"
       ]
@@ -100,6 +109,7 @@
       "tipo": "Projeto",
       "ano": "2016",
       "n": 7,
+      "pub": 0,
       "funcoes": [
         "COORDENADOR(A)"
       ]
@@ -110,6 +120,7 @@
       "tipo": "Programa",
       "ano": "2016",
       "n": 104,
+      "pub": 22,
       "funcoes": [
         "COLABORADOR(A)"
       ]

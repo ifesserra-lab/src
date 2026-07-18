@@ -19,14 +19,16 @@
       "titulo": "Pink Pepper Qualifier: Determinação da qualidade produtiva dos frutos da Aroeira (Schinus terebinthifolius Raddi) usando Inteligência Computacional",
       "tipo": "Projeto",
       "ano": "2022",
-      "n": 164
+      "n": 164,
+      "pub": 0
     },
     {
       "acao_id": "4507",
       "titulo": "Solução web/mobile baseada em Inteligência Computacional para identificação de infestação por ácaros rajados (Tetranychus urticae) em culturas de morango",
       "tipo": "Projeto",
       "ano": "2023",
-      "n": 0
+      "n": 0,
+      "pub": 0
     }
   ],
   "participacoes_equipe": [
@@ -36,6 +38,7 @@
       "tipo": "Projeto",
       "ano": "2018",
       "n": 387,
+      "pub": 385,
       "funcoes": [
         "COORDENADOR(A) ADJUNTO(A)"
       ]
@@ -46,6 +49,7 @@
       "tipo": "Projeto",
       "ano": "2018",
       "n": 429,
+      "pub": 235,
       "funcoes": [
         "COLABORADOR(A)"
       ]
@@ -56,6 +60,7 @@
       "tipo": "Curso",
       "ano": "2018",
       "n": 53,
+      "pub": 25,
       "funcoes": [
         "PROFESSOR(A)"
       ]
@@ -66,6 +71,7 @@
       "tipo": "Programa",
       "ano": "2018",
       "n": 547,
+      "pub": 500,
       "funcoes": [
         "COORDENADOR(A) ADJUNTO(A)"
       ]
@@ -76,6 +82,7 @@
       "tipo": "Projeto",
       "ano": "2022",
       "n": 164,
+      "pub": 0,
       "funcoes": [
         "COORDENADOR(A)"
       ]

@@ -19,14 +19,16 @@
       "titulo": "Mulheres na Ciência",
       "tipo": "Projeto",
       "ano": "2018",
-      "n": 21
+      "n": 21,
+      "pub": 11
     },
     {
       "acao_id": "2082",
       "titulo": "Mulheres na Ciência",
       "tipo": "Curso",
       "ano": "2018",
-      "n": 53
+      "n": 53,
+      "pub": 25
     }
   ],
   "participacoes_equipe": [
@@ -36,6 +38,7 @@
       "tipo": "Curso",
       "ano": "2017",
       "n": 48,
+      "pub": 33,
       "funcoes": [
         "MINISTRANTE",
         "PROFESSOR(A)"
@@ -47,6 +50,7 @@
       "tipo": "Projeto",
       "ano": "2018",
       "n": 21,
+      "pub": 11,
       "funcoes": [
         "COORDENADOR(A)",
         "PROFESSOR(A)"
@@ -58,6 +62,7 @@
       "tipo": "Curso",
       "ano": "2018",
       "n": 53,
+      "pub": 25,
       "funcoes": [
         "COORDENADOR(A)",
         "PROFESSOR(A)"
@@ -69,6 +74,7 @@
       "tipo": "Programa",
       "ano": "2020",
       "n": 1611,
+      "pub": 905,
       "funcoes": [
         "ORIENTADOR(A)"
       ]

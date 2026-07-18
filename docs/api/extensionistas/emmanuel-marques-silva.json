@@ -32,49 +32,56 @@
       "titulo": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedora",
       "tipo": "Curso",
       "ano": "2017",
-      "n": 84
+      "n": 84,
+      "pub": 36
     },
     {
       "acao_id": "3140",
       "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
       "tipo": "Programa",
       "ano": "2020",
-      "n": 1611
+      "n": 1611,
+      "pub": 905
     },
     {
       "acao_id": "320",
       "titulo": "Curso de Pré-Incubação para Empreendedores",
       "tipo": "Curso",
       "ano": "2014",
-      "n": 11
+      "n": 11,
+      "pub": 11
     },
     {
       "acao_id": "5852",
       "titulo": "SOF – Serviço de Orientação Financeira (unidade Ifes Serra)",
       "tipo": "Projeto",
       "ano": "2026",
-      "n": 316
+      "n": 316,
+      "pub": 227
     },
     {
       "acao_id": "708",
       "titulo": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedoras",
       "tipo": "Curso",
       "ano": "2016",
-      "n": 77
+      "n": 77,
+      "pub": 29
     },
     {
       "acao_id": "730",
       "titulo": "Câmara de Assessoramento em Gestão e Tecnologia do Núcleo Incubador do campus Serra do Ifes",
       "tipo": "Projeto",
       "ano": "2016",
-      "n": 9
+      "n": 9,
+      "pub": 0
     },
     {
       "acao_id": "912",
       "titulo": "Curso de Pré-Incubação de Empreendimentos – modalidade Residência",
       "tipo": "Curso",
       "ano": "2016",
-      "n": 21
+      "n": 21,
+      "pub": 3
     }
   ],
   "participacoes_equipe": [
@@ -84,6 +91,7 @@
       "tipo": "Programa",
       "ano": "2017",
       "n": 220,
+      "pub": 126,
       "funcoes": [
         "COORDENADOR(A)",
         "MENTOR(A)"
@@ -95,6 +103,7 @@
       "tipo": "Curso",
       "ano": "2017",
       "n": 84,
+      "pub": 36,
       "funcoes": [
         "COORDENADOR(A)",
         "INSTRUTOR(A)"
@@ -106,6 +115,7 @@
       "tipo": "Curso",
       "ano": "2017",
       "n": 12,
+      "pub": 8,
       "funcoes": [
         "COORDENADOR(A) ADJUNTO(A)"
       ]
@@ -116,6 +126,7 @@
       "tipo": "Programa",
       "ano": "2018",
       "n": 6,
+      "pub": 0,
       "funcoes": [
         "COLABORADOR(A)"
       ]
@@ -126,6 +137,7 @@
       "tipo": "Curso",
       "ano": "2018",
       "n": 53,
+      "pub": 25,
       "funcoes": [
         "PALESTRANTE"
       ]
@@ -136,6 +148,7 @@
       "tipo": "Curso",
       "ano": "2019",
       "n": 13,
+      "pub": 6,
       "funcoes": [
         "COORDENADOR(A) ADJUNTO(A)"
       ]
@@ -146,6 +159,7 @@
       "tipo": "Programa",
       "ano": "2020",
       "n": 1611,
+      "pub": 905,
       "funcoes": [
         "COORDENADOR(A)",
         "COORDENADOR(A) ADJUNTO(A)",
@@ -158,6 +172,7 @@
       "tipo": "Projeto",
       "ano": "2021",
       "n": 14,
+      "pub": 2,
       "funcoes": [
         "COORDENADOR(A) ADJUNTO(A)"
       ]
@@ -168,6 +183,7 @@
       "tipo": "Curso",
       "ano": "2025",
       "n": 35,
+      "pub": 24,
       "funcoes": [
         "PROFESSOR(A)"
       ]
@@ -178,6 +194,7 @@
       "tipo": "Evento",
       "ano": "2015",
       "n": 40,
+      "pub": 0,
       "funcoes": [
         "AVALIADOR(A)"
       ]
@@ -188,6 +205,7 @@
       "tipo": "Projeto",
       "ano": "2026",
       "n": 316,
+      "pub": 227,
       "funcoes": [
         "COORDENADOR(A)",
         "EXPOSITOR(A)",
@@ -202,6 +220,7 @@
       "tipo": "Curso",
       "ano": "2016",
       "n": 77,
+      "pub": 29,
       "funcoes": [
         "AVALIADOR(A)",
         "COORDENADOR(A)",
@@ -214,6 +233,7 @@
       "tipo": "Projeto",
       "ano": "2016",
       "n": 9,
+      "pub": 0,
       "funcoes": [
         "COORDENADOR(A)"
       ]
@@ -224,6 +244,7 @@
       "tipo": "Evento",
       "ano": "2016",
       "n": 181,
+      "pub": 124,
       "funcoes": [
         "PALESTRANTE"
       ]
@@ -234,6 +255,7 @@
       "tipo": "Curso",
       "ano": "2016",
       "n": 21,
+      "pub": 3,
       "funcoes": [
         "AVALIADOR(A)",
         "COORDENADOR(A)"

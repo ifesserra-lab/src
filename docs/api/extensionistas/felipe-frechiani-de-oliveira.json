@@ -27,42 +27,48 @@
       "titulo": "Curso de Pré-Incubação de Empreendimentos – modalidade Residência",
       "tipo": "Curso",
       "ano": "2017",
-      "n": 12
+      "n": 12,
+      "pub": 8
     },
     {
       "acao_id": "1838",
       "titulo": "LEDS – Laboratório de Extensão e Desenvolvimento de Soluções",
       "tipo": "Programa",
       "ano": "2018",
-      "n": 4
+      "n": 4,
+      "pub": 1
     },
     {
       "acao_id": "2285",
       "titulo": "ES Na Palma da Mão: Uma Plataforma baseado em serviços para Cidades Humanas, Inteligentes e Sustentáveis",
       "tipo": "Projeto",
       "ano": "2019",
-      "n": 12
+      "n": 12,
+      "pub": 0
     },
     {
       "acao_id": "2786",
       "titulo": "My Pay: Um ERP em nuvem para foodtrucks",
       "tipo": "Projeto",
       "ano": "2019",
-      "n": 0
+      "n": 0,
+      "pub": 0
     },
     {
       "acao_id": "4215",
       "titulo": "SprintLab - Laboratório de Prototipação Acelerada",
       "tipo": "Programa",
       "ano": "2022",
-      "n": 76
+      "n": 76,
+      "pub": 13
     },
     {
       "acao_id": "901",
       "titulo": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
       "tipo": "Programa",
       "ano": "2016",
-      "n": 104
+      "n": 104,
+      "pub": 22
     }
   ],
   "participacoes_equipe": [
@@ -72,6 +78,7 @@
       "tipo": "Programa",
       "ano": "2017",
       "n": 220,
+      "pub": 126,
       "funcoes": [
         "MEMBRO DE COMITÊ GESTOR"
       ]
@@ -82,6 +89,7 @@
       "tipo": "Curso",
       "ano": "2017",
       "n": 84,
+      "pub": 36,
       "funcoes": [
         "COLABORADOR(A)"
       ]
@@ -92,6 +100,7 @@
       "tipo": "Curso",
       "ano": "2017",
       "n": 12,
+      "pub": 8,
       "funcoes": [
         "COORDENADOR(A) ADJUNTO(A)"
       ]
@@ -102,6 +111,7 @@
       "tipo": "Programa",
       "ano": "2018",
       "n": 4,
+      "pub": 1,
       "funcoes": [
         "COORDENADOR(A)"
       ]
@@ -112,6 +122,7 @@
       "tipo": "Projeto",
       "ano": "2018",
       "n": 5,
+      "pub": 0,
       "funcoes": [
         "COLABORADOR(A)"
       ]
@@ -122,6 +133,7 @@
       "tipo": "Projeto",
       "ano": "2019",
       "n": 8,
+      "pub": 0,
       "funcoes": [
         "COLABORADOR(A)"
       ]
@@ -132,6 +144,7 @@
       "tipo": "Projeto",
       "ano": "2019",
       "n": 12,
+      "pub": 0,
       "funcoes": [
         "COORDENADOR(A)",
         "COORDENADOR(A) ADJUNTO(A)"
@@ -143,6 +156,7 @@
       "tipo": "Projeto",
       "ano": "2020",
       "n": 7,
+      "pub": 0,
       "funcoes": [
         "COORDENADOR(A) ADJUNTO(A)"
       ]
@@ -153,6 +167,7 @@
       "tipo": "Programa",
       "ano": "2021",
       "n": 1,
+      "pub": 0,
       "funcoes": [
         "COORDENADOR(A)"
       ]
@@ -163,6 +178,7 @@
       "tipo": "Projeto",
       "ano": "2022",
       "n": 31,
+      "pub": 3,
       "funcoes": [
         "COORDENADOR(A) ADJUNTO(A)"
       ]
@@ -173,6 +189,7 @@
       "tipo": "Programa",
       "ano": "2022",
       "n": 76,
+      "pub": 13,
       "funcoes": [
         "COORDENADOR(A)"
       ]
@@ -183,6 +200,7 @@
       "tipo": "Curso",
       "ano": "2016",
       "n": 77,
+      "pub": 29,
       "funcoes": [
         "AUXILIAR TÉCNICO",
         "AVALIADOR(A)"
@@ -194,6 +212,7 @@
       "tipo": "Projeto",
       "ano": "2016",
       "n": 9,
+      "pub": 0,
       "funcoes": [
         "MENTOR(A)"
       ]
@@ -204,6 +223,7 @@
       "tipo": "Programa",
       "ano": "2016",
       "n": 104,
+      "pub": 22,
       "funcoes": [
         "COLABORADOR(A)",
         "COORDENADOR(A)",
@@ -216,6 +236,7 @@
       "tipo": "Curso",
       "ano": "2016",
       "n": 21,
+      "pub": 3,
       "funcoes": [
         "AVALIADOR(A)",
         "COORDENADOR(A) ADJUNTO(A)"

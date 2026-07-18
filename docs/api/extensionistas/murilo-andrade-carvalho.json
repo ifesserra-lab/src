@@ -19,6 +19,7 @@
       "tipo": "Curso",
       "ano": "2017",
       "n": 48,
+      "pub": 33,
       "funcoes": [
         "PROFESSOR(A)"
       ]
@@ -29,6 +30,7 @@
       "tipo": "Curso",
       "ano": "2018",
       "n": 96,
+      "pub": 74,
       "funcoes": [
         "ALUNO(A) VOLUNTARIO"
       ]
@@ -39,6 +41,7 @@
       "tipo": "Curso",
       "ano": "2019",
       "n": 106,
+      "pub": 80,
       "funcoes": [
         "PROFESSOR(A)"
       ]
@@ -49,6 +52,7 @@
       "tipo": "Curso",
       "ano": "2019",
       "n": 40,
+      "pub": 34,
       "funcoes": [
         "PROFESSOR(A)"
       ]

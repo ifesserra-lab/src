@@ -21,6 +21,7 @@
       "tipo": "Programa",
       "ano": "2020",
       "n": 1611,
+      "pub": 905,
       "funcoes": [
         "APOIO TÉCNICO"
       ]
@@ -31,6 +32,7 @@
       "tipo": "Projeto",
       "ano": "2022",
       "n": 31,
+      "pub": 3,
       "funcoes": [
         "ALUNO(A) EM ATIVIDADE CURRICULAR"
       ]
@@ -41,6 +43,7 @@
       "tipo": "Programa",
       "ano": "2022",
       "n": 76,
+      "pub": 13,
       "funcoes": [
         "ALUNO(A) VOLUNTARIO"
       ]
@@ -51,6 +54,7 @@
       "tipo": "Projeto",
       "ano": "2023",
       "n": 124,
+      "pub": 86,
       "funcoes": [
         "ALUNO(A) BOLSISTA"
       ]

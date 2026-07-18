@@ -1,0 +1,45 @@
+# Extensão IFES Campus Serra — Dados Abertos (SRC)
+
+> Acervo público das ações de extensão e ensino do IFES Campus Serra, extraído do
+> SRC (Sistema de Registro e Emissão de Certificados, src.ifes.edu.br).
+> 201 ações, 525 atividades, 757 extensionistas. SEM dados pessoais de alunos:
+> público-alvo aparece só como contagens; equipe como crédito público
+> (nome/função/vínculo). Nunca CPF, e-mail ou data de nascimento. JSON UTF-8.
+
+Os links abaixo são relativos a esta pasta (onde está o llms.txt). Endpoints com
+`<...>` são padrões — troque pelo identificador desejado.
+
+## Conjuntos de dados
+
+- [Inventário da API](api/index.json): índice de endpoints e totais.
+- [Painel agregado](api/painel.json): visão geral, indicadores, rede de programas, formados e impacto (agregados).
+- [Ações — lista](api/acoes/index.json): as 201 ações resumidas (id, processo, título, tipo, natureza, coordenador, ano, total de participações).
+- [Extensionistas — completo](api/extensionistas/todos.json): as 757 pessoas com trajetória (ações coordenadas e em equipe), colaboradores e resumo gerado por IA.
+- [Extensionistas — lista](api/extensionistas/index.json): índice de extensionistas.
+- [Busca — índice](api/busca.json): blob de palavras-chave por ação (título, coordenador, área, fomento, resumo).
+- [Ações sem participações](api/sem-participacao.json): ações com público-alvo e equipe zerados.
+- [Pendências de relatório](api/pendencias-relatorio.json): ações sem relatório final aprovado.
+
+## Por item (um arquivo cada)
+
+- `api/acoes/<acao_id>.json` — uma ação: metadados + lista de atividades (público em contagens) + equipe de execução (201 arquivos).
+- `api/atividades/<atividade_id>.json` — uma atividade: público-alvo (total/aprovados/certificados/situação) + equipe (525 arquivos).
+- `api/extensionistas/<slug>.json` — uma pessoa: anos, funções, ações coordenadas, participações em equipe, colaboradores, resumo IA (757 arquivos).
+
+## Campos principais
+
+- Ação: `acao_id`, `Processo nº`, `Título ação`, `Natureza` (Extensão/Ensino), `Tipo ação`, `Coordenador(a)`, `Fomento`, `Grande área conhecimento`, `Área temática principal`, `Relatório aprovado`, `Data de cadastro`, `Resumo`, `total_participacoes`, `publico_alvo_total`, `atividades[]`, `equipe_execucao[]`.
+- Atividade: `atividade_id`, `numero`, `atividade`, `acao_id`, `publico_alvo{total,aprovados,certificados,situacao}`, `equipe_execucao[]`.
+- Extensionista: `slug`, `nome`, `resumo_ia`, `anos[]`, `funcoes[]`, `acoes_coordenadas[]`, `participacoes_equipe[]`, `colaboradores[]`.
+
+## Privacidade
+
+Sem CPF, e-mail ou data de nascimento. Público-alvo só como contagens
+(total, aprovados, certificados, situação) — nunca nomes. Equipe de execução
+como crédito público: nome, função e vínculo. A exportação tem trava automática
+que aborta se qualquer PII vazar.
+
+## Fonte
+
+SRC/Ifes — https://src.ifes.edu.br. Gerado pela biblioteca `src_etl`
+(github.com/ifesserra-lab/SRC_ETL). Página web: dados-abertos.html.

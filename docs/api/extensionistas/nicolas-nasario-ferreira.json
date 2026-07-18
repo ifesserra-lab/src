@@ -18,6 +18,7 @@
       "tipo": "Curso",
       "ano": "2022",
       "n": 26,
+      "pub": 23,
       "funcoes": [
         "MONITOR(A)"
       ]
@@ -28,6 +29,7 @@
       "tipo": "Programa",
       "ano": "2023",
       "n": 558,
+      "pub": 258,
       "funcoes": [
         "ALUNO(A) VOLUNTARIO"
       ]

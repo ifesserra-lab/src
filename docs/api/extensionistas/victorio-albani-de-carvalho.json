@@ -17,21 +17,24 @@
       "titulo": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
       "tipo": "Programa",
       "ano": "2021",
-      "n": 1
+      "n": 1,
+      "pub": 0
     },
     {
       "acao_id": "4210",
       "titulo": "Operador de Computador",
       "tipo": "Curso",
       "ano": "2022",
-      "n": 23
+      "n": 23,
+      "pub": 17
     },
     {
       "acao_id": "947",
       "titulo": "Rede de Laboratórios de Educação em Desenvolvimento de Soluções - LEDS",
       "tipo": "Programa em Rede",
       "ano": "2016",
-      "n": 4
+      "n": 4,
+      "pub": 0
     }
   ],
   "participacoes_equipe": [
@@ -41,6 +44,7 @@
       "tipo": "Curso",
       "ano": "2022",
       "n": 23,
+      "pub": 17,
       "funcoes": [
         "COORDENADOR(A)",
         "PROFESSOR(A)"
@@ -52,6 +56,7 @@
       "tipo": "Programa em Rede",
       "ano": "2016",
       "n": 4,
+      "pub": 0,
       "funcoes": [
         "COORDENADOR(A)"
       ]

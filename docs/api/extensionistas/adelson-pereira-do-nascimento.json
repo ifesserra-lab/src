@@ -26,21 +26,24 @@
       "titulo": "STEM - Experiência de Imersão e desenvolvimento de soluções para a área administrativa de uma empresa siderúrgica",
       "tipo": "Projeto",
       "ano": "2022",
-      "n": 15
+      "n": 15,
+      "pub": 10
     },
     {
       "acao_id": "4867",
       "titulo": "Empresa Morpheus Jr",
       "tipo": "Programa",
       "ano": "2024",
-      "n": 0
+      "n": 0,
+      "pub": 0
     },
     {
       "acao_id": "5199",
       "titulo": "JOVEM APRENDIZ IFES CAMPUS SERRA",
       "tipo": "Programa",
       "ano": "2024",
-      "n": 0
+      "n": 0,
+      "pub": 0
     }
   ],
   "participacoes_equipe": [
@@ -50,6 +53,7 @@
       "tipo": "Programa",
       "ano": "2017",
       "n": 220,
+      "pub": 126,
       "funcoes": [
         "ASSESSOR(A)",
         "COLABORADOR(A)",
@@ -62,6 +66,7 @@
       "tipo": "Programa",
       "ano": "2020",
       "n": 1611,
+      "pub": 905,
       "funcoes": [
         "ORGANIZADOR(A)",
         "ORIENTADOR(A)"
@@ -73,6 +78,7 @@
       "tipo": "Programa",
       "ano": "2021",
       "n": 189,
+      "pub": 152,
       "funcoes": [
         "INSTRUTOR(A)",
         "MENTOR(A)"
@@ -84,6 +90,7 @@
       "tipo": "Projeto",
       "ano": "2021",
       "n": 14,
+      "pub": 2,
       "funcoes": [
         "ORIENTADOR(A)"
       ]
@@ -94,6 +101,7 @@
       "tipo": "Projeto",
       "ano": "2022",
       "n": 15,
+      "pub": 10,
       "funcoes": [
         "COORDENADOR(A)"
       ]
@@ -104,6 +112,7 @@
       "tipo": "Programa",
       "ano": "2022",
       "n": 76,
+      "pub": 13,
       "funcoes": [
         "CONSULTOR(A)"
       ]
@@ -114,6 +123,7 @@
       "tipo": "Projeto",
       "ano": "2025",
       "n": 48,
+      "pub": 28,
       "funcoes": [
         "COLABORADOR(A)"
       ]

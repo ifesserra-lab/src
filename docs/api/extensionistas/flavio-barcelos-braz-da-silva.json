@@ -22,6 +22,7 @@
       "tipo": "Programa",
       "ano": "2017",
       "n": 220,
+      "pub": 126,
       "funcoes": [
         "COLABORADOR(A)",
         "MEMBRO DE COMITÊ GESTOR"
@@ -33,6 +34,7 @@
       "tipo": "Curso",
       "ano": "2017",
       "n": 84,
+      "pub": 36,
       "funcoes": [
         "COLABORADOR(A)",
         "INSTRUTOR(A)"
@@ -44,6 +46,7 @@
       "tipo": "Projeto",
       "ano": "2018",
       "n": 429,
+      "pub": 235,
       "funcoes": [
         "PALESTRANTE"
       ]
@@ -54,6 +57,7 @@
       "tipo": "Curso",
       "ano": "2016",
       "n": 77,
+      "pub": 29,
       "funcoes": [
         "ORIENTADOR(A)"
       ]
@@ -64,6 +68,7 @@
       "tipo": "Curso",
       "ano": "2016",
       "n": 21,
+      "pub": 3,
       "funcoes": [
         "ORIENTADOR(A)"
       ]

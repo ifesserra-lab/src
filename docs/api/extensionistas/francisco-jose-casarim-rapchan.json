@@ -23,28 +23,32 @@
       "titulo": "Programa Local Núcleo Incubador Campus Serra – NIS",
       "tipo": "Programa",
       "ano": "2017",
-      "n": 220
+      "n": 220,
+      "pub": 126
     },
     {
       "acao_id": "1883",
       "titulo": "Inova Serra",
       "tipo": "Programa",
       "ano": "2018",
-      "n": 6
+      "n": 6,
+      "pub": 0
     },
     {
       "acao_id": "3423",
       "titulo": "Programa Local Núcleo Incubador Campus Serra – NIS",
       "tipo": "Programa",
       "ano": "2021",
-      "n": 189
+      "n": 189,
+      "pub": 152
     },
     {
       "acao_id": "5421",
       "titulo": "Parque Científico e Tecnológico do InovaSerra – PCTec InovaSerra",
       "tipo": "Programa",
       "ano": "2025",
-      "n": 0
+      "n": 0,
+      "pub": 0
     }
   ],
   "participacoes_equipe": [
@@ -54,6 +58,7 @@
       "tipo": "Programa",
       "ano": "2017",
       "n": 220,
+      "pub": 126,
       "funcoes": [
         "COORDENADOR(A)",
         "MENTOR(A)"
@@ -65,6 +70,7 @@
       "tipo": "Curso",
       "ano": "2017",
       "n": 84,
+      "pub": 36,
       "funcoes": [
         "COORDENADOR(A) ADJUNTO(A)"
       ]
@@ -75,6 +81,7 @@
       "tipo": "Programa",
       "ano": "2018",
       "n": 6,
+      "pub": 0,
       "funcoes": [
         "COORDENADOR(A)"
       ]
@@ -85,6 +92,7 @@
       "tipo": "Programa",
       "ano": "2021",
       "n": 189,
+      "pub": 152,
       "funcoes": [
         "COORDENADOR(A)",
         "PROFESSOR(A)"
@@ -96,6 +104,7 @@
       "tipo": "Projeto",
       "ano": "2021",
       "n": 4,
+      "pub": 0,
       "funcoes": [
         "MEMBRO DE COMITÊ GESTOR"
       ]
@@ -106,6 +115,7 @@
       "tipo": "Programa",
       "ano": "2023",
       "n": 558,
+      "pub": 258,
       "funcoes": [
         "INSTRUTOR(A)"
       ]

@@ -29,28 +29,32 @@
       "titulo": "Desenvolvimento de um sistema multiplataforma para robôs de assistência e manutenção de quadras esportivas",
       "tipo": "Projeto",
       "ano": "2018",
-      "n": 3
+      "n": 3,
+      "pub": 1
     },
     {
       "acao_id": "3567",
       "titulo": "Laboratório IFMaker Serra: um ambiente colaborativo de aprendizagem e desenvolvimento de soluções",
       "tipo": "Projeto",
       "ano": "2021",
-      "n": 4
+      "n": 4,
+      "pub": 0
     },
     {
       "acao_id": "5086",
       "titulo": "Conectando Talentos: Robótica e Programação no IFES-Serra",
       "tipo": "Projeto",
       "ano": "2024",
-      "n": 218
+      "n": 218,
+      "pub": 168
     },
     {
       "acao_id": "5677",
       "titulo": "Jovens Inventores: O poder da Tecnologia Maker no Desenvolvimento Social",
       "tipo": "Projeto",
       "ano": "2025",
-      "n": 48
+      "n": 48,
+      "pub": 28
     }
   ],
   "participacoes_equipe": [
@@ -60,6 +64,7 @@
       "tipo": "Curso",
       "ano": "2017",
       "n": 84,
+      "pub": 36,
       "funcoes": [
         "COLABORADOR(A)"
       ]
@@ -70,6 +75,7 @@
       "tipo": "Projeto",
       "ano": "2018",
       "n": 3,
+      "pub": 1,
       "funcoes": [
         "COORDENADOR(A)",
         "ORIENTADOR(A)"
@@ -81,6 +87,7 @@
       "tipo": "Projeto",
       "ano": "2018",
       "n": 429,
+      "pub": 235,
       "funcoes": [
         "INSTRUTOR(A)",
         "PALESTRANTE"
@@ -92,6 +99,7 @@
       "tipo": "Curso",
       "ano": "2018",
       "n": 53,
+      "pub": 25,
       "funcoes": [
         "PALESTRANTE"
       ]
@@ -102,6 +110,7 @@
       "tipo": "Curso",
       "ano": "2019",
       "n": 13,
+      "pub": 6,
       "funcoes": [
         "PALESTRANTE"
       ]
@@ -112,6 +121,7 @@
       "tipo": "Projeto",
       "ano": "2020",
       "n": 10,
+      "pub": 0,
       "funcoes": [
         "PALESTRANTE"
       ]
@@ -122,6 +132,7 @@
       "tipo": "Programa",
       "ano": "2020",
       "n": 1611,
+      "pub": 905,
       "funcoes": [
         "APOIO TÉCNICO",
         "COLABORADOR(A)",
@@ -134,6 +145,7 @@
       "tipo": "Projeto",
       "ano": "2021",
       "n": 14,
+      "pub": 2,
       "funcoes": [
         "ORIENTADOR(A)"
       ]
@@ -144,6 +156,7 @@
       "tipo": "Projeto",
       "ano": "2021",
       "n": 4,
+      "pub": 0,
       "funcoes": [
         "COORDENADOR(A)"
       ]
@@ -154,6 +167,7 @@
       "tipo": "Programa",
       "ano": "2023",
       "n": 558,
+      "pub": 258,
       "funcoes": [
         "COLABORADOR(A)",
         "INSTRUTOR(A)",
@@ -166,6 +180,7 @@
       "tipo": "Projeto",
       "ano": "2024",
       "n": 218,
+      "pub": 168,
       "funcoes": [
         "COORDENADOR(A)",
         "INSTRUTOR(A)"
@@ -177,6 +192,7 @@
       "tipo": "Projeto",
       "ano": "2025",
       "n": 73,
+      "pub": 17,
       "funcoes": [
         "COLABORADOR(A)"
       ]
@@ -187,6 +203,7 @@
       "tipo": "Projeto",
       "ano": "2025",
       "n": 48,
+      "pub": 28,
       "funcoes": [
         "COLABORADOR(A)",
         "COORDENADOR(A)"
@@ -198,6 +215,7 @@
       "tipo": "Curso",
       "ano": "2016",
       "n": 77,
+      "pub": 29,
       "funcoes": [
         "AUXILIAR TÉCNICO"
       ]
@@ -208,6 +226,7 @@
       "tipo": "Evento",
       "ano": "2016",
       "n": 181,
+      "pub": 124,
       "funcoes": [
         "INSTRUTOR(A)"
       ]

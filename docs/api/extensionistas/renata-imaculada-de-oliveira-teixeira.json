@@ -17,6 +17,7 @@
       "tipo": "Projeto",
       "ano": "2019",
       "n": 5,
+      "pub": 0,
       "funcoes": [
         "COLABORADOR(A)"
       ]
@@ -27,6 +28,7 @@
       "tipo": "Curso",
       "ano": "2019",
       "n": 42,
+      "pub": 16,
       "funcoes": [
         "COLABORADOR(A)",
         "COORDENADOR(A) ADJUNTO(A)"

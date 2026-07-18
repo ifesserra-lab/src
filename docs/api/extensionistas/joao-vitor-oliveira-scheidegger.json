@@ -19,6 +19,7 @@
       "tipo": "Programa",
       "ano": "2020",
       "n": 1611,
+      "pub": 905,
       "funcoes": [
         "MONITOR(A)"
       ]
@@ -29,6 +30,7 @@
       "tipo": "Projeto",
       "ano": "2025",
       "n": 73,
+      "pub": 17,
       "funcoes": [
         "ALUNO(A) BOLSISTA",
         "MINISTRANTE"

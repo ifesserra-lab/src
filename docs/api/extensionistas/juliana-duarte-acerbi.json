@@ -18,6 +18,7 @@
       "tipo": "Evento",
       "ano": "2015",
       "n": 40,
+      "pub": 0,
       "funcoes": [
         "INTÉRPRETE"
       ]
@@ -28,6 +29,7 @@
       "tipo": "Curso",
       "ano": "2016",
       "n": 3,
+      "pub": 0,
       "funcoes": [
         "ORGANIZADOR(A)"
       ]

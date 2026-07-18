@@ -24,6 +24,7 @@
       "tipo": "Projeto",
       "ano": "2018",
       "n": 21,
+      "pub": 11,
       "funcoes": [
         "PROFESSOR(A)"
       ]
@@ -34,6 +35,7 @@
       "tipo": "Curso",
       "ano": "2018",
       "n": 53,
+      "pub": 25,
       "funcoes": [
         "COORDENADOR(A) ADJUNTO(A)",
         "PROFESSOR(A)"
@@ -45,6 +47,7 @@
       "tipo": "Programa",
       "ano": "2020",
       "n": 1611,
+      "pub": 905,
       "funcoes": [
         "ORIENTADOR(A)"
       ]
@@ -55,6 +58,7 @@
       "tipo": "Curso",
       "ano": "2025",
       "n": 35,
+      "pub": 24,
       "funcoes": [
         "ORIENTADOR(A)",
         "PROFESSOR(A)"
@@ -66,6 +70,7 @@
       "tipo": "Curso",
       "ano": "2015",
       "n": 25,
+      "pub": 20,
       "funcoes": [
         "COLABORADOR(A)"
       ]
@@ -76,6 +81,7 @@
       "tipo": "Programa",
       "ano": "2016",
       "n": 21,
+      "pub": 1,
       "funcoes": [
         "ORGANIZADOR(A)"
       ]

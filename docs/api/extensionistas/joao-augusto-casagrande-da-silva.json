@@ -20,6 +20,7 @@
       "tipo": "Evento",
       "ano": "2018",
       "n": 49,
+      "pub": 37,
       "funcoes": [
         "ALUNO(A) VOLUNTARIO"
       ]
@@ -30,6 +31,7 @@
       "tipo": "Programa",
       "ano": "2020",
       "n": 1611,
+      "pub": 905,
       "funcoes": [
         "ALUNO(A) VOLUNTARIO",
         "APOIO TÉCNICO"
@@ -41,6 +43,7 @@
       "tipo": "Programa",
       "ano": "2021",
       "n": 189,
+      "pub": 152,
       "funcoes": [
         "ALUNO(A) EM ATIVIDADE CURRICULAR"
       ]

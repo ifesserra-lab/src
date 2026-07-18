@@ -21,7 +21,8 @@
       "titulo": "Introdução à Programação Competitiva",
       "tipo": "Curso",
       "ano": "2016",
-      "n": 2
+      "n": 2,
+      "pub": 1
     }
   ],
   "participacoes_equipe": [
@@ -31,6 +32,7 @@
       "tipo": "Evento",
       "ano": "2018",
       "n": 49,
+      "pub": 37,
       "funcoes": [
         "ORGANIZADOR(A)"
       ]
@@ -41,6 +43,7 @@
       "tipo": "Projeto",
       "ano": "2020",
       "n": 10,
+      "pub": 0,
       "funcoes": [
         "PALESTRANTE"
       ]
@@ -51,6 +54,7 @@
       "tipo": "Programa",
       "ano": "2020",
       "n": 1611,
+      "pub": 905,
       "funcoes": [
         "APOIO TÉCNICO",
         "INSTRUTOR(A)",
@@ -64,6 +68,7 @@
       "tipo": "Curso",
       "ano": "2016",
       "n": 2,
+      "pub": 1,
       "funcoes": [
         "COORDENADOR(A)"
       ]

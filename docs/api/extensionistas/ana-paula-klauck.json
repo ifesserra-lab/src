@@ -21,21 +21,24 @@
       "titulo": "Let's Talk - Oficinas de conversação em língua inglesa",
       "tipo": "Projeto",
       "ano": "2021",
-      "n": 0
+      "n": 0,
+      "pub": 0
     },
     {
       "acao_id": "628",
       "titulo": "Gametalk: vamos falar sobre games?",
       "tipo": "Curso",
       "ano": "2016",
-      "n": 3
+      "n": 3,
+      "pub": 0
     },
     {
       "acao_id": "718",
       "titulo": "Programa Regular de Promoção da Cultura e da Arte no Ifes Campus Serra",
       "tipo": "Programa",
       "ano": "2016",
-      "n": 21
+      "n": 21,
+      "pub": 1
     }
   ],
   "participacoes_equipe": [
@@ -45,6 +48,7 @@
       "tipo": "Curso",
       "ano": "2017",
       "n": 48,
+      "pub": 33,
       "funcoes": [
         "PROFESSOR(A)"
       ]
@@ -55,6 +59,7 @@
       "tipo": "Curso",
       "ano": "2018",
       "n": 53,
+      "pub": 25,
       "funcoes": [
         "PROFESSOR(A)"
       ]
@@ -65,6 +70,7 @@
       "tipo": "Evento",
       "ano": "2015",
       "n": 40,
+      "pub": 0,
       "funcoes": [
         "ORGANIZADOR(A)"
       ]
@@ -75,6 +81,7 @@
       "tipo": "Curso",
       "ano": "2016",
       "n": 3,
+      "pub": 0,
       "funcoes": [
         "COORDENADOR(A)"
       ]
@@ -85,6 +92,7 @@
       "tipo": "Programa",
       "ano": "2016",
       "n": 21,
+      "pub": 1,
       "funcoes": [
         "COORDENADOR(A)",
         "PALESTRANTE"

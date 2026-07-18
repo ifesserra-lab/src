@@ -21,35 +21,40 @@
       "titulo": "Mulheres Mil – Eletricista Instalador Predial em Baixa Tensão",
       "tipo": "Curso",
       "ano": "2023",
-      "n": 74
+      "n": 74,
+      "pub": 62
     },
     {
       "acao_id": "5357",
       "titulo": "MULHERES MIL - Artesão em Bordado a mão",
       "tipo": "Curso",
       "ano": "2025",
-      "n": 35
+      "n": 35,
+      "pub": 24
     },
     {
       "acao_id": "5645",
       "titulo": "Asas para o Futuro - Eletricista Instalador Predial em Baixa Tensão",
       "tipo": "Curso",
       "ano": "2025",
-      "n": 36
+      "n": 36,
+      "pub": 29
     },
     {
       "acao_id": "5907",
       "titulo": "Mulheres Mil - Eletricista Instalador Predial em Baixa Tensão",
       "tipo": "Curso",
       "ano": "2026",
-      "n": 0
+      "n": 0,
+      "pub": 0
     },
     {
       "acao_id": "5961",
       "titulo": "ASAS - Operador de Computador",
       "tipo": "Curso",
       "ano": "2026",
-      "n": 0
+      "n": 0,
+      "pub": 0
     }
   ],
   "participacoes_equipe": [
@@ -59,6 +64,7 @@
       "tipo": "Curso",
       "ano": "2018",
       "n": 53,
+      "pub": 25,
       "funcoes": [
         "PROFESSOR(A)"
       ]
@@ -69,6 +75,7 @@
       "tipo": "Projeto",
       "ano": "2019",
       "n": 19,
+      "pub": 5,
       "funcoes": [
         "PROFESSOR(A)"
       ]
@@ -79,6 +86,7 @@
       "tipo": "Curso",
       "ano": "2019",
       "n": 13,
+      "pub": 6,
       "funcoes": [
         "PROFESSOR(A)"
       ]
@@ -89,6 +97,7 @@
       "tipo": "Curso",
       "ano": "2022",
       "n": 26,
+      "pub": 23,
       "funcoes": [
         "COORDENADOR(A) ADJUNTO(A)"
       ]
@@ -99,6 +108,7 @@
       "tipo": "Curso",
       "ano": "2023",
       "n": 74,
+      "pub": 62,
       "funcoes": [
         "COORDENADOR(A)"
       ]
@@ -109,6 +119,7 @@
       "tipo": "Curso",
       "ano": "2025",
       "n": 35,
+      "pub": 24,
       "funcoes": [
         "COORDENADOR(A)"
       ]
@@ -119,6 +130,7 @@
       "tipo": "Curso",
       "ano": "2025",
       "n": 36,
+      "pub": 29,
       "funcoes": [
         "COORDENADOR(A)"
       ]

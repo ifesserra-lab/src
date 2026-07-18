@@ -18,7 +18,8 @@
       "titulo": "I Am Here: Registro de Frequência por Reconhecimento Facial",
       "tipo": "Projeto",
       "ano": "2019",
-      "n": 6
+      "n": 6,
+      "pub": 0
     }
   ],
   "participacoes_equipe": [
@@ -28,6 +29,7 @@
       "tipo": "Programa",
       "ano": "2017",
       "n": 220,
+      "pub": 126,
       "funcoes": [
         "MEMBRO DE COMITÊ GESTOR"
       ]
@@ -38,6 +40,7 @@
       "tipo": "Projeto",
       "ano": "2019",
       "n": 6,
+      "pub": 0,
       "funcoes": [
         "COORDENADOR(A)"
       ]
@@ -48,6 +51,7 @@
       "tipo": "Programa",
       "ano": "2016",
       "n": 104,
+      "pub": 22,
       "funcoes": [
         "EXPOSITOR(A)"
       ]

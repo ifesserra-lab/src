@@ -21,6 +21,7 @@
       "tipo": "Programa",
       "ano": "2020",
       "n": 1611,
+      "pub": 905,
       "funcoes": [
         "ORGANIZADOR(A)"
       ]
@@ -31,6 +32,7 @@
       "tipo": "Programa",
       "ano": "2023",
       "n": 558,
+      "pub": 258,
       "funcoes": [
         "ALUNO(A) BOLSISTA",
         "MINISTRANTE"
@@ -42,6 +44,7 @@
       "tipo": "Projeto",
       "ano": "2025",
       "n": 73,
+      "pub": 17,
       "funcoes": [
         "ALUNO(A) BOLSISTA"
       ]
@@ -52,6 +55,7 @@
       "tipo": "Projeto",
       "ano": "2025",
       "n": 48,
+      "pub": 28,
       "funcoes": [
         "ALUNO(A) BOLSISTA",
         "ALUNO(A) VOLUNTARIO"

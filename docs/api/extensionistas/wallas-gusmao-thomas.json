@@ -16,7 +16,8 @@
       "titulo": "SEMANA DE CONTROLE E AUTOMAÇÃO",
       "tipo": "Evento",
       "ano": "2016",
-      "n": 181
+      "n": 181,
+      "pub": 124
     }
   ],
   "participacoes_equipe": [
@@ -26,6 +27,7 @@
       "tipo": "Projeto",
       "ano": "2025",
       "n": 48,
+      "pub": 28,
       "funcoes": [
         "COLABORADOR(A)"
       ]
@@ -36,6 +38,7 @@
       "tipo": "Evento",
       "ano": "2016",
       "n": 181,
+      "pub": 124,
       "funcoes": [
         "COORDENADOR(A)"
       ]

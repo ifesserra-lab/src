@@ -18,6 +18,7 @@
       "tipo": "Curso",
       "ano": "2017",
       "n": 12,
+      "pub": 8,
       "funcoes": [
         "ALUNO(A) VOLUNTARIO"
       ]
@@ -28,6 +29,7 @@
       "tipo": "Projeto",
       "ano": "2018",
       "n": 429,
+      "pub": 235,
       "funcoes": [
         "EXPOSITOR(A)"
       ]

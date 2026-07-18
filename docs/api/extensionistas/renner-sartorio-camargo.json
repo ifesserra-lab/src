@@ -15,7 +15,8 @@
       "titulo": "ELETRICISTA INSTALADOR PREDIAL DE BAIXA TENSÃO",
       "tipo": "Curso",
       "ano": "2022",
-      "n": 26
+      "n": 26,
+      "pub": 23
     }
   ],
   "participacoes_equipe": [
@@ -25,6 +26,7 @@
       "tipo": "Programa",
       "ano": "2020",
       "n": 1611,
+      "pub": 905,
       "funcoes": [
         "COORDENADOR(A) TÉCNICO-CIENTÍFICO"
       ]

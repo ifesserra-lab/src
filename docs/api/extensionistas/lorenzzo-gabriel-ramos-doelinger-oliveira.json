@@ -19,6 +19,7 @@
       "tipo": "Projeto",
       "ano": "2022",
       "n": 31,
+      "pub": 3,
       "funcoes": [
         "ALUNO(A) EM ATIVIDADE CURRICULAR"
       ]
@@ -29,6 +30,7 @@
       "tipo": "Programa",
       "ano": "2022",
       "n": 76,
+      "pub": 13,
       "funcoes": [
         "ALUNO(A) VOLUNTARIO"
       ]
@@ -39,6 +41,7 @@
       "tipo": "Projeto",
       "ano": "2026",
       "n": 316,
+      "pub": 227,
       "funcoes": [
         "EXTENSIONISTA"
       ]

@@ -429,6 +429,98 @@ def _pagina_pendencias(cons: dict, slugs: dict) -> str:
                 f'<div class="card">{top}</div>{tabela}')
 
 
+# ------------------------------------------------------------- dados abertos
+def _fmt_bytes(n: float) -> str:
+    for u in ("B", "KB", "MB", "GB"):
+        if n < 1024 or u == "GB":
+            return f"{n:.0f} {u}" if u == "B" else f"{n:.1f} {u}"
+        n /= 1024
+    return f"{n:.1f} GB"
+
+
+def _pagina_dados(out_dir: str | Path, stats: dict) -> str:
+    """Página de Dados Abertos: downloads em JSON (sem PII) + llms.txt para IA."""
+    out = Path(out_dir)
+
+    def sz(rel: str) -> str:
+        p = out / rel
+        return _fmt_bytes(p.stat().st_size) if p.exists() else "—"
+
+    n_ac = stats.get("paginas_acao", 0)
+    n_at = stats.get("atividades", 0)
+    n_ex = stats.get("extensionistas", 0)
+
+    # destaque llms.txt (para IA)
+    ia = ('<div class="card" style="margin-top:16px;border-left:3px solid var(--cta)">'
+          '<h2 style="margin-top:0">Para uma IA ler: <code>llms.txt</code></h2>'
+          '<p class="sec-desc">Arquivo em texto (Markdown) que descreve todos os conjuntos de '
+          'dados e aponta os links — no padrão <b>llms.txt</b>, feito para modelos de IA lerem e '
+          'navegarem o acervo. Cole o link num chat de IA ou baixe o arquivo.</p>'
+          f'<p><a class="lk" href="llms.txt" download>⬇ Baixar llms.txt</a> · '
+          f'<a class="lk" href="llms.txt">abrir</a> <span class="sec-desc">({sz("llms.txt")})</span></p>'
+          '</div>')
+
+    datasets = [
+        ("Inventário da API", "api/index.json", "Índice dos endpoints e totais do acervo."),
+        ("Painel agregado", "api/painel.json",
+         "Visão geral, indicadores, rede de programas, formados e impacto (tudo agregado)."),
+        ("Ações — lista", "api/acoes/index.json", f"As {n_ac} ações, resumidas."),
+        ("Extensionistas — completo", "api/extensionistas/todos.json",
+         f"As {n_ex} pessoas com trajetória (ações coordenadas/equipe) e resumo por IA."),
+        ("Extensionistas — lista", "api/extensionistas/index.json", "Índice de extensionistas."),
+        ("Busca — índice", "api/busca.json", "Blob de busca por palavras-chave das ações."),
+        ("Ações sem participações", "api/sem-participacao.json",
+         "Ações com público-alvo e equipe zerados (pendência de registro)."),
+        ("Pendências de relatório", "api/pendencias-relatorio.json",
+         "Ações sem relatório final aprovado."),
+    ]
+    rows = "".join(
+        f'<tr><td><a class="lk" href="{url}" download>{escape(nome)}</a></td>'
+        f'<td>{escape(desc)}</td><td>JSON</td><td>{sz(url)}</td>'
+        f'<td><a class="lk" href="{url}">abrir</a></td></tr>'
+        for nome, url, desc in datasets)
+    tabela = (f'<div class="card" style="margin-top:16px"><h2 style="margin-top:0">Conjuntos de dados</h2>'
+              f'<table class="tb"><tr><th>Conjunto</th><th>Descrição</th><th>Formato</th>'
+              f'<th>Tamanho</th><th></th></tr>{rows}</table></div>')
+
+    # endpoints por item (padrões)
+    padroes = (
+        '<div class="card" style="margin-top:16px"><h2 style="margin-top:0">Por item (um arquivo cada)</h2>'
+        '<table class="tb"><tr><th>Padrão</th><th>O que é</th><th>Qtd.</th></tr>'
+        f'<tr><td><code>api/acoes/&lt;acao_id&gt;.json</code></td><td>Uma ação + atividades + equipe.</td><td>{n_ac}</td></tr>'
+        f'<tr><td><code>api/atividades/&lt;atividade_id&gt;.json</code></td><td>Uma atividade (público em contagens + equipe).</td><td>{n_at}</td></tr>'
+        f'<tr><td><code>api/extensionistas/&lt;slug&gt;.json</code></td><td>Trajetória de uma pessoa + resumo IA.</td><td>{n_ex}</td></tr>'
+        '</table></div>')
+
+    priv = (
+        '<div class="card" style="margin-top:16px"><h2 style="margin-top:0">Privacidade e uso</h2>'
+        '<p class="sec-desc" style="line-height:1.6">'
+        '<b>Sem dados pessoais de alunos.</b> Público-alvo aparece apenas como <b>contagens</b> '
+        '(inscritos, aprovados, certificados, situação) — nunca nomes. A equipe executora é '
+        'listada como <b>crédito público de execução</b> (nome, função, vínculo), como em '
+        'certificados. <b>Nenhum arquivo contém CPF, e-mail ou data de nascimento</b> — há uma '
+        'trava automática que bloqueia a exportação se qualquer PII vazar.<br><br>'
+        'Fonte: SRC/Ifes (<code>src.ifes.edu.br</code>). Dados públicos institucionais de extensão '
+        'e ensino. Gerado pela lib <code>src_etl</code>.</p></div>')
+
+    como = (
+        '<div class="card" style="margin-top:16px"><h2 style="margin-top:0">Como usar</h2>'
+        '<pre style="overflow:auto;background:var(--parchment);padding:14px;border-radius:var(--radius-sm);'
+        'font-family:var(--mono);font-size:13px;line-height:1.5"># baixar tudo de uma pessoa\n'
+        'curl -s .../api/extensionistas/todos.json | jq \'.[0]\'\n\n'
+        '# lista de ações\n'
+        'curl -s .../api/acoes/index.json | jq \'.[] | {titulo, coordenador, ano}\'</pre>'
+        '<p class="sec-desc">Troque <code>...</code> pela URL desta página. Todos os arquivos são '
+        'JSON UTF-8; <code>llms.txt</code> é texto.</p></div>')
+
+    corpo = ia + tabela + padroes + priv + como
+    return _doc("Dados Abertos — Campus Serra", "", "dados-abertos.html",
+                "Dados abertos",
+                "Dados abertos da extensão — Campus Serra",
+                "Baixe os dados em JSON (sem CPF nem e-mail) e o llms.txt para uma IA ler o acervo",
+                corpo)
+
+
 # ------------------------------------------------------------- extensionistas
 def _ego_grafo(nome: str, colabs: list[tuple[str, str, int]]) -> str:
     """Grafo ego: pessoa central + colaboradores ao redor (aresta = nº ações)."""
@@ -569,9 +661,15 @@ def _pagina_extensionista(p: dict, resumo: str | None, colabs: list) -> str:
                       f'foi da equipe). Escalas independentes por série.</p>'
                       f'{_barras_v2(ppa)}</div>')
     # impacto por ação da equipe (soma do público das atividades em que atuou)
+    # e nomes das atividades em que atuou, por ação
     imp_eq: dict = {}
+    ativ_por_acao: dict = {}
     for at in p.get("atividades", []):
-        imp_eq[at.get("acao_id")] = imp_eq.get(at.get("acao_id"), 0) + at.get("pub", 0)
+        aid = at.get("acao_id")
+        imp_eq[aid] = imp_eq.get(aid, 0) + at.get("pub", 0)
+        nm = (at.get("atividade") or "").strip()
+        if nm:
+            ativ_por_acao.setdefault(aid, []).append(nm)
     coord_ids = {r["acao_id"] for r in p["coordena"]}
     if p["coordena"]:
         rows = "".join(
@@ -586,17 +684,26 @@ def _pagina_extensionista(p: dict, resumo: str | None, colabs: list) -> str:
                       f'<table class="tb"><tr><th>Ação</th><th>Tipo</th><th>Ano</th>'
                       f'<th>Participações da ação</th><th>Pessoas impactadas</th></tr>{rows}</table></div>')
     if p["participa"]:
+        def _ativs(aid):
+            nomes = sorted(set(ativ_por_acao.get(aid, [])))
+            if not nomes:
+                return "—"
+            txt = "; ".join(escape(x[:60]) for x in nomes[:4])
+            if len(nomes) > 4:
+                txt += f' <span class="sec-desc">+{len(nomes)-4}</span>'
+            return txt
         rows = "".join(
-            f'<tr><td><a class="lk" href="../acoes/{r["acao_id"]}.html">{escape(r["titulo"][:75])}</a></td>'
+            f'<tr><td><a class="lk" href="../acoes/{r["acao_id"]}.html">{escape(r["titulo"][:70])}</a></td>'
+            f'<td>{_ativs(r["acao_id"])}</td>'
             f'<td>{escape(", ".join(r["funcoes"]))}</td><td>{escape(r["ano"])}</td>'
             f'<td>{"—" if r["acao_id"] in coord_ids else imp_eq.get(r["acao_id"], 0)}</td></tr>'
             for r in sorted(p["participa"], key=lambda x: x["ano"], reverse=True))
         blocos.append(f'<div class="card" style="margin-top:14px"><h2>Participações em equipe</h2>'
-                      f'<p class="sec-desc"><b>Pessoas impactadas</b> = público-alvo distinto das '
-                      f'atividades em que atuou nesta ação ("—" quando também é coordenador(a), já '
-                      f'contado acima).</p>'
-                      f'<table class="tb"><tr><th>Ação</th><th>Função</th><th>Ano</th>'
-                      f'<th>Pessoas impactadas</th></tr>{rows}</table></div>')
+                      f'<p class="sec-desc"><b>Atividade</b> = atividade(s) da ação em que a pessoa '
+                      f'atuou. <b>Pessoas impactadas</b> = público-alvo distinto dessas atividades '
+                      f'("—" quando também é coordenador(a), já contado acima).</p>'
+                      f'<table class="tb"><tr><th>Ação</th><th>Atividade</th><th>Função</th>'
+                      f'<th>Ano</th><th>Pessoas impactadas</th></tr>{rows}</table></div>')
     # rede pessoal: com quem trabalhou (grafo ego + tabela)
     if colabs:
         crows = "".join(
@@ -748,8 +855,10 @@ def gerar_site(
             _pagina_extensionista(p, resumos.get(p["slug"]), colabs), encoding="utf-8")
     (out / "extensionistas" / "index.html").write_text(
         _pagina_extensionistas_index(pessoas), encoding="utf-8")
-    return {"paginas_acao": n, "atividades": n_ativ,
-            "extensionistas": len(pessoas), "out": str(out)}
+    stats = {"paginas_acao": n, "atividades": n_ativ,
+             "extensionistas": len(pessoas), "out": str(out)}
+    (out / "dados-abertos.html").write_text(_pagina_dados(out, stats), encoding="utf-8")
+    return stats
 
 
 def _cli(argv: list[str] | None = None) -> int:

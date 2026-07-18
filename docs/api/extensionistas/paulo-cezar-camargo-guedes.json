@@ -18,21 +18,24 @@
       "titulo": "O IFES é o meu lugar",
       "tipo": "Curso",
       "ano": "2018",
-      "n": 96
+      "n": 96,
+      "pub": 74
     },
     {
       "acao_id": "2591",
       "titulo": "O IFES é o meu lugar",
       "tipo": "Curso",
       "ano": "2019",
-      "n": 106
+      "n": 106,
+      "pub": 80
     },
     {
       "acao_id": "2650",
       "titulo": "Matemática na Rede",
       "tipo": "Curso",
       "ano": "2019",
-      "n": 40
+      "n": 40,
+      "pub": 34
     }
   ],
   "participacoes_equipe": [
@@ -42,6 +45,7 @@
       "tipo": "Curso",
       "ano": "2018",
       "n": 96,
+      "pub": 74,
       "funcoes": [
         "COLABORADOR(A)",
         "COORDENADOR(A)"
@@ -53,6 +57,7 @@
       "tipo": "Curso",
       "ano": "2019",
       "n": 106,
+      "pub": 80,
       "funcoes": [
         "COORDENADOR(A)"
       ]
@@ -63,6 +68,7 @@
       "tipo": "Curso",
       "ano": "2019",
       "n": 40,
+      "pub": 34,
       "funcoes": [
         "COORDENADOR(A)"
       ]
@@ -73,6 +79,7 @@
       "tipo": "Projeto",
       "ano": "2023",
       "n": 87,
+      "pub": 79,
       "funcoes": [
         "PROFESSOR(A) VOLUNTÁRIO"
       ]

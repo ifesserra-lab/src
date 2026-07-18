@@ -16,7 +16,8 @@
       "titulo": "Maratona de Programação",
       "tipo": "Evento",
       "ano": "2018",
-      "n": 49
+      "n": 49,
+      "pub": 37
     }
   ],
   "participacoes_equipe": [
@@ -26,6 +27,7 @@
       "tipo": "Evento",
       "ano": "2018",
       "n": 49,
+      "pub": 37,
       "funcoes": [
         "COORDENADOR(A)"
       ]
@@ -36,6 +38,7 @@
       "tipo": "Projeto",
       "ano": "2021",
       "n": 14,
+      "pub": 2,
       "funcoes": [
         "ORIENTADOR(A)"
       ]

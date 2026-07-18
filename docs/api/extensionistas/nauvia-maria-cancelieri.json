@@ -18,7 +18,8 @@
       "titulo": "QUÍMICA VERDE APLICADA: oficinas e workshops",
       "tipo": "Projeto",
       "ano": "2023",
-      "n": 159
+      "n": 159,
+      "pub": 134
     }
   ],
   "participacoes_equipe": [
@@ -28,6 +29,7 @@
       "tipo": "Curso",
       "ano": "2018",
       "n": 53,
+      "pub": 25,
       "funcoes": [
         "PALESTRANTE"
       ]
@@ -38,6 +40,7 @@
       "tipo": "Programa",
       "ano": "2023",
       "n": 558,
+      "pub": 258,
       "funcoes": [
         "MINISTRANTE"
       ]
@@ -48,6 +51,7 @@
       "tipo": "Projeto",
       "ano": "2023",
       "n": 159,
+      "pub": 134,
       "funcoes": [
         "COORDENADOR(A)",
         "ORGANIZADOR(A)"

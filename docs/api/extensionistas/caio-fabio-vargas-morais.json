@@ -16,6 +16,7 @@
       "tipo": "Evento",
       "ano": "2015",
       "n": 40,
+      "pub": 0,
       "funcoes": [
         "INTÉRPRETE"
       ]

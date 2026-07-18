@@ -23,6 +23,7 @@
       "tipo": "Curso",
       "ano": "2017",
       "n": 84,
+      "pub": 36,
       "funcoes": [
         "COORDENADOR(A) ADJUNTO(A)",
         "INSTRUTOR(A)",
@@ -35,6 +36,7 @@
       "tipo": "Projeto",
       "ano": "2024",
       "n": 218,
+      "pub": 168,
       "funcoes": [
         "MEMBRO DE COMITÊ GESTOR"
       ]
@@ -45,6 +47,7 @@
       "tipo": "Curso",
       "ano": "2016",
       "n": 77,
+      "pub": 29,
       "funcoes": [
         "AVALIADOR(A)",
         "COLABORADOR(A)"
@@ -56,6 +59,7 @@
       "tipo": "Curso",
       "ano": "2016",
       "n": 21,
+      "pub": 3,
       "funcoes": [
         "COLABORADOR(A)"
       ]

@@ -17,7 +17,8 @@
       "titulo": "APEXT 2026 – Atendimentos Personalizados e Monitorias de Extensão Tecnológica",
       "tipo": "Projeto",
       "ano": "2026",
-      "n": 0
+      "n": 0,
+      "pub": 0
     }
   ],
   "participacoes_equipe": [
@@ -27,6 +28,7 @@
       "tipo": "Curso",
       "ano": "2017",
       "n": 84,
+      "pub": 36,
       "funcoes": [
         "COLABORADOR(A)"
       ]
@@ -37,6 +39,7 @@
       "tipo": "Programa",
       "ano": "2020",
       "n": 1611,
+      "pub": 905,
       "funcoes": [
         "ORGANIZADOR(A)"
       ]
@@ -47,6 +50,7 @@
       "tipo": "Projeto",
       "ano": "2026",
       "n": 316,
+      "pub": 227,
       "funcoes": [
         "ORGANIZADOR(A)"
       ]

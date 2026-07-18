@@ -21,6 +21,7 @@
       "tipo": "Curso",
       "ano": "2018",
       "n": 53,
+      "pub": 25,
       "funcoes": [
         "PALESTRANTE"
       ]
@@ -31,6 +32,7 @@
       "tipo": "Projeto",
       "ano": "2019",
       "n": 231,
+      "pub": 86,
       "funcoes": [
         "ASSESSOR(A)"
       ]
@@ -41,6 +43,7 @@
       "tipo": "Programa",
       "ano": "2020",
       "n": 1611,
+      "pub": 905,
       "funcoes": [
         "APOIO TÉCNICO",
         "INSTRUTOR(A)"

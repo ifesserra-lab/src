@@ -18,6 +18,7 @@
       "tipo": "Curso",
       "ano": "2017",
       "n": 48,
+      "pub": 33,
       "funcoes": [
         "PROFESSOR(A)"
       ]
@@ -28,6 +29,7 @@
       "tipo": "Evento",
       "ano": "2016",
       "n": 181,
+      "pub": 124,
       "funcoes": [
         "COLABORADOR(A)"
       ]

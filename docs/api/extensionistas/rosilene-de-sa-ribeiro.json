@@ -20,21 +20,24 @@
       "titulo": "Física ao Alcance de Todos",
       "tipo": "Projeto",
       "ano": "2018",
-      "n": 429
+      "n": 429,
+      "pub": 235
     },
     {
       "acao_id": "2932",
       "titulo": "Física ao Alcance de Todos",
       "tipo": "Projeto",
       "ano": "2020",
-      "n": 10
+      "n": 10,
+      "pub": 0
     },
     {
       "acao_id": "3768",
       "titulo": "Física ao Alcance de Todos",
       "tipo": "Projeto",
       "ano": "2022",
-      "n": 11
+      "n": 11,
+      "pub": 3
     }
   ],
   "participacoes_equipe": [
@@ -44,6 +47,7 @@
       "tipo": "Programa",
       "ano": "2017",
       "n": 220,
+      "pub": 126,
       "funcoes": [
         "COLABORADOR(A)"
       ]
@@ -54,6 +58,7 @@
       "tipo": "Projeto",
       "ano": "2018",
       "n": 429,
+      "pub": 235,
       "funcoes": [
         "COORDENADOR(A)",
         "ORIENTADOR(A)",
@@ -66,6 +71,7 @@
       "tipo": "Projeto",
       "ano": "2020",
       "n": 10,
+      "pub": 0,
       "funcoes": [
         "COORDENADOR(A)"
       ]
@@ -76,6 +82,7 @@
       "tipo": "Projeto",
       "ano": "2022",
       "n": 11,
+      "pub": 3,
       "funcoes": [
         "COORDENADOR(A)",
         "ORIENTADOR(A)"

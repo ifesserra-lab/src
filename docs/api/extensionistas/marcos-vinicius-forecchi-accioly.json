@@ -18,6 +18,7 @@
       "tipo": "Evento",
       "ano": "2015",
       "n": 40,
+      "pub": 0,
       "funcoes": [
         "MENTOR(A)"
       ]
@@ -28,6 +29,7 @@
       "tipo": "Programa",
       "ano": "2016",
       "n": 104,
+      "pub": 22,
       "funcoes": [
         "COLABORADOR(A)"
       ]

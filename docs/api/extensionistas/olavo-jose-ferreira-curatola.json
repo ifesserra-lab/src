@@ -20,6 +20,7 @@
       "tipo": "Projeto",
       "ano": "2019",
       "n": 6,
+      "pub": 0,
       "funcoes": [
         "ALUNO(A) VOLUNTARIO",
         "COLABORADOR(A)"
@@ -31,6 +32,7 @@
       "tipo": "Programa",
       "ano": "2016",
       "n": 104,
+      "pub": 22,
       "funcoes": [
         "ALUNO(A) VOLUNTARIO",
         "EXPOSITOR(A)",

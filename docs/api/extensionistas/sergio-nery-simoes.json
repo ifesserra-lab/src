@@ -19,7 +19,8 @@
       "titulo": "SIPAC - Sistema de Informação da Produção Agropecuária capixaba",
       "tipo": "Projeto",
       "ano": "2016",
-      "n": 7
+      "n": 7,
+      "pub": 1
     }
   ],
   "participacoes_equipe": [
@@ -29,6 +30,7 @@
       "tipo": "Projeto",
       "ano": "2018",
       "n": 7,
+      "pub": 0,
       "funcoes": [
         "COORDENADOR(A) ADJUNTO(A)"
       ]
@@ -39,6 +41,7 @@
       "tipo": "Programa",
       "ano": "2020",
       "n": 1611,
+      "pub": 905,
       "funcoes": [
         "APOIO TÉCNICO"
       ]
@@ -49,6 +52,7 @@
       "tipo": "Projeto",
       "ano": "2016",
       "n": 7,
+      "pub": 1,
       "funcoes": [
         "COORDENADOR(A)"
       ]
@@ -59,6 +63,7 @@
       "tipo": "Projeto",
       "ano": "2016",
       "n": 5,
+      "pub": 0,
       "funcoes": [
         "COORDENADOR(A) ADJUNTO(A)"
       ]
@@ -69,6 +74,7 @@
       "tipo": "Programa",
       "ano": "2016",
       "n": 104,
+      "pub": 22,
       "funcoes": [
         "COLABORADOR(A)"
       ]

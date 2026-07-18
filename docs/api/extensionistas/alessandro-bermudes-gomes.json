@@ -20,14 +20,16 @@
       "titulo": "PRÉ – IFES Campus Serra",
       "tipo": "Curso",
       "ano": "2017",
-      "n": 48
+      "n": 48,
+      "pub": 33
     },
     {
       "acao_id": "1546",
       "titulo": "Ifes para todos",
       "tipo": "Programa",
       "ano": "2018",
-      "n": 18
+      "n": 18,
+      "pub": 17
     }
   ],
   "participacoes_equipe": [
@@ -37,6 +39,7 @@
       "tipo": "Curso",
       "ano": "2017",
       "n": 48,
+      "pub": 33,
       "funcoes": [
         "COORDENADOR(A)"
       ]
@@ -47,6 +50,7 @@
       "tipo": "Curso",
       "ano": "2017",
       "n": 84,
+      "pub": 36,
       "funcoes": [
         "COLABORADOR(A)"
       ]
@@ -57,6 +61,7 @@
       "tipo": "Programa",
       "ano": "2018",
       "n": 18,
+      "pub": 17,
       "funcoes": [
         "COORDENADOR(A)"
       ]
@@ -67,6 +72,7 @@
       "tipo": "Curso",
       "ano": "2018",
       "n": 96,
+      "pub": 74,
       "funcoes": [
         "COORDENADOR(A) ADJUNTO(A)"
       ]
@@ -77,6 +83,7 @@
       "tipo": "Programa",
       "ano": "2018",
       "n": 547,
+      "pub": 500,
       "funcoes": [
         "COORDENADOR(A) ADJUNTO(A)"
       ]
@@ -87,6 +94,7 @@
       "tipo": "Curso",
       "ano": "2019",
       "n": 106,
+      "pub": 80,
       "funcoes": [
         "COORDENADOR(A) ADJUNTO(A)"
       ]
@@ -97,6 +105,7 @@
       "tipo": "Projeto",
       "ano": "2026",
       "n": 316,
+      "pub": 227,
       "funcoes": [
         "ORGANIZADOR(A)"
       ]

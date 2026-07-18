@@ -26,14 +26,16 @@
       "titulo": "Desafio Ifes de Negócios Socais",
       "tipo": "Evento",
       "ano": "2015",
-      "n": 40
+      "n": 40,
+      "pub": 0
     },
     {
       "acao_id": "617",
       "titulo": "Sistema de Informação para Notificação, Captação, Distribuição de Órgão",
       "tipo": "Projeto",
       "ano": "2016",
-      "n": 0
+      "n": 0,
+      "pub": 0
     }
   ],
   "participacoes_equipe": [
@@ -43,6 +45,7 @@
       "tipo": "Curso",
       "ano": "2017",
       "n": 84,
+      "pub": 36,
       "funcoes": [
         "INSTRUTOR(A)"
       ]
@@ -53,6 +56,7 @@
       "tipo": "Projeto",
       "ano": "2018",
       "n": 4,
+      "pub": 0,
       "funcoes": [
         "COORDENADOR(A) ADJUNTO(A)"
       ]
@@ -63,6 +67,7 @@
       "tipo": "Projeto",
       "ano": "2020",
       "n": 7,
+      "pub": 0,
       "funcoes": [
         "COLABORADOR(A)"
       ]
@@ -73,6 +78,7 @@
       "tipo": "Projeto",
       "ano": "2022",
       "n": 31,
+      "pub": 3,
       "funcoes": [
         "COLABORADOR(A)"
       ]
@@ -83,6 +89,7 @@
       "tipo": "Evento",
       "ano": "2015",
       "n": 40,
+      "pub": 0,
       "funcoes": [
         "COORDENADOR(A)"
       ]
@@ -93,6 +100,7 @@
       "tipo": "Curso",
       "ano": "2016",
       "n": 77,
+      "pub": 29,
       "funcoes": [
         "INSTRUTOR(A)",
         "ORIENTADOR(A)"
@@ -104,6 +112,7 @@
       "tipo": "Programa",
       "ano": "2016",
       "n": 104,
+      "pub": 22,
       "funcoes": [
         "COORDENADOR(A)",
         "EXPOSITOR(A)",
@@ -116,6 +125,7 @@
       "tipo": "Programa em Rede",
       "ano": "2016",
       "n": 4,
+      "pub": 0,
       "funcoes": [
         "AUXILIAR TÉCNICO"
       ]

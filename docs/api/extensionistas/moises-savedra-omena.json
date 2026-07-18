@@ -24,70 +24,80 @@
       "titulo": "ESPM-Empregos: Um serviço inteligente para promover a empregabilidade",
       "tipo": "Projeto",
       "ano": "2018",
-      "n": 7
+      "n": 7,
+      "pub": 0
     },
     {
       "acao_id": "1834",
       "titulo": "Sistema para predição de transtornos mentais comuns na atenção primária a saúde",
       "tipo": "Projeto",
       "ano": "2018",
-      "n": 5
+      "n": 5,
+      "pub": 0
     },
     {
       "acao_id": "2600",
       "titulo": "Sistema para predição de transtornos mentais comuns na atenção primária a saúde",
       "tipo": "Projeto",
       "ano": "2019",
-      "n": 4
+      "n": 4,
+      "pub": 0
     },
     {
       "acao_id": "3021",
       "titulo": "Stone Connection",
       "tipo": "Projeto",
       "ano": "2020",
-      "n": 7
+      "n": 7,
+      "pub": 0
     },
     {
       "acao_id": "4034",
       "titulo": "SmartIdea - Validação de Problemas e Ideias",
       "tipo": "Projeto",
       "ano": "2022",
-      "n": 31
+      "n": 31,
+      "pub": 3
     },
     {
       "acao_id": "4051",
       "titulo": "SISTEMA PARA PREDIÇÃO DE TRANSTORNOS MENTAIS COMUNS NA ATENÇÃO PRIMÁRIA À SAÚDE III",
       "tipo": "Projeto",
       "ano": "2022",
-      "n": 9
+      "n": 9,
+      "pub": 7
     },
     {
       "acao_id": "542",
       "titulo": "Programação Visual Criativa com Scratch",
       "tipo": "Curso",
       "ano": "2015",
-      "n": 25
+      "n": 25,
+      "pub": 20
     },
     {
       "acao_id": "719",
       "titulo": "Programação Visual Criativa com Scratch + Arduino",
       "tipo": "Curso",
       "ano": "2016",
-      "n": 0
+      "n": 0,
+      "pub": 0
     },
     {
       "acao_id": "723",
       "titulo": "Acorde Musical",
       "tipo": "Projeto",
       "ano": "2016",
-      "n": 0
+      "n": 0,
+      "pub": 0
     },
     {
       "acao_id": "849",
       "titulo": "Sistema para auxiliar a gestão da Produção Agropecuária capixaba",
       "tipo": "Projeto",
       "ano": "2016",
-      "n": 5
+      "n": 5,
+      "pub": 0
     }
   ],
   "participacoes_equipe": [
@@ -97,6 +107,7 @@
       "tipo": "Curso",
       "ano": "2017",
       "n": 84,
+      "pub": 36,
       "funcoes": [
         "COLABORADOR(A)"
       ]
@@ -107,6 +118,7 @@
       "tipo": "Projeto",
       "ano": "2018",
       "n": 7,
+      "pub": 0,
       "funcoes": [
         "COORDENADOR(A)"
       ]
@@ -117,6 +129,7 @@
       "tipo": "Evento",
       "ano": "2018",
       "n": 49,
+      "pub": 37,
       "funcoes": [
         "ORGANIZADOR(A)"
       ]
@@ -127,6 +140,7 @@
       "tipo": "Projeto",
       "ano": "2018",
       "n": 5,
+      "pub": 0,
       "funcoes": [
         "COORDENADOR(A)"
       ]
@@ -137,6 +151,7 @@
       "tipo": "Projeto",
       "ano": "2018",
       "n": 5,
+      "pub": 0,
       "funcoes": [
         "COORDENADOR(A) ADJUNTO(A)"
       ]
@@ -147,6 +162,7 @@
       "tipo": "Projeto",
       "ano": "2019",
       "n": 4,
+      "pub": 0,
       "funcoes": [
         "COORDENADOR(A)"
       ]
@@ -157,6 +173,7 @@
       "tipo": "Projeto",
       "ano": "2020",
       "n": 7,
+      "pub": 0,
       "funcoes": [
         "COORDENADOR(A)"
       ]
@@ -167,6 +184,7 @@
       "tipo": "Projeto",
       "ano": "2022",
       "n": 31,
+      "pub": 3,
       "funcoes": [
         "COORDENADOR(A)"
       ]
@@ -177,6 +195,7 @@
       "tipo": "Projeto",
       "ano": "2022",
       "n": 9,
+      "pub": 7,
       "funcoes": [
         "COORDENADOR(A)"
       ]
@@ -187,6 +206,7 @@
       "tipo": "Curso",
       "ano": "2015",
       "n": 25,
+      "pub": 20,
       "funcoes": [
         "COORDENADOR(A)"
       ]
@@ -197,6 +217,7 @@
       "tipo": "Evento",
       "ano": "2015",
       "n": 40,
+      "pub": 0,
       "funcoes": [
         "MENTOR(A)"
       ]
@@ -207,6 +228,7 @@
       "tipo": "Projeto",
       "ano": "2016",
       "n": 7,
+      "pub": 1,
       "funcoes": [
         "COORDENADOR(A) ADJUNTO(A)"
       ]
@@ -217,6 +239,7 @@
       "tipo": "Programa",
       "ano": "2016",
       "n": 21,
+      "pub": 1,
       "funcoes": [
         "ORGANIZADOR(A)"
       ]
@@ -227,6 +250,7 @@
       "tipo": "Projeto",
       "ano": "2016",
       "n": 5,
+      "pub": 0,
       "funcoes": [
         "COORDENADOR(A)"
       ]
@@ -237,6 +261,7 @@
       "tipo": "Programa",
       "ano": "2016",
       "n": 104,
+      "pub": 22,
       "funcoes": [
         "COLABORADOR(A)"
       ]

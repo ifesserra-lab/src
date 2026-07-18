@@ -22,21 +22,24 @@
       "titulo": "Mutual Life: Um aplicativo para seguros colaborativos",
       "tipo": "Projeto",
       "ano": "2018",
-      "n": 4
+      "n": 4,
+      "pub": 0
     },
     {
       "acao_id": "4830",
       "titulo": "ConectaFapes: Uma plataforma de apoio à Pesquisa, Desenvolvimento e Inovação",
       "tipo": "Projeto",
       "ano": "2023",
-      "n": 124
+      "n": 124,
+      "pub": 86
     },
     {
       "acao_id": "930",
       "titulo": "Despertar da Força - Processos e Ferramentas para o Gerenciamento Ágil de Projetos: Uma Abordagem Prática",
       "tipo": "Curso",
       "ano": "2016",
-      "n": 68
+      "n": 68,
+      "pub": 53
     }
   ],
   "participacoes_equipe": [
@@ -46,6 +49,7 @@
       "tipo": "Projeto",
       "ano": "2018",
       "n": 4,
+      "pub": 0,
       "funcoes": [
         "COORDENADOR(A)"
       ]
@@ -56,6 +60,7 @@
       "tipo": "Projeto",
       "ano": "2018",
       "n": 7,
+      "pub": 0,
       "funcoes": [
         "SUPERVISOR(A)"
       ]
@@ -66,6 +71,7 @@
       "tipo": "Projeto",
       "ano": "2019",
       "n": 8,
+      "pub": 0,
       "funcoes": [
         "COLABORADOR(A)"
       ]
@@ -76,6 +82,7 @@
       "tipo": "Projeto",
       "ano": "2019",
       "n": 12,
+      "pub": 0,
       "funcoes": [
         "COORDENADOR(A)"
       ]
@@ -86,6 +93,7 @@
       "tipo": "Evento",
       "ano": "2015",
       "n": 40,
+      "pub": 0,
       "funcoes": [
         "COORDENADOR(A) ADJUNTO(A)"
       ]
@@ -96,6 +104,7 @@
       "tipo": "Projeto",
       "ano": "2016",
       "n": 7,
+      "pub": 1,
       "funcoes": [
         "COLABORADOR(A)"
       ]
@@ -106,6 +115,7 @@
       "tipo": "Curso",
       "ano": "2016",
       "n": 77,
+      "pub": 29,
       "funcoes": [
         "INSTRUTOR(A)"
       ]
@@ -116,6 +126,7 @@
       "tipo": "Projeto",
       "ano": "2016",
       "n": 7,
+      "pub": 0,
       "funcoes": [
         "COLABORADOR(A)"
       ]
@@ -126,6 +137,7 @@
       "tipo": "Projeto",
       "ano": "2016",
       "n": 5,
+      "pub": 0,
       "funcoes": [
         "COLABORADOR(A)"
       ]
@@ -136,6 +148,7 @@
       "tipo": "Programa",
       "ano": "2016",
       "n": 104,
+      "pub": 22,
       "funcoes": [
         "COORDENADOR(A) ADJUNTO(A)"
       ]
@@ -146,6 +159,7 @@
       "tipo": "Curso",
       "ano": "2016",
       "n": 68,
+      "pub": 53,
       "funcoes": [
         "COORDENADOR(A)"
       ]
@@ -156,6 +170,7 @@
       "tipo": "Programa em Rede",
       "ano": "2016",
       "n": 4,
+      "pub": 0,
       "funcoes": [
         "COORDENADOR(A)"
       ]

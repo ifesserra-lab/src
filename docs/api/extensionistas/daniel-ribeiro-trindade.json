@@ -15,7 +15,8 @@
       "titulo": "ALGolfSwing: Análise de Desempenho Esportivo para Golf",
       "tipo": "Projeto",
       "ano": "2018",
-      "n": 2
+      "n": 2,
+      "pub": 0
     }
   ],
   "participacoes_equipe": [
@@ -25,6 +26,7 @@
       "tipo": "Evento",
       "ano": "2018",
       "n": 49,
+      "pub": 37,
       "funcoes": [
         "ORGANIZADOR(A)"
       ]
@@ -35,6 +37,7 @@
       "tipo": "Projeto",
       "ano": "2018",
       "n": 2,
+      "pub": 0,
       "funcoes": [
         "ORIENTADOR(A)"
       ]

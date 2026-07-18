@@ -18,21 +18,24 @@
       "titulo": "Incluir & Multiplicar",
       "tipo": "Projeto",
       "ano": "2019",
-      "n": 5
+      "n": 5,
+      "pub": 0
     },
     {
       "acao_id": "2783",
       "titulo": "Informática Básica Para Agentes Multiplicadores.",
       "tipo": "Curso",
       "ano": "2019",
-      "n": 42
+      "n": 42,
+      "pub": 16
     },
     {
       "acao_id": "3431",
       "titulo": "Lampex + empreendedor",
       "tipo": "Projeto",
       "ano": "2021",
-      "n": 14
+      "n": 14,
+      "pub": 2
     }
   ],
   "participacoes_equipe": [
@@ -42,6 +45,7 @@
       "tipo": "Projeto",
       "ano": "2019",
       "n": 5,
+      "pub": 0,
       "funcoes": [
         "COORDENADOR(A)"
       ]
@@ -52,6 +56,7 @@
       "tipo": "Curso",
       "ano": "2019",
       "n": 42,
+      "pub": 16,
       "funcoes": [
         "COORDENADOR(A)"
       ]
@@ -62,6 +67,7 @@
       "tipo": "Programa",
       "ano": "2020",
       "n": 1611,
+      "pub": 905,
       "funcoes": [
         "COORDENADOR(A)",
         "COORDENADOR(A) ADJUNTO(A)",
@@ -74,6 +80,7 @@
       "tipo": "Projeto",
       "ano": "2021",
       "n": 14,
+      "pub": 2,
       "funcoes": [
         "COORDENADOR(A)"
       ]

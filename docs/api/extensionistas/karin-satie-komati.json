@@ -30,6 +30,7 @@
       "tipo": "Programa",
       "ano": "2017",
       "n": 220,
+      "pub": 126,
       "funcoes": [
         "ASSESSOR(A)",
         "MEMBRO DE COMITÊ GESTOR",
@@ -42,6 +43,7 @@
       "tipo": "Curso",
       "ano": "2017",
       "n": 84,
+      "pub": 36,
       "funcoes": [
         "COLABORADOR(A)",
         "INSTRUTOR(A)"
@@ -53,6 +55,7 @@
       "tipo": "Programa",
       "ano": "2020",
       "n": 1611,
+      "pub": 905,
       "funcoes": [
         "APOIO TÉCNICO",
         "COLABORADOR(A)",
@@ -67,6 +70,7 @@
       "tipo": "Programa",
       "ano": "2023",
       "n": 558,
+      "pub": 258,
       "funcoes": [
         "COLABORADOR(A)"
       ]
@@ -77,6 +81,7 @@
       "tipo": "Projeto",
       "ano": "2024",
       "n": 218,
+      "pub": 168,
       "funcoes": [
         "MEMBRO DE COMITÊ GESTOR"
       ]
@@ -87,6 +92,7 @@
       "tipo": "Curso",
       "ano": "2016",
       "n": 77,
+      "pub": 29,
       "funcoes": [
         "AUXILIAR TÉCNICO",
         "AVALIADOR(A)",
@@ -100,6 +106,7 @@
       "tipo": "Curso",
       "ano": "2016",
       "n": 21,
+      "pub": 3,
       "funcoes": [
         "AVALIADOR(A)"
       ]

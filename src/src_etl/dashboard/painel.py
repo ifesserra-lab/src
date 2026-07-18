@@ -73,13 +73,16 @@ transition:none!important;animation:none!important}}
 .topbar{position:sticky;top:0;z-index:50;background:var(--nav-bg);
 border-bottom:1px solid var(--grid)}
 .topbar-in{max-width:1160px;margin:0 auto;padding:0 20px;height:52px;
-display:flex;align-items:center;gap:20px}
+display:flex;align-items:center;gap:14px}
 .brand{font-weight:700;font-size:15px;color:var(--text-primary);
 text-decoration:none;white-space:nowrap;display:flex;align-items:center;gap:8px}
 .brand::before{content:'';width:10px;height:10px;border-radius:3px;background:var(--series-1)}
 .brand small{color:var(--muted);font-weight:400;font-size:12px}
-.snav{display:flex;gap:2px;overflow-x:auto;flex:1;justify-content:flex-end}
-.snav a{display:flex;align-items:center;gap:7px;padding:7px 12px;border-radius:8px;
+.snav{display:flex;gap:2px;overflow-x:auto;flex:1;justify-content:flex-start;
+scrollbar-width:none}
+.snav::-webkit-scrollbar{display:none}
+.snav a{white-space:nowrap}
+.snav a{display:flex;align-items:center;gap:6px;padding:7px 9px;border-radius:8px;
 text-decoration:none;color:var(--text-secondary);font-weight:500;font-size:13.5px;
 white-space:nowrap;transition:background .15s,color .15s}
 .snav a svg{width:15px;height:15px;flex:none;stroke:currentColor;fill:none;stroke-width:2;
@@ -189,6 +192,7 @@ _ICONES = {
     "sem": '<svg viewBox="0 0 24 24"><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>',
     "pend": '<svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M9 15h6"/><path d="M9 11h3"/></svg>',
     "pessoas": '<svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>',
+    "dados": '<svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5"/><path d="M12 15V3"/></svg>',
 }
 
 _NAV_ITENS = [("index.html", "Buscar", "busca"), ("painel.html", "Painel", "painel"),
@@ -196,7 +200,8 @@ _NAV_ITENS = [("index.html", "Buscar", "busca"), ("painel.html", "Painel", "pain
               ("extensionistas/index.html", "Extensionistas", "pessoas"),
               ("jornada.html", "Jornada", "pessoas"),
               ("sem-participacao.html", "Sem participações", "sem"),
-              ("pendencias-relatorio.html", "Pendências", "pend")]
+              ("pendencias-relatorio.html", "Pendências", "pend"),
+              ("dados-abertos.html", "Dados", "dados")]
 
 
 def montar_shell(base: str, ativo: str, crumb: str, titulo: str, sub: str, corpo: str,

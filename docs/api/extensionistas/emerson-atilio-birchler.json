@@ -19,7 +19,8 @@
       "titulo": "CAIS: Ancorando Cultura e Arte no Ifes Serra",
       "tipo": "Projeto",
       "ano": "2024",
-      "n": 0
+      "n": 0,
+      "pub": 0
     }
   ],
   "participacoes_equipe": [
@@ -29,6 +30,7 @@
       "tipo": "Programa",
       "ano": "2017",
       "n": 220,
+      "pub": 126,
       "funcoes": [
         "COLABORADOR(A)",
         "MEMBRO DE COMITÊ GESTOR"
@@ -40,6 +42,7 @@
       "tipo": "Curso",
       "ano": "2017",
       "n": 84,
+      "pub": 36,
       "funcoes": [
         "INSTRUTOR(A)"
       ]
@@ -50,6 +53,7 @@
       "tipo": "Curso",
       "ano": "2016",
       "n": 21,
+      "pub": 3,
       "funcoes": [
         "AVALIADOR(A)"
       ]

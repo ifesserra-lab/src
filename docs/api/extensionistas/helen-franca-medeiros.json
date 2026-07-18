@@ -23,6 +23,7 @@
       "tipo": "Projeto",
       "ano": "2018",
       "n": 7,
+      "pub": 0,
       "funcoes": [
         "ALUNO(A) BOLSISTA"
       ]
@@ -33,6 +34,7 @@
       "tipo": "Projeto",
       "ano": "2019",
       "n": 19,
+      "pub": 5,
       "funcoes": [
         "PALESTRANTE"
       ]
@@ -43,6 +45,7 @@
       "tipo": "Projeto",
       "ano": "2020",
       "n": 7,
+      "pub": 0,
       "funcoes": [
         "ALUNO(A) VOLUNTARIO"
       ]
@@ -53,6 +56,7 @@
       "tipo": "Programa",
       "ano": "2016",
       "n": 104,
+      "pub": 22,
       "funcoes": [
         "EXPOSITOR(A)",
         "ORGANIZADOR(A)",

@@ -15,7 +15,8 @@
       "titulo": "Conexão Ciência: Transformação Digital das Atividades do Centro de Ciência Educação e Cultura - Praça da Ciência",
       "tipo": "Projeto",
       "ano": "2025",
-      "n": 0
+      "n": 0,
+      "pub": 0
     }
   ],
   "participacoes_equipe": [
@@ -25,6 +26,7 @@
       "tipo": "Programa",
       "ano": "2020",
       "n": 1611,
+      "pub": 905,
       "funcoes": [
         "APOIO TÉCNICO"
       ]

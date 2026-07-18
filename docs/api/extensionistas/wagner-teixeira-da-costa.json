@@ -16,14 +16,16 @@
       "titulo": "ISA SHOW ES 2014 - XIII Seminário e Exposição de Instrumentação, Sistemas, Elétrica e Automação",
       "tipo": "Evento",
       "ano": "2014",
-      "n": 17
+      "n": 17,
+      "pub": 17
     },
     {
       "acao_id": "466",
       "titulo": "Projeto Conhecer",
       "tipo": "Evento",
       "ano": "2015",
-      "n": 0
+      "n": 0,
+      "pub": 0
     }
   ],
   "participacoes_equipe": [
@@ -33,6 +35,7 @@
       "tipo": "Curso",
       "ano": "2016",
       "n": 77,
+      "pub": 29,
       "funcoes": [
         "ORIENTADOR(A)"
       ]
@@ -43,6 +46,7 @@
       "tipo": "Curso",
       "ano": "2016",
       "n": 21,
+      "pub": 3,
       "funcoes": [
         "ORIENTADOR(A)"
       ]

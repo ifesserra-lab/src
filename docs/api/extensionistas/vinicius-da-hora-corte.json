@@ -18,6 +18,7 @@
       "tipo": "Projeto",
       "ano": "2019",
       "n": 3,
+      "pub": 0,
       "funcoes": [
         "ALUNO(A) BOLSISTA"
       ]
@@ -28,6 +29,7 @@
       "tipo": "Programa",
       "ano": "2021",
       "n": 189,
+      "pub": 152,
       "funcoes": [
         "ALUNO(A) EM ATIVIDADE CURRICULAR"
       ]

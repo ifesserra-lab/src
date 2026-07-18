@@ -19,6 +19,7 @@
       "tipo": "Programa",
       "ano": "2018",
       "n": 6,
+      "pub": 0,
       "funcoes": [
         "COLABORADOR(A)"
       ]
@@ -29,6 +30,7 @@
       "tipo": "Projeto",
       "ano": "2016",
       "n": 9,
+      "pub": 0,
       "funcoes": [
         "CONSULTOR(A)",
         "MENTOR(A)"

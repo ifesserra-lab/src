@@ -19,6 +19,7 @@
       "tipo": "Programa",
       "ano": "2017",
       "n": 220,
+      "pub": 126,
       "funcoes": [
         "COORDENADOR(A)"
       ]
@@ -29,6 +30,7 @@
       "tipo": "Programa",
       "ano": "2018",
       "n": 6,
+      "pub": 0,
       "funcoes": [
         "COORDENADOR(A)"
       ]
@@ -39,6 +41,7 @@
       "tipo": "Evento",
       "ano": "2015",
       "n": 40,
+      "pub": 0,
       "funcoes": [
         "MENTOR(A)"
       ]

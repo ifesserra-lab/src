@@ -16,7 +16,8 @@
       "titulo": "Academia Cisco nas Escolas Municipais da Serra - ES",
       "tipo": "Projeto",
       "ano": "2018",
-      "n": 46
+      "n": 46,
+      "pub": 22
     }
   ],
   "participacoes_equipe": [
@@ -26,6 +27,7 @@
       "tipo": "Projeto",
       "ano": "2018",
       "n": 46,
+      "pub": 22,
       "funcoes": [
         "COORDENADOR(A)"
       ]
@@ -36,6 +38,7 @@
       "tipo": "Programa",
       "ano": "2016",
       "n": 21,
+      "pub": 1,
       "funcoes": [
         "PALESTRANTE"
       ]
@@ -46,6 +49,7 @@
       "tipo": "Evento",
       "ano": "2016",
       "n": 181,
+      "pub": 124,
       "funcoes": [
         "PALESTRANTE"
       ]

@@ -21,6 +21,7 @@
       "tipo": "Curso",
       "ano": "2018",
       "n": 53,
+      "pub": 25,
       "funcoes": [
         "PROFESSOR(A)"
       ]
@@ -31,6 +32,7 @@
       "tipo": "Curso",
       "ano": "2015",
       "n": 25,
+      "pub": 20,
       "funcoes": [
         "COLABORADOR(A)"
       ]
@@ -41,6 +43,7 @@
       "tipo": "Evento",
       "ano": "2015",
       "n": 40,
+      "pub": 0,
       "funcoes": [
         "AVALIADOR(A)"
       ]
@@ -51,6 +54,7 @@
       "tipo": "Programa",
       "ano": "2016",
       "n": 21,
+      "pub": 1,
       "funcoes": [
         "ORGANIZADOR(A)"
       ]

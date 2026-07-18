@@ -18,6 +18,7 @@
       "tipo": "Programa",
       "ano": "2021",
       "n": 189,
+      "pub": 152,
       "funcoes": [
         "ALUNO(A) EM ATIVIDADE CURRICULAR"
       ]
@@ -28,6 +29,7 @@
       "tipo": "Projeto",
       "ano": "2022",
       "n": 164,
+      "pub": 0,
       "funcoes": [
         "ALUNO(A) BOLSISTA"
       ]
@@ -38,6 +40,7 @@
       "tipo": "Projeto",
       "ano": "2022",
       "n": 31,
+      "pub": 3,
       "funcoes": [
         "ALUNO(A) EM ATIVIDADE CURRICULAR"
       ]

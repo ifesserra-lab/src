@@ -18,6 +18,7 @@
       "tipo": "Programa",
       "ano": "2017",
       "n": 220,
+      "pub": 126,
       "funcoes": [
         "EXPOSITOR(A)",
         "PALESTRANTE"
@@ -29,6 +30,7 @@
       "tipo": "Programa",
       "ano": "2023",
       "n": 558,
+      "pub": 258,
       "funcoes": [
         "PALESTRANTE"
       ]

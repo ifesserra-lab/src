@@ -20,28 +20,32 @@
       "titulo": "Tutoria de Estudos Orientados: Compartilhando Saberes",
       "tipo": "Projeto",
       "ano": "2019",
-      "n": 19
+      "n": 19,
+      "pub": 5
     },
     {
       "acao_id": "2773",
       "titulo": "Ambientação Pedagógica: Didática e Técnicas de Ensino.",
       "tipo": "Curso",
       "ano": "2019",
-      "n": 13
+      "n": 13,
+      "pub": 6
     },
     {
       "acao_id": "2931",
       "titulo": "Tutoria de Estudos Orientados: Compartilhando Saberes",
       "tipo": "Projeto",
       "ano": "2020",
-      "n": 0
+      "n": 0,
+      "pub": 0
     },
     {
       "acao_id": "451",
       "titulo": "Tutoria de Estudos Orientados em Matemática Nº 01/2014",
       "tipo": "Curso",
       "ano": "2015",
-      "n": 38
+      "n": 38,
+      "pub": 38
     }
   ],
   "participacoes_equipe": [
@@ -51,6 +55,7 @@
       "tipo": "Projeto",
       "ano": "2018",
       "n": 21,
+      "pub": 11,
       "funcoes": [
         "PROFESSOR(A)"
       ]
@@ -61,6 +66,7 @@
       "tipo": "Curso",
       "ano": "2018",
       "n": 53,
+      "pub": 25,
       "funcoes": [
         "PROFESSOR(A)"
       ]
@@ -71,6 +77,7 @@
       "tipo": "Projeto",
       "ano": "2019",
       "n": 19,
+      "pub": 5,
       "funcoes": [
         "COORDENADOR(A)"
       ]
@@ -81,6 +88,7 @@
       "tipo": "Curso",
       "ano": "2019",
       "n": 13,
+      "pub": 6,
       "funcoes": [
         "COORDENADOR(A)"
       ]
@@ -91,6 +99,7 @@
       "tipo": "Curso",
       "ano": "2023",
       "n": 74,
+      "pub": 62,
       "funcoes": [
         "PROFESSOR(A)"
       ]
@@ -101,6 +110,7 @@
       "tipo": "Curso",
       "ano": "2025",
       "n": 35,
+      "pub": 24,
       "funcoes": [
         "PROFESSOR(A)"
       ]

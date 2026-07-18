@@ -14,7 +14,8 @@
       "titulo": "O IFES é o meu lugar",
       "tipo": "Projeto",
       "ano": "2023",
-      "n": 87
+      "n": 87,
+      "pub": 79
     }
   ],
   "participacoes_equipe": [
@@ -24,6 +25,7 @@
       "tipo": "Projeto",
       "ano": "2023",
       "n": 87,
+      "pub": 79,
       "funcoes": [
         "COORDENADOR(A)"
       ]

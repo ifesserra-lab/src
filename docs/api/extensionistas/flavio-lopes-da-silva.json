@@ -16,7 +16,8 @@
       "titulo": "Sistema de georreferenciamento e detecção de vibração e queda para implementação de uma caixa inteligente de transporte de órgãos.",
       "tipo": "Projeto",
       "ano": "2016",
-      "n": 0
+      "n": 0,
+      "pub": 0
     }
   ],
   "participacoes_equipe": [
@@ -26,6 +27,7 @@
       "tipo": "Projeto",
       "ano": "2019",
       "n": 8,
+      "pub": 0,
       "funcoes": [
         "COORDENADOR(A) ADJUNTO(A)"
       ]
@@ -36,6 +38,7 @@
       "tipo": "Projeto",
       "ano": "2016",
       "n": 7,
+      "pub": 0,
       "funcoes": [
         "COORDENADOR(A) ADJUNTO(A)"
       ]
@@ -46,6 +49,7 @@
       "tipo": "Programa",
       "ano": "2016",
       "n": 104,
+      "pub": 22,
       "funcoes": [
         "COLABORADOR(A)"
       ]
@@ -56,6 +60,7 @@
       "tipo": "Curso",
       "ano": "2016",
       "n": 68,
+      "pub": 53,
       "funcoes": [
         "COORDENADOR(A) ADJUNTO(A)"
       ]

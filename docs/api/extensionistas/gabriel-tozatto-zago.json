@@ -19,14 +19,16 @@
       "titulo": "LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão",
       "tipo": "Programa",
       "ano": "2023",
-      "n": 558
+      "n": 558,
+      "pub": 258
     },
     {
       "acao_id": "5646",
       "titulo": "Cultura Impressa: Esculturas 3D de artesãos locais com filamento de material reciclado",
       "tipo": "Projeto",
       "ano": "2025",
-      "n": 0
+      "n": 0,
+      "pub": 0
     }
   ],
   "participacoes_equipe": [
@@ -36,6 +38,7 @@
       "tipo": "Programa",
       "ano": "2023",
       "n": 558,
+      "pub": 258,
       "funcoes": [
         "COLABORADOR(A)"
       ]
@@ -46,6 +49,7 @@
       "tipo": "Projeto",
       "ano": "2024",
       "n": 218,
+      "pub": 168,
       "funcoes": [
         "MEMBRO DE COMITÊ GESTOR"
       ]
@@ -56,6 +60,7 @@
       "tipo": "Projeto",
       "ano": "2025",
       "n": 73,
+      "pub": 17,
       "funcoes": [
         "COLABORADOR(A)"
       ]
@@ -66,6 +71,7 @@
       "tipo": "Evento",
       "ano": "2016",
       "n": 181,
+      "pub": 124,
       "funcoes": [
         "INSTRUTOR(A)"
       ]

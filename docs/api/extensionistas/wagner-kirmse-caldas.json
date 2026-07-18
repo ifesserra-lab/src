@@ -18,14 +18,16 @@
       "titulo": "Ifes Portas Abertas",
       "tipo": "Projeto",
       "ano": "2018",
-      "n": 387
+      "n": 387,
+      "pub": 385
     },
     {
       "acao_id": "2107",
       "titulo": "Ifes Portas Abertas",
       "tipo": "Programa",
       "ano": "2018",
-      "n": 547
+      "n": 547,
+      "pub": 500
     }
   ],
   "participacoes_equipe": [
@@ -35,6 +37,7 @@
       "tipo": "Projeto",
       "ano": "2018",
       "n": 387,
+      "pub": 385,
       "funcoes": [
         "COORDENADOR(A)"
       ]
@@ -45,6 +48,7 @@
       "tipo": "Programa",
       "ano": "2018",
       "n": 547,
+      "pub": 500,
       "funcoes": [
         "COORDENADOR(A)"
       ]
@@ -55,6 +59,7 @@
       "tipo": "Curso",
       "ano": "2019",
       "n": 13,
+      "pub": 6,
       "funcoes": [
         "PROFESSOR(A)"
       ]
@@ -65,6 +70,7 @@
       "tipo": "Programa",
       "ano": "2020",
       "n": 1611,
+      "pub": 905,
       "funcoes": [
         "ORIENTADOR(A)"
       ]

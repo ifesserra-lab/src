@@ -23,6 +23,7 @@
       "tipo": "Programa",
       "ano": "2017",
       "n": 220,
+      "pub": 126,
       "funcoes": [
         "COLABORADOR(A)",
         "MEMBRO DE COMITÊ GESTOR"
@@ -34,6 +35,7 @@
       "tipo": "Curso",
       "ano": "2017",
       "n": 84,
+      "pub": 36,
       "funcoes": [
         "COORDENADOR(A) ADJUNTO(A)"
       ]
@@ -44,6 +46,7 @@
       "tipo": "Projeto",
       "ano": "2021",
       "n": 4,
+      "pub": 0,
       "funcoes": [
         "MEMBRO DE COMITÊ GESTOR"
       ]
@@ -54,6 +57,7 @@
       "tipo": "Programa",
       "ano": "2023",
       "n": 558,
+      "pub": 258,
       "funcoes": [
         "COLABORADOR(A)"
       ]
@@ -64,6 +68,7 @@
       "tipo": "Projeto",
       "ano": "2025",
       "n": 73,
+      "pub": 17,
       "funcoes": [
         "COLABORADOR(A)"
       ]
@@ -74,6 +79,7 @@
       "tipo": "Curso",
       "ano": "2016",
       "n": 21,
+      "pub": 3,
       "funcoes": [
         "AVALIADOR(A)"
       ]

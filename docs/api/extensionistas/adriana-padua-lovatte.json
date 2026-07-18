@@ -17,6 +17,7 @@
       "tipo": "Projeto",
       "ano": "2018",
       "n": 21,
+      "pub": 11,
       "funcoes": [
         "PROFESSOR(A)"
       ]
@@ -27,6 +28,7 @@
       "tipo": "Projeto",
       "ano": "2018",
       "n": 7,
+      "pub": 0,
       "funcoes": [
         "SUPERVISOR(A)"
       ]
@@ -37,6 +39,7 @@
       "tipo": "Curso",
       "ano": "2018",
       "n": 53,
+      "pub": 25,
       "funcoes": [
         "PROFESSOR(A)"
       ]

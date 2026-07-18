@@ -20,7 +20,8 @@
       "titulo": "Semana de Ciência e Tecnologia do Campus Serra do Ifes",
       "tipo": "Evento",
       "ano": "2017",
-      "n": 0
+      "n": 0,
+      "pub": 0
     }
   ],
   "participacoes_equipe": [
@@ -30,6 +31,7 @@
       "tipo": "Programa",
       "ano": "2017",
       "n": 220,
+      "pub": 126,
       "funcoes": [
         "MEMBRO DE COMITÊ GESTOR",
         "ORGANIZADOR(A)"
@@ -41,6 +43,7 @@
       "tipo": "Curso",
       "ano": "2017",
       "n": 84,
+      "pub": 36,
       "funcoes": [
         "AVALIADOR(A)"
       ]
@@ -51,6 +54,7 @@
       "tipo": "Programa",
       "ano": "2018",
       "n": 6,
+      "pub": 0,
       "funcoes": [
         "COLABORADOR(A)"
       ]
@@ -61,6 +65,7 @@
       "tipo": "Projeto",
       "ano": "2016",
       "n": 9,
+      "pub": 0,
       "funcoes": [
         "COORDENADOR(A) ADJUNTO(A)"
       ]

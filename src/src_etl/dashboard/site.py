@@ -221,9 +221,10 @@ def _pagina_geral(cons: dict, slugs: dict) -> str:
         f'<td>{a.get("total_participacoes", 0)}</td>'
         f'<td><span class="badge">{escape((a.get("Data de cadastro") or "—")[-4:])}</span></td></tr>'
         for a in sorted(acoes, key=lambda x: -(x.get("total_participacoes") or 0)))
-    tabela = (f'<div class="card" style="margin-top:16px"><table class="tb">'
+    tabela = (f'<div class="card" style="margin-top:16px"><table class="tb" id="tb-acoes">'
               f'<tr><th>Ação</th><th>Tipo</th><th>Coordenador(a)</th>'
               f'<th>Participações</th><th>Ano</th></tr>{rows}</table></div>')
+    tabela = _com_busca("tb-acoes", "Filtrar por ação, coordenador(a), tipo ou ano...", tabela)
 
     return _doc("Ações — Campus Serra", "../", "acoes/index.html", "Ações",
                 "O que foi feito — Campus Serra",
@@ -344,7 +345,32 @@ document.querySelectorAll('.chips button').forEach(b=>b.addEventListener('click'
 
 
 # ------------------------------------------------------------- listas de gestão
-def _tabela_acoes(itens: list[dict], slugs: dict, extra_col: tuple[str, str] | None = None) -> str:
+def _com_busca(tid: str, placeholder: str, card_html: str) -> str:
+    """Envolve uma tabela (com id=tid) com um filtro client-side por palavras."""
+    inp = (f'<div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:8px 0 4px">'
+           f'<input id="f-{tid}" type="search" placeholder="{escape(placeholder)}" '
+           f'style="flex:1;min-width:240px;padding:11px 15px;font-size:15px;'
+           f'border:1px solid var(--border);border-radius:var(--radius-sm);'
+           f'background:var(--surface-1);color:var(--text-primary)">'
+           f'<span class="sec-desc" id="c-{tid}" style="margin:0;white-space:nowrap"></span></div>')
+    js = ("<script>(function(){"
+          f"var inp=document.getElementById('f-{tid}'),tb=document.getElementById('{tid}');"
+          "if(!inp||!tb)return;"
+          "var norm=function(s){return s.normalize('NFD').replace(/[\\u0300-\\u036f]/g,'').toLowerCase();};"
+          "var rows=Array.prototype.slice.call(tb.rows).filter(function(r){return !r.querySelector('th');});"
+          f"var cnt=document.getElementById('c-{tid}');"
+          "function upd(){var ts=norm(inp.value.trim()).split(/\\s+/).filter(Boolean),v=0;"
+          "rows.forEach(function(r){var t=norm(r.textContent);"
+          "var ok=ts.every(function(x){return t.indexOf(x)>=0;});"
+          "r.style.display=ok?'':'none';if(ok)v++;});"
+          "if(cnt)cnt.textContent=v+' de '+rows.length;}"
+          "inp.addEventListener('input',upd);upd();"
+          "})();</script>")
+    return inp + card_html + js
+
+
+def _tabela_acoes(itens: list[dict], slugs: dict, extra_col: tuple[str, str] | None = None,
+                  tid: str = "tb") -> str:
     cab = "<tr><th>Ação</th><th>Tipo</th><th>Coordenador(a)</th><th>Ano</th>"
     cab += f"<th>{escape(extra_col[0])}</th></tr>" if extra_col else "</tr>"
     rows = []
@@ -356,7 +382,8 @@ def _tabela_acoes(itens: list[dict], slugs: dict, extra_col: tuple[str, str] | N
             f'<td>{escape(it.get("tipo") or "—")}</td>'
             f'<td>{_link_pessoa(it.get("coordenador"), "", slugs)}</td>'
             f'<td>{escape(it.get("ano") or "—")}</td>{extra}</tr>')
-    return f'<div class="card" style="margin-top:16px"><table class="tb">{cab}{"".join(rows)}</table></div>'
+    return (f'<div class="card" style="margin-top:16px"><table class="tb" id="{tid}">'
+            f'{cab}{"".join(rows)}</table></div>')
 
 
 def _pagina_sem_participacao(cons: dict, slugs: dict) -> str:
@@ -369,11 +396,13 @@ def _pagina_sem_participacao(cons: dict, slugs: dict) -> str:
                           "coordenador": (a.get("Coordenador(a)") or "—").strip(),
                           "ano": (a.get("Data de cadastro") or "")[-4:]})
     itens.sort(key=lambda x: (x["coordenador"], x["ano"]))
+    tabela = _com_busca("tb-sem", "Filtrar por ação, coordenador(a), tipo ou ano...",
+                        _tabela_acoes(itens, slugs, tid="tb-sem"))
     return _doc("Ações sem participações — Campus Serra", "", "sem-participacao.html",
                 "Sem participações", f"Ações sem participações ({len(itens)})",
                 "Ações sem nenhum público-alvo nem equipe registrados no SRC — "
                 "pendência de registro a regularizar com o(a) coordenador(a)",
-                _tabela_acoes(itens, slugs))
+                tabela)
 
 
 def _pagina_pendencias(cons: dict, slugs: dict) -> str:
@@ -391,11 +420,13 @@ def _pagina_pendencias(cons: dict, slugs: dict) -> str:
     cont = Counter(i["coordenador"] for i in itens)
     top = "".join(f'<span class="badge" style="margin:3px">{escape(n)}: {q}</span>'
                   for n, q in cont.most_common(12))
+    tabela = _com_busca("tb-pend", "Filtrar por ação, coordenador(a), tipo ou ano...",
+                        _tabela_acoes(itens, slugs, ("Últ. relatório", "ultimo"), tid="tb-pend"))
     return _doc("Pendências de relatório — Campus Serra", "", "pendencias-relatorio.html",
                 "Pendências", f"Pendências de relatório ({len(itens)})",
                 "Ações sem relatório final aprovado no SRC (inclui ações em andamento) — "
                 "com o(a) coordenador(a) responsável",
-                f'<div class="card">{top}</div>{_tabela_acoes(itens, slugs, ("Últ. relatório", "ultimo"))}')
+                f'<div class="card">{top}</div>{tabela}')
 
 
 # ------------------------------------------------------------- extensionistas

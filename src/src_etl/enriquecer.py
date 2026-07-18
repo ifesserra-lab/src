@@ -59,15 +59,27 @@ def carregar_chave(env_path: str | Path = ".env") -> str:
     return chave
 
 
-def _casar(valor: str | None, permitidas: list[str]) -> str | None:
-    """Casa (case-insensitive) o valor devolvido pelo modelo com o conjunto fechado."""
-    if not valor:
+def _casar(valor, permitidas: list[str]) -> str | None:
+    """Casa (case-insensitive) o valor devolvido pelo modelo com o conjunto fechado.
+
+    Tolera respostas fora do formato (dict/lista/None): devolve None.
+    """
+    if isinstance(valor, dict):  # modelo às vezes aninha {"categoria": ...}
+        valor = valor.get("categoria") or valor.get("valor") or valor.get("nome")
+    if not isinstance(valor, str):
         return None
     v = valor.strip().lower()
     for c in permitidas:
         if c.lower() == v:
             return c
     return None
+
+
+def _num(x) -> float:
+    try:
+        return float(x)
+    except (TypeError, ValueError):
+        return 0.0
 
 
 def _classificar(client: httpx.Client, chave: str, modelo: str,
@@ -129,8 +141,9 @@ def enriquecer_acoes(
     with httpx.Client() as client:
         for f in arquivos:
             d = json.loads(Path(f).read_text(encoding="utf-8"))
-            falta_ga = not (d.get(_CHAVE_GA) or "").strip()
-            falta_at = not (d.get(_CHAVE_AT) or "").strip()
+            # falta = original vazio E ainda sem inferência (resume real, não regasta Mistral)
+            falta_ga = not (d.get(_CHAVE_GA) or "").strip() and not d.get(f"{_CHAVE_GA} (inferida)")
+            falta_at = not (d.get(_CHAVE_AT) or "").strip() and not d.get(f"{_CHAVE_AT} (inferida)")
             if not (falta_ga or falta_at):
                 stats["pulados"] += 1
                 continue
@@ -143,26 +156,27 @@ def enriquecer_acoes(
             stats["total"] += 1
             try:
                 res = _classificar(client, chave, modelo, titulo, resumo, falta_ga, falta_at)
-            except Exception as e:
+                if not isinstance(res, dict):
+                    raise ValueError(f"resposta inesperada: {type(res).__name__}")
+                inf = {"modelo": modelo, "quando": quando}
+                if falta_ga:
+                    cat = _casar(res.get("grande_area"), GRANDES_AREAS)
+                    conf = _num(res.get("confianca_grande_area"))
+                    if cat and conf >= min_conf:
+                        d[f"{_CHAVE_GA} (inferida)"] = cat
+                        inf["confianca_grande_area"] = conf
+                        stats["inferidos_ga"] += 1
+                if falta_at:
+                    cat = _casar(res.get("area_tematica"), AREAS_TEMATICAS)
+                    conf = _num(res.get("confianca_area_tematica"))
+                    if cat and conf >= min_conf:
+                        d[f"{_CHAVE_AT} (inferida)"] = cat
+                        inf["confianca_area_tematica"] = conf
+                        stats["inferidos_at"] += 1
+            except Exception as e:  # resposta ruim/rate limit não derruba o run
                 stats["erros"] += 1
                 log(f"  ! erro {Path(f).name}: {str(e)[:70]}")
                 continue
-
-            inf = {"modelo": modelo, "quando": quando}
-            if falta_ga:
-                cat = _casar(res.get("grande_area"), GRANDES_AREAS)
-                conf = float(res.get("confianca_grande_area") or 0)
-                if cat and conf >= min_conf:
-                    d[f"{_CHAVE_GA} (inferida)"] = cat
-                    inf["confianca_grande_area"] = conf
-                    stats["inferidos_ga"] += 1
-            if falta_at:
-                cat = _casar(res.get("area_tematica"), AREAS_TEMATICAS)
-                conf = float(res.get("confianca_area_tematica") or 0)
-                if cat and conf >= min_conf:
-                    d[f"{_CHAVE_AT} (inferida)"] = cat
-                    inf["confianca_area_tematica"] = conf
-                    stats["inferidos_at"] += 1
 
             if len(inf) > 2:  # gravou ao menos uma inferência
                 d["_inferencia"] = inf
@@ -171,6 +185,7 @@ def enriquecer_acoes(
             feitos += 1
             log(f"  [{feitos}] {d.get('acao_id')} ga={d.get(_CHAVE_GA+' (inferida)','-')} "
                 f"at={d.get(_CHAVE_AT+' (inferida)','-')}")
+            time.sleep(0.4)  # gentil com o rate limit
             if limite and feitos >= limite:
                 break
 

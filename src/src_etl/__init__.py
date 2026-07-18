@@ -1,58 +1,62 @@
-"""src_etl — ETL das ações públicas do SRC/Ifes com Playwright + httpx.
+"""src_etl — ETL e dashboard das ações do SRC/Ifes.
 
-API principal:
-    from src_etl import run, extrair_campus, Acao
+Organização:
+    src_etl.etl        — extração (pública + autenticada), enriquecimento,
+                         consolidação e pipeline
+    src_etl.dashboard  — agregações, painel e mini-site estático
 
-    acoes = run("Serra", out_dir="data/serra")
+A API pública é re-exportada aqui para conveniência e compatibilidade:
+
+    from src_etl import run, run_participacoes, gerar_painel, gerar_site
 """
 
 from __future__ import annotations
 
-from .detail import fetch_detalhe, parse_detalhe
-from .gerenciar import carregar_credenciais, coletar_participacoes
-from .models import Acao, AcaoParticipacoes, AtividadeParticipacoes
-from .pipeline import (
+from .dashboard import (
+    coletar_extensionistas,
+    gerar_indicadores,
+    gerar_painel,
+    gerar_relatorio,
+    gerar_resumos,
+    gerar_site,
+)
+from .etl import (
+    Acao,
+    AcaoParticipacoes,
+    AtividadeParticipacoes,
+    LinhaAcao,
+    carregar_credenciais,
+    coletar_campus,
+    coletar_participacoes,
+    consolidar,
+    enriquecer_acoes,
+    enriquecer_vinculadas,
     extrair_campi,
     extrair_campus,
+    fetch_detalhe,
+    listar_campi,
+    parse_detalhe,
     processos_de_index,
     run,
     run_participacoes,
     salvar_json_por_acao,
     salvar_por_campus,
 )
-from .consolidar import consolidar
-from .vinculadas import enriquecer_vinculadas
-from .enriquecer import enriquecer_acoes
-from .indicadores import gerar_indicadores
-from .painel import gerar_painel
-from .relatorio import gerar_relatorio
-from .scraper import LinhaAcao, coletar_campus, listar_campi
 
-__version__ = "0.19.0"
+__version__ = "0.20.0"
 
 __all__ = [
-    "Acao",
-    "AcaoParticipacoes",
-    "AtividadeParticipacoes",
-    "LinhaAcao",
-    "run",
-    "run_participacoes",
-    "processos_de_index",
-    "extrair_campi",
-    "extrair_campus",
-    "salvar_json_por_acao",
-    "salvar_por_campus",
-    "coletar_campus",
-    "listar_campi",
-    "coletar_participacoes",
-    "carregar_credenciais",
-    "gerar_relatorio",
-    "enriquecer_acoes",
-    "consolidar",
-    "enriquecer_vinculadas",
-    "gerar_indicadores",
-    "gerar_painel",
-    "fetch_detalhe",
-    "parse_detalhe",
+    # etl
+    "Acao", "AcaoParticipacoes", "AtividadeParticipacoes", "LinhaAcao",
+    "run", "run_participacoes", "processos_de_index",
+    "extrair_campi", "extrair_campus",
+    "salvar_json_por_acao", "salvar_por_campus",
+    "coletar_campus", "listar_campi",
+    "coletar_participacoes", "carregar_credenciais",
+    "fetch_detalhe", "parse_detalhe",
+    "enriquecer_acoes", "enriquecer_vinculadas", "consolidar",
+    # dashboard
+    "gerar_relatorio", "gerar_indicadores", "gerar_painel", "gerar_site",
+    "coletar_extensionistas", "gerar_resumos",
     "__version__",
 ]

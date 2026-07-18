@@ -11,8 +11,8 @@ from __future__ import annotations
 import argparse
 import sys
 
-from .pipeline import run
-from .scraper import listar_campi
+from .etl.pipeline import run
+from .etl.scraper import listar_campi
 import asyncio
 
 

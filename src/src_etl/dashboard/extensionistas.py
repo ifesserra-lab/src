@@ -23,7 +23,7 @@ from pathlib import Path
 
 import httpx
 
-from .enriquecer import API_URL, MODELO_PADRAO, carregar_chave
+from ..etl.enriquecer import API_URL, MODELO_PADRAO, carregar_chave
 
 _CACHE_PADRAO = Path("data/extensionistas_resumos.json")
 

@@ -1,7 +1,7 @@
 """Testa o parser de detalhe contra HTML fixo (sem rede)."""
 
-from src_etl.detail import parse_detalhe
-from src_etl.models import Acao
+from src_etl.etl.detail import parse_detalhe
+from src_etl.etl.models import Acao
 
 HTML = """
 <table><tbody>

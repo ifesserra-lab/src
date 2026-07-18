@@ -15,7 +15,7 @@ from __future__ import annotations
 import argparse
 import sys
 
-from .pipeline import processos_de_index, run_participacoes
+from .etl.pipeline import processos_de_index, run_participacoes
 
 
 def main(argv: list[str] | None = None) -> int:

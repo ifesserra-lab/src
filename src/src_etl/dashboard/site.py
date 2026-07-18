@@ -688,10 +688,7 @@ def _pagina_extensionista(p: dict, resumo: str | None, colabs: list) -> str:
             nomes = sorted(set(ativ_por_acao.get(aid, [])))
             if not nomes:
                 return "—"
-            txt = "; ".join(escape(x[:60]) for x in nomes[:4])
-            if len(nomes) > 4:
-                txt += f' <span class="sec-desc">+{len(nomes)-4}</span>'
-            return txt
+            return "<br>".join(escape(x) for x in nomes)
         rows = "".join(
             f'<tr><td><a class="lk" href="../acoes/{r["acao_id"]}.html">{escape(r["titulo"][:70])}</a></td>'
             f'<td>{_ativs(r["acao_id"])}</td>'

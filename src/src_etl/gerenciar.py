@@ -83,13 +83,14 @@ async def _login(page: Page, user: str, senha: str) -> None:
 
 
 async def _ir_busca(page: Page) -> bool:
-    """Vai ao form de busca de ação (retry tolerante a estado transitório)."""
+    """Vai ao form de busca de ação (espera o campo aparecer; retry tolerante)."""
     for _ in range(5):
         await page.goto(GER_ACAO, wait_until="networkidle")
-        await page.wait_for_timeout(1500)
-        if await page.eval_on_selector_all("input.ui-inputmask", "e=>e.length"):
+        try:
+            await page.wait_for_selector("input.ui-inputmask", timeout=6000)
             return True
-        await page.wait_for_timeout(2000)
+        except Exception:
+            await page.wait_for_timeout(1000)  # estado transitório de sessão
     return False
 
 
@@ -107,7 +108,13 @@ async def _pesquisar(page: Page, processo: str) -> None:
         if "".join(c for c in await campo.input_value() if c.isdigit()) == digitos:
             break
     await page.click("button[title='Pesquisar']")
-    await page.wait_for_timeout(3500)
+    # espera a tabela de atividades assentar: surge o 1º botão Público-Alvo
+    # (ações sem atividades não têm botão -> fallback curto e limitado)
+    try:
+        await page.wait_for_selector(
+            "[id$='dtblAtividades'] tbody tr button[title='Público-Alvo']", timeout=9000)
+    except Exception:
+        await page.wait_for_timeout(800)
 
 
 async def _atividades(page: Page) -> list[dict[str, str]]:
@@ -145,8 +152,20 @@ async def _scrape_participacoes(page: Page) -> list[dict[str, str]]:
         cls = await nxt.get_attribute("class") or ""
         if "ui-state-disabled" in cls:
             break
+        # clica próxima e espera o indicador de página mudar (em vez de sleep fixo)
+        atual = await page.locator(f"[id='{_TBL}'] .ui-paginator-current").first.text_content()
         await nxt.click()
-        await page.wait_for_timeout(1000)
+        try:
+            await page.wait_for_function(
+                """([sel, prev]) => {
+                    const e = document.querySelector(sel + ' .ui-paginator-current');
+                    return e && e.textContent.trim() !== prev;
+                }""",
+                arg=[f"[id='{_TBL}']", (atual or "").strip()],
+                timeout=8000,
+            )
+        except Exception:
+            await page.wait_for_timeout(700)  # fallback
     return linhas
 
 
@@ -169,13 +188,11 @@ async def _coletar_processo(page: Page, processo: str, log) -> AcaoParticipacoes
             break
         await botoes.nth(i).click()
         await page.wait_for_load_state("networkidle")
-        await page.wait_for_timeout(1500)
         atividade_id = page.url.split("atividade=")[-1]
-        publico = await _scrape_participacoes(page)
+        publico = await _scrape_participacoes(page)  # já espera a tabela
 
         # equipe via deep-link pelo mesmo atividade_id
         await page.goto(EQUIPE + quote(atividade_id, safe=""), wait_until="networkidle")
-        await page.wait_for_timeout(1200)
         equipe = await _scrape_participacoes(page)
 
         ativs.append(AtividadeParticipacoes(

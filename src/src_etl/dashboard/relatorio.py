@@ -411,7 +411,6 @@ def blocos_relatorio(a: dict) -> tuple[str, str]:
     ]
     # seções de participação (só quando há dados coletados)
     if a["n_processos_part"]:
-        n_sem = len(a["sem_participacao"])
         secoes += [
             _secao("Top 10 ações por alunos atendidos", _barras(a["top_publico"]),
                    "Ações com maior público-alvo (participações).",
@@ -436,13 +435,6 @@ def blocos_relatorio(a: dict) -> tuple[str, str]:
                    "vínculo de equipe: bolsistas, voluntários, coordenador, professores etc. "
                    "Mede a força de trabalho da extensão — em particular o protagonismo discente "
                    "(funções de aluno) frente ao corpo docente."),
-            _secao(f"Ações sem participações ({n_sem})", _lista_acoes(a["sem_participacao"]),
-                   "Ações coletadas com público-alvo = 0 e equipe = 0 registrados.",
-                   explica="Ações cujo detalhamento foi coletado com sucesso, mas que não têm "
-                   "NENHUMA pessoa registrada — nem público-alvo, nem equipe. Costuma indicar "
-                   "cadastro incompleto (ação executada sem registrar participantes) ou ação que "
-                   "não chegou a ser executada. É a principal lista de pendências de registro "
-                   "para a gestão cobrar."),
             _secao("Coordenadores com ações sem participação",
                    _ranking_coord(a["coord_sem_rank"]),
                    "Nº de ações sem participação por coordenador(a) e proporção do total dele(a).",

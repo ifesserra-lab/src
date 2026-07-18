@@ -22,26 +22,26 @@ from pathlib import Path
 from .painel import HORIZON_CSS, montar_shell
 
 _EXTRA_CSS = """
-.topnav{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0 6px}
-.topnav a{padding:9px 16px;border-radius:14px;font-weight:700;font-size:.85rem;text-decoration:none;
-color:var(--text-secondary);background:var(--surface-1);border:1px solid var(--border);box-shadow:var(--shadow)}
-.topnav a:hover,.topnav a.on{background:var(--series-1);color:#fff;border-color:var(--series-1)}
-table.tb{width:100%;border-collapse:collapse;font-size:.85rem}
-table.tb th{color:var(--text-secondary);text-align:left;padding:8px 10px;border-bottom:2px solid var(--grid);font-size:.78rem;text-transform:uppercase;letter-spacing:.04em}
-table.tb td{padding:8px 10px;border-bottom:1px solid var(--grid);vertical-align:top}
-table.tb tr:hover td{background:color-mix(in srgb,var(--series-1) 5%,transparent)}
-a.lk{color:var(--series-1);text-decoration:none;font-weight:600}
+table.tb{width:100%;border-collapse:collapse;font-size:14px;letter-spacing:-.224px}
+table.tb th{color:var(--muted);text-align:left;padding:9px 10px;border-bottom:1px solid var(--border);
+font-size:12px;font-weight:600;letter-spacing:-.12px;text-transform:uppercase}
+table.tb td{padding:9px 10px;border-bottom:1px solid var(--grid);vertical-align:top}
+table.tb tr:last-child td{border-bottom:0}
+a.lk{color:var(--series-1);text-decoration:none;font-weight:400}
 a.lk:hover{text-decoration:underline}
-.meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;margin:14px 0}
-.meta div{background:var(--surface-1);border:1px solid var(--border);border-radius:14px;padding:10px 14px;font-size:.85rem}
-.meta b{display:block;color:var(--text-secondary);font-size:.72rem;text-transform:uppercase;letter-spacing:.05em;margin-bottom:2px}
-.resumo{background:var(--surface-1);border:1px solid var(--border);border-radius:var(--radius);padding:18px;
-box-shadow:var(--shadow);color:var(--text-secondary);max-width:75ch;line-height:1.55;font-size:.92rem}
-input.busca{width:100%;padding:14px 18px;border-radius:16px;border:1px solid var(--border);
-background:var(--surface-1);color:var(--text-primary);font-size:1rem;box-shadow:var(--shadow);outline:none}
-input.busca:focus{border-color:var(--series-1)}
-.badge{display:inline-block;border:1px solid var(--border);border-radius:20px;padding:1px 10px;
-font-size:.75rem;color:var(--muted);white-space:nowrap}
+.meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:16px 0}
+.meta div{background:var(--surface-1);border:1px solid var(--border);border-radius:var(--radius);
+padding:14px 16px;font-size:14px;letter-spacing:-.224px}
+.meta b{display:block;color:var(--muted);font-size:12px;font-weight:600;letter-spacing:-.12px;
+text-transform:uppercase;margin-bottom:3px}
+.resumo{background:var(--parchment);border:0;border-radius:var(--radius);padding:22px 24px;
+color:var(--text-primary);max-width:75ch;line-height:1.47;font-size:17px;letter-spacing:-.374px}
+input.busca{width:100%;padding:13px 22px;border-radius:9999px;border:1px solid var(--border);
+background:var(--surface-1);color:var(--text-primary);font-size:17px;letter-spacing:-.374px;
+outline:none;font-family:inherit;transition:border-color .12s}
+input.busca:focus{border-color:var(--accent-focus);outline:2px solid var(--accent-focus);outline-offset:1px}
+.badge{display:inline-block;border:1px solid var(--border);border-radius:9999px;padding:3px 12px;
+font-size:12px;letter-spacing:-.12px;color:var(--text-secondary);white-space:nowrap}
 """
 
 

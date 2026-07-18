@@ -386,25 +386,26 @@ def _ego_grafo(nome: str, colabs: list[tuple[str, str, int]]) -> str:
 
 
 def _barras_v(dados: list[tuple[str, int]]) -> str:
-    """Barras VERTICAIS: eixo x = rótulo (ano), y = quantidade."""
+    """Barras VERTICAIS que preenchem a largura: x = rótulo (ano), y = quantidade."""
     if not dados:
         return '<p class="vazio">Sem dados.</p>'
     maxv = max(v for _, v in dados) or 1
     n = len(dados)
-    bw, gap, top, base_h, W_lbl = 34, 18, 30, 190, 0
-    H = top + base_h + 34
-    W = max(360, n * (bw + gap) + gap)
+    W, top, base_h = 1000, 26, 150          # viewBox largo; escala uniforme a 100%
+    H = top + base_h + 30
+    slot = W / n
+    bw = min(90, slot * 0.6)                # barra ocupa 60% do slot (teto 90px)
     barras = []
     for i, (rot, v) in enumerate(dados):
-        x = gap + i * (bw + gap)
+        cx = slot * (i + 0.5)
         bh = max(2, round(v / maxv * base_h))
         y = top + base_h - bh
         barras.append(
-            f'<rect x="{x}" y="{y}" width="{bw}" height="{bh}" rx="4" fill="var(--series-1)">'
+            f'<rect x="{cx-bw/2:.1f}" y="{y}" width="{bw:.1f}" height="{bh}" rx="5" fill="var(--series-1)">'
             f'<title>{escape(rot)}: {v}</title></rect>'
-            f'<text x="{x+bw/2:.0f}" y="{y-6}" text-anchor="middle" class="val">{v}</text>'
-            f'<text x="{x+bw/2:.0f}" y="{top+base_h+18}" text-anchor="middle" class="lbl">{escape(rot)}</text>')
-    return (f'<svg viewBox="0 0 {W} {H}" width="100%" style="max-width:{W}px" role="img">'
+            f'<text x="{cx:.1f}" y="{y-7}" text-anchor="middle" class="val">{v}</text>'
+            f'<text x="{cx:.1f}" y="{top+base_h+19}" text-anchor="middle" class="lbl">{escape(rot)}</text>')
+    return (f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" style="display:block">'
             + "".join(barras) + "</svg>")
 
 

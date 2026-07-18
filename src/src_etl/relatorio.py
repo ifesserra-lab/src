@@ -105,6 +105,8 @@ def agregar(acoes: list[dict], parts: list[dict]) -> dict:
     part_por_proc = {p.get("processo"): p for p in parts}
     sem_participacao = []
     nao_coletados = []
+    coord_sem = Counter()
+    coord_total = Counter((a.get("Coordenador(a)") or "—").strip() or "—" for a in acoes)
     for a in acoes:
         proc = a.get("Processo nº")
         p = part_por_proc.get(proc)
@@ -114,6 +116,10 @@ def agregar(acoes: list[dict], parts: list[dict]) -> dict:
             nao_coletados.append((titulo_a, proc, tipo_a))
         elif p.get("total_publico_alvo", 0) == 0 and p.get("total_equipe", 0) == 0:
             sem_participacao.append((titulo_a, proc, tipo_a))
+            coord_sem[(a.get("Coordenador(a)") or "—").strip() or "—"] += 1
+
+    # ranking de coordenadores por ações sem participação (com proporção)
+    coord_sem_rank = [(nome, n, coord_total[nome]) for nome, n in coord_sem.most_common(12)]
 
     top_publico = sorted(publico_por_acao, key=lambda x: -x[1])[:10]
     media_equipe = (sum(equipe_por_acao_vals) / len(equipe_por_acao_vals)) if equipe_por_acao_vals else 0
@@ -143,6 +149,7 @@ def agregar(acoes: list[dict], parts: list[dict]) -> dict:
         "top_publico": top_publico,
         "sem_participacao": sem_participacao,
         "nao_coletados": nao_coletados,
+        "coord_sem_rank": coord_sem_rank,
     }
 
 
@@ -214,6 +221,28 @@ def _lista_acoes(itens: list[tuple[str, str, str]]) -> str:
         for t, pr, tp in itens
     )
     return f'<div class="lista">{linhas}</div>'
+
+
+def _ranking_coord(itens: list[tuple[str, int, int]]) -> str:
+    """Ranking de coordenadores: barra pelo nº sem participação + proporção."""
+    if not itens:
+        return '<p class="vazio">Sem dados ainda.</p>'
+    maxv = max(n for _, n, _ in itens) or 1
+    bw, lblw = 240, 250
+    lh = 30
+    h = len(itens) * lh + 8
+    linhas = []
+    for i, (nome, n, tot) in enumerate(itens):
+        y = i * lh + 4
+        w = max(3, round(n / maxv * bw))
+        pct = round(n / tot * 100) if tot else 0
+        linhas.append(
+            f'<text x="{lblw-8}" y="{y+16}" text-anchor="end" class="lbl">{escape(str(nome)[:30])}</text>'
+            f'<rect x="{lblw}" y="{y+5}" width="{w}" height="16" rx="4" fill="var(--series-1)"/>'
+            f'<text x="{lblw+w+6}" y="{y+16}" class="val">{n} de {tot} ({pct}%)</text>'
+        )
+    return (f'<svg viewBox="0 0 {lblw+bw+110} {h}" width="100%" role="img">'
+            + "".join(linhas) + "</svg>")
 
 
 def _tile(valor, rotulo: str, sub: str = "") -> str:
@@ -321,6 +350,9 @@ def gerar_relatorio(
             _secao("Equipe executora por função (top 8)", _barras(a["funcao"])),
             _secao(f"Ações sem participações ({n_sem})", _lista_acoes(a["sem_participacao"]),
                    "Ações coletadas com público-alvo = 0 e equipe = 0 registrados."),
+            _secao("Coordenadores com ações sem participação",
+                   _ranking_coord(a["coord_sem_rank"]),
+                   "Nº de ações sem participação por coordenador(a) e proporção do total dele(a)."),
         ]
         if a["nao_coletados"]:
             secoes.append(_secao(

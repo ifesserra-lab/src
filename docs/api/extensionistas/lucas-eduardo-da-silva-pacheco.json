@@ -34,5 +34,57 @@
         "EXTENSIONISTA"
       ]
     }
+  ],
+  "colaboradores": [
+    {
+      "nome": "Rosiane Ribeiro Rocha",
+      "slug": "rosiane-ribeiro-rocha",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Vitor Almeida Nascimento Lopes",
+      "slug": "vitor-almeida-nascimento-lopes",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Marcus Romano Salles Bernardes de Souza",
+      "slug": "marcus-romano-salles-bernardes-de-souza",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Victor Laurentino Subtil",
+      "slug": "victor-laurentino-subtil",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Gabriel Ravani do Rosario",
+      "slug": "gabriel-ravani-do-rosario",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Rosilene de Sá Ribeiro",
+      "slug": "rosilene-de-sa-ribeiro",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Leandro Melo de Sá",
+      "slug": "leandro-melo-de-sa",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Jonas Emanuel dos Santos Egert",
+      "slug": "jonas-emanuel-dos-santos-egert",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Luiz Felipe Loureiro Mascarenhas",
+      "slug": "luiz-felipe-loureiro-mascarenhas",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Faye Manski Queiroz",
+      "slug": "faye-manski-queiroz",
+      "acoes_comuns": 1
+    }
   ]
 }

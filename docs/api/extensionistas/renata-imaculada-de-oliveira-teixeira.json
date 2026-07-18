@@ -32,5 +32,32 @@
         "COORDENADOR(A) ADJUNTO(A)"
       ]
     }
+  ],
+  "colaboradores": [
+    {
+      "nome": "Bruno Cardoso Coutinho",
+      "slug": "bruno-cardoso-coutinho",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Juliana Rohsner Vianna Toniati",
+      "slug": "juliana-rohsner-vianna-toniati",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Gabriel Victor Ferreira de Araújo",
+      "slug": "gabriel-victor-ferreira-de-araujo",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Glaucelena Dias Lopes da Vitória",
+      "slug": "glaucelena-dias-lopes-da-vitoria",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Ridley Francis Miranda Amorim",
+      "slug": "ridley-francis-miranda-amorim",
+      "acoes_comuns": 1
+    }
   ]
 }

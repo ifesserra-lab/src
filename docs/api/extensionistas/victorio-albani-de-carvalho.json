@@ -56,5 +56,37 @@
         "COORDENADOR(A)"
       ]
     }
+  ],
+  "colaboradores": [
+    {
+      "nome": "Felipe Frechiani de Oliveira",
+      "slug": "felipe-frechiani-de-oliveira",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Éllen Oliveira Silva Neves",
+      "slug": "ellen-oliveira-silva-neves",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "David de Assis",
+      "slug": "david-de-assis",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Walber Antonio Ramos Beltrame",
+      "slug": "walber-antonio-ramos-beltrame",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Rodrigo Fernandes Calhau",
+      "slug": "rodrigo-fernandes-calhau",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Paulo Sérgio dos Santos Júnior",
+      "slug": "paulo-sergio-dos-santos-junior",
+      "acoes_comuns": 1
+    }
   ]
 }

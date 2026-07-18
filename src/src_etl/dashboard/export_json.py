@@ -24,6 +24,7 @@ from __future__ import annotations
 
 import json
 import re
+from collections import Counter
 from pathlib import Path
 
 from .extensionistas import _CACHE_PADRAO, _norm, coautoria, coletar_extensionistas
@@ -165,7 +166,7 @@ def exportar_api(
             "acoes_coordenadas": p["coordena"],
             "participacoes_equipe": p["participa"],
             "colaboradores": [{"nome": cn, "slug": _sl.get(_norm(cn)), "acoes_comuns": cnt}
-                              for cn, cnt in _co.get(_norm(p["nome"]), {}).most_common()]}
+                              for cn, cnt in _co.get(_norm(p["nome"]), Counter()).most_common()]}
         _grava(api / "extensionistas" / f"{p['slug']}.json", registro)
         todos_ext.append(registro)
         idx_ext.append({"slug": p["slug"], "nome": p["nome"],

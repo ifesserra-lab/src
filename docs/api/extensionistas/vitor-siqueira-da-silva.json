@@ -20,5 +20,17 @@
         "ALUNO(A) VOLUNTARIO"
       ]
     }
+  ],
+  "colaboradores": [
+    {
+      "nome": "Carlos Lins Borges Azevedo",
+      "slug": "carlos-lins-borges-azevedo",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Vinicius da Hora Corte",
+      "slug": "vinicius-da-hora-corte",
+      "acoes_comuns": 1
+    }
   ]
 }

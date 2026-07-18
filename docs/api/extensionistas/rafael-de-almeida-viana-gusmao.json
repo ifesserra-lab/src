@@ -20,5 +20,17 @@
         "PROFESSOR(A)"
       ]
     }
+  ],
+  "colaboradores": [
+    {
+      "nome": "Paulo Cezar Camargo Guedes",
+      "slug": "paulo-cezar-camargo-guedes",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Murilo Andrade Carvalho",
+      "slug": "murilo-andrade-carvalho",
+      "acoes_comuns": 1
+    }
   ]
 }

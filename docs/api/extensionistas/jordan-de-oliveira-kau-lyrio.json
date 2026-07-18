@@ -20,5 +20,12 @@
         "ALUNO(A) VOLUNTARIO"
       ]
     }
+  ],
+  "colaboradores": [
+    {
+      "nome": "Daniel Ribeiro Trindade",
+      "slug": "daniel-ribeiro-trindade",
+      "acoes_comuns": 1
+    }
   ]
 }

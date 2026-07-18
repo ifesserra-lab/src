@@ -20,5 +20,32 @@
         "ALUNO(A) BOLSISTA"
       ]
     }
+  ],
+  "colaboradores": [
+    {
+      "nome": "Rosiane Ribeiro Rocha",
+      "slug": "rosiane-ribeiro-rocha",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Vitor Almeida Nascimento Lopes",
+      "slug": "vitor-almeida-nascimento-lopes",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Lucas Eduardo da Silva Pacheco",
+      "slug": "lucas-eduardo-da-silva-pacheco",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Marcus Romano Salles Bernardes de Souza",
+      "slug": "marcus-romano-salles-bernardes-de-souza",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Victor Laurentino Subtil",
+      "slug": "victor-laurentino-subtil",
+      "acoes_comuns": 1
+    }
   ]
 }

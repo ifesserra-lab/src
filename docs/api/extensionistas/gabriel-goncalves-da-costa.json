@@ -20,5 +20,17 @@
         "ALUNO(A) BOLSISTA"
       ]
     }
+  ],
+  "colaboradores": [
+    {
+      "nome": "Felipe Frechiani de Oliveira",
+      "slug": "felipe-frechiani-de-oliveira",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Joel Will Belmiro",
+      "slug": "joel-will-belmiro",
+      "acoes_comuns": 1
+    }
   ]
 }

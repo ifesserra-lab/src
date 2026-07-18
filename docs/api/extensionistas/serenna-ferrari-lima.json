@@ -20,5 +20,22 @@
         "ALUNO(A) VOLUNTARIO"
       ]
     }
+  ],
+  "colaboradores": [
+    {
+      "nome": "Moisés Savedra Omena",
+      "slug": "moises-savedra-omena",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Matheus de Souza Pereira de Oliveira",
+      "slug": "matheus-de-souza-pereira-de-oliveira",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Andreângelo da Paixão Patuzzo",
+      "slug": "andreangelo-da-paixao-patuzzo",
+      "acoes_comuns": 1
+    }
   ]
 }

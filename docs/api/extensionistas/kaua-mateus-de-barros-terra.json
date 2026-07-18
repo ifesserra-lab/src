@@ -20,5 +20,97 @@
         "ALUNO(A) VOLUNTARIO"
       ]
     }
+  ],
+  "colaboradores": [
+    {
+      "nome": "Moisés Savedra Omena",
+      "slug": "moises-savedra-omena",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "João Pedro Spinassé Viana",
+      "slug": "joao-pedro-spinasse-viana",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Samuel Ferreira Alves",
+      "slug": "samuel-ferreira-alves",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Maressa Karen Henrique da Silva",
+      "slug": "maressa-karen-henrique-da-silva",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Harian Adami Chagas Radaelli",
+      "slug": "harian-adami-chagas-radaelli",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Mateus Lannes Cunha",
+      "slug": "mateus-lannes-cunha",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Rodrigo Fernandes Calhau",
+      "slug": "rodrigo-fernandes-calhau",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Felipe Frechiani de Oliveira",
+      "slug": "felipe-frechiani-de-oliveira",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Lucas Machado Santos",
+      "slug": "lucas-machado-santos",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Lorenzzo Gabriel Ramos Doelinger Oliveira",
+      "slug": "lorenzzo-gabriel-ramos-doelinger-oliveira",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Edimar Antonio da Cruz",
+      "slug": "edimar-antonio-da-cruz",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Carlos Henrique Costa Matos",
+      "slug": "carlos-henrique-costa-matos",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Arthur Delpupo Coelho",
+      "slug": "arthur-delpupo-coelho",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Rubens do Nascimento Corrêa Júnior",
+      "slug": "rubens-do-nascimento-correa-junior",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Marcela Starling Ferreira Lage",
+      "slug": "marcela-starling-ferreira-lage",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Larissa Batista Rangel",
+      "slug": "larissa-batista-rangel",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Fernanda Jaimara do Nascimento",
+      "slug": "fernanda-jaimara-do-nascimento",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Eduardo Alves Figueiredo",
+      "slug": "eduardo-alves-figueiredo",
+      "acoes_comuns": 1
+    }
   ]
 }

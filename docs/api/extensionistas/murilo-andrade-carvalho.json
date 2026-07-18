@@ -53,5 +53,122 @@
         "PROFESSOR(A)"
       ]
     }
+  ],
+  "colaboradores": [
+    {
+      "nome": "Alessandro Bermudes Gomes",
+      "slug": "alessandro-bermudes-gomes",
+      "acoes_comuns": 3
+    },
+    {
+      "nome": "Daniella Araújo Fraga dos Santos",
+      "slug": "daniella-araujo-fraga-dos-santos",
+      "acoes_comuns": 3
+    },
+    {
+      "nome": "Davi Aragão Ascacibas",
+      "slug": "davi-aragao-ascacibas",
+      "acoes_comuns": 3
+    },
+    {
+      "nome": "Alexia Coelho Barbosa",
+      "slug": "alexia-coelho-barbosa",
+      "acoes_comuns": 3
+    },
+    {
+      "nome": "Thiago Machado Oliveira",
+      "slug": "thiago-machado-oliveira",
+      "acoes_comuns": 3
+    },
+    {
+      "nome": "Paulo Cezar Camargo Guedes",
+      "slug": "paulo-cezar-camargo-guedes",
+      "acoes_comuns": 3
+    },
+    {
+      "nome": "Rowenna Tonani Leão dos Santos",
+      "slug": "rowenna-tonani-leao-dos-santos",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Leonardo Rocha Gomes",
+      "slug": "leonardo-rocha-gomes",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Izis Barbosa Coutinho",
+      "slug": "izis-barbosa-coutinho",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Giordana dos Santos Sperandio",
+      "slug": "giordana-dos-santos-sperandio",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Luana Santos Lemos",
+      "slug": "luana-santos-lemos",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Breno Siquara Azevedo",
+      "slug": "breno-siquara-azevedo",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Sillas Ribeiro Ataide",
+      "slug": "sillas-ribeiro-ataide",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Ana Paula Klauck",
+      "slug": "ana-paula-klauck",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Ian Drumond Duarte",
+      "slug": "ian-drumond-duarte",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Amarildo Mendes Lemos",
+      "slug": "amarildo-mendes-lemos",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Mizael Fernandes de Oliveira",
+      "slug": "mizael-fernandes-de-oliveira",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Josinei Rodrigues Filho",
+      "slug": "josinei-rodrigues-filho",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Gabriela do Nascimento Marin",
+      "slug": "gabriela-do-nascimento-marin",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Taise Gonçalves de Jesus",
+      "slug": "taise-goncalves-de-jesus",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Michelle Kapiche Alonso",
+      "slug": "michelle-kapiche-alonso",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Nathielly Bertollo Marques",
+      "slug": "nathielly-bertollo-marques",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Rafael de Almeida Viana Gusmão",
+      "slug": "rafael-de-almeida-viana-gusmao",
+      "acoes_comuns": 1
+    }
   ]
 }

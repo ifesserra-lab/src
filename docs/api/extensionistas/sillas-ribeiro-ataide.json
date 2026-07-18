@@ -20,5 +20,72 @@
         "PROFESSOR(A)"
       ]
     }
+  ],
+  "colaboradores": [
+    {
+      "nome": "Alessandro Bermudes Gomes",
+      "slug": "alessandro-bermudes-gomes",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Giordana dos Santos Sperandio",
+      "slug": "giordana-dos-santos-sperandio",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Luana Santos Lemos",
+      "slug": "luana-santos-lemos",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Breno Siquara Azevedo",
+      "slug": "breno-siquara-azevedo",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Daniella Araújo Fraga dos Santos",
+      "slug": "daniella-araujo-fraga-dos-santos",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Davi Aragão Ascacibas",
+      "slug": "davi-aragao-ascacibas",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Alexia Coelho Barbosa",
+      "slug": "alexia-coelho-barbosa",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Thiago Machado Oliveira",
+      "slug": "thiago-machado-oliveira",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Murilo Andrade Carvalho",
+      "slug": "murilo-andrade-carvalho",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Ana Paula Klauck",
+      "slug": "ana-paula-klauck",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Ian Drumond Duarte",
+      "slug": "ian-drumond-duarte",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Amarildo Mendes Lemos",
+      "slug": "amarildo-mendes-lemos",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Mizael Fernandes de Oliveira",
+      "slug": "mizael-fernandes-de-oliveira",
+      "acoes_comuns": 1
+    }
   ]
 }

@@ -22,5 +22,27 @@
         "COORDENADOR(A) ADJUNTO(A)"
       ]
     }
+  ],
+  "colaboradores": [
+    {
+      "nome": "Bruno Cardoso Coutinho",
+      "slug": "bruno-cardoso-coutinho",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Juliana Rohsner Vianna Toniati",
+      "slug": "juliana-rohsner-vianna-toniati",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Gabriel Victor Ferreira de Araújo",
+      "slug": "gabriel-victor-ferreira-de-araujo",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Renata Imaculada de Oliveira Teixeira",
+      "slug": "renata-imaculada-de-oliveira-teixeira",
+      "acoes_comuns": 1
+    }
   ]
 }

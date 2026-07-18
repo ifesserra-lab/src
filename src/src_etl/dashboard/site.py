@@ -60,7 +60,7 @@ color:var(--series-1);font-variant-numeric:tabular-nums}
 .mkt-lbl{font-size:18px;line-height:1.4;color:var(--text-primary)}
 .mk-svg{margin-top:6px}
 .mk-ax{fill:var(--muted);font-size:12px;font-variant-numeric:tabular-nums}
-.mk-val{fill:var(--text-primary);font-size:14px;font-weight:700;font-variant-numeric:tabular-nums}
+.mk-val{fill:var(--text-primary);font-size:12.5px;font-weight:700;font-variant-numeric:tabular-nums}
 @media (max-width:560px){.mkt-num{font-size:40px}.mkt-lbl{font-size:15px}}
 """
 
@@ -297,12 +297,12 @@ def _svg_area_anos(pares: list[tuple[str, int]]) -> str:
     dots = "".join(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="7" fill="transparent">'
                    f'<title>{ano}: {v} pessoas atingidas</title></circle>'
                    f'<circle cx="{x:.1f}" cy="{y:.1f}" r="3" fill="var(--series-1)"/>'
+                   f'<text x="{x:.1f}" y="{y-11:.1f}" text-anchor="middle" class="mk-val">{v}</text>'
                    for x, y, ano, v in pts)
     def bolha(i, cor):
         x, y, ano, v = pts[i]
         return (f'<circle cx="{x:.1f}" cy="{y:.1f}" r="5.5" fill="{cor}" '
-                f'stroke="var(--surface-1)" stroke-width="2.5"/>'
-                f'<text x="{x:.1f}" y="{y-12:.1f}" text-anchor="middle" class="mk-val">{v}</text>')
+                f'stroke="var(--surface-1)" stroke-width="2.5"/>')
     destaque = bolha(i_max, "var(--cta)") + (bolha(n-1, "var(--series-1)") if n-1 != i_max else "")
     return (f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" class="mk-svg" '
             f'style="display:block">'

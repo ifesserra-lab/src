@@ -117,14 +117,47 @@ async def _pesquisar(page: Page, processo: str) -> None:
         await page.wait_for_timeout(800)
 
 
-async def _atividades(page: Page) -> list[dict[str, str]]:
-    """Lê a tabela de atividades (dtblAtividades) da ação pesquisada."""
-    return await page.evaluate(
-        """() => [...document.querySelectorAll("[id$='dtblAtividades'] tbody tr")].map(tr => {
-            const c=[...tr.querySelectorAll('td')].map(td=>td.innerText.trim());
-            return {num:c[0]||'', tipo:c[1]||'', atividade:c[2]||''};
-        }).filter(r => r.num && r.num.toLowerCase().indexOf('nenhum')<0)"""
-    )
+async def _coletar_metas(page: Page) -> list[dict[str, str]]:
+    """Percorre TODAS as páginas do dtblAtividades e extrai atividade_id do onclick.
+
+    O id fica no onclick do botão Público-Alvo (window.open ...?atividade=<id>),
+    então dá para coletar todas as atividades sem clicar/navegar."""
+    metas: list[dict[str, str]] = []
+    seen: set[str] = set()
+    while True:
+        rows = await page.evaluate(
+            r"""() => [...document.querySelectorAll("[id$='dtblAtividades'] tbody tr")].map(tr => {
+                const c=[...tr.querySelectorAll('td')].map(td=>td.innerText.trim());
+                const pa=tr.querySelector("button[title='Público-Alvo']");
+                const oc = pa ? (pa.getAttribute('onclick')||'') : '';
+                const m = oc.match(/atividade=(\d+)/);
+                return {num:c[0]||'', tipo:c[1]||'', atividade:c[2]||'', atividade_id: m?m[1]:null};
+            }).filter(r => r.num && r.num.toLowerCase().indexOf('nenhum')<0)"""
+        )
+        for r in rows:
+            if r["atividade_id"] and r["atividade_id"] not in seen:
+                seen.add(r["atividade_id"])
+                metas.append(r)
+
+        nxt = page.locator("[id$='dtblAtividades'] .ui-paginator-next").first
+        if await nxt.count() == 0:
+            break
+        cls = await nxt.get_attribute("class") or ""
+        if "ui-state-disabled" in cls:
+            break
+        atual = await page.locator("[id$='dtblAtividades'] .ui-paginator-current").first.text_content()
+        await nxt.click()
+        try:
+            await page.wait_for_function(
+                """(prev) => {
+                    const e = document.querySelector("[id$='dtblAtividades'] .ui-paginator-current");
+                    return e && e.textContent.trim() !== prev;
+                }""",
+                arg=(atual or "").strip(), timeout=8000,
+            )
+        except Exception:
+            await page.wait_for_timeout(800)
+    return metas
 
 
 async def _scrape_participacoes(page: Page) -> list[dict[str, str]]:
@@ -174,24 +207,15 @@ async def _coletar_processo(page: Page, processo: str, log) -> AcaoParticipacoes
     if not await _ir_busca(page):
         raise RuntimeError("não chegou ao form de busca (sessão)")
     await _pesquisar(page, processo)
-    metas = await _atividades(page)
+    metas = await _coletar_metas(page)  # todas as páginas do dtblAtividades
     log(f"[{processo}] {len(metas)} atividades")
 
     ativs: list[AtividadeParticipacoes] = []
-    for i, meta in enumerate(metas):
-        if i > 0:  # re-pesquisa: cada clique navega pra fora da lista
-            await _ir_busca(page)
-            await _pesquisar(page, processo)
-
-        botoes = page.locator("button[title='Público-Alvo']")
-        if await botoes.count() <= i:
-            break
-        await botoes.nth(i).click()
-        await page.wait_for_load_state("networkidle")
-        atividade_id = page.url.split("atividade=")[-1]
-        publico = await _scrape_participacoes(page)  # já espera a tabela
-
-        # equipe via deep-link pelo mesmo atividade_id
+    for meta in metas:
+        atividade_id = meta["atividade_id"]
+        # público-alvo e equipe por deep-link (id já extraído do onclick)
+        await page.goto(PUBLICO + quote(atividade_id, safe=""), wait_until="networkidle")
+        publico = await _scrape_participacoes(page)
         await page.goto(EQUIPE + quote(atividade_id, safe=""), wait_until="networkidle")
         equipe = await _scrape_participacoes(page)
 

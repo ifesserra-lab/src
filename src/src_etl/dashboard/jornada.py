@@ -155,7 +155,7 @@ def svg_timeline(a: dict) -> str:
                 f'<text x="{x:.0f}" y="{y+30}" text-anchor="middle" class="tl-s">{escape(sub)}</text>')
 
     return (
-        f'<svg viewBox="0 0 {W} {H}" width="100%" role="img">'
+        f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" style="max-width:{W}px">'
         f'<line x1="{x0}" y1="{y}" x2="{x1}" y2="{y}" stroke="var(--grid)" stroke-width="4" stroke-linecap="round"/>'
         f'<line x1="{x0}" y1="{y}" x2="{x_ext:.0f}" y2="{y}" stroke="var(--series-1)" stroke-width="4" stroke-linecap="round" opacity=".55"/>'
         + marco(x0, "Ingresso", "matrícula")
@@ -185,7 +185,7 @@ def svg_curva_fase(a: dict) -> str:
         for i, v in enumerate(dec) if v)
     eixo = (f'<text x="{pad}" y="{H-8}" class="tl-s">Ingresso</text>'
             f'<text x="{pad+iw}" y="{H-8}" text-anchor="end" class="tl-s">Formatura</text>')
-    return (f'<svg viewBox="0 0 {W} {H}" width="100%" role="img">'
+    return (f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" style="max-width:{W}px">'
             f'<polyline points="{area}" fill="var(--series-1)" fill-opacity=".14" stroke="none"/>'
             f'<polyline points="{linha}" fill="none" stroke="var(--series-1)" stroke-width="2.5" '
             f'stroke-linejoin="round"/>'
@@ -210,5 +210,6 @@ def svg_funil(a: dict) -> str:
             f'<text x="200" y="{yv+30}" text-anchor="end" class="lbl">{escape(rot)}</text>'
             f'<rect x="210" y="{yv+8}" width="{w:.0f}" height="34" rx="6" fill="{cor}"/>'
             f'<text x="{210+w+10:.0f}" y="{yv+30}" class="val">{val} · {pct}%</text>')
-    return (f'<svg viewBox="0 0 {W} {len(etapas)*lh+12}" width="100%" role="img">'
+    return (f'<svg viewBox="0 0 {W} {len(etapas)*lh+12}" width="100%" role="img" '
+            f'style="max-width:{W}px">'
             + "".join(linhas) + "</svg>")

@@ -385,41 +385,53 @@ def _ego_grafo(nome: str, colabs: list[tuple[str, str, int]]) -> str:
             + "".join(arestas) + centro + "".join(nos) + "</svg>")
 
 
-def _barras_v(dados: list[tuple[str, int]]) -> str:
-    """Barras VERTICAIS que preenchem a largura: x = rótulo (ano), y = quantidade."""
+def _barras_v2(dados: list[tuple[str, int, int]]) -> str:
+    """Barras VERTICAIS agrupadas (2 séries) preenchendo a largura.
+
+    dados = [(ano, ações, participações)]. Escalas independentes por série
+    (magnitudes muito diferentes), com legenda e valores reais."""
     if not dados:
         return '<p class="vazio">Sem dados.</p>'
-    maxv = max(v for _, v in dados) or 1
+    m1 = max(v1 for _, v1, _ in dados) or 1
+    m2 = max(v2 for _, _, v2 in dados) or 1
     n = len(dados)
-    W, top, base_h = 1000, 26, 150          # viewBox largo; escala uniforme a 100%
+    W, top, base_h = 1000, 30, 150
     H = top + base_h + 30
     slot = W / n
-    bw = min(90, slot * 0.6)                # barra ocupa 60% do slot (teto 90px)
+    bw = min(34, slot * 0.30)               # 2 barras por slot
     barras = []
-    for i, (rot, v) in enumerate(dados):
+    for i, (rot, v1, v2) in enumerate(dados):
         cx = slot * (i + 0.5)
-        bh = max(2, round(v / maxv * base_h))
-        y = top + base_h - bh
+        for j, (v, mx, cor) in enumerate([(v1, m1, "var(--series-1)"), (v2, m2, "var(--cta)")]):
+            bh = max(2, round(v / mx * base_h))
+            x = cx - bw - 3 + j * (bw + 6)
+            y = top + base_h - bh
+            barras.append(
+                f'<rect x="{x:.1f}" y="{y}" width="{bw:.1f}" height="{bh}" rx="4" fill="{cor}">'
+                f'<title>{escape(rot)} — ' + ("ações" if j == 0 else "participações") + f': {v}</title></rect>'
+                f'<text x="{x+bw/2:.1f}" y="{y-6}" text-anchor="middle" class="val">{v}</text>')
         barras.append(
-            f'<rect x="{cx-bw/2:.1f}" y="{y}" width="{bw:.1f}" height="{bh}" rx="5" fill="var(--series-1)">'
-            f'<title>{escape(rot)}: {v}</title></rect>'
-            f'<text x="{cx:.1f}" y="{y-7}" text-anchor="middle" class="val">{v}</text>'
             f'<text x="{cx:.1f}" y="{top+base_h+19}" text-anchor="middle" class="lbl">{escape(rot)}</text>')
+    legenda = ('<div class="leg" style="flex-direction:row;gap:18px;margin-top:10px">'
+               '<span class="leg-item"><span class="sw" style="background:var(--series-1)"></span>Ações</span>'
+               '<span class="leg-item"><span class="sw" style="background:var(--cta)"></span>Participações</span>'
+               '</div>')
     return (f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" style="display:block">'
-            + "".join(barras) + "</svg>")
+            + "".join(barras) + "</svg>" + legenda)
 
 
-def _projetos_por_ano(p: dict) -> list[tuple[str, int]]:
-    """Nº de ações (coordenadas + equipe) por ano, distintas por ação."""
+def _projetos_por_ano(p: dict) -> list[tuple[str, int, int]]:
+    """Por ano: (nº de ações distintas, nº de participações alcançadas)."""
     from collections import Counter as _C
-    por_ano = _C()
+    acoes, parts = _C(), _C()
     vistos: set = set()
     for r in p["coordena"] + p["participa"]:
         chave = (r["ano"], r["acao_id"])
         if r["ano"] and chave not in vistos:
             vistos.add(chave)
-            por_ano[r["ano"]] += 1
-    return [(a, por_ano[a]) for a in sorted(por_ano)]
+            acoes[r["ano"]] += 1
+            parts[r["ano"]] += r.get("n", 0)
+    return [(a, acoes[a], parts[a]) for a in sorted(acoes)]
 
 
 def _pagina_extensionista(p: dict, resumo: str | None, colabs: list) -> str:
@@ -434,9 +446,10 @@ def _pagina_extensionista(p: dict, resumo: str | None, colabs: list) -> str:
     # projetos de extensão por ano (barras verticais)
     ppa = _projetos_por_ano(p)
     if ppa:
-        blocos.append(f'<div class="card" style="margin-top:14px"><h2>Ações de extensão por ano</h2>'
-                      f'<p class="sec-desc">Nº de ações (coordenadas ou em equipe) por ano.</p>'
-                      f'{_barras_v(ppa)}</div>')
+        blocos.append(f'<div class="card" style="margin-top:14px"><h2>Ações e participações por ano</h2>'
+                      f'<p class="sec-desc">Ações (coordenadas ou em equipe) e participações '
+                      f'alcançadas por ano. Escalas independentes por série.</p>'
+                      f'{_barras_v2(ppa)}</div>')
     if p["coordena"]:
         rows = "".join(
             f'<tr><td><a class="lk" href="../acoes/{r["acao_id"]}.html">{escape(r["titulo"][:75])}</a></td>'

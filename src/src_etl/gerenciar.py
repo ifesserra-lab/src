@@ -82,7 +82,7 @@ async def _login(page: Page, user: str, senha: str) -> None:
     raise RuntimeError("falha no login (verifique USER/PASSWORD)")
 
 
-async def _ir_busca(page: Page, user: str, senha: str) -> bool:
+async def _ir_busca(page: Page) -> bool:
     """Vai ao form de busca de ação (retry tolerante a estado transitório)."""
     for _ in range(5):
         await page.goto(GER_ACAO, wait_until="networkidle")
@@ -150,9 +150,9 @@ async def _scrape_participacoes(page: Page) -> list[dict[str, str]]:
     return linhas
 
 
-async def _coletar_processo(page: Page, processo: str, user: str, senha: str, log) -> AcaoParticipacoes:
+async def _coletar_processo(page: Page, processo: str, log) -> AcaoParticipacoes:
     """Coleta público-alvo + equipe de todas as atividades de um processo."""
-    if not await _ir_busca(page, user, senha):
+    if not await _ir_busca(page):
         raise RuntimeError("não chegou ao form de busca (sessão)")
     await _pesquisar(page, processo)
     metas = await _atividades(page)
@@ -161,7 +161,7 @@ async def _coletar_processo(page: Page, processo: str, user: str, senha: str, lo
     ativs: list[AtividadeParticipacoes] = []
     for i, meta in enumerate(metas):
         if i > 0:  # re-pesquisa: cada clique navega pra fora da lista
-            await _ir_busca(page, user, senha)
+            await _ir_busca(page)
             await _pesquisar(page, processo)
 
         botoes = page.locator("button[title='Público-Alvo']")
@@ -194,14 +194,14 @@ async def _coletar_processo(page: Page, processo: str, user: str, senha: str, lo
     )
 
 
-async def _processar_lista(page: Page, processos: list[str], user: str, senha: str,
+async def _processar_lista(page: Page, processos: list[str],
                            log, on_processo, retry: int = 2) -> dict[str, AcaoParticipacoes]:
     """Processa uma fatia de processos numa aba (com retry por processo)."""
     res: dict[str, AcaoParticipacoes] = {}
     for proc in processos:
         for tent in range(retry):
             try:
-                ap = await _coletar_processo(page, proc, user, senha, log)
+                ap = await _coletar_processo(page, proc, log)
                 res[proc] = ap
                 if on_processo:
                     on_processo(ap)  # salva já, protege progresso
@@ -249,13 +249,13 @@ async def coletar_participacoes(
 
         k = max(1, min(workers, len(processos) or 1))
         if k <= 1:
-            resultado = await _processar_lista(login_page, processos, user, senha, log, on_processo)
+            resultado = await _processar_lista(login_page, processos, log, on_processo)
         else:
             # round-robin -> fatias balanceadas
             fatias = [processos[i::k] for i in range(k)]
             paginas = [login_page] + [await ctx.new_page() for _ in range(k - 1)]
             partes = await asyncio.gather(*[
-                _processar_lista(paginas[i], fatias[i], user, senha, log, on_processo)
+                _processar_lista(paginas[i], fatias[i], log, on_processo)
                 for i in range(k)
             ])
             for parte in partes:

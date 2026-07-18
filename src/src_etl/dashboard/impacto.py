@@ -19,7 +19,7 @@ import statistics
 from collections import Counter, defaultdict
 from datetime import datetime
 
-from .relatorio import _barras, _donut, _secao, _tile
+from .relatorio import _barras, _donut, _secao, _secao_par, _tile
 
 _MESES = ["", "Jan", "Fev", "Mar", "Abr", "Mai", "Jun",
           "Jul", "Ago", "Set", "Out", "Nov", "Dez"]
@@ -216,17 +216,19 @@ def blocos_impacto(a: dict) -> tuple[str, str]:
                "de extensão — concentração no 2º semestre (agosto–outubro) indica alinhamento "
                "com o calendário letivo. Útil para planejar editais, bolsas e infraestrutura nos "
                "períodos de pico."),
-        _secao("Duração das atividades", _donut(a["duracao"]),
-               "Distribuição das atividades por tempo de execução.",
-               explica="Classifica cada atividade pelo intervalo início→término: pontual (evento "
-               "de 1 dia), curta (até 1 mês), média (1–6 meses) ou longa (>6 meses). Mostra o "
-               "mix entre ações pontuais de grande alcance e trabalho contínuo de proximidade."),
-        _secao("Vínculo da equipe executora", _donut(a["vinculo"]),
-               "Origem institucional de quem executa (aluno, servidor, convidado externo).",
-               explica="Perfil de vínculo dos membros de equipe: Aluno (discente), Servidor "
-               "(docente/técnico do Ifes) e Convidado (externo — parceiros, sociedade, empresas). "
-               "A fatia de convidados mede o grau de abertura da extensão a atores de fora da "
-               "instituição."),
+        _secao_par(
+            "Duração das atividades e vínculo da equipe",
+            ("Duração das atividades", _donut(a["duracao"]),
+             "Distribuição das atividades por tempo de execução.",
+             "Classifica cada atividade pelo intervalo início→término: pontual (evento "
+             "de 1 dia), curta (até 1 mês), média (1–6 meses) ou longa (>6 meses). Mostra o "
+             "mix entre ações pontuais de grande alcance e trabalho contínuo de proximidade."),
+            ("Vínculo da equipe executora", _donut(a["vinculo"]),
+             "Origem institucional de quem executa (aluno, servidor, convidado externo).",
+             "Perfil de vínculo dos membros de equipe: Aluno (discente), Servidor "
+             "(docente/técnico do Ifes) e Convidado (externo — parceiros, sociedade, empresas). "
+             "A fatia de convidados mede o grau de abertura da extensão a atores de fora da "
+             "instituição.")),
     ]
     # nota de continuidade (multi-ano) + concentração
     secoes.append(_secao(

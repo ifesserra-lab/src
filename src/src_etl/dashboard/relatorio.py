@@ -410,20 +410,22 @@ def blocos_relatorio(a: dict) -> tuple[str, str]:
 
     # seções de ações (sempre)
     secoes = [
-        _secao("Ações por natureza", _barras(a["natureza"]),
-               "Distribuição das ações por natureza acadêmica.",
-               explica="Conta quantas ações registradas no SRC pertencem a cada natureza "
-               "(Extensão, Ensino, Pesquisa, Pós-Graduação ou Desenvolvimento Institucional). "
-               "Cada ação conta uma vez, pela natureza declarada no cadastro. "
-               "Serve para ver o perfil do campus: predominância de Extensão indica "
-               "vocação de atendimento à comunidade externa."),
-        _secao("Ações por tipo", _donut(a["tipo"]),
-               "Programa, Projeto, Curso, Evento e demais tipos.",
-               explica="Formato de execução declarado no cadastro de cada ação. "
-               "Programa = iniciativa contínua que costuma abrigar outras ações; "
-               "Projeto = ação com início/fim e objetivos próprios; Curso = formação com carga "
-               "horária e turma; Evento = atividade pontual (palestra, semana, feira). "
-               "A leitura conjunta com a natureza mostra COMO o campus atua, não só quanto."),
+        _secao_par(
+            "Ações por natureza e tipo",
+            ("Ações por natureza", _barras(a["natureza"]),
+             "Distribuição das ações por natureza acadêmica.",
+             "Conta quantas ações registradas no SRC pertencem a cada natureza "
+             "(Extensão, Ensino, Pesquisa, Pós-Graduação ou Desenvolvimento Institucional). "
+             "Cada ação conta uma vez, pela natureza declarada no cadastro. "
+             "Serve para ver o perfil do campus: predominância de Extensão indica "
+             "vocação de atendimento à comunidade externa."),
+            ("Ações por tipo", _donut(a["tipo"]),
+             "Programa, Projeto, Curso, Evento e demais tipos.",
+             "Formato de execução declarado no cadastro de cada ação. "
+             "Programa = iniciativa contínua que costuma abrigar outras ações; "
+             "Projeto = ação com início/fim e objetivos próprios; Curso = formação com carga "
+             "horária e turma; Evento = atividade pontual (palestra, semana, feira). "
+             "A leitura conjunta com a natureza mostra COMO o campus atua, não só quanto.")),
         _secao("Fomento (top 8)", _barras(a["fomento"]),
                "Fonte de fomento vinculada à ação.",
                explica="Origem do apoio financeiro declarada no cadastro (FAPES, PAEX-IFES, "

@@ -516,35 +516,35 @@ def _barras_v2(dados: list[tuple[str, int, int, int]]) -> str:
 def _projetos_por_ano(p: dict) -> list[tuple[str, int, int, int]]:
     """Por ano: (ações, participações da pessoa, pessoas impactadas).
 
+    Tudo por AÇÃO, batendo com as tabelas e os tiles da página:
     - ações         = ações distintas que coordenou ou participou.
-    - participações = quantas vezes a PESSOA participou, como coordenadora
-                      (1 por ação) ou na equipe (1 por atividade em que atuou).
-    - impacto       = pessoas impactadas pelas participações dela: público-alvo
-                      da ação inteira quando coordenou; público-alvo das
-                      atividades em que atuou quando foi da equipe.
+    - participações = 1 por ação coordenada + 1 por ação em que foi equipe
+                      (mesma contagem das duas tabelas: coordenadas + em equipe).
+    - impacto       = público-alvo distinto: da ação inteira quando coordenou;
+                      das atividades em que atuou quando foi da equipe.
     """
     from collections import Counter as _C
     acoes, parts, impacto = _C(), _C(), _C()
     vistos: set = set()
-    vistos_ativ: set = set()
-    coordenadas = {(r["ano"], r["acao_id"]) for r in p["coordena"]}
+    coord_ids = {r["acao_id"] for r in p["coordena"]}
+    # impacto de equipe por ação = soma do público das atividades em que atuou
+    imp_eq: dict = {}
+    for at in p.get("atividades", []):
+        imp_eq[at.get("acao_id")] = imp_eq.get(at.get("acao_id"), 0) + at.get("pub", 0)
     for r in p["coordena"] + p["participa"]:
         chave = (r["ano"], r["acao_id"])
         if r["ano"] and chave not in vistos:
             vistos.add(chave)
             acoes[r["ano"]] += 1
-    for r in p["coordena"]:                 # coordenar = 1 participação; impacto = público da ação
+    for r in p["coordena"]:                 # coordenou: 1 participação; impacto = público da ação
         if r["ano"]:
             parts[r["ano"]] += 1
             impacto[r["ano"]] += r.get("pub", 0)
-    for at in p.get("atividades", []):      # equipe = 1 participação por atividade atuada
-        ch = (at["ano"], at["atividade_id"])
-        if at["ano"] and ch not in vistos_ativ:
-            vistos_ativ.add(ch)
-            parts[at["ano"]] += 1
-            # impacto da atividade só se ela NÃO coordena a ação (senão já contado acima)
-            if (at["ano"], at.get("acao_id")) not in coordenadas:
-                impacto[at["ano"]] += at.get("pub", 0)
+    for r in p["participa"]:                 # equipe: 1 participação por ação
+        if r["ano"]:
+            parts[r["ano"]] += 1
+            if r["acao_id"] not in coord_ids:   # evita duplicar quando também coordena
+                impacto[r["ano"]] += imp_eq.get(r["acao_id"], 0)
     anos = sorted(set(acoes) | set(parts))
     return [(a, acoes[a], parts[a], impacto[a]) for a in anos]
 
@@ -563,25 +563,40 @@ def _pagina_extensionista(p: dict, resumo: str | None, colabs: list) -> str:
     if ppa:
         blocos.append(f'<div class="card" style="margin-top:14px"><h2>Ações, participações e impacto por ano</h2>'
                       f'<p class="sec-desc">Por ano: <b>ações</b> (coordenadas ou em equipe), '
-                      f'<b>participações</b> da pessoa (1 por ação coordenada + 1 por atividade em que atuou) '
-                      f'e <b>pessoas impactadas</b> pelas participações dela (público-alvo da ação quando '
-                      f'coordenou; da atividade quando foi da equipe). Escalas independentes por série.</p>'
+                      f'<b>participações</b> da pessoa (1 por ação coordenada + 1 por ação em equipe — '
+                      f'igual à soma das duas tabelas abaixo) e <b>pessoas impactadas</b> pelas '
+                      f'participações dela (público-alvo da ação quando coordenou; das atividades quando '
+                      f'foi da equipe). Escalas independentes por série.</p>'
                       f'{_barras_v2(ppa)}</div>')
+    # impacto por ação da equipe (soma do público das atividades em que atuou)
+    imp_eq: dict = {}
+    for at in p.get("atividades", []):
+        imp_eq[at.get("acao_id")] = imp_eq.get(at.get("acao_id"), 0) + at.get("pub", 0)
+    coord_ids = {r["acao_id"] for r in p["coordena"]}
     if p["coordena"]:
         rows = "".join(
             f'<tr><td><a class="lk" href="../acoes/{r["acao_id"]}.html">{escape(r["titulo"][:75])}</a></td>'
-            f'<td>{escape(r["tipo"])}</td><td>{escape(r["ano"])}</td><td>{r["n"]}</td></tr>'
+            f'<td>{escape(r["tipo"])}</td><td>{escape(r["ano"])}</td>'
+            f'<td>{r["n"]}</td><td>{r.get("pub", 0)}</td></tr>'
             for r in sorted(p["coordena"], key=lambda x: x["ano"], reverse=True))
         blocos.append(f'<div class="card" style="margin-top:14px"><h2>Ações coordenadas</h2>'
+                      f'<p class="sec-desc"><b>Participações da ação</b> = público-alvo + equipe (total '
+                      f'registrado). <b>Pessoas impactadas</b> = público-alvo distinto (o que entra no '
+                      f'gráfico acima).</p>'
                       f'<table class="tb"><tr><th>Ação</th><th>Tipo</th><th>Ano</th>'
-                      f'<th>Participações</th></tr>{rows}</table></div>')
+                      f'<th>Participações da ação</th><th>Pessoas impactadas</th></tr>{rows}</table></div>')
     if p["participa"]:
         rows = "".join(
             f'<tr><td><a class="lk" href="../acoes/{r["acao_id"]}.html">{escape(r["titulo"][:75])}</a></td>'
-            f'<td>{escape(", ".join(r["funcoes"]))}</td><td>{escape(r["ano"])}</td></tr>'
+            f'<td>{escape(", ".join(r["funcoes"]))}</td><td>{escape(r["ano"])}</td>'
+            f'<td>{"—" if r["acao_id"] in coord_ids else imp_eq.get(r["acao_id"], 0)}</td></tr>'
             for r in sorted(p["participa"], key=lambda x: x["ano"], reverse=True))
         blocos.append(f'<div class="card" style="margin-top:14px"><h2>Participações em equipe</h2>'
-                      f'<table class="tb"><tr><th>Ação</th><th>Função</th><th>Ano</th></tr>{rows}</table></div>')
+                      f'<p class="sec-desc"><b>Pessoas impactadas</b> = público-alvo distinto das '
+                      f'atividades em que atuou nesta ação ("—" quando também é coordenador(a), já '
+                      f'contado acima).</p>'
+                      f'<table class="tb"><tr><th>Ação</th><th>Função</th><th>Ano</th>'
+                      f'<th>Pessoas impactadas</th></tr>{rows}</table></div>')
     # rede pessoal: com quem trabalhou (grafo ego + tabela)
     if colabs:
         crows = "".join(

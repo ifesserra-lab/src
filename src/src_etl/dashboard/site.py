@@ -232,13 +232,13 @@ def _pagina_geral(cons: dict, slugs: dict) -> str:
 
 
 # ------------------------------------------------------------- busca
-def _pagina_busca(cons: dict, slugs: dict) -> str:
-    """Busca por palavras-chave: título, resumo, coordenador, tipo, natureza, áreas."""
+def _pagina_busca(cons: dict, slugs: dict, pessoas: list[dict] | None = None) -> str:
+    """Busca por palavras-chave: ações E extensionistas (iniciativas/participações)."""
+    from .extensionistas import _norm as _n
     idx = []
     for a in cons["acoes"]:
         area = (a.get("Área temática principal") or a.get("Área temática principal (inferida)") or "")
         ga = (a.get("Grande área conhecimento") or a.get("Grande área conhecimento (inferida)") or "")
-        from .extensionistas import _norm as _n
         idx.append({
             "id": a.get("acao_id"),
             "t": (a.get("Título ação") or "—")[:90],
@@ -254,27 +254,74 @@ def _pagina_busca(cons: dict, slugs: dict) -> str:
                 area, ga, a.get("Fomento") or "", a.get("Processo nº") or "",
                 (a.get("Resumo") or "")[:400]]),
         })
+    # índice de pessoas: iniciativas (ações), participações e pessoas impactadas
+    pidx = []
+    for p in (pessoas or []):
+        ppa = _projetos_por_ano(p)
+        pidx.append({
+            "s": p["slug"], "nome": p["nome"],
+            "f": ", ".join(p.get("funcoes", [])[:4]),
+            "a": sum(r[1] for r in ppa), "p": sum(r[2] for r in ppa),
+            "i": sum(r[3] for r in ppa),
+            "b": " ".join([p["nome"]] + list(p.get("funcoes", []))),
+        })
+    # índice de atividades (as iniciativas dentro de cada ação)
+    aidx = []
+    for a in cons["acoes"]:
+        titulo = a.get("Título ação") or "—"
+        for aid, m in _agrupar_atividades(a).items():
+            if not aid or aid == "?":
+                continue
+            nome = m.get("nome") or "—"
+            aidx.append({
+                "id": aid, "nome": nome[:80], "acao": titulo[:70],
+                "ano": (a.get("Data de cadastro") or "")[-4:],
+                "n": m.get("pub", 0) + len(m.get("eq", [])),
+                "b": " ".join([nome, titulo, a.get("Tipo ação") or "",
+                               a.get("Coordenador(a)") or "", a.get("Natureza") or ""]),
+            })
     dados = json.dumps(idx, ensure_ascii=False)
+    dados_pes = json.dumps(pidx, ensure_ascii=False)
+    dados_atv = json.dumps(aidx, ensure_ascii=False)
     script = """
 <script>
-const IDX = __DADOS__;
+const IDX = __DADOS__, PES = __PESSOAS__, ATV = __ATV__;
 const norm = s => s.normalize('NFD').replace(/[\\u0300-\\u036f]/g,'').toLowerCase();
 IDX.forEach(a => a.nb = norm(a.b));
+PES.forEach(p => p.nb = norm(p.b));
+ATV.forEach(a => a.nb = norm(a.b));
 const inp = document.getElementById('q'), out = document.getElementById('res');
 function render(q){
   out.innerHTML='';
   const termos = norm(q.trim()).split(/\\s+/).filter(t=>t.length>=2);
-  if(!termos.length){out.innerHTML='<p class="vazio">Digite palavras-chave: tema (robótica, inglês, saúde), coordenador(a), tipo (curso, evento), fomento, ano...</p>';return;}
-  const hits = IDX.filter(a => termos.every(t => a.nb.includes(t)))
-                  .sort((x,y)=>y.n-x.n);
-  if(!hits.length){out.innerHTML='<p class="vazio">Nada encontrado para esses termos. Tente palavras mais gerais.</p>';return;}
-  let h = `<div class="card" style="margin-top:14px"><p class="sec-desc">${hits.length} ação(ões) encontrada(s)</p><table class="tb"><tr><th>Ação</th><th>Coordenador(a)</th><th>Tipo</th><th>Ano</th><th>Participações</th></tr>`;
-  for(const a of hits)
-    h += `<tr><td><a class="lk" href="acoes/${a.id}.html">${a.t}</a></td><td>${a.cs?`<a class="lk" href="extensionistas/${a.cs}.html">${a.c}</a>`:a.c}</td><td>${a.tp}</td><td>${a.ano}</td><td>${a.n}</td></tr>`;
-  out.innerHTML = h + '</table></div>';
+  if(!termos.length){out.innerHTML='<p class="vazio">Digite palavras-chave: tema (robótica, inglês, saúde), coordenador(a)/extensionista, atividade, tipo (curso, evento), fomento, ano...</p>';return;}
+  const pes = PES.filter(p => termos.every(t => p.nb.includes(t))).sort((x,y)=>y.p-x.p);
+  const hits = IDX.filter(a => termos.every(t => a.nb.includes(t))).sort((x,y)=>y.n-x.n);
+  const atv = ATV.filter(a => termos.every(t => a.nb.includes(t))).sort((x,y)=>y.n-x.n);
+  let h = '';
+  if(pes.length){
+    h += `<div class="card" style="margin-top:14px"><p class="sec-desc">${pes.length} extensionista(s) — iniciativas e participações</p><table class="tb"><tr><th>Extensionista</th><th>Funções</th><th>Iniciativas</th><th>Participações</th><th>Pessoas impactadas</th></tr>`;
+    for(const p of pes)
+      h += `<tr><td><a class="lk" href="extensionistas/${p.s}.html">${p.nome}</a></td><td>${p.f||'—'}</td><td>${p.a}</td><td>${p.p}</td><td>${p.i}</td></tr>`;
+    h += '</table></div>';
+  }
+  if(hits.length){
+    h += `<div class="card" style="margin-top:14px"><p class="sec-desc">${hits.length} ação(ões) — iniciativas de extensão</p><table class="tb"><tr><th>Ação</th><th>Coordenador(a)</th><th>Tipo</th><th>Ano</th><th>Participações</th></tr>`;
+    for(const a of hits)
+      h += `<tr><td><a class="lk" href="acoes/${a.id}.html">${a.t}</a></td><td>${a.cs?`<a class="lk" href="extensionistas/${a.cs}.html">${a.c}</a>`:a.c}</td><td>${a.tp}</td><td>${a.ano}</td><td>${a.n}</td></tr>`;
+    h += '</table></div>';
+  }
+  if(atv.length){
+    const lim = atv.slice(0,200);
+    h += `<div class="card" style="margin-top:14px"><p class="sec-desc">${atv.length} atividade(s)${atv.length>200?' (200 primeiras)':''}</p><table class="tb"><tr><th>Atividade</th><th>Ação</th><th>Ano</th><th>Participações</th></tr>`;
+    for(const a of lim)
+      h += `<tr><td><a class="lk" href="atividades/${a.id}.html">${a.nome}</a></td><td>${a.acao}</td><td>${a.ano}</td><td>${a.n}</td></tr>`;
+    h += '</table></div>';
+  }
+  out.innerHTML = h || '<p class="vazio">Nada encontrado para esses termos. Tente palavras mais gerais.</p>';
 }
 inp.addEventListener('input', e=>render(e.target.value)); render('');
-</script>""".replace("__DADOS__", dados)
+</script>""".replace("__DADOS__", dados).replace("__PESSOAS__", dados_pes).replace("__ATV__", dados_atv)
     chips = "".join(f'<button data-q="{c}">{c}</button>'
                     for c in ["robótica", "inglês", "saúde", "curso 2024", "cultura", "FAPES"])
     script += """
@@ -285,13 +332,14 @@ document.querySelectorAll('.chips button').forEach(b=>b.addEventListener('click'
 }));
 </script>"""
     conteudo = (f'<input class="busca" id="q" type="search" autofocus '
-                f'placeholder="Busque por tema, coordenador(a), tipo, fomento, ano..."'
+                f'placeholder="Busque por tema, extensionista, tipo, fomento, ano..."'
                 f'><div class="chips">{chips}</div>'
                 f'<div id="res"></div>{script}')
     return _doc("SRC · Campus Serra — Buscar", "", "index.html", "Buscar",
                 "O que a extensão do Campus Serra já fez?",
-                "Busque nas 201 ações por palavras-chave — título, resumo, coordenador(a), "
-                "tipo, área temática, fomento ou processo",
+                "Busque nas 201 ações e nos extensionistas por palavras-chave — título, resumo, "
+                "coordenador(a), tipo, área temática, fomento, processo; veja iniciativas e "
+                "participações de cada pessoa",
                 conteudo, hero=True)
 
 
@@ -630,7 +678,7 @@ def gerar_site(
                     _pagina_atividade(a, aid, m, slugs), encoding="utf-8")
                 n_ativ += 1
     (out / "acoes" / "index.html").write_text(_pagina_geral(cons, slugs), encoding="utf-8")
-    busca = _pagina_busca(cons, slugs)
+    busca = _pagina_busca(cons, slugs, pessoas)
     (out / "index.html").write_text(busca, encoding="utf-8")   # busca é a home
     (out / "busca.html").write_text(busca, encoding="utf-8")   # compat links antigos
     (out / "sem-participacao.html").write_text(_pagina_sem_participacao(cons, slugs), encoding="utf-8")

@@ -11,20 +11,72 @@ um **painel analítico** publicável.
 
 ## O que ela faz
 
+```mermaid
+flowchart TD
+    A["SRC público<br/>(Playwright)"] -->|src-etl| B["Ações (JSON)"]
+    C["SRC autenticado<br/>(Playwright)"] -->|src-etl-part| D["Participações<br/>público-alvo + equipe, por atividade"]
+    B --> D
+    B -->|"src-etl-enrich (IA / Mistral)"| E["Categorias vazias preenchidas"]
+    B --> F
+    E --> F
+    D --> F["src-etl-consolidate<br/><b>CONSOLIDADO</b> (1 JSON: ação + participações)"]
+    F -->|src-etl-vinculadas| G["Programas → ações filhas"]
+    F --> H["src-etl-painel · -site · -export"]
+    G --> H
+    H --> I["Painel HTML · mini-site · API JSON (sem PII) · llms.txt"]
 ```
-   consulta pública            área autenticada
-   (Playwright)                (Playwright)
-        │                           │
-        ▼                           ▼
-   ações (JSON) ──► participações (público-alvo + equipe, por atividade)
-        │                           │
-        ├──► enriquecimento de categorias vazias (IA / Mistral)
-        │                           │
-        └──────────► CONSOLIDADO (1 JSON: ação + participações)
-                             │
-                             ▼
-            painel HTML (visão geral · indicadores · rede · formados)
+
+## Modelo de dados
+
+```mermaid
+erDiagram
+    ACAO ||--o{ ATIVIDADE : "tem"
+    ACAO |o--o{ ACAO : "vincula (programa → filhas)"
+    EXTENSIONISTA ||--o{ ACAO : "coordena"
+    ATIVIDADE ||--o{ PUBLICO_ALVO : "atende"
+    ATIVIDADE ||--o{ EQUIPE : "executada por"
+    EXTENSIONISTA ||--o{ EQUIPE : "atua na equipe"
+
+    ACAO {
+        string acao_id PK
+        string processo "Processo nº"
+        string natureza "Extensão / Ensino"
+        string tipo "Curso / Evento / Projeto"
+        string titulo
+        string coordenador
+        string fomento
+        string acao_vinculante "FK -> ACAO (programa)"
+        string grande_area
+        string area_tematica
+        string relatorio_aprovado
+        string data_cadastro
+    }
+    ATIVIDADE {
+        string atividade_id PK
+        string acao_id FK
+        string num
+        string nome
+    }
+    PUBLICO_ALVO {
+        int total "contagem — sem PII"
+        int aprovados
+        int certificados
+        string situacao "APROVADO / CURSANDO / ..."
+    }
+    EQUIPE {
+        string nome "crédito público"
+        string funcao "coordenador / bolsista / ..."
+        string vinculo
+    }
+    EXTENSIONISTA {
+        string nome PK
+        string funcoes
+        string anos_ativos
+    }
 ```
+
+> Privacidade: `PUBLICO_ALVO` (alunos atendidos) sai **apenas como contagens** — sem CPF,
+> e-mail ou nome. `EQUIPE`/`EXTENSIONISTA` são crédito público de execução (nome + função).
 
 ## Instalação
 

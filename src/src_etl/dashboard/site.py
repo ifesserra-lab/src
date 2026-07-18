@@ -466,10 +466,10 @@ document.querySelectorAll('.chips button').forEach(b=>b.addEventListener('click'
   q.dispatchEvent(new Event('input')); q.focus();
 }));
 </script>"""
-    conteudo = (f'<input class="busca" id="q" type="search" autofocus '
+    conteudo = (f'{_bloco_marketing(cons)}'
+                f'<input class="busca" id="q" type="search" '
                 f'placeholder="Busque por tema, extensionista, tipo, fomento, ano..."'
                 f'><div class="chips">{chips}</div>'
-                f'{_bloco_marketing(cons)}'
                 f'<div id="res"></div>{script}')
     return _doc("SRC · Campus Serra — Buscar", "", "index.html", "Buscar",
                 "O que a extensão do Campus Serra já fez?",

@@ -304,17 +304,8 @@ padding:7px 4px;border-bottom:1px solid var(--grid);font-size:.85rem}
 """
 
 
-def gerar_relatorio(
-    acoes_dir: str | Path = "data/serra",
-    part_dir: str | Path = "data/participacoes",
-    out_html: str | Path = "relatorio.html",
-    *,
-    titulo: str = "SRC/Ifes — Campus Serra",
-) -> Path:
-    acoes = _carregar_acoes(acoes_dir)
-    parts = _carregar_participacoes(part_dir)
-    a = agregar(acoes, parts)
-
+def blocos_relatorio(a: dict) -> tuple[str, str]:
+    """Devolve (tiles_html, secoes_html) do relatório-base para um agregado `a`."""
     tiles = "".join([
         _tile(a["n_acoes"], "Ações"),
         _tile(a["total_atividades"] or "—", "Atividades", f'{a["n_processos_part"]} processos'),
@@ -363,6 +354,18 @@ def gerar_relatorio(
                 f"Ações não coletadas ({len(a['nao_coletados'])})",
                 _lista_acoes(a["nao_coletados"]),
                 "Processo cujo detalhamento de participações falhou na extração."))
+    return tiles, "".join(secoes)
+
+
+def gerar_relatorio(
+    acoes_dir: str | Path = "data/serra",
+    part_dir: str | Path = "data/participacoes",
+    out_html: str | Path = "relatorio.html",
+    *,
+    titulo: str = "SRC/Ifes — Campus Serra",
+) -> Path:
+    a = agregar(_carregar_acoes(acoes_dir), _carregar_participacoes(part_dir))
+    tiles, secoes_html = blocos_relatorio(a)
 
     html = f"""<div class="wrap">
 <header>
@@ -370,7 +373,7 @@ def gerar_relatorio(
   <p class="sub">Relatório analítico — dados extraídos do SRC/Ifes</p>
 </header>
 <div class="tiles">{tiles}</div>
-{''.join(secoes)}
+{secoes_html}
 <div class="pii">Relatório <b>agregado</b>: não contém nomes, CPF ou e-mail individuais.
 Dados pessoais permanecem apenas nos arquivos locais de participações.</div>
 <footer>Gerado por src-etl · {a['n_acoes']} ações · {a['n_processos_part']} processos com participações.</footer>

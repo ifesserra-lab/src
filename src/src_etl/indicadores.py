@@ -130,15 +130,8 @@ def agregar_indicadores(consolidado: dict) -> dict:
     }
 
 
-def gerar_indicadores(
-    consolidado_json: str | Path = "data/serra_consolidado.json",
-    out_html: str | Path = "indicadores.html",
-    *,
-    titulo: str = "SRC/Ifes — Campus Serra · Indicadores",
-) -> Path:
-    dados = json.loads(Path(consolidado_json).read_text(encoding="utf-8"))
-    a = agregar_indicadores(dados)
-
+def blocos_indicadores(a: dict) -> tuple[str, str]:
+    """Devolve (tiles_html, secoes_html) dos indicadores para um agregado `a`."""
     tiles = "".join([
         _tile(a["alunos_unicos"], "Alunos únicos", f'{a["total_publico"]} participações'),
         _tile(f'{a["media_part_pessoa"]:.1f}', "Participações/pessoa"),
@@ -163,12 +156,22 @@ def gerar_indicadores(
         _secao("Composição da equipe executora", _donut(a["composicao_equipe"]),
                "Perfil dos membros de equipe por função."),
     ]
+    return tiles, "".join(secoes)
 
+
+def gerar_indicadores(
+    consolidado_json: str | Path = "data/serra_consolidado.json",
+    out_html: str | Path = "indicadores.html",
+    *,
+    titulo: str = "SRC/Ifes — Campus Serra · Indicadores",
+) -> Path:
+    a = agregar_indicadores(json.loads(Path(consolidado_json).read_text(encoding="utf-8")))
+    tiles, secoes_html = blocos_indicadores(a)
     html = f"""<div class="wrap">
 <header><h1>{escape(titulo)}</h1>
 <p class="sub">Indicadores avançados — derivados do consolidado (ação + participações)</p></header>
 <div class="tiles">{tiles}</div>
-{''.join(secoes)}
+{secoes_html}
 <div class="pii">Indicadores <b>agregados</b>. O CPF foi usado apenas para contar pessoas
 distintas e recorrência — nenhum dado pessoal é exibido.</div>
 <footer>Gerado por src-etl · {a['alunos_unicos']} alunos únicos · {a['total_publico']} participações.</footer>

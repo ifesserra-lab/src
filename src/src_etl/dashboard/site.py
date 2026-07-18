@@ -53,6 +53,15 @@ font-size:11.5px;font-weight:500;color:var(--text-secondary);white-space:nowrap;
 background:var(--surface-1)}
 .tl-t{fill:var(--text-primary);font-size:14px;font-weight:600}
 .tl-s{fill:var(--muted);font-size:12px}
+.mkt{margin-top:18px;overflow:hidden}
+.mkt-head{display:flex;align-items:center;gap:20px;flex-wrap:wrap;margin-bottom:8px}
+.mkt-num{font-size:56px;font-weight:800;line-height:1;letter-spacing:-.02em;
+color:var(--series-1);font-variant-numeric:tabular-nums}
+.mkt-lbl{font-size:18px;line-height:1.4;color:var(--text-primary)}
+.mk-svg{margin-top:6px}
+.mk-ax{fill:var(--muted);font-size:12px;font-variant-numeric:tabular-nums}
+.mk-val{fill:var(--text-primary);font-size:14px;font-weight:700;font-variant-numeric:tabular-nums}
+@media (max-width:560px){.mkt-num{font-size:40px}.mkt-lbl{font-size:15px}}
 """
 
 
@@ -232,6 +241,102 @@ def _pagina_geral(cons: dict, slugs: dict) -> str:
                 f"{tiles}{tabela}")
 
 
+# ------------------------------------------------------------- marketing
+def _pessoas_por_ano(cons: dict) -> tuple[list[tuple[str, int]], int, int]:
+    """(pares [(ano, pessoas distintas)], total distinto, total atendimentos).
+
+    Pessoas atingidas = público-alvo distinto (por CPF/nome, uso interno) no ano
+    do atendimento (data de início; cai para o ano de cadastro da ação)."""
+    import re
+    per: dict[str, set] = {}
+    total: set = set()
+    atend = 0
+    for a in cons["acoes"]:
+        ano_acao = (a.get("Data de cadastro") or "")[-4:]
+        for p in a.get("participacoes", []):
+            if not (p.get("tipo") or "").startswith("Públic"):
+                continue
+            atend += 1
+            m = re.search(r"(\d{4})\s*$", (p.get("Início") or "").strip())
+            ano = m.group(1) if m else ano_acao
+            if not (ano and ano.isdigit()):
+                continue
+            pid = p.get("CPF") or p.get("Nome") or f"?{atend}"
+            per.setdefault(ano, set()).add(pid)
+            total.add(pid)
+    pares = [(y, len(per[y])) for y in sorted(per)]
+    return pares, len(total), atend
+
+
+def _svg_area_anos(pares: list[tuple[str, int]]) -> str:
+    """Gráfico de área/linha: pessoas atingidas ao longo dos anos (marketing)."""
+    if not pares:
+        return ""
+    W, H = 1000, 300
+    pl, pr, pt, pb = 24, 24, 34, 46
+    iw, ih = W - pl - pr, H - pt - pb
+    n = len(pares)
+    mx = max(v for _, v in pares) or 1
+    pts = []
+    for i, (ano, v) in enumerate(pares):
+        x = pl + (iw * i / (n - 1) if n > 1 else iw / 2)
+        y = pt + ih * (1 - v / mx)
+        pts.append((x, y, ano, v))
+    linha = " ".join(f"{x:.1f},{y:.1f}" for x, y, _, _ in pts)
+    area = f"{pts[0][0]:.1f},{pt+ih:.0f} {linha} {pts[-1][0]:.1f},{pt+ih:.0f}"
+    # gridlines suaves (sem números no eixo y — visual de marketing)
+    grid = [f'<line x1="{pl}" y1="{pt+ih*frac:.0f}" x2="{W-pr}" y2="{pt+ih*frac:.0f}" '
+            f'stroke="var(--grid)" stroke-width="1"/>' for frac in (0.0, 0.5, 1.0)]
+    # rótulos do eixo x (anos) — todos se poucos, senão espaçados
+    passo = 1 if n <= 12 else (n // 10 + 1)
+    xlab = "".join(
+        f'<text x="{pts[i][0]:.1f}" y="{H-16}" text-anchor="middle" class="mk-ax">{pts[i][2]}</text>'
+        for i in range(n) if i % passo == 0 or i == n - 1)
+    # pontos + destaque do maior e do último
+    i_max = max(range(n), key=lambda i: pts[i][3])
+    dots = "".join(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="7" fill="transparent">'
+                   f'<title>{ano}: {v} pessoas atingidas</title></circle>'
+                   f'<circle cx="{x:.1f}" cy="{y:.1f}" r="3" fill="var(--series-1)"/>'
+                   for x, y, ano, v in pts)
+    def bolha(i, cor):
+        x, y, ano, v = pts[i]
+        return (f'<circle cx="{x:.1f}" cy="{y:.1f}" r="5.5" fill="{cor}" '
+                f'stroke="var(--surface-1)" stroke-width="2.5"/>'
+                f'<text x="{x:.1f}" y="{y-12:.1f}" text-anchor="middle" class="mk-val">{v}</text>')
+    destaque = bolha(i_max, "var(--cta)") + (bolha(n-1, "var(--series-1)") if n-1 != i_max else "")
+    return (f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" class="mk-svg" '
+            f'style="display:block">'
+            f'<defs><linearGradient id="mkg" x1="0" y1="0" x2="0" y2="1">'
+            f'<stop offset="0" stop-color="var(--series-1)" stop-opacity="0.35"/>'
+            f'<stop offset="1" stop-color="var(--series-1)" stop-opacity="0"/></linearGradient></defs>'
+            + "".join(grid)
+            + f'<polygon points="{area}" fill="url(#mkg)"/>'
+            + f'<polyline points="{linha}" fill="none" stroke="var(--series-1)" stroke-width="2.5" '
+            f'stroke-linejoin="round" stroke-linecap="round"/>'
+            + dots + destaque + xlab + '</svg>')
+
+
+def _bloco_marketing(cons: dict) -> str:
+    pares, total, atend = _pessoas_por_ano(cons)
+    if not pares:
+        return ""
+    anos = f"{pares[0][0]}–{pares[-1][0]}"
+    n_fmt = f"{total:,}".replace(",", ".")
+    at_fmt = f"{atend:,}".replace(",", ".")
+    return (
+        '<div class="mkt card">'
+        '<div class="mkt-head">'
+        f'<div class="mkt-num">+{n_fmt}</div>'
+        '<div class="mkt-lbl"><b>pessoas atingidas</b> pela extensão do Campus Serra'
+        f'<br><span class="sec-desc">em {escape(anos)} · {at_fmt} atendimentos em '
+        'cursos, eventos e projetos</span></div>'
+        '</div>'
+        + _svg_area_anos(pares) +
+        '<p class="sec-desc" style="margin:10px 2px 0">Pessoas atingidas por ano '
+        '(público-alvo distinto). Passe o mouse nos pontos de pico e do último ano.</p>'
+        '</div>')
+
+
 # ------------------------------------------------------------- busca
 def _pagina_busca(cons: dict, slugs: dict, pessoas: list[dict] | None = None) -> str:
     """Busca por palavras-chave: ações E extensionistas (iniciativas/participações)."""
@@ -335,6 +440,7 @@ document.querySelectorAll('.chips button').forEach(b=>b.addEventListener('click'
     conteudo = (f'<input class="busca" id="q" type="search" autofocus '
                 f'placeholder="Busque por tema, extensionista, tipo, fomento, ano..."'
                 f'><div class="chips">{chips}</div>'
+                f'{_bloco_marketing(cons)}'
                 f'<div id="res"></div>{script}')
     return _doc("SRC · Campus Serra — Buscar", "", "index.html", "Buscar",
                 "O que a extensão do Campus Serra já fez?",

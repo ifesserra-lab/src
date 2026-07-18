@@ -194,6 +194,7 @@ _ICONES = {
 _NAV_ITENS = [("index.html", "Buscar", "busca"), ("painel.html", "Painel", "painel"),
               ("acoes/index.html", "Ações", "acoes"),
               ("extensionistas/index.html", "Extensionistas", "pessoas"),
+              ("jornada.html", "Jornada", "pessoas"),
               ("sem-participacao.html", "Sem participações", "sem"),
               ("pendencias-relatorio.html", "Pendências", "pend")]
 

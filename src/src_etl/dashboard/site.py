@@ -20,6 +20,8 @@ from html import escape
 from pathlib import Path
 
 from .painel import HORIZON_CSS, montar_shell
+from .relatorio import _barras, _donut, _tile as _tiler, _secao
+from .jornada import agregar_jornada
 
 _EXTRA_CSS = """
 table.tb{width:100%;border-collapse:collapse;font-size:13px}
@@ -410,10 +412,48 @@ inp.addEventListener('input',e=>render(e.target.value));render('');
                 "clique no nome para ver a trajetória", conteudo)
 
 
+# ------------------------------------------------------------- jornada do formado
+def _pagina_jornada(cons: dict, formandos_dir: str) -> str:
+    a = agregar_jornada(cons, formandos_dir)
+    pct = f'{a["pct_ext"]:.0f}% dos formados'
+    ie = f'{a["med_ing_ext"]:.1f} anos'
+    ef = f'{a["med_ext_form"]:.1f} anos'
+    tiles = "".join([
+        '<div class="tiles">',
+        _tiler(a["n_formados"], "Formados analisados"),
+        _tiler(a["com_ext"], "Fizeram extensão", pct),
+        _tiler(ie, "Ingresso → 1ª extensão", "mediana"),
+        _tiler(ef, "1ª extensão → formatura", "mediana"),
+        _tiler(a["apos_formar"], "Voltaram após formar", "vínculo de egresso"),
+        "</div>"])
+    secoes = [
+        _secao("Quando o aluno entra na extensão (anos após ingresso)", _barras(a["dist_ing_ext"]),
+               f'Duração mediana do curso (ingresso→formatura): {a["med_dur"]:.1f} anos.',
+               explica="Para cada formado que fez extensão, quantos anos depois de INGRESSAR no "
+               "curso (lido da matrícula) ele registra a primeira participação em ação de "
+               "Extensão. Concentração nos primeiros anos = engajamento precoce; cauda longa = "
+               "quem só se envolve perto de formar."),
+        _secao("Em que fase do curso faz extensão", _donut(a["fase"]),
+               "Momento da 1ª extensão relativo ao período ingresso→formatura.",
+               explica="Posição da primeira extensão dentro da trajetória do curso: início "
+               "(primeiro terço), meio, fim ou já como egresso (após a formatura registrada). "
+               "Revela se a extensão é porta de entrada, complemento ao longo do curso ou "
+               "atividade de conclusão — e quanto os egressos permanecem ativos."),
+        _secao("Adesão à extensão por curso", _barras(a["por_curso"], unidade="%"),
+               "% de formados de cada curso que participaram de Extensão."),
+    ]
+    return _doc("Jornada do formado — Campus Serra", "", "jornada.html", "Jornada",
+                "Jornada do formado na extensão",
+                "Do ingresso (matrícula) à formatura: quando os formados se envolveram com a "
+                "extensão. Cruzamento por nome — ressalvas de homônimo/semestre aplicam.",
+                tiles + "".join(secoes))
+
+
 # ------------------------------------------------------------- orquestração
 def gerar_site(
     consolidado_json: str | Path = "data/serra_consolidado.json",
     out_dir: str | Path = "docs",
+    formandos_dir: str | Path = "data/formandos",
 ) -> dict:
     """Gera as páginas do mini-site em torno do painel (que fica em index.html)."""
     cons = json.loads(Path(consolidado_json).read_text(encoding="utf-8"))
@@ -441,6 +481,10 @@ def gerar_site(
     (out / "busca.html").write_text(busca, encoding="utf-8")   # compat links antigos
     (out / "sem-participacao.html").write_text(_pagina_sem_participacao(cons, slugs), encoding="utf-8")
     (out / "pendencias-relatorio.html").write_text(_pagina_pendencias(cons, slugs), encoding="utf-8")
+    try:
+        (out / "jornada.html").write_text(_pagina_jornada(cons, str(formandos_dir)), encoding="utf-8")
+    except Exception as e:
+        print("jornada:", e)
 
     # extensionistas (resumos IA vêm do cache gerado por gerar_resumos)
     from .extensionistas import _CACHE_PADRAO

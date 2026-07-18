@@ -198,7 +198,8 @@ def _barras(dados: list[tuple[str, int]], *, unidade: str = "") -> str:
             f'<rect x="{lblw}" y="{y+5}" width="{w}" height="16" rx="4" fill="var(--series-1)"/>'
             f'<text x="{lblw+w+6}" y="{y+16}" class="val">{v}{unidade}</text>'
         )
-    return (f'<svg viewBox="0 0 {lblw+bw+60} {h}" width="100%" role="img">'
+    return (f'<svg viewBox="0 0 {lblw+bw+60} {h}" width="100%" role="img" '
+            f'style="max-width:{lblw+bw+60}px">'
             + "".join(linhas) + "</svg>")
 
 
@@ -312,7 +313,8 @@ def _ranking_coord(itens: list[tuple[str, int, int]]) -> str:
             f'<rect x="{lblw}" y="{y+5}" width="{w}" height="16" rx="4" fill="var(--series-1)"/>'
             f'<text x="{lblw+w+6}" y="{y+16}" class="val">{n} de {tot} ({pct}%)</text>'
         )
-    return (f'<svg viewBox="0 0 {lblw+bw+110} {h}" width="100%" role="img">'
+    return (f'<svg viewBox="0 0 {lblw+bw+110} {h}" width="100%" role="img" '
+            f'style="max-width:{lblw+bw+110}px">'
             + "".join(linhas) + "</svg>")
 
 

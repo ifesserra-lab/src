@@ -30,6 +30,8 @@ def main(argv: list[str] | None = None) -> int:
                      help="Lê os processos de um _index.json da etapa pública")
 
     parser.add_argument("--out", default="data/participacoes", help="Diretório de saída")
+    parser.add_argument("--workers", type=int, default=1,
+                        help="Abas paralelas numa única sessão (um login). Ex.: 3")
     parser.add_argument("--no-headless", action="store_true", help="Mostra o navegador")
     args = parser.parse_args(argv)
 
@@ -43,6 +45,7 @@ def main(argv: list[str] | None = None) -> int:
         processos,
         out_dir=args.out,
         headless=not args.no_headless,
+        workers=args.workers,
         on_progress=lambda m: print(f"[src-etl-part] {m}", file=sys.stderr),
     )
     tot_pa = sum(a.total_publico_alvo for a in dados.values())

@@ -101,6 +101,20 @@ def agregar(acoes: list[dict], parts: list[dict]) -> dict:
             publico_por_acao.append((titulo, npa))
         equipe_por_acao_vals.append(p.get("total_equipe", 0))
 
+    # ações SEM participações (público=0 E equipe=0), entre as coletadas
+    part_por_proc = {p.get("processo"): p for p in parts}
+    sem_participacao = []
+    nao_coletados = []
+    for a in acoes:
+        proc = a.get("Processo nº")
+        p = part_por_proc.get(proc)
+        titulo_a = a.get("Título ação") or proc or "—"
+        tipo_a = a.get("Tipo ação") or ""
+        if p is None:
+            nao_coletados.append((titulo_a, proc, tipo_a))
+        elif p.get("total_publico_alvo", 0) == 0 and p.get("total_equipe", 0) == 0:
+            sem_participacao.append((titulo_a, proc, tipo_a))
+
     top_publico = sorted(publico_por_acao, key=lambda x: -x[1])[:10]
     media_equipe = (sum(equipe_por_acao_vals) / len(equipe_por_acao_vals)) if equipe_por_acao_vals else 0
     taxa_cert = (certificado.get("Emitido", 0) / total_publico * 100) if total_publico else 0
@@ -127,6 +141,8 @@ def agregar(acoes: list[dict], parts: list[dict]) -> dict:
         "certificado": certificado.most_common(),
         "funcao": funcao.most_common(8),
         "top_publico": top_publico,
+        "sem_participacao": sem_participacao,
+        "nao_coletados": nao_coletados,
     }
 
 
@@ -187,6 +203,19 @@ def _donut(dados: list[tuple[str, int]]) -> str:
     return f'<div class="donut-wrap">{svg}<div class="leg">{"".join(leg)}</div></div>'
 
 
+def _lista_acoes(itens: list[tuple[str, str, str]]) -> str:
+    """Lista rolável de ações (título · tipo · processo)."""
+    if not itens:
+        return '<p class="vazio">Nenhuma — todas as ações têm participações.</p>'
+    linhas = "".join(
+        f'<div class="li"><span class="li-tit">{escape(str(t)[:70])}</span>'
+        f'<span class="li-tipo">{escape(str(tp))}</span>'
+        f'<span class="li-proc">{escape(str(pr) or "—")}</span></div>'
+        for t, pr, tp in itens
+    )
+    return f'<div class="lista">{linhas}</div>'
+
+
 def _tile(valor, rotulo: str, sub: str = "") -> str:
     subhtml = f'<div class="tile-sub">{escape(sub)}</div>' if sub else ""
     return (f'<div class="tile"><div class="tile-val">{valor}</div>'
@@ -233,6 +262,12 @@ section{margin-top:28px}h2{font-size:1.1rem;margin:0 0 2px}
 footer{margin-top:36px;color:var(--muted);font-size:.78rem;border-top:1px solid var(--border);padding-top:12px}
 .pii{background:color-mix(in srgb,var(--series-1) 8%,transparent);border:1px solid var(--border);
 border-radius:10px;padding:10px 14px;font-size:.82rem;color:var(--text-secondary);margin-top:12px}
+.lista{max-height:340px;overflow-y:auto;display:flex;flex-direction:column;gap:1px}
+.li{display:grid;grid-template-columns:1fr auto auto;gap:12px;align-items:center;
+padding:7px 4px;border-bottom:1px solid var(--grid);font-size:.85rem}
+.li-tit{color:var(--text-primary)}
+.li-tipo{color:var(--muted);font-size:.75rem;border:1px solid var(--border);border-radius:20px;padding:1px 8px}
+.li-proc{color:var(--text-secondary);font-variant-numeric:tabular-nums;font-size:.8rem}
 """
 
 
@@ -276,6 +311,7 @@ def gerar_relatorio(
     ]
     # seções de participação (só quando há dados coletados)
     if a["n_processos_part"]:
+        n_sem = len(a["sem_participacao"])
         secoes += [
             _secao("Top 10 ações por alunos atendidos", _barras(a["top_publico"]),
                    "Ações com maior público-alvo (participações)."),
@@ -283,7 +319,14 @@ def gerar_relatorio(
                    "Situação registrada do público-alvo."),
             _secao("Certificação do público-alvo", _donut(a["certificado"])),
             _secao("Equipe executora por função (top 8)", _barras(a["funcao"])),
+            _secao(f"Ações sem participações ({n_sem})", _lista_acoes(a["sem_participacao"]),
+                   "Ações coletadas com público-alvo = 0 e equipe = 0 registrados."),
         ]
+        if a["nao_coletados"]:
+            secoes.append(_secao(
+                f"Ações não coletadas ({len(a['nao_coletados'])})",
+                _lista_acoes(a["nao_coletados"]),
+                "Processo cujo detalhamento de participações falhou na extração."))
 
     html = f"""<div class="wrap">
 <header>

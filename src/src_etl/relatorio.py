@@ -54,8 +54,6 @@ def agregar(acoes: list[dict], parts: list[dict]) -> dict:
     tipo = Counter(a.get("Tipo ação") or "—" for a in acoes)
     fomento = Counter(a.get("Fomento") or "—" for a in acoes)
     anos = Counter(_ano(a.get("Data de cadastro")) for a in acoes)
-    coordenadores = Counter((a.get("Coordenador(a)") or "—").strip() or "—" for a in acoes)
-
     def _cat(a: dict, chave: str) -> tuple[str, bool]:
         """Valor original; se vazio, usa o inferido (marcado como inferido)."""
         v = (a.get(chave) or "").strip()
@@ -105,21 +103,27 @@ def agregar(acoes: list[dict], parts: list[dict]) -> dict:
     part_por_proc = {p.get("processo"): p for p in parts}
     sem_participacao = []
     nao_coletados = []
-    coord_sem = Counter()
+    coord_sem = Counter()       # ações sem participação por coordenador
+    coord_com = Counter()       # ações COM participação por coordenador
     coord_total = Counter((a.get("Coordenador(a)") or "—").strip() or "—" for a in acoes)
     for a in acoes:
         proc = a.get("Processo nº")
         p = part_por_proc.get(proc)
         titulo_a = a.get("Título ação") or proc or "—"
         tipo_a = a.get("Tipo ação") or ""
+        nome_c = (a.get("Coordenador(a)") or "—").strip() or "—"
         if p is None:
             nao_coletados.append((titulo_a, proc, tipo_a))
         elif p.get("total_publico_alvo", 0) == 0 and p.get("total_equipe", 0) == 0:
             sem_participacao.append((titulo_a, proc, tipo_a))
-            coord_sem[(a.get("Coordenador(a)") or "—").strip() or "—"] += 1
+            coord_sem[nome_c] += 1
+        else:
+            coord_com[nome_c] += 1
 
-    # ranking de coordenadores por ações sem participação (com proporção)
+    # ranking por ações sem participação (com proporção sobre o total do coordenador)
     coord_sem_rank = [(nome, n, coord_total[nome]) for nome, n in coord_sem.most_common(12)]
+    # Top coordenadores: conta só ações COM participação; sem participações -> usa total
+    coordenadores = coord_com if parts else coord_total
 
     top_publico = sorted(publico_por_acao, key=lambda x: -x[1])[:10]
     media_equipe = (sum(equipe_por_acao_vals) / len(equipe_por_acao_vals)) if equipe_por_acao_vals else 0
@@ -330,7 +334,7 @@ def gerar_relatorio(
         _secao("Ações por ano de cadastro", _barras(a["anos"]),
                "Volume de ações cadastradas por ano."),
         _secao("Top 10 coordenadores por nº de ações", _barras(a["coordenadores"]),
-               "Proponentes mais recorrentes (dado público do sistema)."),
+               "Proponentes mais recorrentes — contando apenas ações com participação registrada."),
         _secao("Grande área do conhecimento", _donut(a["grande_area"]),
                f'{a["n_ga_inferida"]} categorias inferidas por IA (Mistral) a partir do resumo.'),
         _secao("Área temática principal", _donut(a["area_tematica"]),

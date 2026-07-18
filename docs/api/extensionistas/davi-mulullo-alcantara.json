@@ -22,5 +22,77 @@
         "ALUNO(A) VOLUNTARIO"
       ]
     }
+  ],
+  "colaboradores": [
+    {
+      "nome": "Fidelis Zanetti de Castro",
+      "slug": "fidelis-zanetti-de-castro",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Douglas de Oliveira Alkimim",
+      "slug": "douglas-de-oliveira-alkimim",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Thiago Augusto de Carvalho",
+      "slug": "thiago-augusto-de-carvalho",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Matheus Teixeira de Aguiar",
+      "slug": "matheus-teixeira-de-aguiar",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Arthur Delpupo Coelho",
+      "slug": "arthur-delpupo-coelho",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Thaís de Souza",
+      "slug": "thais-de-souza",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Lucas Gabriel Araújo Codeco",
+      "slug": "lucas-gabriel-araujo-codeco",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Sofia de Alcantara Silva",
+      "slug": "sofia-de-alcantara-silva",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Inaê Santos Gonçalves",
+      "slug": "inae-santos-goncalves",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Eduarda Rodrigues Simões",
+      "slug": "eduarda-rodrigues-simoes",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Mayke Willans Christo Pereira",
+      "slug": "mayke-willans-christo-pereira",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Manoel Rodrigues Loureiro",
+      "slug": "manoel-rodrigues-loureiro",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Raynan Araujo da Silva",
+      "slug": "raynan-araujo-da-silva",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Filipe Anunciação Batista de Moura",
+      "slug": "filipe-anunciacao-batista-de-moura",
+      "acoes_comuns": 1
+    }
   ]
 }

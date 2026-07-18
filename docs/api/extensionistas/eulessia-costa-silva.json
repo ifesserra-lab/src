@@ -20,5 +20,67 @@
         "COLABORADOR(A)"
       ]
     }
+  ],
+  "colaboradores": [
+    {
+      "nome": "Bruno Ramos Gonzaga",
+      "slug": "bruno-ramos-gonzaga",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Janaina de Medeiros Freitas",
+      "slug": "janaina-de-medeiros-freitas",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Ana Paula Ferreira Pimentel Cesar",
+      "slug": "ana-paula-ferreira-pimentel-cesar",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Samara Cristina Zupeli Babilon",
+      "slug": "samara-cristina-zupeli-babilon",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Larissa Vervloet Mendonça",
+      "slug": "larissa-vervloet-mendonca",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Marcelo Victor Ferreira Barbosa",
+      "slug": "marcelo-victor-ferreira-barbosa",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Carlos Guilherme Felismino Pedroni",
+      "slug": "carlos-guilherme-felismino-pedroni",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Ana Rúbia Ramos Vicente",
+      "slug": "ana-rubia-ramos-vicente",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Helen França Medeiros",
+      "slug": "helen-franca-medeiros",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Raphael Pinto de Almeida",
+      "slug": "raphael-pinto-de-almeida",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Vitória Maciel de Carvalho",
+      "slug": "vitoria-maciel-de-carvalho",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Tatiane Policário Chagas",
+      "slug": "tatiane-policario-chagas",
+      "acoes_comuns": 1
+    }
   ]
 }

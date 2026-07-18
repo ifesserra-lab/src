@@ -20,5 +20,102 @@
         "INSTRUTOR(A)"
       ]
     }
+  ],
+  "colaboradores": [
+    {
+      "nome": "Emmanuel Marques Silva",
+      "slug": "emmanuel-marques-silva",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Carlos Lins Borges Azevedo",
+      "slug": "carlos-lins-borges-azevedo",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Edilson Luiz do Nascimento",
+      "slug": "edilson-luiz-do-nascimento",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Felipe Frechiani de Oliveira",
+      "slug": "felipe-frechiani-de-oliveira",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Elizangela Campos da Rosa Broetto",
+      "slug": "elizangela-campos-da-rosa-broetto",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Karin Satie Komati",
+      "slug": "karin-satie-komati",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Luis Henrique Rosado Torres",
+      "slug": "luis-henrique-rosado-torres",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Ronaldo Aparecida Marques",
+      "slug": "ronaldo-aparecida-marques",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Giovani Zanetti Neto",
+      "slug": "giovani-zanetti-neto",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Rodrigo Fernandes Calhau",
+      "slug": "rodrigo-fernandes-calhau",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Christian Mariani Lucas dos Santos",
+      "slug": "christian-mariani-lucas-dos-santos",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Daniel Cruz Cavalieri",
+      "slug": "daniel-cruz-cavalieri",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Cassius Zanetti Resende",
+      "slug": "cassius-zanetti-resende",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Richard Junior Manuel Godinez Tello",
+      "slug": "richard-junior-manuel-godinez-tello",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Leonardo Azevedo Scardua",
+      "slug": "leonardo-azevedo-scardua",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Wagner Teixeira da Costa",
+      "slug": "wagner-teixeira-da-costa",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Flávio Barcelos Braz da Silva",
+      "slug": "flavio-barcelos-braz-da-silva",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Paulo Sérgio dos Santos Júnior",
+      "slug": "paulo-sergio-dos-santos-junior",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Humberto Henrique Ramos Brotto",
+      "slug": "humberto-henrique-ramos-brotto",
+      "acoes_comuns": 1
+    }
   ]
 }

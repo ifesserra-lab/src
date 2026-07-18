@@ -20,5 +20,67 @@
         "ASSESSOR(A)"
       ]
     }
+  ],
+  "colaboradores": [
+    {
+      "nome": "Amarildo Mendes Lemos",
+      "slug": "amarildo-mendes-lemos",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Wagner Scopel Falcão",
+      "slug": "wagner-scopel-falcao",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Marcos Valério Guimarães",
+      "slug": "marcos-valerio-guimaraes",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Diego do Nascimento Rodrigues Flores",
+      "slug": "diego-do-nascimento-rodrigues-flores",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Diego Ramiro Araoz Alves",
+      "slug": "diego-ramiro-araoz-alves",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Denise Carla Goldner Coelho",
+      "slug": "denise-carla-goldner-coelho",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Brígida Penna Rocha Moreira",
+      "slug": "brigida-penna-rocha-moreira",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Edson Ferreira da Silva Júnior",
+      "slug": "edson-ferreira-da-silva-junior",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Hugo Leonardo Castilhos dos Reis",
+      "slug": "hugo-leonardo-castilhos-dos-reis",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Francisco Xavier Pereira Neto",
+      "slug": "francisco-xavier-pereira-neto",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Gustavo Senna Martins de Almeida",
+      "slug": "gustavo-senna-martins-de-almeida",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Ursula Dart Bottrel do Nascimento",
+      "slug": "ursula-dart-bottrel-do-nascimento",
+      "acoes_comuns": 1
+    }
   ]
 }

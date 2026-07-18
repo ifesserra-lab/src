@@ -20,5 +20,62 @@
         "ALUNO(A) VOLUNTARIO"
       ]
     }
+  ],
+  "colaboradores": [
+    {
+      "nome": "Flavio Severiano Lamas de Souza",
+      "slug": "flavio-severiano-lamas-de-souza",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Daniel Ribeiro Trindade",
+      "slug": "daniel-ribeiro-trindade",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Hilario Seibel Junior",
+      "slug": "hilario-seibel-junior",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Luiz Carlos Vieira Berger",
+      "slug": "luiz-carlos-vieira-berger",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "João Augusto Casagrande da Silva",
+      "slug": "joao-augusto-casagrande-da-silva",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Ana Rúbia Ramos Vicente",
+      "slug": "ana-rubia-ramos-vicente",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Anne Caroline Silva",
+      "slug": "anne-caroline-silva",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Paulo Ricardo Viana Ferreira",
+      "slug": "paulo-ricardo-viana-ferreira",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Amanda Ferreira de Souza",
+      "slug": "amanda-ferreira-de-souza",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Moisés Savedra Omena",
+      "slug": "moises-savedra-omena",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Jefferson Oliveira Andrade",
+      "slug": "jefferson-oliveira-andrade",
+      "acoes_comuns": 1
+    }
   ]
 }

@@ -20,5 +20,37 @@
         "ALUNO(A) VOLUNTARIO"
       ]
     }
+  ],
+  "colaboradores": [
+    {
+      "nome": "Carlos Lins Borges Azevedo",
+      "slug": "carlos-lins-borges-azevedo",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "André Spadetto Leão",
+      "slug": "andre-spadetto-leao",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Flávio Lopes da Silva",
+      "slug": "flavio-lopes-da-silva",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Lucas Almeida de Oliveira",
+      "slug": "lucas-almeida-de-oliveira",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Irisson Junio Máximo Borges",
+      "slug": "irisson-junio-maximo-borges",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Paulo Sérgio dos Santos Júnior",
+      "slug": "paulo-sergio-dos-santos-junior",
+      "acoes_comuns": 1
+    }
   ]
 }

@@ -20,5 +20,52 @@
         "AUXILIAR TÉCNICO"
       ]
     }
+  ],
+  "colaboradores": [
+    {
+      "nome": "Paulo Sérgio dos Santos Júnior",
+      "slug": "paulo-sergio-dos-santos-junior",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Arthur Cremasco Amaral",
+      "slug": "arthur-cremasco-amaral",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Victor Emerson Siqueira de Souza",
+      "slug": "victor-emerson-siqueira-de-souza",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Isabella Bissoli",
+      "slug": "isabella-bissoli",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Ruan Rody de Melo da Costa",
+      "slug": "ruan-rody-de-melo-da-costa",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "André Luiz Coelho Silva",
+      "slug": "andre-luiz-coelho-silva",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Vinícius de Jesus Estevam",
+      "slug": "vinicius-de-jesus-estevam",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Bruno Carvalho Caxias",
+      "slug": "bruno-carvalho-caxias",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Marcela Starling Ferreira Lage",
+      "slug": "marcela-starling-ferreira-lage",
+      "acoes_comuns": 1
+    }
   ]
 }

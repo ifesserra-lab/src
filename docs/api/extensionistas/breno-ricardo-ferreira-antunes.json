@@ -20,5 +20,62 @@
         "ALUNO(A) BOLSISTA"
       ]
     }
+  ],
+  "colaboradores": [
+    {
+      "nome": "Bruno Cardoso Coutinho",
+      "slug": "bruno-cardoso-coutinho",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Matheus Teixeira de Aguiar",
+      "slug": "matheus-teixeira-de-aguiar",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Emmanuel Marques Silva",
+      "slug": "emmanuel-marques-silva",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Adelson Pereira do Nascimento",
+      "slug": "adelson-pereira-do-nascimento",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Guilherme Firme Fiorot",
+      "slug": "guilherme-firme-fiorot",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Juliana Ricato Musso Silva",
+      "slug": "juliana-ricato-musso-silva",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Pedro Aguiar Alves",
+      "slug": "pedro-aguiar-alves",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Elen Lara",
+      "slug": "elen-lara",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Alan Afif Helal",
+      "slug": "alan-afif-helal",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Flavio Severiano Lamas de Souza",
+      "slug": "flavio-severiano-lamas-de-souza",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Richard Junior Manuel Godinez Tello",
+      "slug": "richard-junior-manuel-godinez-tello",
+      "acoes_comuns": 1
+    }
   ]
 }

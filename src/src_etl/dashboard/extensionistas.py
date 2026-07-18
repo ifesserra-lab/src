@@ -17,7 +17,7 @@ import json
 import re
 import time
 import unicodedata
-from collections import defaultdict
+from collections import Counter, defaultdict
 from html import escape
 from pathlib import Path
 
@@ -76,7 +76,7 @@ def coletar_extensionistas(consolidado: dict) -> list[dict]:
             p["anos"].add(ref["ano"])
 
     out = []
-    slugs: dict[str, int] = {}
+    slugs: dict[str, int] = {}  # noqa: reaproveitado abaixo como contador de slug
     for k in sorted(pessoas, key=lambda x: pessoas[x]["nome"]):
         p = pessoas[k]
         s = _slug(p["nome"])
@@ -90,6 +90,33 @@ def coletar_extensionistas(consolidado: dict) -> list[dict]:
         p["anos"] = sorted(x for x in p["anos"] if x)
         out.append(p)
     return out
+
+
+def coautoria(consolidado: dict) -> dict[str, Counter]:
+    """{nome_normalizado: Counter(nome_colaborador -> nº de ações em comum)}.
+
+    Dois nomes colaboram quando aparecem juntos na coordenação/equipe de uma
+    mesma ação de Extensão (público-alvo NÃO conta)."""
+    co: dict[str, Counter] = defaultdict(Counter)
+    for a in consolidado.get("acoes", []):
+        if "extens" not in _norm(a.get("Natureza")):
+            continue
+        # pessoas da ação: coordenador + equipe (nome canônico)
+        nomes: dict[str, str] = {}   # norm -> nome exibição
+        coord = (a.get("Coordenador(a)") or "").strip()
+        if coord:
+            nomes[_norm(coord)] = coord
+        for p in a.get("participacoes", []):
+            if not p.get("tipo", "").startswith("Público"):
+                nm = (p.get("Nome") or "").strip()
+                if nm:
+                    nomes.setdefault(_norm(nm), nm)
+        chaves = list(nomes)
+        for i, n1 in enumerate(chaves):
+            for n2 in chaves[i + 1:]:
+                co[n1][nomes[n2]] += 1
+                co[n2][nomes[n1]] += 1
+    return co
 
 
 # ------------------------------------------------------------------- resumos IA

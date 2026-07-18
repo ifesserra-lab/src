@@ -26,7 +26,7 @@ import json
 import re
 from pathlib import Path
 
-from .extensionistas import _CACHE_PADRAO, coletar_extensionistas
+from .extensionistas import _CACHE_PADRAO, _norm, coautoria, coletar_extensionistas
 from .formados import agregar_formados
 from .impacto import agregar_impacto
 from .indicadores import agregar_indicadores
@@ -154,6 +154,8 @@ def exportar_api(
     if Path(_CACHE_PADRAO).exists():
         resumos = json.loads(Path(_CACHE_PADRAO).read_text(encoding="utf-8"))
     pessoas = coletar_extensionistas(cons)
+    _co = coautoria(cons)
+    _sl = {_norm(p["nome"]): p["slug"] for p in pessoas}
     idx_ext, todos_ext = [], []
     for p in pessoas:
         registro = {
@@ -161,7 +163,9 @@ def exportar_api(
             "resumo_ia": resumos.get(p["slug"]),
             "anos": p["anos"], "funcoes": p["funcoes"],
             "acoes_coordenadas": p["coordena"],
-            "participacoes_equipe": p["participa"]}
+            "participacoes_equipe": p["participa"],
+            "colaboradores": [{"nome": cn, "slug": _sl.get(_norm(cn)), "acoes_comuns": cnt}
+                              for cn, cnt in _co.get(_norm(p["nome"]), {}).most_common()]}
         _grava(api / "extensionistas" / f"{p['slug']}.json", registro)
         todos_ext.append(registro)
         idx_ext.append({"slug": p["slug"], "nome": p["nome"],

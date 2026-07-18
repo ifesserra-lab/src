@@ -20,5 +20,57 @@
         "ALUNO(A) BOLSISTA"
       ]
     }
+  ],
+  "colaboradores": [
+    {
+      "nome": "Felipe Frechiani de Oliveira",
+      "slug": "felipe-frechiani-de-oliveira",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Icaro Duarte Gavazza Lima",
+      "slug": "icaro-duarte-gavazza-lima",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Gary Moura da Silva",
+      "slug": "gary-moura-da-silva",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Tarcisio Bruni Rangel",
+      "slug": "tarcisio-bruni-rangel",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Marcos Antonio Carneiro de Paula",
+      "slug": "marcos-antonio-carneiro-de-paula",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Lucas Gomes Flegler",
+      "slug": "lucas-gomes-flegler",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "David Pantaleão Vilaça",
+      "slug": "david-pantaleao-vilaca",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Paulo Ricardo Viana Ferreira",
+      "slug": "paulo-ricardo-viana-ferreira",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Matheus Kleber Rodrigues Barbosa",
+      "slug": "matheus-kleber-rodrigues-barbosa",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Paulo Sérgio dos Santos Júnior",
+      "slug": "paulo-sergio-dos-santos-junior",
+      "acoes_comuns": 1
+    }
   ]
 }

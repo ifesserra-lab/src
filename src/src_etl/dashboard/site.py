@@ -351,14 +351,91 @@ def _pagina_pendencias(cons: dict, slugs: dict) -> str:
 
 
 # ------------------------------------------------------------- extensionistas
-def _pagina_extensionista(p: dict, resumo: str | None) -> str:
+def _ego_grafo(nome: str, colabs: list[tuple[str, str, int]]) -> str:
+    """Grafo ego: pessoa central + colaboradores ao redor (aresta = nº ações)."""
+    import math
+    if not colabs:
+        return '<p class="vazio">Sem colaboradores registrados em equipe.</p>'
+    top = colabs[:12]
+    W, H = 900, 460
+    cx, cy, R = W / 2, H / 2, 165
+    maxw = max(n for _, _, n in top) or 1
+    n = len(top)
+    arestas, nos = [], []
+    for i, (cnome, cslug, cnt) in enumerate(top):
+        ang = 2 * math.pi * i / n - math.pi / 2
+        x, y = cx + R * math.cos(ang), cy + R * math.sin(ang)
+        sw = 1 + (cnt / maxw) * 5
+        arestas.append(f'<line x1="{cx:.0f}" y1="{cy:.0f}" x2="{x:.0f}" y2="{y:.0f}" '
+                       f'stroke="var(--series-1)" stroke-width="{sw:.1f}" stroke-opacity=".35"/>')
+        curto = " ".join(cnome.split()[:2])
+        anchor = "start" if x >= cx else "end"
+        dx = 11 if x >= cx else -11
+        alvo = f'{cslug}.html' if cslug else None
+        rot = (f'<a href="{alvo}"><text x="{x+dx:.0f}" y="{y+4:.0f}" text-anchor="{anchor}" '
+               f'class="net-lbl">{escape(curto)}</text></a>' if alvo else
+               f'<text x="{x+dx:.0f}" y="{y+4:.0f}" text-anchor="{anchor}" class="net-lbl">{escape(curto)}</text>')
+        nos.append(f'<circle cx="{x:.0f}" cy="{y:.0f}" r="6" fill="var(--series-1)" '
+                   f'stroke="var(--surface-1)" stroke-width="2"><title>{escape(cnome)}: {cnt} ação(ões)</title></circle>{rot}')
+    centro = (f'<circle cx="{cx:.0f}" cy="{cy:.0f}" r="11" fill="var(--cta)" '
+              f'stroke="var(--surface-1)" stroke-width="3"/>'
+              f'<text x="{cx:.0f}" y="{cy-18:.0f}" text-anchor="middle" class="tl-t">'
+              f'{escape(" ".join(nome.split()[:2]))}</text>')
+    return (f'<svg viewBox="0 0 {W} {H}" width="100%" role="img">'
+            + "".join(arestas) + centro + "".join(nos) + "</svg>")
+
+
+def _barras_v(dados: list[tuple[str, int]]) -> str:
+    """Barras VERTICAIS: eixo x = rótulo (ano), y = quantidade."""
+    if not dados:
+        return '<p class="vazio">Sem dados.</p>'
+    maxv = max(v for _, v in dados) or 1
+    n = len(dados)
+    bw, gap, top, base_h, W_lbl = 34, 18, 30, 190, 0
+    H = top + base_h + 34
+    W = max(360, n * (bw + gap) + gap)
+    barras = []
+    for i, (rot, v) in enumerate(dados):
+        x = gap + i * (bw + gap)
+        bh = max(2, round(v / maxv * base_h))
+        y = top + base_h - bh
+        barras.append(
+            f'<rect x="{x}" y="{y}" width="{bw}" height="{bh}" rx="4" fill="var(--series-1)">'
+            f'<title>{escape(rot)}: {v}</title></rect>'
+            f'<text x="{x+bw/2:.0f}" y="{y-6}" text-anchor="middle" class="val">{v}</text>'
+            f'<text x="{x+bw/2:.0f}" y="{top+base_h+18}" text-anchor="middle" class="lbl">{escape(rot)}</text>')
+    return (f'<svg viewBox="0 0 {W} {H}" width="100%" style="max-width:{W}px" role="img">'
+            + "".join(barras) + "</svg>")
+
+
+def _projetos_por_ano(p: dict) -> list[tuple[str, int]]:
+    """Nº de ações (coordenadas + equipe) por ano, distintas por ação."""
+    from collections import Counter as _C
+    por_ano = _C()
+    vistos: set = set()
+    for r in p["coordena"] + p["participa"]:
+        chave = (r["ano"], r["acao_id"])
+        if r["ano"] and chave not in vistos:
+            vistos.add(chave)
+            por_ano[r["ano"]] += 1
+    return [(a, por_ano[a]) for a in sorted(por_ano)]
+
+
+def _pagina_extensionista(p: dict, resumo: str | None, colabs: list) -> str:
     tiles = (f'<div class="tiles">{_tile(len(p["coordena"]), "Ações coordenadas")}'
              f'{_tile(len(p["participa"]), "Participações em equipe")}'
+             f'{_tile(len(colabs), "Colaboradores")}'
              f'{_tile(escape("–".join(p["anos"][:1] + p["anos"][-1:])) if p["anos"] else "—", "Período ativo")}</div>')
     bio = (f'<div class="resumo">{escape(resumo)}<br>'
            f'<small style="color:var(--muted)">Resumo gerado por IA (Mistral) a partir dos '
            f'registros do SRC.</small></div>' if resumo else "")
     blocos = [tiles, bio]
+    # projetos de extensão por ano (barras verticais)
+    ppa = _projetos_por_ano(p)
+    if ppa:
+        blocos.append(f'<div class="card" style="margin-top:14px"><h2>Ações de extensão por ano</h2>'
+                      f'<p class="sec-desc">Nº de ações (coordenadas ou em equipe) por ano.</p>'
+                      f'{_barras_v(ppa)}</div>')
     if p["coordena"]:
         rows = "".join(
             f'<tr><td><a class="lk" href="../acoes/{r["acao_id"]}.html">{escape(r["titulo"][:75])}</a></td>'
@@ -374,6 +451,19 @@ def _pagina_extensionista(p: dict, resumo: str | None) -> str:
             for r in sorted(p["participa"], key=lambda x: x["ano"], reverse=True))
         blocos.append(f'<div class="card" style="margin-top:14px"><h2>Participações em equipe</h2>'
                       f'<table class="tb"><tr><th>Ação</th><th>Função</th><th>Ano</th></tr>{rows}</table></div>')
+    # rede pessoal: com quem trabalhou (grafo ego + tabela)
+    if colabs:
+        crows = "".join(
+            f'<tr><td>'
+            + (f'<a class="lk" href="{cs}.html">{escape(cn)}</a>' if cs else escape(cn))
+            + f'</td><td>{cnt} ação(ões) em comum</td></tr>'
+            for cn, cs, cnt in colabs[:30])
+        blocos.append(
+            f'<div class="card" style="margin-top:14px"><h2>Trabalhou com ({len(colabs)})</h2>'
+            f'<p class="sec-desc">Colaboradores que atuaram na coordenação/equipe das mesmas ações.</p>'
+            f'{_ego_grafo(p["nome"], colabs)}'
+            f'<table class="tb" style="margin-top:12px"><tr><th>Pessoa</th><th>Em comum</th></tr>'
+            f'{crows}</table></div>')
     blocos.append('<div class="pii">Página gerada a partir dos registros públicos de execução '
                   'do SRC (crédito de equipe). Não contém CPF, e-mail ou dados de alunos atendidos.</div>')
     papel = "Coordenador(a) e equipe" if (p["coordena"] and p["participa"]) else (
@@ -499,14 +589,17 @@ def gerar_site(
         print("jornada:", e)
 
     # extensionistas (resumos IA vêm do cache gerado por gerar_resumos)
-    from .extensionistas import _CACHE_PADRAO
+    from .extensionistas import _CACHE_PADRAO, coautoria
     resumos = {}
     if Path(_CACHE_PADRAO).exists():
         resumos = json.loads(Path(_CACHE_PADRAO).read_text(encoding="utf-8"))
+    co = coautoria(cons)   # nome_norm -> Counter(nome_colab -> nº ações)
     (out / "extensionistas").mkdir(exist_ok=True)
     for p in pessoas:
+        colabs = [(cn, slugs.get(_norm(cn)), cnt)
+                  for cn, cnt in co.get(_norm(p["nome"]), Counter()).most_common()]
         (out / "extensionistas" / f"{p['slug']}.html").write_text(
-            _pagina_extensionista(p, resumos.get(p["slug"])), encoding="utf-8")
+            _pagina_extensionista(p, resumos.get(p["slug"]), colabs), encoding="utf-8")
     (out / "extensionistas" / "index.html").write_text(
         _pagina_extensionistas_index(pessoas), encoding="utf-8")
     return {"paginas_acao": n, "atividades": n_ativ,

@@ -30,5 +30,77 @@
         "COLABORADOR(A)"
       ]
     }
+  ],
+  "colaboradores": [
+    {
+      "nome": "Tatiane Policário Chagas",
+      "slug": "tatiane-policario-chagas",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Davi Campos Sutil",
+      "slug": "davi-campos-sutil",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Luiz Felipe Elizeta dos Santos",
+      "slug": "luiz-felipe-elizeta-dos-santos",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Remerson Victor Silva da Assurreição",
+      "slug": "remerson-victor-silva-da-assurreicao",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Elisa Andrade de Jesus",
+      "slug": "elisa-andrade-de-jesus",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Emmanuel Marques Silva",
+      "slug": "emmanuel-marques-silva",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Alessandra Aguiar Vilarinho",
+      "slug": "alessandra-aguiar-vilarinho",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Bruno Ramos Gonzaga",
+      "slug": "bruno-ramos-gonzaga",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Cynthia Kruger Quinino",
+      "slug": "cynthia-kruger-quinino",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Gina Carla Maciel",
+      "slug": "gina-carla-maciel",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Eglalciane de Lyrio Tongo",
+      "slug": "eglalciane-de-lyrio-tongo",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Marcos Paulo Kohler Caldas",
+      "slug": "marcos-paulo-kohler-caldas",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Matheus Policário Amorim",
+      "slug": "matheus-policario-amorim",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Manuelly Soares Silva",
+      "slug": "manuelly-soares-silva",
+      "acoes_comuns": 1
+    }
   ]
 }

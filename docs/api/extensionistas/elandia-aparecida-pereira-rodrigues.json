@@ -20,5 +20,42 @@
         "PROFESSOR(A) VOLUNTÁRIO"
       ]
     }
+  ],
+  "colaboradores": [
+    {
+      "nome": "Augusto Cesar Machado Ramos",
+      "slug": "augusto-cesar-machado-ramos",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Leandra Mendes da Silva Piffer",
+      "slug": "leandra-mendes-da-silva-piffer",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Ana Julia Artem dos Santos",
+      "slug": "ana-julia-artem-dos-santos",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Nicole Silva Loss",
+      "slug": "nicole-silva-loss",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Paulo Cezar Camargo Guedes",
+      "slug": "paulo-cezar-camargo-guedes",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Marcos Antônio Tavares de Souza",
+      "slug": "marcos-antonio-tavares-de-souza",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Jefferson da Silva Bomfim",
+      "slug": "jefferson-da-silva-bomfim",
+      "acoes_comuns": 1
+    }
   ]
 }

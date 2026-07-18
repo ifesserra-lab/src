@@ -1,75 +1,74 @@
 <!doctype html><html lang='pt-br'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>LAMPEX – Laboratório Modelo de Práticas de Extensão</title><style>
 :root{
   color-scheme:light;
-  --plane:#f4f7fe; --surface-1:#ffffff;
-  --text-primary:#2b3674; --text-secondary:#707eae; --muted:#a3aed0;
-  --grid:#e9edf7; --border:#e0e5f2; --series-1:#4318ff;
-  --radius:20px; --shadow:0 18px 40px rgba(112,144,176,.12);
+  --plane:#fbfbfc; --surface-1:#ffffff;
+  --text-primary:#171c2e; --text-secondary:#5a6072; --muted:#9298a8;
+  --grid:#eceef2; --border:#e4e6ec; --series-1:#4f46e5;
+  --radius:12px; --shadow:none;
 }
 @media (prefers-color-scheme:dark){:root:where(:not([data-theme=light])){
   color-scheme:dark;
-  --plane:#0b1437; --surface-1:#111c44;
-  --text-primary:#ffffff; --text-secondary:#a3aed0; --muted:#8f9bba;
-  --grid:#ffffff14; --border:#ffffff1f; --series-1:#7551ff;
-  --shadow:0 18px 40px rgba(0,0,0,.35);
+  --plane:#0e1015; --surface-1:#15181f;
+  --text-primary:#e8eaf2; --text-secondary:#9aa0b2; --muted:#6b7284;
+  --grid:#232733; --border:#262b38; --series-1:#8b93ff;
 }}
 :root[data-theme=dark]{
   color-scheme:dark;
-  --plane:#0b1437; --surface-1:#111c44;
-  --text-primary:#ffffff; --text-secondary:#a3aed0; --muted:#8f9bba;
-  --grid:#ffffff14; --border:#ffffff1f; --series-1:#7551ff;
-  --shadow:0 18px 40px rgba(0,0,0,.35);
+  --plane:#0e1015; --surface-1:#15181f;
+  --text-primary:#e8eaf2; --text-secondary:#9aa0b2; --muted:#6b7284;
+  --grid:#232733; --border:#262b38; --series-1:#8b93ff;
 }
 *{box-sizing:border-box}
 body{margin:0;background:var(--plane);color:var(--text-primary);
-font-family:"DM Sans",system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.45}
-/* ---- app shell (Horizon): sidebar + conteúdo ---- */
-.shell{display:flex;min-height:100vh}
-.sidebar{width:260px;flex:none;background:var(--surface-1);border-right:1px solid var(--border);
-padding:28px 20px;position:sticky;top:0;height:100vh;overflow-y:auto;display:flex;flex-direction:column}
-.brand{font-weight:800;font-size:1.15rem;letter-spacing:-.02em;padding:0 8px 20px;
-border-bottom:1px solid var(--grid);margin-bottom:18px}
-.brand small{display:block;font-weight:600;font-size:.72rem;color:var(--muted);
-text-transform:uppercase;letter-spacing:.08em;margin-top:3px}
-.snav{display:flex;flex-direction:column;gap:4px}
-.snav a{display:flex;align-items:center;gap:12px;padding:11px 12px;border-radius:12px;
-text-decoration:none;color:var(--text-secondary);font-weight:600;font-size:.9rem;position:relative}
-.snav a svg{width:18px;height:18px;flex:none;stroke:currentColor;fill:none;stroke-width:2;
+font-family:system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.5;
+-webkit-font-smoothing:antialiased}
+/* ---- shell minimalista: topbar + conteúdo ---- */
+.topbar{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--plane) 82%,transparent);
+backdrop-filter:blur(10px);border-bottom:1px solid var(--border)}
+.topbar-in{max-width:1080px;margin:0 auto;padding:0 24px;height:58px;
+display:flex;align-items:center;gap:28px}
+.brand{font-weight:700;font-size:.95rem;letter-spacing:-.01em;color:var(--text-primary);
+text-decoration:none;white-space:nowrap}
+.brand small{color:var(--muted);font-weight:500;margin-left:8px;font-size:.78rem}
+.snav{display:flex;gap:4px;overflow-x:auto;flex:1}
+.snav a{display:flex;align-items:center;gap:7px;padding:7px 12px;border-radius:8px;
+text-decoration:none;color:var(--text-secondary);font-weight:500;font-size:.85rem;white-space:nowrap}
+.snav a svg{width:15px;height:15px;flex:none;stroke:currentColor;fill:none;stroke-width:2;
 stroke-linecap:round;stroke-linejoin:round}
-.snav a:hover{color:var(--text-primary)}
-.snav a.on{color:var(--text-primary)}
-.snav a.on::after{content:'';position:absolute;right:-20px;top:8px;bottom:8px;width:4px;
-border-radius:4px;background:var(--series-1)}
-.snav a.on svg{stroke:var(--series-1)}
-.sfoot{margin-top:auto;padding:16px 8px 0;color:var(--muted);font-size:.72rem}
-.main{flex:1;min-width:0}
-.wrap{max-width:1080px;margin:0 auto;padding:28px 26px 64px}
-.crumb{color:var(--text-secondary);font-size:.8rem;margin:0 0 2px}
-.crumb b{color:var(--text-primary)}
-@media (max-width:900px){
-  .shell{flex-direction:column}
-  .sidebar{width:100%;height:auto;position:static;padding:14px 16px;border-right:0;
-  border-bottom:1px solid var(--border)}
-  .brand{border:0;padding:0 0 10px;margin:0}
-  .snav{flex-direction:row;overflow-x:auto;gap:6px}
-  .snav a{white-space:nowrap;padding:9px 12px}
-  .snav a.on{background:var(--series-1);color:#fff}
-  .snav a.on::after{display:none}
-  .snav a.on svg{stroke:#fff}
-  .sfoot{display:none}
-}
-header h1{margin:0 0 4px;font-size:1.7rem;letter-spacing:-.02em}
-header .sub{color:var(--text-secondary);margin:0 0 8px}
-.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:16px;margin:20px 0 8px}
-.tile{background:var(--surface-1);border:1px solid var(--border);border-radius:var(--radius);
-padding:18px 20px;box-shadow:var(--shadow)}
-.tile-val{font-size:2rem;font-weight:700;letter-spacing:-.03em}
-.tile-lbl{color:var(--text-secondary);font-size:.85rem;margin-top:2px;font-weight:600}
+.snav a:hover{color:var(--text-primary);background:var(--grid)}
+.snav a.on{color:var(--series-1);background:color-mix(in srgb,var(--series-1) 9%,transparent)}
+.main{min-width:0}
+.wrap{max-width:1080px;margin:0 auto;padding:36px 24px 72px}
+.crumb{color:var(--muted);font-size:.78rem;margin:0 0 4px;letter-spacing:.02em}
+.crumb b{color:var(--text-secondary);font-weight:600}
+header h1{margin:0 0 6px;font-size:1.75rem;letter-spacing:-.03em;line-height:1.15;text-wrap:balance}
+header .sub{color:var(--text-secondary);margin:0 0 8px;font-size:.95rem;max-width:70ch}
+@media (max-width:720px){.topbar-in{padding:0 14px;gap:14px}.brand small{display:none}}
+/* hero (home de busca) */
+.wrap-hero{padding-top:9vh;text-align:center}
+.hero h1{font-size:2.3rem;letter-spacing:-.035em;margin:0 0 8px}
+.hero .sub{margin:0 auto 8px;max-width:60ch}
+.wrap-hero .busca{max-width:640px;margin:22px auto 0;display:block;font-size:1.05rem;
+padding:16px 20px;text-align:left}
+.wrap-hero #res{text-align:left;max-width:860px;margin:0 auto}
+.wrap-hero #res .vazio{text-align:center;margin-top:10px}
+.chips{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:14px}
+.chips button{border:1px solid var(--border);background:var(--surface-1);color:var(--text-secondary);
+border-radius:20px;padding:6px 14px;font-size:.82rem;cursor:pointer;font-family:inherit}
+.chips button:hover{color:var(--series-1);border-color:var(--series-1)}
+/* stat-row minimalista: números grandes separados por hairlines */
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:0;margin:24px 0 8px;
+border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;background:var(--surface-1)}
+.tile{padding:18px 20px;border-right:1px solid var(--grid)}
+.tile:last-child{border-right:0}
+.tile-val{font-size:1.85rem;font-weight:650;letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+.tile-lbl{color:var(--text-secondary);font-size:.78rem;margin-top:2px;font-weight:500;
+text-transform:uppercase;letter-spacing:.05em}
 .tile-sub{color:var(--muted);font-size:.75rem;margin-top:4px}
-section{margin-top:26px}h2{font-size:1.12rem;margin:0 0 2px;letter-spacing:-.01em}
-.sec-desc{color:var(--text-secondary);font-size:.85rem;margin:0 0 10px}
+section{margin-top:34px}h2{font-size:1.05rem;margin:0 0 2px;letter-spacing:-.015em;font-weight:650}
+.sec-desc{color:var(--text-secondary);font-size:.85rem;margin:0 0 12px}
 .card{background:var(--surface-1);border:1px solid var(--border);border-radius:var(--radius);
-padding:20px;overflow-x:auto;box-shadow:var(--shadow)}
+padding:20px;overflow-x:auto}
 .lbl{fill:var(--text-secondary);font-size:12px}
 .val{fill:var(--text-primary);font-size:12px;font-weight:700}
 .vazio{color:var(--muted);margin:0;font-size:.9rem}
@@ -92,27 +91,24 @@ padding:8px 4px;border-bottom:1px solid var(--grid);font-size:.85rem}
 .li-tipo{color:var(--muted);font-size:.75rem;border:1px solid var(--border);border-radius:20px;padding:1px 8px}
 .li-proc{color:var(--text-secondary);font-variant-numeric:tabular-nums;font-size:.8rem}
 .net-lbl{fill:var(--text-secondary);font-size:11px;font-weight:600}
-.topnav{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0 2px}
-.topnav a{padding:9px 16px;border-radius:14px;font-weight:700;font-size:.85rem;text-decoration:none;
-color:var(--text-secondary);background:var(--surface-1);border:1px solid var(--border);box-shadow:var(--shadow)}
-.topnav a:hover,.topnav a.on{background:var(--series-1);color:#fff;border-color:var(--series-1)}
-.explica{margin-top:12px;border-top:1px dashed var(--grid);padding-top:8px}
-.explica summary{cursor:pointer;color:var(--series-1);font-size:.82rem;font-weight:700}
+.explica{margin-top:12px;border-top:1px solid var(--grid);padding-top:8px}
+.explica summary{cursor:pointer;color:var(--series-1);font-size:.82rem;font-weight:600}
 .explica p{color:var(--text-secondary);font-size:.84rem;margin:8px 0 0;max-width:70ch}
-.nota{background:#fff4e0;color:#8a5a00;border:1px solid #ffd98a;border-radius:12px;
-padding:10px 14px;font-size:.85rem;font-weight:600;margin:14px 0}
-:root[data-theme=dark] .nota,@media (prefers-color-scheme:dark){.nota{background:#3a2e10;color:#ffcf5c;border-color:#5c4a1a}}
-/* abas (CSS puro) */
+.nota{background:color-mix(in srgb,#eda100 10%,var(--surface-1));color:var(--text-primary);
+border:1px solid color-mix(in srgb,#eda100 35%,var(--border));border-radius:10px;
+padding:10px 14px;font-size:.85rem;font-weight:500;margin:14px 0}
+/* abas: segmented control minimalista (CSS puro) */
 .tabs>input{position:absolute;opacity:0;pointer-events:none}
-.tabbar{display:flex;gap:10px;margin:22px 0 4px;flex-wrap:wrap}
-.tabbar label{padding:11px 20px;border-radius:16px;cursor:pointer;font-weight:700;font-size:.9rem;
-color:var(--text-secondary);background:var(--surface-1);border:1px solid var(--border);
-box-shadow:var(--shadow);transition:all .15s}
+.tabbar{display:inline-flex;gap:2px;margin:24px 0 4px;flex-wrap:wrap;background:var(--grid);
+border-radius:10px;padding:3px}
+.tabbar label{padding:8px 16px;border-radius:8px;cursor:pointer;font-weight:550;font-size:.85rem;
+color:var(--text-secondary);transition:all .12s}
 .tabbar label:hover{color:var(--text-primary)}
 #tab1:checked~.tabbar label[for=tab1],
 #tab2:checked~.tabbar label[for=tab2],
 #tab3:checked~.tabbar label[for=tab3],
-#tab4:checked~.tabbar label[for=tab4]{background:var(--series-1);color:#fff;border-color:var(--series-1)}
+#tab4:checked~.tabbar label[for=tab4]{background:var(--surface-1);color:var(--text-primary);
+box-shadow:0 1px 3px rgba(0,0,0,.08)}
 .panel{display:none}
 #tab1:checked~.p1{display:block}
 #tab2:checked~.p2{display:block}
@@ -139,15 +135,12 @@ background:var(--surface-1);color:var(--text-primary);font-size:1rem;box-shadow:
 input.busca:focus{border-color:var(--series-1)}
 .badge{display:inline-block;border:1px solid var(--border);border-radius:20px;padding:1px 10px;
 font-size:.75rem;color:var(--muted);white-space:nowrap}
-</style></head><body><div class="shell">
-<aside class="sidebar">
-  <div class="brand">SRC · Campus Serra<small>Extensão &amp; Ensino — Ifes</small></div>
-  <nav class="snav"><a href="../index.html" class=""><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg><span>Painel</span></a><a href="../acoes/index.html" class=""><svg viewBox="0 0 24 24"><path d="M12 2 2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg><span>Ações</span></a><a href="../busca.html" class=""><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg><span>Buscar</span></a><a href="../sem-participacao.html" class=""><svg viewBox="0 0 24 24"><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg><span>Sem participações</span></a><a href="../pendencias-relatorio.html" class=""><svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M9 15h6"/><path d="M9 11h3"/></svg><span>Pendências</span></a></nav>
-  <div class="sfoot">Dados: SRC/Ifes · agregados<br>Gerado por src-etl</div>
-</aside>
+</style></head><body><div class="topbar"><div class="topbar-in">
+  <a class="brand" href="../index.html">SRC · Campus Serra<small>Extensão &amp; Ensino</small></a>
+  <nav class="snav"><a href="../index.html" class=""><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg><span>Buscar</span></a><a href="../painel.html" class=""><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg><span>Painel</span></a><a href="../acoes/index.html" class=""><svg viewBox="0 0 24 24"><path d="M12 2 2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg><span>Ações</span></a><a href="../extensionistas/index.html" class=""><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg><span>Extensionistas</span></a><a href="../sem-participacao.html" class=""><svg viewBox="0 0 24 24"><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg><span>Sem participações</span></a><a href="../pendencias-relatorio.html" class=""><svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M9 15h6"/><path d="M9 11h3"/></svg><span>Pendências</span></a></nav>
+</div></div>
 <div class="main"><div class="wrap">
-<p class="crumb">Páginas / <b>Ação</b></p>
-<header><h1>LAMPEX – Laboratório Modelo de Práticas de Extensão</h1><p class="sub">Ação do SRC/Ifes — Campus Serra</p></header>
+<p class="crumb">Páginas / <b>Ação</b></p><header><h1>LAMPEX – Laboratório Modelo de Práticas de Extensão</h1><p class="sub">Ação do SRC/Ifes — Campus Serra</p></header>
 <div class="meta">
 <div><b>Processo</b>23158.001185/2020-56</div>
 <div><b>Coordenador(a)</b>Emmanuel Marques Silva</div>
@@ -165,4 +158,4 @@ O Laboratório Modelo de Práticas de Extensão consiste basicamente na ampliaç
 educacionais de transferência de conhecimento e experiências trabalhadas nos cursos do campus
 Serra do Ifes, por meio de atendimentos personalizados, orientações, mentorias, capacitações e
 assessorias em tecnologias e gestão.</div><div class="tiles"><div class="tile"><div class="tile-val">89</div><div class="tile-lbl">Atividades</div></div><div class="tile"><div class="tile-val">1290</div><div class="tile-lbl">Alunos atendidos</div><div class="tile-sub">participações de público</div></div><div class="tile"><div class="tile-val">163</div><div class="tile-lbl">Pessoas na equipe</div></div></div><div class="card" style="margin-top:14px"><table class="tb"><tr><th>Nº</th><th>Atividade</th><th>Público</th><th>Aprovados</th><th>Certificados</th><th>Equipe</th></tr><tr><td>001</td><td>LAMPEX – Laboratório Modelo de Práticas de Extensão</td><td>2</td><td>2</td><td>2</td><td>13</td></tr><tr><td>002</td><td>Desenvolvimento de Documentos de Institucionais do LAMPEX</td><td>0</td><td>0</td><td>0</td><td>3</td></tr><tr><td>004</td><td>Desenvolvimento de uma Sistemática para Controle de Processos no LAMPEX</td><td>0</td><td>0</td><td>0</td><td>1</td></tr><tr><td>006</td><td>Desenvolvimento de uma Sistemática para Agendamento do Atendimento à Comunidade no LAMPEX</td><td>0</td><td>0</td><td>0</td><td>2</td></tr><tr><td>007</td><td>Desenvolvimento de uma Sistemática para Captação de alunos para o LAMPEX</td><td>0</td><td>0</td><td>0</td><td>1</td></tr><tr><td>008</td><td>Desenvolvimento de uma Sistemática para Acompanhamento e Controle de Atendimento Docente n</td><td>0</td><td>0</td><td>0</td><td>1</td></tr><tr><td>009</td><td>Desenvolvimento de uma Sistemática para Acompanhamento e Controle de Atendimento Discente </td><td>0</td><td>0</td><td>0</td><td>1</td></tr><tr><td>013</td><td>Desenvolvimento de Materiais e Objetos de Aprendizagem para o LAMPEX</td><td>0</td><td>0</td><td>0</td><td>1</td></tr><tr><td>014</td><td>Palestra sobre Temáticas alinhadas à área de atuação do LAMPEX</td><td>0</td><td>0</td><td>0</td><td>1</td></tr><tr><td>027</td><td>Palestra sobre Temáticas alinhadas à área de atuação do LAMPEX</td><td>0</td><td>0</td><td>0</td><td>2</td></tr><tr><td>028</td><td>Desenvolvimento de atividades administrativas (Trabalho regular de sincronização online ou</td><td>0</td><td>0</td><td>0</td><td>1</td></tr><tr><td>029</td><td>Curso DB (Preparação do curso; Participação em aulas online e presencial e Apoio ao profes</td><td>0</td><td>0</td><td>0</td><td>1</td></tr><tr><td>030</td><td>Avaliação do TCC(Trabalho de conclusão de curso) do candidato Edson Simões Boldrini</td><td>0</td><td>0</td><td>0</td><td>1</td></tr><tr><td>031</td><td>Desenvolvimento do MOOC (Modelagem de bancos de dados relacionais) nas etapas de Análise, </td><td>0</td><td>0</td><td>0</td><td>1</td></tr><tr><td>032</td><td>Acompanhamento e orientação da atividade de criação de MOOC &quot;Consultas SQL em Banco de Dad</td><td>0</td><td>0</td><td>0</td><td>1</td></tr><tr><td>034</td><td>Palestra sobre desenvolvimento de sistemas e empreendedorismo: Tiago Comério (MeuDinheiro)</td><td>10</td><td>10</td><td>10</td><td>2</td></tr><tr><td>037</td><td>Palestra empreendedorismo - da visão a ação</td><td>70</td><td>70</td><td>70</td><td>5</td></tr><tr><td>038</td><td>Roadshow programas de inovação FINDESLAB</td><td>32</td><td>32</td><td>32</td><td>5</td></tr><tr><td>039</td><td>Monitoria de Lógica para Programação – Sistema de Informação</td><td>0</td><td>0</td><td>0</td><td>1</td></tr><tr><td>040</td><td>Atividades de Planejamento, Monitoria e Atendimento Personalizado no Contexto do Projeto P</td><td>12</td><td>12</td><td>12</td><td>4</td></tr><tr><td>041</td><td>Minicurso de Git e GitHub</td><td>15</td><td>15</td><td>15</td><td>3</td></tr><tr><td>042</td><td>visita técnica ao Enjoy Work Coworking</td><td>16</td><td>16</td><td>16</td><td>2</td></tr><tr><td>043</td><td>1° Circuito Tecnológico 2023: Academia x Indústria - Engenharia Avançada</td><td>89</td><td>89</td><td>89</td><td>1</td></tr><tr><td>044</td><td>Minicurso de Introdução à Linguagem de Programação Python</td><td>11</td><td>11</td><td>11</td><td>5</td></tr><tr><td>045</td><td>Visita Técnica à Brametal</td><td>9</td><td>9</td><td>9</td><td>2</td></tr><tr><td>046</td><td>Palestra &quot;Estágio como oportunidade de ingresso ao mundo do trabalho&quot; - I Semana do Estági</td><td>84</td><td>84</td><td>84</td><td>0</td></tr><tr><td>047</td><td>Palestra &quot;Diversidade no mundo do trabalho&quot; - I Semana do Estágio e Emprego IFES Campus Se</td><td>64</td><td>64</td><td>64</td><td>1</td></tr><tr><td>048</td><td>Palestra &quot;Comportamento x Atitude: A importância do protagonismo dentro das organizações&quot; </td><td>76</td><td>76</td><td>76</td><td>1</td></tr><tr><td>049</td><td>Oficina &quot;Elaboração de currículos e dicas de entrevista&quot; - I Semana do Estágio e Emprego I</td><td>58</td><td>0</td><td>0</td><td>1</td></tr><tr><td>050</td><td>Palestra: Macrotendências de trabalho e emprego no Espírito Santo - I Semana do Estágio e </td><td>43</td><td>43</td><td>43</td><td>1</td></tr><tr><td>051</td><td>Roda de conversa sobre diversidade e equidade no mercado de trabalho, protagonismo feminin</td><td>126</td><td>126</td><td>126</td><td>0</td></tr><tr><td>052</td><td>Oficina &quot;Comportamento em entrevistas e etiqueta profissional&quot; - I Semana do Estágio e Emp</td><td>48</td><td>48</td><td>48</td><td>0</td></tr><tr><td>053</td><td>I Semana do Estágio e Emprego IFES Campus Serra</td><td>0</td><td>0</td><td>0</td><td>8</td></tr><tr><td>056</td><td>Minicurso de Informática Básica - Fundamentos de Informática e Habilidades Digitais</td><td>18</td><td>18</td><td>18</td><td>3</td></tr><tr><td>057</td><td>Planejamento das Atividades Referentes ao Plano de Ação do Lampex na Edição de 2022-2023</td><td>0</td><td>0</td><td>0</td><td>5</td></tr><tr><td>058</td><td>Marketing Digital do Lampex na Edição 2022-2023</td><td>0</td><td>0</td><td>0</td><td>2</td></tr><tr><td>059</td><td>Minicurso de Fundamentos do HTML e CSS</td><td>8</td><td>8</td><td>8</td><td>3</td></tr><tr><td>060</td><td>Minicurso de Introdução à Programação com o Python 3</td><td>9</td><td>9</td><td>9</td><td>2</td></tr><tr><td>061</td><td>Produção de Material de Apoio Pedagógico para os Minicursos do Lampex na Edição 2022-2023</td><td>0</td><td>0</td><td>0</td><td>5</td></tr><tr><td>063</td><td>Programa de Capacitação ZARUC</td><td>6</td><td>6</td><td>6</td><td>6</td></tr><tr><td>064</td><td>Minicurso de Informática Básica – Módulo I</td><td>9</td><td>9</td><td>9</td><td>2</td></tr><tr><td>065</td><td>Minicurso de Informática Básica – Módulo II</td><td>7</td><td>7</td><td>7</td><td>2</td></tr><tr><td>066</td><td>Produção de Material de Apoio Pedagógico para os Minicursos do Lampex na Edição 2023-2024</td><td>0</td><td>0</td><td>0</td><td>2</td></tr><tr><td>069</td><td>Minicurso &quot;Introdução à Siderurgia&quot;</td><td>53</td><td>53</td><td>53</td><td>3</td></tr><tr><td>070</td><td>I Workshop de Formação sobre Mediação EaD – Curso de Tecnologia em Sistemas para Internet</td><td>22</td><td>22</td><td>22</td><td>6</td></tr><tr><td>071</td><td>I Workshop de Formação sobre Mediação EaD – Curso de Tecnologia em Sistemas para Internet</td><td>32</td><td>32</td><td>32</td><td>6</td></tr><tr><td>073</td><td>27th Brazilian Symposium on Formal Methods</td><td>0</td><td>0</td><td>0</td><td>14</td></tr><tr><td>074</td><td>17th Brazilian Symposium on Bioinformatics</td><td>0</td><td>0</td><td>0</td><td>14</td></tr><tr><td>075</td><td>9th School of Theoretical Computer Science and Formal Methods</td><td>0</td><td>0</td><td>0</td><td>13</td></tr><tr><td>076</td><td>Minicurso de Git/Github para a Jornada de Integração do IFES</td><td>0</td><td>0</td><td>0</td><td>4</td></tr><tr><td>077</td><td>Site Institucional da Associação Shalom</td><td>0</td><td>0</td><td>0</td><td>4</td></tr><tr><td>078</td><td>Site Responsivo Institucional do InovaSerra (Produto)</td><td>0</td><td>0</td><td>0</td><td>4</td></tr><tr><td>079</td><td>Apresentação do Lampex na Jornada de Integração do Ifes</td><td>0</td><td>0</td><td>0</td><td>7</td></tr><tr><td>080</td><td>Jogo do Projeto de Extensão do Hucam - Ufes</td><td>0</td><td>0</td><td>0</td><td>3</td></tr><tr><td>081</td><td>Atendimento personalizado à comunidade através de monitorias</td><td>3</td><td>3</td><td>3</td><td>4</td></tr><tr><td>082</td><td>Marketing Digital do Lampex 2024</td><td>0</td><td>0</td><td>0</td><td>3</td></tr><tr><td>083</td><td>Programação sem Complicação</td><td>9</td><td>9</td><td>9</td><td>0</td></tr><tr><td>084</td><td>Geração de dados meteorológicos para Modelagem da Dispersão Atmosférica na Região Metropol</td><td>0</td><td>0</td><td>0</td><td>3</td></tr><tr><td>085</td><td>&quot;Na onda do futuro&quot; - Um sistema Web de acompanhamento de alunos de escola de surf com ris</td><td>0</td><td>0</td><td>0</td><td>1</td></tr><tr><td>086</td><td>Monitoria de Matemática e Programação 2025/01</td><td>24</td><td>24</td><td>24</td><td>5</td></tr><tr><td>087</td><td>Workshop de Inteligência Artificial na Semana da Engenharia</td><td>0</td><td>0</td><td>0</td><td>2</td></tr><tr><td>088</td><td>Manutenção do Site Institucional da Associação Shalom</td><td>0</td><td>0</td><td>0</td><td>4</td></tr><tr><td>089</td><td>Criação de site para gamificação do descarte de resíduos para o HUCAM-Ufes</td><td>0</td><td>0</td><td>0</td><td>1</td></tr><tr><td>090</td><td>Desenvolvimento do perfil da rede social Linkedin para o Lampex</td><td>0</td><td>0</td><td>0</td><td>1</td></tr><tr><td>091</td><td>Projeto do site SBSI 2026</td><td>0</td><td>0</td><td>0</td><td>2</td></tr><tr><td>092</td><td>Equipe de organização do SCAI 2025</td><td>0</td><td>0</td><td>0</td><td>16</td></tr><tr><td>093</td><td>Equipe de organização da Maratona de Programação 2025</td><td>0</td><td>0</td><td>0</td><td>9</td></tr><tr><td>094</td><td>Minicurso: Competição Competitiva</td><td>9</td><td>9</td><td>9</td><td>1</td></tr><tr><td>095</td><td>Palestra “O mercado de trabalho em IA”</td><td>25</td><td>25</td><td>25</td><td>0</td></tr><tr><td>096</td><td>Treinamento JFU - Jornada Financeira Universitária</td><td>4</td><td>4</td><td>4</td><td>1</td></tr><tr><td>098</td><td>SOF - Serviço de Orientação Financeira</td><td>34</td><td>34</td><td>34</td><td>3</td></tr><tr><td>099</td><td>“Workshops do Seminário Capixaba de Aplicações de Inteligência Artificial (SCAI) 2025” *</td><td>0</td><td>0</td><td>0</td><td>4</td></tr><tr><td>100</td><td>Monitoria de Programação e Matemática do 2º Semestre Letivo de 2025</td><td>20</td><td>20</td><td>20</td><td>7</td></tr><tr><td>101</td><td>Apoio Técnico em Informática para o Curso de Extensão “Psicologia da Felicidade e do Bem-e</td><td>0</td><td>0</td><td>0</td><td>1</td></tr><tr><td>103</td><td>XXII Simpósio Brasileiro de Sistemas de Informação SBSI 2026</td><td>0</td><td>0</td><td>0</td><td>18</td></tr><tr><td>104</td><td>Ideathon do XXII Simpósio Brasileiro de Sistemas de Informação SBSI 2026</td><td>27</td><td>27</td><td>27</td><td>12</td></tr><tr><td>105</td><td>SI4All do XXII Simpósio Brasileiro de Sistemas de Informação SBSI 2026</td><td>4</td><td>4</td><td>4</td><td>2</td></tr><tr><td>106</td><td>Desenvolvimento de Sistema de Análise de dados para cumprimento de uma proposta metodológi</td><td>0</td><td>0</td><td>0</td><td>1</td></tr><tr><td>107</td><td>Marketing Digital do Lampex</td><td>0</td><td>0</td><td>0</td><td>3</td></tr><tr><td>108</td><td>Introdução à Inteligência Artificial</td><td>9</td><td>9</td><td>9</td><td>1</td></tr><tr><td>109</td><td>Atendimentos Personalizados e Monitorias de Extensão Tecnológica - área de Programação e D</td><td>17</td><td>17</td><td>17</td><td>14</td></tr><tr><td>110</td><td>Atendimentos Personalizados e Monitorias de Extensão Tecnológica - área de Lógica e Racioc</td><td>17</td><td>17</td><td>17</td><td>4</td></tr><tr><td>111</td><td>Atendimentos Personalizados e Monitorias de Extensão Tecnológica - área de Matemática, Cál</td><td>9</td><td>9</td><td>9</td><td>5</td></tr><tr><td>112</td><td>Atendimentos Personalizados e Monitorias de Extensão Tecnológica - área de Tecnologia da I</td><td>3</td><td>3</td><td>3</td><td>1</td></tr><tr><td>113</td><td>Atendimentos Personalizados e Monitorias de Extensão Tecnológica - área de Sistemas, Hardw</td><td>0</td><td>0</td><td>0</td><td>1</td></tr><tr><td>114</td><td>Atendimentos Personalizados e Monitorias de Extensão Tecnológica - área de Ensino de Língu</td><td>3</td><td>3</td><td>3</td><td>2</td></tr><tr><td>115</td><td>Palestra de Cibersegurança e IA no Ambiente Educacional</td><td>56</td><td>56</td><td>56</td><td>4</td></tr><tr><td>116</td><td>Conversa técnica: O trabalho do Engenheiro de Software em colaboração com a Inteligência A</td><td>40</td><td>40</td><td>40</td><td>1</td></tr><tr><td>117</td><td>O Panorama da Computação Quântica: Dos Princípios às Perspectivas Futuras</td><td>48</td><td>48</td><td>48</td><td>1</td></tr></table></div><div class="card" style="margin-top:14px"><table class="tb"><tr><th>Equipe de execução</th><th>Função(ões)</th></tr><tr><td>Abner Benicio Silva</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Adelson Pereira do Nascimento</td><td>ORGANIZADOR(A), ORIENTADOR(A)</td></tr><tr><td>Adriano Lemos Bandeira</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Alessandra Aguiar Vilarinho</td><td>ORIENTADOR(A)</td></tr><tr><td>Alessandro Poleto Oliveira</td><td>ORGANIZADOR(A)</td></tr><tr><td>Alexandre Miguel Brunelli Costa</td><td>MONITOR(A)</td></tr><tr><td>Alice Lourenço dos Reis</td><td>EXTENSIONISTA, ORGANIZADOR(A)</td></tr><tr><td>Aline Bravin Prasser</td><td>ORGANIZADOR(A)</td></tr><tr><td>Allister Campos Caetano</td><td>COLABORADOR(A)</td></tr><tr><td>Ana Julia Caetano Martins</td><td>MONITOR(A)</td></tr><tr><td>Anderson Gomes</td><td>TUTOR(A)</td></tr><tr><td>Andressa Ramos Agnhesi Luppi</td><td>ORGANIZADOR(A)</td></tr><tr><td>Andrieli Soares de Souza</td><td>TUTOR(A)</td></tr><tr><td>André Almeida</td><td>PALESTRANTE</td></tr><tr><td>André Sarmento Spalenza</td><td>MINISTRANTE</td></tr><tr><td>Anna Clara dos Santos Vieira</td><td>ALUNO(A) BOLSISTA</td></tr><tr><td>Antonio Ricardo Alexandre Brasil</td><td>ORGANIZADOR(A)</td></tr><tr><td>Anyssa Satimi Komati Andrade</td><td>APOIO TÉCNICO, EXTENSIONISTA, ORGANIZADOR(A)</td></tr><tr><td>Aroldo de Sa Vargas Neto</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Arthur Chiabai Wagner</td><td>TUTOR(A)</td></tr><tr><td>Arthur Dutra Recco</td><td>MONITOR(A)</td></tr><tr><td>Arthur de Moraes Andrade Corrêa</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Bertrand Olivier Sahli</td><td>ASSESSOR(A), AVALIADOR(A), INSTRUTOR(A), MINISTRANTE, ORIENTADOR(A)</td></tr><tr><td>Bruno Cardoso Coutinho</td><td>COORDENADOR(A), COORDENADOR(A) ADJUNTO(A), ORGANIZADOR(A)</td></tr><tr><td>Bruno da Fonseca Chevitarese</td><td>ALUNO(A) VOLUNTARIO, AUTOR(A), INSTRUTOR(A), MONITOR(A)</td></tr><tr><td>Caicke Carvalho Pinheiro</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Caio Cesar Oliva Coronel</td><td>APOIO TÉCNICO, COLABORADOR(A), MONITOR(A)</td></tr><tr><td>Camila Zacche de Aguiar</td><td>ORGANIZADOR(A)</td></tr><tr><td>Carlos Eduardo da Silva Barbosa</td><td>ALUNO(A) BOLSISTA</td></tr><tr><td>Carlos Henrique Costa Matos</td><td>INSTRUTOR(A)</td></tr><tr><td>Carlos Henrique Santos das Neves de Almeida Feu</td><td>ALUNO(A) BOLSISTA, INSTRUTOR(A)</td></tr><tr><td>Celeste Nascimento Souza Silva</td><td>ALUNO(A) BOLSISTA, AUTOR(A), INSTRUTOR(A)</td></tr><tr><td>Claudia Cappelli</td><td>ORGANIZADOR(A)</td></tr><tr><td>Cláudia Gonçalves de Freitas</td><td>EXPOSITOR(A)</td></tr><tr><td>Daniel Cruz Cavalieri</td><td>ORGANIZADOR(A)</td></tr><tr><td>Danilo de Paula e Silva</td><td>APOIO TÉCNICO, ORGANIZADOR(A)</td></tr><tr><td>Davi Campos Sutil</td><td>ORGANIZADOR(A)</td></tr><tr><td>Davi Henrique Comério</td><td>APOIO TÉCNICO</td></tr><tr><td>David de Assis</td><td>COLABORADOR(A)</td></tr><tr><td>Davidson Carvalho dos Santos</td><td>MONITOR(A)</td></tr><tr><td>Débora Pagung Souza</td><td>APOIO TÉCNICO</td></tr><tr><td>Edson Menisus Peyneau Soares</td><td>ORGANIZADOR(A)</td></tr><tr><td>Eduardo Alves Figueiredo</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Eglalciane de Lyrio Tongo</td><td>ORGANIZADOR(A)</td></tr><tr><td>Elisabete Rodrigues de Almeida</td><td>APOIO TÉCNICO</td></tr><tr><td>Elizangela Campos da Rosa Broetto</td><td>COORDENADOR(A) ADJUNTO(A), ORGANIZADOR(A)</td></tr><tr><td>Emanuel Rampinelli Gloria</td><td>AUTOR(A), INSTRUTOR(A)</td></tr><tr><td>Emmanuel Marques Silva</td><td>COORDENADOR(A), COORDENADOR(A) ADJUNTO(A), PALESTRANTE</td></tr><tr><td>Enzo Hubner</td><td>ALUNO(A) VOLUNTARIO, COLABORADOR(A)</td></tr><tr><td>Erick Gama Loyola</td><td>ASSESSOR(A)</td></tr><tr><td>Erick Kenzo Komati</td><td>ORGANIZADOR(A)</td></tr><tr><td>Flávio Garcia Pereira</td><td>ORGANIZADOR(A)</td></tr><tr><td>Frances Alexandre Serpa Ferreira</td><td>EXPOSITOR(A)</td></tr><tr><td>Francisco de Assis Boldt</td><td>APOIO TÉCNICO</td></tr><tr><td>Gabriel Dias Brito</td><td>MONITOR(A)</td></tr><tr><td>Gabriel Victor Ferreira de Araújo</td><td>ALUNO(A) BOLSISTA</td></tr><tr><td>Gabrielle Azevedo Barros da Cunha Duda</td><td>ALUNO(A) BOLSISTA, ALUNO(A) VOLUNTARIO</td></tr><tr><td>Geruza Ferreira Martins</td><td>APOIO TÉCNICO</td></tr><tr><td>Giordana dos Santos Sperandio</td><td>ORIENTADOR(A)</td></tr><tr><td>Graziela Barboza Guaitolini Ramos</td><td>ORGANIZADOR(A), ORIENTADOR(A)</td></tr><tr><td>Guilherme Gomes de Faria Neto</td><td>MONITOR(A)</td></tr><tr><td>Guilherme Santos do Rosário</td><td>MONITOR(A)</td></tr><tr><td>Gustavo Gomes Alves</td><td>ALUNO(A) BOLSISTA</td></tr><tr><td>Gustavo Saraiva Mariano</td><td>EXTENSIONISTA, ORGANIZADOR(A)</td></tr><tr><td>Hanna Leticia S de Jesus</td><td>APOIO TÉCNICO</td></tr><tr><td>Heitor Moura Rosi</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Hilario Seibel Junior</td><td>APOIO TÉCNICO, ORGANIZADOR(A), ORIENTADOR(A)</td></tr><tr><td>Hilário Tomaz Alves de Oliveira</td><td>APOIO TÉCNICO, COLABORADOR(A), ORGANIZADOR(A)</td></tr><tr><td>Hudson Mereles Cerri</td><td>TUTOR(A)</td></tr><tr><td>Irene Schmidt da Silva Alves</td><td>APOIO TÉCNICO, COLABORADOR(A)</td></tr><tr><td>Irlane Schmidt da Silva Alves</td><td>APOIO TÉCNICO, COLABORADOR(A)</td></tr><tr><td>Isabel Passamani Soeiro</td><td>INSTRUTOR(A)</td></tr><tr><td>Isabella Bissoli</td><td>APOIO TÉCNICO</td></tr><tr><td>Isaque da Silva Santos de Souza</td><td>ALUNO(A) BOLSISTA, DESIGNER, INSTRUTOR(A)</td></tr><tr><td>Jefferson Oliveira Andrade</td><td>APOIO TÉCNICO, INSTRUTOR(A), MENTOR(A), ORGANIZADOR(A)</td></tr><tr><td>Jefferson Ribeiro de Lima</td><td>ORGANIZADOR(A)</td></tr><tr><td>Jefferson Tatsu Komati Andrade</td><td>APOIO TÉCNICO</td></tr><tr><td>Jessica Nogueira Duque</td><td>INSTRUTOR(A)</td></tr><tr><td>Johnny Anjos Alves Pereira</td><td>MONITOR(A)</td></tr><tr><td>Jose Augusto Costa Breciani</td><td>ORGANIZADOR(A)</td></tr><tr><td>Josué Ramos Souza</td><td>EXTENSIONISTA, MONITOR(A)</td></tr><tr><td>José Otávio de Souza Lessa</td><td>MONITOR(A)</td></tr><tr><td>João Augusto Casagrande da Silva</td><td>ALUNO(A) VOLUNTARIO, APOIO TÉCNICO</td></tr><tr><td>João Victor Barbosa Alves</td><td>MONITOR(A)</td></tr><tr><td>João Victor Kiffer Oliveira</td><td>MONITOR(A)</td></tr><tr><td>João Victor Lopes</td><td>APOIO TÉCNICO</td></tr><tr><td>João Vitor Oliveira Scheidegger</td><td>MONITOR(A)</td></tr><tr><td>Julia Almeida Nascimento Lopes</td><td>ORGANIZADOR(A)</td></tr><tr><td>Julia Neiva Gomes</td><td>MONITOR(A)</td></tr><tr><td>Julio Cesar da Silva</td><td>INSTRUTOR(A)</td></tr><tr><td>Kamila Scalzer</td><td>APOIO TÉCNICO</td></tr><tr><td>Karin Satie Komati</td><td>APOIO TÉCNICO, COLABORADOR(A), COORDENADOR(A) TÉCNICO-CIENTÍFICO, MENTOR(A), ORGANIZADOR(A)</td></tr><tr><td>Karyna Martins Carbas</td><td>ORGANIZADOR(A)</td></tr><tr><td>Kelly Assis de Souza Gazolli</td><td>ORGANIZADOR(A), ORIENTADOR(A)</td></tr><tr><td>Kleber Alves</td><td>EXPOSITOR(A)</td></tr><tr><td>Lannay Itauana Coelho Caldas</td><td>APOIO TÉCNICO</td></tr><tr><td>Lara Aguilar de Amorim</td><td>ALUNO(A) VOLUNTARIO, APOIO TÉCNICO, INSTRUTOR(A)</td></tr><tr><td>Larissa Batista Rangel</td><td>COLABORADOR(A)</td></tr><tr><td>Leandro Everton Alves Costa</td><td>APOIO TÉCNICO, MONITOR(A)</td></tr><tr><td>Lucas Silverio Gums</td><td>INSTRUTOR(A), MONITOR(A), ORGANIZADOR(A)</td></tr><tr><td>Lucas Vieira da Silva</td><td>APOIO TÉCNICO</td></tr><tr><td>Luciene Torezani Alves</td><td>APOIO TÉCNICO</td></tr><tr><td>Luiz Felipe Elizeta dos Santos</td><td>APOIO TÉCNICO</td></tr><tr><td>Mafe Mattos</td><td>INSTRUTOR(A)</td></tr><tr><td>Manuely Meireles Lemos</td><td>MONITOR(A)</td></tr><tr><td>Marcela Starling Ferreira Lage</td><td>APOIO TÉCNICO</td></tr><tr><td>Marcelo Victor Ferreira Barbosa</td><td>ALUNO(A) BOLSISTA</td></tr><tr><td>Maria Caitana Pascoal Banhos</td><td>MONITOR(A)</td></tr><tr><td>Maria Eduarda Fiorio Cardoso</td><td>ORGANIZADOR(A)</td></tr><tr><td>Maria Heloisa Neves Guimarães</td><td>PALESTRANTE</td></tr><tr><td>Marllon Christiani dos Santos Ribeiro</td><td>ALUNO(A) BOLSISTA, APOIO TÉCNICO, INSTRUTOR(A)</td></tr><tr><td>Marlyson Rodrigues Souza</td><td>INSTRUTOR(A)</td></tr><tr><td>Mateus Conrad Barcelos da Costa</td><td>INSTRUTOR(A), ORGANIZADOR(A)</td></tr><tr><td>Mateus de Mattos Ferreira</td><td>APOIO TÉCNICO</td></tr><tr><td>Matheus Butter Dias</td><td>COLABORADOR(A)</td></tr><tr><td>Matheus Costa Evangelista</td><td>ALUNO(A) VOLUNTARIO, AUTOR(A), INSTRUTOR(A)</td></tr><tr><td>Matheus Florindo de Deus Barboza Gonçalves</td><td>COLABORADOR(A)</td></tr><tr><td>Matheus Silva Caldas</td><td>MONITOR(A)</td></tr><tr><td>Maxine Amorim Silva Gois</td><td>MONITOR(A)</td></tr><tr><td>Maycon Pequeno Silva</td><td>APOIO TÉCNICO, DESIGNER</td></tr><tr><td>Miguel de Menezes Ribeiro</td><td>COLABORADOR(A)</td></tr><tr><td>Márcia Gonçalves de Oliveira</td><td>ORGANIZADOR(A)</td></tr><tr><td>Natan Paschoal Cypriano</td><td>AUTOR(A), INSTRUTOR(A)</td></tr><tr><td>Nicolas Loose</td><td>COLABORADOR(A)</td></tr><tr><td>Quézia Ferrari da Silva</td><td>EXPOSITOR(A)</td></tr><tr><td>Rafael Machado Souza</td><td>ORGANIZADOR(A)</td></tr><tr><td>Rafael Marques Silva</td><td>MONITOR(A)</td></tr><tr><td>Rafaela Guedes de Souza</td><td>MONITOR(A)</td></tr><tr><td>Raiane Reinhoz</td><td>PALESTRANTE</td></tr><tr><td>Rara Perozini Barroca</td><td>APOIO TÉCNICO</td></tr><tr><td>Renan Campista</td><td>EXTENSIONISTA</td></tr><tr><td>Renner Sartório Camargo</td><td>COORDENADOR(A) TÉCNICO-CIENTÍFICO</td></tr><tr><td>Renzo Fraga Loureiro Marinho</td><td>MONITOR(A)</td></tr><tr><td>Renzo Gomes Avance</td><td>APOIO TÉCNICO</td></tr><tr><td>Ricardo Modenese Ramalho</td><td>ORGANIZADOR(A)</td></tr><tr><td>Richard Junior Manuel Godinez Tello</td><td>APOIO TÉCNICO, COLABORADOR(A), COORDENADOR(A) ADJUNTO(A)</td></tr><tr><td>Rodolfo Luiz de Oliveira</td><td>GESTOR(A) DE PROJETO</td></tr><tr><td>Romulo Alves Luciano</td><td>ORGANIZADOR(A)</td></tr><tr><td>Ronaldo Aparecida Marques</td><td>EXPOSITOR(A)</td></tr><tr><td>Rosiane Ribeiro Rocha</td><td>ORGANIZADOR(A)</td></tr><tr><td>Rubens Carlos Cortes</td><td>TUTOR(A)</td></tr><tr><td>Samiya Harumi</td><td>APOIO TÉCNICO, ORGANIZADOR(A)</td></tr><tr><td>Samuel da Silva José</td><td>ALUNO(A) BOLSISTA</td></tr><tr><td>Sergio Nery Simões</td><td>APOIO TÉCNICO</td></tr><tr><td>Susiléa Abreu dos Santos Lima</td><td>ORGANIZADOR(A)</td></tr><tr><td>Thaissa Leslye Lourenço</td><td>ORGANIZADOR(A)</td></tr><tr><td>Thaís Pedruzzi do Nascimento</td><td>ORGANIZADOR(A)</td></tr><tr><td>Thiago Borges Pereira</td><td>MONITOR(A)</td></tr><tr><td>Thiago Corrêa dos Santos</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Thiago Fabiano</td><td>COLABORADOR(A)</td></tr><tr><td>Thiago Henrique Ezequiel dos Santos</td><td>ALUNO(A) VOLUNTARIO, APOIO TÉCNICO, COLABORADOR(A)</td></tr><tr><td>Tiago da Silva Comério</td><td>PALESTRANTE</td></tr><tr><td>Valéria Gabriel Estanislau</td><td>ORGANIZADOR(A)</td></tr><tr><td>Victor Oliveira Santos</td><td>APOIO TÉCNICO</td></tr><tr><td>Vinicius Prata Lima</td><td>PALESTRANTE</td></tr><tr><td>Vinícius Gomes Caetano</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Vitor Faiçal Campana</td><td>APOIO TÉCNICO</td></tr><tr><td>Vivian Moreira Gomes de Lacerda</td><td>APOIO TÉCNICO, COLABORADOR(A)</td></tr><tr><td>Viviane Azevedo Moura</td><td>ORGANIZADOR(A)</td></tr><tr><td>Wagner Kirmse Caldas</td><td>ORIENTADOR(A)</td></tr><tr><td>Wagner Scopel Falcão</td><td>APOIO TÉCNICO, INSTRUTOR(A)</td></tr><tr><td>Wildemberg de Jesus Oliveira</td><td>ALUNO(A) VOLUNTARIO</td></tr><tr><td>Yan Dheimi Gomes Weise</td><td>PALESTRANTE</td></tr></table></div><div class='pii'>Público-alvo é mostrado apenas como contagem — nomes, CPF e e-mail de alunos atendidos não são publicados. A equipe de execução é listada como crédito público (sem dados pessoais).</div>
-</div></div></div></body></html>
+</div></div></body></html>

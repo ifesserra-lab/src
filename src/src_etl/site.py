@@ -46,9 +46,9 @@ font-size:.75rem;color:var(--muted);white-space:nowrap}
 
 
 def _doc(titulo_tab: str, base: str, ativo: str, crumb: str,
-         titulo: str, sub: str, conteudo: str) -> str:
-    """Documento completo no layout Horizon (sidebar + breadcrumb + conteúdo)."""
-    shell = montar_shell(base, ativo, crumb, titulo, sub, conteudo)
+         titulo: str, sub: str, conteudo: str, hero: bool = False) -> str:
+    """Documento completo no layout minimalista (topbar + conteúdo)."""
+    shell = montar_shell(base, ativo, crumb, titulo, sub, conteudo, hero=hero)
     return (f"<!doctype html><html lang='pt-br'><head><meta charset='utf-8'>"
             f"<meta name='viewport' content='width=device-width,initial-scale=1'>"
             f"<title>{escape(titulo_tab)}</title><style>{HORIZON_CSS}{_EXTRA_CSS}</style></head>"
@@ -209,14 +209,24 @@ function render(q){
 }
 inp.addEventListener('input', e=>render(e.target.value)); render('');
 </script>""".replace("__DADOS__", dados)
-    conteudo = (f'<input class="busca" id="q" type="search" '
-                f'placeholder="Ex.: robótica, inglês, curso 2024, Emmanuel, FAPES...">'
+    chips = "".join(f'<button data-q="{c}">{c}</button>'
+                    for c in ["robótica", "inglês", "saúde", "curso 2024", "cultura", "FAPES"])
+    script += """
+<script>
+document.querySelectorAll('.chips button').forEach(b=>b.addEventListener('click',()=>{
+  const q=document.getElementById('q'); q.value=b.dataset.q;
+  q.dispatchEvent(new Event('input')); q.focus();
+}));
+</script>"""
+    conteudo = (f'<input class="busca" id="q" type="search" autofocus '
+                f'placeholder="Busque por tema, coordenador(a), tipo, fomento, ano..."'
+                f'><div class="chips">{chips}</div>'
                 f'<div id="res"></div>{script}')
-    return _doc("Buscar — Campus Serra", "", "busca.html", "Buscar",
-                "Buscar ações e coordenadores",
-                "Busca por palavras-chave em título, resumo, coordenador(a), tipo, "
-                "natureza, área temática, fomento e processo — combine termos livremente",
-                conteudo)
+    return _doc("SRC · Campus Serra — Buscar", "", "index.html", "Buscar",
+                "O que a extensão do Campus Serra já fez?",
+                "Busque nas 201 ações por palavras-chave — título, resumo, coordenador(a), "
+                "tipo, área temática, fomento ou processo",
+                conteudo, hero=True)
 
 
 # ------------------------------------------------------------- listas de gestão
@@ -274,6 +284,70 @@ def _pagina_pendencias(cons: dict) -> str:
                 f'<div class="card">{top}</div>{_tabela_acoes(itens, ("Últ. relatório", "ultimo"))}')
 
 
+# ------------------------------------------------------------- extensionistas
+def _pagina_extensionista(p: dict, resumo: str | None) -> str:
+    tiles = (f'<div class="tiles">{_tile(len(p["coordena"]), "Ações coordenadas")}'
+             f'{_tile(len(p["participa"]), "Participações em equipe")}'
+             f'{_tile(escape("–".join(p["anos"][:1] + p["anos"][-1:])) if p["anos"] else "—", "Período ativo")}</div>')
+    bio = (f'<div class="resumo">{escape(resumo)}<br>'
+           f'<small style="color:var(--muted)">Resumo gerado por IA (Mistral) a partir dos '
+           f'registros do SRC.</small></div>' if resumo else "")
+    blocos = [tiles, bio]
+    if p["coordena"]:
+        rows = "".join(
+            f'<tr><td><a class="lk" href="../acoes/{r["acao_id"]}.html">{escape(r["titulo"][:75])}</a></td>'
+            f'<td>{escape(r["tipo"])}</td><td>{escape(r["ano"])}</td><td>{r["n"]}</td></tr>'
+            for r in sorted(p["coordena"], key=lambda x: x["ano"], reverse=True))
+        blocos.append(f'<div class="card" style="margin-top:14px"><h2>Ações coordenadas</h2>'
+                      f'<table class="tb"><tr><th>Ação</th><th>Tipo</th><th>Ano</th>'
+                      f'<th>Participações</th></tr>{rows}</table></div>')
+    if p["participa"]:
+        rows = "".join(
+            f'<tr><td><a class="lk" href="../acoes/{r["acao_id"]}.html">{escape(r["titulo"][:75])}</a></td>'
+            f'<td>{escape(", ".join(r["funcoes"]))}</td><td>{escape(r["ano"])}</td></tr>'
+            for r in sorted(p["participa"], key=lambda x: x["ano"], reverse=True))
+        blocos.append(f'<div class="card" style="margin-top:14px"><h2>Participações em equipe</h2>'
+                      f'<table class="tb"><tr><th>Ação</th><th>Função</th><th>Ano</th></tr>{rows}</table></div>')
+    blocos.append('<div class="pii">Página gerada a partir dos registros públicos de execução '
+                  'do SRC (crédito de equipe). Não contém CPF, e-mail ou dados de alunos atendidos.</div>')
+    papel = "Coordenador(a) e equipe" if (p["coordena"] and p["participa"]) else (
+        "Coordenador(a)" if p["coordena"] else "Equipe de execução")
+    return _doc(p["nome"], "../", "extensionistas/index.html", "Extensionistas",
+                p["nome"], f"Extensionista — {papel} · Campus Serra", "".join(blocos))
+
+
+def _pagina_extensionistas_index(pessoas: list[dict]) -> str:
+    idx = [{"s": p["slug"], "n": p["nome"], "c": len(p["coordena"]),
+            "e": len(p["participa"])} for p in pessoas]
+    dados = json.dumps(idx, ensure_ascii=False)
+    script = """
+<script>
+const IDX=__DADOS__;
+const norm=s=>s.normalize('NFD').replace(/[\\u0300-\\u036f]/g,'').toLowerCase();
+IDX.forEach(p=>p.nn=norm(p.n));
+const inp=document.getElementById('q'),out=document.getElementById('res');
+function render(q){
+  const t=norm(q.trim());
+  const hits=IDX.filter(p=>!t||p.nn.includes(t));
+  let h=`<div class="card" style="margin-top:14px"><p class="sec-desc">${hits.length} extensionista(s)</p><table class="tb"><tr><th>Nome</th><th>Coordena</th><th>Equipe</th></tr>`;
+  for(const p of hits.slice(0,400))
+    h+=`<tr><td><a class="lk" href="${p.s}.html">${p.n}</a></td><td>${p.c||'—'}</td><td>${p.e||'—'}</td></tr>`;
+  out.innerHTML=h+'</table></div>';
+}
+inp.addEventListener('input',e=>render(e.target.value));render('');
+</script>""".replace("__DADOS__", dados)
+    n_coord = sum(1 for p in pessoas if p["coordena"])
+    conteudo = (f'<div class="tiles">{_tile(len(pessoas), "Extensionistas")}'
+                f'{_tile(n_coord, "Coordenadores(as)")}'
+                f'{_tile(sum(1 for p in pessoas if p["participa"]), "Na equipe de execução")}</div>'
+                f'<input class="busca" id="q" type="search" placeholder="Filtrar por nome...">'
+                f'<div id="res"></div>{script}')
+    return _doc("Extensionistas — Campus Serra", "../", "extensionistas/index.html",
+                "Extensionistas", "Extensionistas do Campus Serra",
+                "Quem coordenou ou atuou na equipe de execução de ações de Extensão — "
+                "clique no nome para ver a trajetória", conteudo)
+
+
 # ------------------------------------------------------------- orquestração
 def gerar_site(
     consolidado_json: str | Path = "data/serra_consolidado.json",
@@ -289,10 +363,25 @@ def gerar_site(
         (out / "acoes" / f"{a.get('acao_id')}.html").write_text(_pagina_acao(a), encoding="utf-8")
         n += 1
     (out / "acoes" / "index.html").write_text(_pagina_geral(cons), encoding="utf-8")
-    (out / "busca.html").write_text(_pagina_busca(cons), encoding="utf-8")
+    busca = _pagina_busca(cons)
+    (out / "index.html").write_text(busca, encoding="utf-8")   # busca é a home
+    (out / "busca.html").write_text(busca, encoding="utf-8")   # compat links antigos
     (out / "sem-participacao.html").write_text(_pagina_sem_participacao(cons), encoding="utf-8")
     (out / "pendencias-relatorio.html").write_text(_pagina_pendencias(cons), encoding="utf-8")
-    return {"paginas_acao": n, "out": str(out)}
+
+    # extensionistas (resumos IA vêm do cache gerado por gerar_resumos)
+    from .extensionistas import _CACHE_PADRAO, coletar_extensionistas
+    pessoas = coletar_extensionistas(cons)
+    resumos = {}
+    if Path(_CACHE_PADRAO).exists():
+        resumos = json.loads(Path(_CACHE_PADRAO).read_text(encoding="utf-8"))
+    (out / "extensionistas").mkdir(exist_ok=True)
+    for p in pessoas:
+        (out / "extensionistas" / f"{p['slug']}.html").write_text(
+            _pagina_extensionista(p, resumos.get(p["slug"])), encoding="utf-8")
+    (out / "extensionistas" / "index.html").write_text(
+        _pagina_extensionistas_index(pessoas), encoding="utf-8")
+    return {"paginas_acao": n, "extensionistas": len(pessoas), "out": str(out)}
 
 
 def _cli(argv: list[str] | None = None) -> int:

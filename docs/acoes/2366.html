@@ -1,75 +1,74 @@
 <!doctype html><html lang='pt-br'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>Fitoterápicos em Horta: Compostos Químicos em Ação</title><style>
 :root{
   color-scheme:light;
-  --plane:#f4f7fe; --surface-1:#ffffff;
-  --text-primary:#2b3674; --text-secondary:#707eae; --muted:#a3aed0;
-  --grid:#e9edf7; --border:#e0e5f2; --series-1:#4318ff;
-  --radius:20px; --shadow:0 18px 40px rgba(112,144,176,.12);
+  --plane:#fbfbfc; --surface-1:#ffffff;
+  --text-primary:#171c2e; --text-secondary:#5a6072; --muted:#9298a8;
+  --grid:#eceef2; --border:#e4e6ec; --series-1:#4f46e5;
+  --radius:12px; --shadow:none;
 }
 @media (prefers-color-scheme:dark){:root:where(:not([data-theme=light])){
   color-scheme:dark;
-  --plane:#0b1437; --surface-1:#111c44;
-  --text-primary:#ffffff; --text-secondary:#a3aed0; --muted:#8f9bba;
-  --grid:#ffffff14; --border:#ffffff1f; --series-1:#7551ff;
-  --shadow:0 18px 40px rgba(0,0,0,.35);
+  --plane:#0e1015; --surface-1:#15181f;
+  --text-primary:#e8eaf2; --text-secondary:#9aa0b2; --muted:#6b7284;
+  --grid:#232733; --border:#262b38; --series-1:#8b93ff;
 }}
 :root[data-theme=dark]{
   color-scheme:dark;
-  --plane:#0b1437; --surface-1:#111c44;
-  --text-primary:#ffffff; --text-secondary:#a3aed0; --muted:#8f9bba;
-  --grid:#ffffff14; --border:#ffffff1f; --series-1:#7551ff;
-  --shadow:0 18px 40px rgba(0,0,0,.35);
+  --plane:#0e1015; --surface-1:#15181f;
+  --text-primary:#e8eaf2; --text-secondary:#9aa0b2; --muted:#6b7284;
+  --grid:#232733; --border:#262b38; --series-1:#8b93ff;
 }
 *{box-sizing:border-box}
 body{margin:0;background:var(--plane);color:var(--text-primary);
-font-family:"DM Sans",system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.45}
-/* ---- app shell (Horizon): sidebar + conteúdo ---- */
-.shell{display:flex;min-height:100vh}
-.sidebar{width:260px;flex:none;background:var(--surface-1);border-right:1px solid var(--border);
-padding:28px 20px;position:sticky;top:0;height:100vh;overflow-y:auto;display:flex;flex-direction:column}
-.brand{font-weight:800;font-size:1.15rem;letter-spacing:-.02em;padding:0 8px 20px;
-border-bottom:1px solid var(--grid);margin-bottom:18px}
-.brand small{display:block;font-weight:600;font-size:.72rem;color:var(--muted);
-text-transform:uppercase;letter-spacing:.08em;margin-top:3px}
-.snav{display:flex;flex-direction:column;gap:4px}
-.snav a{display:flex;align-items:center;gap:12px;padding:11px 12px;border-radius:12px;
-text-decoration:none;color:var(--text-secondary);font-weight:600;font-size:.9rem;position:relative}
-.snav a svg{width:18px;height:18px;flex:none;stroke:currentColor;fill:none;stroke-width:2;
+font-family:system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.5;
+-webkit-font-smoothing:antialiased}
+/* ---- shell minimalista: topbar + conteúdo ---- */
+.topbar{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--plane) 82%,transparent);
+backdrop-filter:blur(10px);border-bottom:1px solid var(--border)}
+.topbar-in{max-width:1080px;margin:0 auto;padding:0 24px;height:58px;
+display:flex;align-items:center;gap:28px}
+.brand{font-weight:700;font-size:.95rem;letter-spacing:-.01em;color:var(--text-primary);
+text-decoration:none;white-space:nowrap}
+.brand small{color:var(--muted);font-weight:500;margin-left:8px;font-size:.78rem}
+.snav{display:flex;gap:4px;overflow-x:auto;flex:1}
+.snav a{display:flex;align-items:center;gap:7px;padding:7px 12px;border-radius:8px;
+text-decoration:none;color:var(--text-secondary);font-weight:500;font-size:.85rem;white-space:nowrap}
+.snav a svg{width:15px;height:15px;flex:none;stroke:currentColor;fill:none;stroke-width:2;
 stroke-linecap:round;stroke-linejoin:round}
-.snav a:hover{color:var(--text-primary)}
-.snav a.on{color:var(--text-primary)}
-.snav a.on::after{content:'';position:absolute;right:-20px;top:8px;bottom:8px;width:4px;
-border-radius:4px;background:var(--series-1)}
-.snav a.on svg{stroke:var(--series-1)}
-.sfoot{margin-top:auto;padding:16px 8px 0;color:var(--muted);font-size:.72rem}
-.main{flex:1;min-width:0}
-.wrap{max-width:1080px;margin:0 auto;padding:28px 26px 64px}
-.crumb{color:var(--text-secondary);font-size:.8rem;margin:0 0 2px}
-.crumb b{color:var(--text-primary)}
-@media (max-width:900px){
-  .shell{flex-direction:column}
-  .sidebar{width:100%;height:auto;position:static;padding:14px 16px;border-right:0;
-  border-bottom:1px solid var(--border)}
-  .brand{border:0;padding:0 0 10px;margin:0}
-  .snav{flex-direction:row;overflow-x:auto;gap:6px}
-  .snav a{white-space:nowrap;padding:9px 12px}
-  .snav a.on{background:var(--series-1);color:#fff}
-  .snav a.on::after{display:none}
-  .snav a.on svg{stroke:#fff}
-  .sfoot{display:none}
-}
-header h1{margin:0 0 4px;font-size:1.7rem;letter-spacing:-.02em}
-header .sub{color:var(--text-secondary);margin:0 0 8px}
-.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:16px;margin:20px 0 8px}
-.tile{background:var(--surface-1);border:1px solid var(--border);border-radius:var(--radius);
-padding:18px 20px;box-shadow:var(--shadow)}
-.tile-val{font-size:2rem;font-weight:700;letter-spacing:-.03em}
-.tile-lbl{color:var(--text-secondary);font-size:.85rem;margin-top:2px;font-weight:600}
+.snav a:hover{color:var(--text-primary);background:var(--grid)}
+.snav a.on{color:var(--series-1);background:color-mix(in srgb,var(--series-1) 9%,transparent)}
+.main{min-width:0}
+.wrap{max-width:1080px;margin:0 auto;padding:36px 24px 72px}
+.crumb{color:var(--muted);font-size:.78rem;margin:0 0 4px;letter-spacing:.02em}
+.crumb b{color:var(--text-secondary);font-weight:600}
+header h1{margin:0 0 6px;font-size:1.75rem;letter-spacing:-.03em;line-height:1.15;text-wrap:balance}
+header .sub{color:var(--text-secondary);margin:0 0 8px;font-size:.95rem;max-width:70ch}
+@media (max-width:720px){.topbar-in{padding:0 14px;gap:14px}.brand small{display:none}}
+/* hero (home de busca) */
+.wrap-hero{padding-top:9vh;text-align:center}
+.hero h1{font-size:2.3rem;letter-spacing:-.035em;margin:0 0 8px}
+.hero .sub{margin:0 auto 8px;max-width:60ch}
+.wrap-hero .busca{max-width:640px;margin:22px auto 0;display:block;font-size:1.05rem;
+padding:16px 20px;text-align:left}
+.wrap-hero #res{text-align:left;max-width:860px;margin:0 auto}
+.wrap-hero #res .vazio{text-align:center;margin-top:10px}
+.chips{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:14px}
+.chips button{border:1px solid var(--border);background:var(--surface-1);color:var(--text-secondary);
+border-radius:20px;padding:6px 14px;font-size:.82rem;cursor:pointer;font-family:inherit}
+.chips button:hover{color:var(--series-1);border-color:var(--series-1)}
+/* stat-row minimalista: números grandes separados por hairlines */
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:0;margin:24px 0 8px;
+border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;background:var(--surface-1)}
+.tile{padding:18px 20px;border-right:1px solid var(--grid)}
+.tile:last-child{border-right:0}
+.tile-val{font-size:1.85rem;font-weight:650;letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+.tile-lbl{color:var(--text-secondary);font-size:.78rem;margin-top:2px;font-weight:500;
+text-transform:uppercase;letter-spacing:.05em}
 .tile-sub{color:var(--muted);font-size:.75rem;margin-top:4px}
-section{margin-top:26px}h2{font-size:1.12rem;margin:0 0 2px;letter-spacing:-.01em}
-.sec-desc{color:var(--text-secondary);font-size:.85rem;margin:0 0 10px}
+section{margin-top:34px}h2{font-size:1.05rem;margin:0 0 2px;letter-spacing:-.015em;font-weight:650}
+.sec-desc{color:var(--text-secondary);font-size:.85rem;margin:0 0 12px}
 .card{background:var(--surface-1);border:1px solid var(--border);border-radius:var(--radius);
-padding:20px;overflow-x:auto;box-shadow:var(--shadow)}
+padding:20px;overflow-x:auto}
 .lbl{fill:var(--text-secondary);font-size:12px}
 .val{fill:var(--text-primary);font-size:12px;font-weight:700}
 .vazio{color:var(--muted);margin:0;font-size:.9rem}
@@ -92,27 +91,24 @@ padding:8px 4px;border-bottom:1px solid var(--grid);font-size:.85rem}
 .li-tipo{color:var(--muted);font-size:.75rem;border:1px solid var(--border);border-radius:20px;padding:1px 8px}
 .li-proc{color:var(--text-secondary);font-variant-numeric:tabular-nums;font-size:.8rem}
 .net-lbl{fill:var(--text-secondary);font-size:11px;font-weight:600}
-.topnav{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0 2px}
-.topnav a{padding:9px 16px;border-radius:14px;font-weight:700;font-size:.85rem;text-decoration:none;
-color:var(--text-secondary);background:var(--surface-1);border:1px solid var(--border);box-shadow:var(--shadow)}
-.topnav a:hover,.topnav a.on{background:var(--series-1);color:#fff;border-color:var(--series-1)}
-.explica{margin-top:12px;border-top:1px dashed var(--grid);padding-top:8px}
-.explica summary{cursor:pointer;color:var(--series-1);font-size:.82rem;font-weight:700}
+.explica{margin-top:12px;border-top:1px solid var(--grid);padding-top:8px}
+.explica summary{cursor:pointer;color:var(--series-1);font-size:.82rem;font-weight:600}
 .explica p{color:var(--text-secondary);font-size:.84rem;margin:8px 0 0;max-width:70ch}
-.nota{background:#fff4e0;color:#8a5a00;border:1px solid #ffd98a;border-radius:12px;
-padding:10px 14px;font-size:.85rem;font-weight:600;margin:14px 0}
-:root[data-theme=dark] .nota,@media (prefers-color-scheme:dark){.nota{background:#3a2e10;color:#ffcf5c;border-color:#5c4a1a}}
-/* abas (CSS puro) */
+.nota{background:color-mix(in srgb,#eda100 10%,var(--surface-1));color:var(--text-primary);
+border:1px solid color-mix(in srgb,#eda100 35%,var(--border));border-radius:10px;
+padding:10px 14px;font-size:.85rem;font-weight:500;margin:14px 0}
+/* abas: segmented control minimalista (CSS puro) */
 .tabs>input{position:absolute;opacity:0;pointer-events:none}
-.tabbar{display:flex;gap:10px;margin:22px 0 4px;flex-wrap:wrap}
-.tabbar label{padding:11px 20px;border-radius:16px;cursor:pointer;font-weight:700;font-size:.9rem;
-color:var(--text-secondary);background:var(--surface-1);border:1px solid var(--border);
-box-shadow:var(--shadow);transition:all .15s}
+.tabbar{display:inline-flex;gap:2px;margin:24px 0 4px;flex-wrap:wrap;background:var(--grid);
+border-radius:10px;padding:3px}
+.tabbar label{padding:8px 16px;border-radius:8px;cursor:pointer;font-weight:550;font-size:.85rem;
+color:var(--text-secondary);transition:all .12s}
 .tabbar label:hover{color:var(--text-primary)}
 #tab1:checked~.tabbar label[for=tab1],
 #tab2:checked~.tabbar label[for=tab2],
 #tab3:checked~.tabbar label[for=tab3],
-#tab4:checked~.tabbar label[for=tab4]{background:var(--series-1);color:#fff;border-color:var(--series-1)}
+#tab4:checked~.tabbar label[for=tab4]{background:var(--surface-1);color:var(--text-primary);
+box-shadow:0 1px 3px rgba(0,0,0,.08)}
 .panel{display:none}
 #tab1:checked~.p1{display:block}
 #tab2:checked~.p2{display:block}
@@ -139,15 +135,12 @@ background:var(--surface-1);color:var(--text-primary);font-size:1rem;box-shadow:
 input.busca:focus{border-color:var(--series-1)}
 .badge{display:inline-block;border:1px solid var(--border);border-radius:20px;padding:1px 10px;
 font-size:.75rem;color:var(--muted);white-space:nowrap}
-</style></head><body><div class="shell">
-<aside class="sidebar">
-  <div class="brand">SRC · Campus Serra<small>Extensão &amp; Ensino — Ifes</small></div>
-  <nav class="snav"><a href="../index.html" class=""><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg><span>Painel</span></a><a href="../acoes/index.html" class=""><svg viewBox="0 0 24 24"><path d="M12 2 2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg><span>Ações</span></a><a href="../busca.html" class=""><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg><span>Buscar</span></a><a href="../sem-participacao.html" class=""><svg viewBox="0 0 24 24"><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg><span>Sem participações</span></a><a href="../pendencias-relatorio.html" class=""><svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M9 15h6"/><path d="M9 11h3"/></svg><span>Pendências</span></a></nav>
-  <div class="sfoot">Dados: SRC/Ifes · agregados<br>Gerado por src-etl</div>
-</aside>
+</style></head><body><div class="topbar"><div class="topbar-in">
+  <a class="brand" href="../index.html">SRC · Campus Serra<small>Extensão &amp; Ensino</small></a>
+  <nav class="snav"><a href="../index.html" class=""><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg><span>Buscar</span></a><a href="../painel.html" class=""><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg><span>Painel</span></a><a href="../acoes/index.html" class=""><svg viewBox="0 0 24 24"><path d="M12 2 2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg><span>Ações</span></a><a href="../extensionistas/index.html" class=""><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg><span>Extensionistas</span></a><a href="../sem-participacao.html" class=""><svg viewBox="0 0 24 24"><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg><span>Sem participações</span></a><a href="../pendencias-relatorio.html" class=""><svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M9 15h6"/><path d="M9 11h3"/></svg><span>Pendências</span></a></nav>
+</div></div>
 <div class="main"><div class="wrap">
-<p class="crumb">Páginas / <b>Ação</b></p>
-<header><h1>Fitoterápicos em Horta: Compostos Químicos em Ação</h1><p class="sub">Ação do SRC/Ifes — Campus Serra</p></header>
+<p class="crumb">Páginas / <b>Ação</b></p><header><h1>Fitoterápicos em Horta: Compostos Químicos em Ação</h1><p class="sub">Ação do SRC/Ifes — Campus Serra</p></header>
 <div class="meta">
 <div><b>Processo</b>23156.000102/2019-55</div>
 <div><b>Coordenador(a)</b>Nauvia Maria Cancelieri</div>
@@ -156,4 +149,4 @@ font-size:.75rem;color:var(--muted);white-space:nowrap}
 <div><b>Cadastro</b>22/04/2019</div>
 <div><b>Relatório aprovado</b>Não</div>
 </div><div class="resumo">O presente projeto têm como principal objetivo a conscientização da comunidade acadêmica quanto a utilização de fitoterápicos como espécies vegetais e seus constituintes químicos, como também fazer o resgaste popular referente ao uso tradicional de espécies vegetais; preparar horta com uso de mudas e sementes de espécies vegetais aprovadas para uso como fitoterápicos; fazer extratos etanólicos e tinturas; preparar exsicatas; incentivar e proporcionar o uso correto de espécies vegetais como fitoterápicos; desmistificar conceitos de plantas medicinais, produtos naturais e fitoterápicos. Nesse contexto, serão inseridos conteúdos curriculares relacionados aos compostos químicos inorgânicos (constituintes do solo) e orgânicos (presentes nas plantas), assim como utilização de cálculos estequiométricos para certificação de quantidade adequada de elementos químicos (N, P e C) presentes no adubo, como também medida e correção de pH do solo. A metodologia a ser utilizada para conscientização sobre o uso correto de medicamentos fitoterápicos será realizada por ações de divulgação através de seminários, roda de chá com bate papo, confecção de cartilhas e marcadores de páginas.  Este projeto terá sustentação em informações retiradas da Anvisa, artigos científicos e livros da área. O resgate popular será realizado com conhecimento popular do estado do Espírito Santo. Os extratos, tinturas, identificação de compostos químicos de solo e plantas, além de medida de pH do solo serão obtidos no Laboratório de Química. Espera-se com esse trabalho não somente criar mecanismos de aprendizagem de conteúdos curriculares, mas também oportunizar o uso correto, de forma segura, eficaz e de fácil acesso de espécies vegetais com fins medicinais, conscientizando não somente a comunidade acadêmica, mas também a comunidade em geral.</div><div class="tiles"><div class="tile"><div class="tile-val">2</div><div class="tile-lbl">Atividades</div></div><div class="tile"><div class="tile-val">39</div><div class="tile-lbl">Alunos atendidos</div><div class="tile-sub">participações de público</div></div><div class="tile"><div class="tile-val">1</div><div class="tile-lbl">Pessoas na equipe</div></div></div><div class="card" style="margin-top:14px"><table class="tb"><tr><th>Nº</th><th>Atividade</th><th>Público</th><th>Aprovados</th><th>Certificados</th><th>Equipe</th></tr><tr><td>001</td><td>Fitoterápicos em Horta: Compostos Químicos em Ação</td><td>26</td><td>2</td><td>0</td><td>1</td></tr><tr><td>002</td><td>Fitoterápicos em Horta II: Compostos Químicos em Ação</td><td>13</td><td>1</td><td>0</td><td>0</td></tr></table></div><div class="card" style="margin-top:14px"><table class="tb"><tr><th>Equipe de execução</th><th>Função(ões)</th></tr><tr><td>Nauvia Maria Cancelieri</td><td>COORDENADOR(A)</td></tr></table></div><div class='pii'>Público-alvo é mostrado apenas como contagem — nomes, CPF e e-mail de alunos atendidos não são publicados. A equipe de execução é listada como crédito público (sem dados pessoais).</div>
-</div></div></div></body></html>
+</div></div></body></html>

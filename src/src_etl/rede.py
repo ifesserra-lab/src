@@ -26,9 +26,11 @@ def agregar_rede(consolidado: dict) -> dict:
     acoes = consolidado.get("acoes", [])
 
     publico_by_proc = {}
+    ativo_by_proc = {}   # ação com público OU equipe > 0
     for a in acoes:
-        publico_by_proc[a.get("Processo nº")] = sum(
-            1 for p in a.get("participacoes", []) if p.get("tipo", "").startswith("Público"))
+        pub = sum(1 for p in a.get("participacoes", []) if p.get("tipo", "").startswith("Público"))
+        publico_by_proc[a.get("Processo nº")] = pub
+        ativo_by_proc[a.get("Processo nº")] = len(a.get("participacoes", [])) > 0
 
     # programas guarda-chuva — FONTE AUTORITATIVA: campo "acoes_vinculadas"
     # (buscado por acao_id em consulta-acao-vinculada), agrupado por processo do pai.
@@ -36,7 +38,9 @@ def agregar_rede(consolidado: dict) -> dict:
     programas = []          # (titulo_pai, processo_pai, n_filhos, publico_agregado)
     if tem_autoritativo:
         for a in acoes:
-            filhas = a.get("acoes_vinculadas") or []
+            # conta apenas filhas ATIVAS (com público ou equipe registrados)
+            filhas = [fp for fp in (a.get("acoes_vinculadas") or [])
+                      if ativo_by_proc.get(fp.get("processo"), False)]
             if filhas:
                 # agregado = público do PRÓPRIO programa + o das ações filhas
                 pub = publico_by_proc.get(a.get("Processo nº"), 0) + sum(
@@ -164,7 +168,8 @@ def blocos_rede(a: dict) -> tuple[str, str]:
                explica="No SRC, uma ação pode declarar outra como 'Ação vinculante' — isso cria "
                "programas guarda-chuva que abrigam projetos/cursos/eventos filhos. Este gráfico "
                "conta quantas ações filhas cada programa agrega, usando a consulta oficial de "
-               "ações vinculadas do sistema (não o campo de texto, que é incompleto). Mede o papel "
+               "ações vinculadas do sistema (não o campo de texto, que é incompleto). Só entram "
+               "filhas com participação registrada (público ou equipe > 0). Mede o papel "
                "estruturante do programa: quanto mais filhas, mais ele funciona como plataforma."),
         _secao("Programas por público agregado", _barras(a["programas_publico"]),
                "Público-alvo do próprio programa + das ações filhas.",

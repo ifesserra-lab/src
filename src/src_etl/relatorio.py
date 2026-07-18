@@ -50,10 +50,23 @@ def _ano(data_cadastro: str | None) -> str:
 
 
 def agregar(acoes: list[dict], parts: list[dict]) -> dict:
-    natureza = Counter(a.get("Natureza") or "—" for a in acoes)
-    tipo = Counter(a.get("Tipo ação") or "—" for a in acoes)
-    fomento = Counter(a.get("Fomento") or "—" for a in acoes)
-    anos = Counter(_ano(a.get("Data de cadastro")) for a in acoes)
+    # ações ATIVAS = com alguma participação registrada (público ou equipe > 0).
+    # Os gráficos de perfil (natureza, tipo, fomento, ano, áreas, relatório)
+    # contam apenas ativas; as vazias aparecem nas listas de pendência.
+    _pp = {p.get("processo"): p for p in parts}
+
+    def _ativa(a: dict) -> bool:
+        p = _pp.get(a.get("Processo nº"))
+        if p is None:
+            return not parts  # sem coleta de participações -> não filtra
+        return (p.get("total_publico_alvo", 0) + p.get("total_equipe", 0)) > 0
+
+    ativas = [a for a in acoes if _ativa(a)] if parts else list(acoes)
+
+    natureza = Counter(a.get("Natureza") or "—" for a in ativas)
+    tipo = Counter(a.get("Tipo ação") or "—" for a in ativas)
+    fomento = Counter(a.get("Fomento") or "—" for a in ativas)
+    anos = Counter(_ano(a.get("Data de cadastro")) for a in ativas)
     def _cat(a: dict, chave: str) -> tuple[str, bool]:
         """Valor original; se vazio, usa o inferido (marcado como inferido)."""
         v = (a.get(chave) or "").strip()
@@ -64,17 +77,19 @@ def agregar(acoes: list[dict], parts: list[dict]) -> dict:
             return inf, True
         return "(não informado)", False
 
-    ga_vals = [_cat(a, "Grande área conhecimento") for a in acoes]
-    at_vals = [_cat(a, "Área temática principal") for a in acoes]
+    ga_vals = [_cat(a, "Grande área conhecimento") for a in ativas]
+    at_vals = [_cat(a, "Área temática principal") for a in ativas]
     grande_area = Counter(v for v, _ in ga_vals)
     area_tematica = Counter(v for v, _ in at_vals)
     n_ga_inferida = sum(1 for _, inf in ga_vals if inf)
     n_at_inferida = sum(1 for _, inf in at_vals if inf)
-    relatorio = Counter((a.get("Relatório aprovado") or "—").strip() or "—" for a in acoes)
+    relatorio = Counter((a.get("Relatório aprovado") or "—").strip() or "—" for a in ativas)
 
-    # participações
+    # participações — atividades contam só quando têm público ou equipe (> 0)
     titulo_por_proc = {a.get("Processo nº"): (a.get("Título ação") or "") for a in acoes}
-    total_atividades = sum(p.get("total_atividades", 0) for p in parts)
+    total_atividades = sum(
+        1 for p in parts for ativ in p.get("atividades", [])
+        if len(ativ.get("publico_alvo", [])) + len(ativ.get("equipe_execucao", [])) > 0)
     total_publico = sum(p.get("total_publico_alvo", 0) for p in parts)
     total_equipe = sum(p.get("total_equipe", 0) for p in parts)
 
@@ -97,7 +112,8 @@ def agregar(acoes: list[dict], parts: list[dict]) -> dict:
                 funcao[(membro.get("Função") or "—").strip() or "—"] += 1
         if npa:
             publico_por_acao.append((titulo, npa))
-        equipe_por_acao_vals.append(p.get("total_equipe", 0))
+        if (p.get("total_publico_alvo", 0) + p.get("total_equipe", 0)) > 0:
+            equipe_por_acao_vals.append(p.get("total_equipe", 0))  # média só sobre ativas
 
     # ações SEM participações (público=0 E equipe=0), entre as coletadas
     part_por_proc = {p.get("processo"): p for p in parts}
@@ -137,6 +153,7 @@ def agregar(acoes: list[dict], parts: list[dict]) -> dict:
 
     return {
         "n_acoes": len(acoes),
+        "n_acoes_ativas": len(ativas),
         "n_processos_part": len(parts),
         "total_atividades": total_atividades,
         "total_publico": total_publico,
@@ -328,9 +345,12 @@ padding:7px 4px;border-bottom:1px solid var(--grid);font-size:.85rem}
 
 def blocos_relatorio(a: dict) -> tuple[str, str]:
     """Devolve (tiles_html, secoes_html) do relatório-base para um agregado `a`."""
+    com_filtro = a["n_processos_part"] > 0
     tiles = "".join([
-        _tile(a["n_acoes"], "Ações"),
-        _tile(a["total_atividades"] or "—", "Atividades", f'{a["n_processos_part"]} processos'),
+        _tile(a["n_acoes_ativas"] if com_filtro else a["n_acoes"], "Ações com participação",
+              f'de {a["n_acoes"]} cadastradas' if com_filtro else ""),
+        _tile(a["total_atividades"] or "—", "Atividades com participação",
+              f'{a["n_processos_part"]} processos'),
         _tile(a["total_publico"] or "—", "Alunos atendidos"),
         _tile(a["total_equipe"] or "—", "Equipe executora", f'média {a["media_equipe"]:.1f}/ação'),
         _tile(f'{a["taxa_cert"]:.0f}%' if a["total_publico"] else "—", "Taxa de certificação"),

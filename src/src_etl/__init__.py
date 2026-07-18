@@ -28,7 +28,7 @@ from .painel import gerar_painel
 from .relatorio import gerar_relatorio
 from .scraper import LinhaAcao, coletar_campus, listar_campi
 
-__version__ = "0.14.0"
+__version__ = "0.15.0"
 
 __all__ = [
     "Acao",

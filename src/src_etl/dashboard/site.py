@@ -20,7 +20,7 @@ from html import escape
 from pathlib import Path
 
 from .painel import HORIZON_CSS, montar_shell
-from .relatorio import _barras, _donut, _tile as _tiler, _secao
+from .relatorio import _barras, _donut, _tile as _tiler, _secao, _ranking_coord
 from .jornada import agregar_jornada, svg_curva_fase, svg_funil, svg_timeline
 
 _EXTRA_CSS = """
@@ -333,7 +333,8 @@ def _bloco_marketing(cons: dict) -> str:
         '</div>'
         + _svg_area_anos(pares) +
         '<p class="sec-desc" style="margin:10px 2px 0">Pessoas atingidas por ano '
-        '(público-alvo distinto). Passe o mouse nos pontos de pico e do último ano.</p>'
+        '(público-alvo distinto). Ponto em destaque = ano de pico (laranja) e último ano (azul); '
+        'passe o mouse em qualquer ponto para ver o ano e o total.</p>'
         '</div>')
 
 
@@ -504,11 +505,19 @@ def _pagina_sem_participacao(cons: dict, slugs: dict) -> str:
     itens.sort(key=lambda x: (x["coordenador"], x["ano"]))
     tabela = _com_busca("tb-sem", "Filtrar por ação, coordenador(a), tipo ou ano...",
                         _tabela_acoes(itens, slugs, tid="tb-sem"))
+    # ranking de coordenadores com ações sem participação (vindo do painel)
+    coord_total = Counter((a.get("Coordenador(a)") or "—").strip() or "—" for a in cons["acoes"])
+    coord_sem = Counter(x["coordenador"] or "—" for x in itens)
+    rank = [(nome, n, coord_total[nome]) for nome, n in coord_sem.most_common(12)]
+    ranking = ('<section style="margin-top:20px"><h2>Coordenadores com ações sem participação</h2>'
+               '<p class="sec-desc">Nº de ações sem participação por coordenador(a) e proporção do '
+               'total dele(a) — proporção alta sugere não-registro sistemático; baixa, caso pontual.</p>'
+               f'<div class="card">{_ranking_coord(rank)}</div></section>')
     return _doc("Ações sem participações — Campus Serra", "", "sem-participacao.html",
                 "Sem participações", f"Ações sem participações ({len(itens)})",
                 "Ações sem nenhum público-alvo nem equipe registrados no SRC — "
                 "pendência de registro a regularizar com o(a) coordenador(a)",
-                tabela)
+                tabela + ranking)
 
 
 def _pagina_pendencias(cons: dict, slugs: dict) -> str:

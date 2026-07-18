@@ -473,13 +473,6 @@ def blocos_relatorio(a: dict) -> tuple[str, str]:
                    "vínculo de equipe: bolsistas, voluntários, coordenador, professores etc. "
                    "Mede a força de trabalho da extensão — em particular o protagonismo discente "
                    "(funções de aluno) frente ao corpo docente."),
-            _secao("Coordenadores com ações sem participação",
-                   _ranking_coord(a["coord_sem_rank"]),
-                   "Nº de ações sem participação por coordenador(a) e proporção do total dele(a).",
-                   explica="Para cada coordenador(a), quantas das suas ações estão na lista acima "
-                   "e que fração isso representa do total de ações dele(a). Proporção alta (ex.: "
-                   "3 de 3 = 100%) sugere padrão sistemático de não-registro; proporção baixa "
-                   "sugere caso pontual. Útil para orientar a quem pedir regularização."),
         ]
         if a["nao_coletados"]:
             secoes.append(_secao(

@@ -51,6 +51,7 @@ box-shadow:0 0 0 3px color-mix(in srgb,var(--series-1) 20%,transparent)}
 input[type=search]:focus-visible{outline:2px solid var(--accent-focus);outline-offset:1px}
 .busca-intro{text-align:center;max-width:64ch;margin:22px auto 4px;
 color:var(--text-secondary);font-size:15px}
+td.nowrap{white-space:nowrap}
 .badge{display:inline-block;border:1px solid var(--grid);border-radius:6px;padding:3px 10px;
 font-size:11.5px;font-weight:500;color:var(--text-secondary);white-space:nowrap;
 background:var(--surface-1)}
@@ -509,18 +510,24 @@ def _com_busca(tid: str, placeholder: str, card_html: str) -> str:
 
 
 def _tabela_acoes(itens: list[dict], slugs: dict, extra_col: tuple[str, str] | None = None,
-                  tid: str = "tb") -> str:
+                  tid: str = "tb", *, relatorio: bool = False) -> str:
     cab = "<tr><th>Ação</th><th>Tipo</th><th>Coordenador(a)</th><th>Ano</th>"
-    cab += f"<th>{escape(extra_col[0])}</th></tr>" if extra_col else "</tr>"
+    cab += f"<th>{escape(extra_col[0])}</th>" if extra_col else ""
+    cab += "<th>Modelo de relatório</th></tr>" if relatorio else "</tr>"
     rows = []
     for it in itens:
         extra = f"<td>{escape(str(it.get(extra_col[1]) or '—'))}</td>" if extra_col else ""
+        rel = ""
+        if relatorio:
+            aid = escape(str(it.get("acao_id")))
+            rel = (f'<td class="nowrap"><a class="lk" href="relatorios-odt/{aid}.pdf">PDF</a>'
+                   f' · <a class="lk" href="relatorios-odt/{aid}.odt">ODT</a></td>')
         rows.append(
             f'<tr><td><a class="lk" href="acoes/{escape(str(it.get("acao_id")))}.html">'
             f'{escape((it.get("titulo") or "—")[:75])}</a></td>'
             f'<td>{_pill_tipo(it.get("tipo"))}</td>'
             f'<td>{_link_pessoa(it.get("coordenador"), "", slugs)}</td>'
-            f'<td>{escape(it.get("ano") or "—")}</td>{extra}</tr>')
+            f'<td>{escape(it.get("ano") or "—")}</td>{extra}{rel}</tr>')
     return (f'<div class="card" style="margin-top:16px"><table class="tb" id="{tid}">'
             f'{cab}{"".join(rows)}</table></div>')
 
@@ -568,12 +575,22 @@ def _pagina_pendencias(cons: dict, slugs: dict) -> str:
     top = "".join(f'<span class="badge" style="margin:3px">{escape(n)}: {q}</span>'
                   for n, q in cont.most_common(12))
     tabela = _com_busca("tb-pend", "Filtrar por ação, coordenador(a), tipo ou ano...",
-                        _tabela_acoes(itens, slugs, ("Últ. relatório", "ultimo"), tid="tb-pend"))
+                        _tabela_acoes(itens, slugs, ("Últ. relatório", "ultimo"),
+                                      tid="tb-pend", relatorio=True))
+    ajuda = ('<div class="pii" style="margin-top:0">'
+             '<b>Como regularizar.</b> Cada linha traz o <b>Relatório de Ação de Extensão</b> '
+             '(modelo oficial da PROEX, ON CAEx 01-2020) já <b>pré-preenchido</b> com os dados do '
+             'SRC (título, coordenador(a), datas, área e nº de participantes) — baixe em '
+             '<b>PDF</b> ou <b>ODT</b>, complete os campos qualitativos e entregue à CGAEx. '
+             'Prazo: relatório final em até 30 dias após o término; parcial, anualmente entre '
+             '1º/nov e 15/dez. '
+             '<a class="lk" href="https://forms.office.com/r/m73RLCBx5S" target="_blank" rel="noopener">'
+             'Formulário eletrônico da PROEX ↗</a></div>')
     return _doc("Pendências de relatório — Campus Serra", "", "pendencias-relatorio.html",
                 "Pendências", f"Pendências de relatório ({len(itens)})",
                 "Ações sem relatório final aprovado no SRC (inclui ações em andamento) — "
                 "com o(a) coordenador(a) responsável",
-                f'<div class="card">{top}</div>{tabela}')
+                f'<div class="card">{top}</div>{ajuda}{tabela}')
 
 
 # ------------------------------------------------------------- dados abertos

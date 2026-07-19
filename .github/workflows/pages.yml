@@ -28,6 +28,16 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+      - name: Gerar PDFs dos relatórios de extensão (LibreOffice)
+        run: |
+          if ls docs/relatorios-odt/*.odt >/dev/null 2>&1; then
+            sudo apt-get update
+            sudo apt-get install -y --no-install-recommends libreoffice-writer
+            soffice --headless --convert-to pdf --outdir docs/relatorios-odt docs/relatorios-odt/*.odt
+            echo "PDFs gerados: $(ls docs/relatorios-odt/*.pdf | wc -l)"
+          else
+            echo "sem .odt em docs/relatorios-odt — nada a converter"
+          fi
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

@@ -13,9 +13,34 @@ import re
 import unicodedata
 from collections import Counter
 from datetime import datetime
+from html import escape
 from pathlib import Path
 
 from .relatorio import _barras, _secao, _tile
+
+
+def _barras_prog(dados: list[tuple[str, int, int]]) -> str:
+    """Barras horizontais de programas, com NOME COMPLETO acima da barra e uso
+    de toda a largura do card (não trunca o título como `_barras`)."""
+    if not dados:
+        return '<p class="vazio">Sem dados ainda.</p>'
+    maxv = max(v for _, v, _ in dados) or 1
+    rows = []
+    for nome, v, na in dados:
+        w = max(2, round(v / maxv * 100))
+        ativ = f'{na} ativ.' if na != 1 else '1 ativ.'
+        rows.append(
+            '<div style="margin:0 0 13px">'
+            '<div style="display:flex;justify-content:space-between;gap:12px;'
+            'align-items:baseline;margin-bottom:4px">'
+            f'<span class="lbl" style="color:var(--text-primary)">{escape(str(nome))}</span>'
+            f'<span class="lbl" style="color:var(--muted);white-space:nowrap">{ativ}</span></div>'
+            '<div style="display:flex;align-items:center;gap:8px">'
+            '<div style="flex:1;background:var(--grid);border-radius:4px;height:14px;overflow:hidden">'
+            f'<div style="width:{w}%;height:100%;background:var(--series-1);border-radius:4px"></div></div>'
+            f'<span class="val" style="min-width:42px;text-align:right">{v}</span></div>'
+            '</div>')
+    return "".join(rows)
 
 
 def _norm(s) -> str:
@@ -133,12 +158,13 @@ def blocos_forproex(a: dict) -> tuple[str, str]:
                explica="Capacidade de registrar, acompanhar e concluir as ações no SRC. "
                f"{a['aprov']} de {a['tot']} ações têm relatório final aprovado; {a['pend']} pendentes."),
         _secao("2 · Infraestrutura",
-               _barras([(f'{p["titulo"][:30]} ({p["atividades"]} ativ.)', p["publico"])
-                        for p in a["prog_list"]])
+               _barras_prog([(p["titulo"], p["publico"], p["atividades"])
+                             for p in a["prog_list"] if p["publico"] > 0])
                + '<p class="vazio" style="font-size:12.5px;margin-top:8px">Barra = público-alvo do '
-               'programa; entre parênteses, nº de atividades. Orçamento, espaços e editais não estão '
-               'no SRC — lacuna desta dimensão.</p>',
-               f'{a["programas"]} programas (iniciativas contínuas guarda-chuva), por público.',
+               'programa; à direita, nº de atividades. Só programas com público &gt; 0. Orçamento, '
+               'espaços e editais não estão no SRC — lacuna desta dimensão.</p>',
+               f'{sum(1 for p in a["prog_list"] if p["publico"] > 0)} programas com público '
+               f'(de {a["programas"]} no total), por nº de pessoas atingidas.',
                explica="Programas são iniciativas contínuas que abrigam várias atividades/edições. "
                "Servem de proxy de infraestrutura de extensão (o SRC não traz orçamento nem espaços)."),
         _secao("3 · Política Acadêmica — protagonismo e formação",

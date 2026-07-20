@@ -19,16 +19,19 @@ from pathlib import Path
 from .relatorio import _barras, _secao, _tile
 
 
-def _barras_prog(dados: list[tuple[str, int, int]]) -> str:
+def _barras_prog(dados: list[tuple[str, int, int, int]]) -> str:
     """Barras horizontais de programas, com NOME COMPLETO acima da barra e uso
-    de toda a largura do card (não trunca o título como `_barras`)."""
+    de toda a largura do card (não trunca o título como `_barras`).
+    Cada item: (nome, público, nº atividades, nº processos agrupados)."""
     if not dados:
         return '<p class="vazio">Sem dados ainda.</p>'
-    maxv = max(v for _, v, _ in dados) or 1
+    maxv = max(v for _, v, _, _ in dados) or 1
     rows = []
-    for nome, v, na in dados:
+    for nome, v, na, np in dados:
         w = max(2, round(v / maxv * 100))
         ativ = f'{na} ativ.' if na != 1 else '1 ativ.'
+        if np > 1:
+            ativ = f'{np} processos · {ativ}'
         rows.append(
             '<div style="margin:0 0 13px">'
             '<div style="display:flex;justify-content:space-between;gap:12px;'
@@ -62,13 +65,29 @@ def agregar_forproex(cons: dict, *, formandos_dir: str | Path = "data/formandos"
     aprov = sum(1 for a in acoes if (a.get("Relatório aprovado") or "").strip().lower() == "sim")
     com_part = sum(1 for a in acoes if a.get("total_participacoes", 0) > 0)
     programas = sum(1 for a in acoes if "programa" in _norm(a.get("Tipo ação")))
-    prog_list = []
+    # Agrupa programas pelo MESMO nome, mesmo que sejam processos (ações) distintos.
+    # Público = pessoas DISTINTAS (por CPF, com fallback no nome) — quem participou de
+    # mais de um processo/atividade do programa conta uma única vez.
+    prog_ag: dict[str, dict] = {}
     for a in acoes:
-        if "programa" in _norm(a.get("Tipo ação")):
-            pc = sum(1 for p in a.get("participacoes", []) if (p.get("tipo") or "").startswith("Públic"))
-            na = len({p.get("atividade_id") for p in a.get("participacoes", []) if p.get("atividade_id")})
-            prog_list.append({"titulo": (a.get("Título ação") or "—"), "publico": pc, "atividades": na})
+        if "programa" not in _norm(a.get("Tipo ação")):
+            continue
+        titulo = (a.get("Título ação") or "—").strip()
+        g = prog_ag.setdefault(_norm(titulo),
+                               {"titulo": titulo, "pessoas": set(), "ativ": set(), "proc": 0})
+        g["proc"] += 1
+        for p in a.get("participacoes", []):
+            if p.get("atividade_id"):
+                g["ativ"].add(p["atividade_id"])
+            if (p.get("tipo") or "").startswith("Públic"):
+                pid = p.get("CPF") or p.get("Nome")
+                if pid:
+                    g["pessoas"].add(pid)
+    prog_list = [{"titulo": g["titulo"], "publico": len(g["pessoas"]),
+                  "atividades": len(g["ativ"]), "processos": g["proc"]}
+                 for g in prog_ag.values()]
     prog_list.sort(key=lambda x: -x["publico"])
+    programas_dist = len(prog_ag)
 
     eq: dict[str, str] = {}
     pub: dict[str, int | None] = {}
@@ -133,7 +152,7 @@ def agregar_forproex(cons: dict, *, formandos_dir: str | Path = "data/formandos"
                 "fwci": statistics.median([res[n] for n in inter]) if inter else 0}
 
     return {"tot": tot, "aprov": aprov, "com_part": com_part, "pend": tot - aprov,
-            "programas": programas, "prog_list": prog_list,
+            "programas": programas, "programas_dist": programas_dist, "prog_list": prog_list,
             "teq": teq, "disc": disc, "serv": serv, "conv": conv,
             "form_alc": form_alc, "n_form": len(form), "npub": len(pub), "atend": atend,
             "preuni": preuni, "n_idade": len(idades), "prod": prod}
@@ -158,15 +177,18 @@ def blocos_forproex(a: dict) -> tuple[str, str]:
                explica="Capacidade de registrar, acompanhar e concluir as ações no SRC. "
                f"{a['aprov']} de {a['tot']} ações têm relatório final aprovado; {a['pend']} pendentes."),
         _secao("2 · Infraestrutura",
-               _barras_prog([(p["titulo"], p["publico"], p["atividades"])
+               _barras_prog([(p["titulo"], p["publico"], p["atividades"], p["processos"])
                              for p in a["prog_list"] if p["publico"] > 0])
-               + '<p class="vazio" style="font-size:12.5px;margin-top:8px">Barra = público-alvo do '
-               'programa; à direita, nº de atividades. Só programas com público &gt; 0. Orçamento, '
-               'espaços e editais não estão no SRC — lacuna desta dimensão.</p>',
+               + '<p class="vazio" style="font-size:12.5px;margin-top:8px">Barra = pessoas '
+               'distintas (por CPF) atingidas pelo programa; à direita, processos (ações de mesmo '
+               'nome, agrupados) e atividades. Só programas com público &gt; 0. Orçamento, espaços e '
+               'editais não estão no SRC — lacuna desta dimensão.</p>',
                f'{sum(1 for p in a["prog_list"] if p["publico"] > 0)} programas com público '
-               f'(de {a["programas"]} no total), por nº de pessoas atingidas.',
+               f'(de {a["programas_dist"]} nomes distintos, {a["programas"]} processos), '
+               'por pessoas distintas atingidas.',
                explica="Programas são iniciativas contínuas que abrigam várias atividades/edições. "
-               "Servem de proxy de infraestrutura de extensão (o SRC não traz orçamento nem espaços)."),
+               "Ações de mesmo nome (processos distintos) são agrupadas e as pessoas contadas uma "
+               "só vez. Servem de proxy de infraestrutura de extensão (o SRC não traz orçamento nem espaços)."),
         _secao("3 · Política Acadêmica — protagonismo e formação",
                _barras([("Discente (aluno)", a["disc"]), ("Servidor", a["serv"]),
                         ("Convidado (externo)", a["conv"])]),

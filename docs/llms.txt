@@ -18,6 +18,7 @@ Os links abaixo são relativos a esta pasta (onde está o llms.txt). Endpoints c
 
 - [Inventário da API](api/index.json): índice de endpoints e totais.
 - [Painel agregado](api/painel.json): visão geral, indicadores, rede de programas, formados e impacto (agregados).
+- [Investimento](api/investimento.json): iniciativas por nicho × impacto (público) × status (ativa/dormente), com onde investir, o que reativar e nota sobre impacto não-contável (ex.: ConectaFapes).
 - [Ações — lista](api/acoes/index.json): as 201 ações resumidas (id, processo, título, tipo, natureza, coordenador, ano, total de participações).
 - [Extensionistas — completo](api/extensionistas/todos.json): as 757 pessoas com trajetória (ações coordenadas e em equipe), colaboradores e resumo gerado por IA.
 - [Extensionistas — lista](api/extensionistas/index.json): índice de extensionistas.

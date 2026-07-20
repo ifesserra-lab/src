@@ -3,6 +3,7 @@
   "privacidade": "Sem dados pessoais de alunos (público-alvo só contagens); equipe como crédito público (nome/função/vínculo).",
   "endpoints": [
     "api/painel.json",
+    "api/investimento.json",
     "api/busca.json",
     "api/acoes/index.json",
     "api/acoes/<acao_id>.json",

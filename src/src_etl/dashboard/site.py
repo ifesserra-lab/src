@@ -1068,7 +1068,7 @@ def _pagina_jornada(cons: dict, formandos_dir: str) -> str:
                explica="Reagrupa a ação da 1ª extensão pela Área temática principal (campo oficial "
                "da PROEX; ações sem preenchimento entram em 'Sem área'). Barra soma 100% no ano."),
         _secao("Público da extensão: alunos × não-alunos",
-               svg_papel_comp(a) + texto_publico(a) + tabela_inic_nao(a),
+               svg_papel_comp(a) + texto_publico(a) + tabela_inic_nao(a, limit=12),
                f'{a["publico"]["pct_nao"]}% das pessoas em extensão são não-alunos (comunidade '
                "atendida) — papel, iniciativas e recorrência.",
                explica="Compara quem participa da Extensão: pessoas que constam como formado "
@@ -1111,9 +1111,10 @@ def _pagina_comunidade(cons: dict, formandos_dir: str) -> str:
                _barras([(c, pct) for c, _, pct in p["area_nao"]], unidade="%"),
                "% de não-alunos distintos por área temática principal declarada."),
         _secao("Iniciativas que mais atendem comunidade",
-               _barras([(t, pct) for t, _, pct in p["top_inic_nao"]], unidade="%")
+               _barras([(t, pct) for t, _, pct in p["top_inic_nao"][:15]], unidade="%")
                + tabela_inic_nao(a),
-               "Top iniciativas por nº de não-alunos distintos (% do total de não-alunos)."),
+               f'Barras: 15 maiores. Tabela: todas as {len(p["top_inic_nao"])} iniciativas '
+               "(% de não-alunos distintos; variantes de título mescladas)."),
         _secao("Recorrência: quantas iniciativas cada pessoa faz",
                _barras([(g, q) for g, q in p["recorrencia"]]),
                "A maioria participa de uma só ação — público de contato único (evento/oficina)."),

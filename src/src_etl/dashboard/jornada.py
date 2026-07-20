@@ -189,10 +189,21 @@ def agregar_jornada(consolidado: dict, formandos_dir: str | Path = "data/formand
                 c[x] += 1
         return [(x, q, round(q / tot_nao * 100)) for x, q in c.most_common()]
 
-    inic_nao = Counter()
+    # agrupa iniciativas mesclando variantes de título (traço –/—/-, caixa, espaços)
+    def _canon(t: str) -> str:
+        s = t.replace("–", "-").replace("—", "-")
+        return " ".join(s.split()).casefold()
+
+    canon_pessoas: dict[str, set] = defaultdict(set)
+    canon_disp: dict[str, Counter] = defaultdict(Counter)
     for n in nao_ext:
         for t in pessoa_inic[n]:
-            inic_nao[t] += 1
+            c = _canon(t)
+            canon_pessoas[c].add(n)
+            canon_disp[c][t] += 1
+    inic_nao = [(canon_disp[c].most_common(1)[0][0], len(ppl))
+                for c, ppl in canon_pessoas.items()]
+    inic_nao.sort(key=lambda x: -x[1])
     rec_nao = Counter(len(pessoa_inic[n]) for n in nao_ext)
     um_so = rec_nao.get(1, 0)
 
@@ -217,7 +228,7 @@ def agregar_jornada(consolidado: dict, formandos_dir: str | Path = "data/formand
         "pct_nao": round(len(nao_ext) / (len(pessoa_inic) or 1) * 100),
         "papel_nao": _papel_lst(nao_ext),
         "papel_alunos": _papel_lst(alunos_ext),
-        "top_inic_nao": [(t, q, round(q / tot_nao * 100)) for t, q in inic_nao.most_common(12)],
+        "top_inic_nao": [(t, q, round(q / tot_nao * 100)) for t, q in inic_nao],
         "cluster_nao": _dist_pessoas(pessoa_clus),
         "area_nao": _dist_pessoas(pessoa_area),
         "recorrencia": recorrencia,
@@ -471,14 +482,18 @@ def svg_papel_comp(a: dict) -> str:
             + "".join(corpo) + "</svg>" + legenda)
 
 
-def tabela_inic_nao(a: dict) -> str:
-    """Top iniciativas por nº de não-alunos distintos (% do total de não-alunos)."""
+def tabela_inic_nao(a: dict, limit: int | None = None) -> str:
+    """Iniciativas por nº de não-alunos distintos (% do total de não-alunos).
+    `limit` corta a lista (None = todas)."""
     itens = a.get("publico", {}).get("top_inic_nao", [])
+    if limit:
+        itens = itens[:limit]
     if not itens:
         return '<p class="vazio">Sem dados.</p>'
     rows = "".join(f'<tr><td>{escape(t)}</td><td class="ja-num">{q}</td>'
                    f'<td class="ja-num">{pct}%</td></tr>' for t, q, pct in itens)
-    return (f'<div class="card" style="margin-top:14px;overflow:auto"><table class="tb">'
+    return (f'<div class="card" style="margin-top:14px;overflow:auto;max-height:520px">'
+            f'<table class="tb">'
             f'<tr><th>Iniciativa</th><th>Não-alunos</th><th>% dos não-alunos</th></tr>'
             f'{rows}</table></div>')
 

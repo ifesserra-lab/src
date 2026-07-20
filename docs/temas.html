@@ -1,0 +1,220 @@
+<!doctype html><html lang='pt-br'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>Temas &amp; Clusters — Campus Serra</title><style>
+/* Design system (skill ui-ux-pro-max): Data-Dense Dashboard
+   Primary #3B82F6 · CTA #F97316 · bg #F8FAFC · text #1E293B · Fira Sans + Fira Code */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700&family=Fira+Code:wght@400;500;600&display=swap');
+:root{
+  color-scheme:light;
+  --plane:#f8fafc; --surface-1:#ffffff; --parchment:#f1f5f9; --pearl:#f8fafc;
+  --text-primary:#1e293b; --text-secondary:#475569; --muted:#64748b;
+  --grid:#e2e8f0; --border:#cbd5e1;
+  --series-1:#3b82f6; --series-2:#0d9488; --accent-focus:#2563eb; --cta:#f97316; --nav-bg:#ffffff;
+  --c1:#3b82f6; --c2:#0d9488; --c3:#d97706; --c4:#7c3aed; --c5:#0891b2; --c6:#db2777;
+  --row-hover:#eff6ff;
+  --radius:10px; --radius-sm:6px;
+  --mono:"Fira Code",ui-monospace,SFMono-Regular,monospace;
+}
+@media (prefers-color-scheme:dark){:root:where(:not([data-theme=light])){
+  color-scheme:dark;
+  --plane:#0f172a; --surface-1:#1e293b; --parchment:#334155; --pearl:#1e293b;
+  --text-primary:#f1f5f9; --text-secondary:#cbd5e1; --muted:#94a3b8;
+  --grid:#334155; --border:#475569;
+  --series-1:#60a5fa; --series-2:#2dd4bf; --accent-focus:#93c5fd; --cta:#fb923c; --nav-bg:#0f172a;
+  --c1:#60a5fa; --c2:#2dd4bf; --c3:#fbbf24; --c4:#a78bfa; --c5:#22d3ee; --c6:#f472b6;
+  --row-hover:#1e3a5f;
+}}
+:root[data-theme=dark]{
+  color-scheme:dark;
+  --plane:#0f172a; --surface-1:#1e293b; --parchment:#334155; --pearl:#1e293b;
+  --text-primary:#f1f5f9; --text-secondary:#cbd5e1; --muted:#94a3b8;
+  --grid:#334155; --border:#475569;
+  --series-1:#60a5fa; --series-2:#2dd4bf; --accent-focus:#93c5fd; --cta:#fb923c; --nav-bg:#0f172a;
+  --c1:#60a5fa; --c2:#2dd4bf; --c3:#fbbf24; --c4:#a78bfa; --c5:#22d3ee; --c6:#f472b6;
+  --row-hover:#1e3a5f;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--plane);color:var(--text-primary);
+font-family:"Fira Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+font-size:15px;line-height:1.55;-webkit-font-smoothing:antialiased}
+a,button,label,summary{cursor:pointer}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{
+transition:none!important;animation:none!important}}
+/* ---- topbar (menu horizontal superior) ---- */
+.topbar{position:sticky;top:0;z-index:50;background:var(--nav-bg);
+border-bottom:1px solid var(--grid)}
+.topbar-in{max-width:1160px;margin:0 auto;padding:0 20px;height:52px;
+display:flex;align-items:center;gap:14px}
+.brand{font-weight:700;font-size:15px;color:var(--text-primary);
+text-decoration:none;white-space:nowrap;display:flex;align-items:center;gap:8px}
+.brand::before{content:'';width:10px;height:10px;border-radius:3px;background:var(--series-1)}
+.brand small{color:var(--muted);font-weight:400;font-size:12px}
+.snav{display:flex;gap:2px;overflow-x:auto;flex:1;justify-content:flex-start;
+scrollbar-width:none}
+.snav::-webkit-scrollbar{display:none}
+.snav a{white-space:nowrap}
+.snav a{display:flex;align-items:center;gap:6px;padding:7px 9px;border-radius:8px;
+text-decoration:none;color:var(--text-secondary);font-weight:500;font-size:13.5px;
+white-space:nowrap;transition:background .15s,color .15s}
+.snav a svg{width:15px;height:15px;flex:none;stroke:currentColor;fill:none;stroke-width:2;
+stroke-linecap:round;stroke-linejoin:round}
+.snav a:hover{color:var(--text-primary);background:var(--parchment)}
+.snav a.on{color:var(--series-1);background:color-mix(in srgb,var(--series-1) 12%,transparent)}
+.snav a:focus-visible{outline:2px solid var(--accent-focus);outline-offset:2px}
+.main{min-width:0}
+.wrap{max-width:1160px;margin:0 auto;padding:28px 20px 64px}
+.crumb{color:var(--muted);font-size:12px;margin:0 0 4px}
+.crumb b{color:var(--text-secondary);font-weight:600}
+header h1{margin:0 0 6px;font-size:26px;font-weight:700;line-height:1.2;
+letter-spacing:-.01em;text-wrap:balance}
+header .sub{color:var(--text-secondary);margin:0 0 6px;font-size:14.5px;max-width:72ch}
+@media (max-width:720px){.topbar-in{padding:0 12px;gap:10px}.brand small{display:none}
+header h1{font-size:22px}}
+/* hero (home de busca) */
+.wrap-hero{padding-top:7vh;text-align:center;position:relative}
+.wrap-hero::before{content:'';position:absolute;left:50%;top:-40px;transform:translateX(-50%);
+width:min(760px,90vw);height:220px;z-index:-1;pointer-events:none;
+background:radial-gradient(60% 100% at 50% 0,color-mix(in srgb,var(--series-1) 9%,transparent),transparent 70%)}
+.hero h1{font-size:40px;font-weight:700;line-height:1.12;letter-spacing:-.02em;margin:0 0 10px;
+color:var(--text-primary)}
+.hero .sub{margin:0 auto 8px;max-width:62ch;font-size:16px;color:var(--text-secondary)}
+@media (max-width:720px){.hero h1{font-size:28px}}
+.wrap-hero .busca{max-width:620px;margin:22px auto 0;display:block;text-align:left}
+.wrap-hero #res{text-align:left;max-width:980px;margin:0 auto}
+.wrap-hero #res .vazio{text-align:center;margin-top:12px}
+.chips{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:14px}
+.chips button{border:1px solid var(--grid);background:var(--surface-1);color:var(--text-secondary);
+border-radius:8px;padding:9px 15px;font-size:13px;font-weight:500;font-family:inherit;
+transition:background .15s,border-color .15s,color .15s;min-height:40px}
+.chips button:hover{border-color:var(--series-1);color:var(--series-1);
+background:color-mix(in srgb,var(--series-1) 6%,transparent)}
+.chips button:focus-visible{outline:2px solid var(--accent-focus);outline-offset:2px}
+/* KPI row data-dense */
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:20px 0 6px}
+.tile{padding:14px 16px;background:var(--surface-1);border:1px solid var(--grid);
+border-radius:var(--radius);border-left:3px solid var(--series-1);
+transition:box-shadow .15s,border-color .15s}
+.tile:hover{box-shadow:0 1px 6px rgba(15,23,42,.07)}
+.tile-val{font-size:24px;font-weight:700;line-height:1.2;font-family:var(--mono);
+font-variant-numeric:tabular-nums;color:var(--text-primary)}
+.tile-lbl{color:var(--text-secondary);font-size:11.5px;margin-top:3px;font-weight:500;
+text-transform:uppercase;letter-spacing:.04em}
+.tile-sub{color:var(--muted);font-size:11.5px;margin-top:3px}
+section{margin-top:26px}
+.par2{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:22px}
+.par2-item{min-width:0}
+.par2-h{font-size:13.5px;font-weight:600;margin:0 0 6px;color:var(--text-primary)}
+h2{font-size:16px;margin:0 0 2px;font-weight:600}
+.sec-desc{color:var(--text-secondary);font-size:13px;margin:0 0 8px}
+.card{background:var(--surface-1);border:1px solid var(--grid);border-radius:var(--radius);
+padding:16px;overflow-x:auto}
+.lbl{fill:var(--text-secondary);font-size:12px}
+.val{fill:var(--text-primary);font-size:12px;font-weight:600;font-family:var(--mono)}
+.vazio{color:var(--muted);margin:0;font-size:13px}
+.donut-wrap{display:flex;gap:22px;align-items:center;flex-wrap:wrap}
+.donut-num{fill:var(--text-primary);font-size:24px;font-weight:600}
+.donut-cap{fill:var(--muted);font-size:11px}
+.leg{display:flex;flex-direction:column;gap:5px;min-width:220px}
+.leg-item{display:flex;align-items:center;gap:8px;font-size:13px}
+.sw{width:11px;height:11px;border-radius:3px;flex:none}
+.leg-nome{flex:1}.leg-val{color:var(--text-secondary);font-family:var(--mono);font-size:12px}
+footer{margin-top:36px;color:var(--muted);font-size:12px;
+border-top:1px solid var(--grid);padding-top:12px}
+.pii{background:var(--parchment);border-radius:var(--radius-sm);
+padding:10px 14px;font-size:12px;color:var(--text-secondary);margin-top:18px}
+.lista{max-height:380px;overflow-y:auto;display:flex;flex-direction:column;gap:1px}
+.li{display:grid;grid-template-columns:1fr auto auto;gap:12px;align-items:center;
+padding:7px 6px;border-bottom:1px solid var(--grid);font-size:13px;transition:background .15s}
+.li:hover{background:var(--row-hover)}
+.li4{grid-template-columns:1fr auto auto auto}
+.li-coord{color:var(--text-secondary);font-size:12px;white-space:nowrap}
+.li-tit{color:var(--text-primary)}
+.li-tipo{color:var(--muted);font-size:11px;border:1px solid var(--grid);
+border-radius:6px;padding:1px 8px;font-weight:500}
+.li-proc{color:var(--muted);font-family:var(--mono);font-size:11.5px}
+.net-lbl{fill:var(--text-secondary);font-size:11px;font-weight:600}
+.explica{margin-top:10px;border-top:1px solid var(--grid);padding-top:8px}
+.explica summary{color:var(--series-1);font-size:13px;font-weight:500}
+.explica summary:focus-visible{outline:2px solid var(--accent-focus);outline-offset:2px}
+.explica p{color:var(--text-secondary);font-size:13px;margin:8px 0 0;max-width:72ch}
+.nota{background:color-mix(in srgb,var(--cta) 10%,var(--surface-1));color:var(--text-primary);
+border-left:3px solid var(--cta);border-radius:var(--radius-sm);
+padding:10px 14px;font-size:13px;font-weight:500;margin:14px 0}
+/* abas: segmented compacto */
+.tabs>input{position:absolute;opacity:0;pointer-events:none}
+.tabbar{display:inline-flex;gap:2px;margin:18px 0 4px;flex-wrap:wrap;
+background:var(--parchment);border-radius:9px;padding:3px}
+.tabbar label{padding:7px 14px;border-radius:7px;font-weight:500;font-size:13px;
+color:var(--text-secondary);transition:all .15s;min-height:32px;display:flex;align-items:center}
+.tabbar label:hover{color:var(--text-primary)}
+#tab1:checked~.tabbar label[for=tab1],
+#tab2:checked~.tabbar label[for=tab2],
+#tab3:checked~.tabbar label[for=tab3],
+#tab4:checked~.tabbar label[for=tab4],
+#tab5:checked~.tabbar label[for=tab5]{background:var(--surface-1);color:var(--series-1);
+font-weight:600;box-shadow:0 1px 3px rgba(15,23,42,.12)}
+.tabs>input:focus-visible~.tabbar label{outline:2px solid var(--accent-focus)}
+.panel{display:none}
+#tab1:checked~.p1{display:block}
+#tab2:checked~.p2{display:block}
+#tab3:checked~.p3{display:block}
+#tab4:checked~.p4{display:block}
+#tab5:checked~.p5{display:block}
+
+table.tb{width:100%;border-collapse:collapse;font-size:13px}
+table.tb th{color:var(--muted);text-align:left;padding:8px 10px;border-bottom:1px solid var(--border);
+font-size:11px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;
+position:sticky;top:0;background:var(--surface-1)}
+table.tb td{padding:8px 10px;border-bottom:1px solid var(--grid);vertical-align:top}
+table.tb tr:last-child td{border-bottom:0}
+table.tb tbody tr{transition:background .15s}
+table.tb tbody tr:hover{background:var(--row-hover)}
+a.lk{color:var(--series-1);text-decoration:none;font-weight:500}
+a.lk:hover{text-decoration:underline}
+a.lk:focus-visible{outline:2px solid var(--accent-focus);outline-offset:2px}
+.meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:10px;margin:14px 0}
+.meta div{background:var(--surface-1);border:1px solid var(--grid);border-radius:var(--radius);
+padding:11px 14px;font-size:13px}
+.meta b{display:block;color:var(--muted);font-size:11px;font-weight:600;letter-spacing:.05em;
+text-transform:uppercase;margin-bottom:3px}
+.resumo{background:var(--surface-1);border:1px solid var(--grid);
+border-left:3px solid var(--series-1);border-radius:var(--radius);padding:24px 28px;
+color:var(--text-primary);max-width:none;min-height:120px;line-height:1.7;font-size:16px}
+input.busca{width:100%;padding:12px 18px;border-radius:var(--radius);border:1px solid var(--border);
+background:var(--surface-1);color:var(--text-primary);font-size:15px;
+outline:none;font-family:inherit;transition:border-color .15s,box-shadow .15s;min-height:46px}
+input.busca:focus{border-color:var(--series-1);
+box-shadow:0 0 0 3px color-mix(in srgb,var(--series-1) 20%,transparent)}
+input[type=search]:focus-visible{outline:2px solid var(--accent-focus);outline-offset:1px}
+.busca-intro{text-align:center;max-width:64ch;margin:22px auto 4px;
+color:var(--text-secondary);font-size:15px}
+td.nowrap{white-space:nowrap}
+.badge{display:inline-block;border:1px solid var(--grid);border-radius:6px;padding:3px 10px;
+font-size:11.5px;font-weight:500;color:var(--text-secondary);white-space:nowrap;
+background:var(--surface-1)}
+.pill{display:inline-block;padding:2px 10px;border-radius:999px;font-size:11.5px;font-weight:600;
+white-space:nowrap;border:1px solid transparent;line-height:1.5}
+.pill-c1{color:var(--c1);background:color-mix(in srgb,var(--c1) 12%,transparent);border-color:color-mix(in srgb,var(--c1) 28%,transparent)}
+.pill-c2{color:var(--c2);background:color-mix(in srgb,var(--c2) 12%,transparent);border-color:color-mix(in srgb,var(--c2) 28%,transparent)}
+.pill-c3{color:var(--c3);background:color-mix(in srgb,var(--c3) 14%,transparent);border-color:color-mix(in srgb,var(--c3) 30%,transparent)}
+.pill-c4{color:var(--c4);background:color-mix(in srgb,var(--c4) 12%,transparent);border-color:color-mix(in srgb,var(--c4) 28%,transparent)}
+.pill-c5{color:var(--c5);background:color-mix(in srgb,var(--c5) 12%,transparent);border-color:color-mix(in srgb,var(--c5) 28%,transparent)}
+.pill-c6{color:var(--c6);background:color-mix(in srgb,var(--c6) 12%,transparent);border-color:color-mix(in srgb,var(--c6) 28%,transparent)}
+.pill-n{color:var(--muted);background:color-mix(in srgb,var(--muted) 10%,transparent);border-color:var(--grid)}
+.tl-t{fill:var(--text-primary);font-size:14px;font-weight:600}
+.tl-s{fill:var(--muted);font-size:12px}
+.mkt{margin-top:18px;overflow:hidden}
+.mkt-head{display:flex;align-items:center;gap:20px;flex-wrap:wrap;margin-bottom:8px}
+.mkt-num{font-size:56px;font-weight:800;line-height:1;letter-spacing:-.02em;
+color:var(--series-1);font-variant-numeric:tabular-nums}
+.mkt-lbl{font-size:18px;line-height:1.4;color:var(--text-primary)}
+.mk-svg{margin-top:6px}
+.mk-ax{fill:var(--muted);font-size:12px;font-variant-numeric:tabular-nums}
+.mk-val{fill:var(--text-primary);font-size:12.5px;font-weight:700;font-variant-numeric:tabular-nums}
+@media (max-width:560px){.mkt-num{font-size:40px}.mkt-lbl{font-size:15px}}
+</style></head><body><div class="topbar"><div class="topbar-in">
+  <a class="brand" href="index.html">SRC · Campus Serra<small>Extensão &amp; Ensino</small></a>
+  <nav class="snav"><a href="index.html" class=""><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg><span>Buscar</span></a><a href="painel.html" class=""><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg><span>Painel</span></a><a href="acoes/index.html" class=""><svg viewBox="0 0 24 24"><path d="M12 2 2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg><span>Ações</span></a><a href="extensionistas/index.html" class=""><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg><span>Extensionistas</span></a><a href="temas.html" class="on"><svg viewBox="0 0 24 24"><path d="M20.6 13.4 11 3.8a2 2 0 0 0-1.4-.6H4a1 1 0 0 0-1 1v5.6a2 2 0 0 0 .6 1.4l9.6 9.6a2 2 0 0 0 2.8 0l4.6-4.6a2 2 0 0 0 0-2.8z"/><circle cx="7.5" cy="7.5" r="1.2"/></svg><span>Temas</span></a><a href="jornada.html" class=""><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg><span>Jornada</span></a><a href="sem-participacao.html" class=""><svg viewBox="0 0 24 24"><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg><span>Sem participações</span></a><a href="pendencias-relatorio.html" class=""><svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M9 15h6"/><path d="M9 11h3"/></svg><span>Pendências</span></a><a href="dados-abertos.html" class=""><svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5"/><path d="M12 15V3"/></svg><span>Dados</span></a></nav>
+</div></div>
+<div class="main"><div class="wrap">
+<p class="crumb">Páginas / <b>Temas</b></p><header><h1>Temas &amp; clusters da extensão</h1><p class="sub">O que a extensão faz, por tema — do texto das ações</p></header>
+<p class="sec-desc">Temas extraídos do <b>texto</b> (título + resumo) das ações de extensão por regras de palavra-chave, complementando a área temática oficial. Barra = público alcançado (participações) por tema.</p><div class="card" style="margin-top:14px"><div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap"><h2 style="margin:0">Robótica e cultura maker</h2><span class="sec-desc" style="margin:0">15 ações · 2.547 pessoas (45%)</span></div><div class="bt" style="background:var(--parchment);border-radius:6px;height:8px;margin:8px 0 12px"><span style="display:block;height:100%;width:100.0%;background:var(--series-1);border-radius:6px"></span></div><p class="sec-desc" style="margin:0 0 4px"><b>Coordenadores:</b> <a class="lk" href="extensionistas/richard-junior-manuel-godinez-tello.html">Richard Junior Manuel Godinez Tello</a> (3) · <a class="lk" href="extensionistas/moises-savedra-omena.html">Moisés Savedra Omena</a> (3) · <a class="lk" href="extensionistas/rosilene-de-sa-ribeiro.html">Rosilene de Sá Ribeiro</a> (1) · <a class="lk" href="extensionistas/emmanuel-marques-silva.html">Emmanuel Marques Silva</a> (1) · <a class="lk" href="extensionistas/bruno-cardoso-coutinho.html">Bruno Cardoso Coutinho</a> (1) · <a class="lk" href="extensionistas/fidelis-zanetti-de-castro.html">Fidelis Zanetti de Castro</a> (1)</p><p class="sec-desc" style="margin:8px 0 4px"><b>Exemplos:</b></p><ul style="margin:0 0 0 18px;font-size:13px"><li><a class="lk" href="acoes/1829.html">Desenvolvimento de um sistema multiplataforma para robôs de </a></li><li><a class="lk" href="acoes/2021.html">Física ao Alcance de Todos</a></li><li><a class="lk" href="acoes/3140.html">LAMPEX – Laboratório Modelo de Práticas de Extensão</a></li><li><a class="lk" href="acoes/3431.html">Lampex + empreendedor</a></li></ul></div><div class="card" style="margin-top:14px"><div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap"><h2 style="margin:0">Captação e ingresso</h2><span class="sec-desc" style="margin:0">9 ações · 1.156 pessoas (20%)</span></div><div class="bt" style="background:var(--parchment);border-radius:6px;height:8px;margin:8px 0 12px"><span style="display:block;height:100%;width:45.4%;background:var(--series-1);border-radius:6px"></span></div><p class="sec-desc" style="margin:0 0 4px"><b>Coordenadores:</b> <a class="lk" href="extensionistas/paulo-cezar-camargo-guedes.html">Paulo Cezar Camargo Guedes</a> (3) · <a class="lk" href="extensionistas/wagner-kirmse-caldas.html">Wagner Kirmse Caldas</a> (2) · <a class="lk" href="extensionistas/rosilene-de-sa-ribeiro.html">Rosilene de Sá Ribeiro</a> (2) · <a class="lk" href="extensionistas/augusto-cesar-machado-ramos.html">Augusto Cesar Machado Ramos</a> (1) · <a class="lk" href="extensionistas/jefferson-ribeiro-de-lima.html">Jefferson Ribeiro de Lima</a> (1)</p><p class="sec-desc" style="margin:8px 0 4px"><b>Exemplos:</b></p><ul style="margin:0 0 0 18px;font-size:13px"><li><a class="lk" href="acoes/1702.html">Ifes Portas Abertas</a></li><li><a class="lk" href="acoes/2081.html">O IFES é o meu lugar</a></li><li><a class="lk" href="acoes/2107.html">Ifes Portas Abertas</a></li><li><a class="lk" href="acoes/2591.html">O IFES é o meu lugar</a></li></ul></div><div class="card" style="margin-top:14px"><div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap"><h2 style="margin:0">Mulheres e inclusão</h2><span class="sec-desc" style="margin:0">20 ações · 887 pessoas (16%)</span></div><div class="bt" style="background:var(--parchment);border-radius:6px;height:8px;margin:8px 0 12px"><span style="display:block;height:100%;width:34.8%;background:var(--series-1);border-radius:6px"></span></div><p class="sec-desc" style="margin:0 0 4px"><b>Coordenadores:</b> <a class="lk" href="extensionistas/tatiane-policario-chagas.html">Tatiane Policário Chagas</a> (5) · <a class="lk" href="extensionistas/bruno-ramos-gonzaga.html">Bruno Ramos Gonzaga</a> (3) · <a class="lk" href="extensionistas/giordana-dos-santos-sperandio.html">Giordana dos Santos Sperandio</a> (2) · <a class="lk" href="extensionistas/bruno-cardoso-coutinho.html">Bruno Cardoso Coutinho</a> (2) · <a class="lk" href="extensionistas/alessandro-bermudes-gomes.html">Alessandro Bermudes Gomes</a> (1) · <a class="lk" href="extensionistas/leonardo-matiazzi-correa.html">Leonardo Matiazzi Corrêa</a> (1)</p><p class="sec-desc" style="margin:8px 0 4px"><b>Exemplos:</b></p><ul style="margin:0 0 0 18px;font-size:13px"><li><a class="lk" href="acoes/1117.html">PRÉ – IFES Campus Serra</a></li><li><a class="lk" href="acoes/1633.html">Mulheres na Ciência</a></li><li><a class="lk" href="acoes/2082.html">Mulheres na Ciência</a></li><li><a class="lk" href="acoes/2595.html">Incluir &amp; Multiplicar</a></li></ul></div><div class="card" style="margin-top:14px"><div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap"><h2 style="margin:0">Empreendedorismo e incubação</h2><span class="sec-desc" style="margin:0">18 ações · 475 pessoas (8%)</span></div><div class="bt" style="background:var(--parchment);border-radius:6px;height:8px;margin:8px 0 12px"><span style="display:block;height:100%;width:18.6%;background:var(--series-1);border-radius:6px"></span></div><p class="sec-desc" style="margin:0 0 4px"><b>Coordenadores:</b> <a class="lk" href="extensionistas/emmanuel-marques-silva.html">Emmanuel Marques Silva</a> (5) · <a class="lk" href="extensionistas/francisco-jose-casarim-rapchan.html">Francisco José Casarim Rapchan</a> (4) · <a class="lk" href="extensionistas/felipe-frechiani-de-oliveira.html">Felipe Frechiani de Oliveira</a> (3) · <a class="lk" href="extensionistas/gilmar-luiz-vassoler.html">Gilmar Luiz Vassoler</a> (1) · <a class="lk" href="extensionistas/gilberto-neves-sudre-filho.html">Gilberto Neves Sudre Filho</a> (1) · <a class="lk" href="extensionistas/victorio-albani-de-carvalho.html">Victorio Albani de Carvalho</a> (1)</p><p class="sec-desc" style="margin:8px 0 4px"><b>Exemplos:</b></p><ul style="margin:0 0 0 18px;font-size:13px"><li><a class="lk" href="acoes/1116.html">Programa Local Núcleo Incubador Campus Serra – NIS</a></li><li><a class="lk" href="acoes/1261.html">Curso de Pré-Incubação para Empreendedores – Modalidade Comp</a></li><li><a class="lk" href="acoes/1406.html">Curso de Pré-Incubação de Empreendimentos – modalidade Resid</a></li><li><a class="lk" href="acoes/1426.html">Semana de Ciência e Tecnologia do Campus Serra do Ifes</a></li></ul></div><div class="card" style="margin-top:14px"><div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap"><h2 style="margin:0">Cultura e arte</h2><span class="sec-desc" style="margin:0">18 ações · 318 pessoas (6%)</span></div><div class="bt" style="background:var(--parchment);border-radius:6px;height:8px;margin:8px 0 12px"><span style="display:block;height:100%;width:12.5%;background:var(--series-1);border-radius:6px"></span></div><p class="sec-desc" style="margin:0 0 4px"><b>Coordenadores:</b> <a class="lk" href="extensionistas/victorio-albani-de-carvalho.html">Victorio Albani de Carvalho</a> (2) · <a class="lk" href="extensionistas/ana-paula-klauck.html">Ana Paula Klauck</a> (2) · <a class="lk" href="extensionistas/moises-savedra-omena.html">Moisés Savedra Omena</a> (2) · <a class="lk" href="extensionistas/alessandro-bermudes-gomes.html">Alessandro Bermudes Gomes</a> (1) · <a class="lk" href="extensionistas/flavio-severiano-lamas-de-souza.html">Flavio Severiano Lamas de Souza</a> (1) · <a class="lk" href="extensionistas/carlos-lins-borges-azevedo.html">Carlos Lins Borges Azevedo</a> (1)</p><p class="sec-desc" style="margin:8px 0 4px"><b>Exemplos:</b></p><ul style="margin:0 0 0 18px;font-size:13px"><li><a class="lk" href="acoes/1546.html">Ifes para todos</a></li><li><a class="lk" href="acoes/1816.html">Maratona de Programação</a></li><li><a class="lk" href="acoes/2193.html">LifeBox: transporte e monitoramento de córnea de forma intel</a></li><li><a class="lk" href="acoes/2505.html">Circuito Audiovisual</a></li></ul></div><div class="card" style="margin-top:14px"><div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap"><h2 style="margin:0">Saúde e bem-estar</h2><span class="sec-desc" style="margin:0">15 ações · 206 pessoas (4%)</span></div><div class="bt" style="background:var(--parchment);border-radius:6px;height:8px;margin:8px 0 12px"><span style="display:block;height:100%;width:8.1%;background:var(--series-1);border-radius:6px"></span></div><p class="sec-desc" style="margin:0 0 4px"><b>Coordenadores:</b> <a class="lk" href="extensionistas/moises-savedra-omena.html">Moisés Savedra Omena</a> (3) · <a class="lk" href="extensionistas/carlos-lins-borges-azevedo.html">Carlos Lins Borges Azevedo</a> (3) · <a class="lk" href="extensionistas/elizangela-campos-da-rosa-broetto.html">Elizangela Campos da Rosa Broetto</a> (2) · <a class="lk" href="extensionistas/rosiane-ribeiro-rocha.html">Rosiane Ribeiro Rocha</a> (1) · <a class="lk" href="extensionistas/paulo-sergio-dos-santos-junior.html">Paulo Sérgio dos Santos Júnior</a> (1) · <a class="lk" href="extensionistas/marta-talitha-carvalho-freire-mendes.html">Marta Talitha Carvalho Freire Mendes</a> (1)</p><p class="sec-desc" style="margin:8px 0 4px"><b>Exemplos:</b></p><ul style="margin:0 0 0 18px;font-size:13px"><li><a class="lk" href="acoes/109.html">Curso de Operador de Computador</a></li><li><a class="lk" href="acoes/110.html">Curso de Eletricista Instalador Predial de Baixa Tensão</a></li><li><a class="lk" href="acoes/1834.html">Sistema para predição de transtornos mentais comuns na atenç</a></li><li><a class="lk" href="acoes/1847.html">Sistema de apoio para rastreio e geolocalização de transtorn</a></li></ul></div><div class="card" style="margin-top:14px"><div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap"><h2 style="margin:0">Outros / formação</h2><span class="sec-desc" style="margin:0">3 ações · 75 pessoas (1%)</span></div><div class="bt" style="background:var(--parchment);border-radius:6px;height:8px;margin:8px 0 12px"><span style="display:block;height:100%;width:2.9%;background:var(--series-1);border-radius:6px"></span></div><p class="sec-desc" style="margin:0 0 4px"><b>Coordenadores:</b> <a class="lk" href="extensionistas/elizangela-campos-da-rosa-broetto.html">Elizangela Campos da Rosa Broetto</a> (1) · <a class="lk" href="extensionistas/felipe-frechiani-de-oliveira.html">Felipe Frechiani de Oliveira</a> (1) · <a class="lk" href="extensionistas/fernanda-de-souza-hott.html">Fernanda de Souza Hott</a> (1)</p><p class="sec-desc" style="margin:8px 0 4px"><b>Exemplos:</b></p><ul style="margin:0 0 0 18px;font-size:13px"><li><a class="lk" href="acoes/108.html">Curso de Auxiliar Administrativo</a></li><li><a class="lk" href="acoes/1838.html">LEDS – Laboratório de Extensão e Desenvolvimento de Soluções</a></li><li><a class="lk" href="acoes/465.html">Workshop sobre as Ações de Internacionalização do Ifes</a></li></ul></div><div class="card" style="margin-top:14px"><div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap"><h2 style="margin:0">Software. dados e sistemas</h2><span class="sec-desc" style="margin:0">8 ações · 37 pessoas (1%)</span></div><div class="bt" style="background:var(--parchment);border-radius:6px;height:8px;margin:8px 0 12px"><span style="display:block;height:100%;width:1.5%;background:var(--series-1);border-radius:6px"></span></div><p class="sec-desc" style="margin:0 0 4px"><b>Coordenadores:</b> <a class="lk" href="extensionistas/paulo-sergio-dos-santos-junior.html">Paulo Sérgio dos Santos Júnior</a> (1) · <a class="lk" href="extensionistas/daniel-ribeiro-trindade.html">Daniel Ribeiro Trindade</a> (1) · <a class="lk" href="extensionistas/felipe-frechiani-de-oliveira.html">Felipe Frechiani de Oliveira</a> (1) · <a class="lk" href="extensionistas/fabiano-borges-ruy.html">Fabiano Borges Ruy</a> (1) · <a class="lk" href="extensionistas/moises-savedra-omena.html">Moisés Savedra Omena</a> (1) · <a class="lk" href="extensionistas/adelson-pereira-do-nascimento.html">Adelson Pereira do Nascimento</a> (1)</p><p class="sec-desc" style="margin:8px 0 4px"><b>Exemplos:</b></p><ul style="margin:0 0 0 18px;font-size:13px"><li><a class="lk" href="acoes/1786.html">Mutual Life: Um aplicativo para seguros colaborativos</a></li><li><a class="lk" href="acoes/1831.html">ALGolfSwing: Análise de Desempenho Esportivo para Golf</a></li><li><a class="lk" href="acoes/2285.html">ES Na Palma da Mão: Uma Plataforma baseado em serviços para </a></li><li><a class="lk" href="acoes/2823.html">I Am Here: Registro de Frequência por Reconhecimento Facial</a></li></ul></div><div class="card" style="margin-top:14px"><div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap"><h2 style="margin:0">Escola e formação de professores</h2><span class="sec-desc" style="margin:0">1 ações · 6 pessoas (0%)</span></div><div class="bt" style="background:var(--parchment);border-radius:6px;height:8px;margin:8px 0 12px"><span style="display:block;height:100%;width:0.2%;background:var(--series-1);border-radius:6px"></span></div><p class="sec-desc" style="margin:0 0 4px"><b>Coordenadores:</b> <a class="lk" href="extensionistas/bruno-ramos-gonzaga.html">Bruno Ramos Gonzaga</a> (1)</p><p class="sec-desc" style="margin:8px 0 4px"><b>Exemplos:</b></p><ul style="margin:0 0 0 18px;font-size:13px"><li><a class="lk" href="acoes/2773.html">Ambientação Pedagógica: Didática e Técnicas de Ensino.</a></li></ul></div><div class="card" style="margin-top:14px"><div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap"><h2 style="margin:0">Ciência e divulgação</h2><span class="sec-desc" style="margin:0">1 ações · 0 pessoas (0%)</span></div><div class="bt" style="background:var(--parchment);border-radius:6px;height:8px;margin:8px 0 12px"><span style="display:block;height:100%;width:0.0%;background:var(--series-1);border-radius:6px"></span></div><p class="sec-desc" style="margin:0 0 4px"><b>Coordenadores:</b> <a class="lk" href="extensionistas/moises-savedra-omena.html">Moisés Savedra Omena</a> (1)</p><p class="sec-desc" style="margin:8px 0 4px"><b>Exemplos:</b></p><ul style="margin:0 0 0 18px;font-size:13px"><li><a class="lk" href="acoes/1795.html">ESPM-Empregos: Um serviço inteligente para promover a empreg</a></li></ul></div><div class="card" style="margin-top:14px"><div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap"><h2 style="margin:0">Idiomas</h2><span class="sec-desc" style="margin:0">1 ações · 0 pessoas (0%)</span></div><div class="bt" style="background:var(--parchment);border-radius:6px;height:8px;margin:8px 0 12px"><span style="display:block;height:100%;width:0.0%;background:var(--series-1);border-radius:6px"></span></div><p class="sec-desc" style="margin:0 0 4px"><b>Coordenadores:</b> <a class="lk" href="extensionistas/ana-paula-klauck.html">Ana Paula Klauck</a> (1)</p><p class="sec-desc" style="margin:8px 0 4px"><b>Exemplos:</b></p><ul style="margin:0 0 0 18px;font-size:13px"><li><a class="lk" href="acoes/3553.html">Let&#x27;s Talk - Oficinas de conversação em língua inglesa</a></li></ul></div>
+</div></div></body></html>

@@ -22,6 +22,7 @@ from pathlib import Path
 from .painel import HORIZON_CSS, montar_shell
 from .relatorio import _barras, _donut, _tile as _tiler, _secao, _ranking_coord
 from .jornada import agregar_jornada, svg_curva_fase, svg_funil, svg_timeline
+from .temas import agregar_temas, temas_por_pessoa, _norm as _norm_tema
 
 _EXTRA_CSS = """
 table.tb{width:100%;border-collapse:collapse;font-size:13px}
@@ -862,7 +863,8 @@ def _projetos_por_ano(p: dict) -> list[tuple[str, int, int, int]]:
     return [(a, acoes[a], parts[a], impacto[a]) for a in anos]
 
 
-def _pagina_extensionista(p: dict, resumo: str | None, colabs: list) -> str:
+def _pagina_extensionista(p: dict, resumo: str | None, colabs: list,
+                          temas: "Counter | None" = None) -> str:
     tiles = (f'<div class="tiles">{_tile(len(p["coordena"]), "Ações coordenadas")}'
              f'{_tile(len(p["participa"]), "Participações em equipe")}'
              f'{_tile(len(colabs), "Colaboradores")}'
@@ -871,6 +873,15 @@ def _pagina_extensionista(p: dict, resumo: str | None, colabs: list) -> str:
            f'<small style="color:var(--muted)">Resumo gerado por IA (Mistral) a partir dos '
            f'registros do SRC.</small></div>' if resumo else "")
     blocos = [tiles, bio]
+    # temas de atuação (a partir do texto das ações)
+    if temas:
+        chips = "".join(
+            f'<span class="pill pill-c1" style="margin:0 6px 6px 0;display:inline-block">'
+            f'{escape(t)} · {n}</span>' for t, n in temas.most_common())
+        blocos.append(f'<div class="card" style="margin-top:14px"><h2>Temas de atuação</h2>'
+                      f'<p class="sec-desc">Temas das ações em que atuou (do texto de título e '
+                      f'resumo) — nº de ações por tema. <a class="lk" href="../temas.html">ver todos os temas</a>.</p>'
+                      f'{chips}</div>')
     # projetos de extensão por ano (barras verticais)
     ppa = _projetos_por_ano(p)
     if ppa:
@@ -1023,6 +1034,41 @@ def _pagina_jornada(cons: dict, formandos_dir: str) -> str:
 
 
 # ------------------------------------------------------------- orquestração
+def _pagina_temas(cons: dict, slugs: dict) -> str:
+    """Página Temas & Clusters: temas do texto das ações × público × coordenadores."""
+    temas = agregar_temas(cons, slugs)
+    total_pub = sum(t["publico"] for t in temas) or 1
+    mx = max(t["publico"] for t in temas) or 1
+    cards = []
+    for t in temas:
+        coords = " · ".join(
+            (f'<a class="lk" href="extensionistas/{c["slug"]}.html">{escape(c["nome"])}</a>'
+             if c["slug"] else escape(c["nome"])) + f' ({c["n"]})'
+            for c in t["coordenadores"])
+        exs = "".join(
+            f'<li><a class="lk" href="acoes/{e["acao_id"]}.html">{escape(e["titulo"])}</a></li>'
+            for e in t["exemplos"])
+        barw = t["publico"] / mx * 100
+        cards.append(
+            f'<div class="card" style="margin-top:14px">'
+            f'<div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap">'
+            f'<h2 style="margin:0">{escape(t["tema"])}</h2>'
+            f'<span class="sec-desc" style="margin:0">{t["acoes"]} ações · '
+            f'{t["publico"]:,} pessoas ({t["publico"]/total_pub*100:.0f}%)</span></div>'.replace(",", ".")
+            + f'<div class="bt" style="background:var(--parchment);border-radius:6px;height:8px;margin:8px 0 12px">'
+            f'<span style="display:block;height:100%;width:{barw:.1f}%;background:var(--series-1);border-radius:6px"></span></div>'
+            + f'<p class="sec-desc" style="margin:0 0 4px"><b>Coordenadores:</b> {coords or "—"}</p>'
+            + f'<p class="sec-desc" style="margin:8px 0 4px"><b>Exemplos:</b></p><ul style="margin:0 0 0 18px;font-size:13px">{exs}</ul>'
+            + '</div>')
+    intro = ('<p class="sec-desc">Temas extraídos do <b>texto</b> (título + resumo) das ações de '
+             'extensão por regras de palavra-chave, complementando a área temática oficial. '
+             'Barra = público alcançado (participações) por tema.</p>')
+    return _doc("Temas & Clusters — Campus Serra", "", "temas.html",
+                "Temas", "Temas & clusters da extensão",
+                "O que a extensão faz, por tema — do texto das ações",
+                intro + "".join(cards))
+
+
 def gerar_site(
     consolidado_json: str | Path = "data/serra_consolidado.json",
     out_dir: str | Path = "docs",
@@ -1054,6 +1100,7 @@ def gerar_site(
     (out / "busca.html").write_text(busca, encoding="utf-8")   # compat links antigos
     (out / "sem-participacao.html").write_text(_pagina_sem_participacao(cons, slugs), encoding="utf-8")
     (out / "pendencias-relatorio.html").write_text(_pagina_pendencias(cons, slugs), encoding="utf-8")
+    (out / "temas.html").write_text(_pagina_temas(cons, slugs), encoding="utf-8")
     try:
         (out / "jornada.html").write_text(_pagina_jornada(cons, str(formandos_dir)), encoding="utf-8")
     except Exception as e:
@@ -1065,12 +1112,14 @@ def gerar_site(
     if Path(_CACHE_PADRAO).exists():
         resumos = json.loads(Path(_CACHE_PADRAO).read_text(encoding="utf-8"))
     co = coautoria(cons)   # nome_norm -> Counter(nome_colab -> nº ações)
+    tpp = temas_por_pessoa(cons)   # nome_norm -> Counter(tema -> nº ações)
     (out / "extensionistas").mkdir(exist_ok=True)
     for p in pessoas:
         colabs = [(cn, slugs.get(_norm(cn)), cnt)
                   for cn, cnt in co.get(_norm(p["nome"]), Counter()).most_common()]
         (out / "extensionistas" / f"{p['slug']}.html").write_text(
-            _pagina_extensionista(p, resumos.get(p["slug"]), colabs), encoding="utf-8")
+            _pagina_extensionista(p, resumos.get(p["slug"]), colabs,
+                                  tpp.get(_norm_tema(p["nome"]))), encoding="utf-8")
     (out / "extensionistas" / "index.html").write_text(
         _pagina_extensionistas_index(pessoas), encoding="utf-8")
     stats = {"paginas_acao": n, "atividades": n_ativ,

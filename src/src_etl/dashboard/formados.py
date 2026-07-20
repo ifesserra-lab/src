@@ -14,7 +14,7 @@ import unicodedata
 from collections import Counter
 from pathlib import Path
 
-from .relatorio import _barras, _donut, _secao, _tile
+from .relatorio import _barras, _donut, _secao, _secao_par, _tile
 
 
 def _norm(s) -> str:
@@ -89,19 +89,23 @@ def blocos_formados(a: dict) -> tuple[str, str]:
         _tile(a["em_ext_equipe"], "Como equipe executora"),
     ])
     secoes = [
-        _secao("Formados que participaram de Extensão", _donut(a["participou_dist"]),
-               "Formados com ao menos uma participação (público-alvo ou equipe) em ação de Extensão.",
-               explica="Cruza a lista oficial de formados do campus (planilhas acadêmicas "
-               "2020–2025, deduplicadas por matrícula) com os participantes das ações de natureza "
-               "Extensão. 'Participou' = o nome do formado aparece ao menos uma vez como "
-               "público-alvo OU membro de equipe. Como as planilhas não trazem CPF, o casamento é "
-               "por nome normalizado — homônimos ou grafias diferentes podem gerar pequeno erro."),
-        _secao("Papel na Extensão", _donut(a["papel_dist"]),
-               "Como o formado participou: público-alvo, equipe executora ou ambos.",
-               explica="Entre os formados que participaram: 'Só público-alvo' foi atendido por "
-               "ações (fez curso, participou de evento); 'Só equipe' atuou executando (bolsista, "
-               "voluntário); 'Ambos' viveu os dois lados — tipicamente quem foi atendido e depois "
-               "virou executor, o ciclo virtuoso da extensão."),
+        _secao_par(
+            "Formados que participaram de Extensão",
+            ("Participação",
+             _donut(a["participou_dist"]),
+             "Formados com ao menos uma participação (público-alvo ou equipe) em ação de Extensão.",
+             "Cruza a lista oficial de formados do campus (planilhas acadêmicas 2020–2025, "
+             "deduplicadas por matrícula) com os participantes das ações de natureza Extensão. "
+             "'Participou' = o nome do formado aparece ao menos uma vez como público-alvo OU membro "
+             "de equipe. Como as planilhas não trazem CPF, o casamento é por nome normalizado — "
+             "homônimos ou grafias diferentes podem gerar pequeno erro."),
+            ("Papel na Extensão",
+             _donut(a["papel_dist"]),
+             "Como o formado participou: público-alvo, equipe executora ou ambos.",
+             "Entre os formados que participaram: 'Só público-alvo' foi atendido por ações (fez "
+             "curso, participou de evento); 'Só equipe' atuou executando (bolsista, voluntário); "
+             "'Ambos' viveu os dois lados — tipicamente quem foi atendido e depois virou executor, "
+             "o ciclo virtuoso da extensão.")),
         _secao("Formados na Extensão por curso (participantes/total)", _barras(a["por_curso"]),
                "Nº de formados de cada curso que participaram da Extensão.",
                explica="Recorte por curso de graduação: quantos formados de cada curso têm "

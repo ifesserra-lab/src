@@ -21,7 +21,8 @@ from pathlib import Path
 
 from .painel import HORIZON_CSS, montar_shell
 from .relatorio import _barras, _donut, _tile as _tiler, _secao, _ranking_coord
-from .jornada import agregar_jornada, svg_curva_fase, svg_funil, svg_timeline
+from .jornada import (agregar_jornada, svg_curva_fase, svg_funil, svg_timeline,
+                      svg_inic_stack, tabela_inic_ano, texto_inic_ano)
 from .temas import agregar_temas, temas_por_pessoa, descrever_temas, _norm as _norm_tema
 
 _EXTRA_CSS = """
@@ -53,6 +54,10 @@ input[type=search]:focus-visible{outline:2px solid var(--accent-focus);outline-o
 .busca-intro{text-align:center;max-width:64ch;margin:22px auto 4px;
 color:var(--text-secondary);font-size:15px}
 td.nowrap{white-space:nowrap}
+td.ja-ano{white-space:nowrap;font-weight:600;color:var(--text-primary);
+background:color-mix(in srgb,var(--series-1) 6%,transparent)}
+td.ja-ano .ja-tot{display:block;font-size:11px;font-weight:500;color:var(--muted);margin-top:2px}
+td.ja-num{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
 .badge{display:inline-block;border:1px solid var(--grid);border-radius:6px;padding:3px 10px;
 font-size:11.5px;font-weight:500;color:var(--text-secondary);white-space:nowrap;
 background:var(--surface-1)}
@@ -1035,6 +1040,15 @@ def _pagina_jornada(cons: dict, formandos_dir: str) -> str:
                "Extensão. Distribuição bimodal (calouros vs. veteranos) aparece aqui."),
         _secao("Adesão à extensão por curso", _barras(a["por_curso"], unidade="%"),
                "% de formados de cada curso que participaram de Extensão."),
+        _secao("Em quais iniciativas os alunos entram, por ano após ingresso",
+               svg_inic_stack(a) + texto_inic_ano(a) + tabela_inic_ano(a),
+               "Composição das iniciativas da 1ª extensão, ano a ano — barra 100% "
+               "empilhada, texto do padrão e tabela completa com % por ano.",
+               explica="Para cada formado que fez extensão, cruza o ano em que registrou a "
+               "primeira participação (anos após o ingresso, lido da matrícula) com a AÇÃO de "
+               "Extensão dessa participação. A barra mostra a fatia de cada iniciativa dentro do "
+               "ano (soma 100%); a tabela traz todas as iniciativas com nº de alunos e % do ano. "
+               "As 7 iniciativas mais frequentes recebem cor fixa; as demais entram em 'Outras'."),
     ]
     return _doc("Jornada do formado — Campus Serra", "", "jornada.html", "Jornada",
                 "Jornada do formado na extensão",

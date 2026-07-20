@@ -74,15 +74,16 @@ def _carregar_formados(formandos_dir: str | Path) -> dict[str, dict]:
 def agregar_jornada(consolidado: dict, formandos_dir: str | Path = "data/formandos") -> dict:
     form = _carregar_formados(formandos_dir)
 
-    prim_ext: dict[str, datetime] = {}
+    prim_ext: dict[str, tuple[datetime, str]] = {}
     for a in consolidado.get("acoes", []):
         if "extens" not in _norm(a.get("Natureza")):
             continue
+        titulo = (str(a.get("Título ação") or "").strip()) or "—"
         for p in a.get("participacoes", []):
             n = _norm(p.get("Nome"))
             i = _data(p.get("Início"))
-            if n and i and (n not in prim_ext or i < prim_ext[n]):
-                prim_ext[n] = i
+            if n and i and (n not in prim_ext or i < prim_ext[n][0]):
+                prim_ext[n] = (i, titulo)
 
     com_ext = 0
     ing_ext, ext_form, dur = [], [], []
@@ -90,6 +91,7 @@ def agregar_jornada(consolidado: dict, formandos_dir: str | Path = "data/formand
     decis = [0] * 10             # posição da 1ª extensão na trajetória (0–100%)
     ing_ano = Counter()          # participações em extensão por ano de ingresso
     curso_tot, curso_ext = Counter(), Counter()
+    inic_ano: dict[int, Counter] = defaultdict(Counter)   # iniciativa da 1ª extensão por ano após ingresso
     apos_formar = 0
 
     for fo in form.values():
@@ -101,12 +103,15 @@ def agregar_jornada(consolidado: dict, formandos_dir: str | Path = "data/formand
         e = prim_ext.get(n)
         if not e:
             continue
+        edata, etitulo = e
         com_ext += 1
         curso_ext[fo["curso"]] += 1
-        extd = e.year + (0.0 if e.month <= 6 else 0.5)
+        extd = edata.year + (0.0 if edata.month <= 6 else 0.5)
         ing_ext.append(extd - ingd)
         ext_form.append(formd - extd)
         ing_ano[fo["ing"][0]] += 1
+        if extd - ingd >= -0.5:
+            inic_ano[max(0, round(extd - ingd))][etitulo] += 1
         if extd > formd + 0.05:
             apos_formar += 1
         if formd > ingd:
@@ -123,6 +128,13 @@ def agregar_jornada(consolidado: dict, formandos_dir: str | Path = "data/formand
     por_curso = sorted(
         [(c, curso_ext.get(c, 0), n) for c, n in curso_tot.items()], key=lambda x: -x[2])
 
+    inic_por_ano = []
+    for k in sorted(inic_ano):
+        c = inic_ano[k]
+        tot = sum(c.values())
+        itens = [(t, q, round(q / tot * 100)) for t, q in c.most_common()]
+        inic_por_ano.append({"ano": f"{k} ano(s)", "k": k, "total": tot, "itens": itens})
+
     ordem_fase = ["No início (0–33%)", "No meio (33–66%)", "No fim (66–100%)", "Após formar"]
     return {
         "n_formados": len(form),
@@ -133,6 +145,7 @@ def agregar_jornada(consolidado: dict, formandos_dir: str | Path = "data/formand
         "med_dur": statistics.median(dur) if dur else 0,
         "apos_formar": apos_formar,
         "dist_ing_ext": _dist_anos(ing_ext),
+        "inic_por_ano": inic_por_ano,
         "fase": [(k, fase[k]) for k in ordem_fase if fase[k]],
         "decis": decis,
         "por_curso": [(f"{c[:26]} ({e}/{n})", round(e / n * 100)) for c, e, n in por_curso if n],
@@ -192,6 +205,117 @@ def svg_curva_fase(a: dict) -> str:
             + "".join(f'<circle cx="{x:.0f}" cy="{y:.0f}" r="3.5" fill="var(--series-1)"/>'
                       for x, y in pts)
             + barras + eixo + '</svg>')
+
+
+_CAT = ["#2a78d6", "#008300", "#e87ba4", "#eda100", "#1baf7a", "#eb6834", "#4a3aa7", "#e34948"]
+
+
+def _cores_inic(a: dict, top: int = 7) -> tuple[dict[str, str], list[tuple[str, str]]]:
+    """Mapeia as `top` iniciativas mais frequentes (no total) para cores fixas.
+    Retorna (titulo->cor, legenda ordenada). O resto cai em 'Outras' (muted)."""
+    tot = Counter()
+    for linha in a.get("inic_por_ano", []):
+        for t, q, _ in linha["itens"]:
+            tot[t] += q
+    principais = [t for t, _ in tot.most_common(top)]
+    cor = {t: _CAT[i % len(_CAT)] for i, t in enumerate(principais)}
+    leg = [(t, cor[t]) for t in principais]
+    if len(tot) > len(principais):
+        leg.append(("Outras iniciativas", "var(--muted)"))
+    return cor, leg
+
+
+def svg_inic_stack(a: dict) -> str:
+    """Barra 100% empilhada por ano após ingresso: composição das iniciativas
+    (ação da 1ª extensão). Mostra a virada de 'Física/Tutorias' para 'LAMPEX'."""
+    linhas = a.get("inic_por_ano", [])
+    if not linhas:
+        return '<p class="vazio">Sem dados.</p>'
+    cor, leg = _cores_inic(a)
+    ordem = {t: i for i, (t, _) in enumerate(leg)}
+    W, lh, lblw, pad = 900, 34, 128, 8
+    bw = W - lblw - 70
+    H = len(linhas) * lh + pad
+    corpo = []
+    for i, ln in enumerate(linhas):
+        y = i * lh + pad
+        tot = ln["total"] or 1
+        # agrupa itens fora do top em 'Outras' e ordena pela legenda (cores alinhadas)
+        segs: dict[str, int] = defaultdict(int)
+        for t, q, _ in ln["itens"]:
+            segs["Outras iniciativas" if t not in cor else t] += q
+        itens = sorted(segs.items(), key=lambda kv: ordem.get(kv[0], 999))
+        corpo.append(f'<text x="{lblw-8}" y="{y+22}" text-anchor="end" class="lbl">{escape(ln["ano"])}</text>')
+        x = lblw
+        for t, q in itens:
+            w = q / tot * bw
+            c = cor.get(t, "var(--muted)")
+            pct = round(q / tot * 100)
+            corpo.append(
+                f'<rect x="{x:.1f}" y="{y+7}" width="{max(0.6, w):.1f}" height="{lh-14}" '
+                f'fill="{c}"><title>{escape(ln["ano"])} — {escape(t)}: {q} ({pct}%)</title></rect>')
+            if w > 34:
+                corpo.append(f'<text x="{x+w/2:.1f}" y="{y+23}" text-anchor="middle" '
+                             f'class="val" fill="#fff">{pct}%</text>')
+            x += w
+        corpo.append(f'<text x="{x+8:.1f}" y="{y+23}" class="lbl">{ln["total"]}</text>')
+    legenda = ('<div class="leg" style="flex-direction:row;gap:16px;margin-top:12px;flex-wrap:wrap">'
+               + "".join(f'<span class="leg-item"><span class="sw" style="background:{c}"></span>'
+                         f'{escape(t[:34])}</span>' for t, c in leg) + '</div>')
+    return (f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" style="display:block">'
+            + "".join(corpo) + "</svg>" + legenda)
+
+
+def tabela_inic_ano(a: dict) -> str:
+    """Tabela completa: por ano após ingresso, cada iniciativa da 1ª extensão,
+    nº de alunos e % dentro do ano."""
+    linhas = a.get("inic_por_ano", [])
+    if not linhas:
+        return '<p class="vazio">Sem dados.</p>'
+    rows = []
+    for ln in linhas:
+        itens = ln["itens"]
+        for j, (t, q, pct) in enumerate(itens):
+            ano_cel = (f'<td rowspan="{len(itens)}" class="ja-ano">{escape(ln["ano"])}'
+                       f'<span class="ja-tot">{ln["total"]} alunos</span></td>') if j == 0 else ""
+            rows.append(f'<tr>{ano_cel}<td>{escape(t)}</td>'
+                        f'<td class="ja-num">{q}</td><td class="ja-num">{pct}%</td></tr>')
+    return (f'<div class="card" style="margin-top:14px;overflow:auto"><table class="tb">'
+            f'<tr><th>Anos após ingresso</th><th>Iniciativa (1ª extensão)</th>'
+            f'<th>Alunos</th><th>% do ano</th></tr>{"".join(rows)}</table></div>')
+
+
+def texto_inic_ano(a: dict) -> str:
+    """Parágrafo descritivo (derivado dos dados) do padrão de entrada por ano."""
+    linhas = a.get("inic_por_ano", [])
+    if not linhas:
+        return ""
+    por_k = {ln["k"]: ln for ln in linhas}
+
+    def _top(ks):
+        c = Counter()
+        for k in ks:
+            for t, q, _ in por_k.get(k, {}).get("itens", []):
+                c[t] += q
+        tot = sum(c.values())
+        if not tot:
+            return None
+        t, q = c.most_common(1)[0]
+        return t, round(q / tot * 100)
+
+    cedo, meio = _top([0, 1]), _top([2, 3, 4])
+    p = []
+    if cedo:
+        p.append(f"<b>Entrada precoce (0–1 ano):</b> a porta de entrada é <b>{escape(cedo[0])}</b> "
+                 f"(~{cedo[1]}% das 1ªs extensões nesse período) — ações de ensino/monitoria, "
+                 f"de baixo custo de adesão para o calouro.")
+    if meio:
+        p.append(f"<b>A partir do 2º ano:</b> predomina <b>{escape(meio[0])}</b> "
+                 f"(~{meio[1]}% entre 2 e 4 anos) — laboratório de práticas, com o aluno já "
+                 f"maduro no curso.")
+    p.append("A <b>cauda longa</b> reúne dezenas de ações com 1 aluno cada (projetos de P&D "
+             "específicos), somando fatia relevante em todos os anos.")
+    return "".join(f"<p>{x}</p>" for x in p)
 
 
 def svg_funil(a: dict) -> str:

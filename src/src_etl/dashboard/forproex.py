@@ -37,6 +37,13 @@ def agregar_forproex(cons: dict, *, formandos_dir: str | Path = "data/formandos"
     aprov = sum(1 for a in acoes if (a.get("Relatório aprovado") or "").strip().lower() == "sim")
     com_part = sum(1 for a in acoes if a.get("total_participacoes", 0) > 0)
     programas = sum(1 for a in acoes if "programa" in _norm(a.get("Tipo ação")))
+    prog_list = []
+    for a in acoes:
+        if "programa" in _norm(a.get("Tipo ação")):
+            pc = sum(1 for p in a.get("participacoes", []) if (p.get("tipo") or "").startswith("Públic"))
+            na = len({p.get("atividade_id") for p in a.get("participacoes", []) if p.get("atividade_id")})
+            prog_list.append({"titulo": (a.get("Título ação") or "—"), "publico": pc, "atividades": na})
+    prog_list.sort(key=lambda x: -x["publico"])
 
     eq: dict[str, str] = {}
     pub: dict[str, int | None] = {}
@@ -101,7 +108,8 @@ def agregar_forproex(cons: dict, *, formandos_dir: str | Path = "data/formandos"
                 "fwci": statistics.median([res[n] for n in inter]) if inter else 0}
 
     return {"tot": tot, "aprov": aprov, "com_part": com_part, "pend": tot - aprov,
-            "programas": programas, "teq": teq, "disc": disc, "serv": serv, "conv": conv,
+            "programas": programas, "prog_list": prog_list,
+            "teq": teq, "disc": disc, "serv": serv, "conv": conv,
             "form_alc": form_alc, "n_form": len(form), "npub": len(pub), "atend": atend,
             "preuni": preuni, "n_idade": len(idades), "prod": prod}
 
@@ -125,9 +133,14 @@ def blocos_forproex(a: dict) -> tuple[str, str]:
                explica="Capacidade de registrar, acompanhar e concluir as ações no SRC. "
                f"{a['aprov']} de {a['tot']} ações têm relatório final aprovado; {a['pend']} pendentes."),
         _secao("2 · Infraestrutura",
-               f'<p class="vazio" style="font-size:14px">{a["programas"]} programas (iniciativas contínuas '
-               'guarda-chuva). Orçamento, espaços e editais não estão no SRC — lacuna desta dimensão.</p>',
-               "Estruturas permanentes de extensão (proxy: programas)."),
+               _barras([(f'{p["titulo"][:30]} ({p["atividades"]} ativ.)', p["publico"])
+                        for p in a["prog_list"]])
+               + '<p class="vazio" style="font-size:12.5px;margin-top:8px">Barra = público-alvo do '
+               'programa; entre parênteses, nº de atividades. Orçamento, espaços e editais não estão '
+               'no SRC — lacuna desta dimensão.</p>',
+               f'{a["programas"]} programas (iniciativas contínuas guarda-chuva), por público.',
+               explica="Programas são iniciativas contínuas que abrigam várias atividades/edições. "
+               "Servem de proxy de infraestrutura de extensão (o SRC não traz orçamento nem espaços)."),
         _secao("3 · Política Acadêmica — protagonismo e formação",
                _barras([("Discente (aluno)", a["disc"]), ("Servidor", a["serv"]),
                         ("Convidado (externo)", a["conv"])]),

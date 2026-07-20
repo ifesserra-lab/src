@@ -10,6 +10,8 @@ on:
       - "docs/**"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
+  schedule:
+    - cron: "0 6 * * 1"   # toda segunda 06:00 UTC — reempacota o ZIP de dados abertos
 
 permissions:
   contents: read
@@ -38,6 +40,14 @@ jobs:
           else
             echo "sem .odt em docs/relatorios-odt — nada a converter"
           fi
+      - name: Empacotar dados abertos (ZIP)
+        run: |
+          cd docs
+          rm -f dados-abertos.zip
+          zip -r -q dados-abertos.zip api llms.txt relatorios-odt \
+            -x '*.DS_Store' || true
+          echo "ZIP: $(du -h dados-abertos.zip | cut -f1)"
+          cd ..
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

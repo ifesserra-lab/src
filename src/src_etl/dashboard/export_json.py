@@ -134,6 +134,11 @@ def _gravar_llms_txt(out_dir: Path, stats: dict) -> None:
 Os links abaixo são relativos a esta pasta (onde está o llms.txt). Endpoints com
 `<...>` são padrões — troque pelo identificador desejado.
 
+## Pacote completo (ZIP)
+
+- [dados-abertos.zip](dados-abertos.zip): toda a API JSON + este llms.txt + os modelos de
+  relatório (.odt/.pdf). Reempacotado automaticamente toda semana pelo CI.
+
 ## Conjuntos de dados
 
 - [Inventário da API](api/index.json): índice de endpoints e totais.

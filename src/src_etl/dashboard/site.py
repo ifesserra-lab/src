@@ -672,6 +672,16 @@ def _pagina_dados(out_dir: str | Path, stats: dict) -> str:
     n_at = stats.get("atividades", 0)
     n_ex = stats.get("extensionistas", 0)
 
+    # pacote completo (ZIP) — gerado no CI, servido no Pages do SRC
+    zip_url = "https://ifesserra-lab.github.io/src/dados-abertos.zip"
+    zipc = ('<div class="card" style="margin-top:16px;border-left:3px solid var(--series-1)">'
+            '<h2 style="margin-top:0">Baixar tudo (ZIP)</h2>'
+            '<p class="sec-desc">Pacote único com <b>toda a API JSON</b> (ações, atividades, '
+            'extensionistas, painel, busca), o <code>llms.txt</code> e os modelos de relatório. '
+            'Atualizado <b>automaticamente toda semana</b> pelo CI. Sem CPF/e-mail.</p>'
+            f'<p><a class="lk" href="{zip_url}" download>⬇ dados-abertos.zip</a> '
+            '<span class="sec-desc">(todos os dados abertos, ~poucos MB)</span></p></div>')
+
     # destaque llms.txt (para IA)
     ia = ('<div class="card" style="margin-top:16px;border-left:3px solid var(--cta)">'
           '<h2 style="margin-top:0">Para uma IA ler: <code>llms.txt</code></h2>'
@@ -735,7 +745,7 @@ def _pagina_dados(out_dir: str | Path, stats: dict) -> str:
         '<p class="sec-desc">Troque <code>...</code> pela URL desta página. Todos os arquivos são '
         'JSON UTF-8; <code>llms.txt</code> é texto.</p></div>')
 
-    corpo = ia + tabela + padroes + priv + como
+    corpo = zipc + ia + tabela + padroes + priv + como
     return _doc("Dados Abertos — Campus Serra", "", "dados-abertos.html",
                 "Dados abertos",
                 "Dados abertos da extensão — Campus Serra",

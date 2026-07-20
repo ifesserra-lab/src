@@ -61,15 +61,19 @@ def agregar_temas(cons: dict, slugs: dict | None = None) -> list[dict]:
     """Lista de temas ordenada por público, com nº de ações, coordenadores e exemplos."""
     slugs = slugs or {}
     dados: dict[str, dict] = defaultdict(
-        lambda: {"acoes": 0, "publico": 0, "coord": Counter(), "ex": []})
+        lambda: {"acoes": 0, "publico": 0, "pset": set(), "coord": Counter(), "ex": []})
     for a in cons.get("acoes", []):
         if not _e_extensao(a):
             continue
         t = tema_de(a)
         d = dados[t]
         d["acoes"] += 1
-        d["publico"] += sum(1 for p in a.get("participacoes", [])
-                            if (p.get("tipo") or "").startswith("Públic"))
+        for p in a.get("participacoes", []):
+            if (p.get("tipo") or "").startswith("Públic"):
+                d["publico"] += 1                       # atendimentos (registros)
+                pid = p.get("CPF") or p.get("Nome")
+                if pid:
+                    d["pset"].add(pid)                  # pessoas distintas
         coord = (a.get("Coordenador(a)") or "").strip()
         if coord:
             d["coord"][coord] += 1
@@ -78,7 +82,7 @@ def agregar_temas(cons: dict, slugs: dict | None = None) -> list[dict]:
     out = []
     for tema, d in dados.items():
         out.append({
-            "tema": tema, "acoes": d["acoes"], "publico": d["publico"],
+            "tema": tema, "acoes": d["acoes"], "publico": d["publico"], "pessoas": len(d["pset"]),
             "coordenadores": [{"nome": n, "slug": slugs.get(_norm(n)), "n": c}
                               for n, c in d["coord"].most_common(6)],
             "exemplos": d["ex"],

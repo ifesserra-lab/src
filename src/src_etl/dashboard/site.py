@@ -1037,8 +1037,10 @@ def _pagina_jornada(cons: dict, formandos_dir: str) -> str:
 def _pagina_temas(cons: dict, slugs: dict) -> str:
     """Página Temas & Clusters: temas do texto das ações × público × coordenadores."""
     temas = agregar_temas(cons, slugs)
-    total_pub = sum(t["publico"] for t in temas) or 1
+    total_at = sum(t["publico"] for t in temas) or 1
+    total_pe = sum(t["pessoas"] for t in temas) or 1
     mx = max(t["publico"] for t in temas) or 1
+    fmt = lambda v: f"{v:,}".replace(",", ".")
     cards = []
     for t in temas:
         coords = " · ".join(
@@ -1054,7 +1056,8 @@ def _pagina_temas(cons: dict, slugs: dict) -> str:
             f'<div style="display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap">'
             f'<h2 style="margin:0">{escape(t["tema"])}</h2>'
             f'<span class="sec-desc" style="margin:0">{t["acoes"]} ações · '
-            f'{t["publico"]:,} pessoas ({t["publico"]/total_pub*100:.0f}%)</span></div>'.replace(",", ".")
+            f'<b>{fmt(t["publico"])}</b> atendimentos ({t["publico"]/total_at*100:.0f}%) · '
+            f'<b>{fmt(t["pessoas"])}</b> pessoas distintas ({t["pessoas"]/total_pe*100:.0f}%)</span></div>'
             + f'<div class="bt" style="background:var(--parchment);border-radius:6px;height:8px;margin:8px 0 12px">'
             f'<span style="display:block;height:100%;width:{barw:.1f}%;background:var(--series-1);border-radius:6px"></span></div>'
             + f'<p class="sec-desc" style="margin:0 0 4px"><b>Coordenadores:</b> {coords or "—"}</p>'
@@ -1062,7 +1065,15 @@ def _pagina_temas(cons: dict, slugs: dict) -> str:
             + '</div>')
     intro = ('<p class="sec-desc">Temas extraídos do <b>texto</b> (título + resumo) das ações de '
              'extensão por regras de palavra-chave, complementando a área temática oficial. '
-             'Barra = público alcançado (participações) por tema.</p>')
+             'Cada ação entra em um tema; a barra é proporcional aos atendimentos.</p>'
+             '<div class="explica" style="border:1px solid var(--grid);border-radius:var(--radius);'
+             'padding:12px 16px;margin-top:10px;font-size:13px;color:var(--text-secondary)">'
+             '<b>Dois indicadores por tema:</b><br>'
+             '• <b>Atendimentos</b> = nº de participações de público-alvo (registros). A mesma pessoa '
+             'em duas ações conta duas vezes. Mede volume de atendimento; a % soma 100% entre os temas.<br>'
+             '• <b>Pessoas distintas</b> = indivíduos únicos (deduplicados por CPF, uso interno). Mede '
+             'alcance real de pessoas. A % é a fatia relativa entre os temas — como alguém pode aparecer '
+             'em mais de um tema, a soma pode passar de 100%.</div>')
     return _doc("Temas & Clusters — Campus Serra", "", "temas.html",
                 "Temas", "Temas & clusters da extensão",
                 "O que a extensão faz, por tema — do texto das ações",

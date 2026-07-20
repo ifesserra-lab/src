@@ -59,6 +59,14 @@ stroke-linecap:round;stroke-linejoin:round}
 .snav a:hover{color:var(--text-primary);background:var(--parchment)}
 .snav a.on{color:var(--series-1);background:color-mix(in srgb,var(--series-1) 12%,transparent)}
 .snav a:focus-visible{outline:2px solid var(--accent-focus);outline-offset:2px}
+/* hambúrguer (CSS-only, checkbox hack) — só aparece no mobile */
+.nav-toggle{position:absolute;width:1px;height:1px;margin:-1px;opacity:0;pointer-events:none}
+.nav-burger{display:none;margin-left:auto;flex:none;align-items:center;justify-content:center;
+width:42px;height:42px;border-radius:9px;border:1px solid var(--grid);background:var(--surface-1);
+color:var(--text-secondary)}
+.nav-burger svg{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round}
+.nav-burger .ic-close{display:none}
+.nav-toggle:focus-visible~.nav-burger{outline:2px solid var(--accent-focus);outline-offset:2px}
 .main{min-width:0}
 .wrap{max-width:1160px;margin:0 auto;padding:28px 20px 64px}
 .crumb{color:var(--muted);font-size:12px;margin:0 0 4px}
@@ -192,6 +200,20 @@ img,svg,canvas{max-width:100%;height:auto}
   .par2{gap:16px}
 }
 @media (max-width:380px){.tiles{grid-template-columns:1fr 1fr}}
+/* ---- mobile: menu vira hambúrguer (dropdown), sem scroll horizontal ---- */
+@media (max-width:720px){
+  .nav-burger{display:inline-flex}
+  .nav-toggle:checked~.nav-burger .ic-open{display:none}
+  .nav-toggle:checked~.nav-burger .ic-close{display:block}
+  .topbar-in{flex-wrap:nowrap;gap:10px}
+  .snav{position:absolute;top:100%;left:0;right:0;flex:none;flex-direction:column;gap:2px;
+    background:var(--nav-bg);border-bottom:1px solid var(--grid);
+    box-shadow:0 10px 28px rgba(15,23,42,.14);padding:6px;overflow:hidden;
+    max-height:0;transition:max-height .22s ease}
+  .nav-toggle:checked~.snav{max-height:min(80vh,560px);overflow-y:auto}
+  .snav a{width:100%;padding:12px 14px;min-height:44px;font-size:15px}
+}
+@media (max-width:720px) and (prefers-reduced-motion:reduce){.snav{transition:none}}
 
 table.tb{width:100%;border-collapse:collapse;font-size:13px}
 table.tb th{color:var(--muted);text-align:left;padding:8px 10px;border-bottom:1px solid var(--border);
@@ -250,7 +272,12 @@ color:var(--series-1);font-variant-numeric:tabular-nums}
 @media (max-width:560px){.mkt-num{font-size:40px}.mkt-lbl{font-size:15px}}
 </style></head><body><div class="topbar"><div class="topbar-in">
   <a class="brand" href="../index.html">SRC · Campus Serra<small>Extensão &amp; Ensino</small></a>
-  <nav class="snav"><a href="../index.html" class=""><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg><span>Buscar</span></a><a href="../painel.html" class=""><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg><span>Painel</span></a><a href="../acoes/index.html" class=""><svg viewBox="0 0 24 24"><path d="M12 2 2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg><span>Ações</span></a><a href="../extensionistas/index.html" class="on"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg><span>Extensionistas</span></a><a href="../temas.html" class=""><svg viewBox="0 0 24 24"><path d="M20.6 13.4 11 3.8a2 2 0 0 0-1.4-.6H4a1 1 0 0 0-1 1v5.6a2 2 0 0 0 .6 1.4l9.6 9.6a2 2 0 0 0 2.8 0l4.6-4.6a2 2 0 0 0 0-2.8z"/><circle cx="7.5" cy="7.5" r="1.2"/></svg><span>Temas</span></a><a href="../jornada.html" class=""><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg><span>Jornada</span></a><a href="../comunidade.html" class=""><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg><span>Comunidade</span></a><a href="../investimento.html" class=""><svg viewBox="0 0 24 24"><line x1="12" y1="20" x2="12" y2="10"/><line x1="18" y1="20" x2="18" y2="4"/><line x1="6" y1="20" x2="6" y2="16"/></svg><span>Investimento</span></a><a href="../pendencias-relatorio.html" class=""><svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M9 15h6"/><path d="M9 11h3"/></svg><span>Pendências</span></a><a href="../dados-abertos.html" class=""><svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5"/><path d="M12 15V3"/></svg><span>Dados</span></a></nav>
+  <input type="checkbox" id="nav-toggle" class="nav-toggle">
+  <label for="nav-toggle" class="nav-burger" aria-label="Abrir menu" title="Menu">
+    <svg class="ic-open" viewBox="0 0 24 24"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    <svg class="ic-close" viewBox="0 0 24 24"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
+  </label>
+  <nav class="snav" aria-label="Navegação principal"><a href="../index.html" class=""><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg><span>Buscar</span></a><a href="../painel.html" class=""><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg><span>Painel</span></a><a href="../acoes/index.html" class=""><svg viewBox="0 0 24 24"><path d="M12 2 2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg><span>Ações</span></a><a href="../extensionistas/index.html" class="on"><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg><span>Extensionistas</span></a><a href="../temas.html" class=""><svg viewBox="0 0 24 24"><path d="M20.6 13.4 11 3.8a2 2 0 0 0-1.4-.6H4a1 1 0 0 0-1 1v5.6a2 2 0 0 0 .6 1.4l9.6 9.6a2 2 0 0 0 2.8 0l4.6-4.6a2 2 0 0 0 0-2.8z"/><circle cx="7.5" cy="7.5" r="1.2"/></svg><span>Temas</span></a><a href="../jornada.html" class=""><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg><span>Jornada</span></a><a href="../comunidade.html" class=""><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg><span>Comunidade</span></a><a href="../investimento.html" class=""><svg viewBox="0 0 24 24"><line x1="12" y1="20" x2="12" y2="10"/><line x1="18" y1="20" x2="18" y2="4"/><line x1="6" y1="20" x2="6" y2="16"/></svg><span>Investimento</span></a><a href="../pendencias-relatorio.html" class=""><svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M9 15h6"/><path d="M9 11h3"/></svg><span>Pendências</span></a><a href="../dados-abertos.html" class=""><svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5"/><path d="M12 15V3"/></svg><span>Dados</span></a></nav>
 </div></div>
 <div class="main"><div class="wrap">
 <p class="crumb">Páginas / <b>Extensionistas</b></p><header><h1>Luiz Roberto Bozzi Perereira</h1><p class="sub">Extensionista — Equipe de execução · Campus Serra</p></header>

@@ -94,6 +94,14 @@ stroke-linecap:round;stroke-linejoin:round}
 .snav a:hover{color:var(--text-primary);background:var(--parchment)}
 .snav a.on{color:var(--series-1);background:color-mix(in srgb,var(--series-1) 12%,transparent)}
 .snav a:focus-visible{outline:2px solid var(--accent-focus);outline-offset:2px}
+/* hambúrguer (CSS-only, checkbox hack) — só aparece no mobile */
+.nav-toggle{position:absolute;width:1px;height:1px;margin:-1px;opacity:0;pointer-events:none}
+.nav-burger{display:none;margin-left:auto;flex:none;align-items:center;justify-content:center;
+width:42px;height:42px;border-radius:9px;border:1px solid var(--grid);background:var(--surface-1);
+color:var(--text-secondary)}
+.nav-burger svg{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round}
+.nav-burger .ic-close{display:none}
+.nav-toggle:focus-visible~.nav-burger{outline:2px solid var(--accent-focus);outline-offset:2px}
 .main{min-width:0}
 .wrap{max-width:1160px;margin:0 auto;padding:28px 20px 64px}
 .crumb{color:var(--muted);font-size:12px;margin:0 0 4px}
@@ -227,6 +235,20 @@ img,svg,canvas{max-width:100%;height:auto}
   .par2{gap:16px}
 }
 @media (max-width:380px){.tiles{grid-template-columns:1fr 1fr}}
+/* ---- mobile: menu vira hambúrguer (dropdown), sem scroll horizontal ---- */
+@media (max-width:720px){
+  .nav-burger{display:inline-flex}
+  .nav-toggle:checked~.nav-burger .ic-open{display:none}
+  .nav-toggle:checked~.nav-burger .ic-close{display:block}
+  .topbar-in{flex-wrap:nowrap;gap:10px}
+  .snav{position:absolute;top:100%;left:0;right:0;flex:none;flex-direction:column;gap:2px;
+    background:var(--nav-bg);border-bottom:1px solid var(--grid);
+    box-shadow:0 10px 28px rgba(15,23,42,.14);padding:6px;overflow:hidden;
+    max-height:0;transition:max-height .22s ease}
+  .nav-toggle:checked~.snav{max-height:min(80vh,560px);overflow-y:auto}
+  .snav a{width:100%;padding:12px 14px;min-height:44px;font-size:15px}
+}
+@media (max-width:720px) and (prefers-reduced-motion:reduce){.snav{transition:none}}
 """
 
 
@@ -270,7 +292,12 @@ def montar_shell(base: str, ativo: str, crumb: str, titulo: str, sub: str, corpo
            f'<header><h1>{escape(titulo)}</h1>{sub_p}</header>')
     return f"""<div class="topbar"><div class="topbar-in">
   <a class="brand" href="{base}index.html">SRC · Campus Serra<small>Extensão &amp; Ensino</small></a>
-  <nav class="snav">{links}</nav>
+  <input type="checkbox" id="nav-toggle" class="nav-toggle">
+  <label for="nav-toggle" class="nav-burger" aria-label="Abrir menu" title="Menu">
+    <svg class="ic-open" viewBox="0 0 24 24"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    <svg class="ic-close" viewBox="0 0 24 24"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
+  </label>
+  <nav class="snav" aria-label="Navegação principal">{links}</nav>
 </div></div>
 <div class="main"><div class="wrap{' wrap-hero' if hero else ''}">
 {cab}

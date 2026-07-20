@@ -31,6 +31,7 @@ from .extensionistas import _CACHE_PADRAO, _norm, coautoria, coletar_extensionis
 from .formados import agregar_formados
 from .impacto import agregar_impacto
 from .indicadores import agregar_indicadores
+from .investimento import agregar_investimento
 from .rede import agregar_rede
 from .relatorio import _carregar_acoes, _carregar_participacoes, agregar
 from .site import _agrupar_atividades
@@ -143,6 +144,7 @@ Os links abaixo são relativos a esta pasta (onde está o llms.txt). Endpoints c
 
 - [Inventário da API](api/index.json): índice de endpoints e totais.
 - [Painel agregado](api/painel.json): visão geral, indicadores, rede de programas, formados e impacto (agregados).
+- [Investimento](api/investimento.json): iniciativas por nicho × impacto (público) × status (ativa/dormente), com onde investir, o que reativar e nota sobre impacto não-contável (ex.: ConectaFapes).
 - [Ações — lista](api/acoes/index.json): as {ac} ações resumidas (id, processo, título, tipo, natureza, coordenador, ano, total de participações).
 - [Extensionistas — completo](api/extensionistas/todos.json): as {ex} pessoas com trajetória (ações coordenadas e em equipe), colaboradores e resumo gerado por IA.
 - [Extensionistas — lista](api/extensionistas/index.json): índice de extensionistas.
@@ -250,6 +252,9 @@ def exportar_api(
                                  "rede_programas": a_net, "formados": a_form,
                                  "impacto": a_imp})
 
+    # análise de investimento (nicho × impacto × status) — espelho da página
+    _grava(api / "investimento.json", agregar_investimento(cons))
+
     # listas de gestão
     _grava(api / "sem-participacao.json", [
         {"acao_id": x.get("acao_id"), "titulo": x.get("Título ação"),
@@ -287,7 +292,8 @@ def exportar_api(
         "descricao": "API estática do painel de Extensão — SRC/Ifes Campus Serra",
         "privacidade": "Sem dados pessoais de alunos (público-alvo só contagens); "
                        "equipe como crédito público (nome/função/vínculo).",
-        "endpoints": ["api/painel.json", "api/busca.json", "api/acoes/index.json",
+        "endpoints": ["api/painel.json", "api/investimento.json", "api/busca.json",
+                      "api/acoes/index.json",
                       "api/acoes/<acao_id>.json", "api/atividades/<atividade_id>.json",
                       "api/extensionistas/index.json", "api/extensionistas/todos.json",
                       "api/extensionistas/<slug>.json",

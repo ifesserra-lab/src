@@ -1,0 +1,258 @@
+<!doctype html><html lang='pt-br'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>Investimento em iniciativas — Campus Serra</title><style>
+/* Design system (skill ui-ux-pro-max): Data-Dense Dashboard
+   Primary #3B82F6 · CTA #F97316 · bg #F8FAFC · text #1E293B · Fira Sans + Fira Code */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700&family=Fira+Code:wght@400;500;600&display=swap');
+:root{
+  color-scheme:light;
+  --plane:#f8fafc; --surface-1:#ffffff; --parchment:#f1f5f9; --pearl:#f8fafc;
+  --text-primary:#1e293b; --text-secondary:#475569; --muted:#64748b;
+  --grid:#e2e8f0; --border:#cbd5e1;
+  --series-1:#3b82f6; --series-2:#0d9488; --accent-focus:#2563eb; --cta:#f97316; --nav-bg:#ffffff;
+  --c1:#3b82f6; --c2:#0d9488; --c3:#d97706; --c4:#7c3aed; --c5:#0891b2; --c6:#db2777;
+  --row-hover:#eff6ff;
+  --radius:10px; --radius-sm:6px;
+  --mono:"Fira Code",ui-monospace,SFMono-Regular,monospace;
+}
+@media (prefers-color-scheme:dark){:root:where(:not([data-theme=light])){
+  color-scheme:dark;
+  --plane:#0f172a; --surface-1:#1e293b; --parchment:#334155; --pearl:#1e293b;
+  --text-primary:#f1f5f9; --text-secondary:#cbd5e1; --muted:#94a3b8;
+  --grid:#334155; --border:#475569;
+  --series-1:#60a5fa; --series-2:#2dd4bf; --accent-focus:#93c5fd; --cta:#fb923c; --nav-bg:#0f172a;
+  --c1:#60a5fa; --c2:#2dd4bf; --c3:#fbbf24; --c4:#a78bfa; --c5:#22d3ee; --c6:#f472b6;
+  --row-hover:#1e3a5f;
+}}
+:root[data-theme=dark]{
+  color-scheme:dark;
+  --plane:#0f172a; --surface-1:#1e293b; --parchment:#334155; --pearl:#1e293b;
+  --text-primary:#f1f5f9; --text-secondary:#cbd5e1; --muted:#94a3b8;
+  --grid:#334155; --border:#475569;
+  --series-1:#60a5fa; --series-2:#2dd4bf; --accent-focus:#93c5fd; --cta:#fb923c; --nav-bg:#0f172a;
+  --c1:#60a5fa; --c2:#2dd4bf; --c3:#fbbf24; --c4:#a78bfa; --c5:#22d3ee; --c6:#f472b6;
+  --row-hover:#1e3a5f;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--plane);color:var(--text-primary);
+font-family:"Fira Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+font-size:15px;line-height:1.55;-webkit-font-smoothing:antialiased}
+a,button,label,summary{cursor:pointer}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{
+transition:none!important;animation:none!important}}
+/* ---- topbar (menu horizontal superior) ---- */
+.topbar{position:sticky;top:0;z-index:50;background:var(--nav-bg);
+border-bottom:1px solid var(--grid)}
+.topbar-in{max-width:1160px;margin:0 auto;padding:0 20px;height:52px;
+display:flex;align-items:center;gap:14px}
+.brand{font-weight:700;font-size:15px;color:var(--text-primary);
+text-decoration:none;white-space:nowrap;display:flex;align-items:center;gap:8px}
+.brand::before{content:'';width:10px;height:10px;border-radius:3px;background:var(--series-1)}
+.brand small{color:var(--muted);font-weight:400;font-size:12px}
+.snav{display:flex;gap:2px;overflow-x:auto;flex:1;justify-content:flex-start;
+scrollbar-width:none}
+.snav::-webkit-scrollbar{display:none}
+.snav a{white-space:nowrap}
+.snav a{display:flex;align-items:center;gap:6px;padding:7px 9px;border-radius:8px;
+text-decoration:none;color:var(--text-secondary);font-weight:500;font-size:13.5px;
+white-space:nowrap;transition:background .15s,color .15s}
+.snav a svg{width:15px;height:15px;flex:none;stroke:currentColor;fill:none;stroke-width:2;
+stroke-linecap:round;stroke-linejoin:round}
+.snav a:hover{color:var(--text-primary);background:var(--parchment)}
+.snav a.on{color:var(--series-1);background:color-mix(in srgb,var(--series-1) 12%,transparent)}
+.snav a:focus-visible{outline:2px solid var(--accent-focus);outline-offset:2px}
+.main{min-width:0}
+.wrap{max-width:1160px;margin:0 auto;padding:28px 20px 64px}
+.crumb{color:var(--muted);font-size:12px;margin:0 0 4px}
+.crumb b{color:var(--text-secondary);font-weight:600}
+header h1{margin:0 0 6px;font-size:26px;font-weight:700;line-height:1.2;
+letter-spacing:-.01em;text-wrap:balance}
+header .sub{color:var(--text-secondary);margin:0 0 6px;font-size:14.5px;max-width:72ch}
+@media (max-width:720px){.topbar-in{padding:0 12px;gap:10px}.brand small{display:none}
+header h1{font-size:22px}}
+/* hero (home de busca) */
+.wrap-hero{padding-top:7vh;text-align:center;position:relative}
+.wrap-hero::before{content:'';position:absolute;left:50%;top:-40px;transform:translateX(-50%);
+width:min(760px,90vw);height:220px;z-index:-1;pointer-events:none;
+background:radial-gradient(60% 100% at 50% 0,color-mix(in srgb,var(--series-1) 9%,transparent),transparent 70%)}
+.hero h1{font-size:40px;font-weight:700;line-height:1.12;letter-spacing:-.02em;margin:0 0 10px;
+color:var(--text-primary)}
+.hero .sub{margin:0 auto 8px;max-width:62ch;font-size:16px;color:var(--text-secondary)}
+@media (max-width:720px){.hero h1{font-size:28px}}
+.wrap-hero .busca{max-width:620px;margin:22px auto 0;display:block;text-align:left}
+.wrap-hero #res{text-align:left;max-width:980px;margin:0 auto}
+.wrap-hero #res .vazio{text-align:center;margin-top:12px}
+.chips{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:14px}
+.chips button{border:1px solid var(--grid);background:var(--surface-1);color:var(--text-secondary);
+border-radius:8px;padding:9px 15px;font-size:13px;font-weight:500;font-family:inherit;
+transition:background .15s,border-color .15s,color .15s;min-height:40px}
+.chips button:hover{border-color:var(--series-1);color:var(--series-1);
+background:color-mix(in srgb,var(--series-1) 6%,transparent)}
+.chips button:focus-visible{outline:2px solid var(--accent-focus);outline-offset:2px}
+/* KPI row data-dense */
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:20px 0 6px}
+.tile{padding:14px 16px;background:var(--surface-1);border:1px solid var(--grid);
+border-radius:var(--radius);border-left:3px solid var(--series-1);
+transition:box-shadow .15s,border-color .15s}
+.tile:hover{box-shadow:0 1px 6px rgba(15,23,42,.07)}
+.tile-val{font-size:24px;font-weight:700;line-height:1.2;font-family:var(--mono);
+font-variant-numeric:tabular-nums;color:var(--text-primary)}
+.tile-lbl{color:var(--text-secondary);font-size:11.5px;margin-top:3px;font-weight:500;
+text-transform:uppercase;letter-spacing:.04em}
+.tile-sub{color:var(--muted);font-size:11.5px;margin-top:3px}
+section{margin-top:26px}
+.par2{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:22px}
+.par2-item{min-width:0}
+.par2-h{font-size:13.5px;font-weight:600;margin:0 0 6px;color:var(--text-primary)}
+h2{font-size:16px;margin:0 0 2px;font-weight:600}
+.sec-desc{color:var(--text-secondary);font-size:13px;margin:0 0 8px}
+.card{background:var(--surface-1);border:1px solid var(--grid);border-radius:var(--radius);
+padding:16px;overflow-x:auto}
+.lbl{fill:var(--text-secondary);font-size:12px}
+.val{fill:var(--text-primary);font-size:12px;font-weight:600;font-family:var(--mono)}
+.vazio{color:var(--muted);margin:0;font-size:13px}
+.donut-wrap{display:flex;gap:22px;align-items:center;flex-wrap:wrap}
+.donut-num{fill:var(--text-primary);font-size:24px;font-weight:600}
+.donut-cap{fill:var(--muted);font-size:11px}
+.leg{display:flex;flex-direction:column;gap:5px;min-width:220px}
+.leg-item{display:flex;align-items:center;gap:8px;font-size:13px}
+.sw{width:11px;height:11px;border-radius:3px;flex:none}
+.leg-nome{flex:1}.leg-val{color:var(--text-secondary);font-family:var(--mono);font-size:12px}
+footer{margin-top:36px;color:var(--muted);font-size:12px;
+border-top:1px solid var(--grid);padding-top:12px}
+.pii{background:var(--parchment);border-radius:var(--radius-sm);
+padding:10px 14px;font-size:12px;color:var(--text-secondary);margin-top:18px}
+.lista{max-height:380px;overflow-y:auto;display:flex;flex-direction:column;gap:1px}
+.li{display:grid;grid-template-columns:1fr auto auto;gap:12px;align-items:center;
+padding:7px 6px;border-bottom:1px solid var(--grid);font-size:13px;transition:background .15s}
+.li:hover{background:var(--row-hover)}
+.li4{grid-template-columns:1fr auto auto auto}
+.li-coord{color:var(--text-secondary);font-size:12px;white-space:nowrap}
+.li-tit{color:var(--text-primary)}
+.li-tipo{color:var(--muted);font-size:11px;border:1px solid var(--grid);
+border-radius:6px;padding:1px 8px;font-weight:500}
+.li-proc{color:var(--muted);font-family:var(--mono);font-size:11.5px}
+.net-lbl{fill:var(--text-secondary);font-size:11px;font-weight:600}
+.explica{margin-top:10px;border-top:1px solid var(--grid);padding-top:8px}
+.explica summary{color:var(--series-1);font-size:13px;font-weight:500}
+.explica summary:focus-visible{outline:2px solid var(--accent-focus);outline-offset:2px}
+.explica p{color:var(--text-secondary);font-size:13px;margin:8px 0 0;max-width:72ch}
+.nota{background:color-mix(in srgb,var(--cta) 10%,var(--surface-1));color:var(--text-primary);
+border-left:3px solid var(--cta);border-radius:var(--radius-sm);
+padding:10px 14px;font-size:13px;font-weight:500;margin:14px 0}
+/* abas: segmented compacto */
+.tabs>input{position:absolute;opacity:0;pointer-events:none}
+.tabbar{display:inline-flex;gap:2px;margin:18px 0 4px;flex-wrap:wrap;
+background:var(--parchment);border-radius:9px;padding:3px}
+.tabbar label{padding:7px 14px;border-radius:7px;font-weight:500;font-size:13px;
+color:var(--text-secondary);transition:all .15s;min-height:32px;display:flex;align-items:center}
+.tabbar label:hover{color:var(--text-primary)}
+#tab1:checked~.tabbar label[for=tab1],
+#tab2:checked~.tabbar label[for=tab2],
+#tab3:checked~.tabbar label[for=tab3],
+#tab4:checked~.tabbar label[for=tab4],
+#tab5:checked~.tabbar label[for=tab5],
+#tab6:checked~.tabbar label[for=tab6]{background:var(--surface-1);color:var(--series-1);
+font-weight:600;box-shadow:0 1px 3px rgba(15,23,42,.12)}
+.tabs>input:focus-visible~.tabbar label{outline:2px solid var(--accent-focus)}
+.panel{display:none}
+#tab1:checked~.p1{display:block}
+#tab2:checked~.p2{display:block}
+#tab3:checked~.p3{display:block}
+#tab4:checked~.p4{display:block}
+#tab5:checked~.p5{display:block}
+#tab6:checked~.p6{display:block}
+/* ---- mobile-first: mídia fluida, sem overflow horizontal, tap targets ---- */
+html{-webkit-text-size-adjust:100%}
+img,svg,canvas{max-width:100%;height:auto}
+.card{-webkit-overflow-scrolling:touch}
+.li-tit,.leg-nome,.li-coord,table.tb td{overflow-wrap:anywhere}
+@media (max-width:640px){
+  body{font-size:14.5px}
+  .wrap{padding:18px 14px 48px}
+  header h1{font-size:20px}
+  header .sub{font-size:13.5px}
+  section{margin-top:20px}
+  .card{padding:12px}
+  .tiles{grid-template-columns:repeat(auto-fit,minmax(132px,1fr));gap:8px;margin:16px 0 4px}
+  .tile{padding:12px 13px}
+  .tile-val{font-size:20px}
+  /* nav com alvos de toque ≥44px */
+  .topbar-in{height:auto;min-height:52px;padding:6px 12px;gap:8px}
+  .snav a{padding:10px 11px;font-size:14px;min-height:40px}
+  /* listas: empilha colunas em vez de espremer */
+  .li,.li4{grid-template-columns:1fr;gap:3px;align-items:start;padding:9px 6px}
+  .li-coord,.li-tipo,.li-proc{justify-self:start}
+  .leg{min-width:0;width:100%}
+  .donut-wrap{gap:14px;justify-content:center}
+  table.tb{font-size:12.5px}
+  table.tb th,table.tb td{padding:7px 8px}
+  .sec-desc,.explica p,.explica summary{font-size:12.5px}
+  .hero h1{font-size:24px}
+  .hero .sub{font-size:15px}
+  .chips button{padding:10px 14px}
+  .par2{gap:16px}
+}
+@media (max-width:380px){.tiles{grid-template-columns:1fr 1fr}}
+
+table.tb{width:100%;border-collapse:collapse;font-size:13px}
+table.tb th{color:var(--muted);text-align:left;padding:8px 10px;border-bottom:1px solid var(--border);
+font-size:11px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;
+position:sticky;top:0;background:var(--surface-1)}
+table.tb td{padding:8px 10px;border-bottom:1px solid var(--grid);vertical-align:top}
+table.tb tr:last-child td{border-bottom:0}
+table.tb tbody tr{transition:background .15s}
+table.tb tbody tr:hover{background:var(--row-hover)}
+a.lk{color:var(--series-1);text-decoration:none;font-weight:500}
+a.lk:hover{text-decoration:underline}
+a.lk:focus-visible{outline:2px solid var(--accent-focus);outline-offset:2px}
+.meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:10px;margin:14px 0}
+.meta div{background:var(--surface-1);border:1px solid var(--grid);border-radius:var(--radius);
+padding:11px 14px;font-size:13px}
+.meta b{display:block;color:var(--muted);font-size:11px;font-weight:600;letter-spacing:.05em;
+text-transform:uppercase;margin-bottom:3px}
+.resumo{background:var(--surface-1);border:1px solid var(--grid);
+border-left:3px solid var(--series-1);border-radius:var(--radius);padding:24px 28px;
+color:var(--text-primary);max-width:none;min-height:120px;line-height:1.7;font-size:16px}
+input.busca{width:100%;padding:12px 18px;border-radius:var(--radius);border:1px solid var(--border);
+background:var(--surface-1);color:var(--text-primary);font-size:15px;
+outline:none;font-family:inherit;transition:border-color .15s,box-shadow .15s;min-height:46px}
+input.busca:focus{border-color:var(--series-1);
+box-shadow:0 0 0 3px color-mix(in srgb,var(--series-1) 20%,transparent)}
+input[type=search]:focus-visible{outline:2px solid var(--accent-focus);outline-offset:1px}
+.busca-intro{text-align:center;max-width:64ch;margin:22px auto 4px;
+color:var(--text-secondary);font-size:15px}
+td.nowrap{white-space:nowrap}
+td.ja-ano{white-space:nowrap;font-weight:600;color:var(--text-primary);
+background:color-mix(in srgb,var(--series-1) 6%,transparent)}
+td.ja-ano .ja-tot{display:block;font-size:11px;font-weight:500;color:var(--muted);margin-top:2px}
+td.ja-num{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+.badge{display:inline-block;border:1px solid var(--grid);border-radius:6px;padding:3px 10px;
+font-size:11.5px;font-weight:500;color:var(--text-secondary);white-space:nowrap;
+background:var(--surface-1)}
+.pill{display:inline-block;padding:2px 10px;border-radius:999px;font-size:11.5px;font-weight:600;
+white-space:nowrap;border:1px solid transparent;line-height:1.5}
+.pill-c1{color:var(--c1);background:color-mix(in srgb,var(--c1) 12%,transparent);border-color:color-mix(in srgb,var(--c1) 28%,transparent)}
+.pill-c2{color:var(--c2);background:color-mix(in srgb,var(--c2) 12%,transparent);border-color:color-mix(in srgb,var(--c2) 28%,transparent)}
+.pill-c3{color:var(--c3);background:color-mix(in srgb,var(--c3) 14%,transparent);border-color:color-mix(in srgb,var(--c3) 30%,transparent)}
+.pill-c4{color:var(--c4);background:color-mix(in srgb,var(--c4) 12%,transparent);border-color:color-mix(in srgb,var(--c4) 28%,transparent)}
+.pill-c5{color:var(--c5);background:color-mix(in srgb,var(--c5) 12%,transparent);border-color:color-mix(in srgb,var(--c5) 28%,transparent)}
+.pill-c6{color:var(--c6);background:color-mix(in srgb,var(--c6) 12%,transparent);border-color:color-mix(in srgb,var(--c6) 28%,transparent)}
+.pill-n{color:var(--muted);background:color-mix(in srgb,var(--muted) 10%,transparent);border-color:var(--grid)}
+.tl-t{fill:var(--text-primary);font-size:14px;font-weight:600}
+.tl-s{fill:var(--muted);font-size:12px}
+.mkt{margin-top:18px;overflow:hidden}
+.mkt-head{display:flex;align-items:center;gap:20px;flex-wrap:wrap;margin-bottom:8px}
+.mkt-num{font-size:56px;font-weight:800;line-height:1;letter-spacing:-.02em;
+color:var(--series-1);font-variant-numeric:tabular-nums}
+.mkt-lbl{font-size:18px;line-height:1.4;color:var(--text-primary)}
+.mk-svg{margin-top:6px}
+.mk-ax{fill:var(--muted);font-size:12px;font-variant-numeric:tabular-nums}
+.mk-val{fill:var(--text-primary);font-size:12.5px;font-weight:700;font-variant-numeric:tabular-nums}
+@media (max-width:560px){.mkt-num{font-size:40px}.mkt-lbl{font-size:15px}}
+</style></head><body><div class="topbar"><div class="topbar-in">
+  <a class="brand" href="index.html">SRC · Campus Serra<small>Extensão &amp; Ensino</small></a>
+  <nav class="snav"><a href="index.html" class=""><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg><span>Buscar</span></a><a href="painel.html" class=""><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg><span>Painel</span></a><a href="acoes/index.html" class=""><svg viewBox="0 0 24 24"><path d="M12 2 2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg><span>Ações</span></a><a href="extensionistas/index.html" class=""><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg><span>Extensionistas</span></a><a href="temas.html" class=""><svg viewBox="0 0 24 24"><path d="M20.6 13.4 11 3.8a2 2 0 0 0-1.4-.6H4a1 1 0 0 0-1 1v5.6a2 2 0 0 0 .6 1.4l9.6 9.6a2 2 0 0 0 2.8 0l4.6-4.6a2 2 0 0 0 0-2.8z"/><circle cx="7.5" cy="7.5" r="1.2"/></svg><span>Temas</span></a><a href="jornada.html" class=""><svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg><span>Jornada</span></a><a href="comunidade.html" class=""><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg><span>Comunidade</span></a><a href="investimento.html" class="on"><svg viewBox="0 0 24 24"><line x1="12" y1="20" x2="12" y2="10"/><line x1="18" y1="20" x2="18" y2="4"/><line x1="6" y1="20" x2="6" y2="16"/></svg><span>Investimento</span></a><a href="pendencias-relatorio.html" class=""><svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M9 15h6"/><path d="M9 11h3"/></svg><span>Pendências</span></a><a href="dados-abertos.html" class=""><svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5"/><path d="M12 15V3"/></svg><span>Dados</span></a></nav>
+</div></div>
+<div class="main"><div class="wrap">
+<p class="crumb">Páginas / <b>Investimento</b></p><header><h1>Onde investir e o que reativar</h1><p class="sub">Iniciativas cruzadas por nicho, impacto (público) e status (ativa × dormente): onde aportar recurso e quais ações paradas merecem incentivo para voltar. Régua de status relativa a 2026.</p></header>
+<div class="tiles"><div class="tile"><div class="tile-val">201</div><div class="tile-lbl">Iniciativas</div><div class="tile-sub">extensão + ensino</div></div><div class="tile"><div class="tile-val">7.938</div><div class="tile-lbl">Público atendido</div><div class="tile-sub">registros de participação</div></div><div class="tile"><div class="tile-val">50</div><div class="tile-lbl">Ativas</div><div class="tile-sub">últ. atividade ≥ 2024</div></div><div class="tile"><div class="tile-val">115</div><div class="tile-lbl">Dormentes</div><div class="tile-sub">paradas ≤ 2021</div></div></div><section><h2>Para onde direcionar (leitura executiva)</h2><p class="sec-desc">Quatro movimentos, do maior retorno ao mais condicionado: escalar o que já puxa, reativar dormente barato, ocupar nicho vazio e destravar o que depende de convênio.</p><div class="card" style="margin-top:14px;border-left:3px solid #01B574"><h2 style="margin-top:0">Investir e escalar</h2><p class="sec-desc" style="margin:0 0 8px">Ativas, alto público, fomento já engatado. Concentrar recurso aqui = maior retorno por real.</p><ul style="margin:0 0 0 18px;font-size:13.5px;line-height:1.6"><li>LAMPEX — Laboratório Modelo de Práticas (motor tecnológico, maior público)</li><li>Ecossistema maker: LabMaker Serra, LabMaker 4.0, Conectando Talentos (Robótica)</li><li>Núcleo Incubador Serra (empreendedorismo)</li><li>Inclusão: Semana de Educação Especial + Atividades físicas adaptadas</li></ul></div><div class="card" style="margin-top:14px;border-left:3px solid #f97316"><h2 style="margin-top:0">Reativar com incentivo</h2><p class="sec-desc" style="margin:0 0 8px">Dormentes de público comprovadamente grande e baixo custo de retomada. Melhor relação impacto/esforço para reanimar.</p><ul style="margin:0 0 0 18px;font-size:13.5px;line-height:1.6"><li>Ifes Portas Abertas (maior alcance parado; alinha captação de alunos)</li><li>Física ao Alcance de Todos</li><li>Tutoria de Estudos Orientados</li><li>Semana de Controle e Automação (reabrir como braço de eventos do LAMPEX)</li></ul></div><div class="card" style="margin-top:14px;border-left:3px solid #3b82f6"><h2 style="margin-top:0">Expandir nicho subatendido</h2><p class="sec-desc" style="margin:0 0 8px">Nichos com público baixo e poucas ativas — espaço em branco para novas iniciativas.</p><ul style="margin:0 0 0 18px;font-size:13.5px;line-height:1.6"><li>Saúde e bem-estar (só tração via atividades adaptadas)</li><li>Meio ambiente (Química Verde já abre a trilha)</li><li>Idiomas (público-alvo praticamente não registrado)</li></ul></div><div class="card" style="margin-top:14px;border-left:3px solid #eda100"><h2 style="margin-top:0">Depende de fomento externo</h2><p class="sec-desc" style="margin:0 0 8px">Alto impacto social para a comunidade não-aluna, mas presas a convênio que expirou. Reativação condicionada a novo edital (PRONATEC/SETEC).</p><ul style="margin:0 0 0 18px;font-size:13.5px;line-height:1.6"><li>Curso de Auxiliar Administrativo (PRONATEC)</li><li>Curso de Operador de Computador (PRONATEC)</li><li>Mulheres Mil — Eletricista Instalador Predial</li></ul></div></section><section><h2>Público por nicho</h2><p class="sec-desc">Nicho = cluster temático do título+resumo (mesmo conceito da página Temas). Classifica todas as iniciativas, inclusive as sem área temática oficial.</p><div class="card"><svg viewBox="0 0 590 338" width="100%" role="img" style="max-width:590px"><text x="202" y="20" text-anchor="end" class="lbl">Robótica e cultura maker</text><rect x="210" y="9" width="320" height="16" rx="4" fill="var(--series-1)"/><text x="536" y="20" class="val">2823</text><text x="202" y="50" text-anchor="end" class="lbl">Mulheres e inclusão</text><rect x="210" y="39" width="201" height="16" rx="4" fill="var(--series-1)"/><text x="417" y="50" class="val">1775</text><text x="202" y="80" text-anchor="end" class="lbl">Captação e ingresso</text><rect x="210" y="69" width="137" height="16" rx="4" fill="var(--series-1)"/><text x="353" y="80" class="val">1210</text><text x="202" y="110" text-anchor="end" class="lbl">Cultura e arte</text><rect x="210" y="99" width="58" height="16" rx="4" fill="var(--series-1)"/><text x="274" y="110" class="val">512</text><text x="202" y="140" text-anchor="end" class="lbl">Outros / formação</text><rect x="210" y="129" width="56" height="16" rx="4" fill="var(--series-1)"/><text x="272" y="140" class="val">495</text><text x="202" y="170" text-anchor="end" class="lbl">Empreendedorismo e incubação</text><rect x="210" y="159" width="56" height="16" rx="4" fill="var(--series-1)"/><text x="272" y="170" class="val">494</text><text x="202" y="200" text-anchor="end" class="lbl">Saúde e bem-estar</text><rect x="210" y="189" width="29" height="16" rx="4" fill="var(--series-1)"/><text x="245" y="200" class="val">259</text><text x="202" y="230" text-anchor="end" class="lbl">Software, dados e sistemas</text><rect x="210" y="219" width="21" height="16" rx="4" fill="var(--series-1)"/><text x="237" y="230" class="val">189</text><text x="202" y="260" text-anchor="end" class="lbl">Ciência e divulgação</text><rect x="210" y="249" width="18" height="16" rx="4" fill="var(--series-1)"/><text x="234" y="260" class="val">157</text><text x="202" y="290" text-anchor="end" class="lbl">Escola e formação de profess</text><rect x="210" y="279" width="3" height="16" rx="4" fill="var(--series-1)"/><text x="219" y="290" class="val">24</text><text x="202" y="320" text-anchor="end" class="lbl">Idiomas</text><rect x="210" y="309" width="3" height="16" rx="4" fill="var(--series-1)"/><text x="219" y="320" class="val">0</text></svg></div></section><section><h2>Nicho × status</h2><p class="sec-desc">Onde está a tração (ativas) e onde há acervo parado com público comprovado (dormentes) — por nicho.</p><div class="card"><div class="card" style="margin-top:14px;overflow:auto"><table class="tb"><tr><th>Nicho</th><th>Ações</th><th>Público</th><th>Ativas (n·púb)</th><th>Dormentes (n·púb)</th><th>Meio</th></tr><tr><td>Robótica e cultura maker</td><td class="ja-num">26</td><td class="ja-num">2.823</td><td class="ja-num">7 · 2.028</td><td class="ja-num">17 · 671</td><td class="ja-num">2</td></tr><tr><td>Mulheres e inclusão</td><td class="ja-num">36</td><td class="ja-num">1.775</td><td class="ja-num">17 · 1.207</td><td class="ja-num">14 · 361</td><td class="ja-num">5</td></tr><tr><td>Captação e ingresso</td><td class="ja-num">11</td><td class="ja-num">1.210</td><td class="ja-num">1 · 0</td><td class="ja-num">6 · 625</td><td class="ja-num">4</td></tr><tr><td>Cultura e arte</td><td class="ja-num">38</td><td class="ja-num">512</td><td class="ja-num">10 · 97</td><td class="ja-num">21 · 346</td><td class="ja-num">7</td></tr><tr><td>Outros / formação</td><td class="ja-num">13</td><td class="ja-num">495</td><td class="ja-num">0 · 0</td><td class="ja-num">13 · 495</td><td class="ja-num">0</td></tr><tr><td>Empreendedorismo e incubação</td><td class="ja-num">21</td><td class="ja-num">494</td><td class="ja-num">3 · 152</td><td class="ja-num">14 · 319</td><td class="ja-num">4</td></tr><tr><td>Saúde e bem-estar</td><td class="ja-num">20</td><td class="ja-num">259</td><td class="ja-num">5 · 125</td><td class="ja-num">13 · 127</td><td class="ja-num">2</td></tr><tr><td>Software, dados e sistemas</td><td class="ja-num">16</td><td class="ja-num">189</td><td class="ja-num">2 · 25</td><td class="ja-num">10 · 77</td><td class="ja-num">4</td></tr><tr><td>Ciência e divulgação</td><td class="ja-num">13</td><td class="ja-num">157</td><td class="ja-num">2 · 48</td><td class="ja-num">4 · 39</td><td class="ja-num">7</td></tr><tr><td>Escola e formação de professores</td><td class="ja-num">3</td><td class="ja-num">24</td><td class="ja-num">1 · 5</td><td class="ja-num">2 · 19</td><td class="ja-num">0</td></tr><tr><td>Idiomas</td><td class="ja-num">4</td><td class="ja-num">0</td><td class="ja-num">2 · 0</td><td class="ja-num">1 · 0</td><td class="ja-num">1</td></tr></table></div></div></section><section><h2>Ativas de maior impacto — merecem investimento</h2><p class="sec-desc">As com mais público entre as ativas. Escalar concentra recurso no que já tem tração e fomento.</p><div class="card"><div class="card" style="margin-top:14px;overflow:auto"><table class="tb"><tr><th>Iniciativa</th><th>Nicho</th><th>Tipo</th><th>Público</th><th>Últ. atividade</th><th>Fomento</th></tr><tr><td><a class="lk" href="acoes/3140.html">LAMPEX – Laboratório Modelo de Práticas de Extensão</a></td><td>Robótica e cultura maker</td><td><span class="badge">Programa</span></td><td class="ja-num">1.290</td><td class="ja-num">2026</td><td>PAEX-IFES</td></tr><tr><td><a class="lk" href="acoes/4655.html">LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão</a></td><td>Robótica e cultura maker</td><td><span class="badge">Programa</span></td><td class="ja-num">490</td><td class="ja-num">2024</td><td>SEM VÍNCULO</td></tr><tr><td><a class="lk" href="acoes/5852.html">SOF – Serviço de Orientação Financeira (unidade Ifes Serra)</a></td><td>Mulheres e inclusão</td><td><span class="badge">Projeto</span></td><td class="ja-num">258</td><td class="ja-num">2026</td><td>SEM VÍNCULO</td></tr><tr><td><a class="lk" href="acoes/5667.html">Semana destinada à Educação Especial Inclusiva no Campus Serra</a></td><td>Mulheres e inclusão</td><td><span class="badge">Evento</span></td><td class="ja-num">251</td><td class="ja-num">2025</td><td>SEM VÍNCULO</td></tr><tr><td><a class="lk" href="acoes/5138.html">Semana destinada à Educação Especial Inclusiva - Setembro Verde</a></td><td>Mulheres e inclusão</td><td><span class="badge">Evento</span></td><td class="ja-num">216</td><td class="ja-num">2024</td><td>SEM VÍNCULO</td></tr><tr><td><a class="lk" href="acoes/4659.html">Atividades físicas adaptadas e inclusão (AFAI)</a></td><td>Mulheres e inclusão</td><td><span class="badge">Projeto</span></td><td class="ja-num">197</td><td class="ja-num">2026</td><td>SEM VÍNCULO</td></tr><tr><td><a class="lk" href="acoes/5086.html">Conectando Talentos: Robótica e Programação no IFES-Serra</a></td><td>Robótica e cultura maker</td><td><span class="badge">Projeto</span></td><td class="ja-num">172</td><td class="ja-num">2026</td><td>SEM VÍNCULO</td></tr><tr><td><a class="lk" href="acoes/3423.html">Programa Local Núcleo Incubador Campus Serra – NIS</a></td><td>Empreendedorismo e incubação</td><td><span class="badge">Programa</span></td><td class="ja-num">152</td><td class="ja-num">2025</td><td>PAEX-IFES</td></tr><tr><td><a class="lk" href="acoes/4754.html">QUÍMICA VERDE APLICADA: oficinas e workshops</a></td><td>Mulheres e inclusão</td><td><span class="badge">Projeto</span></td><td class="ja-num">142</td><td class="ja-num">2025</td><td>SEM VÍNCULO</td></tr><tr><td><a class="lk" href="acoes/4830.html">ConectaFapes: Uma plataforma de apoio à Pesquisa, Desenvolvimento e Inovação</a></td><td>Saúde e bem-estar</td><td><span class="badge">Projeto</span></td><td class="ja-num">115</td><td class="ja-num">2026</td><td>SEM VÍNCULO</td></tr><tr><td><a class="lk" href="acoes/4820.html">Mulheres Mil – Eletricista Instalador Predial em Baixa Tensão</a></td><td>Mulheres e inclusão</td><td><span class="badge">Curso</span></td><td class="ja-num">62</td><td class="ja-num">2026</td><td>MULHERES MIL</td></tr><tr><td><a class="lk" href="acoes/5641.html">LabMaker 4.0: capacitando professores para a cultura maker e tecnologias da Indústria 4.0</a></td><td>Robótica e cultura maker</td><td><span class="badge">Projeto</span></td><td class="ja-num">58</td><td class="ja-num">2025</td><td>PAEX-IFES</td></tr></table></div></div></section><section><h2>Dormentes de maior impacto — merecem incentivo para reativar</h2><p class="sec-desc">Público é o pico histórico da iniciativa. Alcance grande já comprovado, hoje parado — melhor relação impacto/esforço para reanimar.</p><div class="card"><div class="card" style="margin-top:14px;overflow:auto"><table class="tb"><tr><th>Iniciativa</th><th>Nicho</th><th>Tipo</th><th>Público (pico)</th><th>Últ. atividade</th><th>Fomento</th></tr><tr><td><a class="lk" href="acoes/1702.html">Ifes Portas Abertas</a></td><td>Captação e ingresso</td><td><span class="badge">Projeto</span></td><td class="ja-num">385</td><td class="ja-num">2018</td><td>SEM VÍNCULO</td></tr><tr><td><a class="lk" href="acoes/2021.html">Física ao Alcance de Todos</a></td><td>Robótica e cultura maker</td><td><span class="badge">Projeto</span></td><td class="ja-num">349</td><td class="ja-num">2019</td><td>SEM VÍNCULO</td></tr><tr><td><a class="lk" href="acoes/650.html">Tutoria de Estudos Orientados</a></td><td>Mulheres e inclusão</td><td><span class="badge">Curso</span></td><td class="ja-num">214</td><td class="ja-num">2019</td><td>SEM VÍNCULO</td></tr><tr><td><a class="lk" href="acoes/2505.html">Circuito Audiovisual</a></td><td>Cultura e arte</td><td><span class="badge">Projeto</span></td><td class="ja-num">192</td><td class="ja-num">2021</td><td>SEM VÍNCULO</td></tr><tr><td><a class="lk" href="acoes/899.html">SEMANA DE CONTROLE E AUTOMAÇÃO</a></td><td>Robótica e cultura maker</td><td><span class="badge">Evento</span></td><td class="ja-num">147</td><td class="ja-num">2016</td><td>PAEX-IFES</td></tr><tr><td><a class="lk" href="acoes/1238.html">II Seminário de Educação Especial no Instituto Federal do Espírito Santo</a></td><td>Outros / formação</td><td><span class="badge">Evento</span></td><td class="ja-num">145</td><td class="ja-num">2017</td><td>SEM VÍNCULO</td></tr><tr><td><a class="lk" href="acoes/1116.html">Programa Local Núcleo Incubador Campus Serra – NIS</a></td><td>Empreendedorismo e incubação</td><td><span class="badge">Programa</span></td><td class="ja-num">126</td><td class="ja-num">2021</td><td>PAEX-IFES</td></tr><tr><td><a class="lk" href="acoes/1263.html">Ciclo de estudos 2017/2 do Ifes campus Serra</a></td><td>Outros / formação</td><td><span class="badge">Evento</span></td><td class="ja-num">126</td><td class="ja-num">2017</td><td>SEM VÍNCULO</td></tr><tr><td><a class="lk" href="acoes/454.html">Seminário dos Grupos de Pesquisa do Campus Serra</a></td><td>Outros / formação</td><td><span class="badge">Evento</span></td><td class="ja-num">115</td><td class="ja-num">2015</td><td>SEM VÍNCULO</td></tr><tr><td><a class="lk" href="acoes/2591.html">O IFES é o meu lugar</a></td><td>Captação e ingresso</td><td><span class="badge">Curso</span></td><td class="ja-num">80</td><td class="ja-num">2019</td><td>SEM VÍNCULO</td></tr><tr><td><a class="lk" href="acoes/108.html">Curso de Auxiliar Administrativo</a></td><td>Outros / formação</td><td><span class="badge">Curso</span></td><td class="ja-num">74</td><td class="ja-num">2014</td><td>PRONATEC</td></tr><tr><td><a class="lk" href="acoes/2081.html">O IFES é o meu lugar</a></td><td>Captação e ingresso</td><td><span class="badge">Curso</span></td><td class="ja-num">74</td><td class="ja-num">2018</td><td>SEM VÍNCULO</td></tr></table></div></div></section><section><div class="card" style="margin-top:14px;border-left:3px solid var(--cta)"><h2 style="margin-top:0">Nota: impacto que o número de público não captura</h2><p class="sec-desc" style="line-height:1.6">O indicador de público conta <b>registros de participação</b> (listas de inscrição/certificação). Há iniciativas cujo alcance <b>não passa por lista</b> e por isso aparecem <b>subestimadas</b> ou zeradas: plataformas e ferramentas digitais, serviços de abrangência estadual, e eventos de público aberto. Exemplo: <b>ConectaFapes</b> — plataforma de apoio a pesquisadores de <b>todo o estado</b>; o número de inscritos não reflete o alcance real.</p><p class="sec-desc" style="margin:10px 0 4px"><b>Como medir esse impacto:</b></p><ul style="margin:0 0 0 18px;font-size:13.5px;line-height:1.65"><li><b>Ler os relatórios finais/anuais.</b> Extrair dos relatórios (temos os .odt no acervo) os números que a equipe declara — beneficiários alcançados, nº de eventos, público estimado, resultados qualitativos. Dá para automatizar com extração por IA/NLP sobre os relatórios já coletados.</li><li><b>Métricas de plataforma (projetos digitais).</b> Para ConectaFapes e similares: usuários cadastrados, acessos, downloads, pesquisadores/editais apoiados — puxados do próprio sistema.</li><li><b>Indicadores indiretos de abrangência.</b> Nº de instituições, municípios ou regiões atendidas; parcerias firmadas. Mede espalhamento quando a contagem de pessoas não cabe.</li><li><b>Campo estruturado de alcance estimado.</b> Pedir no cadastro/relatório um &#x27;alcance estimado&#x27; com método declarado — vira dado comparável sem depender de raspagem posterior.</li><li><b>Classificar por tipo de impacto.</b> Marcar cada iniciativa como impacto direto-contável × difuso/plataforma. Não somar os dois no mesmo total — ranquear dentro de cada classe.</li></ul></div></section>
+</div></div></body></html>

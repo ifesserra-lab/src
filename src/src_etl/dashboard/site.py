@@ -26,6 +26,8 @@ from .jornada import (agregar_jornada, svg_curva_fase, svg_funil, svg_timeline,
                       svg_stack, tabela_por_ano, texto_dim_ano,
                       svg_papel_comp, tabela_inic_nao, texto_publico)
 from .temas import agregar_temas, temas_por_pessoa, descrever_temas, _norm as _norm_tema
+from .investimento import (agregar_investimento, tabela_ativas, tabela_dormentes,
+                           tabela_nicho, cards_recomendacoes, nota_limites)
 
 _EXTRA_CSS = """
 table.tb{width:100%;border-collapse:collapse;font-size:13px}
@@ -703,6 +705,9 @@ def _pagina_dados(out_dir: str | Path, stats: dict) -> str:
         ("Inventário da API", "api/index.json", "Índice dos endpoints e totais do acervo."),
         ("Painel agregado", "api/painel.json",
          "Visão geral, indicadores, rede de programas, formados e impacto (tudo agregado)."),
+        ("Investimento", "api/investimento.json",
+         "Iniciativas por nicho × impacto × status (ativa/dormente), recomendações e nota "
+         "sobre impacto não-contável."),
         ("Ações — lista", "api/acoes/index.json", f"As {n_ac} ações, resumidas."),
         ("Extensionistas — completo", "api/extensionistas/todos.json",
          f"As {n_ex} pessoas com trajetória (ações coordenadas/equipe) e resumo por IA."),
@@ -1131,6 +1136,49 @@ def _pagina_comunidade(cons: dict, formandos_dir: str) -> str:
                 tiles + "".join(secoes))
 
 
+# ------------------------------------------------------------- investimento (nicho × impacto × status)
+def _pagina_investimento(cons: dict) -> str:
+    a = agregar_investimento(cons)
+    t = a["totais"]
+    fmt = lambda v: f"{v:,}".replace(",", ".")
+    tiles = "".join([
+        '<div class="tiles">',
+        _tiler(fmt(t["iniciativas"]), "Iniciativas", "extensão + ensino"),
+        _tiler(fmt(t["publico"]), "Público atendido", "registros de participação"),
+        _tiler(fmt(t["ativas"]), "Ativas", f'últ. atividade ≥ {a["criterio_status"]["ativa"][-4:]}'),
+        _tiler(fmt(t["dormentes"]), "Dormentes", f'paradas ≤ {a["criterio_status"]["dormente"][-4:]}'),
+        "</div>"])
+    nicho_barras = _barras([(n["nicho"], n["publico"]) for n in a["por_nicho"]])
+    rec = ('<section><h2>Para onde direcionar (leitura executiva)</h2>'
+           '<p class="sec-desc">Quatro movimentos, do maior retorno ao mais condicionado: '
+           'escalar o que já puxa, reativar dormente barato, ocupar nicho vazio e destravar o '
+           'que depende de convênio.</p>' + cards_recomendacoes(a) + '</section>')
+    nota = '<section>' + nota_limites(a) + '</section>'
+    secoes = [
+        rec,
+        _secao("Público por nicho", nicho_barras,
+               "Nicho = cluster temático do título+resumo (mesmo conceito da página Temas). "
+               "Classifica todas as iniciativas, inclusive as sem área temática oficial."),
+        _secao("Nicho × status", tabela_nicho(a),
+               "Onde está a tração (ativas) e onde há acervo parado com público comprovado "
+               "(dormentes) — por nicho."),
+        _secao("Ativas de maior impacto — merecem investimento", tabela_ativas(a),
+               "As com mais público entre as ativas. Escalar concentra recurso no que já "
+               "tem tração e fomento."),
+        _secao("Dormentes de maior impacto — merecem incentivo para reativar", tabela_dormentes(a),
+               "Público é o pico histórico da iniciativa. Alcance grande já comprovado, hoje "
+               "parado — melhor relação impacto/esforço para reanimar."),
+        nota,
+    ]
+    return _doc("Investimento em iniciativas — Campus Serra", "", "investimento.html",
+                "Investimento",
+                "Onde investir e o que reativar",
+                "Iniciativas cruzadas por nicho, impacto (público) e status (ativa × dormente): "
+                "onde aportar recurso e quais ações paradas merecem incentivo para voltar. "
+                f"Régua de status relativa a {a['ano_referencia']}.",
+                tiles + "".join(secoes))
+
+
 # ------------------------------------------------------------- orquestração
 def _pagina_temas(cons: dict, slugs: dict, descricoes: dict | None = None) -> str:
     """Página Temas & Clusters: temas do texto das ações × público × coordenadores."""
@@ -1221,6 +1269,7 @@ def gerar_site(
     (out / "pendencias-relatorio.html").write_text(_pagina_pendencias(cons, slugs), encoding="utf-8")
     (out / "temas.html").write_text(
         _pagina_temas(cons, slugs, descrever_temas(cons)), encoding="utf-8")
+    (out / "investimento.html").write_text(_pagina_investimento(cons), encoding="utf-8")
     try:
         (out / "jornada.html").write_text(_pagina_jornada(cons, str(formandos_dir)), encoding="utf-8")
         (out / "comunidade.html").write_text(_pagina_comunidade(cons, str(formandos_dir)), encoding="utf-8")

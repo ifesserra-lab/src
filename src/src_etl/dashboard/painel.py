@@ -240,6 +240,7 @@ _ICONES = {
     "dados": '<svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5"/><path d="M12 15V3"/></svg>',
     "temas": '<svg viewBox="0 0 24 24"><path d="M20.6 13.4 11 3.8a2 2 0 0 0-1.4-.6H4a1 1 0 0 0-1 1v5.6a2 2 0 0 0 .6 1.4l9.6 9.6a2 2 0 0 0 2.8 0l4.6-4.6a2 2 0 0 0 0-2.8z"/><circle cx="7.5" cy="7.5" r="1.2"/></svg>',
     "comunidade": '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>',
+    "investimento": '<svg viewBox="0 0 24 24"><line x1="12" y1="20" x2="12" y2="10"/><line x1="18" y1="20" x2="18" y2="4"/><line x1="6" y1="20" x2="6" y2="16"/></svg>',
 }
 
 _NAV_ITENS = [("index.html", "Buscar", "busca"), ("painel.html", "Painel", "painel"),
@@ -248,6 +249,7 @@ _NAV_ITENS = [("index.html", "Buscar", "busca"), ("painel.html", "Painel", "pain
               ("temas.html", "Temas", "temas"),
               ("jornada.html", "Jornada", "pessoas"),
               ("comunidade.html", "Comunidade", "comunidade"),
+              ("investimento.html", "Investimento", "investimento"),
               ("pendencias-relatorio.html", "Pendências", "pend"),
               ("dados-abertos.html", "Dados", "dados")]
 

@@ -561,7 +561,7 @@ def _pagina_sem_participacao(cons: dict, slugs: dict) -> str:
 
 def _tabela_pend(itens: list[dict], slugs: dict, tid: str) -> str:
     """Tabela de pendências: Ação · Tipo · Coord · Ano · Público · Equipe · Últ. relatório · Modelo."""
-    cab = ("<tr><th>Ação</th><th>Tipo</th><th>Coordenador(a)</th><th>Ano</th>"
+    cab = ("<tr><th>Ação</th><th>Tipo</th><th>Coordenador(a)</th><th>Início</th><th>Término</th>"
            "<th>Público</th><th>Equipe</th><th>Últ. relatório</th><th>Modelo de relatório</th></tr>")
     rows = []
     for it in itens:
@@ -570,7 +570,8 @@ def _tabela_pend(itens: list[dict], slugs: dict, tid: str) -> str:
             f'<tr><td><a class="lk" href="acoes/{aid}.html">{escape((it.get("titulo") or "—")[:70])}</a></td>'
             f'<td>{_pill_tipo(it.get("tipo"))}</td>'
             f'<td>{_link_pessoa(it.get("coordenador"), "", slugs)}</td>'
-            f'<td>{escape(it.get("ano") or "—")}</td>'
+            f'<td class="nowrap">{escape(it.get("inicio") or "—")}</td>'
+            f'<td class="nowrap">{escape(it.get("termino") or "—")}</td>'
             f'<td>{it.get("pub", 0)}</td><td>{it.get("eq", 0)}</td>'
             f'<td>{escape(it.get("ultimo") or "—")}</td>'
             f'<td class="nowrap"><a class="lk" href="relatorios-odt/{aid}.pdf">PDF</a>'
@@ -584,8 +585,21 @@ def _pagina_pendencias(cons: dict, slugs: dict) -> str:
     for a in cons["acoes"]:
         if (a.get("Relatório aprovado") or "").strip().lower() == "sim":
             continue
+        from datetime import datetime as _dt
+
+        def _d(s):
+            try:
+                return _dt.strptime((s or "").strip(), "%d/%m/%Y")
+            except (ValueError, AttributeError):
+                return None
         pub, eq = set(), set()
+        inis, terms = [], []
         for p in a.get("participacoes", []):
+            di, dtm = _d(p.get("Início")), _d(p.get("Término"))
+            if di:
+                inis.append(di)
+            if dtm:
+                terms.append(dtm)
             if (p.get("tipo") or "").startswith("Públic"):
                 pid = p.get("CPF") or p.get("Nome")
                 if pid:
@@ -598,6 +612,8 @@ def _pagina_pendencias(cons: dict, slugs: dict) -> str:
                       "tipo": a.get("Tipo ação"),
                       "coordenador": (a.get("Coordenador(a)") or "—").strip(),
                       "ano": (a.get("Data de cadastro") or "")[-4:],
+                      "inicio": min(inis).strftime("%d/%m/%Y") if inis else "",
+                      "termino": max(terms).strftime("%d/%m/%Y") if terms else "",
                       "ultimo": a.get("Data último relatório") or "nunca enviado",
                       "pub": len(pub), "eq": len(eq)})
     itens.sort(key=lambda x: (x["coordenador"], x["ano"]))

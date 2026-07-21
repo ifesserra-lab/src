@@ -85,15 +85,17 @@ display:flex;align-items:center;gap:14px}
 text-decoration:none;white-space:nowrap;display:flex;align-items:center;gap:8px}
 .brand::before{content:'';width:10px;height:10px;border-radius:3px;background:var(--series-1)}
 .brand small{color:var(--muted);font-weight:400;font-size:12px}
-.snav{display:flex;gap:2px 4px;flex-wrap:wrap;flex:1;justify-content:flex-start;
+.snav{display:flex;gap:2px;flex-wrap:nowrap;flex:1;justify-content:flex-start;
 scrollbar-width:none}
 .snav::-webkit-scrollbar{display:none}
 .snav a{white-space:nowrap}
-.snav a{display:flex;align-items:center;gap:6px;padding:7px 9px;border-radius:8px;
-text-decoration:none;color:var(--text-secondary);font-weight:500;font-size:13.5px;
+.snav a{display:flex;align-items:center;gap:5px;padding:6px 7px;border-radius:8px;
+text-decoration:none;color:var(--text-secondary);font-weight:500;font-size:12.5px;
 white-space:nowrap;transition:background .15s,color .15s}
-.snav a svg{width:15px;height:15px;flex:none;stroke:currentColor;fill:none;stroke-width:2;
+.snav a svg{width:14px;height:14px;flex:none;stroke:currentColor;fill:none;stroke-width:2;
 stroke-linecap:round;stroke-linejoin:round}
+/* subtítulo da marca sai da barra horizontal (10 itens não cabem com ele sob o cap) */
+.brand small{display:none}
 .snav a:hover{color:var(--text-primary);background:var(--parchment)}
 .snav a.on{color:var(--series-1);background:color-mix(in srgb,var(--series-1) 12%,transparent)}
 .snav a:focus-visible{outline:2px solid var(--accent-focus);outline-offset:2px}
@@ -277,8 +279,8 @@ img,svg,canvas{max-width:100%;height:auto}
   .par2{gap:16px}
 }
 @media (max-width:380px){.tiles{grid-template-columns:1fr 1fr}}
-/* ---- mobile: menu vira hambúrguer (dropdown), sem scroll horizontal ---- */
-@media (max-width:720px){
+/* ---- nav estreita/mobile: menu vira hambúrguer (dropdown), sem wrap ---- */
+@media (max-width:1080px){
   .nav-burger{display:inline-flex}
   .nav-toggle:checked~.nav-burger .ic-open{display:none}
   .nav-toggle:checked~.nav-burger .ic-close{display:block}
@@ -290,7 +292,7 @@ img,svg,canvas{max-width:100%;height:auto}
   .nav-toggle:checked~.snav{max-height:min(80vh,560px);overflow-y:auto}
   .snav a{width:100%;padding:12px 14px;min-height:44px;font-size:15px}
 }
-@media (max-width:720px) and (prefers-reduced-motion:reduce){.snav{transition:none}}
+@media (max-width:1080px) and (prefers-reduced-motion:reduce){.snav{transition:none}}
 """
 
 

@@ -1010,9 +1010,20 @@ function render(q){
 inp.addEventListener('input',e=>render(e.target.value));render('');
 </script>""".replace("__DADOS__", dados)
     n_coord = sum(1 for p in pessoas if p["coordena"])
+    from .extensionistas import dados_treemap_extensionistas, payload_treemap_extensionistas
+    tm = (_treemap_interativo(payload_treemap_extensionistas(pessoas), dom_id="tm-ext",
+                              fallback=_treemap(dados_treemap_extensionistas(pessoas)))
+          + _tm_legenda([("coordenou", "var(--series-1)"), ("equipe", "var(--c2)")]))
+    mapa = ('<div class="card" style="margin-top:16px">'
+            '<h2 style="margin-top:0">Quem mais impacta (top 16)</h2>'
+            '<p class="sec-desc">Cada bloco é um(a) extensionista (área = pessoas impactadas), '
+            'dividido pelo papel: <b>coordenou</b> (público da ação) × <b>equipe</b> (público das '
+            'atividades em que atuou). Clique num nome para abrir as iniciativas dele(a).</p>'
+            + tm + '</div>')
     conteudo = (f'<div class="tiles">{_tile(len(pessoas), "Extensionistas")}'
                 f'{_tile(n_coord, "Coordenadores(as)")}'
                 f'{_tile(sum(1 for p in pessoas if p["participa"]), "Na equipe de execução")}</div>'
+                f'{mapa}'
                 f'<input class="busca" id="q" type="search" placeholder="Filtrar por nome...">'
                 f'<div id="res"></div>{script}')
     return _doc("Extensionistas — Campus Serra", "../", "extensionistas/index.html",

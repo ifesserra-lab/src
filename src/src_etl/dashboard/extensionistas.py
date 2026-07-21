@@ -113,6 +113,58 @@ def coletar_extensionistas(consolidado: dict) -> list[dict]:
     return out
 
 
+def _impacto_extensionistas(pessoas: list[dict], top: int) -> list[dict]:
+    """Top extensionistas por pessoas impactadas, com detalhe por papel/ação.
+
+    Impacto (mesma conta de `_projetos_por_ano`, honesto):
+      • coordenou → público da ação inteira;
+      • equipe    → público das atividades em que a pessoa atuou (nível atividade),
+        só quando NÃO coordena a mesma ação (evita duplicar)."""
+    linhas = []
+    for p in pessoas:
+        coord_ids = {r["acao_id"] for r in p["coordena"]}
+        imp_eq: dict[str, int] = {}
+        for at in p.get("atividades", []):
+            imp_eq[at["acao_id"]] = imp_eq.get(at["acao_id"], 0) + at.get("pub", 0)
+        coord = [(r["titulo"], r.get("pub", 0)) for r in p["coordena"]]
+        eq = [(r["titulo"], imp_eq.get(r["acao_id"], 0))
+              for r in p["participa"] if r["acao_id"] not in coord_ids]
+        ic, ie = sum(v for _, v in coord), sum(v for _, v in eq)
+        if ic + ie <= 0:
+            continue
+        linhas.append({"nome": p["nome"], "slug": p["slug"], "coord": coord, "eq": eq,
+                       "imp_coord": ic, "imp_eq": ie, "impacto": ic + ie})
+    linhas.sort(key=lambda x: -x["impacto"])
+    return linhas[:top]
+
+
+def dados_treemap_extensionistas(pessoas: list[dict], *, top: int = 16) -> list[dict]:
+    """Grupos p/ `relatorio._treemap`: extensionista × papel (área = pessoas impactadas)."""
+    return [{"nome": r["nome"], "tiles": [
+        ("coordenou", r["imp_coord"], "var(--series-1)"),
+        ("equipe", r["imp_eq"], "var(--c2)")]}
+        for r in _impacto_extensionistas(pessoas, top)]
+
+
+def payload_treemap_extensionistas(pessoas: list[dict], *, top: int = 16) -> dict:
+    """Payload p/ `relatorio._treemap_interativo`: pessoa › papel › iniciativa."""
+    linhas = _impacto_extensionistas(pessoas, top)
+    groups, drill, zero = [], {}, {}
+    for r in linhas:
+        groups.append({"nome": r["nome"], "parts": [
+            ["coordena", r["imp_coord"]], ["equipe", r["imp_eq"]]]})
+        itens = ([{"t": (t or "—")[:60], "c": "coordena", "v": v} for t, v in r["coord"]]
+                 + [{"t": (t or "—")[:60], "c": "equipe", "v": v} for t, v in r["eq"]])
+        drill[r["nome"]] = sorted((i for i in itens if i["v"] > 0), key=lambda i: -i["v"])
+        zero[r["nome"]] = sum(1 for i in itens if i["v"] == 0)
+    return {
+        "dim": "papel", "medida": "pessoas impactadas", "crumb_all": "Top extensionistas",
+        "colors": {"coordena": "var(--series-1)", "equipe": "var(--c2)"},
+        "labels": {"coordena": "coordenou", "equipe": "equipe"},
+        "groups": groups, "drill": drill, "zero": zero,
+    }
+
+
 def coautoria(consolidado: dict) -> dict[str, Counter]:
     """{nome_normalizado: Counter(nome_colaborador -> nº de ações em comum)}.
 

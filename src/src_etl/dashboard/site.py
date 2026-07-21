@@ -20,14 +20,17 @@ from html import escape
 from pathlib import Path
 
 from .painel import HORIZON_CSS, montar_shell
-from .relatorio import _barras, _donut, _linha, _tile as _tiler, _secao, _ranking_coord
+from .relatorio import (_barras, _donut, _linha, _treemap, _treemap_interativo,
+                        _tile as _tiler, _secao, _ranking_coord)
 from .jornada import (agregar_jornada, svg_curva_fase, svg_funil, svg_timeline,
                       svg_inic_stack, tabela_inic_ano, texto_inic_ano,
                       svg_stack, tabela_por_ano, texto_dim_ano,
                       svg_papel_comp, tabela_inic_nao, texto_publico)
-from .temas import agregar_temas, temas_por_pessoa, descrever_temas, _norm as _norm_tema
+from .temas import (agregar_temas, temas_por_pessoa, descrever_temas,
+                    dados_treemap_tema, payload_treemap_tema, _norm as _norm_tema)
 from .investimento import (agregar_investimento, tabela_ativas, tabela_dormentes,
-                           tabela_nicho, cards_recomendacoes, nota_limites)
+                           tabela_nicho, dados_treemap_nicho, payload_treemap_nicho,
+                           cards_recomendacoes, nota_limites)
 
 _EXTRA_CSS = """
 table.tb{width:100%;border-collapse:collapse;font-size:13px}
@@ -102,6 +105,16 @@ def _tile(valor, rotulo, sub="") -> str:
     s = f'<div class="tile-sub">{escape(sub)}</div>' if sub else ""
     return (f'<div class="tile"><div class="tile-val">{valor}</div>'
             f'<div class="tile-lbl">{escape(rotulo)}</div>{s}</div>')
+
+
+def _tm_legenda(itens: list[tuple[str, str]]) -> str:
+    """Legenda horizontal (rótulo, cor) para os treemaps."""
+    sp = "".join(
+        f'<span style="display:inline-flex;align-items:center;gap:6px">'
+        f'<span class="sw" style="background:{c}"></span>{escape(r)}</span>'
+        for r, c in itens)
+    return (f'<div style="display:flex;gap:16px;flex-wrap:wrap;margin-top:10px;'
+            f'font-size:13px;color:var(--text-secondary)">{sp}</div>')
 
 
 def _pill_tipo(tipo) -> str:
@@ -1148,7 +1161,12 @@ def _pagina_investimento(cons: dict) -> str:
         _tiler(fmt(t["ativas"]), "Ativas", f'últ. atividade ≥ {a["criterio_status"]["ativa"][-4:]}'),
         _tiler(fmt(t["dormentes"]), "Dormentes", f'paradas ≤ {a["criterio_status"]["dormente"][-4:]}'),
         "</div>"])
-    nicho_barras = _barras([(n["nicho"], n["publico"]) for n in a["por_nicho"]])
+    nicho_tm = (_treemap_interativo(payload_treemap_nicho(a), dom_id="tm-inv",
+                                    fallback=_treemap(dados_treemap_nicho(a)))
+                + _tm_legenda([("ativa", "var(--ok)"),
+                               ("intermediária", "var(--muted)"),
+                               ("dormente", "var(--cta)")]))
+    n_zero = sum(1 for r in a["iniciativas"] if r["publico"] == 0)
     rec = ('<section><h2>Para onde direcionar (leitura executiva)</h2>'
            '<p class="sec-desc">Quatro movimentos, do maior retorno ao mais condicionado: '
            'escalar o que já puxa, reativar dormente barato, ocupar nicho vazio e destravar o '
@@ -1156,9 +1174,15 @@ def _pagina_investimento(cons: dict) -> str:
     nota = '<section>' + nota_limites(a) + '</section>'
     secoes = [
         rec,
-        _secao("Público por nicho", nicho_barras,
-               "Nicho = cluster temático do título+resumo (mesmo conceito da página Temas). "
-               "Classifica todas as iniciativas, inclusive as sem área temática oficial."),
+        _secao("Público por nicho × status", nicho_tm,
+               "Cada bloco é um nicho (área = público atendido), subdividido por status "
+               "(verde ativa · cinza intermediária · laranja dormente). Bloco grande e "
+               "laranja = muito público hoje parado. Clique num nicho para abrir as "
+               "iniciativas dele (ou veja as tabelas abaixo).",
+               explica=("Nicho = cluster temático do título+resumo (mesmo conceito da página "
+                        "Temas), classifica todas as iniciativas. O treemap não mostra público "
+                        f"zero: {n_zero} iniciativas têm público 0 (área nula) e não aparecem "
+                        "como quadro — entram nas contagens de status, não no tamanho.")),
         _secao("Nicho × status", tabela_nicho(a),
                "Onde está a tração (ativas) e onde há acervo parado com público comprovado "
                "(dormentes) — por nicho."),
@@ -1224,10 +1248,20 @@ def _pagina_temas(cons: dict, slugs: dict, descricoes: dict | None = None) -> st
              '• <b>Pessoas distintas</b> = indivíduos únicos (deduplicados por CPF, uso interno). Mede '
              'alcance real de pessoas. A % é a fatia relativa entre os temas — como alguém pode aparecer '
              'em mais de um tema, a soma pode passar de 100%.</div>')
+    tema_tm = (_treemap_interativo(payload_treemap_tema(cons), dom_id="tm-tem",
+                                   fallback=_treemap(dados_treemap_tema(cons)))
+               + _tm_legenda([("Curso", "var(--c1)"), ("Programa", "var(--c2)"),
+                              ("Evento", "var(--c3)"), ("Projeto", "var(--c4)")]))
+    mapa = ('<div class="card" style="margin-top:14px">'
+            '<h2 style="margin-top:0">Mapa: atendimentos por tema × tipo</h2>'
+            '<p class="sec-desc">Cada bloco é um tema (área = atendimentos de público), '
+            'subdividido pelos tipos de ação. Clique num tema para abrir as iniciativas; '
+            'os cards abaixo trazem coordenadores e exemplos de cada tema.</p>'
+            + tema_tm + '</div>')
     return _doc("Temas & Clusters — Campus Serra", "", "temas.html",
                 "Temas", "Temas & clusters da extensão",
                 "O que a extensão faz, por tema — do texto das ações",
-                intro + "".join(cards))
+                intro + mapa + "".join(cards))
 
 
 def gerar_site(

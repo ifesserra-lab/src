@@ -277,6 +277,275 @@ def _donut(dados: list[tuple[str, int]]) -> str:
     return f'<div class="donut-wrap">{svg}<div class="leg">{"".join(leg)}</div></div>'
 
 
+def _squarify(itens: list[tuple], x: float, y: float, w: float, h: float) -> list[tuple]:
+    """Layout squarified de treemap (Bruls, Huizing & van Wijk, 2000).
+
+    Recebe `itens = [(chave, valor), ...]` e o retângulo (x, y, w, h) e devolve
+    `[(chave, valor, x, y, w, h), ...]` — cada item recebe um retângulo cuja ÁREA
+    é proporcional ao valor, buscando quadrados (razão de aspecto ~1) para leitura.
+    Itens de valor <= 0 devem ser filtrados ANTES (área nula quebra o layout)."""
+    total = sum(v for _, v in itens)
+    if total <= 0 or w <= 0 or h <= 0:
+        return []
+    scale = (w * h) / total
+    areas = [(k, v, v * scale) for k, v in itens]  # (chave, valor, área)
+    out: list[tuple] = []
+    rx, ry, rw, rh = x, y, w, h
+    n, i = len(areas), 0
+
+    def _worst(row_areas: list[float], side: float, s: float) -> float:
+        mx, mn = max(row_areas), min(row_areas)
+        return max((side * side * mx) / (s * s), (s * s) / (side * side * mn))
+
+    while i < n:
+        side = min(rw, rh)
+        row: list[tuple] = []
+        row_area, best, j = 0.0, float("inf"), i
+        while j < n:
+            cand = [a for _, _, a in row] + [areas[j][2]]
+            wst = _worst(cand, side, row_area + areas[j][2])
+            if wst <= best:
+                row.append(areas[j]); row_area += areas[j][2]; best = wst; j += 1
+            else:
+                break
+        if rw >= rh:  # empilha a fileira como uma COLUNA à esquerda
+            col_w = row_area / rh
+            yy = ry
+            for k, v, a in row:
+                hh = a / col_w
+                out.append((k, v, rx, yy, col_w, hh)); yy += hh
+            rx += col_w; rw -= col_w
+        else:         # empilha a fileira como uma LINHA no topo
+            row_h = row_area / rw
+            xx = rx
+            for k, v, a in row:
+                ww = a / row_h
+                out.append((k, v, xx, ry, ww, row_h)); xx += ww
+            ry += row_h; rh -= row_h
+        i = j
+    return out
+
+
+def _treemap(grupos: list[dict], *, unidade: str = "") -> str:
+    """Treemap (mapa de árvore) de 2 níveis, em SVG puro (sem JS, sem libs).
+
+    Mostra HIERARQUIA + MAGNITUDE num só quadro: cada GRUPO vira um bloco cuja
+    área é proporcional ao seu total, subdividido em QUADROS-FILHOS coloridos.
+    Bom para "part-of-whole" aninhado (ex.: nicho × status, tema × tipo); ruim
+    para série temporal ou comparação numérica precisa.
+
+    COMO USAR
+    ---------
+    grupos: lista de dicts, um por bloco de 1º nível::
+
+        grupos = [
+            {"nome": "Robótica e cultura maker", "tiles": [
+                ("ativa",         2028, "var(--ok)"),    # (rótulo, valor, cor)
+                ("dormente",       671, "var(--cta)"),
+                ("intermediária",  124, "var(--mid)"),
+            ]},
+            {"nome": "Mulheres e inclusão", "tiles": [ ... ]},
+        ]
+        html = _treemap(grupos, unidade="")   # -> string SVG, largura 100%
+
+    - O total de cada grupo é a soma dos valores dos seus `tiles` (não passe total).
+    - `cor` é qualquer cor CSS; use os tokens do tema (`var(--ok)`, `var(--cta)`,
+      `var(--muted)`, `var(--c1..c6)`) para funcionar em claro E escuro.
+    - Ordene os `tiles` como quiser; a função reordena por valor (maior primeiro).
+    - Rótulo + valor + % (do grupo) aparecem no quadro quando cabem; sempre há um
+      `<title>` (tooltip nativo) com o texto completo.
+    - LIMITE: valor 0 tem área nula e é descartado (não vira quadro). Informe esses
+      casos fora do gráfico (contagem/nota), como fazem as páginas Investimento/Temas.
+
+    Onde é usado: página Investimento (nicho × status) e Temas (tema × tipo) —
+    ver `dados_treemap_nicho()` em investimento.py e `dados_treemap_tema()` em temas.py.
+    """
+    def _fmt(v: int) -> str:
+        return f"{v:,}".replace(",", ".")
+
+    grupos = [g for g in grupos if sum(v for _, v, _ in g["tiles"]) > 0]
+    if not grupos:
+        return '<p class="vazio">Sem dados ainda.</p>'
+    W, H, HD, PAD = 1000, 560, 22, 3
+    total = sum(sum(v for _, v, _ in g["tiles"]) for g in grupos)
+    parents = _squarify(
+        [(gi, sum(v for _, v, _ in g["tiles"])) for gi, g in enumerate(grupos)], 0, 0, W, H)
+    partes: list[str] = []
+    for gi, pv, px, py, pw, ph in parents:
+        g = grupos[gi]
+        show_hd = ph > HD + 14 and pw > 90
+        if show_hd:
+            partes.append(
+                f'<text x="{px+6:.0f}" y="{py+15:.0f}" class="tm-hd">{escape(g["nome"][:34])}</text>'
+                f'<text x="{px+pw-6:.0f}" y="{py+15:.0f}" text-anchor="end" class="tm-hp">'
+                f'{_fmt(pv)} · {pv/total*100:.0f}%</text>')
+        ix = px + PAD
+        iy = py + (HD if show_hd else PAD)
+        iw = pw - PAD * 2
+        ih = ph - (HD if show_hd else PAD) - PAD
+        tiles = sorted((t for t in g["tiles"] if t[1] > 0), key=lambda t: -t[1])
+        kids = _squarify([(ti, t[1]) for ti, t in enumerate(tiles)], 0, 0, max(iw, 1), max(ih, 1))
+        for ti, kv, kx, ky, kw, kh in kids:
+            rot, val, cor = tiles[ti]
+            X, Y = ix + kx, iy + ky
+            share = kv / pv * 100 if pv else 0
+            partes.append(
+                f'<g class="tm-tile"><rect x="{X:.1f}" y="{Y:.1f}" width="{kw:.1f}" height="{kh:.1f}" '
+                f'rx="4" fill="{cor}" stroke="var(--surface-1)" stroke-width="2"/>'
+                f'<title>{escape(g["nome"])} — {escape(rot)}: {_fmt(kv)}{escape(unidade)} '
+                f'({share:.0f}% do grupo)</title>')
+            if kw > 66 and kh > 40:
+                partes.append(
+                    f'<text x="{X+7:.1f}" y="{Y+kh-16:.1f}" class="tm-name">{escape(rot[:24])}</text>'
+                    f'<text x="{X+7:.1f}" y="{Y+kh-5:.1f}" class="tm-val">{_fmt(kv)}{escape(unidade)} · {share:.0f}%</text>')
+            elif kw > 44 and kh > 24:
+                partes.append(
+                    f'<text x="{X+6:.1f}" y="{Y+kh-6:.1f}" class="tm-val">{_fmt(kv)} · {share:.0f}%</text>')
+            partes.append('</g>')
+    return (f'<svg viewBox="0 0 {W} {H}" width="100%" role="img" '
+            f'style="display:block;border-radius:8px">{"".join(partes)}</svg>')
+
+
+# JS do treemap navegável (squarified + drill + tooltip), isolado por container.
+_TREEMAP_JS = r"""(function(){
+var DATA=__DATA__, ID="__ID__", W=1000,H=560,PAD=2.5,HD=22;
+var board=document.getElementById(ID+"-board"),crumbs=document.getElementById(ID+"-crumbs"),
+    tip=document.getElementById(ID+"-tip"),drill=null;
+var fmt=function(n){return n.toLocaleString('pt-BR');};
+function worst(a,side,s){var mx=Math.max.apply(null,a),mn=Math.min.apply(null,a);
+  return Math.max(side*side*mx/(s*s),s*s/(side*side*mn));}
+function mk(it,x,y,w,h){var o={};for(var k in it)o[k]=it[k];o.x=x;o.y=y;o.w=w;o.h=h;return o;}
+function squ(items,x,y,w,h){
+  var total=items.reduce(function(s,it){return s+it.value;},0);
+  if(total<=0||w<=0||h<=0)return [];
+  var scale=w*h/total,nodes=items.map(function(it){return {it:it,area:it.value*scale};}),out=[];
+  var rx=x,ry=y,rw=w,rh=h,i=0;
+  while(i<nodes.length){
+    var side=Math.min(rw,rh),row=[],rowArea=0,best=Infinity,j=i;
+    while(j<nodes.length){
+      var cand=row.map(function(n){return n.area;}).concat(nodes[j].area);
+      var wst=worst(cand,side,rowArea+nodes[j].area);
+      if(wst<=best){row.push(nodes[j]);rowArea+=nodes[j].area;best=wst;j++;}else break;
+    }
+    if(rw>=rh){var cw=rowArea/rh,yy=ry;row.forEach(function(n){var hh=n.area/cw;out.push(mk(n.it,rx,yy,cw,hh));yy+=hh;});rx+=cw;rw-=cw;}
+    else{var rh2=rowArea/rw,xx=rx;row.forEach(function(n){var ww=n.area/rh2;out.push(mk(n.it,xx,ry,ww,rh2));xx+=ww;});ry+=rh2;rh-=rh2;}
+    i=j;
+  }
+  return out;
+}
+function groups(){
+  if(!drill){
+    return DATA.groups.map(function(g){
+      var tiles=g.parts.map(function(p){var c=p[0];return {name:(DATA.labels[c]||c),val:p[1],value:p[1],color:DATA.colors[c]||'#888',cat:c};})
+        .filter(function(t){return t.val>0;}).sort(function(a,b){return b.val-a.val;});
+      return {name:g.nome,value:tiles.reduce(function(s,t){return s+t.val;},0),clickable:true,tiles:tiles};
+    }).filter(function(g){return g.value>0;}).sort(function(a,b){return b.value-a.value;});
+  }
+  var rows=(DATA.drill[drill]||[]),by={};
+  rows.forEach(function(r){(by[r.c]=by[r.c]||[]).push(r);});
+  return Object.keys(by).map(function(c){
+    return {name:(DATA.labels[c]||c),value:by[c].reduce(function(s,r){return s+r.v;},0),color:DATA.colors[c]||'#888',clickable:false,
+      tiles:by[c].map(function(r){return {name:r.t,val:r.v,value:r.v,color:DATA.colors[c]||'#888',cat:c};}).sort(function(a,b){return b.val-a.val;})};
+  }).sort(function(a,b){return b.value-a.value;});
+}
+function ep(g){return 'left:'+(g.x/W*100)+'%;top:'+(g.y/H*100)+'%;width:'+(g.w/W*100)+'%;height:'+(g.h/H*100)+'%';}
+function render(){
+  var gs=groups(),total=gs.reduce(function(s,g){return s+g.value;},0)||1;
+  var laid=squ(gs.map(function(g){return mk(g,0,0,0,0);}),0,0,W,H);
+  board.innerHTML='';
+  laid.forEach(function(g){
+    var showHd=g.h>HD+14&&g.w>76,div=document.createElement('div');
+    div.className='tmi-p'+(g.clickable?' clk':'');div.style.cssText=ep(g);
+    if(showHd){var hd=document.createElement('div');hd.className='tmi-hd';
+      hd.innerHTML='<span style="overflow:hidden;text-overflow:ellipsis">'+g.name+'</span><span class="p">'+fmt(g.value)+' · '+Math.round(g.value/total*100)+'%</span>';
+      div.appendChild(hd);}
+    if(g.clickable){div.tabIndex=0;div.setAttribute('role','button');div.title='Abrir '+g.name;
+      var open=function(){drill=g.name;render();};
+      div.addEventListener('click',open);
+      div.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();open();}});}
+    var ix=PAD,iy=(showHd?HD:PAD),iw=g.w-PAD*2,ih=g.h-(showHd?HD:PAD)-PAD;
+    var kids=squ(g.tiles.map(function(t){return mk(t,0,0,0,0);}),0,0,Math.max(iw,1),Math.max(ih,1));
+    kids.forEach(function(k){
+      var t=document.createElement('div');t.className='tmi-t';
+      t.style.cssText='left:'+((ix+k.x)/g.w*100)+'%;top:'+((iy+k.y)/g.h*100)+'%;width:'+(k.w/g.w*100)+'%;height:'+(k.h/g.h*100)+'%;background:'+k.color;
+      var sg=k.val/g.value*100,st=k.val/total*100;
+      if(k.w>66&&k.h>40)t.innerHTML='<span class="n">'+k.name+'</span><span class="v">'+fmt(k.val)+' <small>· '+Math.round(sg)+'%</small></span>';
+      else if(k.w>44&&k.h>24)t.innerHTML='<span class="v">'+fmt(k.val)+'<small> · '+Math.round(sg)+'%</small></span>';
+      t.addEventListener('pointerenter',function(e){showTip(e,g,k,sg,st);});
+      t.addEventListener('pointermove',moveTip);t.addEventListener('pointerleave',hideTip);
+      if(g.clickable)t.style.pointerEvents='none';
+      div.appendChild(t);
+    });
+    board.appendChild(div);
+  });
+  renderCrumbs();
+}
+function renderCrumbs(){
+  if(!drill){crumbs.innerHTML='<span class="cur">'+DATA.crumb_all+'</span> — clique num quadro para ver as iniciativas';}
+  else{var z=DATA.zero[drill]||0,note=z?(' · +'+z+' sem '+DATA.medida+' registrado'):'';
+    crumbs.innerHTML='<button type="button">← '+DATA.crumb_all+'</button> › <span class="cur">'+drill+'</span>'+note;
+    crumbs.querySelector('button').addEventListener('click',function(){drill=null;render();});}
+}
+function showTip(e,g,k,sg,st){
+  tip.innerHTML='<b>'+k.name+'</b>'+(drill?'<div style="opacity:.8;margin-top:2px">'+DATA.dim+': '+(DATA.labels[k.cat]||k.cat)+' · '+drill+'</div>':'<div style="opacity:.8;margin-top:2px">'+g.name+'</div>')
+    +'<div class="r"><span class="k">'+DATA.medida+'</span><span>'+fmt(k.val)+'</span></div>'
+    +'<div class="r"><span class="k">'+(drill?'do nicho/tema':'do grupo')+'</span><span>'+Math.round(sg)+'%</span></div>'
+    +'<div class="r"><span class="k">do total</span><span>'+st.toFixed(1)+'%</span></div>';
+  tip.classList.add('on');moveTip(e);
+}
+function moveTip(e){var pad=14,tw=tip.offsetWidth,th=tip.offsetHeight,x=e.clientX+pad,y=e.clientY+pad;
+  if(x+tw>innerWidth)x=e.clientX-tw-pad;if(y+th>innerHeight)y=e.clientY-th-pad;tip.style.left=x+'px';tip.style.top=y+'px';}
+function hideTip(){tip.classList.remove('on');}
+addEventListener('resize',render);render();
+})();"""
+
+
+def _treemap_interativo(payload: dict, *, dom_id: str, fallback: str = "") -> str:
+    """Treemap NAVEGÁVEL (drill-down) em HTML + JS — categoria › iniciativa.
+
+    Ao contrário de `_treemap` (SVG estático, 1 nível), este permite CLICAR num
+    grupo para descer ao 2º nível (as iniciativas daquele grupo, agrupadas pela
+    mesma dimensão colorida). Tem breadcrumb de volta, tooltip com %, e degrada
+    para o `fallback` (o SVG estático) quando não há JS, via <noscript>.
+
+    COMO USAR
+    ---------
+    payload: dict serializável em JSON com::
+
+        {
+          "dim": "status",              # palavra da dimensão (aparece no tooltip)
+          "medida": "público",          # o que o valor conta (tooltip + nota)
+          "crumb_all": "Todos os nichos",
+          "colors": {"ativa":"var(--ok)", "dormente":"var(--cta)", ...},  # cat -> cor
+          "labels": {"ativa":"ativa", "intermediaria":"intermediária"},    # cat -> rótulo (opcional)
+          "groups": [                   # NÍVEL 1: um por categoria
+             {"nome":"Robótica...", "parts":[["ativa",2028],["dormente",671]]},
+          ],
+          "drill": {                    # NÍVEL 2: iniciativas por categoria (só valor>0)
+             "Robótica...": [{"t":"LAMPEX...", "c":"ativa", "v":1290}, ...],
+          },
+          "zero": {"Robótica...": 5},   # nº de iniciativas com valor 0 (nota no breadcrumb)
+        }
+
+    dom_id: id único do container na página (ex.: "tm-inv", "tm-tem").
+    fallback: HTML mostrado dentro de <noscript> (passe `_treemap(...)`).
+
+    Cores devem ser tokens do tema (`var(--ok)`, `var(--c1)`...) p/ claro + escuro.
+    Emite: <div#dom_id>(crumbs+board)</div> + <div#dom_id-tip> + <script>.
+    Monta os dados com `payload_treemap_nicho()` (investimento.py) e
+    `payload_treemap_tema()` (temas.py).
+    """
+    data = json.dumps(payload, ensure_ascii=False).replace("</", "<\\/")
+    js = _TREEMAP_JS.replace("__DATA__", data).replace("__ID__", dom_id)
+    nos = f"<noscript>{fallback}</noscript>" if fallback else ""
+    return (f'<div class="tmi" id="{dom_id}">'
+            f'<div class="tmi-crumbs" id="{dom_id}-crumbs"></div>'
+            f'<div class="tmi-board" id="{dom_id}-board" role="img" '
+            f'aria-label="Treemap navegável"></div></div>{nos}'
+            f'<div class="tmi-tip" id="{dom_id}-tip" role="status" aria-live="polite"></div>'
+            f'<script>{js}</script>')
+
+
 def _lista_acoes(itens: list[tuple]) -> str:
     """Lista rolável de ações (título · tipo · processo · [coordenador])."""
     if not itens:

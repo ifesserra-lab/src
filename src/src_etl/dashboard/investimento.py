@@ -255,6 +255,48 @@ def tabela_dormentes(a: dict) -> str:
     return _tabela_destaque(a["top_dormentes"], cta_col="Público (pico)")
 
 
+def dados_treemap_nicho(a: dict) -> list[dict]:
+    """Grupos para `relatorio._treemap`: nicho × status (área = público).
+
+    Cor = estado temporal (verde ativa · laranja dormente · cinza intermediária).
+    'intermediária' = público que não é nem de ativa nem de dormente."""
+    grupos = []
+    for n in a["por_nicho"]:
+        meio = max(0, n["publico"] - n["publico_ativo"] - n["publico_dormente"])
+        grupos.append({"nome": n["nicho"], "tiles": [
+            ("ativa", n["publico_ativo"], "var(--ok)"),
+            ("dormente", n["publico_dormente"], "var(--cta)"),
+            ("intermediária", meio, "var(--muted)"),
+        ]})
+    return grupos
+
+
+def payload_treemap_nicho(a: dict) -> dict:
+    """Payload p/ `relatorio._treemap_interativo`: nicho › status › iniciativa."""
+    from collections import defaultdict
+    groups = []
+    for n in a["por_nicho"]:
+        meio = max(0, n["publico"] - n["publico_ativo"] - n["publico_dormente"])
+        groups.append({"nome": n["nicho"], "parts": [
+            ["ativa", n["publico_ativo"]], ["dormente", n["publico_dormente"]],
+            ["intermediaria", meio]]})
+    dd: dict[str, list] = defaultdict(list)
+    for r in a["iniciativas"]:
+        dd[r["nicho"]].append(r)
+    drill, zero = {}, {}
+    for nicho, rows in dd.items():
+        rows.sort(key=lambda r: -r["publico"])
+        drill[nicho] = [{"t": (r["titulo"] or "—")[:60], "c": r["status"], "v": r["publico"]}
+                        for r in rows if r["publico"] > 0]
+        zero[nicho] = sum(1 for r in rows if r["publico"] == 0)
+    return {
+        "dim": "status", "medida": "público", "crumb_all": "Todos os nichos",
+        "colors": {"ativa": "var(--ok)", "dormente": "var(--cta)", "intermediaria": "var(--muted)"},
+        "labels": {"ativa": "ativa", "dormente": "dormente", "intermediaria": "intermediária"},
+        "groups": groups, "drill": drill, "zero": zero,
+    }
+
+
 def tabela_nicho(a: dict) -> str:
     """Nicho × status: público total, ativas vs dormentes."""
     rows = "".join(

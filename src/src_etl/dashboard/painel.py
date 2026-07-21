@@ -43,6 +43,7 @@ HORIZON_CSS = """
   --text-primary:#1e293b; --text-secondary:#475569; --muted:#64748b;
   --grid:#e2e8f0; --border:#cbd5e1;
   --series-1:#3b82f6; --series-2:#0d9488; --accent-focus:#2563eb; --cta:#f97316; --nav-bg:#ffffff;
+  --ok:#01B574;
   --c1:#3b82f6; --c2:#0d9488; --c3:#d97706; --c4:#7c3aed; --c5:#0891b2; --c6:#db2777;
   --row-hover:#eff6ff;
   --radius:10px; --radius-sm:6px;
@@ -54,6 +55,7 @@ HORIZON_CSS = """
   --text-primary:#f1f5f9; --text-secondary:#cbd5e1; --muted:#94a3b8;
   --grid:#334155; --border:#475569;
   --series-1:#60a5fa; --series-2:#2dd4bf; --accent-focus:#93c5fd; --cta:#fb923c; --nav-bg:#0f172a;
+  --ok:#05cd99;
   --c1:#60a5fa; --c2:#2dd4bf; --c3:#fbbf24; --c4:#a78bfa; --c5:#22d3ee; --c6:#f472b6;
   --row-hover:#1e3a5f;
 }}
@@ -63,6 +65,7 @@ HORIZON_CSS = """
   --text-primary:#f1f5f9; --text-secondary:#cbd5e1; --muted:#94a3b8;
   --grid:#334155; --border:#475569;
   --series-1:#60a5fa; --series-2:#2dd4bf; --accent-focus:#93c5fd; --cta:#fb923c; --nav-bg:#0f172a;
+  --ok:#05cd99;
   --c1:#60a5fa; --c2:#2dd4bf; --c3:#fbbf24; --c4:#a78bfa; --c5:#22d3ee; --c6:#f472b6;
   --row-hover:#1e3a5f;
 }
@@ -159,6 +162,45 @@ padding:16px;overflow-x:auto}
 .leg-item{display:flex;align-items:center;gap:8px;font-size:13px}
 .sw{width:11px;height:11px;border-radius:3px;flex:none}
 .leg-nome{flex:1}.leg-val{color:var(--text-secondary);font-family:var(--mono);font-size:12px}
+/* treemap (mapa de árvore) — rótulos sobre os quadros coloridos */
+.tm-hd{fill:var(--text-primary);font-size:12px;font-weight:700}
+.tm-hp{fill:var(--muted);font-size:11px;font-variant-numeric:tabular-nums}
+.tm-name{fill:#fff;font-size:11px;font-weight:700;paint-order:stroke;stroke:rgba(0,0,0,.45);stroke-width:2.4px;stroke-linejoin:round}
+.tm-val{fill:#fff;font-size:12px;font-weight:800;font-variant-numeric:tabular-nums;paint-order:stroke;stroke:rgba(0,0,0,.5);stroke-width:2.6px;stroke-linejoin:round}
+.tm-tile{transition:filter .12s}.tm-tile:hover{filter:brightness(1.08)}
+/* treemap interativo (drill-down): categoria -> iniciativa */
+.tmi{margin-top:6px}
+.tmi-crumbs{display:flex;align-items:center;gap:8px;font-size:13px;margin:2px 0 10px;
+min-height:32px;flex-wrap:wrap;color:var(--muted)}
+.tmi-crumbs button{appearance:none;border:1px solid var(--border);background:var(--surface-1);
+color:var(--series-1);font:inherit;font-size:13px;font-weight:600;cursor:pointer;padding:5px 11px;border-radius:6px}
+.tmi-crumbs button:hover{border-color:var(--series-1)}
+.tmi-crumbs button:focus-visible{outline:2px solid var(--accent-focus);outline-offset:2px}
+.tmi-crumbs .cur{font-weight:700;color:var(--text-primary)}
+.tmi-board{position:relative;width:100%;aspect-ratio:1000/560;background:var(--parchment);
+border-radius:8px;overflow:hidden;border:1px solid var(--grid)}
+.tmi-p{position:absolute;overflow:hidden;border-radius:6px}
+.tmi-p.clk{cursor:pointer}
+.tmi-p.clk:hover{outline:2px solid var(--series-1);outline-offset:-2px;z-index:6}
+.tmi-p.clk:focus-visible{outline:2px solid var(--accent-focus);outline-offset:-2px;z-index:6}
+.tmi-hd{position:absolute;left:0;right:0;top:0;height:22px;display:flex;align-items:center;gap:6px;
+padding:0 8px;font-size:11.5px;font-weight:700;color:var(--text-primary);white-space:nowrap;
+overflow:hidden;pointer-events:none;z-index:3}
+.tmi-hd .p{color:var(--muted);font-weight:600;margin-left:auto;font-variant-numeric:tabular-nums}
+.tmi-t{position:absolute;border-radius:5px;padding:5px 7px;overflow:hidden;display:flex;
+flex-direction:column;justify-content:flex-end;transition:filter .12s}
+.tmi-t:hover{filter:brightness(1.09)}
+.tmi-t .n{font-size:11px;font-weight:700;color:#fff;line-height:1.15;text-shadow:0 1px 2px rgba(0,0,0,.5);
+display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.tmi-t .v{font-size:12px;font-weight:800;color:#fff;font-variant-numeric:tabular-nums;
+text-shadow:0 1px 2px rgba(0,0,0,.55);margin-top:2px}
+.tmi-t .v small{font-weight:700;opacity:.9}
+.tmi-tip{position:fixed;pointer-events:none;z-index:60;background:var(--text-primary);color:var(--surface-1);
+padding:8px 11px;border-radius:8px;font-size:12.5px;line-height:1.45;max-width:280px;
+box-shadow:0 10px 24px -8px rgba(0,0,0,.5);opacity:0;transition:opacity .1s}
+.tmi-tip.on{opacity:1}
+.tmi-tip .r{display:flex;justify-content:space-between;gap:16px;font-variant-numeric:tabular-nums;margin-top:2px}
+.tmi-tip .k{opacity:.7}
 footer{margin-top:36px;color:var(--muted);font-size:12px;
 border-top:1px solid var(--grid);padding-top:12px}
 .pii{background:var(--parchment);border-radius:var(--radius-sm);

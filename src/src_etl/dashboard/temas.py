@@ -106,6 +106,67 @@ def agregar_temas(cons: dict, slugs: dict | None = None) -> list[dict]:
     return sorted(out, key=lambda x: -x["publico"])
 
 
+def _cor_tipo(tipo: str) -> str:
+    """Cor (token do tema) por tipo de ação — mesma semântica dos chips do site."""
+    tl = (tipo or "").lower()
+    return ("var(--c1)" if "curso" in tl else "var(--c3)" if "evento" in tl
+            else "var(--c4)" if "projeto" in tl else "var(--c2)" if "programa" in tl
+            else "var(--c5)" if ("oficina" in tl or "produto" in tl) else "var(--muted)")
+
+
+def dados_treemap_tema(cons: dict) -> list[dict]:
+    """Grupos para `relatorio._treemap`: tema × tipo de ação (área = atendimentos).
+
+    Cor = tipo (identidade categórica, ordem fixa). Ordena tema e tipo por volume."""
+    mat: dict[str, Counter] = defaultdict(Counter)
+    for a in cons.get("acoes", []):
+        if not _considera(a):
+            continue
+        t = tema_de(a)
+        tp = (a.get("Tipo ação") or "—").strip() or "—"
+        pub = sum(1 for p in a.get("participacoes", [])
+                  if (p.get("tipo") or "").startswith("Públic"))
+        mat[t][tp] += pub
+    grupos = []
+    for tema, c in mat.items():
+        tiles = [(tp, v, _cor_tipo(tp)) for tp, v in c.most_common()]
+        grupos.append({"nome": tema, "tiles": tiles})
+    grupos.sort(key=lambda g: -sum(v for _, v, _ in g["tiles"]))
+    return grupos
+
+
+def payload_treemap_tema(cons: dict) -> dict:
+    """Payload p/ `relatorio._treemap_interativo`: tema › tipo › iniciativa."""
+    matp: dict[str, Counter] = defaultdict(Counter)
+    drillmap: dict[str, list] = defaultdict(list)
+    zero: dict[str, int] = defaultdict(int)
+    tipos: set[str] = set()
+    for a in cons.get("acoes", []):
+        if not _considera(a):
+            continue
+        t = tema_de(a)
+        tp = (a.get("Tipo ação") or "—").strip() or "—"
+        tipos.add(tp)
+        pub = sum(1 for p in a.get("participacoes", [])
+                  if (p.get("tipo") or "").startswith("Públic"))
+        matp[t][tp] += pub
+        if pub > 0:
+            drillmap[t].append({"t": (a.get("Título ação") or "—")[:60], "c": tp, "v": pub})
+        else:
+            zero[t] += 1
+    groups = [{"nome": tema, "parts": [[tp, v] for tp, v in c.most_common()]}
+              for tema, c in matp.items()]
+    groups.sort(key=lambda g: -sum(v for _, v in g["parts"]))
+    for t in drillmap:
+        drillmap[t].sort(key=lambda r: -r["v"])
+    return {
+        "dim": "tipo", "medida": "atendimentos", "crumb_all": "Todos os temas",
+        "colors": {tp: _cor_tipo(tp) for tp in tipos},
+        "labels": {tp: tp for tp in tipos},
+        "groups": groups, "drill": dict(drillmap), "zero": dict(zero),
+    }
+
+
 def _material_tema(cons: dict) -> dict:
     """{tema: [títulos + trechos de resumo dos projetos]} para alimentar o modelo."""
     mat: dict[str, dict] = defaultdict(lambda: {"titulos": [], "resumos": []})

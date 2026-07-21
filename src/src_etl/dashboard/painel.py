@@ -79,13 +79,13 @@ transition:none!important;animation:none!important}}
 /* ---- topbar (menu horizontal superior) ---- */
 .topbar{position:sticky;top:0;z-index:50;background:var(--nav-bg);
 border-bottom:1px solid var(--grid)}
-.topbar-in{max-width:1160px;margin:0 auto;padding:7px 20px;min-height:52px;
-display:flex;align-items:center;gap:14px}
+.topbar-in{max-width:1400px;margin:0 auto;padding:7px 24px;min-height:52px;
+display:flex;align-items:center;gap:18px}
 .brand{font-weight:700;font-size:15px;color:var(--text-primary);
 text-decoration:none;white-space:nowrap;display:flex;align-items:center;gap:8px}
 .brand::before{content:'';width:10px;height:10px;border-radius:3px;background:var(--series-1)}
 .brand small{color:var(--muted);font-weight:400;font-size:12px}
-.snav{display:flex;gap:2px;flex-wrap:nowrap;flex:1;justify-content:flex-start;
+.snav{display:flex;gap:2px;flex-wrap:nowrap;flex:1;justify-content:space-between;
 scrollbar-width:none}
 .snav::-webkit-scrollbar{display:none}
 .snav a{white-space:nowrap}
@@ -108,7 +108,7 @@ color:var(--text-secondary)}
 .nav-burger .ic-close{display:none}
 .nav-toggle:focus-visible~.nav-burger{outline:2px solid var(--accent-focus);outline-offset:2px}
 .main{min-width:0}
-.wrap{max-width:1160px;margin:0 auto;padding:28px 20px 64px}
+.wrap{max-width:1400px;margin:0 auto;padding:28px 24px 64px}
 .crumb{color:var(--muted);font-size:12px;margin:0 0 4px}
 .crumb b{color:var(--text-secondary);font-weight:600}
 header h1{margin:0 0 6px;font-size:26px;font-weight:700;line-height:1.2;

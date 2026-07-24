@@ -10,7 +10,7 @@ interface Props {
 }
 const { data, color = 'var(--c1)', id = 'ln', unit = '' } = Astro.props;
 
-const W = 480, H = 170, padL = 30, padR = 8, padT = 14, padB = 24;
+const W = 520, H = 200, padL = 32, padR = 24, padT = 22, padB = 30;
 const vals = data.map((d) => d[1]);
 const max = Math.max(...vals), min = Math.min(...vals, 0), rng = max - min || 1;
 const n = data.length;
@@ -51,6 +51,6 @@ const ticks = [0, Math.floor((n - 1) / 2), n - 1];
   <circle cx={x(n - 1)} cy={y(last[1])} r="4.5" fill={color} stroke="var(--surface)" stroke-width="2.5" />
   <text x={W - padR} y={y(last[1]) - 9} text-anchor="end" class="barlbl">{last[1].toLocaleString('pt-BR')}{unit}</text>
   {ticks.map((i) => (
-    <text x={x(i)} y={H - 6} text-anchor="middle" class="axis">{data[i][0]}</text>
+    <text x={x(i)} y={H - 8} text-anchor={i === 0 ? 'start' : i === n - 1 ? 'end' : 'middle'} class="axis">{data[i][0]}</text>
   ))}
 </svg>

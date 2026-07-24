@@ -84,8 +84,20 @@ const explore = [
   let pf: any = null;
   async function loadPagefind(base: string) {
     if (pf) return pf;
-    try { pf = await import(/* @vite-ignore */ `${base}pagefind/pagefind.js`); await pf.init(); return pf; }
-    catch (e) { return null; }
+    // import escondido do Vite (new Function) — evita o wrapper __vitePreload,
+    // que deixava um __VITE_PRELOAD__ não-substituído e quebrava o carregamento.
+    // base pode vir sem barra final ('/src') → normaliza p/ não gerar '/srcpagefind'.
+    const b = base.endsWith('/') ? base : base + '/';
+    const path = `${b}pagefind/pagefind.js`;
+    try {
+      const dynImport = new Function('u', 'return import(u)') as (u: string) => Promise<any>;
+      pf = await dynImport(path);
+      await pf.init();
+      return pf;
+    } catch (e) {
+      console.error('pagefind: falha ao carregar', path, e);
+      return null;
+    }
   }
   function esc(s: string) {
     return (s || '').replace(/[&<>]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' } as Record<string, string>)[c]);
@@ -106,7 +118,9 @@ const explore = [
       const color = KIND_COLOR[kind] || 'var(--muted)';
       const title = d.meta?.title || d.url;
       const sub = d.meta?.sub || '';
-      const href = base.replace(/\/$/, '') + d.url;
+      // d.url do pagefind pode já vir com o base ('/src/...') ou sem — evita '/src/src'
+      const root = base.replace(/\/$/, '');
+      const href = d.url.startsWith(root + '/') ? d.url : root + d.url;
       return `<a class="hit" href="${href}">
         <span class="hit-k" style="background:${color}">${esc(kind)}</span>
         <span class="hit-bd">

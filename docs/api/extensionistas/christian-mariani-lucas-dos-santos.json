@@ -46,6 +46,49 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2017",
+      "atividade_id": "4818",
+      "acao_id": "1261",
+      "atividade": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedora",
+      "pub": 12
+    },
+    {
+      "ano": "2017",
+      "atividade_id": "3353",
+      "acao_id": "1261",
+      "atividade": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedora",
+      "pub": 15
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "1523",
+      "acao_id": "708",
+      "atividade": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedoras",
+      "pub": 14
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "2732",
+      "acao_id": "899",
+      "atividade": "SEMANA DE CONTROLE E AUTOMAÇÃO",
+      "pub": 69
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 110,
+  "impacto": 110,
+  "temas": [
+    {
+      "tema": "Empreendedorismo e incubação",
+      "n": 2
+    },
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Emmanuel Marques Silva",

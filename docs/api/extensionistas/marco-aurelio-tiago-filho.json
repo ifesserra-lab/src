@@ -34,6 +34,42 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2023",
+      "atividade_id": "19697",
+      "acao_id": "4655",
+      "atividade": "SerraMaker: fomentando a cultura Maker no município da Serra",
+      "pub": 0
+    },
+    {
+      "ano": "2023",
+      "atividade_id": "17046",
+      "acao_id": "4655",
+      "atividade": "Semana Nacional de Ciência e Tecnologia do IFES campus Serra",
+      "pub": 0
+    },
+    {
+      "ano": "2025",
+      "atividade_id": "20756",
+      "acao_id": "5677",
+      "atividade": "Jovens Inventores: O poder da Tecnologia Maker no Desenvolvimento Social",
+      "pub": 0
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 0,
+  "impacto": 0,
+  "temas": [
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 1
+    },
+    {
+      "tema": "Mulheres e inclusão",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Rosiane Ribeiro Rocha",

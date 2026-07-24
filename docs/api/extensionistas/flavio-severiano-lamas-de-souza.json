@@ -44,6 +44,35 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2018",
+      "atividade_id": "5720",
+      "acao_id": "1816",
+      "atividade": "Maratona de Programação",
+      "pub": 37
+    },
+    {
+      "ano": "2021",
+      "atividade_id": "11978",
+      "acao_id": "3431",
+      "atividade": "Lampex + empreendedor",
+      "pub": 2
+    }
+  ],
+  "imp_coord": 37,
+  "imp_eq": 2,
+  "impacto": 39,
+  "temas": [
+    {
+      "tema": "Cultura e arte",
+      "n": 2
+    },
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Daniel Ribeiro Trindade",

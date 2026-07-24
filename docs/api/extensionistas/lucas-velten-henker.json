@@ -22,6 +22,24 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2017",
+      "atividade_id": "4172",
+      "acao_id": "1406",
+      "atividade": "Curso de Pré-Incubação de Empreendimentos – modalidade Residência",
+      "pub": 8
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 8,
+  "impacto": 8,
+  "temas": [
+    {
+      "tema": "Empreendedorismo e incubação",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Felipe Frechiani de Oliveira",

@@ -35,6 +35,31 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2022",
+      "atividade_id": "14488",
+      "acao_id": "4215",
+      "atividade": "SprintLab - Laboratório de Prototipação Acelerada",
+      "pub": 2
+    },
+    {
+      "ano": "2024",
+      "atividade_id": "20161",
+      "acao_id": "5086",
+      "atividade": "I Torneio e Mostra Tecnológica de Robótica do Ifes - Campus Serra (TMTR)",
+      "pub": 51
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 53,
+  "impacto": 53,
+  "temas": [
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 2
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Felipe Frechiani de Oliveira",

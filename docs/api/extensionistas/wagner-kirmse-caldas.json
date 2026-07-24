@@ -76,6 +76,88 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2018",
+      "atividade_id": "5300",
+      "acao_id": "1702",
+      "atividade": "Ifes Portas Abertas",
+      "pub": 75
+    },
+    {
+      "ano": "2018",
+      "atividade_id": "7247",
+      "acao_id": "2107",
+      "atividade": "Ifes Portas Abertas",
+      "pub": 0
+    },
+    {
+      "ano": "2018",
+      "atividade_id": "14468",
+      "acao_id": "2107",
+      "atividade": "Visita EMEF Jonas Farias 2",
+      "pub": 8
+    },
+    {
+      "ano": "2018",
+      "atividade_id": "14470",
+      "acao_id": "2107",
+      "atividade": "Visita EEEFM Nova Carapina",
+      "pub": 91
+    },
+    {
+      "ano": "2018",
+      "atividade_id": "14469",
+      "acao_id": "2107",
+      "atividade": "Visita CEEFMTI Joaquim Beato",
+      "pub": 36
+    },
+    {
+      "ano": "2018",
+      "atividade_id": "14466",
+      "acao_id": "2107",
+      "atividade": "Visita EEEF Francisco Alves Mendes",
+      "pub": 65
+    },
+    {
+      "ano": "2018",
+      "atividade_id": "14467",
+      "acao_id": "2107",
+      "atividade": "Visita EMEF Jonas Farias 1",
+      "pub": 9
+    },
+    {
+      "ano": "2019",
+      "atividade_id": "9562",
+      "acao_id": "2773",
+      "atividade": "Ambientação Pedagógica: Didática e Técnicas de Ensino.",
+      "pub": 6
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "22295",
+      "acao_id": "3140",
+      "atividade": "Atendimentos Personalizados e Monitorias de Extensão Tecnológica - área de Programação e Desenvolvimento",
+      "pub": 17
+    }
+  ],
+  "imp_coord": 885,
+  "imp_eq": 23,
+  "impacto": 908,
+  "temas": [
+    {
+      "tema": "Captação e ingresso",
+      "n": 4
+    },
+    {
+      "tema": "Escola e formação de professores",
+      "n": 1
+    },
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Fidelis Zanetti de Castro",

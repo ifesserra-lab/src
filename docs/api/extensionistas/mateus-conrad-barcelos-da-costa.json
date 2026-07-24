@@ -37,6 +37,63 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2017",
+      "atividade_id": "3045",
+      "acao_id": "1116",
+      "atividade": "Comitê Gestor do Núcleo Incubador campus Serra do Ifes - NIS",
+      "pub": 0
+    },
+    {
+      "ano": "2017",
+      "atividade_id": "3044",
+      "acao_id": "1116",
+      "atividade": "Comitê Gestor do Núcleo Incubador campus Serra do Ifes - NIS",
+      "pub": 0
+    },
+    {
+      "ano": "2017",
+      "atividade_id": "3046",
+      "acao_id": "1116",
+      "atividade": "Comitê Gestor do Núcleo Incubador campus Serra do Ifes - NIS",
+      "pub": 0
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "22474",
+      "acao_id": "3140",
+      "atividade": "Conversa técnica: O trabalho do Engenheiro de Software em colaboração com a Inteligência Artificial: desafios, competências e perspectivas para a formação profissional",
+      "pub": 40
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "18849",
+      "acao_id": "3140",
+      "atividade": "I Workshop de Formação sobre Mediação EaD – Curso de Tecnologia em Sistemas para Internet",
+      "pub": 22
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "18850",
+      "acao_id": "3140",
+      "atividade": "I Workshop de Formação sobre Mediação EaD – Curso de Tecnologia em Sistemas para Internet",
+      "pub": 32
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 94,
+  "impacto": 94,
+  "temas": [
+    {
+      "tema": "Empreendedorismo e incubação",
+      "n": 1
+    },
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Emmanuel Marques Silva",

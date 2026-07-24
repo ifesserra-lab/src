@@ -22,6 +22,24 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2022",
+      "atividade_id": "19911",
+      "acao_id": "3643",
+      "atividade": "STEM - Experiência de Imersão e desenvolvimento de soluções para a área administrativa de uma empresa siderúrgica - Etapa 2024",
+      "pub": 4
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 4,
+  "impacto": 4,
+  "temas": [
+    {
+      "tema": "Software, dados e sistemas",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Adelson Pereira do Nascimento",

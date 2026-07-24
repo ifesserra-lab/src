@@ -95,6 +95,99 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2017",
+      "atividade_id": "11625",
+      "acao_id": "1116",
+      "atividade": "Capacitação em \"Modelagens de Novos Negócios\"",
+      "pub": 2
+    },
+    {
+      "ano": "2017",
+      "atividade_id": "4818",
+      "acao_id": "1261",
+      "atividade": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedora",
+      "pub": 12
+    },
+    {
+      "ano": "2017",
+      "atividade_id": "3353",
+      "acao_id": "1261",
+      "atividade": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedora",
+      "pub": 15
+    },
+    {
+      "ano": "2017",
+      "atividade_id": "4502",
+      "acao_id": "1261",
+      "atividade": "Seminário de Apresentação dos Empreendimentos",
+      "pub": 1
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "14032",
+      "acao_id": "3140",
+      "atividade": "Roadshow programas de inovação FINDESLAB",
+      "pub": 32
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "14031",
+      "acao_id": "3140",
+      "atividade": "Palestra empreendedorismo - da visão a ação",
+      "pub": 70
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "13559",
+      "acao_id": "3140",
+      "atividade": "Palestra sobre desenvolvimento de sistemas e empreendedorismo: Tiago Comério (MeuDinheiro)",
+      "pub": 10
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "15049",
+      "acao_id": "3140",
+      "atividade": "visita técnica ao Enjoy Work Coworking",
+      "pub": 16
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "1524",
+      "acao_id": "708",
+      "atividade": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedoras",
+      "pub": 15
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "1523",
+      "acao_id": "708",
+      "atividade": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedoras",
+      "pub": 14
+    }
+  ],
+  "imp_coord": 157,
+  "imp_eq": 187,
+  "impacto": 344,
+  "temas": [
+    {
+      "tema": "Empreendedorismo e incubação",
+      "n": 3
+    },
+    {
+      "tema": "Saúde e bem-estar",
+      "n": 2
+    },
+    {
+      "tema": "Outros / formação",
+      "n": 1
+    },
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Emmanuel Marques Silva",

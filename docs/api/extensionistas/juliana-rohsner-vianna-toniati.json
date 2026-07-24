@@ -35,6 +35,38 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2019",
+      "atividade_id": "8979",
+      "acao_id": "2595",
+      "atividade": "Incluir & Multiplicar",
+      "pub": 0
+    },
+    {
+      "ano": "2019",
+      "atividade_id": "10922",
+      "acao_id": "2783",
+      "atividade": "Mini-Curso: Arquitetura Básica de Computadores",
+      "pub": 16
+    },
+    {
+      "ano": "2019",
+      "atividade_id": "9577",
+      "acao_id": "2783",
+      "atividade": "Informática Básica Para Agentes Multiplicadores.",
+      "pub": 16
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 32,
+  "impacto": 32,
+  "temas": [
+    {
+      "tema": "Mulheres e inclusão",
+      "n": 2
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Bruno Cardoso Coutinho",

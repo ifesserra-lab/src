@@ -77,6 +77,66 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2023",
+      "atividade_id": "19698",
+      "acao_id": "4655",
+      "atividade": "Construindo Juntos no LabMaker Serra: Uma proposta de Educação com Sustentabilidade",
+      "pub": 0
+    },
+    {
+      "ano": "2023",
+      "atividade_id": "19697",
+      "acao_id": "4655",
+      "atividade": "SerraMaker: fomentando a cultura Maker no município da Serra",
+      "pub": 0
+    },
+    {
+      "ano": "2023",
+      "atividade_id": "17046",
+      "acao_id": "4655",
+      "atividade": "Semana Nacional de Ciência e Tecnologia do IFES campus Serra",
+      "pub": 0
+    },
+    {
+      "ano": "2024",
+      "atividade_id": "22201",
+      "acao_id": "5086",
+      "atividade": "II Torneio e Mostra Tecnológica de Robótica do Ifes - Campus Serra (TMTR)",
+      "pub": 112
+    },
+    {
+      "ano": "2024",
+      "atividade_id": "20161",
+      "acao_id": "5086",
+      "atividade": "I Torneio e Mostra Tecnológica de Robótica do Ifes - Campus Serra (TMTR)",
+      "pub": 51
+    },
+    {
+      "ano": "2025",
+      "atividade_id": "20613",
+      "acao_id": "5641",
+      "atividade": "LabMaker 4.0: capacitando professores para a cultura maker e tecnologias da Indústria 4.0",
+      "pub": 0
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "2732",
+      "acao_id": "899",
+      "atividade": "SEMANA DE CONTROLE E AUTOMAÇÃO",
+      "pub": 69
+    }
+  ],
+  "imp_coord": 258,
+  "imp_eq": 232,
+  "impacto": 490,
+  "temas": [
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 5
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Richard Junior Manuel Godinez Tello",

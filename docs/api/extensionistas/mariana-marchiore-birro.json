@@ -22,6 +22,24 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2023",
+      "atividade_id": "17045",
+      "acao_id": "4655",
+      "atividade": "Palestra \"Mulher de energia solar: MEGA SOLUÇÕES ENERGÉTICAS\"",
+      "pub": 46
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 46,
+  "impacto": 46,
+  "temas": [
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Gabriel Tozatto Zago",

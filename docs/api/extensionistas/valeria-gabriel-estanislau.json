@@ -46,6 +46,42 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2017",
+      "atividade_id": "11587",
+      "acao_id": "1116",
+      "atividade": "Membro do Comtê Gestor do Núcleo Incubador campus Serra do Ifes - NIS",
+      "pub": 0
+    },
+    {
+      "ano": "2017",
+      "atividade_id": "4819",
+      "acao_id": "1261",
+      "atividade": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedora",
+      "pub": 9
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "16071",
+      "acao_id": "3140",
+      "atividade": "I Semana do Estágio e Emprego IFES Campus Serra",
+      "pub": 0
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 9,
+  "impacto": 9,
+  "temas": [
+    {
+      "tema": "Empreendedorismo e incubação",
+      "n": 2
+    },
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Emmanuel Marques Silva",

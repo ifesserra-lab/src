@@ -50,6 +50,60 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2018",
+      "atividade_id": "5767",
+      "acao_id": "1838",
+      "atividade": "LEDS – Laboratório de Extensão e Desenvolvimento de Soluções",
+      "pub": 1
+    },
+    {
+      "ano": "2019",
+      "atividade_id": "9895",
+      "acao_id": "2823",
+      "atividade": "I Am Here: Registro de Frequência por Reconhecimento Facial",
+      "pub": 0
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "2297",
+      "acao_id": "901",
+      "atividade": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+      "pub": 0
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "10343",
+      "acao_id": "901",
+      "atividade": "Expositor: Apresentação de Projetos do LEDS no Sebrae StartupSummit 2019",
+      "pub": 0
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "10019",
+      "acao_id": "901",
+      "atividade": "Palestra: Apresentação de Projetos LEDS",
+      "pub": 0
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 1,
+  "impacto": 1,
+  "temas": [
+    {
+      "tema": "Outros / formação",
+      "n": 1
+    },
+    {
+      "tema": "Software, dados e sistemas",
+      "n": 1
+    },
+    {
+      "tema": "Empreendedorismo e incubação",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Felipe Frechiani de Oliveira",

@@ -34,6 +34,31 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2023",
+      "atividade_id": "20470",
+      "acao_id": "4820",
+      "atividade": "Mulheres Mil – Eletricista Instalador Predial em Baixa Tensão",
+      "pub": 20
+    },
+    {
+      "ano": "2025",
+      "atividade_id": "19716",
+      "acao_id": "5357",
+      "atividade": "MULHERES MIL - Artesão em Bordado a mão",
+      "pub": 24
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 44,
+  "impacto": 44,
+  "temas": [
+    {
+      "tema": "Mulheres e inclusão",
+      "n": 2
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Tatiane Policário Chagas",

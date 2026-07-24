@@ -48,6 +48,49 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2017",
+      "atividade_id": "11585",
+      "acao_id": "1116",
+      "atividade": "Membro do Comtê Gestor do Núcleo Incubador campus Serra do Ifes - NIS",
+      "pub": 0
+    },
+    {
+      "ano": "2017",
+      "atividade_id": "11586",
+      "acao_id": "1116",
+      "atividade": "Membro do Comtê Gestor do Núcleo Incubador campus Serra do Ifes - NIS",
+      "pub": 0
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "18721",
+      "acao_id": "3140",
+      "atividade": "Minicurso \"Introdução à Siderurgia\"",
+      "pub": 53
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "1524",
+      "acao_id": "708",
+      "atividade": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedoras",
+      "pub": 15
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 68,
+  "impacto": 68,
+  "temas": [
+    {
+      "tema": "Empreendedorismo e incubação",
+      "n": 2
+    },
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Emmanuel Marques Silva",

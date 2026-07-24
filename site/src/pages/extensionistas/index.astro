@@ -1,0 +1,57 @@
+---
+import Base from '../../layouts/Base.astro';
+import Tile from '../../components/Tile.astro';
+import TreemapDrill from '../../components/TreemapDrill.astro';
+import TableFilter from '../../components/TableFilter.astro';
+import { getExtIndex, getExtTreemap } from '../../lib/data';
+import { withBase } from '../../lib/url';
+
+const exts = getExtIndex().sort((a, b) => a.nome.localeCompare(b.nome, 'pt'));
+const tm = getExtTreemap(16);
+const fmt = (n: number) => n.toLocaleString('pt-BR');
+const nCoord = exts.filter((e) => e.coordena > 0).length;
+const nEquipe = exts.filter((e) => e.equipe > 0).length;
+---
+<Base title="Extensionistas" description="Quem coordenou ou atuou na equipe de execução de ações de Extensão." active="extensionistas">
+  <div class="wrap">
+    <p class="crumb">Páginas / <b>Extensionistas</b></p>
+    <h1>Extensionistas</h1>
+    <p class="sub">Quem coordenou ou atuou na equipe de execução de ações de Extensão — clique no nome para ver a trajetória</p>
+
+    <section class="tiles">
+      <Tile label="Extensionistas" value={fmt(exts.length)} color="var(--c1)" />
+      <Tile label="Coordenadores(as)" value={fmt(nCoord)} color="var(--c2)" />
+      <Tile label="Na equipe de execução" value={fmt(nEquipe)} color="var(--c4)" />
+    </section>
+
+    <section class="card" style="margin-top:16px">
+      <h2>Quem mais impacta (top 16)</h2>
+      <p class="sec-desc">Área ∝ pessoas impactadas, subdividida por papel (coordenou × equipe). Clique numa pessoa para abrir as iniciativas.</p>
+      <div style="margin-top:14px"><TreemapDrill payload={tm} height={420} /></div>
+    </section>
+
+    <section style="margin-top:26px">
+      <h2>Todas as pessoas</h2>
+      <div style="margin-top:12px">
+        <TableFilter placeholder="Filtrar por nome…" total={exts.length} unidade="pessoas">
+          <div class="tbl-wrap"><table>
+            <thead><tr><th>Nome</th><th class="n">Coordena</th><th class="n">Equipe</th></tr></thead>
+            <tbody>
+              {exts.map((e) => (
+                <tr data-s={e.nome}>
+                  <td><a href={withBase(`/extensionistas/${e.slug}.html`)}>{e.nome}</a></td>
+                  <td class="n tnum">{e.coordena}</td>
+                  <td class="n tnum">{e.equipe}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table></div>
+        </TableFilter>
+      </div>
+    </section>
+  </div>
+</Base>
+
+<style>
+  .n { text-align: right; white-space: nowrap; }
+</style>

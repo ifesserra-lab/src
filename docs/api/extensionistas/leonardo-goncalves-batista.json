@@ -22,6 +22,24 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2023",
+      "atividade_id": "17039",
+      "acao_id": "4655",
+      "atividade": "Palestra \"Incubadora de Empreendimentos: Instrumento para Empreendedorismo e Inovação\"",
+      "pub": 45
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 45,
+  "impacto": 45,
+  "temas": [
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Gabriel Tozatto Zago",

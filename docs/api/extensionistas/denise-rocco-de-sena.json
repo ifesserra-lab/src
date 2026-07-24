@@ -22,6 +22,24 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2018",
+      "atividade_id": "9599",
+      "acao_id": "2021",
+      "atividade": "Palestra: Biocombustíveis na Semana Nacional de Ciência e Tecnologia 2019",
+      "pub": 57
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 57,
+  "impacto": 57,
+  "temas": [
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Rosilene de Sá Ribeiro",

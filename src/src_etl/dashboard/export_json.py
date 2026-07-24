@@ -29,12 +29,15 @@ from pathlib import Path
 
 from .extensionistas import _CACHE_PADRAO, _norm, coautoria, coletar_extensionistas
 from .formados import agregar_formados
+from .forproex import agregar_forproex
 from .impacto import agregar_impacto
 from .indicadores import agregar_indicadores
 from .investimento import agregar_investimento
+from .jornada import agregar_jornada
 from .rede import agregar_rede
 from .relatorio import _carregar_acoes, _carregar_participacoes, agregar
 from .site import _agrupar_atividades
+from .temas import _CACHE_DESC, agregar_temas, mapa_temas, payload_treemap_tema
 
 _CAMPOS_ACAO = [
     "acao_id", "Processo nº", "Título ação", "Natureza", "Tipo ação",
@@ -119,6 +122,57 @@ def _acao_json(a: dict) -> dict:
         ({**e, "funcoes": sorted(e["funcoes"])} for e in equipe.values()),
         key=lambda x: x["nome"])
     return dados
+
+
+def _agregar_pendencias(cons: dict, slugs: dict) -> dict:
+    """Espelho em dados da página pendencias-relatorio.html.
+
+    Duas listas — `com` (pendentes com participação) e `zero` (sem participação) —
+    mais o ranking de coordenadores com pendências. Colunas: Ação · Tipo ·
+    Coordenador(a)(+slug) · Início · Término · Público · Equipe · Últ. relatório ·
+    Modelo. Datas derivadas das participações (a ação não traz início/término).
+    """
+    from datetime import datetime as _dt
+
+    def _d(s):
+        try:
+            return _dt.strptime((s or "").strip(), "%d/%m/%Y")
+        except (ValueError, AttributeError):
+            return None
+
+    itens = []
+    for a in cons["acoes"]:
+        pub, eq, inis, terms = set(), set(), [], []
+        for p in a.get("participacoes", []):
+            di, dtm = _d(p.get("Início")), _d(p.get("Término"))
+            if di:
+                inis.append(di)
+            if dtm:
+                terms.append(dtm)
+            if (p.get("tipo") or "").startswith("Públic"):
+                pid = p.get("CPF") or p.get("Nome")
+                if pid:
+                    pub.add(pid)
+            else:
+                nm = (p.get("Nome") or "").strip()
+                if nm:
+                    eq.add(nm)
+        coord = (a.get("Coordenador(a)") or "—").strip()
+        pendente = (a.get("Relatório aprovado") or "").strip().lower() != "sim"
+        itens.append({
+            "acao_id": a.get("acao_id"), "titulo": a.get("Título ação"),
+            "tipo": a.get("Tipo ação"), "coordenador": coord,
+            "coordenador_slug": slugs.get(_norm(coord)),
+            "ano": (a.get("Data de cadastro") or "")[-4:],
+            "inicio": min(inis).strftime("%d/%m/%Y") if inis else "",
+            "termino": max(terms).strftime("%d/%m/%Y") if terms else "",
+            "ultimo": a.get("Data último relatório") or "nunca enviado",
+            "pendente": pendente, "pub": len(pub), "eq": len(eq)})
+    itens.sort(key=lambda x: (x["coordenador"], x["ano"]))
+    com = [x for x in itens if x["pendente"] and x["pub"] + x["eq"] > 0]
+    zero = [x for x in itens if x["pub"] + x["eq"] == 0]
+    leaderboard = Counter(i["coordenador"] for i in itens if i["pendente"]).most_common(12)
+    return {"com": com, "zero": zero, "leaderboard": leaderboard}
 
 
 def _gravar_llms_txt(out_dir: Path, stats: dict) -> None:
@@ -217,14 +271,34 @@ def exportar_api(
     pessoas = coletar_extensionistas(cons)
     _co = coautoria(cons)
     _sl = {_norm(p["nome"]): p["slug"] for p in pessoas}
+    _tmap = mapa_temas(cons)   # {acao_id: tema/cluster} p/ "Temas de atuação"
     idx_ext, todos_ext = [], []
     for p in pessoas:
+        # impacto (mesma conta honesta de extensionistas._impacto_extensionistas):
+        #  coordenou → público da ação inteira; equipe → público das atividades em que
+        #  atuou (nível atividade), só quando NÃO coordena a mesma ação (evita duplicar).
+        coord_ids = {r["acao_id"] for r in p["coordena"]}
+        imp_por_acao: dict[str, int] = {}
+        for at in p.get("atividades", []):
+            imp_por_acao[at["acao_id"]] = imp_por_acao.get(at["acao_id"], 0) + at.get("pub", 0)
+        imp_coord = sum(r.get("pub", 0) for r in p["coordena"])
+        imp_eq = sum(v for aid, v in imp_por_acao.items() if aid not in coord_ids)
+        # temas de atuação: clusters das ações que coordenou/participou
+        _tc: Counter = Counter()
+        for r in [*p["coordena"], *p["participa"]]:
+            tm = _tmap.get(r["acao_id"])
+            if tm:
+                _tc[tm] += 1
+        temas_pessoa = [{"tema": t, "n": n} for t, n in _tc.most_common()]
         registro = {
             "slug": p["slug"], "nome": p["nome"],
             "resumo_ia": resumos.get(p["slug"]),
             "anos": p["anos"], "funcoes": p["funcoes"],
             "acoes_coordenadas": p["coordena"],
             "participacoes_equipe": p["participa"],
+            "atividades": p.get("atividades", []),
+            "imp_coord": imp_coord, "imp_eq": imp_eq, "impacto": imp_coord + imp_eq,
+            "temas": temas_pessoa,
             "colaboradores": [{"nome": cn, "slug": _sl.get(_norm(cn)), "acoes_comuns": cnt}
                               for cn, cnt in _co.get(_norm(p["nome"]), Counter()).most_common()]}
         _grava(api / "extensionistas" / f"{p['slug']}.json", registro)
@@ -232,6 +306,7 @@ def exportar_api(
         idx_ext.append({"slug": p["slug"], "nome": p["nome"],
                         "funcoes": p["funcoes"], "anos": p["anos"],
                         "coordena": len(p["coordena"]), "equipe": len(p["participa"]),
+                        "imp_coord": imp_coord, "imp_eq": imp_eq, "impacto": imp_coord + imp_eq,
                         "url": f"api/extensionistas/{p['slug']}.json"})
     _grava(api / "extensionistas" / "index.json", idx_ext)
     # lista completa (todos os extensionistas com trajetória e resumo) num só arquivo
@@ -248,28 +323,42 @@ def exportar_api(
     except Exception:
         a_form = None
     a_imp = agregar_impacto(cons)
+    try:
+        a_fpx = agregar_forproex(cons, formandos_dir=formandos_dir)
+    except Exception as e:      # FORPROEX depende dos formados (xlsx); nunca quebra o export
+        print("forproex:", e)
+        a_fpx = None
     _grava(api / "painel.json", {"visao_geral": a_rel, "indicadores": a_ind,
                                  "rede_programas": a_net, "formados": a_form,
-                                 "impacto": a_imp})
+                                 "impacto": a_imp, "forproex": a_fpx})
 
     # análise de investimento (nicho × impacto × status) — espelho da página
     _grava(api / "investimento.json", agregar_investimento(cons))
 
-    # listas de gestão
+    # temas & clusters (treemap tema › tipo › iniciativa + cards por cluster)
+    temas_desc = {}
+    if _CACHE_DESC.exists():
+        temas_desc = json.loads(_CACHE_DESC.read_text(encoding="utf-8"))
+    _grava(api / "temas.json", {
+        "treemap": payload_treemap_tema(cons),
+        "temas": [{**t, "resumo": temas_desc.get(t["tema"])} for t in agregar_temas(cons, _sl)]})
+
+    # jornada do formado (ingresso → 1ª extensão → formatura) + público aluno×não-aluno
+    try:
+        _grava(api / "jornada.json", agregar_jornada(cons, formandos_dir))
+    except Exception as e:      # depende dos formados (xlsx)
+        print("jornada:", e)
+
+    # listas de gestão (pendências + sem participação) — espelho da página única
+    pend = _agregar_pendencias(cons, _sl)
+    _grava(api / "pendencias-relatorio.json", pend)
+    # compat: lista achatada só das ações sem participação (usada pela API/dados abertos)
     _grava(api / "sem-participacao.json", [
         {"acao_id": x.get("acao_id"), "titulo": x.get("Título ação"),
          "tipo": x.get("Tipo ação"),
          "coordenador": (x.get("Coordenador(a)") or "").strip(),
          "ano": (x.get("Data de cadastro") or "")[-4:]}
         for x in cons["acoes"] if x.get("total_participacoes", 0) == 0])
-    _grava(api / "pendencias-relatorio.json", [
-        {"acao_id": x.get("acao_id"), "titulo": x.get("Título ação"),
-         "tipo": x.get("Tipo ação"),
-         "coordenador": (x.get("Coordenador(a)") or "").strip(),
-         "ano": (x.get("Data de cadastro") or "")[-4:],
-         "ultimo_relatorio": x.get("Data último relatório") or None}
-        for x in cons["acoes"]
-        if (x.get("Relatório aprovado") or "").strip().lower() != "sim"])
 
     # índice de busca (mesmo blob das páginas)
     _grava(api / "busca.json", [
@@ -292,7 +381,8 @@ def exportar_api(
         "descricao": "API estática do painel de Extensão — SRC/Ifes Campus Serra",
         "privacidade": "Sem dados pessoais de alunos (público-alvo só contagens); "
                        "equipe como crédito público (nome/função/vínculo).",
-        "endpoints": ["api/painel.json", "api/investimento.json", "api/busca.json",
+        "endpoints": ["api/painel.json", "api/investimento.json", "api/temas.json",
+                      "api/jornada.json", "api/busca.json",
                       "api/acoes/index.json",
                       "api/acoes/<acao_id>.json", "api/atividades/<atividade_id>.json",
                       "api/extensionistas/index.json", "api/extensionistas/todos.json",

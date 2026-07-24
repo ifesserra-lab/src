@@ -1,0 +1,26 @@
+{
+  "name": "src-site",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Camada de apresentação (Astro) do painel SRC/Ifes — consome o JSON do ETL Python",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build && node scripts/copy-assets.mjs && pagefind --site dist",
+    "build:astro": "astro build",
+    "preview": "astro preview",
+    "test": "vitest run",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.2.1",
+    "@fontsource/fira-code": "^5.1.0",
+    "@fontsource/fira-sans": "^5.1.0",
+    "astro": "^5.1.1",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "pagefind": "^1.3.0",
+    "vitest": "^3.0.0"
+  }
+}

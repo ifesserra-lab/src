@@ -22,6 +22,24 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2025",
+      "atividade_id": "19716",
+      "acao_id": "5357",
+      "atividade": "MULHERES MIL - Artesão em Bordado a mão",
+      "pub": 24
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 24,
+  "impacto": 24,
+  "temas": [
+    {
+      "tema": "Mulheres e inclusão",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Tatiane Policário Chagas",

@@ -1,0 +1,13 @@
+---
+// Seção padrão do painel — espelha `_secao(titulo, corpo, desc, explica)`
+// do site atual: card com título, descrição, corpo (slot) e explicador.
+import Explainer from './Explainer.astro';
+interface Props { title: string; desc?: string; explica?: string }
+const { title, desc, explica } = Astro.props;
+---
+<section class="card" style="margin-top:16px">
+  <h2>{title}</h2>
+  {desc && <p class="sec-desc" set:html={desc} />}
+  <div style="margin-top:14px"><slot /></div>
+  {explica && <Explainer texto={explica} />}
+</section>

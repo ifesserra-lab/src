@@ -35,6 +35,31 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2015",
+      "atividade_id": "1271",
+      "acao_id": "569",
+      "atividade": "Desafio Ifes de Negócios Socais",
+      "pub": 0
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "2732",
+      "acao_id": "899",
+      "atividade": "SEMANA DE CONTROLE E AUTOMAÇÃO",
+      "pub": 69
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 69,
+  "impacto": 69,
+  "temas": [
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 2
+    }
+  ],
   "colaboradores": [
     {
       "nome": "João Vitor Zanchetta Corres",

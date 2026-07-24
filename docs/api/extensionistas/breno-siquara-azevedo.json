@@ -35,6 +35,35 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2017",
+      "atividade_id": "2882",
+      "acao_id": "1117",
+      "atividade": "PRÉ- IFES Campus Serra",
+      "pub": 33
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "2732",
+      "acao_id": "899",
+      "atividade": "SEMANA DE CONTROLE E AUTOMAÇÃO",
+      "pub": 69
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 102,
+  "impacto": 102,
+  "temas": [
+    {
+      "tema": "Mulheres e inclusão",
+      "n": 1
+    },
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Alessandro Bermudes Gomes",

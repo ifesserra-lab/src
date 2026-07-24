@@ -52,6 +52,31 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2016",
+      "atividade_id": "1524",
+      "acao_id": "708",
+      "atividade": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedoras",
+      "pub": 15
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "2127",
+      "acao_id": "912",
+      "atividade": "Curso de Pré-Incubação de Empreendimentos – modalidade Residência",
+      "pub": 3
+    }
+  ],
+  "imp_coord": 17,
+  "imp_eq": 18,
+  "impacto": 35,
+  "temas": [
+    {
+      "tema": "Empreendedorismo e incubação",
+      "n": 3
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Emmanuel Marques Silva",

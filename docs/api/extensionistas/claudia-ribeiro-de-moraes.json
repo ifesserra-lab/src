@@ -22,6 +22,24 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2019",
+      "atividade_id": "9562",
+      "acao_id": "2773",
+      "atividade": "Ambientação Pedagógica: Didática e Técnicas de Ensino.",
+      "pub": 6
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 6,
+  "impacto": 6,
+  "temas": [
+    {
+      "tema": "Escola e formação de professores",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Bruno Ramos Gonzaga",

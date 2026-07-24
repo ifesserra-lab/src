@@ -60,6 +60,56 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2020",
+      "atividade_id": "19128",
+      "acao_id": "3140",
+      "atividade": "9th School of Theoretical Computer Science and Formal Methods",
+      "pub": 0
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "19127",
+      "acao_id": "3140",
+      "atividade": "17th Brazilian Symposium on Bioinformatics",
+      "pub": 0
+    },
+    {
+      "ano": "2022",
+      "atividade_id": "17192",
+      "acao_id": "4034",
+      "atividade": "Oficina de Low-Code",
+      "pub": 2
+    },
+    {
+      "ano": "2022",
+      "atividade_id": "14488",
+      "acao_id": "4215",
+      "atividade": "SprintLab - Laboratório de Prototipação Acelerada",
+      "pub": 2
+    },
+    {
+      "ano": "2023",
+      "atividade_id": "18681",
+      "acao_id": "4830",
+      "atividade": "Desenvolvimento do Módulo Inicial do Projeto Conecta Fapes",
+      "pub": 0
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 4,
+  "impacto": 4,
+  "temas": [
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 3
+    },
+    {
+      "tema": "Saúde e bem-estar",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Eduardo Alves Figueiredo",

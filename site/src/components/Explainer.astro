@@ -1,0 +1,10 @@
+---
+// Explicador colapsável "O que significa?" — espelha o <details class="explica">
+// do site atual. Texto pode conter <b>…</b> (vem do ETL); usa set:html.
+interface Props { texto?: string }
+const { texto } = Astro.props;
+---
+<details class="explica">
+  <summary>O que significa?</summary>
+  {texto ? <div set:html={texto} /> : <div><slot /></div>}
+</details>

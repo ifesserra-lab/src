@@ -176,6 +176,121 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2018",
+      "atividade_id": "5629",
+      "acao_id": "1786",
+      "atividade": "Mutual Life: Um aplicativo para seguros colaborativos",
+      "pub": 0
+    },
+    {
+      "ano": "2018",
+      "atividade_id": "5638",
+      "acao_id": "1795",
+      "atividade": "ESPM-Empregos: Um serviço inteligente para promover a empregabilidade",
+      "pub": 0
+    },
+    {
+      "ano": "2019",
+      "atividade_id": "7600",
+      "acao_id": "2193",
+      "atividade": "LifeBox: transporte e monitoramento de córnea de forma inteligente",
+      "pub": 0
+    },
+    {
+      "ano": "2019",
+      "atividade_id": "7822",
+      "acao_id": "2285",
+      "atividade": "ES Na Palma da Mão: Uma Plataforma baseado em serviços para Cidades Humanas, Inteligentes e Sustentáveis",
+      "pub": 0
+    },
+    {
+      "ano": "2015",
+      "atividade_id": "1271",
+      "acao_id": "569",
+      "atividade": "Desafio Ifes de Negócios Socais",
+      "pub": 0
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "1200",
+      "acao_id": "645",
+      "atividade": "SIPAC - Sistema de Informação da Produção Agropecuária capixaba",
+      "pub": 1
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "1524",
+      "acao_id": "708",
+      "atividade": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedoras",
+      "pub": 15
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "1939",
+      "acao_id": "848",
+      "atividade": "Sistema de apoio para monitorar temperatura para preparaçãode caixas para transporte de órgão.",
+      "pub": 0
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "1940",
+      "acao_id": "849",
+      "atividade": "Sistema para auxiliar a gestão da Produção Agropecuária capixaba",
+      "pub": 0
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "2297",
+      "acao_id": "901",
+      "atividade": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+      "pub": 0
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "2154",
+      "acao_id": "930",
+      "atividade": "Despertar da Força - Processos e Ferramentas para o Gerenciamento Ágil de Projetos: Uma Abordagem Prática",
+      "pub": 53
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "2286",
+      "acao_id": "947",
+      "atividade": "Rede de Laboratórios de Educação em Desenvolvimento de Soluções - LEDS",
+      "pub": 0
+    }
+  ],
+  "imp_coord": 139,
+  "imp_eq": 16,
+  "impacto": 155,
+  "temas": [
+    {
+      "tema": "Cultura e arte",
+      "n": 6
+    },
+    {
+      "tema": "Software, dados e sistemas",
+      "n": 3
+    },
+    {
+      "tema": "Saúde e bem-estar",
+      "n": 2
+    },
+    {
+      "tema": "Empreendedorismo e incubação",
+      "n": 2
+    },
+    {
+      "tema": "Ciência e divulgação",
+      "n": 1
+    },
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Rodrigo Fernandes Calhau",

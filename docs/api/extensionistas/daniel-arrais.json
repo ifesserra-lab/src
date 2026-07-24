@@ -22,6 +22,24 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2017",
+      "atividade_id": "11625",
+      "acao_id": "1116",
+      "atividade": "Capacitação em \"Modelagens de Novos Negócios\"",
+      "pub": 2
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 2,
+  "impacto": 2,
+  "temas": [
+    {
+      "tema": "Empreendedorismo e incubação",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Francisco José Casarim Rapchan",

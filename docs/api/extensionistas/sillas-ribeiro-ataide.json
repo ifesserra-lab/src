@@ -22,6 +22,24 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2017",
+      "atividade_id": "2882",
+      "acao_id": "1117",
+      "atividade": "PRÉ- IFES Campus Serra",
+      "pub": 33
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 33,
+  "impacto": 33,
+  "temas": [
+    {
+      "tema": "Mulheres e inclusão",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Alessandro Bermudes Gomes",

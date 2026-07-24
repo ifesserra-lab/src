@@ -60,6 +60,49 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2017",
+      "atividade_id": "4502",
+      "acao_id": "1261",
+      "atividade": "Seminário de Apresentação dos Empreendimentos",
+      "pub": 1
+    },
+    {
+      "ano": "2026",
+      "atividade_id": "22067",
+      "acao_id": "5852",
+      "atividade": "Palestra promovida pelo LIEFIS: \"Finanças Pessoais: Eu, Meu Dinheiro e Minhas Decisões.",
+      "pub": 79
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "1523",
+      "acao_id": "708",
+      "atividade": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedoras",
+      "pub": 14
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "9098",
+      "acao_id": "730",
+      "atividade": "Assessoria Técnica do projeto de Pré-Incubação denominado “Indicadores”",
+      "pub": 0
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 94,
+  "impacto": 94,
+  "temas": [
+    {
+      "tema": "Empreendedorismo e incubação",
+      "n": 3
+    },
+    {
+      "tema": "Mulheres e inclusão",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Emmanuel Marques Silva",

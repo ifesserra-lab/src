@@ -55,6 +55,53 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2018",
+      "atividade_id": "5722",
+      "acao_id": "1818",
+      "atividade": "Academia Cisco nas Escolas Municipais da Serra - ES",
+      "pub": 22
+    },
+    {
+      "ano": "2018",
+      "atividade_id": "7952",
+      "acao_id": "1818",
+      "atividade": "Cursos: \"Conecte-se, Introdução a Cybersegurança, Empreendedorismo e Introdução a IoT\"",
+      "pub": 22
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "4845",
+      "acao_id": "718",
+      "atividade": "Ciclo de Conversas do NAC 2016 – Redes Sociais: Crimes Digitais e cyberbullying",
+      "pub": 0
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "2732",
+      "acao_id": "899",
+      "atividade": "SEMANA DE CONTROLE E AUTOMAÇÃO",
+      "pub": 69
+    }
+  ],
+  "imp_coord": 22,
+  "imp_eq": 69,
+  "impacto": 91,
+  "temas": [
+    {
+      "tema": "Empreendedorismo e incubação",
+      "n": 2
+    },
+    {
+      "tema": "Cultura e arte",
+      "n": 1
+    },
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Ana Paula Klauck",

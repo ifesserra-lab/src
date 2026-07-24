@@ -1,0 +1,27 @@
+---
+// Linha do tempo: eixo horizontal com um ponto por período; raio ∝ valor.
+// Substitui svg_timeline. SSG determinístico.
+import type { Pair } from '../lib/schema';
+interface Props {
+  data: Pair[];
+  color?: string;
+  unit?: string;
+}
+const { data, color = 'var(--c1)', unit = '' } = Astro.props;
+const W = 480, H = 92, padX = 16, axisY = 52;
+const n = data.length;
+const maxV = Math.max(...data.map((d) => d[1]), 1);
+const x = (i: number) => +(padX + (i / (n - 1)) * (W - padX * 2)).toFixed(1);
+const r = (v: number) => +(4 + (v / maxV) * 9).toFixed(1);
+const showLabel = (i: number) => i === 0 || i === n - 1 || i % 3 === 0;
+---
+<svg viewBox={`0 0 ${W} ${H}`} width="100%" role="img" aria-label="Linha do tempo">
+  <line class="gline" x1={padX} y1={axisY} x2={W - padX} y2={axisY} />
+  {data.map((d, i) => (
+    <>
+      <circle cx={x(i)} cy={axisY} r={r(d[1])} fill={color} opacity={i === n - 1 ? '1' : '0.5'} />
+      {showLabel(i) && <text x={x(i)} y={H - 8} text-anchor="middle" class="axis">{d[0]}</text>}
+      {showLabel(i) && <text x={x(i)} y={axisY - r(d[1]) - 5} text-anchor="middle" class="barlbl">{d[1].toLocaleString('pt-BR')}{unit}</text>}
+    </>
+  ))}
+</svg>

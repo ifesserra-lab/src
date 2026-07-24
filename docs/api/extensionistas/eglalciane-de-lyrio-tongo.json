@@ -68,6 +68,49 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2020",
+      "atividade_id": "16071",
+      "acao_id": "3140",
+      "atividade": "I Semana do Estágio e Emprego IFES Campus Serra",
+      "pub": 0
+    },
+    {
+      "ano": "2023",
+      "atividade_id": "20470",
+      "acao_id": "4820",
+      "atividade": "Mulheres Mil – Eletricista Instalador Predial em Baixa Tensão",
+      "pub": 20
+    },
+    {
+      "ano": "2025",
+      "atividade_id": "20642",
+      "acao_id": "5645",
+      "atividade": "Asas para o Futuro - Eletricista Instalador Predial em Baixa Tensão",
+      "pub": 29
+    },
+    {
+      "ano": "2026",
+      "atividade_id": "22067",
+      "acao_id": "5852",
+      "atividade": "Palestra promovida pelo LIEFIS: \"Finanças Pessoais: Eu, Meu Dinheiro e Minhas Decisões.",
+      "pub": 79
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 128,
+  "impacto": 128,
+  "temas": [
+    {
+      "tema": "Mulheres e inclusão",
+      "n": 3
+    },
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Emmanuel Marques Silva",

@@ -22,6 +22,24 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2025",
+      "atividade_id": "21872",
+      "acao_id": "5677",
+      "atividade": "Jovens Inventores: O poder da Tecnologia Maker no Desenvolvimento Social",
+      "pub": 28
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 28,
+  "impacto": 28,
+  "temas": [
+    {
+      "tema": "Mulheres e inclusão",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Richard Junior Manuel Godinez Tello",

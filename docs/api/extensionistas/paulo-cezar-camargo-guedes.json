@@ -85,6 +85,66 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2018",
+      "atividade_id": "6836",
+      "acao_id": "2081",
+      "atividade": "O IFES é o meu lugar",
+      "pub": 40
+    },
+    {
+      "ano": "2018",
+      "atividade_id": "6835",
+      "acao_id": "2081",
+      "atividade": "O IFES é o meu lugar",
+      "pub": 34
+    },
+    {
+      "ano": "2019",
+      "atividade_id": "8972",
+      "acao_id": "2591",
+      "atividade": "O IFES é o meu lugar",
+      "pub": 40
+    },
+    {
+      "ano": "2019",
+      "atividade_id": "8973",
+      "acao_id": "2591",
+      "atividade": "O IFES é o meu lugar",
+      "pub": 40
+    },
+    {
+      "ano": "2019",
+      "atividade_id": "9118",
+      "acao_id": "2650",
+      "atividade": "Matemática na Rede",
+      "pub": 0
+    },
+    {
+      "ano": "2019",
+      "atividade_id": "9117",
+      "acao_id": "2650",
+      "atividade": "Matemática na Rede",
+      "pub": 34
+    },
+    {
+      "ano": "2023",
+      "atividade_id": "15941",
+      "acao_id": "4597",
+      "atividade": "O IFES é o meu lugar",
+      "pub": 79
+    }
+  ],
+  "imp_coord": 188,
+  "imp_eq": 79,
+  "impacto": 267,
+  "temas": [
+    {
+      "tema": "Captação e ingresso",
+      "n": 7
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Murilo Andrade Carvalho",

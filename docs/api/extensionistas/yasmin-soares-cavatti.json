@@ -37,6 +37,42 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2023",
+      "atividade_id": "16108",
+      "acao_id": "4659",
+      "atividade": "Atividades físicas adaptadas e inclusão (AFAI)",
+      "pub": 197
+    },
+    {
+      "ano": "2025",
+      "atividade_id": "20613",
+      "acao_id": "5641",
+      "atividade": "LabMaker 4.0: capacitando professores para a cultura maker e tecnologias da Indústria 4.0",
+      "pub": 0
+    },
+    {
+      "ano": "2025",
+      "atividade_id": "20614",
+      "acao_id": "5641",
+      "atividade": "Minicurso \"Cultura Maker, Indústria 4.0 e Modelagem 3D\"",
+      "pub": 16
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 213,
+  "impacto": 213,
+  "temas": [
+    {
+      "tema": "Mulheres e inclusão",
+      "n": 1
+    },
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Emilene Coco dos Santos",

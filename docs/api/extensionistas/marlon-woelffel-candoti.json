@@ -34,6 +34,35 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2019",
+      "atividade_id": "7600",
+      "acao_id": "2193",
+      "atividade": "LifeBox: transporte e monitoramento de córnea de forma inteligente",
+      "pub": 0
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "2297",
+      "acao_id": "901",
+      "atividade": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+      "pub": 0
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 0,
+  "impacto": 0,
+  "temas": [
+    {
+      "tema": "Cultura e arte",
+      "n": 1
+    },
+    {
+      "tema": "Empreendedorismo e incubação",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Carlos Lins Borges Azevedo",

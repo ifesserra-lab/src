@@ -1,0 +1,199 @@
+---
+import Base from '../layouts/Base.astro';
+import LineChart from '../components/LineChart.astro';
+import Tile from '../components/Tile.astro';
+import { getPainel, getExtIndex } from '../lib/data';
+import { withBase } from '../lib/url';
+
+const p = getPainel();
+const ind = p.indicadores;
+const vg = p.visao_geral;
+const nExt = getExtIndex().length;
+const fmt = (n: number) => n.toLocaleString('pt-BR');
+const base = import.meta.env.BASE_URL;
+
+const anosSpark = vg.anos.map((a) => a[1]);
+const pubSpark = ind.publico_por_ano.map((a) => a[1]);
+
+const IC = {
+  chart: '<path d="M3 3v18h18"/><path d="M7 14l3-4 3 3 4-6"/>',
+  users: '<circle cx="9" cy="8" r="3"/><path d="M3 20a6 6 0 0112 0M16 8h5"/>',
+  person: '<circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0116 0"/>',
+  grid: '<path d="M4 4h16v16H4z"/><path d="M4 10h16M10 10v10"/>',
+};
+const explore = [
+  { href: '/painel.html', label: 'Painel', desc: 'Indicadores gerais e distribuição', color: 'var(--c1)', icon: IC.grid },
+  { href: '/investimento.html', label: 'Investimento', desc: 'Onde concentrar recurso — nichos', color: 'var(--c2)', icon: '<line x1="12" y1="20" x2="12" y2="10"/><line x1="18" y1="20" x2="18" y2="4"/><line x1="6" y1="20" x2="6" y2="16"/>' },
+  { href: '/jornada.html', label: 'Jornada', desc: 'Impacto na trajetória do estudante', color: 'var(--c4)', icon: '<circle cx="6" cy="19" r="3"/><circle cx="18" cy="5" r="3"/><path d="M9 19h6a3 3 0 0 0 3-3V8"/>' },
+  { href: '/temas.html', label: 'Temas', desc: 'Áreas temáticas e do conhecimento', color: 'var(--c3)', icon: '<path d="M20.6 13.4 11 3.8a2 2 0 0 0-1.4-.6H4a1 1 0 0 0-1 1v5.6a2 2 0 0 0 .6 1.4l9.6 9.6a2 2 0 0 0 2.8 0l4.6-4.6a2 2 0 0 0 0-2.8z"/><circle cx="7.5" cy="7.5" r="1.2"/>' },
+  { href: '/comunidade.html', label: 'Comunidade', desc: 'Rede de programas e parcerias', color: 'var(--c5)', icon: '<circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15 15 0 0 1 4 10 15 15 0 0 1-4 10 15 15 0 0 1-4-10 15 15 0 0 1 4-10z"/>' },
+  { href: '/acoes/', label: 'Ações', desc: `As ${fmt(vg.n_acoes)} iniciativas registradas`, color: 'var(--c6)', icon: '<path d="M12 2 2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/>' },
+];
+---
+<Base title="Buscar" active="busca" description="Busque nas ações e extensionistas da extensão do Campus Serra.">
+  <div class="wrap">
+    <div class="hero-block">
+      <h1>O que a extensão do Campus Serra já fez?</h1>
+
+      <div class="mkt card">
+        <div class="mkt-head">
+          <div class="mkt-num tnum">+{fmt(ind.alunos_unicos)}</div>
+          <div class="mkt-lbl"><b>pessoas atingidas</b> pela extensão do Campus Serra<br>
+            <span class="cap">{fmt(ind.total_publico)} atendimentos em {fmt(vg.total_atividades)} atividades</span></div>
+        </div>
+        <LineChart data={ind.publico_por_ano} color="var(--c1)" id="hero" />
+        <p class="cap" style="margin:8px 2px 0">Público atendido por ano (2013–2026).</p>
+      </div>
+
+      <p class="sub intro">Busque nas <b>{fmt(vg.n_acoes)} ações</b>, atividades e extensionistas — título, resumo, coordenação, tipo, área, fomento.</p>
+      <input class="busca" id="q" type="search" placeholder="Busque por tema, extensionista, tipo, fomento, ano..." autocomplete="off" aria-label="Buscar" />
+      <div class="chips" id="chips">
+        <button data-q="robótica">robótica</button><button data-q="inglês">inglês</button><button data-q="saúde">saúde</button>
+        <button data-q="curso 2024">curso 2024</button><button data-q="cultura">cultura</button><button data-q="FAPES">FAPES</button>
+      </div>
+      <div id="res" data-base={base}></div>
+    </div>
+
+    <section class="panorama" id="panorama">
+      <p class="section-title">Panorama</p>
+      <div class="tiles">
+        <Tile label="Iniciativas" value={fmt(vg.n_acoes)} hint={`<span class="up">${fmt(vg.n_acoes_ativas)}</span> ativas`} color="var(--c1)" icon={IC.chart} spark={anosSpark} />
+        <Tile label="Público atendido" value={fmt(vg.total_publico)} hint="atendimentos" color="var(--c2)" icon={IC.users} spark={pubSpark} />
+        <Tile label="Extensionistas" value={fmt(nExt)} hint="crédito de execução" color="var(--c4)" icon={IC.person} />
+        <Tile label="Atividades" value={fmt(vg.total_atividades)} hint="cursos, eventos, projetos" color="var(--c3)" icon={IC.grid} />
+      </div>
+
+      <p class="section-title">Explorar</p>
+      <div class="explore">
+        {explore.map((e) => (
+          <a class="xcard" href={withBase(e.href)} style={`--xc:${e.color}`}>
+            <span class="xic"><svg viewBox="0 0 24 24" set:html={e.icon} /></span>
+            <span class="xbd"><b>{e.label}</b><span>{e.desc}</span></span>
+            <svg class="xarr" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        ))}
+      </div>
+    </section>
+  </div>
+</Base>
+
+<script>
+  const KIND_COLOR: Record<string, string> = {
+    'Ação': 'var(--c1)', 'Atividade': 'var(--c2)', 'Extensionista': 'var(--c4)',
+  };
+  let pf: any = null;
+  async function loadPagefind(base: string) {
+    if (pf) return pf;
+    try { pf = await import(/* @vite-ignore */ `${base}pagefind/pagefind.js`); await pf.init(); return pf; }
+    catch (e) { return null; }
+  }
+  function esc(s: string) {
+    return (s || '').replace(/[&<>]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' } as Record<string, string>)[c]);
+  }
+  function wire() {
+    const q = document.getElementById('q') as HTMLInputElement | null;
+    const res = document.getElementById('res');
+    const chips = document.getElementById('chips');
+    const panorama = document.getElementById('panorama');
+    if (!q || !res) return;
+    const base = res.getAttribute('data-base') || '/';
+    let t: ReturnType<typeof setTimeout>;
+
+    const GROUP_ORDER = ['Extensionista', 'Ação', 'Atividade'];
+    const GROUP_LABEL: Record<string, string> = { 'Extensionista': 'Extensionistas', 'Ação': 'Ações', 'Atividade': 'Atividades' };
+    function hitHTML(d: any) {
+      const kind = d.meta?.kind || '';
+      const color = KIND_COLOR[kind] || 'var(--muted)';
+      const title = d.meta?.title || d.url;
+      const sub = d.meta?.sub || '';
+      const href = base.replace(/\/$/, '') + d.url;
+      return `<a class="hit" href="${href}">
+        <span class="hit-k" style="background:${color}">${esc(kind)}</span>
+        <span class="hit-bd">
+          <span class="t">${esc(title)}</span>
+          ${sub ? `<span class="s">${esc(sub)}</span>` : ''}
+          <span class="ex">${d.excerpt || ''}</span>
+        </span></a>`;
+    }
+
+    async function run(term: string) {
+      term = term.trim();
+      if (panorama) panorama.style.display = term ? 'none' : '';
+      if (!term) { res.innerHTML = ''; return; }
+      const engine = await loadPagefind(base);
+      if (!engine) { res.innerHTML = '<div class="empty">Índice de busca indisponível (rode <code>npm run build</code>).</div>'; return; }
+      const search = await engine.search(term);
+      const hits = await Promise.all(search.results.slice(0, 60).map((r: any) => r.data()));
+      if (!hits.length) { res.innerHTML = `<div class="empty">Nada encontrado para <b>${esc(term)}</b>. Tente tema, coordenador(a)/extensionista, atividade, tipo, fomento ou ano.</div>`; return; }
+      // agrupa por tipo (Extensionistas / Ações / Atividades), como no site atual
+      const grupos: Record<string, any[]> = {};
+      for (const d of hits) { const k = d.meta?.kind || 'Outros'; (grupos[k] ||= []).push(d); }
+      const ordem = [...GROUP_ORDER.filter((k) => grupos[k]), ...Object.keys(grupos).filter((k) => !GROUP_ORDER.includes(k))];
+      res.innerHTML =
+        `<div class="res-meta">${search.results.length} resultado(s) para <b>${esc(term)}</b></div>` +
+        ordem.map((k) => `<div class="res-grp"><p class="res-grp-h">${esc(GROUP_LABEL[k] || k)} <span>(${grupos[k].length})</span></p>${grupos[k].map(hitHTML).join('')}</div>`).join('');
+    }
+    q.addEventListener('input', () => { clearTimeout(t); t = setTimeout(() => run(q.value), 160); });
+    chips?.addEventListener('click', (e) => {
+      const b = e.target as HTMLElement;
+      if (b.tagName !== 'BUTTON') return;
+      q.value = b.dataset.q || '';
+      run(q.value);
+      q.focus();
+    });
+  }
+  document.addEventListener('astro:page-load', wire);
+</script>
+
+<style>
+  .hero-block { max-width: 940px; margin: 0 auto; }
+  h1 { font-size: 26px; text-align: center; margin-bottom: 18px; }
+  @media (min-width: 640px) { h1 { font-size: 34px; } }
+  .mkt { margin-bottom: 20px; }
+  .mkt-head { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; margin-bottom: 6px; }
+  .mkt-num { font-size: 40px; font-weight: 800; letter-spacing: -.03em; line-height: 1; color: var(--c1); }
+  @media (min-width: 640px) { .mkt-num { font-size: 50px; } }
+  .mkt-lbl { font-size: 15px; line-height: 1.4; }
+  .intro { max-width: 64ch; margin: 0 auto 14px; text-align: center; }
+  .busca { width: 100%; padding: 15px 18px 15px 48px; border-radius: 14px; border: 1px solid var(--border);
+    background: var(--surface) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='%2364748b' stroke-width='2' stroke-linecap='round'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='m21 21-4.3-4.3'/%3E%3C/svg%3E") no-repeat 17px center;
+    color: var(--text); font-size: 16px; font-family: inherit; outline: none; transition: border-color .15s, box-shadow .15s; }
+  .busca:focus { border-color: var(--c1); box-shadow: 0 0 0 4px color-mix(in srgb, var(--c1) 18%, transparent); }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-top: 14px; }
+  .chips button { font: inherit; font-size: 13px; font-weight: 500; padding: 6px 13px; border-radius: 999px;
+    border: 1px solid var(--grid); background: var(--surface); color: var(--text-2); cursor: pointer; transition: .15s; }
+  .chips button:hover { border-color: var(--c1); color: var(--c1); }
+  #res { margin-top: 22px; display: flex; flex-direction: column; gap: 10px; text-align: left; }
+  .res-meta { color: var(--muted); font-size: 12.5px; text-align: center; }
+  .res-grp { display: flex; flex-direction: column; gap: 10px; }
+  .res-grp-h { margin: 8px 2px 0; font-size: 12px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+  .res-grp-h span { color: var(--text-2); font-weight: 500; }
+  .hit { background: var(--surface); border: 1px solid var(--grid); border-radius: var(--radius); padding: 14px 16px;
+    box-shadow: var(--shadow); display: flex; gap: 13px; align-items: flex-start; text-decoration: none; transition: .15s; }
+  .hit:hover { border-color: var(--c1); transform: translateY(-1px); }
+  .hit-k { flex: none; font-size: 10.5px; font-weight: 700; color: #fff; padding: 3px 9px; border-radius: 7px; letter-spacing: .02em; text-transform: uppercase; }
+  .hit-bd { min-width: 0; }
+  .hit-bd .t { display: block; font-size: 15px; font-weight: 600; color: var(--text); line-height: 1.25; }
+  .hit-bd .s { display: block; font-size: 12.5px; color: var(--text-2); margin-top: 2px; }
+  .hit-bd .ex { display: block; font-size: 12.5px; color: var(--muted); margin-top: 6px; line-height: 1.5; }
+  .hit-bd .ex :global(mark) { background: color-mix(in srgb, var(--c1) 22%, transparent); color: inherit; border-radius: 3px; padding: 0 2px; }
+  .empty { text-align: center; color: var(--muted); padding: 24px; }
+  .empty :global(code) { font-family: var(--mono); background: var(--sunk); padding: 1px 6px; border-radius: 5px; }
+
+  /* destaques — preenchem o espaço abaixo da busca */
+  .panorama { margin-top: 38px; }
+  .explore { display: grid; grid-template-columns: 1fr; gap: 12px; }
+  @media (min-width: 560px) { .explore { grid-template-columns: 1fr 1fr; } }
+  @media (min-width: 900px) { .explore { grid-template-columns: 1fr 1fr 1fr; } }
+  .xcard { display: flex; align-items: center; gap: 14px; background: var(--surface); border: 1px solid var(--grid);
+    border-radius: var(--radius); padding: 16px 18px; box-shadow: var(--shadow); text-decoration: none; transition: border-color .15s, transform .15s; }
+  .xcard:hover { border-color: var(--xc); transform: translateY(-1px); }
+  .xic { flex: none; width: 42px; height: 42px; border-radius: 11px; display: grid; place-items: center;
+    background: color-mix(in srgb, var(--xc) 14%, transparent); }
+  .xic svg { width: 21px; height: 21px; stroke: var(--xc); fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+  .xbd { flex: 1; min-width: 0; }
+  .xbd b { display: block; font-size: 15px; color: var(--text); }
+  .xbd span { font-size: 12.5px; color: var(--muted); }
+  .xarr { width: 18px; height: 18px; stroke: var(--muted); fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; flex: none; transition: transform .15s; }
+  .xcard:hover .xarr { transform: translateX(3px); stroke: var(--xc); }
+</style>

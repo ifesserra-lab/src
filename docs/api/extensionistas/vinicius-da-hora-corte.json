@@ -35,6 +35,35 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2019",
+      "atividade_id": "10936",
+      "acao_id": "2599",
+      "atividade": "Sistema de apoio para rastreio e geolocalização de transtornos mentaiscomuns na atenção primária a saúde",
+      "pub": 0
+    },
+    {
+      "ano": "2021",
+      "atividade_id": "15044",
+      "acao_id": "3423",
+      "atividade": "Pré-incubação – Capacitação para empreendedores inovadores",
+      "pub": 7
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 7,
+  "impacto": 7,
+  "temas": [
+    {
+      "tema": "Saúde e bem-estar",
+      "n": 1
+    },
+    {
+      "tema": "Empreendedorismo e incubação",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Carlos Lins Borges Azevedo",

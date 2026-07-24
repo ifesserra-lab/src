@@ -71,6 +71,60 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2018",
+      "atividade_id": "5720",
+      "acao_id": "1816",
+      "atividade": "Maratona de Programação",
+      "pub": 37
+    },
+    {
+      "ano": "2018",
+      "atividade_id": "6873",
+      "acao_id": "2082",
+      "atividade": "Mulheres na Ciência",
+      "pub": 11
+    },
+    {
+      "ano": "2019",
+      "atividade_id": "9225",
+      "acao_id": "2675",
+      "atividade": "Tutoria de Estudos Orientados: Compartilhando Saberes",
+      "pub": 5
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "1200",
+      "acao_id": "645",
+      "atividade": "SIPAC - Sistema de Informação da Produção Agropecuária capixaba",
+      "pub": 1
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "2297",
+      "acao_id": "901",
+      "atividade": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+      "pub": 0
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 54,
+  "impacto": 54,
+  "temas": [
+    {
+      "tema": "Cultura e arte",
+      "n": 2
+    },
+    {
+      "tema": "Mulheres e inclusão",
+      "n": 2
+    },
+    {
+      "tema": "Empreendedorismo e incubação",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Moisés Savedra Omena",

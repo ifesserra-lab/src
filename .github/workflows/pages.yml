@@ -3,15 +3,12 @@ name: Deploy GitHub Pages
 # Publica o conteúdo agregado de docs/ (painel HTML) no GitHub Pages.
 # O painel é gerado LOCALMENTE (onde ficam os dados/credenciais) e commitado em
 # docs/ — sem PII. Este CI apenas faz o deploy do que está em docs/.
+# DESLIGADO como deploy automático em 24/07/2026: a produção do GitHub Pages
+# passou para o pipeline Astro (pages-astro.yml). Mantido só como manual
+# (workflow_dispatch) para fallback do site antigo em docs/. Dois deploys de
+# Pages não podem rodar em push ao mesmo tempo (mesmo concurrency group).
 on:
-  push:
-    branches: [main]
-    paths:
-      - "docs/**"
-      - ".github/workflows/pages.yml"
   workflow_dispatch:
-  schedule:
-    - cron: "0 6 * * 1"   # toda segunda 06:00 UTC — reempacota o ZIP de dados abertos
 
 permissions:
   contents: read

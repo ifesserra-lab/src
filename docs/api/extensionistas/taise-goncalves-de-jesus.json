@@ -22,6 +22,24 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2019",
+      "atividade_id": "8972",
+      "acao_id": "2591",
+      "atividade": "O IFES é o meu lugar",
+      "pub": 40
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 40,
+  "impacto": 40,
+  "temas": [
+    {
+      "tema": "Captação e ingresso",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Paulo Cezar Camargo Guedes",

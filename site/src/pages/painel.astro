@@ -1,0 +1,358 @@
+---
+import Base from '../layouts/Base.astro';
+import Tile from '../components/Tile.astro';
+import PairBar from '../components/PairBar.astro';
+import Donut from '../components/Donut.astro';
+import LineChart from '../components/LineChart.astro';
+import Funnel from '../components/Funnel.astro';
+import NetworkGraph from '../components/NetworkGraph.astro';
+import Section from '../components/Section.astro';
+import { getPainel, getForproex } from '../lib/data';
+import { PT } from '../lib/painelTextos';
+
+const p = getPainel();
+const vg = p.visao_geral, ind = p.indicadores, imp = p.impacto, rp = p.rede_programas;
+const fo = p.formados;
+const fpx = getForproex();
+const fmt = (n: number) => (n ?? 0).toLocaleString('pt-BR');
+const pct = (n: number, d: number) => (d ? Math.round((n / d) * 100) : 0);
+const gn = rp.grafo_nodes ?? [];
+const ge = rp.grafo_edges ?? [];
+---
+<Base title="Painel" description="Painel agregado da extensão e ensino do Campus Serra — visão geral, indicadores, rede, formados, impacto e índice FORPROEX." active="painel">
+  <div class="wrap">
+    <p class="crumb">Páginas / <b>Painel</b></p>
+    <h1>Painel da extensão &amp; ensino</h1>
+    <p class="sub">Visão agregada do Campus Serra — sem nomes nem CPF de alunos (público-alvo só em contagens).</p>
+
+    <div class="tabs">
+      <input type="radio" name="ptab" id="tab1" checked />
+      <input type="radio" name="ptab" id="tab2" />
+      <input type="radio" name="ptab" id="tab3" />
+      <input type="radio" name="ptab" id="tab4" />
+      <input type="radio" name="ptab" id="tab5" />
+      <input type="radio" name="ptab" id="tab6" />
+      <div class="tabbar">
+        <label for="tab1">Visão geral</label>
+        <label for="tab2">Indicadores</label>
+        <label for="tab3">Rede &amp; programas</label>
+        <label for="tab4">Formados na Extensão</label>
+        <label for="tab5">Impacto</label>
+        <label for="tab6">Índice (FORPROEX)</label>
+      </div>
+      <div class="panes">
+
+        <!-- ===================== VISÃO GERAL ===================== -->
+        <section class="tabpane" id="pane1">
+          <div class="tiles">
+            <Tile label="Iniciativas" value={fmt(vg.n_acoes)} hint={`${fmt(vg.n_acoes_ativas)} ativas`} color="var(--c1)" />
+            <Tile label="Atividades" value={fmt(vg.total_atividades)} hint="cursos, eventos, projetos" color="var(--c3)" />
+            <Tile label="Público atendido" value={fmt(vg.total_publico)} hint="participações" color="var(--c2)" />
+            <Tile label="Equipe executora" value={fmt(vg.total_equipe)} hint={`média ${vg.media_equipe?.toFixed(1)}/ação`} color="var(--c4)" />
+            <Tile label="Certificação" value={`${Math.round(vg.taxa_cert)}%`} hint="do público-alvo" color="var(--good)" />
+          </div>
+
+          <Section title="Ações por natureza e tipo" desc={PT['Ações por natureza e tipo'].sd} explica={PT['Ações por natureza e tipo'].ex}>
+            <div class="pcols">
+              <div><p class="cap">Natureza</p><Donut data={vg.natureza} centerLabel="ações" max={6} /></div>
+              <div><p class="cap">Tipo de ação</p><Donut data={vg.tipo} centerLabel="ações" max={8} /></div>
+            </div>
+          </Section>
+
+          <Section title="Fomento e relatório final" desc={PT['Fomento e relatório final'].sd} explica={PT['Fomento e relatório final'].ex}>
+            <div class="pcols">
+              <div><p class="cap">Fomento</p><PairBar data={vg.fomento} max={8} /></div>
+              {vg.relatorio && <div><p class="cap">Relatório aprovado</p><Donut data={vg.relatorio} centerLabel="ações" max={4} /></div>}
+            </div>
+          </Section>
+
+          <Section title="Ações por ano de cadastro" desc={PT['Ações por ano de cadastro'].sd} explica={PT['Ações por ano de cadastro'].ex}>
+            <LineChart data={vg.anos} id="vg-anos" />
+          </Section>
+
+          <Section title="Grande área e área temática" desc={PT['Grande área e área temática'].sd} explica={PT['Grande área e área temática'].ex}>
+            <div class="pcols">
+              <div><p class="cap">Grande área (inferida por IA quando ausente)</p><Donut data={vg.grande_area} centerLabel="ações" max={6} /></div>
+              {vg.area_tematica && <div><p class="cap">Área temática principal{vg.n_at_inferida ? ` · ${vg.n_at_inferida} inferidas por IA` : ''}</p><Donut data={vg.area_tematica} centerLabel="ações" max={6} /></div>}
+            </div>
+          </Section>
+
+          <Section title="Top 10 — coordenadores e ações" desc={PT['Top 10 — coordenadores e ações'].sd} explica={PT['Top 10 — coordenadores e ações'].ex}>
+            <PairBar data={vg.coordenadores} max={10} />
+          </Section>
+
+          {vg.situacao && vg.certificado && (
+            <Section title="Situação e certificação do público-alvo" desc={PT['Situação e certificação do público-alvo'].sd} explica={PT['Situação e certificação do público-alvo'].ex}>
+              <div class="pcols">
+                <div><p class="cap">Situação dos participantes</p><Donut data={vg.situacao} centerLabel="partic." max={6} /></div>
+                <div><p class="cap">Certificação</p><Donut data={vg.certificado} centerLabel="partic." max={4} /></div>
+              </div>
+            </Section>
+          )}
+
+          {vg.funcao && (
+            <Section title="Equipe executora por função (top 8)" explica={PT['Equipe executora por função (top 8)'].ex}>
+              <PairBar data={vg.funcao} max={8} color="var(--c4)" />
+            </Section>
+          )}
+
+          {vg.top_publico && (
+            <div class="card" style="margin-top:16px">
+              <h2>Ações por alunos atendidos</h2>
+              <p class="sec-desc">As 10 ações com maior público-alvo registrado.</p>
+              <div style="margin-top:14px"><PairBar data={vg.top_publico} max={10} color="var(--c2)" /></div>
+            </div>
+          )}
+        </section>
+
+        <!-- ===================== INDICADORES ===================== -->
+        <section class="tabpane" id="pane2">
+          <div class="tiles">
+            <Tile label="Alunos únicos" value={fmt(ind.alunos_unicos)} hint="deduplicados" color="var(--c1)" />
+            {ind.media_part_pessoa != null && <Tile label="Participações / pessoa" value={ind.media_part_pessoa.toFixed(1)} color="var(--c2)" />}
+            <Tile label="Pessoas na equipe" value={fmt(ind.equipe_unica)} hint={`${fmt(ind.total_equipe)} participações`} color="var(--c4)" />
+            {ind.razao_aluno_equipe != null && <Tile label="Razão aluno : equipe" value={`${ind.razao_aluno_equipe.toFixed(1)}:1`} color="var(--c3)" />}
+            {ind.turma_media != null && <Tile label="Turma média" value={ind.turma_media.toFixed(1)} hint="por atividade" color="var(--c5)" />}
+          </div>
+
+          <Section title="Alunos atendidos: por ano e por coordenador(a)" desc={PT['Alunos atendidos: por ano e por coordenador(a)'].sd} explica={PT['Alunos atendidos: por ano e por coordenador(a)'].ex}>
+            <div class="pcols">
+              <div><p class="cap">Por ano</p><LineChart data={ind.publico_por_ano} id="ind-ano" color="var(--c2)" /></div>
+              {ind.publico_por_coord && <div><p class="cap">Top 10 coordenadores</p><PairBar data={ind.publico_por_coord} max={10} /></div>}
+            </div>
+          </Section>
+
+          <Section title="Recorrência e tamanho de turma" desc={PT['Recorrência e tamanho de turma'].sd} explica={PT['Recorrência e tamanho de turma'].ex}>
+            <div class="pcols">
+              <div><p class="cap">Recorrência</p><PairBar data={ind.recorrencia} /></div>
+              <div><p class="cap">Tamanho de turma</p><Donut data={ind.turma_dist} centerLabel="atividades" max={6} /></div>
+            </div>
+          </Section>
+
+          {ind.aprovado_por_tipo && ind.cert_por_tipo && (
+            <Section title="Taxa de aprovação e de certificação por tipo" desc={PT['Taxa de aprovação e de certificação por tipo'].sd} explica={PT['Taxa de aprovação e de certificação por tipo'].ex}>
+              <div class="pcols">
+                <div><p class="cap">Aprovação por tipo</p><PairBar data={ind.aprovado_por_tipo} unit="%" color="var(--good)" /></div>
+                <div><p class="cap">Certificação por tipo</p><PairBar data={ind.cert_por_tipo} unit="%" color="var(--c1)" /></div>
+              </div>
+            </Section>
+          )}
+
+          <Section title="Composição da equipe executora" desc={PT['Composição da equipe executora'].sd} explica={PT['Composição da equipe executora'].ex}>
+            <Donut data={ind.composicao_equipe} centerLabel="pessoas" max={6} />
+          </Section>
+        </section>
+
+        <!-- ===================== REDE & PROGRAMAS ===================== -->
+        <section class="tabpane" id="pane3">
+          <div class="tiles">
+            <Tile label="Programas" value={fmt(rp.n_programas)} color="var(--c1)" />
+            {rp.maior_programa && <Tile label="Maior programa" value={fmt(rp.maior_programa[1])} hint={String(rp.maior_programa[0])} color="var(--c2)" />}
+            <Tile label="Coordenações que colaboram" value={fmt(rp.n_coord_colab)} color="var(--c4)" />
+            <Tile label="Parcerias" value={fmt(rp.n_parcerias)} color="var(--c3)" />
+          </div>
+
+          {rp.programas && (
+            <Section title="Programas por nº de ações vinculadas" desc={PT['Programas por nº de ações vinculadas'].sd} explica={PT['Programas por nº de ações vinculadas'].ex}>
+              <PairBar data={rp.programas} max={10} />
+            </Section>
+          )}
+
+          <Section title="Programas por público agregado" desc={PT['Programas por público agregado'].sd} explica={PT['Programas por público agregado'].ex}>
+            <PairBar data={rp.programas_publico} max={10} color="var(--c2)" />
+          </Section>
+
+          {gn.length > 0 && ge.length > 0 && (
+            <Section title="Rede de colaboração entre coordenadores(as)" desc={PT['Rede de colaboração entre coordenadores(as)'].sd} explica={PT['Rede de colaboração entre coordenadores(as)'].ex}>
+              <NetworkGraph nodes={gn} edges={ge} height={360} />
+            </Section>
+          )}
+
+          <Section title="Coordenadores(as) mais colaborativos" desc={PT['Coordenadores(as) mais colaborativos'].sd} explica={PT['Coordenadores(as) mais colaborativos'].ex}>
+            <PairBar data={rp.coord_colab} max={10} color="var(--c4)" />
+          </Section>
+
+          <Section title="Principais parcerias" desc={PT['Principais parcerias'].sd} explica={PT['Principais parcerias'].ex}>
+            <PairBar data={rp.top_parcerias} max={10} color="var(--c5)" />
+          </Section>
+        </section>
+
+        <!-- ===================== FORMADOS ===================== -->
+        <section class="tabpane" id="pane4">
+          {fo && (
+            <>
+              <div class="tiles">
+                <Tile label="Formados analisados" value={fmt(fo.total_formados)} color="var(--c1)" />
+                <Tile label="Fizeram extensão" value={`${Math.round(fo.pct_qualquer)}%`} hint={`${fmt(fo.em_ext_qualquer)} pessoas`} color="var(--good)" />
+                {fo.em_ext_publico != null && <Tile label="Como público-alvo" value={fmt(fo.em_ext_publico)} color="var(--c2)" />}
+                {fo.em_ext_equipe != null && <Tile label="Como equipe executora" value={fmt(fo.em_ext_equipe)} color="var(--c4)" />}
+              </div>
+
+              <Section title="Formados que participaram de Extensão" desc={PT['Formados que participaram de Extensão'].sd} explica={PT['Formados que participaram de Extensão'].ex}>
+                <div class="pcols">
+                  {fo.participou_dist && <div><p class="cap">Participação</p><Donut data={fo.participou_dist} centerLabel="formados" max={4} /></div>}
+                  <div><p class="cap">Papel na Extensão</p><Donut data={fo.papel_dist} centerLabel="formados" max={4} /></div>
+                </div>
+              </Section>
+
+              <Section title="Formados na Extensão por curso (participantes/total)" desc={PT['Formados na Extensão por curso (participantes/total)'].sd} explica={PT['Formados na Extensão por curso (participantes/total)'].ex}>
+                <PairBar data={fo.por_curso} max={14} color="var(--c2)" />
+              </Section>
+            </>
+          )}
+          {!fo && <div class="card"><p class="sec-desc">Dados de formados indisponíveis nesta geração.</p></div>}
+        </section>
+
+        <!-- ===================== IMPACTO ===================== -->
+        <section class="tabpane" id="pane5">
+          <div class="tiles">
+            <Tile label="Horas-aluno" value={fmt(imp.horas_aluno)} hint="carga × participações" color="var(--c1)" />
+            {imp.horas_por_part != null && <Tile label="Por participação" value={`${imp.horas_por_part.toFixed(0)} h`} color="var(--c2)" />}
+            {imp.pct_externo != null && <Tile label="Equipe externa" value={`${imp.pct_externo.toFixed(0)}%`} color="var(--c4)" />}
+            <Tile label="Público → equipe" value={fmt(imp.funil_conv)} hint={`${imp.funil_pct}%`} color="var(--c5)" />
+            <Tile label="Certificados em atraso" value={fmt(imp.gap_cert)} hint="aprovados sem certificado" color="var(--warn)" />
+          </div>
+
+          <Section title="Horas-aluno e perfil etário" desc={PT['Horas-aluno e perfil etário'].sd} explica={PT['Horas-aluno e perfil etário'].ex}>
+            <div class="pcols">
+              {imp.ch_por_tipo && <div><p class="cap">Horas-aluno por tipo</p><PairBar data={imp.ch_por_tipo} /></div>}
+              <div><p class="cap">Faixa etária</p><Donut data={imp.idade} centerLabel="pessoas" max={6} /></div>
+            </div>
+          </Section>
+
+          <Section title="Funil de engajamento (público → equipe)" desc={PT['Funil de engajamento (público → equipe)'].sd} explica={PT['Funil de engajamento (público → equipe)'].ex}>
+            <Funnel data={[['Atendidos como público', Math.round(imp.funil_conv / (imp.funil_pct / 100 || 1))], ['Depois viraram equipe', imp.funil_conv]]} />
+          </Section>
+
+          <Section title="Gap de certificação por coordenador(a)" desc={PT['Gap de certificação por coordenador(a)'].sd} explica={PT['Gap de certificação por coordenador(a)'].ex}>
+            <PairBar data={imp.gap_coord} max={10} color="var(--warn)" />
+          </Section>
+
+          <Section title="Renovação da equipe por ano (% de pessoas novas)" desc={PT['Renovação da equipe por ano (% de pessoas novas)'].sd} explica={PT['Renovação da equipe por ano (% de pessoas novas)'].ex}>
+            <PairBar data={imp.renovacao} unit="%" max={20} color="var(--c2)" />
+          </Section>
+
+          {imp.meses && (
+            <Section title="Sazonalidade — atividades por mês de início" desc={PT['Sazonalidade — atividades por mês de início'].sd} explica={PT['Sazonalidade — atividades por mês de início'].ex}>
+              <PairBar data={imp.meses} max={12} color="var(--c3)" />
+            </Section>
+          )}
+
+          {imp.duracao && (
+            <Section title="Duração das atividades e vínculo da equipe" desc={PT['Duração das atividades e vínculo da equipe'].sd} explica={PT['Duração das atividades e vínculo da equipe'].ex}>
+              <div class="pcols">
+                <div><p class="cap">Duração</p><Donut data={imp.duracao} centerLabel="atividades" max={4} /></div>
+                <div><p class="cap">Vínculo da equipe</p><Donut data={imp.vinculo} centerLabel="pessoas" max={6} /></div>
+              </div>
+            </Section>
+          )}
+
+          <div class="card" style="margin-top:16px">
+            <h2>Continuidade e concentração</h2>
+            <div class="statrow">
+              {imp.multi_ano != null && <div><b class="tnum">{fmt(imp.multi_ano)}</b><span>ações em vários anos</span></div>}
+              {imp.cr5 != null && <div><b class="tnum">{imp.cr5}%</b><span>público nas 5 maiores (CR5)</span></div>}
+              {imp.cr10 != null && <div><b class="tnum">{imp.cr10}%</b><span>nas 10 maiores (CR10)</span></div>}
+              {imp.hhi != null && <div><b class="tnum">{fmt(imp.hhi)}</b><span>HHI (concentração)</span></div>}
+            </div>
+            <p class="explica-static">{PT['Continuidade e concentração'].ex}</p>
+          </div>
+        </section>
+
+        <!-- ===================== FORPROEX ===================== -->
+        <section class="tabpane" id="pane6">
+          {fpx ? (
+            <>
+              <div class="tiles">
+                <Tile label="Relatório aprovado" value={`${pct(fpx.aprov, fpx.tot)}%`} hint={`${fmt(fpx.aprov)}/${fmt(fpx.tot)}`} color="var(--good)" />
+                <Tile label="Protagonismo discente" value={`${pct(fpx.disc, fpx.teq)}%`} hint={`${fmt(fpx.disc)}/${fmt(fpx.teq)} na equipe`} color="var(--c1)" />
+                <Tile label="Formados alcançados" value={`${pct(fpx.form_alc, fpx.n_form)}%`} hint={`${fmt(fpx.form_alc)}/${fmt(fpx.n_form)}`} color="var(--c4)" />
+                <Tile label="Pessoas atingidas" value={fmt(fpx.npub)} hint={`${fmt(fpx.atend)} atendimentos`} color="var(--c2)" />
+                <Tile label="Público < 18" value={`${pct(fpx.preuni, fpx.npub)}%`} hint={`${fmt(fpx.preuni)} pré-universitário`} color="var(--c3)" />
+              </div>
+
+              <div class="card" style="margin-top:16px">
+                <h2>1 · Política de Gestão</h2>
+                <p class="sec-desc">{PT['1 · Política de Gestão'].sd}</p>
+                <div style="margin-top:12px"><PairBar data={[['Relatório aprovado', fpx.aprov], ['Pendente', fpx.pend]]} color="var(--good)" /></div>
+                <p class="explica-static">{PT['1 · Política de Gestão'].ex}</p>
+              </div>
+
+              <div class="card" style="margin-top:16px">
+                <h2>2 · Infraestrutura</h2>
+                <p class="sec-desc">{PT['2 · Infraestrutura'].sd}</p>
+                <ul class="proglist">
+                  {fpx.prog_list.map((pg) => {
+                    const w = (pg.publico / (fpx.prog_list[0]?.publico || 1)) * 100;
+                    return (
+                      <li>
+                        <div class="pl-hd"><span class="pl-t">{pg.titulo}</span><span class="pl-m tnum">{fmt(pg.publico)} · {pg.atividades} ativ. · {pg.processos} proc.</span></div>
+                        <div class="pl-bar"><span style={`width:${w}%`}></span></div>
+                      </li>
+                    );
+                  })}
+                </ul>
+                <p class="explica-static">{PT['2 · Infraestrutura'].ex}</p>
+              </div>
+
+              <div class="card" style="margin-top:16px">
+                <h2>3 · Política Acadêmica — protagonismo e formação</h2>
+                <p class="sec-desc">{PT['3 · Política Acadêmica — protagonismo e formação'].sd}</p>
+                <div class="statrow">
+                  <div><b class="tnum">{fmt(fpx.disc)}</b><span>discentes na equipe (de {fmt(fpx.teq)})</span></div>
+                  <div><b class="tnum">{fmt(fpx.serv)}</b><span>servidores/docentes</span></div>
+                  <div><b class="tnum">{fmt(fpx.form_alc)}</b><span>formados que passaram pela extensão</span></div>
+                </div>
+                <p class="explica-static">{PT['3 · Política Acadêmica — protagonismo e formação'].ex}</p>
+              </div>
+
+              <div class="card" style="margin-top:16px">
+                <h2>4 · Relação Universidade-Sociedade</h2>
+                <p class="sec-desc">{PT['4 · Relação Universidade-Sociedade'].sd}</p>
+                <div class="statrow">
+                  <div><b class="tnum">{fmt(fpx.npub)}</b><span>pessoas atingidas</span></div>
+                  <div><b class="tnum">{fmt(fpx.preuni)}</b><span>público &lt; 18 anos</span></div>
+                  <div><b class="tnum">{fmt(fpx.conv)}</b><span>convidados/externos</span></div>
+                </div>
+                <p class="explica-static">{PT['4 · Relação Universidade-Sociedade'].ex}</p>
+              </div>
+
+              <div class="card" style="margin-top:16px">
+                <h2>5 · Produção Acadêmica (extensão × pesquisa)</h2>
+                <p class="sec-desc">{PT['5 · Produção Acadêmica (extensão × pesquisa)'].sd}</p>
+                <div class="statrow">
+                  <div><b class="tnum">{fmt(fpx.prod.coord)}</b><span>coordenadores-pesquisadores</span></div>
+                  <div><b class="tnum">{fmt(fpx.prod.com_ext)}</b><span>com produção + extensão</span></div>
+                  <div><b class="tnum">{fpx.prod.fwci.toFixed(2)}</b><span>FWCI mediano</span></div>
+                </div>
+                <p class="explica-static">{PT['5 · Produção Acadêmica (extensão × pesquisa)'].ex}</p>
+              </div>
+            </>
+          ) : (
+            <div class="card"><p class="sec-desc">Índice FORPROEX indisponível nesta geração (depende dos formados).</p></div>
+          )}
+        </section>
+
+      </div>
+    </div>
+
+    <div class="pii" style="margin-top:24px">Painel agregado: sem nomes, CPF ou e-mail de alunos. Público-alvo aparece só como contagens; equipe de execução como crédito público (nome/função/vínculo). Gerado pela lib <span class="mono">src_etl</span> · {fmt(vg.n_acoes)} ações · {fmt(ind.alunos_unicos)} alunos únicos · {fmt(rp.n_programas)} programas.</div>
+  </div>
+</Base>
+
+<style>
+  .cap { color: var(--muted); font-size: 12px; margin: 0 0 8px; font-weight: 600; }
+  .pcols { display: grid; grid-template-columns: 1fr; gap: 20px; }
+  @media (min-width: 760px) { .pcols { grid-template-columns: 1fr 1fr; } }
+  .statrow { display: flex; flex-wrap: wrap; gap: 22px; margin: 14px 0 4px; }
+  .statrow > div { display: flex; flex-direction: column; }
+  .statrow b { font-size: 24px; font-weight: 700; color: var(--text); }
+  .statrow span { font-size: 12.5px; color: var(--muted); }
+  .explica-static { color: var(--text-2); font-size: 12.5px; line-height: 1.6; margin: 14px 0 0; max-width: 82ch; }
+  .proglist { list-style: none; margin: 14px 0 0; padding: 0; display: flex; flex-direction: column; gap: 11px; }
+  .pl-hd { display: flex; justify-content: space-between; gap: 10px; font-size: 13px; margin-bottom: 4px; }
+  .pl-t { color: var(--text-2); }
+  .pl-m { color: var(--muted); white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .pl-bar { height: 8px; border-radius: 4px; background: var(--sunk); overflow: hidden; }
+  .pl-bar span { display: block; height: 100%; background: var(--c1); border-radius: 4px; }
+</style>

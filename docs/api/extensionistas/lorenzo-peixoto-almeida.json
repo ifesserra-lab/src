@@ -22,6 +22,24 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2022",
+      "atividade_id": "14488",
+      "acao_id": "4215",
+      "atividade": "SprintLab - Laboratório de Prototipação Acelerada",
+      "pub": 2
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 2,
+  "impacto": 2,
+  "temas": [
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Felipe Frechiani de Oliveira",

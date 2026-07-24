@@ -61,6 +61,67 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2022",
+      "atividade_id": "14474",
+      "acao_id": "4209",
+      "atividade": "ELETRICISTA INSTALADOR PREDIAL DE BAIXA TENSÃO",
+      "pub": 23
+    },
+    {
+      "ano": "2023",
+      "atividade_id": "20470",
+      "acao_id": "4820",
+      "atividade": "Mulheres Mil – Eletricista Instalador Predial em Baixa Tensão",
+      "pub": 20
+    },
+    {
+      "ano": "2023",
+      "atividade_id": "17244",
+      "acao_id": "4820",
+      "atividade": "Mulheres Mil – Eletricista Instalador Predial em Baixa Tensão",
+      "pub": 42
+    },
+    {
+      "ano": "2024",
+      "atividade_id": "22201",
+      "acao_id": "5086",
+      "atividade": "II Torneio e Mostra Tecnológica de Robótica do Ifes - Campus Serra (TMTR)",
+      "pub": 112
+    },
+    {
+      "ano": "2024",
+      "atividade_id": "20161",
+      "acao_id": "5086",
+      "atividade": "I Torneio e Mostra Tecnológica de Robótica do Ifes - Campus Serra (TMTR)",
+      "pub": 51
+    },
+    {
+      "ano": "2025",
+      "atividade_id": "20642",
+      "acao_id": "5645",
+      "atividade": "Asas para o Futuro - Eletricista Instalador Predial em Baixa Tensão",
+      "pub": 29
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 277,
+  "impacto": 277,
+  "temas": [
+    {
+      "tema": "Mulheres e inclusão",
+      "n": 2
+    },
+    {
+      "tema": "Empreendedorismo e incubação",
+      "n": 1
+    },
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Tatiane Policário Chagas",

@@ -1,0 +1,113 @@
+---
+import Base from '../../layouts/Base.astro';
+import Tile from '../../components/Tile.astro';
+import TableFilter from '../../components/TableFilter.astro';
+import { getAcoes, slugFor } from '../../lib/data';
+import { withBase } from '../../lib/url';
+
+export async function getStaticPaths() {
+  return getAcoes().map((acao) => ({ params: { id: acao.id }, props: { acao } }));
+}
+const { acao } = Astro.props;
+const fmt = (n: number) => n.toLocaleString('pt-BR');
+
+const rel = acao.relatorioAprovado.toLowerCase();
+const relClass = rel.startsWith('sim') ? 'ok' : rel ? 'warn' : 'crit';
+const relText = rel.startsWith('sim') ? 'Aprovado' : rel ? acao.relatorioAprovado : 'Sem relatório';
+
+const coordSlug = slugFor(acao.coordenador);
+const meta: { k: string; v: string; href?: string }[] = [
+  { k: 'Processo', v: acao.processo },
+  { k: 'Tipo', v: acao.tipo },
+  { k: 'Natureza', v: acao.natureza },
+  { k: 'Coordenação', v: acao.coordenador, href: coordSlug ? withBase(`/extensionistas/${coordSlug}.html`) : undefined },
+  { k: 'Fomento', v: acao.fomento || '—' },
+  { k: 'Grande área', v: acao.grandeArea || '—' },
+  { k: 'Área temática', v: acao.areaTema || '—' },
+  { k: 'Cadastro', v: acao.dataCadastro || '—' },
+];
+---
+<Base title={acao.titulo} active="acoes" description={`Ação de ${acao.natureza.toLowerCase()} — ${acao.titulo}`}>
+  <div class="wrap" data-pagefind-body data-pagefind-meta="kind:Ação">
+    <p class="crumb"><a href={withBase('/acoes/')}>Ações</a> › <b>#{acao.id}</b></p>
+    <h1 data-pagefind-meta="title">{acao.titulo}</h1>
+    <p class="sub" data-pagefind-meta="sub">{acao.tipo} · {acao.natureza} · coordenação de {acao.coordenador}</p>
+    <span data-pagefind-meta="area" hidden>{acao.areaTema}</span>
+    <p><span class={`pill ${relClass}`}>Relatório: {relText}</span></p>
+
+    <div class="metagrid">
+      {meta.map((m) => (
+        <div class="mb">
+          <b>{m.k}</b>
+          {m.href ? <a class="lk" href={m.href}>{m.v}</a> : <span>{m.v}</span>}
+        </div>
+      ))}
+    </div>
+
+    {acao.resumo && (
+      <>
+        <p class="section-title">Resumo</p>
+        <div class="card resumo">{acao.resumo}</div>
+      </>
+    )}
+
+    <div class="tiles" aria-label="Indicadores da ação">
+      <Tile label="Atividades" value={fmt(acao.atividades.length)} color="var(--c1)" />
+      <Tile label="Alunos atendidos" value={fmt(acao.publicoTotal)} hint="participações de público" color="var(--c2)" />
+      <Tile label="Pessoas na equipe" value={fmt(acao.equipe.length)} color="var(--c3)" />
+    </div>
+
+    <p class="section-title">Atividades ({acao.atividades.length})</p>
+    <TableFilter placeholder="Filtrar atividade…" total={acao.atividades.length} unidade="atividades">
+      <div class="card"><div class="tbl-wrap"><table>
+        <thead><tr><th>Nº</th><th>Atividade</th><th class="n">Público</th><th class="n">Aprovados</th><th class="n">Certificados</th><th class="n">Equipe</th></tr></thead>
+        <tbody>
+          {acao.atividades.map((a) => (
+            <tr data-s={`${a.numero} ${a.nome}`}>
+              <td class="tnum">{a.numero}</td>
+              <td><a href={withBase(`/atividades/${a.atividade_id}.html`)}>{a.nome}</a></td>
+              <td class="n tnum">{a.publico}</td>
+              <td class="n tnum">{a.aprovados}</td>
+              <td class="n tnum">{a.certificados}</td>
+              <td class="n tnum">{a.equipe}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table></div></div>
+    </TableFilter>
+
+    {acao.equipe.length > 0 && (
+      <>
+        <p class="section-title">Equipe de execução ({acao.equipe.length})</p>
+        <TableFilter placeholder="Filtrar pessoa…" total={acao.equipe.length} unidade="pessoas">
+          <div class="card"><div class="tbl-wrap"><table>
+            <thead><tr><th>Equipe de execução</th><th>Função(ões)</th></tr></thead>
+            <tbody>
+              {acao.equipe.map((e) => {
+                const slug = slugFor(e.nome);
+                const papel = [e.funcoes.join(', '), e.vinculo].filter(Boolean).join(' · ');
+                return (
+                  <tr data-s={`${e.nome} ${e.funcoes.join(' ')} ${e.vinculo}`}>
+                    <td>{slug ? <a class="lk" href={withBase(`/extensionistas/${slug}.html`)}>{e.nome}</a> : e.nome}</td>
+                    <td>{papel}</td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table></div></div>
+        </TableFilter>
+      </>
+    )}
+
+    <p class="pii">Público-alvo é mostrado apenas como contagem — nomes, CPF e e-mail de alunos atendidos não são publicados. A equipe de execução é listada como crédito público (sem dados pessoais).</p>
+  </div>
+</Base>
+
+<style>
+  .metagrid { display: grid; grid-template-columns: 1fr; gap: 10px; margin: 16px 0; }
+  @media (min-width: 520px) { .metagrid { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); } }
+  .mb { background: var(--surface); border: 1px solid var(--grid); border-radius: var(--radius-sm); padding: 11px 14px; font-size: 13.5px; box-shadow: var(--shadow); }
+  .mb b { display: block; color: var(--muted); font-size: 11px; font-weight: 600; letter-spacing: .05em; text-transform: uppercase; margin-bottom: 3px; }
+  .resumo { border-left: 3px solid var(--c1); line-height: 1.7; font-size: 15px; }
+  .n { text-align: right; white-space: nowrap; }
+</style>

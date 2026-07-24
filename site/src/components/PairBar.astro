@@ -1,0 +1,32 @@
+---
+// Barras horizontais a partir de pares [rótulo, valor]. Mobile-first
+// (barras horizontais funcionam bem em telas estreitas). Substitui _barras.
+import type { Pair } from '../lib/schema';
+interface Props {
+  data: Pair[];
+  color?: string;
+  max?: number;    // limita nº de linhas
+  unit?: string;
+}
+const { data, color = 'var(--c1)', max = 8, unit = '' } = Astro.props;
+const rows = data.slice(0, max);
+const top = Math.max(...rows.map((r) => r[1]), 1);
+---
+<ul class="bars">
+  {rows.map(([label, value]) => (
+    <li>
+      <span class="lbl" title={label}>{label}</span>
+      <span class="track"><i style={`width:${(value / top) * 100}%;background:${color}`}></i></span>
+      <span class="val tnum">{value.toLocaleString('pt-BR')}{unit}</span>
+    </li>
+  ))}
+</ul>
+
+<style>
+  .bars { list-style: none; margin: 4px 0 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+  li { display: grid; grid-template-columns: minmax(84px, 34%) 1fr auto; align-items: center; gap: 10px; font-size: 13px; }
+  .lbl { color: var(--text-2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .track { height: 8px; border-radius: 4px; background: var(--sunk); overflow: hidden; }
+  .track i { display: block; height: 100%; border-radius: 4px; min-width: 2px; }
+  .val { color: var(--text); font-weight: 600; font-variant-numeric: tabular-nums; }
+</style>

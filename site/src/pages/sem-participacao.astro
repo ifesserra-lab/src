@@ -1,0 +1,17 @@
+---
+// docs/sem-participacao.html = redirect para pendencias-relatorio.html (páginas unidas).
+import { withBase } from '../lib/url';
+const dest = withBase('/pendencias-relatorio.html');
+---
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content={`0; url=${dest}`} />
+    <link rel="canonical" href={dest} />
+    <title>Sem participação — SRC/Ifes Campus Serra</title>
+  </head>
+  <body>
+    <p>Esta página foi unida a <a href={dest}>Pendências e ações sem participação</a>.</p>
+  </body>
+</html>

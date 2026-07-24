@@ -22,6 +22,24 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2023",
+      "atividade_id": "15941",
+      "acao_id": "4597",
+      "atividade": "O IFES é o meu lugar",
+      "pub": 79
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 79,
+  "impacto": 79,
+  "temas": [
+    {
+      "tema": "Captação e ingresso",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Augusto Cesar Machado Ramos",

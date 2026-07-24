@@ -22,6 +22,24 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2018",
+      "atividade_id": "5720",
+      "acao_id": "1816",
+      "atividade": "Maratona de Programação",
+      "pub": 37
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 37,
+  "impacto": 37,
+  "temas": [
+    {
+      "tema": "Cultura e arte",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Flavio Severiano Lamas de Souza",

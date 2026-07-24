@@ -37,6 +37,38 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2020",
+      "atividade_id": "22295",
+      "acao_id": "3140",
+      "atividade": "Atendimentos Personalizados e Monitorias de Extensão Tecnológica - área de Programação e Desenvolvimento",
+      "pub": 17
+    },
+    {
+      "ano": "2025",
+      "atividade_id": "20613",
+      "acao_id": "5641",
+      "atividade": "LabMaker 4.0: capacitando professores para a cultura maker e tecnologias da Indústria 4.0",
+      "pub": 0
+    },
+    {
+      "ano": "2025",
+      "atividade_id": "20617",
+      "acao_id": "5641",
+      "atividade": "Minicurso \"Introdução ao Arduino\"",
+      "pub": 14
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 31,
+  "impacto": 31,
+  "temas": [
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 2
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Richard Junior Manuel Godinez Tello",

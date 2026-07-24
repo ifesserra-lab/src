@@ -49,6 +49,67 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2018",
+      "atividade_id": "5720",
+      "acao_id": "1816",
+      "atividade": "Maratona de Programação",
+      "pub": 37
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "19901",
+      "acao_id": "3140",
+      "atividade": "Jogo do Projeto de Extensão do Hucam - Ufes",
+      "pub": 0
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "19898",
+      "acao_id": "3140",
+      "atividade": "Site Institucional da Associação Shalom",
+      "pub": 0
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "21456",
+      "acao_id": "3140",
+      "atividade": "Apoio Técnico em Informática para o Curso de Extensão “Psicologia da Felicidade e do Bem-estar” do Grupo de Estudos e Práticas em Psicologia Positiva - Ufes *",
+      "pub": 0
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "21059",
+      "acao_id": "3140",
+      "atividade": "Criação de site para gamificação do descarte de resíduos para o HUCAM-Ufes",
+      "pub": 0
+    },
+    {
+      "ano": "2021",
+      "atividade_id": "15044",
+      "acao_id": "3423",
+      "atividade": "Pré-incubação – Capacitação para empreendedores inovadores",
+      "pub": 7
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 44,
+  "impacto": 44,
+  "temas": [
+    {
+      "tema": "Cultura e arte",
+      "n": 1
+    },
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 1
+    },
+    {
+      "tema": "Empreendedorismo e incubação",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Hilario Seibel Junior",

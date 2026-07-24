@@ -1,0 +1,115 @@
+---
+// Layout único — substitui montar_shell + HORIZON_CSS do Python.
+// Fontes SELF-HOST (mata o Google Fonts CDN). Só subset LATIN (pt-br) —
+// evita empacotar cyrillic/greek/etc. no dist.
+import '@fontsource/fira-sans/latin-300.css';
+import '@fontsource/fira-sans/latin-400.css';
+import '@fontsource/fira-sans/latin-500.css';
+import '@fontsource/fira-sans/latin-600.css';
+import '@fontsource/fira-sans/latin-700.css';
+import '@fontsource/fira-code/latin-400.css';
+import '@fontsource/fira-code/latin-600.css';
+import '../styles/global.css';
+import { ClientRouter } from 'astro:transitions';
+import { withBase } from '../lib/url';
+
+interface Props {
+  title: string;
+  description?: string;
+  active?: string; // slug do item de nav ativo
+}
+const { title, description = 'Painel de extensão e ensino — SRC/Ifes Campus Serra', active = '' } = Astro.props;
+
+// URLs no formato do site atual (.html nas páginas de topo; dirs mantêm index).
+const nav = [
+  { slug: 'busca', href: '/', label: 'Buscar', icon: 'search' },
+  { slug: 'painel', href: '/painel.html', label: 'Painel', icon: 'grid' },
+  { slug: 'acoes', href: '/acoes/', label: 'Ações', icon: 'layers' },
+  { slug: 'extensionistas', href: '/extensionistas/', label: 'Extensionistas', icon: 'users' },
+  { slug: 'temas', href: '/temas.html', label: 'Temas', icon: 'tag' },
+  { slug: 'jornada', href: '/jornada.html', label: 'Jornada', icon: 'route' },
+  { slug: 'comunidade', href: '/comunidade.html', label: 'Comunidade', icon: 'globe' },
+  { slug: 'investimento', href: '/investimento.html', label: 'Investimento', icon: 'bars' },
+  { slug: 'pendencias', href: '/pendencias-relatorio.html', label: 'Pendências', icon: 'file' },
+  { slug: 'dados', href: '/dados-abertos.html', label: 'Dados', icon: 'download' },
+];
+const icons: Record<string, string> = {
+  search: '<circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/>',
+  grid: '<rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/>',
+  layers: '<path d="M12 2 2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/>',
+  users: '<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/>',
+  tag: '<path d="M20.6 13.4 11 3.8a2 2 0 0 0-1.4-.6H4a1 1 0 0 0-1 1v5.6a2 2 0 0 0 .6 1.4l9.6 9.6a2 2 0 0 0 2.8 0l4.6-4.6a2 2 0 0 0 0-2.8z"/><circle cx="7.5" cy="7.5" r="1.2"/>',
+  bars: '<line x1="12" y1="20" x2="12" y2="10"/><line x1="18" y1="20" x2="18" y2="4"/><line x1="6" y1="20" x2="6" y2="16"/>',
+  download: '<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5"/><path d="M12 15V3"/>',
+  route: '<circle cx="6" cy="19" r="3"/><circle cx="18" cy="5" r="3"/><path d="M9 19h6a3 3 0 0 0 3-3V8"/>',
+  globe: '<circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15 15 0 0 1 4 10 15 15 0 0 1-4 10 15 15 0 0 1-4-10 15 15 0 0 1 4-10z"/>',
+  file: '<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M9 15h6"/>',
+};
+---
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title} — SRC/Ifes Campus Serra</title>
+    <meta name="description" content={description} />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='4' fill='%233b82f6'/%3E%3C/svg%3E" />
+    <script is:inline>
+      // aplica tema salvo antes do paint (sem flash)
+      try {
+        const t = localStorage.getItem('theme');
+        if (t) document.documentElement.setAttribute('data-theme', t);
+      } catch (e) {}
+    </script>
+    <ClientRouter />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="topbar-in">
+        <a class="brand" href={withBase('/')}><span class="dot"></span>SRC · Campus Serra <small>Extensão &amp; Ensino</small></a>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true" />
+        <label for="nav-toggle" class="nav-burger" aria-label="Abrir menu">
+          <svg class="ic-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+          <svg class="ic-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
+        </label>
+        <nav class="snav" aria-label="Navegação principal">
+          {nav.map((n) => (
+            <a href={withBase(n.href)} class={n.slug === active ? 'on' : ''} aria-current={n.slug === active ? 'page' : undefined}>
+              <svg viewBox="0 0 24 24" set:html={icons[n.icon]} />
+              <span>{n.label}</span>
+            </a>
+          ))}
+        </nav>
+        <button class="iconbtn" id="theme" type="button" aria-label="Alternar tema claro/escuro">
+          <svg class="ic-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4 12H2M22 12h-2M5 5l1.5 1.5M17.5 17.5L19 19M19 5l-1.5 1.5M6.5 17.5L5 19"/></svg>
+          <svg class="ic-moon" viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1111.2 3a7 7 0 009.8 9.8z"/></svg>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer class="foot">
+      <div>SRC/Ifes — Campus Serra · sem dados pessoais de alunos (público-alvo só contagens)</div>
+      <div><a href={withBase('/api/')}>API JSON</a> · <a href={withBase('/llms.txt')}>llms.txt</a> · <a href={withBase('/dados-abertos.html')}>Dados abertos</a> · <a href="https://github.com/ifesserra-lab/src">GitHub</a></div>
+    </footer>
+
+    <script>
+      // reatacha a cada navegação (View Transitions trocam o header)
+      document.addEventListener('astro:page-load', () => {
+        const btn = document.getElementById('theme');
+        if (!btn) return;
+        btn.addEventListener('click', () => {
+          const r = document.documentElement;
+          const now = r.getAttribute('data-theme');
+          const dark = now ? now === 'dark' : matchMedia('(prefers-color-scheme:dark)').matches;
+          const next = dark ? 'light' : 'dark';
+          r.setAttribute('data-theme', next);
+          try { localStorage.setItem('theme', next); } catch (e) {}
+        });
+      });
+    </script>
+  </body>
+</html>

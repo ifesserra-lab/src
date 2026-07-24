@@ -1,0 +1,199 @@
+---
+// Treemap interativo com drill-down — espelha `_treemap_interativo` do site atual.
+// Nível 0: grupos (área ∝ total), cada bloco subdividido por dimensão (cor).
+// Clique num bloco → drill nas iniciativas do grupo. Migalhas + tooltip.
+// <noscript>: treemap estático (blocos flex empilhados). Squarify no cliente.
+import type { TreemapPayload } from '../lib/schema';
+interface Props { payload: TreemapPayload; height?: number }
+const { payload, height = 360 } = Astro.props;
+const legenda = Object.keys(payload.labels).map((k) => ({ k, label: payload.labels[k], cor: payload.colors[k] }));
+const total = payload.groups.reduce((s, g) => s + g.parts.reduce((a, [, v]) => a + Number(v), 0), 0) || 1;
+// fallback estático (sem JS): blocos por grupo com barra empilhada das partes
+const estatico = [...payload.groups]
+  .map((g) => ({ nome: g.nome, parts: g.parts, tot: g.parts.reduce((a, [, v]) => a + Number(v), 0) }))
+  .sort((a, b) => b.tot - a.tot);
+---
+<div class="tmd" data-payload={JSON.stringify(payload)} style={`--tmd-h:${height}px`}>
+  <div class="tmd-crumb"><span class="tmd-home">{payload.crumb_all}</span></div>
+  <div class="tmd-box" role="img" aria-label={`Treemap por ${payload.dim} (${payload.medida})`}></div>
+  <div class="tmd-tip" hidden></div>
+  <noscript>
+    <div class="tmd-static">
+      {estatico.map((g) => (
+        <div class="tmd-s-cell" style={`flex:${g.tot}`} title={`${g.nome}: ${g.tot.toLocaleString('pt-BR')} ${payload.medida}`}>
+          <div class="tmd-s-bar">
+            {g.parts.map(([c, v]) => (
+              <span style={`flex:${Number(v)};background:${payload.colors[String(c)] || 'var(--muted)'}`}></span>
+            ))}
+          </div>
+          <span class="tmd-s-lbl">{g.nome}<b>{g.tot.toLocaleString('pt-BR')} · {Math.round((g.tot / total) * 100)}%</b></span>
+        </div>
+      ))}
+    </div>
+  </noscript>
+  <div class="legend">
+    {legenda.map((l) => (<span><i style={`background:${l.cor}`}></i>{l.label}</span>))}
+  </div>
+</div>
+
+<style>
+  .tmd { margin-top: 4px; }
+  .tmd-crumb { font-size: 12.5px; color: var(--text-2); margin-bottom: 8px; min-height: 20px; }
+  .tmd-crumb .tmd-back { color: var(--c1); cursor: pointer; font-weight: 600; }
+  .tmd-crumb .tmd-sep { color: var(--muted); margin: 0 6px; }
+  .tmd-box { position: relative; width: 100%; height: var(--tmd-h); border-radius: 10px; overflow: hidden; background: var(--sunk); }
+  .tmd-box :global(.tmd-tile) { position: absolute; overflow: hidden; border-radius: 6px; cursor: pointer;
+    display: flex; flex-direction: column; justify-content: flex-end; color: #fff; text-decoration: none;
+    transition: filter .12s; outline: 2px solid var(--surface); outline-offset: -1px; }
+  .tmd-box :global(.tmd-tile:hover) { filter: brightness(1.08); }
+  .tmd-box :global(.tmd-parts) { position: absolute; inset: 0; display: flex; z-index: 0; }
+  .tmd-box :global(.tmd-parts > span) { display: block; height: 100%; }
+  .tmd-box :global(.tmd-lbl) { position: relative; z-index: 1; padding: 6px 8px; line-height: 1.12;
+    background: linear-gradient(to top, rgba(0,0,0,.42), rgba(0,0,0,0)); }
+  .tmd-box :global(.tmd-lbl .n) { font-size: 12px; font-weight: 600; display: block;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5); }
+  .tmd-box :global(.tmd-lbl .m) { font-size: 10.5px; opacity: .95; font-variant-numeric: tabular-nums; text-shadow: 0 1px 2px rgba(0,0,0,.5); }
+  .tmd-tip { position: fixed; z-index: 80; pointer-events: none; background: var(--surface);
+    border: 1px solid var(--border); border-radius: 8px; box-shadow: var(--shadow); padding: 7px 10px;
+    font-size: 12px; color: var(--text); max-width: 240px; }
+  .tmd-tip b { font-variant-numeric: tabular-nums; }
+  .tmd-static { display: flex; flex-wrap: wrap; gap: 4px; }
+  .tmd-s-cell { min-width: 130px; min-height: 70px; border-radius: 8px; overflow: hidden; position: relative; background: var(--sunk); display: flex; flex-direction: column; justify-content: flex-end; }
+  .tmd-s-bar { position: absolute; inset: 0; display: flex; }
+  .tmd-s-bar > span { display: block; height: 100%; }
+  .tmd-s-lbl { position: relative; padding: 7px 9px; color: #fff; font-size: 12px; font-weight: 600;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5); background: linear-gradient(to top, rgba(0,0,0,.4), rgba(0,0,0,0)); }
+  .tmd-s-lbl b { display: block; font-weight: 500; opacity: .95; font-variant-numeric: tabular-nums; }
+</style>
+
+<script>
+  type Part = [string | number, number];
+  interface Group { nome: string; parts: Part[] }
+  interface Drill { t: string; c: string; v: number }
+  interface Payload {
+    dim: string; medida: string; crumb_all: string;
+    colors: Record<string, string>; labels: Record<string, string>;
+    groups: Group[]; drill: Record<string, Drill[]>; zero: Record<string, number>;
+  }
+  interface Cell { key: string; value: number; color?: string; label: string; parts?: Part[]; sub: string }
+
+  const fmt = (n: number) => n.toLocaleString('pt-BR');
+
+  // squarify padrão: distribui `items` (com .value) no retângulo (x,y,w,h)
+  function squarify(items: Cell[], x: number, y: number, w: number, h: number) {
+    const out: Array<Cell & { x: number; y: number; w: number; h: number }> = [];
+    const nodes = items.filter((n) => n.value > 0);
+    const tot = nodes.reduce((s, n) => s + n.value, 0) || 1;
+    const scale = (w * h) / tot;
+    const vals = nodes.map((n) => ({ ...n, area: n.value * scale }));
+    let rx = x, ry = y, rw = w, rh = h;
+    const worst = (row: number[], side: number) => {
+      const s = row.reduce((a, b) => a + b, 0);
+      const mx = Math.max(...row), mn = Math.min(...row);
+      const s2 = s * s;
+      return Math.max((side * side * mx) / s2, s2 / (side * side * mn));
+    };
+    let i = 0;
+    while (i < vals.length) {
+      const side = Math.min(rw, rh);
+      const row: number[] = [];
+      const rowItems: typeof vals = [];
+      while (i < vals.length) {
+        const next = [...row, vals[i].area];
+        if (row.length && worst(next, side) > worst(row, side)) break;
+        row.push(vals[i].area); rowItems.push(vals[i]); i++;
+      }
+      const rowSum = row.reduce((a, b) => a + b, 0);
+      if (rw >= rh) {
+        const cw = rowSum / rh;
+        let cy = ry;
+        for (const it of rowItems) { const ch = it.area / cw; out.push({ ...it, x: rx, y: cy, w: cw, h: ch }); cy += ch; }
+        rx += cw; rw -= cw;
+      } else {
+        const ch = rowSum / rw;
+        let cx = rx;
+        for (const it of rowItems) { const cw = it.area / ch; out.push({ ...it, x: cx, y: ry, w: cw, h: ch }); cx += cw; }
+        ry += ch; rh -= ch;
+      }
+    }
+    return out;
+  }
+
+  function initOne(root: HTMLElement) {
+    if (root.dataset.tmdInit) return;
+    root.dataset.tmdInit = '1';
+    const p: Payload = JSON.parse(root.dataset.payload || '{}');
+    const box = root.querySelector<HTMLElement>('.tmd-box')!;
+    const crumb = root.querySelector<HTMLElement>('.tmd-crumb')!;
+    const tip = root.querySelector<HTMLElement>('.tmd-tip')!;
+    const totAll = p.groups.reduce((s, g) => s + g.parts.reduce((a, [, v]) => a + v, 0), 0) || 1;
+    let level: string | null = null; // null = topo; senão nome do grupo
+
+    const topCells = (): Cell[] =>
+      p.groups.map((g) => ({ key: g.nome, value: g.parts.reduce((a, [, v]) => a + v, 0),
+        label: g.nome, parts: g.parts, sub: `${p.medida}` }))
+        .filter((c) => c.value > 0).sort((a, b) => b.value - a.value);
+
+    const drillCells = (nome: string): Cell[] =>
+      (p.drill[nome] || []).map((d) => ({ key: d.t, value: d.v, color: p.colors[d.c] || 'var(--muted)',
+        label: d.t, sub: p.labels[d.c] || d.c })).sort((a, b) => b.value - a.value);
+
+    const render = () => {
+      const w = box.clientWidth, h = box.clientHeight;
+      if (!w || !h) return;
+      box.innerHTML = '';
+      const cells = level ? drillCells(level) : topCells();
+      const groupTot = cells.reduce((s, c) => s + c.value, 0) || 1;
+      for (const c of squarify(cells, 0, 0, w, h)) {
+        const el = document.createElement('a');
+        el.className = 'tmd-tile';
+        el.style.cssText = `left:${c.x}px;top:${c.y}px;width:${c.w}px;height:${c.h}px;` +
+          (c.color ? `background:${c.color}` : 'background:var(--muted)');
+        if (!level && c.parts) {
+          const pt = document.createElement('div'); pt.className = 'tmd-parts';
+          const pv = c.parts.reduce((a, [, v]) => a + v, 0) || 1;
+          for (const [cat, v] of c.parts) {
+            const s = document.createElement('span');
+            s.style.cssText = `flex:${v};background:${p.colors[String(cat)] || 'var(--muted)'}`;
+            pt.appendChild(s);
+          }
+          el.appendChild(pt);
+        }
+        if (c.w > 46 && c.h > 26) {
+          const lbl = document.createElement('div'); lbl.className = 'tmd-lbl';
+          const pct = Math.round((c.value / (level ? groupTot : totAll)) * 100);
+          lbl.innerHTML = `<span class="n">${c.label}</span><span class="m">${fmt(c.value)} · ${pct}%</span>`;
+          el.appendChild(lbl);
+        }
+        const showTip = (ev: MouseEvent) => {
+          const denomG = level ? groupTot : totAll;
+          tip.innerHTML = `<b>${c.label}</b><br>${fmt(c.value)} ${p.medida} · ${Math.round((c.value / denomG) * 100)}%${level ? '' : ' do total'}`;
+          tip.hidden = false;
+          tip.style.left = Math.min(ev.clientX + 14, window.innerWidth - 250) + 'px';
+          tip.style.top = ev.clientY + 14 + 'px';
+        };
+        el.addEventListener('mousemove', showTip);
+        el.addEventListener('mouseleave', () => (tip.hidden = true));
+        if (!level && (p.drill[c.key]?.length)) {
+          el.addEventListener('click', (e) => { e.preventDefault(); level = c.key; draw(); });
+        }
+        box.appendChild(el);
+      }
+      // migalhas
+      if (level) {
+        crumb.innerHTML = `<span class="tmd-back">‹ ${p.crumb_all}</span><span class="tmd-sep">/</span><b>${level}</b>`;
+        crumb.querySelector('.tmd-back')!.addEventListener('click', () => { level = null; draw(); });
+      } else {
+        crumb.innerHTML = `<span>${p.crumb_all}</span>`;
+      }
+    };
+    const draw = () => { tip.hidden = true; render(); };
+    draw();
+    if ('ResizeObserver' in window) new ResizeObserver(() => render()).observe(box);
+    else window.addEventListener('resize', render);
+  }
+
+  const boot = () => document.querySelectorAll<HTMLElement>('.tmd').forEach(initOne);
+  document.addEventListener('astro:page-load', boot);
+  boot();
+</script>

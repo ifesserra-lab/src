@@ -1,0 +1,49 @@
+---
+// KPI tile com faixa de acento e sparkline opcional. SSG.
+interface Props {
+  label: string;
+  value: string | number;
+  suffix?: string;
+  hint?: string;
+  color?: string;      // ex: 'var(--c1)'
+  icon?: string;       // innerHTML de um <svg>
+  spark?: number[];    // valores p/ sparkline
+}
+const { label, value, suffix, hint, color = 'var(--c1)', icon, spark } = Astro.props;
+
+let poly = '';
+if (spark && spark.length > 1) {
+  const max = Math.max(...spark), min = Math.min(...spark), rng = max - min || 1;
+  const w = 64, h = 26;
+  poly = spark
+    .map((v, i) => `${(i / (spark.length - 1)) * w},${h - ((v - min) / rng) * (h - 4) - 2}`)
+    .join(' ');
+}
+---
+<div class="tile" style={`--tc:${color}`}>
+  <div class="k">
+    {icon && <svg viewBox="0 0 24 24" set:html={icon} />}
+    {label}
+  </div>
+  <div class="v tnum">{value}{suffix && <span class="suf">{suffix}</span>}</div>
+  {hint && <div class="d" set:html={hint} />}
+  {poly && (
+    <svg class="spark" width="64" height="26" viewBox="0 0 64 26" aria-hidden="true">
+      <polyline fill="none" stroke={color} stroke-width="2" points={poly} />
+    </svg>
+  )}
+</div>
+
+<style>
+  .tile { background: var(--surface); border: 1px solid var(--grid); border-radius: var(--radius);
+    padding: 16px 18px; box-shadow: var(--shadow); position: relative; overflow: hidden; }
+  .tile::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 3px; background: var(--tc); }
+  .k { color: var(--muted); font-size: 11px; font-weight: 600; letter-spacing: .06em;
+    text-transform: uppercase; display: flex; align-items: center; gap: 6px; }
+  .k svg { width: 14px; height: 14px; stroke: var(--tc); fill: none; stroke-width: 2; flex: none; }
+  .v { font-size: 28px; font-weight: 700; line-height: 1.05; margin: 8px 0 2px; letter-spacing: -.02em; }
+  .v .suf { font-size: 15px; color: var(--muted); font-weight: 600; }
+  .d { font-size: 12.5px; color: var(--text-2); }
+  .d :global(.up) { color: var(--good); font-weight: 600; }
+  .spark { position: absolute; right: 14px; bottom: 12px; opacity: .9; }
+</style>

@@ -22,6 +22,24 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2019",
+      "atividade_id": "8630",
+      "acao_id": "2505",
+      "atividade": "Circuito Audiovisual",
+      "pub": 0
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 0,
+  "impacto": 0,
+  "temas": [
+    {
+      "tema": "Cultura e arte",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Amarildo Mendes Lemos",

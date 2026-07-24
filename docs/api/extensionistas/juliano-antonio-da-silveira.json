@@ -22,6 +22,52 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2026",
+      "atividade_id": "22070",
+      "acao_id": "5852",
+      "atividade": "SOF - Serviço de Orientação Financeira",
+      "pub": 13
+    },
+    {
+      "ano": "2026",
+      "atividade_id": "22251",
+      "acao_id": "5852",
+      "atividade": "Palestra promovida pelo LIEFIS: \"Compreendendo a Lei do Superendividamento\".",
+      "pub": 29
+    },
+    {
+      "ano": "2026",
+      "atividade_id": "22071",
+      "acao_id": "5852",
+      "atividade": "SOF - Serviço de Orientação Financeira",
+      "pub": 12
+    },
+    {
+      "ano": "2026",
+      "atividade_id": "22250",
+      "acao_id": "5852",
+      "atividade": "Palestra promovida pelo LIEFIS: \"Demandas emocionais e comportamentais no processo de endividamento\".",
+      "pub": 18
+    },
+    {
+      "ano": "2026",
+      "atividade_id": "22069",
+      "acao_id": "5852",
+      "atividade": "SOF - Serviço de Orientação Financeira",
+      "pub": 9
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 81,
+  "impacto": 81,
+  "temas": [
+    {
+      "tema": "Mulheres e inclusão",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Emmanuel Marques Silva",

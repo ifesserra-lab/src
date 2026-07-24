@@ -86,6 +86,147 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2019",
+      "atividade_id": "8979",
+      "acao_id": "2595",
+      "atividade": "Incluir & Multiplicar",
+      "pub": 0
+    },
+    {
+      "ano": "2019",
+      "atividade_id": "10922",
+      "acao_id": "2783",
+      "atividade": "Mini-Curso: Arquitetura Básica de Computadores",
+      "pub": 16
+    },
+    {
+      "ano": "2019",
+      "atividade_id": "9577",
+      "acao_id": "2783",
+      "atividade": "Informática Básica Para Agentes Multiplicadores.",
+      "pub": 16
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "18017",
+      "acao_id": "3140",
+      "atividade": "Minicurso de Informática Básica – Módulo I",
+      "pub": 9
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "19897",
+      "acao_id": "3140",
+      "atividade": "Minicurso de Git/Github para a Jornada de Integração do IFES",
+      "pub": 0
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "19903",
+      "acao_id": "3140",
+      "atividade": "Marketing Digital do Lampex 2024",
+      "pub": 0
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "16967",
+      "acao_id": "3140",
+      "atividade": "Planejamento das Atividades Referentes ao Plano de Ação do Lampex na Edição de 2022-2023",
+      "pub": 0
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "19898",
+      "acao_id": "3140",
+      "atividade": "Site Institucional da Associação Shalom",
+      "pub": 0
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "22473",
+      "acao_id": "3140",
+      "atividade": "Palestra de Cibersegurança e IA no Ambiente Educacional",
+      "pub": 56
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "19900",
+      "acao_id": "3140",
+      "atividade": "Apresentação do Lampex na Jornada de Integração do Ifes",
+      "pub": 0
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "19901",
+      "acao_id": "3140",
+      "atividade": "Jogo do Projeto de Extensão do Hucam - Ufes",
+      "pub": 0
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "14036",
+      "acao_id": "3140",
+      "atividade": "Minicurso de Git e GitHub",
+      "pub": 15
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "19902",
+      "acao_id": "3140",
+      "atividade": "Atendimento personalizado à comunidade através de monitorias",
+      "pub": 3
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "14035",
+      "acao_id": "3140",
+      "atividade": "Atividades de Planejamento, Monitoria e Atendimento Personalizado no Contexto do Projeto Paex Lampex 2021-2022",
+      "pub": 12
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "19899",
+      "acao_id": "3140",
+      "atividade": "Site Responsivo Institucional do InovaSerra (Produto)",
+      "pub": 0
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "18018",
+      "acao_id": "3140",
+      "atividade": "Minicurso de Informática Básica – Módulo II",
+      "pub": 7
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "11184",
+      "acao_id": "3140",
+      "atividade": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "pub": 2
+    },
+    {
+      "ano": "2021",
+      "atividade_id": "11978",
+      "acao_id": "3431",
+      "atividade": "Lampex + empreendedor",
+      "pub": 2
+    }
+  ],
+  "imp_coord": 18,
+  "imp_eq": 104,
+  "impacto": 122,
+  "temas": [
+    {
+      "tema": "Mulheres e inclusão",
+      "n": 4
+    },
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 3
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Gabriel Victor Ferreira de Araújo",

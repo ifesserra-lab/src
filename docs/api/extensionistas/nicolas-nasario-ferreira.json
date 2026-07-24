@@ -35,6 +35,35 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2022",
+      "atividade_id": "14474",
+      "acao_id": "4209",
+      "atividade": "ELETRICISTA INSTALADOR PREDIAL DE BAIXA TENSÃO",
+      "pub": 23
+    },
+    {
+      "ano": "2023",
+      "atividade_id": "17046",
+      "acao_id": "4655",
+      "atividade": "Semana Nacional de Ciência e Tecnologia do IFES campus Serra",
+      "pub": 0
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 23,
+  "impacto": 23,
+  "temas": [
+    {
+      "tema": "Empreendedorismo e incubação",
+      "n": 1
+    },
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Renner Sartório Camargo",

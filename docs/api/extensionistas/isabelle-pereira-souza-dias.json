@@ -24,6 +24,38 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2018",
+      "atividade_id": "7750",
+      "acao_id": "2021",
+      "atividade": "Trabalho de Iniciação Científica",
+      "pub": 0
+    },
+    {
+      "ano": "2018",
+      "atividade_id": "6521",
+      "acao_id": "2021",
+      "atividade": "Minicurso: Introdução ao Arduino e Microcontroladores",
+      "pub": 12
+    },
+    {
+      "ano": "2018",
+      "atividade_id": "6522",
+      "acao_id": "2021",
+      "atividade": "Minicurso: Introdução ao Arduino e Microcontroladores",
+      "pub": 30
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 42,
+  "impacto": 42,
+  "temas": [
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Rosilene de Sá Ribeiro",

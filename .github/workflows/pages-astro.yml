@@ -1,0 +1,71 @@
+name: Deploy GitHub Pages (Astro)
+
+# Build do site Astro (site/) consumindo o JSON do ETL em docs/api, e deploy do dist/.
+# PRODUÇÃO do GitHub Pages (desde 24/07/2026). O site antigo (pages.yml) foi
+# desligado como deploy automático. Publica em push na main quando muda docs/
+# (JSON do ETL) ou site/ (app Astro). Também dispara manualmente.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "docs/**"
+      - "site/**"
+      - ".github/workflows/pages-astro.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v7
+
+      # PDFs dos relatórios (mesmo passo do pipeline antigo) — ficam em docs/relatorios-odt
+      - name: Gerar PDFs dos relatórios (LibreOffice)
+        run: |
+          if ls docs/relatorios-odt/*.odt >/dev/null 2>&1; then
+            sudo apt-get update
+            sudo apt-get install -y --no-install-recommends libreoffice-writer
+            soffice --headless --convert-to pdf --outdir docs/relatorios-odt docs/relatorios-odt/*.odt
+          else
+            echo "sem .odt — nada a converter"
+          fi
+
+      # ZIP de dados abertos (copy-assets.mjs move para dist/ no build)
+      - name: Empacotar dados abertos (ZIP)
+        run: |
+          cd docs
+          rm -f dados-abertos.zip
+          zip -r -q dados-abertos.zip api llms.txt relatorios-odt -x '*.DS_Store' || true
+          cd ..
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+
+      - name: Build do site (Astro + Pagefind + assets)
+        working-directory: site
+        run: |
+          npm ci
+          npm run build   # astro build → copy-assets → pagefind, saída em site/dist
+
+      - uses: actions/configure-pages@v6
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: site/dist
+
+      - id: deployment
+        uses: actions/deploy-pages@v5

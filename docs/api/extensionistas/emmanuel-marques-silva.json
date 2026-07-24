@@ -262,6 +262,274 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2017",
+      "atividade_id": "3053",
+      "acao_id": "1116",
+      "atividade": "Programa Local Núcleo Incubador Campus Serra – NIS",
+      "pub": 0
+    },
+    {
+      "ano": "2017",
+      "atividade_id": "10997",
+      "acao_id": "1116",
+      "atividade": "Capacitação em \"Modelagem de Novos Negócios\"",
+      "pub": 24
+    },
+    {
+      "ano": "2017",
+      "atividade_id": "11215",
+      "acao_id": "1116",
+      "atividade": "'Melhoria e manutenção dos processos internos envolvendo sistemas de informação para elaboração e geração de relatórios do Núcleo de Inovação do campus Serra e do Núcleo Incubador do campus Serra.",
+      "pub": 0
+    },
+    {
+      "ano": "2017",
+      "atividade_id": "4818",
+      "acao_id": "1261",
+      "atividade": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedora",
+      "pub": 12
+    },
+    {
+      "ano": "2017",
+      "atividade_id": "3353",
+      "acao_id": "1261",
+      "atividade": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedora",
+      "pub": 15
+    },
+    {
+      "ano": "2017",
+      "atividade_id": "4819",
+      "acao_id": "1261",
+      "atividade": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedora",
+      "pub": 9
+    },
+    {
+      "ano": "2017",
+      "atividade_id": "4172",
+      "acao_id": "1406",
+      "atividade": "Curso de Pré-Incubação de Empreendimentos – modalidade Residência",
+      "pub": 8
+    },
+    {
+      "ano": "2018",
+      "atividade_id": "5921",
+      "acao_id": "1883",
+      "atividade": "Inova Serra",
+      "pub": 0
+    },
+    {
+      "ano": "2018",
+      "atividade_id": "6874",
+      "acao_id": "2082",
+      "atividade": "Mulheres na Ciência",
+      "pub": 17
+    },
+    {
+      "ano": "2019",
+      "atividade_id": "9562",
+      "acao_id": "2773",
+      "atividade": "Ambientação Pedagógica: Didática e Técnicas de Ensino.",
+      "pub": 6
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "21066",
+      "acao_id": "3140",
+      "atividade": "Treinamento JFU - Jornada Financeira Universitária",
+      "pub": 4
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "21068",
+      "acao_id": "3140",
+      "atividade": "SOF - Serviço de Orientação Financeira",
+      "pub": 34
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "11184",
+      "acao_id": "3140",
+      "atividade": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "pub": 2
+    },
+    {
+      "ano": "2021",
+      "atividade_id": "11978",
+      "acao_id": "3431",
+      "atividade": "Lampex + empreendedor",
+      "pub": 2
+    },
+    {
+      "ano": "2025",
+      "atividade_id": "19716",
+      "acao_id": "5357",
+      "atividade": "MULHERES MIL - Artesão em Bordado a mão",
+      "pub": 24
+    },
+    {
+      "ano": "2015",
+      "atividade_id": "1271",
+      "acao_id": "569",
+      "atividade": "Desafio Ifes de Negócios Socais",
+      "pub": 0
+    },
+    {
+      "ano": "2026",
+      "atividade_id": "22067",
+      "acao_id": "5852",
+      "atividade": "Palestra promovida pelo LIEFIS: \"Finanças Pessoais: Eu, Meu Dinheiro e Minhas Decisões.",
+      "pub": 79
+    },
+    {
+      "ano": "2026",
+      "atividade_id": "22070",
+      "acao_id": "5852",
+      "atividade": "SOF - Serviço de Orientação Financeira",
+      "pub": 13
+    },
+    {
+      "ano": "2026",
+      "atividade_id": "21690",
+      "acao_id": "5852",
+      "atividade": "SOF – Serviço de Orientação Financeira (unidade Ifes Serra)",
+      "pub": 0
+    },
+    {
+      "ano": "2026",
+      "atividade_id": "22251",
+      "acao_id": "5852",
+      "atividade": "Palestra promovida pelo LIEFIS: \"Compreendendo a Lei do Superendividamento\".",
+      "pub": 29
+    },
+    {
+      "ano": "2026",
+      "atividade_id": "22071",
+      "acao_id": "5852",
+      "atividade": "SOF - Serviço de Orientação Financeira",
+      "pub": 12
+    },
+    {
+      "ano": "2026",
+      "atividade_id": "22073",
+      "acao_id": "5852",
+      "atividade": "Workshop: Mercado de Capitais na Prática – Fundamentos da Compra, Venda e Valorização das Ações",
+      "pub": 40
+    },
+    {
+      "ano": "2026",
+      "atividade_id": "22250",
+      "acao_id": "5852",
+      "atividade": "Palestra promovida pelo LIEFIS: \"Demandas emocionais e comportamentais no processo de endividamento\".",
+      "pub": 18
+    },
+    {
+      "ano": "2026",
+      "atividade_id": "22074",
+      "acao_id": "5852",
+      "atividade": "Workshop: Mercado de Capitais na Prática – Fundamentos da Compra, Venda e Valorização das Ações",
+      "pub": 31
+    },
+    {
+      "ano": "2026",
+      "atividade_id": "22066",
+      "acao_id": "5852",
+      "atividade": "Palestra promovida pelo LIEFIS: \"Finanças Pessoais: Eu, Meu Dinheiro e Minhas Decisões.",
+      "pub": 27
+    },
+    {
+      "ano": "2026",
+      "atividade_id": "22552",
+      "acao_id": "5852",
+      "atividade": "ESX 2026 – Espírito Santo Innovation Experience, evento de inovação, tecnologia e empreendedorismo, realizado em Vitória, Espírito Santo, e promovido pelo Sebrae/ES e pela Mobilização Capixaba pela Inovação (MCI)",
+      "pub": 0
+    },
+    {
+      "ano": "2026",
+      "atividade_id": "22069",
+      "acao_id": "5852",
+      "atividade": "SOF - Serviço de Orientação Financeira",
+      "pub": 9
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "1524",
+      "acao_id": "708",
+      "atividade": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedoras",
+      "pub": 15
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "1523",
+      "acao_id": "708",
+      "atividade": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedoras",
+      "pub": 14
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "1610",
+      "acao_id": "730",
+      "atividade": "Câmara de Assessoramento em Gestão e Tecnologia do Núcleo Incubador do campus Serra do Ifes",
+      "pub": 0
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "2732",
+      "acao_id": "899",
+      "atividade": "SEMANA DE CONTROLE E AUTOMAÇÃO",
+      "pub": 69
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "3212",
+      "acao_id": "912",
+      "atividade": "Banca de Apresentação do Trabalho Final de Curso do aluno Carlos de Melo Batista",
+      "pub": 0
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "2127",
+      "acao_id": "912",
+      "atividade": "Curso de Pré-Incubação de Empreendimentos – modalidade Residência",
+      "pub": 3
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "2128",
+      "acao_id": "912",
+      "atividade": "Curso de Pré-Incubação de Empreendimentos – modalidade Residência",
+      "pub": 0
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "3213",
+      "acao_id": "912",
+      "atividade": "Banca de Apresentação do Trabalho Final de Curso do aluno Renahn Pazini Marim",
+      "pub": 0
+    }
+  ],
+  "imp_coord": 1211,
+  "imp_eq": 150,
+  "impacto": 1361,
+  "temas": [
+    {
+      "tema": "Empreendedorismo e incubação",
+      "n": 12
+    },
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 5
+    },
+    {
+      "tema": "Mulheres e inclusão",
+      "n": 4
+    },
+    {
+      "tema": "Escola e formação de professores",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Richard Junior Manuel Godinez Tello",

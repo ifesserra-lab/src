@@ -22,6 +22,24 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2016",
+      "atividade_id": "2154",
+      "acao_id": "930",
+      "atividade": "Despertar da Força - Processos e Ferramentas para o Gerenciamento Ágil de Projetos: Uma Abordagem Prática",
+      "pub": 53
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 53,
+  "impacto": 53,
+  "temas": [
+    {
+      "tema": "Cultura e arte",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Paulo Sérgio dos Santos Júnior",

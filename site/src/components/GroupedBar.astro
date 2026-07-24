@@ -1,0 +1,50 @@
+---
+// Barras verticais agrupadas (N séries por categoria) — espelha `_barras_v2`
+// do site atual ("Ações, participações e impacto por ano"). Mobile-first:
+// SVG rola horizontalmente se estreito. <title> por barra (hover).
+interface Serie { label: string; color: string; values: number[] }
+interface Props { categorias: string[]; series: Serie[]; unidade?: string }
+const { categorias, series, unidade = '' } = Astro.props;
+const n = categorias.length;
+const grupos = series.length;
+const bw = 16, gap = 5, groupGap = 26, padL = 34, padB = 26, padT = 12;
+const groupW = grupos * bw + (grupos - 1) * gap;
+const W = padL + n * (groupW + groupGap) + 10;
+const H = 210;
+const chartH = H - padB - padT;
+const maxV = Math.max(...series.flatMap((s) => s.values), 1);
+const y = (v: number) => padT + chartH * (1 - v / maxV);
+const gx = (i: number) => padL + i * (groupW + groupGap) + groupGap / 2;
+---
+<div class="gb">
+  <svg viewBox={`0 0 ${W} ${H}`} height={H} role="img" aria-label="Barras agrupadas por ano">
+    {[0, 0.5, 1].map((f) => (
+      <g>
+        <line x1={padL} x2={W - 6} y1={y(maxV * f)} y2={y(maxV * f)} class="gline" />
+        <text x={padL - 6} y={y(maxV * f) + 3} text-anchor="end" class="axis">{Math.round(maxV * f)}</text>
+      </g>
+    ))}
+    {categorias.map((cat, i) => (
+      <g>
+        {series.map((s, k) => {
+          const x = gx(i) + k * (bw + gap);
+          const vv = s.values[i] ?? 0;
+          return (
+            <rect x={x} y={y(vv)} width={bw} height={Math.max(0, padT + chartH - y(vv))} rx="2" fill={s.color}>
+              <title>{cat} · {s.label}: {vv}{unidade}</title>
+            </rect>
+          );
+        })}
+        <text x={gx(i) + groupW / 2} y={H - 9} text-anchor="middle" class="axis">{cat}</text>
+      </g>
+    ))}
+  </svg>
+  <div class="legend">
+    {series.map((s) => (<span><i style={`background:${s.color}`}></i>{s.label}</span>))}
+  </div>
+</div>
+
+<style>
+  .gb { overflow-x: auto; }
+  .gb svg { min-width: 320px; }
+</style>

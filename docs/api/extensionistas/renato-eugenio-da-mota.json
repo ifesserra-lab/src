@@ -22,6 +22,24 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2015",
+      "atividade_id": "923",
+      "acao_id": "542",
+      "atividade": "Programação Visual Criativa com Scratch",
+      "pub": 20
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 20,
+  "impacto": 20,
+  "temas": [
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Moisés Savedra Omena",

@@ -22,6 +22,24 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2018",
+      "atividade_id": "5767",
+      "acao_id": "1838",
+      "atividade": "LEDS – Laboratório de Extensão e Desenvolvimento de Soluções",
+      "pub": 1
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 1,
+  "impacto": 1,
+  "temas": [
+    {
+      "tema": "Outros / formação",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Felipe Frechiani de Oliveira",

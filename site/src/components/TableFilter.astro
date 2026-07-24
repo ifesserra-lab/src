@@ -1,0 +1,42 @@
+---
+// Busca client-side por página — espelha `_com_busca` do site atual.
+// Envolve uma <table> (via slot): filtro acento-insensitivo, multi-termo (AND),
+// com contador "X de Y" ao vivo. Sem JS = tabela completa (progressive enhancement).
+// Filtra por data-s da linha (ou textContent). Mandatório em TODA página com tabela.
+interface Props { placeholder?: string; total: number; unidade?: string }
+const { placeholder = 'Filtrar…', total, unidade = 'itens' } = Astro.props;
+---
+<div class="filtro-wrap">
+  <div class="filtro">
+    <input type="search" class="filtro-in" placeholder={placeholder} aria-label={placeholder} autocomplete="off" spellcheck="false" />
+    <span class="cnt"><b class="cnt-n">{total.toLocaleString('pt-BR')}</b> de {total.toLocaleString('pt-BR')} {unidade}</span>
+  </div>
+  <slot />
+</div>
+
+<script>
+  const norm = (s: string) => (s || '').normalize('NFKD').replace(/[̀-ͯ]/g, '').toLowerCase();
+  function wire(w: Element) {
+    const inp = w.querySelector<HTMLInputElement>('.filtro-in');
+    const tb = w.querySelector('table tbody') || w.querySelector('table');
+    if (!inp || !tb || inp.dataset.wired) return;
+    inp.dataset.wired = '1';
+    const rows = Array.from(tb.querySelectorAll<HTMLTableRowElement>('tr'));
+    const data = rows.map((r) => norm(r.getAttribute('data-s') || r.textContent || ''));
+    const cntN = w.querySelector('.cnt-n');
+    const run = () => {
+      const terms = norm(inp.value).split(/\s+/).filter(Boolean);
+      let n = 0;
+      rows.forEach((r, i) => {
+        const ok = terms.every((t) => data[i].includes(t));
+        r.classList.toggle('hide', !ok);
+        if (ok) n++;
+      });
+      if (cntN) cntN.textContent = n.toLocaleString('pt-BR');
+    };
+    inp.addEventListener('input', run);
+  }
+  const boot = () => document.querySelectorAll('.filtro-wrap').forEach(wire);
+  document.addEventListener('astro:page-load', boot);
+  boot();
+</script>

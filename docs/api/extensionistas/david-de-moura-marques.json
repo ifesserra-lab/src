@@ -22,6 +22,24 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2019",
+      "atividade_id": "7822",
+      "acao_id": "2285",
+      "atividade": "ES Na Palma da Mão: Uma Plataforma baseado em serviços para Cidades Humanas, Inteligentes e Sustentáveis",
+      "pub": 0
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 0,
+  "impacto": 0,
+  "temas": [
+    {
+      "tema": "Software, dados e sistemas",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Felipe Frechiani de Oliveira",

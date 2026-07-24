@@ -24,6 +24,45 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2020",
+      "atividade_id": "22295",
+      "acao_id": "3140",
+      "atividade": "Atendimentos Personalizados e Monitorias de Extensão Tecnológica - área de Programação e Desenvolvimento",
+      "pub": 17
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "21455",
+      "acao_id": "3140",
+      "atividade": "Monitoria de Programação e Matemática do 2º Semestre Letivo de 2025",
+      "pub": 20
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "20333",
+      "acao_id": "3140",
+      "atividade": "Monitoria de Matemática e Programação 2025/01",
+      "pub": 24
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "22293",
+      "acao_id": "3140",
+      "atividade": "Marketing Digital do Lampex",
+      "pub": 0
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 61,
+  "impacto": 61,
+  "temas": [
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Emmanuel Marques Silva",

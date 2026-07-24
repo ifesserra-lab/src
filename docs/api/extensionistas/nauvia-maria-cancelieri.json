@@ -58,6 +58,63 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2018",
+      "atividade_id": "6874",
+      "acao_id": "2082",
+      "atividade": "Mulheres na Ciência",
+      "pub": 17
+    },
+    {
+      "ano": "2023",
+      "atividade_id": "17036",
+      "acao_id": "4655",
+      "atividade": "Oficina \"A Química do cérebro: ondas gamma e efeitos da dimetiltriptamina de plantas medicinais/ roda de chá com meditação\"",
+      "pub": 15
+    },
+    {
+      "ano": "2023",
+      "atividade_id": "16986",
+      "acao_id": "4754",
+      "atividade": "Oficina Produtos renováveis",
+      "pub": 69
+    },
+    {
+      "ano": "2023",
+      "atividade_id": "20747",
+      "acao_id": "4754",
+      "atividade": "Do Sensorial ao Tecnológico — Extração de Óleos Essenciais por Arraste a Vapor",
+      "pub": 24
+    },
+    {
+      "ano": "2023",
+      "atividade_id": "16756",
+      "acao_id": "4754",
+      "atividade": "QUÍMICA VERDE APLICADA: oficinas e workshops",
+      "pub": 0
+    },
+    {
+      "ano": "2023",
+      "atividade_id": "17146",
+      "acao_id": "4754",
+      "atividade": "Oficina de saboaria - segunda edição",
+      "pub": 15
+    }
+  ],
+  "imp_coord": 134,
+  "imp_eq": 32,
+  "impacto": 166,
+  "temas": [
+    {
+      "tema": "Mulheres e inclusão",
+      "n": 3
+    },
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Richard Junior Manuel Godinez Tello",

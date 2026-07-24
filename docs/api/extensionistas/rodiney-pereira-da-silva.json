@@ -22,6 +22,24 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2023",
+      "atividade_id": "17040",
+      "acao_id": "4655",
+      "atividade": "Palestra \"Prontualize, solução que promove bem-estar emocional e mental\"",
+      "pub": 28
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 28,
+  "impacto": 28,
+  "temas": [
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Gabriel Tozatto Zago",

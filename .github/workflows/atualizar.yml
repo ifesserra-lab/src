@@ -1,0 +1,84 @@
+name: Atualização semanal (ETL → dados)
+
+# Roda o pipeline do ETL toda semana (DOMINGO) direto no CI, usando as
+# credenciais como GitHub Secrets, e commita o JSON atualizado em docs/api.
+# Esse push em docs/** dispara o pages-astro.yml, que rebuilda e publica o site.
+#
+# Secrets necessários (Settings → Secrets and variables → Actions):
+#   SRC_USER     — login do SRC        (fallback lido por etl/gerenciar.py)
+#   SRC_PASS     — senha do SRC
+#   MISTRAL_KEY  — chave da API Mistral (enriquecimento de categorias)
+#
+# NOTA: os dados de FORMADOS (data/formandos/*.xlsx) contêm PII e NÃO ficam no
+# repositório — logo não estão no runner. As seções que dependem deles
+# (jornada, comunidade, FORPROEX, formados) mantêm o último JSON commitado
+# (o export tem try/except e não sobrescreve quando os formados faltam).
+# Para atualizá-las, rode o pipeline localmente (scripts/atualizar.sh).
+
+on:
+  schedule:
+    - cron: "0 6 * * 0"   # todo DOMINGO 06:00 UTC (03:00 BRT)
+  workflow_dispatch:
+
+permissions:
+  contents: write          # necessário para commitar/push do docs/api
+
+concurrency:
+  group: atualizar-dados
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    env:
+      SRC_USER: ${{ secrets.SRC_USER }}
+      SRC_PASS: ${{ secrets.SRC_PASS }}
+      MISTRAL_KEY: ${{ secrets.MISTRAL_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar pacote + Playwright
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e .
+          python -m playwright install --with-deps chromium
+
+      - name: Raspar ações públicas
+        run: src-etl --campus Serra --out data --workers 4
+
+      - name: Raspar participações (login)
+        run: src-etl-part --from-index data/serra/_index.json --out data/participacoes --workers 3
+
+      - name: Enriquecer categorias (IA/Mistral)
+        run: src-etl-enrich --acoes data/serra --min-conf 0.6
+
+      - name: Consolidar
+        run: src-etl-consolidate --out data/serra_consolidado.json
+
+      - name: Vínculos (programas guarda-chuva)
+        run: src-etl-vinculadas --acoes data/serra
+
+      - name: Exportar API JSON (docs/api)
+        run: |
+          src-etl-export \
+            --consolidado data/serra_consolidado.json \
+            --acoes data/serra --part data/participacoes \
+            --formandos data/formandos --out docs
+
+      - name: Commit + push (dispara o deploy)
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/api docs/llms.txt
+          if git diff --cached --quiet; then
+            echo "sem mudanças nos dados — nada a publicar."
+          else
+            git commit -m "chore(data): atualização semanal automática do painel [skip ci]"
+            git push origin main
+          fi

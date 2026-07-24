@@ -47,6 +47,49 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2023",
+      "atividade_id": "19697",
+      "acao_id": "4655",
+      "atividade": "SerraMaker: fomentando a cultura Maker no município da Serra",
+      "pub": 0
+    },
+    {
+      "ano": "2025",
+      "atividade_id": "20613",
+      "acao_id": "5641",
+      "atividade": "LabMaker 4.0: capacitando professores para a cultura maker e tecnologias da Indústria 4.0",
+      "pub": 0
+    },
+    {
+      "ano": "2025",
+      "atividade_id": "20615",
+      "acao_id": "5641",
+      "atividade": "Minicurso \"Manufatura Aditiva\"",
+      "pub": 17
+    },
+    {
+      "ano": "2025",
+      "atividade_id": "21872",
+      "acao_id": "5677",
+      "atividade": "Jovens Inventores: O poder da Tecnologia Maker no Desenvolvimento Social",
+      "pub": 28
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 45,
+  "impacto": 45,
+  "temas": [
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 2
+    },
+    {
+      "tema": "Mulheres e inclusão",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Rosiane Ribeiro Rocha",

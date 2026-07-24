@@ -80,6 +80,70 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2017",
+      "atividade_id": "2882",
+      "acao_id": "1117",
+      "atividade": "PRÉ- IFES Campus Serra",
+      "pub": 33
+    },
+    {
+      "ano": "2018",
+      "atividade_id": "5158",
+      "acao_id": "1633",
+      "atividade": "Mulheres na Ciência",
+      "pub": 11
+    },
+    {
+      "ano": "2018",
+      "atividade_id": "6875",
+      "acao_id": "2082",
+      "atividade": "Mulheres na Ciência",
+      "pub": 0
+    },
+    {
+      "ano": "2018",
+      "atividade_id": "6873",
+      "acao_id": "2082",
+      "atividade": "Mulheres na Ciência",
+      "pub": 11
+    },
+    {
+      "ano": "2018",
+      "atividade_id": "6874",
+      "acao_id": "2082",
+      "atividade": "Mulheres na Ciência",
+      "pub": 17
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "22302",
+      "acao_id": "3140",
+      "atividade": "Atendimentos Personalizados e Monitorias de Extensão Tecnológica - área de Ensino de Língua Inglesa",
+      "pub": 3
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "22295",
+      "acao_id": "3140",
+      "atividade": "Atendimentos Personalizados e Monitorias de Extensão Tecnológica - área de Programação e Desenvolvimento",
+      "pub": 17
+    }
+  ],
+  "imp_coord": 36,
+  "imp_eq": 53,
+  "impacto": 89,
+  "temas": [
+    {
+      "tema": "Mulheres e inclusão",
+      "n": 5
+    },
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Alessandra Aguiar Vilarinho",

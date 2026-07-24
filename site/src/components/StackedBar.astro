@@ -1,0 +1,42 @@
+---
+// Barra 100% empilhada (uma linha) a partir de pares [categoria, valor] + legenda.
+// Substitui svg_stack. Mobile-first: barra full-width, legenda quebra.
+import type { Pair } from '../lib/schema';
+interface Props {
+  data: Pair[];
+  colors?: string[];
+}
+const {
+  data,
+  colors = ['var(--c1)', 'var(--c2)', 'var(--c4)', 'var(--c3)', 'var(--c5)', 'var(--c6)'],
+} = Astro.props;
+const total = data.reduce((s, [, v]) => s + v, 0) || 1;
+const segs = data.map(([label, value], i) => ({
+  label,
+  value,
+  pct: +((value / total) * 100).toFixed(1),
+  color: colors[i % colors.length],
+}));
+---
+<div class="stack">
+  <div class="bar" role="img" aria-label="Distribuição empilhada">
+    {segs.map((s) => (
+      <span class="seg" style={`width:${s.pct}%;background:${s.color}`} title={`${s.label}: ${s.pct}%`}></span>
+    ))}
+  </div>
+  <ul class="lg">
+    {segs.map((s) => (
+      <li><i style={`background:${s.color}`}></i>{s.label}<b class="tnum">{s.value.toLocaleString('pt-BR')} · {Math.round(s.pct)}%</b></li>
+    ))}
+  </ul>
+</div>
+
+<style>
+  .stack { display: flex; flex-direction: column; gap: 12px; }
+  .bar { display: flex; height: 26px; border-radius: 7px; overflow: hidden; background: var(--sunk); }
+  .seg { display: block; height: 100%; min-width: 2px; }
+  .lg { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: 13px; color: var(--text-2); }
+  .lg li { display: flex; align-items: center; gap: 7px; }
+  .lg i { width: 11px; height: 11px; border-radius: 3px; flex: none; }
+  .lg b { color: var(--text); font-weight: 600; font-variant-numeric: tabular-nums; }
+</style>

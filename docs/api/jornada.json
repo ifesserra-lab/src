@@ -1,0 +1,1601 @@
+{
+  "n_formados": 306,
+  "com_ext": 190,
+  "pct_ext": 62.091503267973856,
+  "med_ing_ext": 2.0,
+  "med_ext_form": 0.5,
+  "med_dur": 4.0,
+  "apos_formar": 64,
+  "dist_ing_ext": [
+    [
+      "0 ano(s)",
+      47
+    ],
+    [
+      "1 ano(s)",
+      15
+    ],
+    [
+      "2 ano(s)",
+      48
+    ],
+    [
+      "3 ano(s)",
+      14
+    ],
+    [
+      "4 ano(s)",
+      38
+    ],
+    [
+      "5 ano(s)",
+      4
+    ],
+    [
+      "6 ano(s)",
+      9
+    ],
+    [
+      "7 ano(s)",
+      2
+    ],
+    [
+      "8 ano(s)",
+      3
+    ],
+    [
+      "9 ano(s)",
+      1
+    ],
+    [
+      "10 ano(s)",
+      1
+    ],
+    [
+      "12 ano(s)",
+      1
+    ]
+  ],
+  "inic_por_ano": [
+    {
+      "ano": "0 ano(s)",
+      "k": 0,
+      "total": 47,
+      "itens": [
+        [
+          "Física ao Alcance de Todos",
+          13,
+          28
+        ],
+        [
+          "Tutoria de Estudos Orientados em Matemática Nº 01/2014",
+          9,
+          19
+        ],
+        [
+          "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+          6,
+          13
+        ],
+        [
+          "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+          6,
+          13
+        ],
+        [
+          "SEMANA DE CONTROLE E AUTOMAÇÃO",
+          4,
+          9
+        ],
+        [
+          "Desafio Ifes de Negócios Socais",
+          2,
+          4
+        ],
+        [
+          "Maratona de Programação",
+          1,
+          2
+        ],
+        [
+          "Sistema para predição de transtornos mentais comuns na atenção primária a saúde",
+          1,
+          2
+        ],
+        [
+          "ISA SHOW ES 2014 - XIII Seminário e Exposição de Instrumentação, Sistemas, Elétrica e Automação",
+          1,
+          2
+        ],
+        [
+          "Lampex + empreendedor",
+          1,
+          2
+        ],
+        [
+          "STEM - Experiência de Imersão e desenvolvimento de soluções para a área administrativa de uma empresa siderúrgica",
+          1,
+          2
+        ],
+        [
+          "Programa Local Núcleo Incubador Campus Serra – NIS",
+          1,
+          2
+        ],
+        [
+          "Pink Pepper Qualifier: Determinação da qualidade produtiva dos frutos da Aroeira (Schinus terebinthifolius Raddi) usando Inteligência Computacional",
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "ano": "1 ano(s)",
+      "k": 1,
+      "total": 15,
+      "itens": [
+        [
+          "Física ao Alcance de Todos",
+          4,
+          27
+        ],
+        [
+          "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+          3,
+          20
+        ],
+        [
+          "SEMANA DE CONTROLE E AUTOMAÇÃO",
+          2,
+          13
+        ],
+        [
+          "PRÉ – IFES Campus Serra",
+          1,
+          7
+        ],
+        [
+          "Tutoria de Estudos Orientados em Matemática Nº 01/2014",
+          1,
+          7
+        ],
+        [
+          "Tutoria de Estudos Orientados: Compartilhando Saberes",
+          1,
+          7
+        ],
+        [
+          "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+          1,
+          7
+        ],
+        [
+          "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedoras",
+          1,
+          7
+        ],
+        [
+          "Programa Local Núcleo Incubador Campus Serra – NIS",
+          1,
+          7
+        ]
+      ]
+    },
+    {
+      "ano": "2 ano(s)",
+      "k": 2,
+      "total": 48,
+      "itens": [
+        [
+          "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+          16,
+          33
+        ],
+        [
+          "Física ao Alcance de Todos",
+          7,
+          15
+        ],
+        [
+          "SEMANA DE CONTROLE E AUTOMAÇÃO",
+          5,
+          10
+        ],
+        [
+          "Maratona de Programação",
+          5,
+          10
+        ],
+        [
+          "Sistema para predição de transtornos mentais comuns na atenção primária a saúde",
+          2,
+          4
+        ],
+        [
+          "Pink Pepper Qualifier: Determinação da qualidade produtiva dos frutos da Aroeira (Schinus terebinthifolius Raddi) usando Inteligência Computacional",
+          2,
+          4
+        ],
+        [
+          "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedora",
+          1,
+          2
+        ],
+        [
+          "LifeBox: transporte e monitoramento de córnea de forma inteligente",
+          1,
+          2
+        ],
+        [
+          "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+          1,
+          2
+        ],
+        [
+          "Ambientação Pedagógica: Didática e Técnicas de Ensino.",
+          1,
+          2
+        ],
+        [
+          "Tutoria de Estudos Orientados em Matemática Nº 01/2014",
+          1,
+          2
+        ],
+        [
+          "Sistema de apoio para rastreio e geolocalização de transtornos mentais comuns na atenção primária a saúde",
+          1,
+          2
+        ],
+        [
+          "Matemática na Rede",
+          1,
+          2
+        ],
+        [
+          "Desafio Ifes de Negócios Socais",
+          1,
+          2
+        ],
+        [
+          "Sistema de apoio para rastreio e geolocalização de transtornos mentais",
+          1,
+          2
+        ],
+        [
+          "Programa Local Núcleo Incubador Campus Serra – NIS",
+          1,
+          2
+        ],
+        [
+          "SmartIdea - Validação de Problemas e Ideias",
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "ano": "3 ano(s)",
+      "k": 3,
+      "total": 14,
+      "itens": [
+        [
+          "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+          5,
+          36
+        ],
+        [
+          "Física ao Alcance de Todos",
+          2,
+          14
+        ],
+        [
+          "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+          2,
+          14
+        ],
+        [
+          "Desafio Ifes de Negócios Socais",
+          1,
+          7
+        ],
+        [
+          "SEMANA DE CONTROLE E AUTOMAÇÃO",
+          1,
+          7
+        ],
+        [
+          "ES Na Palma da Mão: Uma Plataforma baseado em serviços para Cidades Humanas, Inteligentes e Sustentáveis",
+          1,
+          7
+        ],
+        [
+          "Pink Pepper Qualifier: Determinação da qualidade produtiva dos frutos da Aroeira (Schinus terebinthifolius Raddi) usando Inteligência Computacional",
+          1,
+          7
+        ],
+        [
+          "ConectaFapes: Uma plataforma de apoio à Pesquisa, Desenvolvimento e Inovação",
+          1,
+          7
+        ]
+      ]
+    },
+    {
+      "ano": "4 ano(s)",
+      "k": 4,
+      "total": 38,
+      "itens": [
+        [
+          "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+          14,
+          37
+        ],
+        [
+          "SEMANA DE CONTROLE E AUTOMAÇÃO",
+          9,
+          24
+        ],
+        [
+          "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+          4,
+          11
+        ],
+        [
+          "Física ao Alcance de Todos",
+          4,
+          11
+        ],
+        [
+          "Programa Local Núcleo Incubador Campus Serra – NIS",
+          2,
+          5
+        ],
+        [
+          "ES Na Palma da Mão: Uma Plataforma baseado em serviços para Cidades Humanas, Inteligentes e Sustentáveis",
+          1,
+          3
+        ],
+        [
+          "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedoras",
+          1,
+          3
+        ],
+        [
+          "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedora",
+          1,
+          3
+        ],
+        [
+          "LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão",
+          1,
+          3
+        ],
+        [
+          "Maratona de Programação",
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "ano": "5 ano(s)",
+      "k": 5,
+      "total": 4,
+      "itens": [
+        [
+          "Tutoria de Estudos Orientados: Compartilhando Saberes",
+          1,
+          25
+        ],
+        [
+          "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+          1,
+          25
+        ],
+        [
+          "Curso de Pré-Incubação de Empreendimentos – modalidade Residência",
+          1,
+          25
+        ],
+        [
+          "SEMANA DE CONTROLE E AUTOMAÇÃO",
+          1,
+          25
+        ]
+      ]
+    },
+    {
+      "ano": "6 ano(s)",
+      "k": 6,
+      "total": 9,
+      "itens": [
+        [
+          "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+          3,
+          33
+        ],
+        [
+          "ISA SHOW ES 2014 - XIII Seminário e Exposição de Instrumentação, Sistemas, Elétrica e Automação",
+          2,
+          22
+        ],
+        [
+          "SEMANA DE CONTROLE E AUTOMAÇÃO",
+          2,
+          22
+        ],
+        [
+          "ConectaFapes: Uma plataforma de apoio à Pesquisa, Desenvolvimento e Inovação",
+          1,
+          11
+        ],
+        [
+          "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+          1,
+          11
+        ]
+      ]
+    },
+    {
+      "ano": "7 ano(s)",
+      "k": 7,
+      "total": 2,
+      "itens": [
+        [
+          "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+          1,
+          50
+        ],
+        [
+          "SEMANA DE CONTROLE E AUTOMAÇÃO",
+          1,
+          50
+        ]
+      ]
+    },
+    {
+      "ano": "8 ano(s)",
+      "k": 8,
+      "total": 3,
+      "itens": [
+        [
+          "Sistema de apoio para monitorar temperatura para preparaçãode caixas para transporte de órgão.",
+          1,
+          33
+        ],
+        [
+          "Curso de Pré-Incubação de Empreendimentos – modalidade Residência",
+          1,
+          33
+        ],
+        [
+          "SEMANA DE CONTROLE E AUTOMAÇÃO",
+          1,
+          33
+        ]
+      ]
+    },
+    {
+      "ano": "9 ano(s)",
+      "k": 9,
+      "total": 1,
+      "itens": [
+        [
+          "Física ao Alcance de Todos",
+          1,
+          100
+        ]
+      ]
+    },
+    {
+      "ano": "10 ano(s)",
+      "k": 10,
+      "total": 1,
+      "itens": [
+        [
+          "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+          1,
+          100
+        ]
+      ]
+    },
+    {
+      "ano": "12 ano(s)",
+      "k": 12,
+      "total": 1,
+      "itens": [
+        [
+          "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+          1,
+          100
+        ]
+      ]
+    }
+  ],
+  "clust_por_ano": [
+    {
+      "ano": "0 ano(s)",
+      "k": 0,
+      "total": 47,
+      "itens": [
+        [
+          "Robótica e cultura maker",
+          27,
+          57
+        ],
+        [
+          "Mulheres e inclusão",
+          9,
+          19
+        ],
+        [
+          "Empreendedorismo e incubação",
+          8,
+          17
+        ],
+        [
+          "Cultura e arte",
+          1,
+          2
+        ],
+        [
+          "Saúde e bem-estar",
+          1,
+          2
+        ],
+        [
+          "Software, dados e sistemas",
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "ano": "1 ano(s)",
+      "k": 1,
+      "total": 15,
+      "itens": [
+        [
+          "Robótica e cultura maker",
+          9,
+          60
+        ],
+        [
+          "Mulheres e inclusão",
+          3,
+          20
+        ],
+        [
+          "Empreendedorismo e incubação",
+          3,
+          20
+        ]
+      ]
+    },
+    {
+      "ano": "2 ano(s)",
+      "k": 2,
+      "total": 48,
+      "itens": [
+        [
+          "Robótica e cultura maker",
+          32,
+          67
+        ],
+        [
+          "Cultura e arte",
+          6,
+          12
+        ],
+        [
+          "Saúde e bem-estar",
+          4,
+          8
+        ],
+        [
+          "Empreendedorismo e incubação",
+          3,
+          6
+        ],
+        [
+          "Escola e formação de professores",
+          1,
+          2
+        ],
+        [
+          "Mulheres e inclusão",
+          1,
+          2
+        ],
+        [
+          "Captação e ingresso",
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "ano": "3 ano(s)",
+      "k": 3,
+      "total": 14,
+      "itens": [
+        [
+          "Robótica e cultura maker",
+          10,
+          71
+        ],
+        [
+          "Empreendedorismo e incubação",
+          2,
+          14
+        ],
+        [
+          "Software, dados e sistemas",
+          1,
+          7
+        ],
+        [
+          "Saúde e bem-estar",
+          1,
+          7
+        ]
+      ]
+    },
+    {
+      "ano": "4 ano(s)",
+      "k": 4,
+      "total": 38,
+      "itens": [
+        [
+          "Robótica e cultura maker",
+          28,
+          74
+        ],
+        [
+          "Empreendedorismo e incubação",
+          8,
+          21
+        ],
+        [
+          "Software, dados e sistemas",
+          1,
+          3
+        ],
+        [
+          "Cultura e arte",
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "ano": "5 ano(s)",
+      "k": 5,
+      "total": 4,
+      "itens": [
+        [
+          "Robótica e cultura maker",
+          2,
+          50
+        ],
+        [
+          "Mulheres e inclusão",
+          1,
+          25
+        ],
+        [
+          "Empreendedorismo e incubação",
+          1,
+          25
+        ]
+      ]
+    },
+    {
+      "ano": "6 ano(s)",
+      "k": 6,
+      "total": 9,
+      "itens": [
+        [
+          "Robótica e cultura maker",
+          5,
+          56
+        ],
+        [
+          "Empreendedorismo e incubação",
+          3,
+          33
+        ],
+        [
+          "Saúde e bem-estar",
+          1,
+          11
+        ]
+      ]
+    },
+    {
+      "ano": "7 ano(s)",
+      "k": 7,
+      "total": 2,
+      "itens": [
+        [
+          "Robótica e cultura maker",
+          2,
+          100
+        ]
+      ]
+    },
+    {
+      "ano": "8 ano(s)",
+      "k": 8,
+      "total": 3,
+      "itens": [
+        [
+          "Saúde e bem-estar",
+          1,
+          33
+        ],
+        [
+          "Empreendedorismo e incubação",
+          1,
+          33
+        ],
+        [
+          "Robótica e cultura maker",
+          1,
+          33
+        ]
+      ]
+    },
+    {
+      "ano": "9 ano(s)",
+      "k": 9,
+      "total": 1,
+      "itens": [
+        [
+          "Robótica e cultura maker",
+          1,
+          100
+        ]
+      ]
+    },
+    {
+      "ano": "10 ano(s)",
+      "k": 10,
+      "total": 1,
+      "itens": [
+        [
+          "Robótica e cultura maker",
+          1,
+          100
+        ]
+      ]
+    },
+    {
+      "ano": "12 ano(s)",
+      "k": 12,
+      "total": 1,
+      "itens": [
+        [
+          "Robótica e cultura maker",
+          1,
+          100
+        ]
+      ]
+    }
+  ],
+  "area_por_ano": [
+    {
+      "ano": "0 ano(s)",
+      "k": 0,
+      "total": 47,
+      "itens": [
+        [
+          "Tecnologia e Produção",
+          23,
+          49
+        ],
+        [
+          "Educação",
+          22,
+          47
+        ],
+        [
+          "Trabalho",
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "ano": "1 ano(s)",
+      "k": 1,
+      "total": 15,
+      "itens": [
+        [
+          "Tecnologia e Produção",
+          8,
+          53
+        ],
+        [
+          "Educação",
+          7,
+          47
+        ]
+      ]
+    },
+    {
+      "ano": "2 ano(s)",
+      "k": 2,
+      "total": 48,
+      "itens": [
+        [
+          "Tecnologia e Produção",
+          27,
+          56
+        ],
+        [
+          "Educação",
+          20,
+          42
+        ],
+        [
+          "Trabalho",
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "ano": "3 ano(s)",
+      "k": 3,
+      "total": 14,
+      "itens": [
+        [
+          "Educação",
+          8,
+          57
+        ],
+        [
+          "Tecnologia e Produção",
+          5,
+          36
+        ],
+        [
+          "Trabalho",
+          1,
+          7
+        ]
+      ]
+    },
+    {
+      "ano": "4 ano(s)",
+      "k": 4,
+      "total": 38,
+      "itens": [
+        [
+          "Educação",
+          19,
+          50
+        ],
+        [
+          "Tecnologia e Produção",
+          19,
+          50
+        ]
+      ]
+    },
+    {
+      "ano": "5 ano(s)",
+      "k": 5,
+      "total": 4,
+      "itens": [
+        [
+          "Educação",
+          2,
+          50
+        ],
+        [
+          "Tecnologia e Produção",
+          2,
+          50
+        ]
+      ]
+    },
+    {
+      "ano": "6 ano(s)",
+      "k": 6,
+      "total": 9,
+      "itens": [
+        [
+          "Tecnologia e Produção",
+          5,
+          56
+        ],
+        [
+          "Educação",
+          4,
+          44
+        ]
+      ]
+    },
+    {
+      "ano": "7 ano(s)",
+      "k": 7,
+      "total": 2,
+      "itens": [
+        [
+          "Educação",
+          1,
+          50
+        ],
+        [
+          "Tecnologia e Produção",
+          1,
+          50
+        ]
+      ]
+    },
+    {
+      "ano": "8 ano(s)",
+      "k": 8,
+      "total": 3,
+      "itens": [
+        [
+          "Saúde",
+          1,
+          33
+        ],
+        [
+          "Trabalho",
+          1,
+          33
+        ],
+        [
+          "Tecnologia e Produção",
+          1,
+          33
+        ]
+      ]
+    },
+    {
+      "ano": "9 ano(s)",
+      "k": 9,
+      "total": 1,
+      "itens": [
+        [
+          "Tecnologia e Produção",
+          1,
+          100
+        ]
+      ]
+    },
+    {
+      "ano": "10 ano(s)",
+      "k": 10,
+      "total": 1,
+      "itens": [
+        [
+          "Educação",
+          1,
+          100
+        ]
+      ]
+    },
+    {
+      "ano": "12 ano(s)",
+      "k": 12,
+      "total": 1,
+      "itens": [
+        [
+          "Educação",
+          1,
+          100
+        ]
+      ]
+    }
+  ],
+  "fase": [
+    [
+      "No início (0–33%)",
+      44
+    ],
+    [
+      "No meio (33–66%)",
+      38
+    ],
+    [
+      "No fim (66–100%)",
+      37
+    ],
+    [
+      "Após formar",
+      30
+    ]
+  ],
+  "decis": [
+    23,
+    4,
+    10,
+    4,
+    8,
+    26,
+    12,
+    11,
+    12,
+    5
+  ],
+  "por_curso": [
+    [
+      "Sistemas de Informação (134/196)",
+      68
+    ],
+    [
+      "Engenharia de Controle e A (56/110)",
+      51
+    ]
+  ],
+  "publico": {
+    "n_pessoas": 4420,
+    "n_alunos": 190,
+    "n_nao": 4230,
+    "pct_nao": 96,
+    "papel_nao": [
+      [
+        "Só beneficiário (público-alvo)",
+        3584,
+        85
+      ],
+      [
+        "Só executor (equipe)",
+        385,
+        9
+      ],
+      [
+        "Executor e beneficiário",
+        261,
+        6
+      ]
+    ],
+    "papel_alunos": [
+      [
+        "Só beneficiário (público-alvo)",
+        82,
+        43
+      ],
+      [
+        "Só executor (equipe)",
+        22,
+        12
+      ],
+      [
+        "Executor e beneficiário",
+        86,
+        45
+      ]
+    ],
+    "top_inic_nao": [
+      [
+        "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+        908,
+        21
+      ],
+      [
+        "Ifes Portas Abertas",
+        889,
+        21
+      ],
+      [
+        "Programa Local Núcleo Incubador Campus Serra – NIS",
+        309,
+        7
+      ],
+      [
+        "Atividades físicas adaptadas e inclusão (AFAI)",
+        286,
+        7
+      ],
+      [
+        "LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão",
+        279,
+        7
+      ],
+      [
+        "O IFES é o meu lugar",
+        253,
+        6
+      ],
+      [
+        "SOF – Serviço de Orientação Financeira (unidade Ifes Serra)",
+        243,
+        6
+      ],
+      [
+        "Física ao Alcance de Todos",
+        236,
+        6
+      ],
+      [
+        "Conectando Talentos: Robótica e Programação no IFES-Serra",
+        196,
+        5
+      ],
+      [
+        "QUÍMICA VERDE APLICADA: oficinas e workshops",
+        138,
+        3
+      ],
+      [
+        "SEMANA DE CONTROLE E AUTOMAÇÃO",
+        106,
+        3
+      ],
+      [
+        "Circuito Audiovisual",
+        96,
+        2
+      ],
+      [
+        "ConectaFapes: Uma plataforma de apoio à Pesquisa, Desenvolvimento e Inovação",
+        80,
+        2
+      ],
+      [
+        "Curso de Auxiliar Administrativo",
+        74,
+        2
+      ],
+      [
+        "Mulheres Mil – Eletricista Instalador Predial em Baixa Tensão",
+        71,
+        2
+      ],
+      [
+        "Despertar da Força - Processos e Ferramentas para o Gerenciamento Ágil de Projetos: Uma Abordagem Prática",
+        68,
+        2
+      ],
+      [
+        "SprintLab - Laboratório de Prototipação Acelerada",
+        61,
+        1
+      ],
+      [
+        "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedora",
+        55,
+        1
+      ],
+      [
+        "Mulheres na Ciência",
+        50,
+        1
+      ],
+      [
+        "PRÉ – IFES Campus Serra",
+        45,
+        1
+      ],
+      [
+        "Curso de Operador de Computador",
+        44,
+        1
+      ],
+      [
+        "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedoras",
+        44,
+        1
+      ],
+      [
+        "Jovens Inventores: O poder da Tecnologia Maker no Desenvolvimento Social",
+        40,
+        1
+      ],
+      [
+        "Curso de Eletricista Instalador Predial de Baixa Tensão",
+        38,
+        1
+      ],
+      [
+        "Maratona de Programação",
+        37,
+        1
+      ],
+      [
+        "Desafio Ifes de Negócios Socais",
+        36,
+        1
+      ],
+      [
+        "Matemática na Rede",
+        36,
+        1
+      ],
+      [
+        "Asas para o Futuro - Eletricista Instalador Predial em Baixa Tensão",
+        36,
+        1
+      ],
+      [
+        "MULHERES MIL - Artesão em Bordado a mão",
+        34,
+        1
+      ],
+      [
+        "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+        33,
+        1
+      ],
+      [
+        "LabMaker 4.0: capacitando professores para a cultura maker e tecnologias da Indústria 4.0",
+        28,
+        1
+      ],
+      [
+        "Energia Solar Fotovoltaica",
+        26,
+        1
+      ],
+      [
+        "ELETRICISTA INSTALADOR PREDIAL DE BAIXA TENSÃO",
+        26,
+        1
+      ],
+      [
+        "Programação Visual Criativa com Scratch",
+        25,
+        1
+      ],
+      [
+        "Tutoria de Estudos Orientados em Matemática Nº 01/2014",
+        24,
+        1
+      ],
+      [
+        "Academia Cisco nas Escolas Municipais da Serra - ES",
+        23,
+        1
+      ],
+      [
+        "Informática Básica Para Agentes Multiplicadores.",
+        21,
+        0
+      ],
+      [
+        "Curso de Pré-Incubação de Empreendimentos – modalidade Residência",
+        20,
+        0
+      ],
+      [
+        "Operador de Computador",
+        19,
+        0
+      ],
+      [
+        "Programa Regular de Promoção da Cultura e da Arte no Ifes Campus Serra",
+        18,
+        0
+      ],
+      [
+        "Ifes para todos",
+        17,
+        0
+      ],
+      [
+        "Tutoria de Estudos Orientados: Compartilhando Saberes",
+        14,
+        0
+      ],
+      [
+        "ISA SHOW ES 2014 - XIII Seminário e Exposição de Instrumentação, Sistemas, Elétrica e Automação",
+        13,
+        0
+      ],
+      [
+        "SmartIdea - Validação de Problemas e Ideias",
+        13,
+        0
+      ],
+      [
+        "Lampex + empreendedor",
+        12,
+        0
+      ],
+      [
+        "Ambientação Pedagógica: Didática e Técnicas de Ensino.",
+        12,
+        0
+      ],
+      [
+        "Curso de Pré-Incubação para Empreendedores",
+        10,
+        0
+      ],
+      [
+        "Câmara de Assessoramento em Gestão e Tecnologia do Núcleo Incubador do campus Serra do Ifes",
+        8,
+        0
+      ],
+      [
+        "Pink Pepper Qualifier: Determinação da qualidade produtiva dos frutos da Aroeira (Schinus terebinthifolius Raddi) usando Inteligência Computacional",
+        8,
+        0
+      ],
+      [
+        "LifeBox: transporte e monitoramento de córnea de forma inteligente",
+        7,
+        0
+      ],
+      [
+        "Inova Serra",
+        6,
+        0
+      ],
+      [
+        "IFES Contra a Covid-19",
+        6,
+        0
+      ],
+      [
+        "STEM - Experiência de Imersão e desenvolvimento de soluções para a área administrativa de uma empresa siderúrgica",
+        5,
+        0
+      ],
+      [
+        "ESPM-Empregos: Um serviço inteligente para promover a empregabilidade",
+        5,
+        0
+      ],
+      [
+        "SISTEMA PARA PREDIÇÃO DE TRANSTORNOS MENTAIS COMUNS NA ATENÇÃO PRIMÁRIA À SAÚDE III",
+        5,
+        0
+      ],
+      [
+        "Incluir & Multiplicar",
+        5,
+        0
+      ],
+      [
+        "Laboratório IFMaker Serra: um ambiente colaborativo de aprendizagem e desenvolvimento de soluções",
+        4,
+        0
+      ],
+      [
+        "Mutual Life: Um aplicativo para seguros colaborativos",
+        4,
+        0
+      ],
+      [
+        "Rede de Laboratórios de Educação em Desenvolvimento de Soluções - LEDS",
+        4,
+        0
+      ],
+      [
+        "SIPAC - Sistema de Informação da Produção Agropecuária capixaba",
+        4,
+        0
+      ],
+      [
+        "Sistema de apoio para monitorar temperatura para preparaçãode caixas para transporte de órgão.",
+        4,
+        0
+      ],
+      [
+        "Stone Connection",
+        3,
+        0
+      ],
+      [
+        "ES Na Palma da Mão: Uma Plataforma baseado em serviços para Cidades Humanas, Inteligentes e Sustentáveis",
+        3,
+        0
+      ],
+      [
+        "Sistema de apoio para rastreio e geolocalização de transtornos mentais comuns na atenção primária a saúde",
+        3,
+        0
+      ],
+      [
+        "Gametalk: vamos falar sobre games?",
+        3,
+        0
+      ],
+      [
+        "Sistema para auxiliar a gestão da Produção Agropecuária capixaba",
+        3,
+        0
+      ],
+      [
+        "LEDS – Laboratório de Extensão e Desenvolvimento de Soluções",
+        2,
+        0
+      ],
+      [
+        "I Am Here: Registro de Frequência por Reconhecimento Facial",
+        2,
+        0
+      ],
+      [
+        "Sistema para predição de transtornos mentais comuns na atenção primária a saúde",
+        2,
+        0
+      ],
+      [
+        "Desenvolvimento de um sistema multiplataforma para robôs de assistência e manutenção de quadras esportivas",
+        2,
+        0
+      ],
+      [
+        "ALGolfSwing: Análise de Desempenho Esportivo para Golf",
+        2,
+        0
+      ],
+      [
+        "Introdução à Programação Competitiva",
+        2,
+        0
+      ],
+      [
+        "Sistema de apoio para rastreio e geolocalização de transtornos mentais",
+        2,
+        0
+      ]
+    ],
+    "cluster_nao": [
+      [
+        "Robótica e cultura maker",
+        1610,
+        38
+      ],
+      [
+        "Captação e ingresso",
+        1180,
+        28
+      ],
+      [
+        "Mulheres e inclusão",
+        937,
+        22
+      ],
+      [
+        "Empreendedorismo e incubação",
+        483,
+        11
+      ],
+      [
+        "Cultura e arte",
+        246,
+        6
+      ],
+      [
+        "Saúde e bem-estar",
+        178,
+        4
+      ],
+      [
+        "Outros / formação",
+        76,
+        2
+      ],
+      [
+        "Software, dados e sistemas",
+        44,
+        1
+      ],
+      [
+        "Escola e formação de professores",
+        12,
+        0
+      ],
+      [
+        "Ciência e divulgação",
+        5,
+        0
+      ]
+    ],
+    "area_nao": [
+      [
+        "Educação",
+        2755,
+        65
+      ],
+      [
+        "Tecnologia e Produção",
+        1424,
+        34
+      ],
+      [
+        "Saúde",
+        296,
+        7
+      ],
+      [
+        "Cultura",
+        145,
+        3
+      ],
+      [
+        "Trabalho",
+        120,
+        3
+      ]
+    ],
+    "recorrencia": [
+      [
+        "1 iniciativa",
+        3645
+      ],
+      [
+        "2",
+        366
+      ],
+      [
+        "3",
+        126
+      ],
+      [
+        "4 ou mais",
+        93
+      ]
+    ],
+    "por_ano_nao": [
+      [
+        "2013",
+        108
+      ],
+      [
+        "2014",
+        122
+      ],
+      [
+        "2015",
+        63
+      ],
+      [
+        "2016",
+        215
+      ],
+      [
+        "2017",
+        92
+      ],
+      [
+        "2018",
+        662
+      ],
+      [
+        "2019",
+        731
+      ],
+      [
+        "2020",
+        55
+      ],
+      [
+        "2021",
+        12
+      ],
+      [
+        "2022",
+        285
+      ],
+      [
+        "2023",
+        740
+      ],
+      [
+        "2024",
+        468
+      ],
+      [
+        "2025",
+        308
+      ],
+      [
+        "2026",
+        369
+      ]
+    ],
+    "um_so": 3645,
+    "um_so_pct": 86
+  }
+}

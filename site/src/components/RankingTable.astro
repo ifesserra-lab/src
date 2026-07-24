@@ -1,0 +1,41 @@
+---
+// Ranking a partir de pares [rótulo, valor], com barra inline. Substitui _ranking_coord.
+import type { Pair } from '../lib/schema';
+interface Props {
+  data: Pair[];
+  colLabel: string;
+  colValue: string;
+  color?: string;
+  max?: number;
+  unit?: string;
+}
+const { data, colLabel, colValue, color = 'var(--c1)', max = 10, unit = '' } = Astro.props;
+const rows = data.slice(0, max);
+const top = Math.max(...rows.map((r) => r[1]), 1);
+---
+<div class="tbl-wrap">
+  <table>
+    <thead>
+      <tr><th style="width:2.2rem">#</th><th>{colLabel}</th><th class="num">{colValue}</th><th class="barcol"></th></tr>
+    </thead>
+    <tbody>
+      {rows.map(([label, value], i) => (
+        <tr>
+          <td class="rk tnum">{i + 1}</td>
+          <td><a>{label}</a></td>
+          <td class="num tnum">{value.toLocaleString('pt-BR')}{unit}</td>
+          <td class="barcol"><span class="bi"><i style={`width:${(value / top) * 100}%;background:${color}`}></i></span></td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>
+
+<style>
+  .rk { color: var(--muted); font-weight: 600; }
+  .num { text-align: right; font-weight: 600; white-space: nowrap; }
+  .barcol { width: 32%; }
+  .bi { display: block; height: 7px; border-radius: 4px; background: var(--sunk); overflow: hidden; min-width: 70px; }
+  .bi i { display: block; height: 100%; border-radius: 4px; }
+  @media (max-width: 560px) { .barcol { display: none; } }
+</style>

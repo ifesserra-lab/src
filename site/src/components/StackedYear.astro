@@ -1,0 +1,79 @@
+---
+// Barras 100% empilhadas por ano + tabela — espelha `svg_stack` + `tabela_por_ano`.
+// `linhas`: [{ano, k, total, itens:[[cat, valor, pct], …]}]. As `top` categorias
+// mais frequentes recebem cor fixa; o resto entra em "Outras".
+import type { Row } from '../lib/schema';
+interface Linha { ano: string; k?: number; total: number; itens: Row[] }
+interface Props { linhas: Linha[]; top?: number; outras?: string; colCat?: string; unidade?: string }
+const { linhas, top = 7, outras = 'Outras', colCat = 'Categoria', unidade = 'alunos' } = Astro.props;
+
+const CAT = ['var(--c1)', 'var(--c2)', 'var(--c6)', 'var(--c3)', 'var(--c5)', 'var(--c4)', 'var(--good)', 'var(--crit)'];
+const totCat = new Map<string, number>();
+for (const l of linhas) for (const it of l.itens) {
+  const c = String(it[0]); totCat.set(c, (totCat.get(c) ?? 0) + Number(it[1]));
+}
+const principais = [...totCat.entries()].sort((a, b) => b[1] - a[1]).slice(0, top).map(([c]) => c);
+const cor = new Map(principais.map((c, i) => [c, CAT[i % CAT.length]]));
+const legenda = principais.map((c) => ({ label: c, cor: cor.get(c)! }));
+if (totCat.size > principais.length) legenda.push({ label: outras, cor: 'var(--muted)' });
+
+// segmentos por ano (agrupa não-principais em "Outras")
+const barras = linhas.map((l) => {
+  const segMap = new Map<string, number>();
+  for (const it of l.itens) {
+    const c = principais.includes(String(it[0])) ? String(it[0]) : outras;
+    segMap.set(c, (segMap.get(c) ?? 0) + Number(it[1]));
+  }
+  const total = l.total || [...segMap.values()].reduce((a, b) => a + b, 0) || 1;
+  const segs = [...principais, outras]
+    .filter((c) => segMap.has(c))
+    .map((c) => ({ c, v: segMap.get(c)!, pct: Math.round((segMap.get(c)! / total) * 100), cor: c === outras ? 'var(--muted)' : cor.get(c)! }));
+  return { ano: l.ano, total, segs };
+});
+---
+<div class="sy">
+  <div class="sy-rows">
+    {barras.map((b) => (
+      <div class="sy-row">
+        <span class="sy-ano">{b.ano}</span>
+        <div class="sy-bar" role="img" aria-label={`${b.ano}: ${b.total} ${unidade}`}>
+          {b.segs.map((s) => (
+            <span style={`width:${(s.v / b.total) * 100}%;background:${s.cor}`} title={`${s.c}: ${s.v} · ${s.pct}%`}></span>
+          ))}
+        </div>
+        <span class="sy-tot tnum">{b.total}</span>
+      </div>
+    ))}
+  </div>
+  <div class="legend">
+    {legenda.map((l) => (<span><i style={`background:${l.cor}`}></i>{l.label}</span>))}
+  </div>
+  <details class="explica" style="margin-top:14px">
+    <summary>Tabela completa</summary>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>Ano</th><th>{colCat}</th><th>{unidade}</th><th>% do ano</th></tr></thead>
+        <tbody>
+          {linhas.map((l) => l.itens.map((it, idx) => (
+            <tr>
+              {idx === 0 && <td rowspan={l.itens.length} class="nowrap"><b>{l.ano}</b></td>}
+              <td>{String(it[0])}</td>
+              <td class="tnum">{Number(it[1])}</td>
+              <td class="tnum">{Number(it[2] ?? Math.round((Number(it[1]) / l.total) * 100))}%</td>
+            </tr>
+          )))}
+        </tbody>
+      </table>
+    </div>
+  </details>
+</div>
+
+<style>
+  .sy-rows { display: flex; flex-direction: column; gap: 9px; }
+  .sy-row { display: grid; grid-template-columns: 68px 1fr auto; align-items: center; gap: 10px; font-size: 12.5px; }
+  .sy-ano { color: var(--text-2); white-space: nowrap; }
+  .sy-bar { display: flex; height: 22px; border-radius: 6px; overflow: hidden; background: var(--sunk); }
+  .sy-bar > span { display: block; height: 100%; min-width: 1px; }
+  .sy-tot { color: var(--text); font-weight: 600; }
+  @media (min-width: 640px) { .sy-row { grid-template-columns: 96px 1fr auto; } }
+</style>

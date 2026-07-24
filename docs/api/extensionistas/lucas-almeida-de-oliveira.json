@@ -22,6 +22,24 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2016",
+      "atividade_id": "1939",
+      "acao_id": "848",
+      "atividade": "Sistema de apoio para monitorar temperatura para preparaçãode caixas para transporte de órgão.",
+      "pub": 0
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 0,
+  "impacto": 0,
+  "temas": [
+    {
+      "tema": "Saúde e bem-estar",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Carlos Lins Borges Azevedo",

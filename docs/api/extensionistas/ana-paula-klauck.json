@@ -99,6 +99,67 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2017",
+      "atividade_id": "2882",
+      "acao_id": "1117",
+      "atividade": "PRÉ- IFES Campus Serra",
+      "pub": 33
+    },
+    {
+      "ano": "2018",
+      "atividade_id": "6874",
+      "acao_id": "2082",
+      "atividade": "Mulheres na Ciência",
+      "pub": 17
+    },
+    {
+      "ano": "2015",
+      "atividade_id": "1271",
+      "acao_id": "569",
+      "atividade": "Desafio Ifes de Negócios Socais",
+      "pub": 0
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "1349",
+      "acao_id": "628",
+      "atividade": "Gametalk: vamos falar sobre games?",
+      "pub": 0
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "1545",
+      "acao_id": "718",
+      "atividade": "Programa Regular de Promoção da Cultura e da Arte no Ifes Campus Serra",
+      "pub": 1
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "4846",
+      "acao_id": "718",
+      "atividade": "Ciclo de Conversas do NAC 2016 – Redes Sociais: Meme, Gif e Emoji: ler e escrever nas redes sociais",
+      "pub": 0
+    }
+  ],
+  "imp_coord": 1,
+  "imp_eq": 50,
+  "impacto": 51,
+  "temas": [
+    {
+      "tema": "Cultura e arte",
+      "n": 4
+    },
+    {
+      "tema": "Mulheres e inclusão",
+      "n": 2
+    },
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Ernani Leite Ribeiro Filho",

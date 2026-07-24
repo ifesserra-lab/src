@@ -31,6 +31,24 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2023",
+      "atividade_id": "15941",
+      "acao_id": "4597",
+      "atividade": "O IFES é o meu lugar",
+      "pub": 79
+    }
+  ],
+  "imp_coord": 79,
+  "imp_eq": 0,
+  "impacto": 79,
+  "temas": [
+    {
+      "tema": "Captação e ingresso",
+      "n": 2
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Leandra Mendes da Silva Piffer",

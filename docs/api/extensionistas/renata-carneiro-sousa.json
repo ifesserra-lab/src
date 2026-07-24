@@ -35,6 +35,42 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2017",
+      "atividade_id": "11585",
+      "acao_id": "1116",
+      "atividade": "Membro do Comtê Gestor do Núcleo Incubador campus Serra do Ifes - NIS",
+      "pub": 0
+    },
+    {
+      "ano": "2017",
+      "atividade_id": "11586",
+      "acao_id": "1116",
+      "atividade": "Membro do Comtê Gestor do Núcleo Incubador campus Serra do Ifes - NIS",
+      "pub": 0
+    },
+    {
+      "ano": "2023",
+      "atividade_id": "17037",
+      "acao_id": "4655",
+      "atividade": "Oficina \"Pintura em pneus\"",
+      "pub": 9
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 9,
+  "impacto": 9,
+  "temas": [
+    {
+      "tema": "Empreendedorismo e incubação",
+      "n": 1
+    },
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Francisco José Casarim Rapchan",

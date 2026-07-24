@@ -33,6 +33,35 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2023",
+      "atividade_id": "17036",
+      "acao_id": "4655",
+      "atividade": "Oficina \"A Química do cérebro: ondas gamma e efeitos da dimetiltriptamina de plantas medicinais/ roda de chá com meditação\"",
+      "pub": 15
+    },
+    {
+      "ano": "2023",
+      "atividade_id": "16756",
+      "acao_id": "4754",
+      "atividade": "QUÍMICA VERDE APLICADA: oficinas e workshops",
+      "pub": 0
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 15,
+  "impacto": 15,
+  "temas": [
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 1
+    },
+    {
+      "tema": "Mulheres e inclusão",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Marianna Stark Gardioli Rangel",

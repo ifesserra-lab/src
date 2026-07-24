@@ -47,6 +47,42 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2022",
+      "atividade_id": "17191",
+      "acao_id": "4034",
+      "atividade": "Oficina de Design Sprint",
+      "pub": 2
+    },
+    {
+      "ano": "2022",
+      "atividade_id": "14488",
+      "acao_id": "4215",
+      "atividade": "SprintLab - Laboratório de Prototipação Acelerada",
+      "pub": 2
+    },
+    {
+      "ano": "2026",
+      "atividade_id": "22250",
+      "acao_id": "5852",
+      "atividade": "Palestra promovida pelo LIEFIS: \"Demandas emocionais e comportamentais no processo de endividamento\".",
+      "pub": 18
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 22,
+  "impacto": 22,
+  "temas": [
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 2
+    },
+    {
+      "tema": "Mulheres e inclusão",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Maressa Karen Henrique da Silva",

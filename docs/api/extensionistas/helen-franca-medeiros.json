@@ -64,6 +64,71 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2018",
+      "atividade_id": "5638",
+      "acao_id": "1795",
+      "atividade": "ESPM-Empregos: Um serviço inteligente para promover a empregabilidade",
+      "pub": 0
+    },
+    {
+      "ano": "2019",
+      "atividade_id": "9225",
+      "acao_id": "2675",
+      "atividade": "Tutoria de Estudos Orientados: Compartilhando Saberes",
+      "pub": 5
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "10681",
+      "acao_id": "3021",
+      "atividade": "Stone Connection",
+      "pub": 0
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "10343",
+      "acao_id": "901",
+      "atividade": "Expositor: Apresentação de Projetos do LEDS no Sebrae StartupSummit 2019",
+      "pub": 0
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "10020",
+      "acao_id": "901",
+      "atividade": "Minicurso: Hacktoberfest LEDS",
+      "pub": 15
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "10019",
+      "acao_id": "901",
+      "atividade": "Palestra: Apresentação de Projetos LEDS",
+      "pub": 0
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 20,
+  "impacto": 20,
+  "temas": [
+    {
+      "tema": "Ciência e divulgação",
+      "n": 1
+    },
+    {
+      "tema": "Mulheres e inclusão",
+      "n": 1
+    },
+    {
+      "tema": "Software, dados e sistemas",
+      "n": 1
+    },
+    {
+      "tema": "Empreendedorismo e incubação",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Moisés Savedra Omena",

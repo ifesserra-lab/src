@@ -22,6 +22,31 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2018",
+      "atividade_id": "9601",
+      "acao_id": "2021",
+      "atividade": "Mostra Tecnológica na Semana Nacional de Ciência e Tecnologia 2019",
+      "pub": 0
+    },
+    {
+      "ano": "2018",
+      "atividade_id": "9595",
+      "acao_id": "2021",
+      "atividade": "Mostra Tecnológica na Semana Nacional de Ciência e Tecnologia 2019",
+      "pub": 0
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 0,
+  "impacto": 0,
+  "temas": [
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Rosilene de Sá Ribeiro",

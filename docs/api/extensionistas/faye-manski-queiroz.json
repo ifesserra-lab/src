@@ -39,6 +39,63 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2018",
+      "atividade_id": "6522",
+      "acao_id": "2021",
+      "atividade": "Minicurso: Introdução ao Arduino e Microcontroladores",
+      "pub": 30
+    },
+    {
+      "ano": "2018",
+      "atividade_id": "6521",
+      "acao_id": "2021",
+      "atividade": "Minicurso: Introdução ao Arduino e Microcontroladores",
+      "pub": 12
+    },
+    {
+      "ano": "2018",
+      "atividade_id": "9601",
+      "acao_id": "2021",
+      "atividade": "Mostra Tecnológica na Semana Nacional de Ciência e Tecnologia 2019",
+      "pub": 0
+    },
+    {
+      "ano": "2018",
+      "atividade_id": "9595",
+      "acao_id": "2021",
+      "atividade": "Mostra Tecnológica na Semana Nacional de Ciência e Tecnologia 2019",
+      "pub": 0
+    },
+    {
+      "ano": "2018",
+      "atividade_id": "7750",
+      "acao_id": "2021",
+      "atividade": "Trabalho de Iniciação Científica",
+      "pub": 0
+    },
+    {
+      "ano": "2022",
+      "atividade_id": "17383",
+      "acao_id": "3768",
+      "atividade": "Inciciação Científica",
+      "pub": 0
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 42,
+  "impacto": 42,
+  "temas": [
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 1
+    },
+    {
+      "tema": "Captação e ingresso",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Rosilene de Sá Ribeiro",

@@ -22,6 +22,24 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2020",
+      "atividade_id": "22295",
+      "acao_id": "3140",
+      "atividade": "Atendimentos Personalizados e Monitorias de Extensão Tecnológica - área de Programação e Desenvolvimento",
+      "pub": 17
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 17,
+  "impacto": 17,
+  "temas": [
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Emmanuel Marques Silva",

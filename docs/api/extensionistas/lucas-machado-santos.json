@@ -34,6 +34,31 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2022",
+      "atividade_id": "17191",
+      "acao_id": "4034",
+      "atividade": "Oficina de Design Sprint",
+      "pub": 2
+    },
+    {
+      "ano": "2022",
+      "atividade_id": "14488",
+      "acao_id": "4215",
+      "atividade": "SprintLab - Laboratório de Prototipação Acelerada",
+      "pub": 2
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 4,
+  "impacto": 4,
+  "temas": [
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 2
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Maressa Karen Henrique da Silva",

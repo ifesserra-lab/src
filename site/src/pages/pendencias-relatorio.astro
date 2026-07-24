@@ -1,0 +1,80 @@
+---
+import Base from '../layouts/Base.astro';
+import TableFilter from '../components/TableFilter.astro';
+import { getPendencias } from '../lib/data';
+import { withBase } from '../lib/url';
+import type { PendenciaRow } from '../lib/schema';
+
+const pend = getPendencias();
+const fmt = (n: number) => n.toLocaleString('pt-BR');
+
+function pillTipo(tipo: string): string {
+  const t = (tipo || '').toLowerCase();
+  const k = t.includes('curso') ? 'curso' : t.includes('programa') ? 'programa'
+    : t.includes('evento') ? 'evento' : t.includes('projeto') ? 'projeto' : 'outro';
+  return `pill tp-${k}`;
+}
+const linkPessoa = (nome: string, slug?: string | null) =>
+  slug ? { href: withBase(`/extensionistas/${slug}.html`) } : null;
+---
+<Base title="Pendências" description="Ações sem relatório final aprovado e/ou sem participantes registrados no SRC — com a coordenação responsável e o modelo de relatório da PROEX." active="pendencias">
+  <div class="wrap">
+    <p class="crumb">Páginas / <b>Pendências</b></p>
+    <h1>Pendências e ações sem participação</h1>
+    <p class="sub">Ações sem relatório final aprovado e/ou sem participantes registrados no SRC — com o(a) coordenador(a) responsável e o modelo de relatório da PROEX</p>
+
+    <div class="card" style="margin-top:14px">
+      <div class="badges">
+        {pend.leaderboard.map(([nome, q]) => (<span class="badge">{nome}: {q}</span>))}
+      </div>
+    </div>
+
+    <div class="pii">
+      <b>Como regularizar.</b> Cada linha das pendências traz o <b>Relatório de Ação de Extensão</b> (modelo oficial da PROEX, ON CAEx 01-2020) já <b>pré-preenchido</b> com os dados do SRC (título, coordenador(a), datas, área e nº de participantes) e uma <b>sugestão de rascunho</b> no campo "Resultados e impactos" (gerada por IA — <b>revise antes de enviar</b>) — baixe em <b>PDF</b> ou <b>ODT</b>, complete os campos qualitativos e entregue à CGAEx. Prazo: relatório final em até 30 dias após o término; parcial, anualmente entre 1º/nov e 15/dez.{' '}
+      <a class="lk" href="https://forms.office.com/r/m73RLCBx5S" target="_blank" rel="noopener">Formulário eletrônico da PROEX ↗</a>
+    </div>
+
+    {[
+      { rows: pend.com, id: 'com', titulo: `Pendências de relatório — com participação (${pend.com.length})`,
+        desc: 'Ações com público-alvo e/ou equipe no SRC, ainda sem relatório final aprovado — prontas para gerar o relatório.' },
+      { rows: pend.zero, id: 'zero', titulo: `Sem participação registrada (${pend.zero.length})`,
+        desc: 'Ações com <b>público = 0 e equipe = 0</b> no SRC — antes do relatório, é preciso <b>registrar os participantes</b> (ou a ação não chegou a ser executada). O modelo de relatório só aparece quando a ação está pendente.' },
+    ].map((sec) => (
+      <section style="margin-top:26px">
+        <h2>{sec.titulo}</h2>
+        <p class="sec-desc" set:html={sec.desc} />
+        <div style="margin-top:12px">
+          <TableFilter placeholder="Filtrar por ação, coordenador(a), tipo ou ano..." total={sec.rows.length} unidade="ações">
+            <div class="tbl-wrap"><table>
+              <thead><tr><th>Ação</th><th>Tipo</th><th>Coordenador(a)</th><th>Início</th><th>Término</th><th class="n">Público</th><th class="n">Equipe</th><th>Últ. relatório</th><th>Modelo de relatório</th></tr></thead>
+              <tbody>
+                {sec.rows.map((r: PendenciaRow) => (
+                  <tr data-s={`${r.titulo} ${r.coordenador} ${r.tipo} ${r.ano}`}>
+                    <td><a href={withBase(`/acoes/${r.acao_id}.html`)}>{r.titulo}</a></td>
+                    <td><span class={pillTipo(r.tipo)}>{r.tipo}</span></td>
+                    <td>{r.coordenador_slug
+                      ? <a class="lk" href={withBase(`/extensionistas/${r.coordenador_slug}.html`)}>{r.coordenador}</a>
+                      : r.coordenador}</td>
+                    <td class="nowrap">{r.inicio || '—'}</td>
+                    <td class="nowrap">{r.termino || '—'}</td>
+                    <td class="n tnum">{fmt(r.pub)}</td>
+                    <td class="n tnum">{fmt(r.eq)}</td>
+                    <td>{r.ultimo || '—'}</td>
+                    <td class="nowrap">{r.pendente
+                      ? <><a class="lk" href={withBase(`/relatorios-odt/${r.acao_id}.pdf`)}>PDF</a> · <a class="lk" href={withBase(`/relatorios-odt/${r.acao_id}.odt`)}>ODT</a></>
+                      : '—'}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table></div>
+          </TableFilter>
+        </div>
+      </section>
+    ))}
+  </div>
+</Base>
+
+<style>
+  .n { text-align: right; white-space: nowrap; }
+  @media (max-width: 760px) { th:nth-child(4), td:nth-child(4), th:nth-child(5), td:nth-child(5) { display: none; } }
+</style>

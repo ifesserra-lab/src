@@ -22,6 +22,24 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2026",
+      "atividade_id": "22250",
+      "acao_id": "5852",
+      "atividade": "Palestra promovida pelo LIEFIS: \"Demandas emocionais e comportamentais no processo de endividamento\".",
+      "pub": 18
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 18,
+  "impacto": 18,
+  "temas": [
+    {
+      "tema": "Mulheres e inclusão",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Emmanuel Marques Silva",

@@ -1,0 +1,83 @@
+---
+import Base from '../../layouts/Base.astro';
+import TableFilter from '../../components/TableFilter.astro';
+import { getAtividades, slugFor } from '../../lib/data';
+import { withBase } from '../../lib/url';
+
+export async function getStaticPaths() {
+  return getAtividades().map((at) => ({ params: { id: at.id }, props: { at } }));
+}
+const { at } = Astro.props;
+const p = at.publico;
+const fmt = (n: number) => n.toLocaleString('pt-BR');
+const coordSlug = slugFor(at.coordenador);
+const situacao = Object.entries(p.situacao);
+---
+<Base title={at.nome} active="acoes" description={`Atividade da ação ${at.acaoTitulo}`}>
+  <div class="wrap" data-pagefind-body data-pagefind-meta="kind:Atividade">
+    <p class="crumb"><a href={withBase('/acoes/')}>Ações</a> › <a href={withBase(`/acoes/${at.acaoId}.html`)}>#{at.acaoId}</a> › <b>Atividade {at.numero}</b></p>
+    <h1 data-pagefind-meta="title">{at.nome}</h1>
+    <p class="sub" data-pagefind-meta="sub">
+      Atividade da ação <a class="lk" href={withBase(`/acoes/${at.acaoId}.html`)}>{at.acaoTitulo}</a> · coordenação de {
+        coordSlug
+          ? <a class="lk" href={withBase(`/extensionistas/${coordSlug}.html`)}>{at.coordenador}</a>
+          : at.coordenador
+      }
+    </p>
+
+    <div class="metagrid">
+      <div class="mb"><b>Processo</b><span>{at.processo || '—'}</span></div>
+      <div class="mb"><b>Público-alvo</b><span class="tnum">{fmt(p.total)}</span></div>
+      <div class="mb"><b>Aprovados</b><span class="tnum">{fmt(p.aprovados)}</span></div>
+      <div class="mb"><b>Certificados</b><span class="tnum">{fmt(p.certificados)}</span></div>
+    </div>
+
+    {situacao.length > 0 && (
+      <>
+        <p class="section-title">Situação do público-alvo</p>
+        <div class="card"><div class="tbl-wrap"><table>
+          <thead><tr><th>Situação</th><th class="n">Participantes</th></tr></thead>
+          <tbody>
+            {situacao.map(([k, v]) => (
+              <tr><td>{k}</td><td class="n tnum">{fmt(v)}</td></tr>
+            ))}
+          </tbody>
+        </table></div></div>
+      </>
+    )}
+
+    {at.equipe.length > 0 && (
+      <>
+        <p class="section-title">Equipe de execução ({at.equipe.length})</p>
+        <TableFilter placeholder="Filtrar pessoa…" total={at.equipe.length} unidade="pessoas">
+          <div class="card"><div class="tbl-wrap"><table>
+            <thead><tr><th>Nome</th><th>Função</th><th>Vínculo</th></tr></thead>
+            <tbody>
+              {at.equipe.map((e) => {
+                const slug = slugFor(e.nome);
+                return (
+                  <tr data-s={`${e.nome} ${e.funcoes.join(' ')} ${e.vinculo}`}>
+                    <td>{slug ? <a class="lk" href={withBase(`/extensionistas/${slug}.html`)}>{e.nome}</a> : e.nome}</td>
+                    <td>{e.funcoes.join(', ')}</td>
+                    <td>{e.vinculo}</td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table></div></div>
+        </TableFilter>
+      </>
+    )}
+
+    <p class="pii">Público-alvo apenas como contagens — sem nomes, CPF ou e-mail de alunos. Equipe listada como crédito público de execução.</p>
+  </div>
+</Base>
+
+<style>
+  .metagrid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin: 16px 0; }
+  @media (min-width: 520px) { .metagrid { grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); } }
+  .mb { background: var(--surface); border: 1px solid var(--grid); border-radius: var(--radius-sm); padding: 11px 14px; box-shadow: var(--shadow); }
+  .mb b { display: block; color: var(--muted); font-size: 11px; font-weight: 600; letter-spacing: .05em; text-transform: uppercase; margin-bottom: 3px; }
+  .mb span { font-size: 18px; font-weight: 600; }
+  .n { text-align: right; white-space: nowrap; }
+</style>

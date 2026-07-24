@@ -48,6 +48,49 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2018",
+      "atividade_id": "9601",
+      "acao_id": "2021",
+      "atividade": "Mostra Tecnológica na Semana Nacional de Ciência e Tecnologia 2019",
+      "pub": 0
+    },
+    {
+      "ano": "2018",
+      "atividade_id": "9595",
+      "acao_id": "2021",
+      "atividade": "Mostra Tecnológica na Semana Nacional de Ciência e Tecnologia 2019",
+      "pub": 0
+    },
+    {
+      "ano": "2019",
+      "atividade_id": "9225",
+      "acao_id": "2675",
+      "atividade": "Tutoria de Estudos Orientados: Compartilhando Saberes",
+      "pub": 5
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "11184",
+      "acao_id": "3140",
+      "atividade": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "pub": 2
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 7,
+  "impacto": 7,
+  "temas": [
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 2
+    },
+    {
+      "tema": "Mulheres e inclusão",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Richard Junior Manuel Godinez Tello",

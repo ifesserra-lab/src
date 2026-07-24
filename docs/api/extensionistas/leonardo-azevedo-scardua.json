@@ -48,6 +48,38 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2017",
+      "atividade_id": "4502",
+      "acao_id": "1261",
+      "atividade": "Seminário de Apresentação dos Empreendimentos",
+      "pub": 1
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "1524",
+      "acao_id": "708",
+      "atividade": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedoras",
+      "pub": 15
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "2127",
+      "acao_id": "912",
+      "atividade": "Curso de Pré-Incubação de Empreendimentos – modalidade Residência",
+      "pub": 3
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 19,
+  "impacto": 19,
+  "temas": [
+    {
+      "tema": "Empreendedorismo e incubação",
+      "n": 3
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Emmanuel Marques Silva",

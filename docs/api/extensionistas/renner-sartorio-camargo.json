@@ -32,6 +32,28 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2020",
+      "atividade_id": "15947",
+      "acao_id": "3140",
+      "atividade": "Visita Técnica à Brametal",
+      "pub": 9
+    }
+  ],
+  "imp_coord": 23,
+  "imp_eq": 9,
+  "impacto": 32,
+  "temas": [
+    {
+      "tema": "Empreendedorismo e incubação",
+      "n": 1
+    },
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Emmanuel Marques Silva",

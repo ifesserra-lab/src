@@ -10,6 +10,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/abner-benicio-silva.json"
   },
   {
@@ -35,6 +38,9 @@
     ],
     "coordena": 3,
     "equipe": 7,
+    "imp_coord": 10,
+    "imp_eq": 67,
+    "impacto": 77,
     "url": "api/extensionistas/adelson-pereira-do-nascimento.json"
   },
   {
@@ -48,6 +54,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 11,
+    "impacto": 11,
     "url": "api/extensionistas/adile-lima-da-silva.json"
   },
   {
@@ -62,6 +71,9 @@
     ],
     "coordena": 0,
     "equipe": 3,
+    "imp_coord": 0,
+    "imp_eq": 28,
+    "impacto": 28,
     "url": "api/extensionistas/adriana-padua-lovatte.json"
   },
   {
@@ -75,6 +87,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 69,
+    "impacto": 69,
     "url": "api/extensionistas/adriano-felipe-salgado-barros.json"
   },
   {
@@ -88,6 +103,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/adriano-lemos-bandeira.json"
   },
   {
@@ -101,6 +119,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 11,
+    "impacto": 11,
     "url": "api/extensionistas/adriano-de-paula.json"
   },
   {
@@ -114,6 +135,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 29,
+    "impacto": 29,
     "url": "api/extensionistas/aguinaldo-barata.json"
   },
   {
@@ -127,6 +151,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 11,
+    "impacto": 11,
     "url": "api/extensionistas/ailson-ferreira-de-sousa.json"
   },
   {
@@ -140,6 +167,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/aishila-sofia-oliveira-rosa.json"
   },
   {
@@ -153,6 +183,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 34,
+    "impacto": 34,
     "url": "api/extensionistas/akilanny-silva-cruz.json"
   },
   {
@@ -168,6 +201,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 71,
+    "impacto": 71,
     "url": "api/extensionistas/alan-afif-helal.json"
   },
   {
@@ -181,6 +217,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 69,
+    "impacto": 69,
     "url": "api/extensionistas/alan-pablo-donati-pereira.json"
   },
   {
@@ -194,6 +233,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 11,
+    "impacto": 11,
     "url": "api/extensionistas/aleksander-silva-pereira-pessoa.json"
   },
   {
@@ -215,6 +257,9 @@
     ],
     "coordena": 0,
     "equipe": 6,
+    "imp_coord": 0,
+    "imp_eq": 101,
+    "impacto": 101,
     "url": "api/extensionistas/alessandra-aguiar-vilarinho.json"
   },
   {
@@ -234,6 +279,9 @@
     ],
     "coordena": 2,
     "equipe": 7,
+    "imp_coord": 50,
+    "imp_eq": 443,
+    "impacto": 493,
     "url": "api/extensionistas/alessandro-bermudes-gomes.json"
   },
   {
@@ -247,6 +295,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 4,
+    "impacto": 4,
     "url": "api/extensionistas/alessandro-poleto-oliveira.json"
   },
   {
@@ -260,6 +311,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 47,
+    "impacto": 47,
     "url": "api/extensionistas/alex-rossoni-junior.json"
   },
   {
@@ -273,6 +327,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 69,
+    "impacto": 69,
     "url": "api/extensionistas/alexandre-elias-de-amorim-pagung.json"
   },
   {
@@ -286,6 +343,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 17,
+    "impacto": 17,
     "url": "api/extensionistas/alexandre-miguel-brunelli-costa.json"
   },
   {
@@ -302,6 +362,9 @@
     ],
     "coordena": 0,
     "equipe": 3,
+    "imp_coord": 0,
+    "imp_eq": 187,
+    "impacto": 187,
     "url": "api/extensionistas/alexia-coelho-barbosa.json"
   },
   {
@@ -316,6 +379,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/alice-lourenco-dos-reis.json"
   },
   {
@@ -329,6 +395,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 27,
+    "impacto": 27,
     "url": "api/extensionistas/aline-bravin-prasser.json"
   },
   {
@@ -342,6 +411,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/allister-campos-caetano.json"
   },
   {
@@ -355,6 +427,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/amanda-balestreiro-ferreira.json"
   },
   {
@@ -368,6 +443,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 37,
+    "impacto": 37,
     "url": "api/extensionistas/amanda-ferreira-de-souza.json"
   },
   {
@@ -382,6 +460,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 163,
+    "impacto": 163,
     "url": "api/extensionistas/amanda-frasson-nascimento-martins.json"
   },
   {
@@ -395,6 +476,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/amanda-luiza-soares-barros.json"
   },
   {
@@ -408,6 +492,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/amanda-de-oliveira-ottoni.json"
   },
   {
@@ -423,6 +510,9 @@
     ],
     "coordena": 1,
     "equipe": 2,
+    "imp_coord": 86,
+    "imp_eq": 33,
+    "impacto": 119,
     "url": "api/extensionistas/amarildo-mendes-lemos.json"
   },
   {
@@ -436,6 +526,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/ana-beatriz-rocha-mululo.json"
   },
   {
@@ -449,6 +542,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/ana-carolina-cebin-pereira.json"
   },
   {
@@ -462,6 +558,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 69,
+    "impacto": 69,
     "url": "api/extensionistas/ana-carolina-dos-santos-rangel.json"
   },
   {
@@ -475,6 +574,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 7,
+    "impacto": 7,
     "url": "api/extensionistas/ana-gabriella-gomes-de-almeida-ferreira.json"
   },
   {
@@ -488,6 +590,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 79,
+    "impacto": 79,
     "url": "api/extensionistas/ana-julia-artem-dos-santos.json"
   },
   {
@@ -501,6 +606,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 20,
+    "impacto": 20,
     "url": "api/extensionistas/ana-julia-caetano-martins.json"
   },
   {
@@ -514,6 +622,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/ana-luiza-tonani-barcelos-da-silva.json"
   },
   {
@@ -527,6 +638,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 5,
+    "impacto": 5,
     "url": "api/extensionistas/ana-paula-ferreira-pimentel-cesar.json"
   },
   {
@@ -547,6 +661,9 @@
     ],
     "coordena": 3,
     "equipe": 5,
+    "imp_coord": 1,
+    "imp_eq": 50,
+    "impacto": 51,
     "url": "api/extensionistas/ana-paula-klauck.json"
   },
   {
@@ -564,6 +681,9 @@
     ],
     "coordena": 0,
     "equipe": 5,
+    "imp_coord": 0,
+    "imp_eq": 54,
+    "impacto": 54,
     "url": "api/extensionistas/ana-rubia-ramos-vicente.json"
   },
   {
@@ -577,6 +697,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 6,
+    "impacto": 6,
     "url": "api/extensionistas/anderson-gomes.json"
   },
   {
@@ -590,6 +713,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 112,
+    "impacto": 112,
     "url": "api/extensionistas/andre-ferreira.json"
   },
   {
@@ -603,6 +729,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/andre-luiz-oliveira.json"
   },
   {
@@ -616,6 +745,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/andre-luiz-siller-de-deus.json"
   },
   {
@@ -629,6 +761,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/andrei-santos-freitas-silva.json"
   },
   {
@@ -642,6 +777,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 27,
+    "impacto": 27,
     "url": "api/extensionistas/andressa-ramos-agnhesi-luppi.json"
   },
   {
@@ -655,6 +793,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 11,
+    "impacto": 11,
     "url": "api/extensionistas/andreza-ferreira-da-silva.json"
   },
   {
@@ -673,6 +814,9 @@
     ],
     "coordena": 0,
     "equipe": 4,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/andreangelo-da-paixao-patuzzo.json"
   },
   {
@@ -686,6 +830,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 6,
+    "impacto": 6,
     "url": "api/extensionistas/andrieli-soares-de-souza.json"
   },
   {
@@ -699,6 +846,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 70,
+    "impacto": 70,
     "url": "api/extensionistas/andre-almeida.json"
   },
   {
@@ -712,6 +862,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/andre-luiz-coelho-silva.json"
   },
   {
@@ -725,6 +878,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/andre-malverdes.json"
   },
   {
@@ -738,6 +894,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/andre-sarmento-spalenza.json"
   },
   {
@@ -751,6 +910,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/andre-silva-aguiar.json"
   },
   {
@@ -764,6 +926,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/andre-spadetto-leao.json"
   },
   {
@@ -777,6 +942,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 53,
+    "impacto": 53,
     "url": "api/extensionistas/andreia-sias-rodrigues.json"
   },
   {
@@ -790,6 +958,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 34,
+    "impacto": 34,
     "url": "api/extensionistas/angelo-dos-santos-teixeira.json"
   },
   {
@@ -803,6 +974,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 2,
+    "impacto": 2,
     "url": "api/extensionistas/anna-clara-dos-santos-vieira.json"
   },
   {
@@ -818,6 +992,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 276,
+    "impacto": 276,
     "url": "api/extensionistas/anna-julia-ferreira-tamanini.json"
   },
   {
@@ -833,6 +1010,9 @@
     ],
     "coordena": 0,
     "equipe": 3,
+    "imp_coord": 0,
+    "imp_eq": 37,
+    "impacto": 37,
     "url": "api/extensionistas/anne-caroline-silva.json"
   },
   {
@@ -846,6 +1026,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 27,
+    "impacto": 27,
     "url": "api/extensionistas/antonio-ricardo-alexandre-brasil.json"
   },
   {
@@ -859,6 +1042,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/antonione-da-silva-mascarenhas-pinho.json"
   },
   {
@@ -876,6 +1062,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 112,
+    "impacto": 112,
     "url": "api/extensionistas/anyssa-satimi-komati-andrade.json"
   },
   {
@@ -889,6 +1078,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/arlene-batista-da-silva.json"
   },
   {
@@ -902,6 +1094,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/aroldo-de-sa-vargas-neto.json"
   },
   {
@@ -915,6 +1110,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/arthur-candido-maria.json"
   },
   {
@@ -928,6 +1126,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 6,
+    "impacto": 6,
     "url": "api/extensionistas/arthur-chiabai-wagner.json"
   },
   {
@@ -941,6 +1142,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 66,
+    "impacto": 66,
     "url": "api/extensionistas/arthur-cremasco-amaral.json"
   },
   {
@@ -956,6 +1160,9 @@
     ],
     "coordena": 0,
     "equipe": 3,
+    "imp_coord": 0,
+    "imp_eq": 9,
+    "impacto": 9,
     "url": "api/extensionistas/arthur-delpupo-coelho.json"
   },
   {
@@ -969,6 +1176,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 17,
+    "impacto": 17,
     "url": "api/extensionistas/arthur-dutra-recco.json"
   },
   {
@@ -982,6 +1192,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/arthur-freitas-mariquito.json"
   },
   {
@@ -995,6 +1208,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/arthur-goncalves-de-souza.json"
   },
   {
@@ -1008,6 +1224,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 69,
+    "impacto": 69,
     "url": "api/extensionistas/arthur-de-almeida-macedo.json"
   },
   {
@@ -1021,6 +1240,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/arthur-de-moraes-andrade-correa.json"
   },
   {
@@ -1034,6 +1256,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 30,
+    "impacto": 30,
     "url": "api/extensionistas/arthur-de-souza-silva-mayerhofer.json"
   },
   {
@@ -1047,6 +1272,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 9,
+    "impacto": 9,
     "url": "api/extensionistas/ary-francisco-tome.json"
   },
   {
@@ -1060,6 +1288,9 @@
     ],
     "coordena": 1,
     "equipe": 1,
+    "imp_coord": 79,
+    "imp_eq": 0,
+    "impacto": 79,
     "url": "api/extensionistas/augusto-cesar-machado-ramos.json"
   },
   {
@@ -1073,6 +1304,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/aurelia-hubner-peixouto.json"
   },
   {
@@ -1086,6 +1320,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/beatriz-auer-mariano.json"
   },
   {
@@ -1101,6 +1338,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/beatriz-ramos-souza.json"
   },
   {
@@ -1114,6 +1354,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/bella-dos-santos-cordeiro.json"
   },
   {
@@ -1127,6 +1370,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/bene-regis-figueiredo.json"
   },
   {
@@ -1144,6 +1390,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/bertrand-olivier-sahli.json"
   },
   {
@@ -1157,6 +1406,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 11,
+    "impacto": 11,
     "url": "api/extensionistas/bianca-rodrigues-tinoco.json"
   },
   {
@@ -1170,6 +1422,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 11,
+    "impacto": 11,
     "url": "api/extensionistas/bianca-viana-hemenelgidio.json"
   },
   {
@@ -1183,6 +1438,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 7,
+    "impacto": 7,
     "url": "api/extensionistas/brayan-mazega-de-freitas-souza.json"
   },
   {
@@ -1196,6 +1454,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 11,
+    "impacto": 11,
     "url": "api/extensionistas/brayham-procopio-de-carvalho.json"
   },
   {
@@ -1209,6 +1470,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/brendon-mauro.json"
   },
   {
@@ -1222,6 +1486,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/brenno-pelegrino-costa-guimaraes.json"
   },
   {
@@ -1235,6 +1502,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 2,
+    "impacto": 2,
     "url": "api/extensionistas/breno-ricardo-ferreira-antunes.json"
   },
   {
@@ -1248,6 +1518,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/breno-rios-rodrigues.json"
   },
   {
@@ -1261,6 +1534,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/breno-sampaio-grillo.json"
   },
   {
@@ -1276,6 +1552,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 102,
+    "impacto": 102,
     "url": "api/extensionistas/breno-siquara-azevedo.json"
   },
   {
@@ -1289,6 +1568,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 7,
+    "impacto": 7,
     "url": "api/extensionistas/brunna-dalzini-de-oliveira.json"
   },
   {
@@ -1306,6 +1588,9 @@
     ],
     "coordena": 3,
     "equipe": 4,
+    "imp_coord": 18,
+    "imp_eq": 104,
+    "impacto": 122,
     "url": "api/extensionistas/bruno-cardoso-coutinho.json"
   },
   {
@@ -1319,6 +1604,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/bruno-carvalho-caxias.json"
   },
   {
@@ -1332,6 +1620,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/bruno-lima-zattoni.json"
   },
   {
@@ -1345,6 +1636,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/bruno-moreira-lourenco.json"
   },
   {
@@ -1358,6 +1652,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 37,
+    "impacto": 37,
     "url": "api/extensionistas/bruno-moreto-de-oliveira.json"
   },
   {
@@ -1377,6 +1674,9 @@
     ],
     "coordena": 4,
     "equipe": 6,
+    "imp_coord": 49,
+    "imp_eq": 66,
+    "impacto": 115,
     "url": "api/extensionistas/bruno-ramos-gonzaga.json"
   },
   {
@@ -1390,6 +1690,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/bruno-rocha-pratti.json"
   },
   {
@@ -1407,6 +1710,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 42,
+    "impacto": 42,
     "url": "api/extensionistas/bruno-da-fonseca-chevitarese.json"
   },
   {
@@ -1420,6 +1726,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/bryan-costa-rodrigues-de-oliveira.json"
   },
   {
@@ -1433,6 +1742,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 19,
+    "impacto": 19,
     "url": "api/extensionistas/brigida-penna-rocha-moreira.json"
   },
   {
@@ -1446,6 +1758,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/caicke-carvalho-pinheiro.json"
   },
   {
@@ -1459,6 +1774,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/caio-abelar-kinupp-monteiro.json"
   },
   {
@@ -1472,6 +1790,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/caio-bastos-buteri.json"
   },
   {
@@ -1487,6 +1808,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 24,
+    "impacto": 24,
     "url": "api/extensionistas/caio-cesar-oliva-coronel.json"
   },
   {
@@ -1500,6 +1824,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/caio-fabio-vargas-morais.json"
   },
   {
@@ -1513,6 +1840,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/caio-lessa-simao.json"
   },
   {
@@ -1528,6 +1858,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 36,
+    "impacto": 36,
     "url": "api/extensionistas/camila-braga-guimaraes.json"
   },
   {
@@ -1541,6 +1874,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 7,
+    "impacto": 7,
     "url": "api/extensionistas/camila-fornaciari-volponi.json"
   },
   {
@@ -1554,6 +1890,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 27,
+    "impacto": 27,
     "url": "api/extensionistas/camila-zacche-de-aguiar.json"
   },
   {
@@ -1567,6 +1906,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/camille-silva-santos.json"
   },
   {
@@ -1580,6 +1922,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/carlos-barroca-faria.json"
   },
   {
@@ -1593,6 +1938,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 2,
+    "impacto": 2,
     "url": "api/extensionistas/carlos-eduardo-da-silva-barbosa.json"
   },
   {
@@ -1606,6 +1954,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 5,
+    "impacto": 5,
     "url": "api/extensionistas/carlos-guilherme-felismino-pedroni.json"
   },
   {
@@ -1621,6 +1972,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 11,
+    "impacto": 11,
     "url": "api/extensionistas/carlos-henrique-costa-matos.json"
   },
   {
@@ -1635,6 +1989,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 11,
+    "impacto": 11,
     "url": "api/extensionistas/carlos-henrique-santos-das-neves-de-almeida-feu.json"
   },
   {
@@ -1653,6 +2010,9 @@
     ],
     "coordena": 4,
     "equipe": 7,
+    "imp_coord": 0,
+    "imp_eq": 14,
+    "impacto": 14,
     "url": "api/extensionistas/carlos-lins-borges-azevedo.json"
   },
   {
@@ -1666,6 +2026,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/carolinne-quintanilha-ornellas.json"
   },
   {
@@ -1679,6 +2042,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/cassiano-knsch-das-neves.json"
   },
   {
@@ -1692,6 +2058,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 15,
+    "impacto": 15,
     "url": "api/extensionistas/cassius-zanetti-resende.json"
   },
   {
@@ -1705,6 +2074,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/cecilia-bastazini-kroebel.json"
   },
   {
@@ -1720,6 +2092,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 29,
+    "impacto": 29,
     "url": "api/extensionistas/celeste-nascimento-souza-silva.json"
   },
   {
@@ -1733,6 +2108,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/celio-proliciano-maioli.json"
   },
   {
@@ -1746,6 +2124,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/celesio-jose-de-souza.json"
   },
   {
@@ -1759,6 +2140,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/charles-bruno-ferreira-de-morais-junior.json"
   },
   {
@@ -1772,6 +2156,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/christhian-de-barros-barcellos.json"
   },
   {
@@ -1787,6 +2174,9 @@
     ],
     "coordena": 0,
     "equipe": 3,
+    "imp_coord": 0,
+    "imp_eq": 110,
+    "impacto": 110,
     "url": "api/extensionistas/christian-mariani-lucas-dos-santos.json"
   },
   {
@@ -1801,6 +2191,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/christofer-de-oliveira-viana.json"
   },
   {
@@ -1814,6 +2207,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/claudemir-jose-malacarne.json"
   },
   {
@@ -1827,6 +2223,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 27,
+    "impacto": 27,
     "url": "api/extensionistas/claudia-cappelli.json"
   },
   {
@@ -1840,6 +2239,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 69,
+    "impacto": 69,
     "url": "api/extensionistas/cleiton-maximo-junior.json"
   },
   {
@@ -1853,6 +2255,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 69,
+    "impacto": 69,
     "url": "api/extensionistas/cloves-antonio-wotkovsky-junior.json"
   },
   {
@@ -1866,6 +2271,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 64,
+    "impacto": 64,
     "url": "api/extensionistas/claudia-goncalves-de-freitas.json"
   },
   {
@@ -1879,6 +2287,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 6,
+    "impacto": 6,
     "url": "api/extensionistas/claudia-ribeiro-de-moraes.json"
   },
   {
@@ -1893,6 +2304,9 @@
     ],
     "coordena": 0,
     "equipe": 3,
+    "imp_coord": 0,
+    "imp_eq": 1,
+    "impacto": 1,
     "url": "api/extensionistas/cristian-da-silva-anterio.json"
   },
   {
@@ -1906,6 +2320,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 28,
+    "impacto": 28,
     "url": "api/extensionistas/cristiane-de-oliveira-veronesi.json"
   },
   {
@@ -1920,6 +2337,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 44,
+    "impacto": 44,
     "url": "api/extensionistas/cynthia-kruger-quinino.json"
   },
   {
@@ -1933,6 +2353,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 2,
+    "impacto": 2,
     "url": "api/extensionistas/daniel-arrais.json"
   },
   {
@@ -1950,6 +2373,9 @@
     ],
     "coordena": 0,
     "equipe": 3,
+    "imp_coord": 0,
+    "imp_eq": 68,
+    "impacto": 68,
     "url": "api/extensionistas/daniel-cruz-cavalieri.json"
   },
   {
@@ -1963,6 +2389,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/daniel-pratti-dettmann.json"
   },
   {
@@ -1976,6 +2405,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/daniel-ramos-dutra.json"
   },
   {
@@ -1990,6 +2422,9 @@
     ],
     "coordena": 1,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 37,
+    "impacto": 37,
     "url": "api/extensionistas/daniel-ribeiro-trindade.json"
   },
   {
@@ -2006,6 +2441,9 @@
     ],
     "coordena": 0,
     "equipe": 3,
+    "imp_coord": 0,
+    "imp_eq": 187,
+    "impacto": 187,
     "url": "api/extensionistas/daniella-araujo-fraga-dos-santos.json"
   },
   {
@@ -2020,6 +2458,9 @@
     ],
     "coordena": 0,
     "equipe": 3,
+    "imp_coord": 0,
+    "imp_eq": 1,
+    "impacto": 1,
     "url": "api/extensionistas/danilo-de-oliveira.json"
   },
   {
@@ -2034,6 +2475,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/danilo-de-paula-e-silva.json"
   },
   {
@@ -2047,6 +2491,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/davi-alvarenga-vieira.json"
   },
   {
@@ -2064,6 +2511,9 @@
     ],
     "coordena": 0,
     "equipe": 4,
+    "imp_coord": 0,
+    "imp_eq": 147,
+    "impacto": 147,
     "url": "api/extensionistas/davi-aragao-ascacibas.json"
   },
   {
@@ -2079,6 +2529,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 24,
+    "impacto": 24,
     "url": "api/extensionistas/davi-campos-sutil.json"
   },
   {
@@ -2092,6 +2545,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/davi-henrique-comerio.json"
   },
   {
@@ -2105,6 +2561,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/davi-luiz-soares-siqueira-barros.json"
   },
   {
@@ -2118,6 +2577,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/davi-moura-araujo.json"
   },
   {
@@ -2132,6 +2594,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/davi-mulullo-alcantara.json"
   },
   {
@@ -2147,6 +2612,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/david-pantaleao-vilaca.json"
   },
   {
@@ -2163,6 +2631,9 @@
     ],
     "coordena": 0,
     "equipe": 3,
+    "imp_coord": 0,
+    "imp_eq": 59,
+    "impacto": 59,
     "url": "api/extensionistas/david-de-assis.json"
   },
   {
@@ -2176,6 +2647,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/david-de-moura-marques.json"
   },
   {
@@ -2189,6 +2663,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 20,
+    "impacto": 20,
     "url": "api/extensionistas/davidson-carvalho-dos-santos.json"
   },
   {
@@ -2205,6 +2682,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 87,
+    "impacto": 87,
     "url": "api/extensionistas/debora-galavote-moura.json"
   },
   {
@@ -2218,6 +2698,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 79,
+    "impacto": 79,
     "url": "api/extensionistas/denise-carla-goldner-coelho.json"
   },
   {
@@ -2231,6 +2714,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 57,
+    "impacto": 57,
     "url": "api/extensionistas/denise-rocco-de-sena.json"
   },
   {
@@ -2244,6 +2730,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/dennia-lucia-goldner-schrock.json"
   },
   {
@@ -2257,6 +2746,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/diego-casoto-de-melo-zamprogno.json"
   },
   {
@@ -2270,6 +2762,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/diego-pasti.json"
   },
   {
@@ -2283,6 +2778,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 69,
+    "impacto": 69,
     "url": "api/extensionistas/diego-pereira-de-carvalho-pires.json"
   },
   {
@@ -2296,6 +2794,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/diego-ramiro-araoz-alves.json"
   },
   {
@@ -2309,6 +2810,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 2,
+    "impacto": 2,
     "url": "api/extensionistas/diego-rodrigo-perez-pacheco.json"
   },
   {
@@ -2322,6 +2826,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 69,
+    "impacto": 69,
     "url": "api/extensionistas/diego-de-deus-bazilio.json"
   },
   {
@@ -2335,6 +2842,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/diego-do-nascimento-rodrigues-flores.json"
   },
   {
@@ -2348,6 +2858,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/diogo-lucas-lima-ribeiro.json"
   },
   {
@@ -2361,6 +2874,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 11,
+    "impacto": 11,
     "url": "api/extensionistas/diogo-silva-moreira.json"
   },
   {
@@ -2377,6 +2893,9 @@
     ],
     "coordena": 0,
     "equipe": 3,
+    "imp_coord": 0,
+    "imp_eq": 1,
+    "impacto": 1,
     "url": "api/extensionistas/dirceu-soares-junior.json"
   },
   {
@@ -2390,6 +2909,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 7,
+    "impacto": 7,
     "url": "api/extensionistas/douglas-correa-nunes.json"
   },
   {
@@ -2403,6 +2925,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/douglas-de-oliveira-alkimim.json"
   },
   {
@@ -2416,6 +2941,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 6,
+    "impacto": 6,
     "url": "api/extensionistas/debora-pagung-souza.json"
   },
   {
@@ -2434,6 +2962,9 @@
     ],
     "coordena": 0,
     "equipe": 4,
+    "imp_coord": 0,
+    "imp_eq": 94,
+    "impacto": 94,
     "url": "api/extensionistas/edilson-luiz-do-nascimento.json"
   },
   {
@@ -2448,6 +2979,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 6,
+    "impacto": 6,
     "url": "api/extensionistas/edimar-antonio-da-cruz.json"
   },
   {
@@ -2461,6 +2995,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 42,
+    "impacto": 42,
     "url": "api/extensionistas/edjane-martins-da-silva.json"
   },
   {
@@ -2474,6 +3011,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 11,
+    "impacto": 11,
     "url": "api/extensionistas/edmilson-batista-lima.json"
   },
   {
@@ -2489,6 +3029,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 34,
+    "impacto": 34,
     "url": "api/extensionistas/edson-ferreira-da-silva-junior.json"
   },
   {
@@ -2502,6 +3045,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/edson-menisus-peyneau-soares.json"
   },
   {
@@ -2515,6 +3061,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/eduarda-grippa-santos.json"
   },
   {
@@ -2528,6 +3077,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/eduarda-rodrigues-simoes.json"
   },
   {
@@ -2543,6 +3095,9 @@
     ],
     "coordena": 0,
     "equipe": 3,
+    "imp_coord": 0,
+    "imp_eq": 4,
+    "impacto": 4,
     "url": "api/extensionistas/eduardo-alves-figueiredo.json"
   },
   {
@@ -2556,6 +3111,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/eduardo-couto-rodrigues.json"
   },
   {
@@ -2569,6 +3127,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/eduardo-jose-miguel-lima-almeida.json"
   },
   {
@@ -2582,6 +3143,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/eduardo-lima-pagung.json"
   },
   {
@@ -2595,6 +3159,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 69,
+    "impacto": 69,
     "url": "api/extensionistas/eduardo-pereira-tavares.json"
   },
   {
@@ -2608,6 +3175,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 112,
+    "impacto": 112,
     "url": "api/extensionistas/eduardo-peron-cardozo-babilone.json"
   },
   {
@@ -2621,6 +3191,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 34,
+    "impacto": 34,
     "url": "api/extensionistas/eduardo-pinheiro-monteiro.json"
   },
   {
@@ -2634,6 +3207,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/eduardo-sousa-lima.json"
   },
   {
@@ -2647,6 +3223,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 11,
+    "impacto": 11,
     "url": "api/extensionistas/eduardo-de-jesus-buquer-da-silva.json"
   },
   {
@@ -2660,6 +3239,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/eduardo-de-oliveira-pereira-ferreira.json"
   },
   {
@@ -2677,6 +3259,9 @@
     ],
     "coordena": 1,
     "equipe": 4,
+    "imp_coord": 0,
+    "imp_eq": 128,
+    "impacto": 128,
     "url": "api/extensionistas/eglalciane-de-lyrio-tongo.json"
   },
   {
@@ -2690,6 +3275,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 79,
+    "impacto": 79,
     "url": "api/extensionistas/elandia-aparecida-pereira-rodrigues.json"
   },
   {
@@ -2703,6 +3291,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 2,
+    "impacto": 2,
     "url": "api/extensionistas/elen-lara.json"
   },
   {
@@ -2716,6 +3307,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 53,
+    "impacto": 53,
     "url": "api/extensionistas/elika-capucho-delazare.json"
   },
   {
@@ -2729,6 +3323,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 24,
+    "impacto": 24,
     "url": "api/extensionistas/elisa-andrade-de-jesus.json"
   },
   {
@@ -2742,6 +3339,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 112,
+    "impacto": 112,
     "url": "api/extensionistas/elisa-moreira-costa.json"
   },
   {
@@ -2755,6 +3355,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 54,
+    "impacto": 54,
     "url": "api/extensionistas/elisabete-rodrigues-de-almeida.json"
   },
   {
@@ -2768,6 +3371,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/elisama-lima-sousa.json"
   },
   {
@@ -2791,6 +3397,9 @@
     ],
     "coordena": 3,
     "equipe": 4,
+    "imp_coord": 157,
+    "imp_eq": 187,
+    "impacto": 344,
     "url": "api/extensionistas/elizangela-campos-da-rosa-broetto.json"
   },
   {
@@ -2804,6 +3413,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 11,
+    "impacto": 11,
     "url": "api/extensionistas/elizete-tiets.json"
   },
   {
@@ -2817,6 +3429,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 112,
+    "impacto": 112,
     "url": "api/extensionistas/eloah-leocadio-de-moura.json"
   },
   {
@@ -2830,6 +3445,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 74,
+    "impacto": 74,
     "url": "api/extensionistas/eloa-rauta-ramos-de-lima.json"
   },
   {
@@ -2846,6 +3464,9 @@
     ],
     "coordena": 0,
     "equipe": 3,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/elton-siqueira-moura.json"
   },
   {
@@ -2859,6 +3480,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 66,
+    "impacto": 66,
     "url": "api/extensionistas/emanuel-hoffmann-sperandio-cott.json"
   },
   {
@@ -2873,6 +3497,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 8,
+    "impacto": 8,
     "url": "api/extensionistas/emanuel-rampinelli-gloria.json"
   },
   {
@@ -2891,6 +3518,9 @@
     ],
     "coordena": 1,
     "equipe": 3,
+    "imp_coord": 0,
+    "imp_eq": 27,
+    "impacto": 27,
     "url": "api/extensionistas/emerson-atilio-birchler.json"
   },
   {
@@ -2904,6 +3534,9 @@
     ],
     "coordena": 1,
     "equipe": 1,
+    "imp_coord": 197,
+    "imp_eq": 0,
+    "impacto": 197,
     "url": "api/extensionistas/emilene-coco-dos-santos.json"
   },
   {
@@ -2935,6 +3568,9 @@
     ],
     "coordena": 7,
     "equipe": 15,
+    "imp_coord": 1211,
+    "imp_eq": 150,
+    "impacto": 1361,
     "url": "api/extensionistas/emmanuel-marques-silva.json"
   },
   {
@@ -2948,6 +3584,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/emmanuelly-kristini-nunes-costa.json"
   },
   {
@@ -2961,6 +3600,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/enzo-gabriel-santanna-siqueira.json"
   },
   {
@@ -2975,6 +3617,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/enzo-hubner.json"
   },
   {
@@ -2991,6 +3636,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 44,
+    "impacto": 44,
     "url": "api/extensionistas/enzo-mandelli-pinheiro-rodrigues.json"
   },
   {
@@ -3007,6 +3655,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 46,
+    "impacto": 46,
     "url": "api/extensionistas/enzo-medeiros-agnez.json"
   },
   {
@@ -3020,6 +3671,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/enzo-novaes-de-rezende-costa.json"
   },
   {
@@ -3033,6 +3687,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/erick-gama-loyola.json"
   },
   {
@@ -3046,6 +3703,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/erick-kenzo-komati.json"
   },
   {
@@ -3059,6 +3719,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 11,
+    "impacto": 11,
     "url": "api/extensionistas/erivania-oliveira-da-silva-gerhardt.json"
   },
   {
@@ -3072,6 +3735,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 12,
+    "impacto": 12,
     "url": "api/extensionistas/erley-crevelin-valentim.json"
   },
   {
@@ -3090,6 +3756,9 @@
     ],
     "coordena": 0,
     "equipe": 4,
+    "imp_coord": 0,
+    "imp_eq": 38,
+    "impacto": 38,
     "url": "api/extensionistas/ernani-leite-ribeiro-filho.json"
   },
   {
@@ -3103,6 +3772,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 69,
+    "impacto": 69,
     "url": "api/extensionistas/estevao-nolasco-fonseca.json"
   },
   {
@@ -3118,6 +3790,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 17,
+    "impacto": 17,
     "url": "api/extensionistas/estacio-righette-pereira.json"
   },
   {
@@ -3131,6 +3806,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/estevao-horsth-tesch-honorio.json"
   },
   {
@@ -3144,6 +3822,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 5,
+    "impacto": 5,
     "url": "api/extensionistas/eulessia-costa-silva.json"
   },
   {
@@ -3157,6 +3838,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/evellin-de-souza-moreschi.json"
   },
   {
@@ -3170,6 +3854,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 11,
+    "impacto": 11,
     "url": "api/extensionistas/everson-mauricio.json"
   },
   {
@@ -3183,6 +3870,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/fabiane-de-souza.json"
   },
   {
@@ -3200,6 +3890,9 @@
     ],
     "coordena": 1,
     "equipe": 3,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/fabiano-borges-ruy.json"
   },
   {
@@ -3213,6 +3906,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/fabio-bretas-magnani.json"
   },
   {
@@ -3226,6 +3922,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 11,
+    "impacto": 11,
     "url": "api/extensionistas/fabio-de-oliveira-lima.json"
   },
   {
@@ -3243,6 +3942,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 42,
+    "impacto": 42,
     "url": "api/extensionistas/faye-manski-queiroz.json"
   },
   {
@@ -3257,6 +3959,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 29,
+    "impacto": 29,
     "url": "api/extensionistas/felipe-becalli-trindade.json"
   },
   {
@@ -3283,6 +3988,9 @@
     ],
     "coordena": 6,
     "equipe": 15,
+    "imp_coord": 44,
+    "imp_eq": 38,
+    "impacto": 82,
     "url": "api/extensionistas/felipe-frechiani-de-oliveira.json"
   },
   {
@@ -3296,6 +4004,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/fellipe-pesente.json"
   },
   {
@@ -3309,6 +4020,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 11,
+    "impacto": 11,
     "url": "api/extensionistas/fernanda-aparecida-dias-de-freitas.json"
   },
   {
@@ -3323,6 +4037,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 4,
+    "impacto": 4,
     "url": "api/extensionistas/fernanda-jaimara-do-nascimento.json"
   },
   {
@@ -3334,6 +4051,9 @@
     ],
     "coordena": 1,
     "equipe": 0,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/fernanda-de-souza-hott.json"
   },
   {
@@ -3352,6 +4072,9 @@
     ],
     "coordena": 2,
     "equipe": 5,
+    "imp_coord": 0,
+    "imp_eq": 92,
+    "impacto": 92,
     "url": "api/extensionistas/fidelis-zanetti-de-castro.json"
   },
   {
@@ -3365,6 +4088,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/filipe-anunciacao-batista-de-moura.json"
   },
   {
@@ -3378,6 +4104,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/filipe-arthur-firmino-monhol.json"
   },
   {
@@ -3391,6 +4120,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 69,
+    "impacto": 69,
     "url": "api/extensionistas/filipe-nolasco-anastacio.json"
   },
   {
@@ -3404,6 +4136,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 2,
+    "impacto": 2,
     "url": "api/extensionistas/flaviana-de-souza.json"
   },
   {
@@ -3419,6 +4154,9 @@
     ],
     "coordena": 1,
     "equipe": 2,
+    "imp_coord": 37,
+    "imp_eq": 2,
+    "impacto": 39,
     "url": "api/extensionistas/flavio-severiano-lamas-de-souza.json"
   },
   {
@@ -3438,6 +4176,9 @@
     ],
     "coordena": 0,
     "equipe": 5,
+    "imp_coord": 0,
+    "imp_eq": 81,
+    "impacto": 81,
     "url": "api/extensionistas/flavio-barcelos-braz-da-silva.json"
   },
   {
@@ -3456,6 +4197,9 @@
     ],
     "coordena": 0,
     "equipe": 5,
+    "imp_coord": 0,
+    "imp_eq": 81,
+    "impacto": 81,
     "url": "api/extensionistas/flavio-garcia-pereira.json"
   },
   {
@@ -3469,6 +4213,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/flavio-giraldeli-bianca.json"
   },
   {
@@ -3484,6 +4231,9 @@
     ],
     "coordena": 1,
     "equipe": 4,
+    "imp_coord": 0,
+    "imp_eq": 53,
+    "impacto": 53,
     "url": "api/extensionistas/flavio-lopes-da-silva.json"
   },
   {
@@ -3497,6 +4247,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/frances-alexandre-serpa-ferreira.json"
   },
   {
@@ -3519,6 +4272,9 @@
     ],
     "coordena": 4,
     "equipe": 6,
+    "imp_coord": 278,
+    "imp_eq": 25,
+    "impacto": 303,
     "url": "api/extensionistas/francisco-jose-casarim-rapchan.json"
   },
   {
@@ -3532,6 +4288,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/francisco-leal-alves.json"
   },
   {
@@ -3545,6 +4304,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 53,
+    "impacto": 53,
     "url": "api/extensionistas/francisco-petronio-alencar-de-medeiros.json"
   },
   {
@@ -3558,6 +4320,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 8,
+    "impacto": 8,
     "url": "api/extensionistas/francisco-xavier-pereira-neto.json"
   },
   {
@@ -3571,6 +4336,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/francisco-de-assis-boldt.json"
   },
   {
@@ -3584,6 +4352,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 11,
+    "impacto": 11,
     "url": "api/extensionistas/gabriel-adison-vieira-pereira.json"
   },
   {
@@ -3597,6 +4368,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 24,
+    "impacto": 24,
     "url": "api/extensionistas/gabriel-dias-brito.json"
   },
   {
@@ -3610,6 +4384,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 1,
+    "impacto": 1,
     "url": "api/extensionistas/gabriel-goncalves-da-costa.json"
   },
   {
@@ -3623,6 +4400,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 11,
+    "impacto": 11,
     "url": "api/extensionistas/gabriel-lopes-ribeiro-da-costa.json"
   },
   {
@@ -3636,6 +4416,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 11,
+    "impacto": 11,
     "url": "api/extensionistas/gabriel-oliveira-sant-ana.json"
   },
   {
@@ -3649,6 +4432,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 112,
+    "impacto": 112,
     "url": "api/extensionistas/gabriel-pereira-silva.json"
   },
   {
@@ -3662,6 +4448,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 1,
+    "impacto": 1,
     "url": "api/extensionistas/gabriel-ravani-do-rosario.json"
   },
   {
@@ -3675,6 +4464,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 39,
+    "impacto": 39,
     "url": "api/extensionistas/gabriel-santos-da-silva-valbuza.json"
   },
   {
@@ -3693,6 +4485,9 @@
     ],
     "coordena": 2,
     "equipe": 4,
+    "imp_coord": 258,
+    "imp_eq": 232,
+    "impacto": 490,
     "url": "api/extensionistas/gabriel-tozatto-zago.json"
   },
   {
@@ -3709,6 +4504,9 @@
     ],
     "coordena": 0,
     "equipe": 3,
+    "imp_coord": 0,
+    "imp_eq": 34,
+    "impacto": 34,
     "url": "api/extensionistas/gabriel-victor-ferreira-de-araujo.json"
   },
   {
@@ -3722,6 +4520,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 73,
+    "impacto": 73,
     "url": "api/extensionistas/gabriela-maria-machado.json"
   },
   {
@@ -3735,6 +4536,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 80,
+    "impacto": 80,
     "url": "api/extensionistas/gabriela-do-nascimento-marin.json"
   },
   {
@@ -3749,6 +4553,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 27,
+    "impacto": 27,
     "url": "api/extensionistas/gabrielle-azevedo-barros-da-cunha-duda.json"
   },
   {
@@ -3769,6 +4576,9 @@
     ],
     "coordena": 0,
     "equipe": 3,
+    "imp_coord": 0,
+    "imp_eq": 15,
+    "impacto": 15,
     "url": "api/extensionistas/gary-moura-da-silva.json"
   },
   {
@@ -3782,6 +4592,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/gelba-malta-cardoso.json"
   },
   {
@@ -3795,6 +4608,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 7,
+    "impacto": 7,
     "url": "api/extensionistas/george-matheus-santos-oliveira.json"
   },
   {
@@ -3808,6 +4624,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 11,
+    "impacto": 11,
     "url": "api/extensionistas/geovane-de-araujo-ceolin.json"
   },
   {
@@ -3822,6 +4641,9 @@
     ],
     "coordena": 1,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 54,
+    "impacto": 54,
     "url": "api/extensionistas/geruza-ferreira-martins.json"
   },
   {
@@ -3835,6 +4657,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/gianlucas-de-jesus-silva.json"
   },
   {
@@ -3850,6 +4675,9 @@
     ],
     "coordena": 1,
     "equipe": 3,
+    "imp_coord": 22,
+    "imp_eq": 69,
+    "impacto": 91,
     "url": "api/extensionistas/gilberto-neves-sudre-filho.json"
   },
   {
@@ -3869,6 +4697,9 @@
     ],
     "coordena": 1,
     "equipe": 4,
+    "imp_coord": 0,
+    "imp_eq": 15,
+    "impacto": 15,
     "url": "api/extensionistas/gilmar-luiz-vassoler.json"
   },
   {
@@ -3883,6 +4714,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 49,
+    "impacto": 49,
     "url": "api/extensionistas/gina-carla-maciel.json"
   },
   {
@@ -3901,6 +4735,9 @@
     ],
     "coordena": 2,
     "equipe": 4,
+    "imp_coord": 36,
+    "imp_eq": 53,
+    "impacto": 89,
     "url": "api/extensionistas/giordana-dos-santos-sperandio.json"
   },
   {
@@ -3918,6 +4755,9 @@
     ],
     "coordena": 1,
     "equipe": 3,
+    "imp_coord": 25,
+    "imp_eq": 30,
+    "impacto": 55,
     "url": "api/extensionistas/giovani-zanetti-neto.json"
   },
   {
@@ -3933,6 +4773,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 75,
+    "impacto": 75,
     "url": "api/extensionistas/giovani-de-oliveira-silva-jr.json"
   },
   {
@@ -3946,6 +4789,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/glaucelena-dias-lopes-da-vitoria.json"
   },
   {
@@ -3962,6 +4808,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 74,
+    "impacto": 74,
     "url": "api/extensionistas/graziela-barboza-guaitolini-ramos.json"
   },
   {
@@ -3975,6 +4824,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/guilherme-borges-cabral.json"
   },
   {
@@ -3988,6 +4840,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 2,
+    "impacto": 2,
     "url": "api/extensionistas/guilherme-firme-fiorot.json"
   },
   {
@@ -4001,6 +4856,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 9,
+    "impacto": 9,
     "url": "api/extensionistas/guilherme-gomes-de-faria-neto.json"
   },
   {
@@ -4014,6 +4872,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/guilherme-lopes-de-oliveira.json"
   },
   {
@@ -4027,6 +4888,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/guilherme-santanna-de-freitas.json"
   },
   {
@@ -4040,6 +4904,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 17,
+    "impacto": 17,
     "url": "api/extensionistas/guilherme-santos-do-rosario.json"
   },
   {
@@ -4053,6 +4920,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/guilherme-silveira-mendes.json"
   },
   {
@@ -4066,6 +4936,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 5,
+    "impacto": 5,
     "url": "api/extensionistas/gustavo-gomes-alves.json"
   },
   {
@@ -4079,6 +4952,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 112,
+    "impacto": 112,
     "url": "api/extensionistas/gustavo-gomes-brzesky.json"
   },
   {
@@ -4093,6 +4969,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 47,
+    "impacto": 47,
     "url": "api/extensionistas/gustavo-laube-schwartz.json"
   },
   {
@@ -4106,6 +4985,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/gustavo-matozinho-lima.json"
   },
   {
@@ -4119,6 +5001,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/gustavo-olmo-santana.json"
   },
   {
@@ -4133,6 +5018,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/gustavo-saraiva-mariano.json"
   },
   {
@@ -4146,6 +5034,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 5,
+    "impacto": 5,
     "url": "api/extensionistas/gustavo-senna-martins-de-almeida.json"
   },
   {
@@ -4159,6 +5050,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/gustavo-da-conceicao-da-silva.json"
   },
   {
@@ -4172,6 +5066,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/hanna-leticia-s-de-jesus.json"
   },
   {
@@ -4185,6 +5082,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/hanna-tatila-de-sousa.json"
   },
   {
@@ -4198,6 +5098,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 1,
+    "impacto": 1,
     "url": "api/extensionistas/harian-adami-chagas-radaelli.json"
   },
   {
@@ -4211,6 +5114,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 3,
+    "impacto": 3,
     "url": "api/extensionistas/heitor-moura-rosi.json"
   },
   {
@@ -4231,6 +5137,9 @@
     ],
     "coordena": 0,
     "equipe": 4,
+    "imp_coord": 0,
+    "imp_eq": 20,
+    "impacto": 20,
     "url": "api/extensionistas/helen-franca-medeiros.json"
   },
   {
@@ -4244,6 +5153,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 53,
+    "impacto": 53,
     "url": "api/extensionistas/heremita-brasileiro-lira.json"
   },
   {
@@ -4257,6 +5169,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/herian-louzada-ferreira-barbosa.json"
   },
   {
@@ -4272,6 +5187,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 276,
+    "impacto": 276,
     "url": "api/extensionistas/herlane-de-souza-dos-santos.json"
   },
   {
@@ -4289,6 +5207,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 54,
+    "impacto": 54,
     "url": "api/extensionistas/hilario-seibel-junior.json"
   },
   {
@@ -4304,6 +5225,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/hilario-tomaz-alves-de-oliveira.json"
   },
   {
@@ -4317,6 +5241,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 6,
+    "impacto": 6,
     "url": "api/extensionistas/hudson-mereles-cerri.json"
   },
   {
@@ -4330,6 +5257,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 10,
+    "impacto": 10,
     "url": "api/extensionistas/hugo-leonardo-castilhos-dos-reis.json"
   },
   {
@@ -4344,6 +5274,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 30,
+    "impacto": 30,
     "url": "api/extensionistas/humberto-henrique-ramos-brotto.json"
   },
   {
@@ -4357,6 +5290,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 33,
+    "impacto": 33,
     "url": "api/extensionistas/ian-drumond-duarte.json"
   },
   {
@@ -4374,6 +5310,9 @@
     ],
     "coordena": 0,
     "equipe": 3,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/icaro-duarte-gavazza-lima.json"
   },
   {
@@ -4387,6 +5326,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/icaro-gandine-fialho-weiler.json"
   },
   {
@@ -4400,6 +5342,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/ieda-zannoti.json"
   },
   {
@@ -4413,6 +5358,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 11,
+    "impacto": 11,
     "url": "api/extensionistas/igor-cellia-bonomo.json"
   },
   {
@@ -4426,6 +5374,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/igor-simer-romanhi.json"
   },
   {
@@ -4439,6 +5390,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/inae-santos-goncalves.json"
   },
   {
@@ -4452,6 +5406,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 11,
+    "impacto": 11,
     "url": "api/extensionistas/ingrid-de-lima-pella.json"
   },
   {
@@ -4468,6 +5425,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 187,
+    "impacto": 187,
     "url": "api/extensionistas/irene-schmidt-da-silva-alves.json"
   },
   {
@@ -4483,6 +5443,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/irisson-junio-maximo-borges.json"
   },
   {
@@ -4499,6 +5462,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 187,
+    "impacto": 187,
     "url": "api/extensionistas/irlane-schmidt-da-silva-alves.json"
   },
   {
@@ -4512,6 +5478,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/isaac-siqueira-de-lima-will.json"
   },
   {
@@ -4525,6 +5494,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 11,
+    "impacto": 11,
     "url": "api/extensionistas/isabel-passamani-soeiro.json"
   },
   {
@@ -4538,6 +5510,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/isabela-schulz-vieira.json"
   },
   {
@@ -4553,6 +5528,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 66,
+    "impacto": 66,
     "url": "api/extensionistas/isabella-bissoli.json"
   },
   {
@@ -4568,6 +5546,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 2,
+    "impacto": 2,
     "url": "api/extensionistas/isabella-sampaio-martins-dos-santos.json"
   },
   {
@@ -4582,6 +5563,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 42,
+    "impacto": 42,
     "url": "api/extensionistas/isabelle-pereira-souza-dias.json"
   },
   {
@@ -4595,6 +5579,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/isabelle-sofia-de-jesus-silva.json"
   },
   {
@@ -4608,6 +5595,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/isadora-lee-padilha-ferri.json"
   },
   {
@@ -4623,6 +5613,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 29,
+    "impacto": 29,
     "url": "api/extensionistas/isaque-da-silva-santos-de-souza.json"
   },
   {
@@ -4636,6 +5629,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/israel-jose-lima-nogueira.json"
   },
   {
@@ -4650,6 +5646,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/ivana-amorim-juliao.json"
   },
   {
@@ -4663,6 +5662,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/ivana-esteves-passos-de-oliveira.json"
   },
   {
@@ -4678,6 +5680,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 154,
+    "impacto": 154,
     "url": "api/extensionistas/izis-barbosa-coutinho.json"
   },
   {
@@ -4691,6 +5696,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 5,
+    "impacto": 5,
     "url": "api/extensionistas/janaina-de-medeiros-freitas.json"
   },
   {
@@ -4704,6 +5712,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 53,
+    "impacto": 53,
     "url": "api/extensionistas/jaqueline-carlos.json"
   },
   {
@@ -4717,6 +5728,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/jean-michel-pereira-de-queiroz.json"
   },
   {
@@ -4737,6 +5751,9 @@
     ],
     "coordena": 1,
     "equipe": 4,
+    "imp_coord": 1,
+    "imp_eq": 46,
+    "impacto": 47,
     "url": "api/extensionistas/jefferson-oliveira-andrade.json"
   },
   {
@@ -4753,6 +5770,9 @@
     ],
     "coordena": 1,
     "equipe": 3,
+    "imp_coord": 0,
+    "imp_eq": 136,
+    "impacto": 136,
     "url": "api/extensionistas/jefferson-ribeiro-de-lima.json"
   },
   {
@@ -4766,6 +5786,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/jefferson-tatsu-komati-andrade.json"
   },
   {
@@ -4779,6 +5802,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 79,
+    "impacto": 79,
     "url": "api/extensionistas/jefferson-da-silva-bomfim.json"
   },
   {
@@ -4793,6 +5819,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/jennifer-camille-gomes-duarte.json"
   },
   {
@@ -4806,6 +5835,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/jennifer-goncalves-do-amaral.json"
   },
   {
@@ -4819,6 +5851,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/jessica-nogueira-duque.json"
   },
   {
@@ -4832,6 +5867,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/jessica-pereira-da-penha.json"
   },
   {
@@ -4845,6 +5883,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 112,
+    "impacto": 112,
     "url": "api/extensionistas/jessica-stinghel-abreu.json"
   },
   {
@@ -4858,6 +5899,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 11,
+    "impacto": 11,
     "url": "api/extensionistas/jhon-lennon-schuina.json"
   },
   {
@@ -4871,6 +5915,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/jhonatan-fonseca-de-lima.json"
   },
   {
@@ -4884,6 +5931,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 7,
+    "impacto": 7,
     "url": "api/extensionistas/joao-pedro-garcia-pereira.json"
   },
   {
@@ -4897,6 +5947,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/joaquim-oliveira-vieira.json"
   },
   {
@@ -4914,6 +5967,9 @@
     ],
     "coordena": 0,
     "equipe": 3,
+    "imp_coord": 0,
+    "imp_eq": 1,
+    "impacto": 1,
     "url": "api/extensionistas/joel-will-belmiro.json"
   },
   {
@@ -4927,6 +5983,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 3,
+    "impacto": 3,
     "url": "api/extensionistas/johnny-anjos-alves-pereira.json"
   },
   {
@@ -4942,6 +6001,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/jonas-emanuel-dos-santos-egert.json"
   },
   {
@@ -4955,6 +6017,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/jordan-de-oliveira-kau-lyrio.json"
   },
   {
@@ -4968,6 +6033,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 11,
+    "impacto": 11,
     "url": "api/extensionistas/jordana-ferreira-bernardino-silva.json"
   },
   {
@@ -4981,6 +6049,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 112,
+    "impacto": 112,
     "url": "api/extensionistas/jordana-do-amaral-geolando.json"
   },
   {
@@ -4994,6 +6065,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/jose-augusto-costa-breciani.json"
   },
   {
@@ -5007,6 +6081,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 74,
+    "impacto": 74,
     "url": "api/extensionistas/josinei-rodrigues-filho.json"
   },
   {
@@ -5021,6 +6098,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 61,
+    "impacto": 61,
     "url": "api/extensionistas/josue-ramos-souza.json"
   },
   {
@@ -5034,6 +6114,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 17,
+    "impacto": 17,
     "url": "api/extensionistas/josue-rego-da-silva.json"
   },
   {
@@ -5050,6 +6133,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/jose-geraldo-das-neves-orlandi.json"
   },
   {
@@ -5063,6 +6149,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/jose-inacio-serafini.json"
   },
   {
@@ -5076,6 +6165,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 69,
+    "impacto": 69,
     "url": "api/extensionistas/jose-martins-de-oliveira-junior.json"
   },
   {
@@ -5089,6 +6181,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 37,
+    "impacto": 37,
     "url": "api/extensionistas/jose-otavio-de-souza-lessa.json"
   },
   {
@@ -5102,6 +6197,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 53,
+    "impacto": 53,
     "url": "api/extensionistas/jose-wlamir-barreto-soares.json"
   },
   {
@@ -5115,6 +6213,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 53,
+    "impacto": 53,
     "url": "api/extensionistas/jose-de-irigon-de-irigon.json"
   },
   {
@@ -5128,6 +6229,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 69,
+    "impacto": 69,
     "url": "api/extensionistas/joao-antonio-campos-panceri.json"
   },
   {
@@ -5145,6 +6249,9 @@
     ],
     "coordena": 0,
     "equipe": 3,
+    "imp_coord": 0,
+    "imp_eq": 44,
+    "impacto": 44,
     "url": "api/extensionistas/joao-augusto-casagrande-da-silva.json"
   },
   {
@@ -5158,6 +6265,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/joao-lucas-fonseca-da-silva-lima.json"
   },
   {
@@ -5171,6 +6281,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/joao-paulo-lebarck-pizzaia.json"
   },
   {
@@ -5184,6 +6297,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 47,
+    "impacto": 47,
     "url": "api/extensionistas/joao-pedro-pagotto-da-costa.json"
   },
   {
@@ -5197,6 +6313,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 69,
+    "impacto": 69,
     "url": "api/extensionistas/joao-pedro-quirino-filho.json"
   },
   {
@@ -5210,6 +6329,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 1,
+    "impacto": 1,
     "url": "api/extensionistas/joao-pedro-spinasse-viana.json"
   },
   {
@@ -5223,6 +6345,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 9,
+    "impacto": 9,
     "url": "api/extensionistas/joao-victor-barbosa-alves.json"
   },
   {
@@ -5236,6 +6361,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 69,
+    "impacto": 69,
     "url": "api/extensionistas/joao-victor-bonella-lopes.json"
   },
   {
@@ -5249,6 +6377,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 11,
+    "impacto": 11,
     "url": "api/extensionistas/joao-victor-cunha-torres.json"
   },
   {
@@ -5262,6 +6393,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 17,
+    "impacto": 17,
     "url": "api/extensionistas/joao-victor-kiffer-oliveira.json"
   },
   {
@@ -5275,6 +6409,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/joao-victor-lopes.json"
   },
   {
@@ -5288,6 +6425,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/joao-victor-magevski-calegari.json"
   },
   {
@@ -5301,6 +6441,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/joao-victor-monteiro.json"
   },
   {
@@ -5314,6 +6457,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 112,
+    "impacto": 112,
     "url": "api/extensionistas/joao-victor-nascimento-ribeiro.json"
   },
   {
@@ -5327,6 +6473,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/joao-vitor-calmon-c-r-porto.json"
   },
   {
@@ -5343,6 +6492,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 31,
+    "impacto": 31,
     "url": "api/extensionistas/joao-vitor-oliveira-scheidegger.json"
   },
   {
@@ -5358,6 +6510,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 69,
+    "impacto": 69,
     "url": "api/extensionistas/joao-vitor-zanchetta-corres.json"
   },
   {
@@ -5371,6 +6526,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/jucieli-alves-da-costa.json"
   },
   {
@@ -5389,6 +6547,9 @@
     ],
     "coordena": 0,
     "equipe": 4,
+    "imp_coord": 0,
+    "imp_eq": 46,
+    "impacto": 46,
     "url": "api/extensionistas/julia-almeida-nascimento-lopes.json"
   },
   {
@@ -5402,6 +6563,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 12,
+    "impacto": 12,
     "url": "api/extensionistas/julia-neiva-gomes.json"
   },
   {
@@ -5415,6 +6579,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/julia-sagrillo-barreiros.json"
   },
   {
@@ -5430,6 +6597,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/juliana-duarte-acerbi.json"
   },
   {
@@ -5443,6 +6613,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 11,
+    "impacto": 11,
     "url": "api/extensionistas/juliana-gobeti-calenzani.json"
   },
   {
@@ -5456,6 +6629,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/juliana-rangel-roque.json"
   },
   {
@@ -5469,6 +6645,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 2,
+    "impacto": 2,
     "url": "api/extensionistas/juliana-ricato-musso-silva.json"
   },
   {
@@ -5483,6 +6662,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 32,
+    "impacto": 32,
     "url": "api/extensionistas/juliana-rohsner-vianna-toniati.json"
   },
   {
@@ -5496,6 +6678,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/juliana-yuri-kanezaki-de-souza.json"
   },
   {
@@ -5509,6 +6694,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 81,
+    "impacto": 81,
     "url": "api/extensionistas/juliano-antonio-da-silveira.json"
   },
   {
@@ -5524,6 +6712,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 29,
+    "impacto": 29,
     "url": "api/extensionistas/julio-cesar-da-silva.json"
   },
   {
@@ -5537,6 +6728,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 30,
+    "impacto": 30,
     "url": "api/extensionistas/junior-aguilar-amorim.json"
   },
   {
@@ -5550,6 +6744,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 2,
+    "impacto": 2,
     "url": "api/extensionistas/jessica-nascimento-galvani.json"
   },
   {
@@ -5563,6 +6760,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 69,
+    "impacto": 69,
     "url": "api/extensionistas/jessica-vieira-alvarenga-dos-passos.json"
   },
   {
@@ -5576,6 +6776,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 2,
+    "impacto": 2,
     "url": "api/extensionistas/jessica-yamada.json"
   },
   {
@@ -5591,6 +6794,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 11,
+    "impacto": 11,
     "url": "api/extensionistas/jessika-de-oliveira-ferreira.json"
   },
   {
@@ -5604,6 +6810,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/julia-suzano-fraga.json"
   },
   {
@@ -5617,6 +6826,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/kadu-freitas.json"
   },
   {
@@ -5630,6 +6842,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/kaio-henrique-da-silva-nezio.json"
   },
   {
@@ -5643,6 +6858,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/kaique-renan-da-silva-morais-anjos.json"
   },
   {
@@ -5656,6 +6874,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/kalebe-pereira-da-penha.json"
   },
   {
@@ -5669,6 +6890,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/kalebe-souza-olegario.json"
   },
   {
@@ -5684,6 +6908,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 69,
+    "impacto": 69,
     "url": "api/extensionistas/kamila-maria-vieira-pralon.json"
   },
   {
@@ -5697,6 +6924,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 54,
+    "impacto": 54,
     "url": "api/extensionistas/kamila-scalzer.json"
   },
   {
@@ -5724,6 +6954,9 @@
     ],
     "coordena": 0,
     "equipe": 7,
+    "imp_coord": 0,
+    "imp_eq": 285,
+    "impacto": 285,
     "url": "api/extensionistas/karin-satie-komati.json"
   },
   {
@@ -5737,6 +6970,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/karyna-martins-carbas.json"
   },
   {
@@ -5750,6 +6986,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 1,
+    "impacto": 1,
     "url": "api/extensionistas/kaua-mateus-de-barros-terra.json"
   },
   {
@@ -5763,6 +7002,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/kauan-tonani-barcelos-da-silva.json"
   },
   {
@@ -5779,6 +7021,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 179,
+    "impacto": 179,
     "url": "api/extensionistas/kaua-alexandre-bernardes.json"
   },
   {
@@ -5792,6 +7037,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 7,
+    "impacto": 7,
     "url": "api/extensionistas/kellen-moura-ferreira.json"
   },
   {
@@ -5806,6 +7054,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 61,
+    "impacto": 61,
     "url": "api/extensionistas/kelly-assis-de-souza-gazolli.json"
   },
   {
@@ -5819,6 +7070,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/kevin-gomes-matos.json"
   },
   {
@@ -5832,6 +7086,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 43,
+    "impacto": 43,
     "url": "api/extensionistas/kleber-alves.json"
   },
   {
@@ -5845,6 +7102,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/kleber-andre-lirio-picoli.json"
   },
   {
@@ -5858,6 +7118,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/kleydson-goncalves-caetano.json"
   },
   {
@@ -5875,6 +7138,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/laisa-bernabe-do-carmo.json"
   },
   {
@@ -5888,6 +7154,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/lannay-itauana-coelho-caldas.json"
   },
   {
@@ -5903,6 +7172,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/lara-aguilar-de-amorim.json"
   },
   {
@@ -5916,6 +7188,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/lara-costa-vargen.json"
   },
   {
@@ -5929,6 +7204,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/lara-rocha-andrade.json"
   },
   {
@@ -5942,6 +7220,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 112,
+    "impacto": 112,
     "url": "api/extensionistas/lara-walcher-de-andrade.json"
   },
   {
@@ -5960,6 +7241,9 @@
     ],
     "coordena": 0,
     "equipe": 4,
+    "imp_coord": 0,
+    "imp_eq": 4,
+    "impacto": 4,
     "url": "api/extensionistas/larissa-batista-rangel.json"
   },
   {
@@ -5973,6 +7257,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/larissa-bianchini-moares.json"
   },
   {
@@ -5986,6 +7273,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/larissa-campos-vieira.json"
   },
   {
@@ -5999,6 +7289,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 112,
+    "impacto": 112,
     "url": "api/extensionistas/larissa-maciel-santos.json"
   },
   {
@@ -6012,6 +7305,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 5,
+    "impacto": 5,
     "url": "api/extensionistas/larissa-vervloet-mendonca.json"
   },
   {
@@ -6025,6 +7321,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/lavinia-justos-gomes-vieira.json"
   },
   {
@@ -6038,6 +7337,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/laissa-gasperazzo.json"
   },
   {
@@ -6051,6 +7353,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 79,
+    "impacto": 79,
     "url": "api/extensionistas/leandra-mendes-da-silva-piffer.json"
   },
   {
@@ -6065,6 +7370,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 24,
+    "impacto": 24,
     "url": "api/extensionistas/leandro-everton-alves-costa.json"
   },
   {
@@ -6081,6 +7389,9 @@
     ],
     "coordena": 0,
     "equipe": 3,
+    "imp_coord": 0,
+    "imp_eq": 33,
+    "impacto": 33,
     "url": "api/extensionistas/leandro-melo-de-sa.json"
   },
   {
@@ -6094,6 +7405,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 112,
+    "impacto": 112,
     "url": "api/extensionistas/leonardo-aguiar-do-amaral.json"
   },
   {
@@ -6110,6 +7424,9 @@
     ],
     "coordena": 0,
     "equipe": 3,
+    "imp_coord": 0,
+    "imp_eq": 19,
+    "impacto": 19,
     "url": "api/extensionistas/leonardo-azevedo-scardua.json"
   },
   {
@@ -6123,6 +7440,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 45,
+    "impacto": 45,
     "url": "api/extensionistas/leonardo-goncalves-batista.json"
   },
   {
@@ -6134,6 +7454,9 @@
     ],
     "coordena": 1,
     "equipe": 0,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/leonardo-matiazzi-correa.json"
   },
   {
@@ -6147,6 +7470,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/leonardo-nascimento-borges.json"
   },
   {
@@ -6162,6 +7488,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 154,
+    "impacto": 154,
     "url": "api/extensionistas/leonardo-rocha-gomes.json"
   },
   {
@@ -6175,6 +7504,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 11,
+    "impacto": 11,
     "url": "api/extensionistas/leonardo-zene-neves.json"
   },
   {
@@ -6188,6 +7520,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/leticia-amaral-valentim.json"
   },
   {
@@ -6203,6 +7538,9 @@
     ],
     "coordena": 0,
     "equipe": 3,
+    "imp_coord": 0,
+    "imp_eq": 45,
+    "impacto": 45,
     "url": "api/extensionistas/leticia-comissario-da-silva.json"
   },
   {
@@ -6216,6 +7554,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/leticia-schulthais-senna.json"
   },
   {
@@ -6229,6 +7570,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 11,
+    "impacto": 11,
     "url": "api/extensionistas/ligia-aparecida-guedes.json"
   },
   {
@@ -6242,6 +7586,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/livia-macedo-silva-dos-santos.json"
   },
   {
@@ -6255,6 +7602,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/lorena-teixeira-de-almeida.json"
   },
   {
@@ -6268,6 +7618,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 2,
+    "impacto": 2,
     "url": "api/extensionistas/lorenzo-peixoto-almeida.json"
   },
   {
@@ -6284,6 +7637,9 @@
     ],
     "coordena": 0,
     "equipe": 3,
+    "imp_coord": 0,
+    "imp_eq": 22,
+    "impacto": 22,
     "url": "api/extensionistas/lorenzzo-gabriel-ramos-doelinger-oliveira.json"
   },
   {
@@ -6297,6 +7653,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/lorhan-de-souza.json"
   },
   {
@@ -6310,6 +7669,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/luan-bottoni-do-carmo-oliveira.json"
   },
   {
@@ -6323,6 +7685,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 33,
+    "impacto": 33,
     "url": "api/extensionistas/luana-santos-lemos.json"
   },
   {
@@ -6336,6 +7701,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/lucas-almeida-de-oliveira.json"
   },
   {
@@ -6349,6 +7717,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/lucas-caetano-possatti.json"
   },
   {
@@ -6365,6 +7736,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 1,
+    "impacto": 1,
     "url": "api/extensionistas/lucas-eduardo-da-silva-pacheco.json"
   },
   {
@@ -6378,6 +7752,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/lucas-gabriel-araujo-codeco.json"
   },
   {
@@ -6398,6 +7775,9 @@
     ],
     "coordena": 0,
     "equipe": 4,
+    "imp_coord": 0,
+    "imp_eq": 15,
+    "impacto": 15,
     "url": "api/extensionistas/lucas-gomes-flegler.json"
   },
   {
@@ -6411,6 +7791,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 11,
+    "impacto": 11,
     "url": "api/extensionistas/lucas-leonardo-nobrega-dos-santos.json"
   },
   {
@@ -6424,6 +7807,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/lucas-lorenzon-de-aragao.json"
   },
   {
@@ -6438,6 +7824,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 4,
+    "impacto": 4,
     "url": "api/extensionistas/lucas-machado-santos.json"
   },
   {
@@ -6451,6 +7840,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/lucas-salomao-vieira.json"
   },
   {
@@ -6466,6 +7858,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 24,
+    "impacto": 24,
     "url": "api/extensionistas/lucas-silverio-gums.json"
   },
   {
@@ -6479,6 +7874,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/lucas-tejada-fabres.json"
   },
   {
@@ -6492,6 +7890,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 8,
+    "impacto": 8,
     "url": "api/extensionistas/lucas-velten-henker.json"
   },
   {
@@ -6505,6 +7906,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/lucas-vieira-da-silva.json"
   },
   {
@@ -6518,6 +7922,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/lucas-xavier-da-silva.json"
   },
   {
@@ -6531,6 +7938,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 54,
+    "impacto": 54,
     "url": "api/extensionistas/luciene-torezani-alves.json"
   },
   {
@@ -6546,6 +7956,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 53,
+    "impacto": 53,
     "url": "api/extensionistas/ludmila-dias.json"
   },
   {
@@ -6561,6 +7974,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 69,
+    "impacto": 69,
     "url": "api/extensionistas/luis-felippe-klein-faria.json"
   },
   {
@@ -6581,6 +7997,9 @@
     ],
     "coordena": 0,
     "equipe": 4,
+    "imp_coord": 0,
+    "imp_eq": 171,
+    "impacto": 171,
     "url": "api/extensionistas/luis-henrique-rosado-torres.json"
   },
   {
@@ -6594,6 +8013,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/luiz-augusto-bastos-correia.json"
   },
   {
@@ -6607,6 +8029,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 37,
+    "impacto": 37,
     "url": "api/extensionistas/luiz-carlos-vieira-berger.json"
   },
   {
@@ -6622,6 +8047,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 24,
+    "impacto": 24,
     "url": "api/extensionistas/luiz-felipe-elizeta-dos-santos.json"
   },
   {
@@ -6635,6 +8063,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/luiz-felipe-loureiro-mascarenhas.json"
   },
   {
@@ -6648,6 +8079,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/luiz-felipe-de-souza-santos.json"
   },
   {
@@ -6661,6 +8095,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/luiz-filipe-dos-santos-schelemberg.json"
   },
   {
@@ -6674,6 +8111,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 47,
+    "impacto": 47,
     "url": "api/extensionistas/luiz-guilherme-de-souza-zottich.json"
   },
   {
@@ -6687,6 +8127,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 11,
+    "impacto": 11,
     "url": "api/extensionistas/luiz-henrique-marques.json"
   },
   {
@@ -6700,6 +8143,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/luiz-ricardo-santos-saraiva.json"
   },
   {
@@ -6713,6 +8159,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/luiz-roberto-bozzi-perereira.json"
   },
   {
@@ -6726,6 +8175,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 69,
+    "impacto": 69,
     "url": "api/extensionistas/luiza-alcantara-dos-santos.json"
   },
   {
@@ -6739,6 +8191,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 69,
+    "impacto": 69,
     "url": "api/extensionistas/luiza-broseghini-pin.json"
   },
   {
@@ -6752,6 +8207,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 7,
+    "impacto": 7,
     "url": "api/extensionistas/luiza-de-alencar.json"
   },
   {
@@ -6765,6 +8223,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 53,
+    "impacto": 53,
     "url": "api/extensionistas/lukese-rosa-menegussi.json"
   },
   {
@@ -6781,6 +8242,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 188,
+    "impacto": 188,
     "url": "api/extensionistas/luma-tavares-lopes-de-souza.json"
   },
   {
@@ -6794,6 +8258,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/luisa-coutinho-pimentel-dos-santos.json"
   },
   {
@@ -6809,6 +8276,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 22,
+    "impacto": 22,
     "url": "api/extensionistas/mafe-mattos.json"
   },
   {
@@ -6825,6 +8295,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 15,
+    "impacto": 15,
     "url": "api/extensionistas/magno-macedo-de-oliveira.json"
   },
   {
@@ -6838,6 +8311,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/manoel-rodrigues-loureiro.json"
   },
   {
@@ -6851,6 +8327,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 29,
+    "impacto": 29,
     "url": "api/extensionistas/manuelly-soares-silva.json"
   },
   {
@@ -6864,6 +8343,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 9,
+    "impacto": 9,
     "url": "api/extensionistas/manuely-meireles-lemos.json"
   },
   {
@@ -6882,6 +8364,9 @@
     ],
     "coordena": 0,
     "equipe": 4,
+    "imp_coord": 0,
+    "imp_eq": 4,
+    "impacto": 4,
     "url": "api/extensionistas/marcela-starling-ferreira-lage.json"
   },
   {
@@ -6899,6 +8384,9 @@
     ],
     "coordena": 0,
     "equipe": 3,
+    "imp_coord": 0,
+    "imp_eq": 7,
+    "impacto": 7,
     "url": "api/extensionistas/marcelo-victor-ferreira-barbosa.json"
   },
   {
@@ -6912,6 +8400,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 53,
+    "impacto": 53,
     "url": "api/extensionistas/marcio-bender-machado.json"
   },
   {
@@ -6925,6 +8416,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 11,
+    "impacto": 11,
     "url": "api/extensionistas/marcio-moneque-rosa.json"
   },
   {
@@ -6938,6 +8432,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/marcio-de-lima-braga.json"
   },
   {
@@ -6949,6 +8446,9 @@
     ],
     "coordena": 1,
     "equipe": 0,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/marco-antonio-de-souza-leite-cuadros.json"
   },
   {
@@ -6963,6 +8463,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/marco-aurelio-tiago-filho.json"
   },
   {
@@ -6978,6 +8481,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/marcos-antonio-carneiro-de-paula.json"
   },
   {
@@ -6991,6 +8497,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/marcos-antonio-da-hora-borges.json"
   },
   {
@@ -7004,6 +8513,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 79,
+    "impacto": 79,
     "url": "api/extensionistas/marcos-antonio-tavares-de-souza.json"
   },
   {
@@ -7017,6 +8529,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/marcos-aurelio-melo-dias.json"
   },
   {
@@ -7035,6 +8550,9 @@
     ],
     "coordena": 0,
     "equipe": 4,
+    "imp_coord": 0,
+    "imp_eq": 277,
+    "impacto": 277,
     "url": "api/extensionistas/marcos-paulo-kohler-caldas.json"
   },
   {
@@ -7055,6 +8573,9 @@
     ],
     "coordena": 0,
     "equipe": 6,
+    "imp_coord": 0,
+    "imp_eq": 15,
+    "impacto": 15,
     "url": "api/extensionistas/marcos-simao-guimaraes.json"
   },
   {
@@ -7069,6 +8590,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 75,
+    "impacto": 75,
     "url": "api/extensionistas/marcos-valerio-guimaraes.json"
   },
   {
@@ -7084,6 +8608,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/marcos-vinicius-forecchi-accioly.json"
   },
   {
@@ -7097,6 +8624,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/marcos-vinicius-souza-dos-santos.json"
   },
   {
@@ -7110,6 +8640,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 1,
+    "impacto": 1,
     "url": "api/extensionistas/marcus-romano-salles-bernardes-de-souza.json"
   },
   {
@@ -7124,6 +8657,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 5,
+    "impacto": 5,
     "url": "api/extensionistas/maressa-karen-henrique-da-silva.json"
   },
   {
@@ -7137,6 +8673,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 17,
+    "impacto": 17,
     "url": "api/extensionistas/maria-caitana-pascoal-banhos.json"
   },
   {
@@ -7150,6 +8689,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 9,
+    "impacto": 9,
     "url": "api/extensionistas/maria-clara-peterle-de-souza.json"
   },
   {
@@ -7163,6 +8705,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 27,
+    "impacto": 27,
     "url": "api/extensionistas/maria-eduarda-fiorio-cardoso.json"
   },
   {
@@ -7176,6 +8721,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/maria-eduarda-franco-santana.json"
   },
   {
@@ -7191,6 +8739,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 406,
+    "impacto": 406,
     "url": "api/extensionistas/maria-eduarda-lira-moreira.json"
   },
   {
@@ -7204,6 +8755,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/maria-eduarda-souza-silva.json"
   },
   {
@@ -7217,6 +8771,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 112,
+    "impacto": 112,
     "url": "api/extensionistas/maria-eduarda-da-cruz-ferreira.json"
   },
   {
@@ -7230,6 +8787,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 17,
+    "impacto": 17,
     "url": "api/extensionistas/maria-gabriela-siqueira-tavares.json"
   },
   {
@@ -7243,6 +8803,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 76,
+    "impacto": 76,
     "url": "api/extensionistas/maria-heloisa-neves-guimaraes.json"
   },
   {
@@ -7256,6 +8819,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 112,
+    "impacto": 112,
     "url": "api/extensionistas/maria-julia-leopoldo-barros.json"
   },
   {
@@ -7271,6 +8837,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/maria-luiza-guimaraes-silva.json"
   },
   {
@@ -7284,6 +8853,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/maria-do-carmo-quaresma-de-almeida.json"
   },
   {
@@ -7297,6 +8869,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 46,
+    "impacto": 46,
     "url": "api/extensionistas/mariana-marchiore-birro.json"
   },
   {
@@ -7310,6 +8885,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/mariana-pinto-ferraz-tassan.json"
   },
   {
@@ -7324,6 +8902,9 @@
     ],
     "coordena": 0,
     "equipe": 3,
+    "imp_coord": 0,
+    "imp_eq": 212,
+    "impacto": 212,
     "url": "api/extensionistas/marianna-stark-gardioli-rangel.json"
   },
   {
@@ -7337,6 +8918,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/mariany-do-carmo.json"
   },
   {
@@ -7350,6 +8934,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 112,
+    "impacto": 112,
     "url": "api/extensionistas/marina-moraes-silva.json"
   },
   {
@@ -7363,6 +8950,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/marina-ribeiro-jesus.json"
   },
   {
@@ -7378,6 +8968,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 12,
+    "impacto": 12,
     "url": "api/extensionistas/marllon-christiani-dos-santos-ribeiro.json"
   },
   {
@@ -7392,6 +8985,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/marlon-woelffel-candoti.json"
   },
   {
@@ -7405,6 +9001,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 4,
+    "impacto": 4,
     "url": "api/extensionistas/marlon-de-oliveira-silva.json"
   },
   {
@@ -7418,6 +9017,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 9,
+    "impacto": 9,
     "url": "api/extensionistas/marlyson-rodrigues-souza.json"
   },
   {
@@ -7432,6 +9034,9 @@
     ],
     "coordena": 2,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 163,
+    "impacto": 163,
     "url": "api/extensionistas/marta-talitha-carvalho-freire-mendes.json"
   },
   {
@@ -7448,6 +9053,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 94,
+    "impacto": 94,
     "url": "api/extensionistas/mateus-conrad-barcelos-da-costa.json"
   },
   {
@@ -7461,6 +9069,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 7,
+    "impacto": 7,
     "url": "api/extensionistas/mateus-damaceno-schineider.json"
   },
   {
@@ -7475,6 +9086,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 5,
+    "impacto": 5,
     "url": "api/extensionistas/mateus-lannes-cunha.json"
   },
   {
@@ -7490,6 +9104,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 2,
+    "impacto": 2,
     "url": "api/extensionistas/mateus-maioli-giacomin.json"
   },
   {
@@ -7503,6 +9120,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 11,
+    "impacto": 11,
     "url": "api/extensionistas/mateus-rodrigues-santos.json"
   },
   {
@@ -7516,6 +9136,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/mateus-sodre-martins.json"
   },
   {
@@ -7531,6 +9154,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/mateus-de-mattos-ferreira.json"
   },
   {
@@ -7546,6 +9172,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 118,
+    "impacto": 118,
     "url": "api/extensionistas/matheus-butter-dias.json"
   },
   {
@@ -7561,6 +9190,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 8,
+    "impacto": 8,
     "url": "api/extensionistas/matheus-costa-evangelista.json"
   },
   {
@@ -7574,6 +9206,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/matheus-florindo-de-deus-barboza-goncalves.json"
   },
   {
@@ -7591,6 +9226,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 15,
+    "impacto": 15,
     "url": "api/extensionistas/matheus-kleber-rodrigues-barbosa.json"
   },
   {
@@ -7604,6 +9242,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 112,
+    "impacto": 112,
     "url": "api/extensionistas/matheus-mesquita-gomes-moura.json"
   },
   {
@@ -7618,6 +9259,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 49,
+    "impacto": 49,
     "url": "api/extensionistas/matheus-policario-amorim.json"
   },
   {
@@ -7631,6 +9275,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/matheus-santiago-ribeiro.json"
   },
   {
@@ -7644,6 +9291,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 20,
+    "impacto": 20,
     "url": "api/extensionistas/matheus-silva-caldas.json"
   },
   {
@@ -7658,6 +9308,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 2,
+    "impacto": 2,
     "url": "api/extensionistas/matheus-teixeira-de-aguiar.json"
   },
   {
@@ -7671,6 +9324,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 15,
+    "impacto": 15,
     "url": "api/extensionistas/matheus-tiago-amorim-pereira.json"
   },
   {
@@ -7684,6 +9340,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 11,
+    "impacto": 11,
     "url": "api/extensionistas/matheus-veker-camatta-santana-de-brito.json"
   },
   {
@@ -7697,6 +9356,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 7,
+    "impacto": 7,
     "url": "api/extensionistas/matheus-xavier-melotti.json"
   },
   {
@@ -7711,6 +9373,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 7,
+    "impacto": 7,
     "url": "api/extensionistas/matheus-de-souza-pereira-de-oliveira.json"
   },
   {
@@ -7724,6 +9389,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/matielo-pereira-lopes.json"
   },
   {
@@ -7737,6 +9405,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 17,
+    "impacto": 17,
     "url": "api/extensionistas/maxine-amorim-silva-gois.json"
   },
   {
@@ -7750,6 +9421,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/maxwell-eduardo-monteiro.json"
   },
   {
@@ -7763,6 +9437,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 7,
+    "impacto": 7,
     "url": "api/extensionistas/mayannara-trindade-carvalho.json"
   },
   {
@@ -7779,6 +9456,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 29,
+    "impacto": 29,
     "url": "api/extensionistas/maycon-pequeno-silva.json"
   },
   {
@@ -7792,6 +9472,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/mayke-willans-christo-pereira.json"
   },
   {
@@ -7805,6 +9488,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/michael-de-oliveira-coutinho.json"
   },
   {
@@ -7818,6 +9504,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 2,
+    "impacto": 2,
     "url": "api/extensionistas/michele-silva-da-mata-caetano.json"
   },
   {
@@ -7831,6 +9520,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 80,
+    "impacto": 80,
     "url": "api/extensionistas/michelle-kapiche-alonso.json"
   },
   {
@@ -7844,6 +9536,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/miguel-antonio-de-jesus-sperandio.json"
   },
   {
@@ -7857,6 +9552,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 69,
+    "impacto": 69,
     "url": "api/extensionistas/miguel-castro-gomes.json"
   },
   {
@@ -7870,6 +9568,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/miguel-fonseca-de-lima.json"
   },
   {
@@ -7883,6 +9584,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/miguel-de-menezes-ribeiro.json"
   },
   {
@@ -7896,6 +9600,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 20,
+    "impacto": 20,
     "url": "api/extensionistas/mirleni-de-jesus.json"
   },
   {
@@ -7909,6 +9616,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 33,
+    "impacto": 33,
     "url": "api/extensionistas/mizael-fernandes-de-oliveira.json"
   },
   {
@@ -7932,6 +9642,9 @@
     ],
     "coordena": 10,
     "equipe": 15,
+    "imp_coord": 30,
+    "imp_eq": 40,
+    "impacto": 70,
     "url": "api/extensionistas/moises-savedra-omena.json"
   },
   {
@@ -7948,6 +9661,9 @@
     ],
     "coordena": 0,
     "equipe": 4,
+    "imp_coord": 0,
+    "imp_eq": 221,
+    "impacto": 221,
     "url": "api/extensionistas/murilo-andrade-carvalho.json"
   },
   {
@@ -7961,6 +9677,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/mykael-dos-santos-deolindo.json"
   },
   {
@@ -7974,6 +9693,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 4,
+    "impacto": 4,
     "url": "api/extensionistas/marcia-goncalves-de-oliveira.json"
   },
   {
@@ -7987,6 +9709,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 11,
+    "impacto": 11,
     "url": "api/extensionistas/mario-cesar-cunha-fialho.json"
   },
   {
@@ -8000,6 +9725,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 53,
+    "impacto": 53,
     "url": "api/extensionistas/nadja-da-nobrega-rodrigues.json"
   },
   {
@@ -8014,6 +9742,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 8,
+    "impacto": 8,
     "url": "api/extensionistas/natan-paschoal-cypriano.json"
   },
   {
@@ -8027,6 +9758,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 80,
+    "impacto": 80,
     "url": "api/extensionistas/nathielly-bertollo-marques.json"
   },
   {
@@ -8044,6 +9778,9 @@
     ],
     "coordena": 1,
     "equipe": 3,
+    "imp_coord": 134,
+    "imp_eq": 32,
+    "impacto": 166,
     "url": "api/extensionistas/nauvia-maria-cancelieri.json"
   },
   {
@@ -8057,6 +9794,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/neiva-augusta-viegas-vasconcellos.json"
   },
   {
@@ -8070,6 +9810,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/nicolas-loose.json"
   },
   {
@@ -8085,6 +9828,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 23,
+    "impacto": 23,
     "url": "api/extensionistas/nicolas-nasario-ferreira.json"
   },
   {
@@ -8098,6 +9844,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 209,
+    "impacto": 209,
     "url": "api/extensionistas/nicolas-dos-santos-ceron.json"
   },
   {
@@ -8111,6 +9860,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 18,
+    "impacto": 18,
     "url": "api/extensionistas/nicole-ribeiro-schayder-da-silva.json"
   },
   {
@@ -8124,6 +9876,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 79,
+    "impacto": 79,
     "url": "api/extensionistas/nicole-silva-loss.json"
   },
   {
@@ -8137,6 +9892,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/noiza-sperandio-bino.json"
   },
   {
@@ -8154,6 +9912,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/olavo-jose-ferreira-curatola.json"
   },
   {
@@ -8167,6 +9928,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/oliver-justo-gomes-vieira.json"
   },
   {
@@ -8180,6 +9944,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 11,
+    "impacto": 11,
     "url": "api/extensionistas/paloma-ferreira-da-silva.json"
   },
   {
@@ -8193,6 +9960,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/pamela-cristina-nunes-costa.json"
   },
   {
@@ -8206,6 +9976,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 47,
+    "impacto": 47,
     "url": "api/extensionistas/patricia-maria-bortolon.json"
   },
   {
@@ -8219,6 +9992,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 53,
+    "impacto": 53,
     "url": "api/extensionistas/paula-felipe-schlemper-de-oliveira.json"
   },
   {
@@ -8232,6 +10008,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/paulo-antonio-de-souza-junior.json"
   },
   {
@@ -8249,6 +10028,9 @@
     ],
     "coordena": 3,
     "equipe": 4,
+    "imp_coord": 188,
+    "imp_eq": 79,
+    "impacto": 267,
     "url": "api/extensionistas/paulo-cezar-camargo-guedes.json"
   },
   {
@@ -8262,6 +10044,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 53,
+    "impacto": 53,
     "url": "api/extensionistas/paulo-ditarso-maciel-junior.json"
   },
   {
@@ -8275,6 +10060,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/paulo-gabriel-mello-mota.json"
   },
   {
@@ -8288,6 +10076,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 69,
+    "impacto": 69,
     "url": "api/extensionistas/paulo-jose-de-almeida-barbosa.json"
   },
   {
@@ -8301,6 +10092,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 7,
+    "impacto": 7,
     "url": "api/extensionistas/paulo-ricardo-pereira-gomes.json"
   },
   {
@@ -8318,6 +10112,9 @@
     ],
     "coordena": 0,
     "equipe": 3,
+    "imp_coord": 0,
+    "imp_eq": 37,
+    "impacto": 37,
     "url": "api/extensionistas/paulo-ricardo-viana-ferreira.json"
   },
   {
@@ -8331,6 +10128,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/paulo-roberto-fonseca-da-silva.json"
   },
   {
@@ -8352,6 +10152,9 @@
     ],
     "coordena": 3,
     "equipe": 12,
+    "imp_coord": 139,
+    "imp_eq": 16,
+    "impacto": 155,
     "url": "api/extensionistas/paulo-sergio-dos-santos-junior.json"
   },
   {
@@ -8365,6 +10168,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 2,
+    "impacto": 2,
     "url": "api/extensionistas/pedro-aguiar-alves.json"
   },
   {
@@ -8378,6 +10184,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 29,
+    "impacto": 29,
     "url": "api/extensionistas/pedro-carvalho-goularte.json"
   },
   {
@@ -8391,6 +10200,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 28,
+    "impacto": 28,
     "url": "api/extensionistas/pedro-henrique-nascimento-vieira.json"
   },
   {
@@ -8404,6 +10216,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 11,
+    "impacto": 11,
     "url": "api/extensionistas/pedro-henrique-siqueira-da-costa.json"
   },
   {
@@ -8417,6 +10232,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/pedro-henrique-de-carvalho-scaramussa-luz.json"
   },
   {
@@ -8430,6 +10248,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/pedro-luiz-augusto-rosa.json"
   },
   {
@@ -8443,6 +10264,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/pedro-santana-prates.json"
   },
   {
@@ -8456,6 +10280,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 69,
+    "impacto": 69,
     "url": "api/extensionistas/pedro-wander-marques-sanches-matos.json"
   },
   {
@@ -8469,6 +10296,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/phillipe-alcantara-fonseca-lopes.json"
   },
   {
@@ -8482,6 +10312,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 6,
+    "impacto": 6,
     "url": "api/extensionistas/priscila-dos-santos-moreira.json"
   },
   {
@@ -8495,6 +10328,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 112,
+    "impacto": 112,
     "url": "api/extensionistas/pamella-victoria-bitencourt-novais-dos-santos.json"
   },
   {
@@ -8508,6 +10344,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 58,
+    "impacto": 58,
     "url": "api/extensionistas/quezia-ferrari-da-silva.json"
   },
   {
@@ -8524,6 +10363,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/rafael-afonso-dos-anjos.json"
   },
   {
@@ -8537,6 +10379,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 112,
+    "impacto": 112,
     "url": "api/extensionistas/rafael-almeida-deps-caldeira.json"
   },
   {
@@ -8550,6 +10395,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/rafael-machado-souza.json"
   },
   {
@@ -8563,6 +10411,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 17,
+    "impacto": 17,
     "url": "api/extensionistas/rafael-marques-silva.json"
   },
   {
@@ -8576,6 +10427,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/rafael-pratti-dettmann.json"
   },
   {
@@ -8589,6 +10443,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/rafael-rabello-de-carvalho-guzzo.json"
   },
   {
@@ -8602,6 +10459,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 34,
+    "impacto": 34,
     "url": "api/extensionistas/rafael-de-almeida-viana-gusmao.json"
   },
   {
@@ -8619,6 +10479,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/rafaela-amorim-pessin.json"
   },
   {
@@ -8632,6 +10495,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 53,
+    "impacto": 53,
     "url": "api/extensionistas/rafaela-elisa-maurin-benedicto.json"
   },
   {
@@ -8645,6 +10511,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 17,
+    "impacto": 17,
     "url": "api/extensionistas/rafaela-guedes-de-souza.json"
   },
   {
@@ -8658,6 +10527,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 32,
+    "impacto": 32,
     "url": "api/extensionistas/raiane-reinhoz.json"
   },
   {
@@ -8671,6 +10543,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/ramyson-de-araujo-nascimento.json"
   },
   {
@@ -8684,6 +10559,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/raphael-brandao-dos-anjos-alvarenga.json"
   },
   {
@@ -8697,6 +10575,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/raphael-lima-pagung.json"
   },
   {
@@ -8710,6 +10591,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 5,
+    "impacto": 5,
     "url": "api/extensionistas/raphael-pinto-de-almeida.json"
   },
   {
@@ -8723,6 +10607,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/raquel-souza-castro.json"
   },
   {
@@ -8736,6 +10623,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/rara-perozini-barroca.json"
   },
   {
@@ -8749,6 +10639,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/ray-malta-neves-cardoso.json"
   },
   {
@@ -8762,6 +10655,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/raynan-araujo-da-silva.json"
   },
   {
@@ -8775,6 +10671,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/regina-pereira-de-souza.json"
   },
   {
@@ -8788,6 +10687,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 24,
+    "impacto": 24,
     "url": "api/extensionistas/remerson-victor-silva-da-assurreicao.json"
   },
   {
@@ -8801,6 +10703,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/renan-campista.json"
   },
   {
@@ -8814,6 +10719,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/renan-costa-nascimento.json"
   },
   {
@@ -8827,6 +10735,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/renan-souza-do-nascimento.json"
   },
   {
@@ -8840,6 +10751,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 30,
+    "impacto": 30,
     "url": "api/extensionistas/renan-dos-santos-siqueira.json"
   },
   {
@@ -8853,6 +10767,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 47,
+    "impacto": 47,
     "url": "api/extensionistas/renata-baptista.json"
   },
   {
@@ -8868,6 +10785,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 9,
+    "impacto": 9,
     "url": "api/extensionistas/renata-carneiro-sousa.json"
   },
   {
@@ -8881,6 +10801,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/renata-co-e-gomes.json"
   },
   {
@@ -8895,6 +10818,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 32,
+    "impacto": 32,
     "url": "api/extensionistas/renata-imaculada-de-oliveira-teixeira.json"
   },
   {
@@ -8908,6 +10834,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 11,
+    "impacto": 11,
     "url": "api/extensionistas/renato-carvalho.json"
   },
   {
@@ -8921,6 +10850,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 20,
+    "impacto": 20,
     "url": "api/extensionistas/renato-eugenio-da-mota.json"
   },
   {
@@ -8934,6 +10866,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 7,
+    "impacto": 7,
     "url": "api/extensionistas/renato-marques-teixeira-ferreira.json"
   },
   {
@@ -8947,6 +10882,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/renato-tannure-rotta-de-almeida.json"
   },
   {
@@ -8962,6 +10900,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/renato-de-sant-anna-lopes.json"
   },
   {
@@ -8976,6 +10917,9 @@
     ],
     "coordena": 1,
     "equipe": 1,
+    "imp_coord": 23,
+    "imp_eq": 9,
+    "impacto": 32,
     "url": "api/extensionistas/renner-sartorio-camargo.json"
   },
   {
@@ -8989,6 +10933,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 17,
+    "impacto": 17,
     "url": "api/extensionistas/renzo-fraga-loureiro-marinho.json"
   },
   {
@@ -9002,6 +10949,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/renzo-gomes-avance.json"
   },
   {
@@ -9015,6 +10965,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/ricardo-modenese-ramalho.json"
   },
   {
@@ -9043,6 +10996,9 @@
     ],
     "coordena": 4,
     "equipe": 15,
+    "imp_coord": 197,
+    "imp_eq": 275,
+    "impacto": 472,
     "url": "api/extensionistas/richard-junior-manuel-godinez-tello.json"
   },
   {
@@ -9057,6 +11013,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 32,
+    "impacto": 32,
     "url": "api/extensionistas/ridley-francis-miranda-amorim.json"
   },
   {
@@ -9070,6 +11029,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/roberto-inhance.json"
   },
   {
@@ -9083,6 +11045,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 28,
+    "impacto": 28,
     "url": "api/extensionistas/rodiney-pereira-da-silva.json"
   },
   {
@@ -9098,6 +11063,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/rodolfo-luiz-de-oliveira.json"
   },
   {
@@ -9111,6 +11079,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 27,
+    "impacto": 27,
     "url": "api/extensionistas/rodolpho-da-cruz-rangel.json"
   },
   {
@@ -9124,6 +11095,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 7,
+    "impacto": 7,
     "url": "api/extensionistas/rodrigo-couto-rodrigues.json"
   },
   {
@@ -9149,6 +11123,9 @@
     ],
     "coordena": 2,
     "equipe": 8,
+    "imp_coord": 0,
+    "imp_eq": 67,
+    "impacto": 67,
     "url": "api/extensionistas/rodrigo-fernandes-calhau.json"
   },
   {
@@ -9162,6 +11139,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/rodrigo-lampier-dos-santos.json"
   },
   {
@@ -9175,6 +11155,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/roger-leonardo-coimbra-silva.json"
   },
   {
@@ -9188,6 +11171,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/romulo-alves-luciano.json"
   },
   {
@@ -9211,6 +11197,9 @@
     ],
     "coordena": 0,
     "equipe": 5,
+    "imp_coord": 0,
+    "imp_eq": 96,
+    "impacto": 96,
     "url": "api/extensionistas/ronaldo-aparecida-marques.json"
   },
   {
@@ -9231,6 +11220,9 @@
     ],
     "coordena": 2,
     "equipe": 7,
+    "imp_coord": 18,
+    "imp_eq": 585,
+    "impacto": 603,
     "url": "api/extensionistas/rosiane-ribeiro-rocha.json"
   },
   {
@@ -9250,6 +11242,9 @@
     ],
     "coordena": 3,
     "equipe": 4,
+    "imp_coord": 238,
+    "imp_eq": 0,
+    "impacto": 238,
     "url": "api/extensionistas/rosilene-de-sa-ribeiro.json"
   },
   {
@@ -9265,6 +11260,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 154,
+    "impacto": 154,
     "url": "api/extensionistas/rowenna-tonani-leao-dos-santos.json"
   },
   {
@@ -9278,6 +11276,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 66,
+    "impacto": 66,
     "url": "api/extensionistas/ruan-rody-de-melo-da-costa.json"
   },
   {
@@ -9291,6 +11292,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 6,
+    "impacto": 6,
     "url": "api/extensionistas/rubens-carlos-cortes.json"
   },
   {
@@ -9305,6 +11309,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 4,
+    "impacto": 4,
     "url": "api/extensionistas/rubens-do-nascimento-correa-junior.json"
   },
   {
@@ -9318,6 +11325,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/ryan-costa-rodrigues-de-oliveira.json"
   },
   {
@@ -9331,6 +11341,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 5,
+    "impacto": 5,
     "url": "api/extensionistas/samara-cristina-zupeli-babilon.json"
   },
   {
@@ -9344,6 +11357,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/samily-souza-serafim.json"
   },
   {
@@ -9358,6 +11374,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/samiya-harumi.json"
   },
   {
@@ -9371,6 +11390,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 1,
+    "impacto": 1,
     "url": "api/extensionistas/samuel-ferreira-alves.json"
   },
   {
@@ -9384,6 +11406,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 27,
+    "impacto": 27,
     "url": "api/extensionistas/samuel-da-silva-jose.json"
   },
   {
@@ -9399,6 +11424,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 15,
+    "impacto": 15,
     "url": "api/extensionistas/sandro-de-freitas-nascimento.json"
   },
   {
@@ -9412,6 +11440,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/sara-carolina-napoleao-pimenta.json"
   },
   {
@@ -9429,6 +11460,9 @@
     ],
     "coordena": 0,
     "equipe": 3,
+    "imp_coord": 0,
+    "imp_eq": 17,
+    "impacto": 17,
     "url": "api/extensionistas/sarah-silva-ferreira.json"
   },
   {
@@ -9442,6 +11476,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/serenna-ferrari-lima.json"
   },
   {
@@ -9460,6 +11497,9 @@
     ],
     "coordena": 1,
     "equipe": 5,
+    "imp_coord": 1,
+    "imp_eq": 0,
+    "impacto": 1,
     "url": "api/extensionistas/sergio-nery-simoes.json"
   },
   {
@@ -9475,6 +11515,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 11,
+    "impacto": 11,
     "url": "api/extensionistas/shayane-teixeira-da-cruz.json"
   },
   {
@@ -9488,6 +11531,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 33,
+    "impacto": 33,
     "url": "api/extensionistas/sillas-ribeiro-ataide.json"
   },
   {
@@ -9501,6 +11547,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/simone-miranda-dos-santos.json"
   },
   {
@@ -9515,6 +11564,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/sofia-de-alcantara-silva.json"
   },
   {
@@ -9528,6 +11580,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 11,
+    "impacto": 11,
     "url": "api/extensionistas/sophia-holzmeister-simon.json"
   },
   {
@@ -9541,6 +11596,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/suely-ferreira-augusto.json"
   },
   {
@@ -9554,6 +11612,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 27,
+    "impacto": 27,
     "url": "api/extensionistas/susilea-abreu-dos-santos-lima.json"
   },
   {
@@ -9567,6 +11628,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 11,
+    "impacto": 11,
     "url": "api/extensionistas/savio-sant-anna-de-sa.json"
   },
   {
@@ -9580,6 +11644,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 2,
+    "impacto": 2,
     "url": "api/extensionistas/samela-pedrada-cardoso.json"
   },
   {
@@ -9593,6 +11660,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 69,
+    "impacto": 69,
     "url": "api/extensionistas/sergio-estevam-da-costa-junior.json"
   },
   {
@@ -9606,6 +11676,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 112,
+    "impacto": 112,
     "url": "api/extensionistas/taina-jesus-correa-bromonschenkel.json"
   },
   {
@@ -9619,6 +11692,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 40,
+    "impacto": 40,
     "url": "api/extensionistas/taise-goncalves-de-jesus.json"
   },
   {
@@ -9635,6 +11711,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/tarcisio-bruni-rangel.json"
   },
   {
@@ -9655,6 +11734,9 @@
     ],
     "coordena": 5,
     "equipe": 7,
+    "imp_coord": 115,
+    "imp_eq": 51,
+    "impacto": 166,
     "url": "api/extensionistas/tatiane-policario-chagas.json"
   },
   {
@@ -9668,6 +11750,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/thais-goncalves-de-lima.json"
   },
   {
@@ -9681,6 +11766,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 27,
+    "impacto": 27,
     "url": "api/extensionistas/thaissa-leslye-lourenco.json"
   },
   {
@@ -9694,6 +11782,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 47,
+    "impacto": 47,
     "url": "api/extensionistas/thalison-vinicius-euzebio-ribeiro.json"
   },
   {
@@ -9707,6 +11798,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/thamiris-ramos-oliveira.json"
   },
   {
@@ -9720,6 +11814,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/thanner-soares-silva.json"
   },
   {
@@ -9733,6 +11830,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 27,
+    "impacto": 27,
     "url": "api/extensionistas/thais-pedruzzi-do-nascimento.json"
   },
   {
@@ -9746,6 +11846,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/thais-de-souza.json"
   },
   {
@@ -9762,6 +11865,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 159,
+    "impacto": 159,
     "url": "api/extensionistas/thiago-almeida-deps-caldeira.json"
   },
   {
@@ -9776,6 +11882,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 2,
+    "impacto": 2,
     "url": "api/extensionistas/thiago-augusto-de-carvalho.json"
   },
   {
@@ -9789,6 +11898,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 20,
+    "impacto": 20,
     "url": "api/extensionistas/thiago-borges-pereira.json"
   },
   {
@@ -9802,6 +11914,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/thiago-correa-dos-santos.json"
   },
   {
@@ -9815,6 +11930,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/thiago-fabiano.json"
   },
   {
@@ -9831,6 +11949,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 112,
+    "impacto": 112,
     "url": "api/extensionistas/thiago-henrique-ezequiel-dos-santos.json"
   },
   {
@@ -9847,6 +11968,9 @@
     ],
     "coordena": 0,
     "equipe": 3,
+    "imp_coord": 0,
+    "imp_eq": 187,
+    "impacto": 187,
     "url": "api/extensionistas/thiago-machado-oliveira.json"
   },
   {
@@ -9860,6 +11984,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 163,
+    "impacto": 163,
     "url": "api/extensionistas/thiago-meireles-paixao.json"
   },
   {
@@ -9873,6 +12000,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 11,
+    "impacto": 11,
     "url": "api/extensionistas/thiago-ribeiro-da-silva.json"
   },
   {
@@ -9886,6 +12016,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/thiago-viguini-de-carvalho.json"
   },
   {
@@ -9899,6 +12032,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 10,
+    "impacto": 10,
     "url": "api/extensionistas/tiago-da-silva-comerio.json"
   },
   {
@@ -9912,6 +12048,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/timoteo-de-rezende-potin.json"
   },
   {
@@ -9927,6 +12066,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 11,
+    "impacto": 11,
     "url": "api/extensionistas/ursula-dart-bottrel-do-nascimento.json"
   },
   {
@@ -9940,6 +12082,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 11,
+    "impacto": 11,
     "url": "api/extensionistas/vagner-menengussi.json"
   },
   {
@@ -9955,6 +12100,9 @@
     ],
     "coordena": 0,
     "equipe": 3,
+    "imp_coord": 0,
+    "imp_eq": 9,
+    "impacto": 9,
     "url": "api/extensionistas/valeria-gabriel-estanislau.json"
   },
   {
@@ -9968,6 +12116,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 11,
+    "impacto": 11,
     "url": "api/extensionistas/vanessa-goncalves-toledo.json"
   },
   {
@@ -9981,6 +12132,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/vantuil-manoel-thebas.json"
   },
   {
@@ -9994,6 +12148,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/veronica-maia-viana-marcial.json"
   },
   {
@@ -10007,6 +12164,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/victor-campelo-do-nascimento.json"
   },
   {
@@ -10020,6 +12180,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 66,
+    "impacto": 66,
     "url": "api/extensionistas/victor-emerson-siqueira-de-souza.json"
   },
   {
@@ -10033,6 +12196,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 1,
+    "impacto": 1,
     "url": "api/extensionistas/victor-laurentino-subtil.json"
   },
   {
@@ -10046,6 +12212,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/victor-oliveira-santos.json"
   },
   {
@@ -10059,6 +12228,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 34,
+    "impacto": 34,
     "url": "api/extensionistas/victor-ramos-dessaune.json"
   },
   {
@@ -10075,6 +12247,9 @@
     ],
     "coordena": 3,
     "equipe": 2,
+    "imp_coord": 17,
+    "imp_eq": 0,
+    "impacto": 17,
     "url": "api/extensionistas/victorio-albani-de-carvalho.json"
   },
   {
@@ -10088,6 +12263,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 53,
+    "impacto": 53,
     "url": "api/extensionistas/vinicius-kruger-da-costa.json"
   },
   {
@@ -10101,6 +12279,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 56,
+    "impacto": 56,
     "url": "api/extensionistas/vinicius-prata-lima.json"
   },
   {
@@ -10116,6 +12297,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 7,
+    "impacto": 7,
     "url": "api/extensionistas/vinicius-da-hora-corte.json"
   },
   {
@@ -10131,6 +12315,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 14,
+    "impacto": 14,
     "url": "api/extensionistas/vinicius-gomes-caetano.json"
   },
   {
@@ -10144,6 +12331,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/vinicius-de-jesus-estevam.json"
   },
   {
@@ -10158,6 +12348,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 1,
+    "impacto": 1,
     "url": "api/extensionistas/vitor-almeida-nascimento-lopes.json"
   },
   {
@@ -10172,6 +12365,9 @@
     ],
     "coordena": 1,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/vitor-faical-campana.json"
   },
   {
@@ -10186,6 +12382,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 11,
+    "impacto": 11,
     "url": "api/extensionistas/vitor-lopes-barbosa.json"
   },
   {
@@ -10199,6 +12398,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/vitor-siqueira-da-silva.json"
   },
   {
@@ -10212,6 +12414,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/vitor-do-nascimento-ramos.json"
   },
   {
@@ -10227,6 +12432,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 406,
+    "impacto": 406,
     "url": "api/extensionistas/vitoria-loureiro-pimentel.json"
   },
   {
@@ -10240,6 +12448,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 5,
+    "impacto": 5,
     "url": "api/extensionistas/vitoria-maciel-de-carvalho.json"
   },
   {
@@ -10254,6 +12465,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/vivian-moreira-gomes-de-lacerda.json"
   },
   {
@@ -10267,6 +12481,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 27,
+    "impacto": 27,
     "url": "api/extensionistas/viviane-azevedo-moura.json"
   },
   {
@@ -10280,6 +12497,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/viviane-fernandes-santos.json"
   },
   {
@@ -10297,6 +12517,9 @@
     ],
     "coordena": 2,
     "equipe": 4,
+    "imp_coord": 885,
+    "imp_eq": 23,
+    "impacto": 908,
     "url": "api/extensionistas/wagner-kirmse-caldas.json"
   },
   {
@@ -10315,6 +12538,9 @@
     ],
     "coordena": 0,
     "equipe": 3,
+    "imp_coord": 0,
+    "imp_eq": 112,
+    "impacto": 112,
     "url": "api/extensionistas/wagner-scopel-falcao.json"
   },
   {
@@ -10330,6 +12556,9 @@
     ],
     "coordena": 2,
     "equipe": 2,
+    "imp_coord": 17,
+    "imp_eq": 18,
+    "impacto": 35,
     "url": "api/extensionistas/wagner-teixeira-da-costa.json"
   },
   {
@@ -10343,6 +12572,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/walace-andrade-cruz-nascimento.json"
   },
   {
@@ -10358,6 +12590,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/walber-antonio-ramos-beltrame.json"
   },
   {
@@ -10371,6 +12606,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 112,
+    "impacto": 112,
     "url": "api/extensionistas/waleska-sulke-dos-santos.json"
   },
   {
@@ -10386,6 +12624,9 @@
     ],
     "coordena": 1,
     "equipe": 2,
+    "imp_coord": 124,
+    "imp_eq": 28,
+    "impacto": 152,
     "url": "api/extensionistas/wallas-gusmao-thomas.json"
   },
   {
@@ -10399,6 +12640,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 209,
+    "impacto": 209,
     "url": "api/extensionistas/walter-guilherme-candeia.json"
   },
   {
@@ -10412,6 +12656,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/warleson-dos-santos-de-sales.json"
   },
   {
@@ -10425,6 +12672,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/weverton-gomes-da-silva.json"
   },
   {
@@ -10438,6 +12688,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/wildemberg-de-jesus-oliveira.json"
   },
   {
@@ -10451,6 +12704,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 197,
+    "impacto": 197,
     "url": "api/extensionistas/yago-medeiros-barbosa.json"
   },
   {
@@ -10464,6 +12720,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 0,
+    "impacto": 0,
     "url": "api/extensionistas/yago-souza-santos.json"
   },
   {
@@ -10477,6 +12736,9 @@
     ],
     "coordena": 0,
     "equipe": 1,
+    "imp_coord": 0,
+    "imp_eq": 56,
+    "impacto": 56,
     "url": "api/extensionistas/yan-dheimi-gomes-weise.json"
   },
   {
@@ -10493,6 +12755,9 @@
     ],
     "coordena": 0,
     "equipe": 2,
+    "imp_coord": 0,
+    "imp_eq": 213,
+    "impacto": 213,
     "url": "api/extensionistas/yasmin-soares-cavatti.json"
   },
   {
@@ -10511,6 +12776,9 @@
     ],
     "coordena": 0,
     "equipe": 4,
+    "imp_coord": 0,
+    "imp_eq": 42,
+    "impacto": 42,
     "url": "api/extensionistas/ellen-oliveira-silva-neves.json"
   },
   {
@@ -10529,6 +12797,9 @@
     ],
     "coordena": 0,
     "equipe": 4,
+    "imp_coord": 0,
+    "imp_eq": 158,
+    "impacto": 158,
     "url": "api/extensionistas/icaro-lessa-secchin.json"
   }
 ]

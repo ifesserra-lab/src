@@ -1,0 +1,126 @@
+---
+import Base from '../layouts/Base.astro';
+import TableFilter from '../components/TableFilter.astro';
+import { getApiIndex } from '../lib/data';
+import { withBase } from '../lib/url';
+import { statSync, existsSync } from 'node:fs';
+import { resolve } from 'node:path';
+
+const api = getApiIndex();
+const DOCS = resolve(process.cwd(), '..', 'docs');
+function tamanho(rel: string): string {
+  try {
+    const b = statSync(resolve(DOCS, rel)).size;
+    if (b < 1024) return `${b} B`;
+    if (b < 1024 * 1024) return `${(b / 1024).toFixed(1)} KB`;
+    return `${(b / 1024 / 1024).toFixed(1)} MB`;
+  } catch { return '—'; }
+}
+const conjuntos = [
+  { nome: 'Inventário da API', file: 'api/index.json', desc: 'Índice dos endpoints e totais do acervo.' },
+  { nome: 'Painel agregado', file: 'api/painel.json', desc: 'Visão geral, indicadores, rede de programas, formados, impacto e FORPROEX (tudo agregado).' },
+  { nome: 'Investimento', file: 'api/investimento.json', desc: 'Iniciativas por nicho × impacto × status (ativa/dormente), recomendações e nota sobre impacto não-contável.' },
+  { nome: 'Temas & clusters', file: 'api/temas.json', desc: 'Clusters temáticos (treemap tema × tipo × iniciativa) e cards por tema.' },
+  { nome: 'Jornada do formado', file: 'api/jornada.json', desc: 'Ingresso → 1ª extensão → formatura e público aluno × não-aluno.' },
+  { nome: 'Ações — lista', file: 'api/acoes/index.json', desc: `As ${api.acoes ?? ''} ações, resumidas.` },
+  { nome: 'Extensionistas — completo', file: 'api/extensionistas/todos.json', desc: `As ${api.extensionistas ?? ''} pessoas com trajetória (ações coordenadas/equipe) e resumo por IA.` },
+  { nome: 'Extensionistas — lista', file: 'api/extensionistas/index.json', desc: 'Índice de extensionistas.' },
+  { nome: 'Busca — índice', file: 'api/busca.json', desc: 'Blob de busca por palavras-chave das ações.' },
+  { nome: 'Ações sem participações', file: 'api/sem-participacao.json', desc: 'Ações com público-alvo e equipe zerados (pendência de registro).' },
+  { nome: 'Pendências de relatório', file: 'api/pendencias-relatorio.json', desc: 'Ações sem relatório final aprovado.' },
+];
+const porItem = [
+  { padrao: 'api/acoes/<acao_id>.json', oque: 'Uma ação: metadados + atividades (público em contagens) + equipe.', qtd: api.acoes },
+  { padrao: 'api/atividades/<atividade_id>.json', oque: 'Uma atividade: público-alvo (total/aprovados/certificados/situação) + equipe.', qtd: api.atividades },
+  { padrao: 'api/extensionistas/<slug>.json', oque: 'Uma pessoa: anos, funções, ações coordenadas, participações, colaboradores, resumo IA.', qtd: api.extensionistas },
+];
+const llmsSize = tamanho('llms.txt');
+const zipSize = existsSync(resolve(DOCS, 'dados-abertos.zip')) ? tamanho('dados-abertos.zip') : null;
+---
+<Base title="Dados abertos" description="Baixe os dados em JSON (sem CPF nem e-mail) e o llms.txt para uma IA ler o acervo." active="dados">
+  <div class="wrap">
+    <p class="crumb">Páginas / <b>Dados abertos</b></p>
+    <h1>Dados abertos da extensão — Campus Serra</h1>
+    <p class="sub">Baixe os dados em JSON (sem CPF nem e-mail) e o llms.txt para uma IA ler o acervo</p>
+
+    <div class="dl">
+      <a class="dlcard" href={withBase('/dados-abertos.zip')}>
+        <b>Baixar tudo (ZIP)</b>
+        <span>Toda a API JSON + llms.txt + modelos de relatório (.odt/.pdf).{zipSize ? ` ${zipSize}.` : ''} Reempacotado toda semana pelo CI.</span>
+      </a>
+      <a class="dlcard" href={withBase('/llms.txt')}>
+        <b>Para uma IA ler: llms.txt</b>
+        <span>Resumo do acervo no padrão llms.txt{llmsSize !== '—' ? ` · ${llmsSize}` : ''}.</span>
+      </a>
+    </div>
+
+    <section style="margin-top:26px">
+      <h2>Conjuntos de dados</h2>
+      <div style="margin-top:12px">
+        <TableFilter placeholder="Filtrar conjunto..." total={conjuntos.length} unidade="conjuntos">
+          <div class="tbl-wrap"><table>
+            <thead><tr><th>Conjunto</th><th>Descrição</th><th>Formato</th><th class="n">Tamanho</th><th></th></tr></thead>
+            <tbody>
+              {conjuntos.map((c) => (
+                <tr data-s={`${c.nome} ${c.desc}`}>
+                  <td><a href={withBase(`/${c.file}`)}>{c.nome}</a></td>
+                  <td>{c.desc}</td>
+                  <td>JSON</td>
+                  <td class="n tnum">{tamanho(c.file)}</td>
+                  <td><a class="lk" href={withBase(`/${c.file}`)}>abrir</a></td>
+                </tr>
+              ))}
+            </tbody>
+          </table></div>
+        </TableFilter>
+      </div>
+    </section>
+
+    <section style="margin-top:26px">
+      <h2>Por item (um arquivo cada)</h2>
+      <div class="card" style="margin-top:12px"><div class="tbl-wrap"><table>
+        <thead><tr><th>Padrão</th><th>O que é</th><th class="n">Qtd.</th></tr></thead>
+        <tbody>
+          {porItem.map((p) => (
+            <tr><td><code class="mono">{p.padrao}</code></td><td>{p.oque}</td><td class="n tnum">{p.qtd}</td></tr>
+          ))}
+        </tbody>
+      </table></div></div>
+    </section>
+
+    <section style="margin-top:26px">
+      <h2>Como usar</h2>
+      <div class="card" style="margin-top:12px">
+        <pre class="howto"><code>{`# baixar um agregado
+curl -sL ${withBase('/api/painel.json')} | jq '.visao_geral.n_acoes'
+
+# listar as ações (id + título)
+curl -sL ${withBase('/api/acoes/index.json')} | jq '.[] | {id: .acao_id, titulo}'
+
+# baixar uma pessoa
+curl -sL ${withBase('/api/extensionistas/<slug>.json')} | jq '.acoes_coordenadas'`}</code></pre>
+      </div>
+    </section>
+
+    <section class="card" style="margin-top:26px">
+      <h2>Privacidade e uso</h2>
+      <p class="sec-desc" style="margin-top:8px;line-height:1.6">
+        Sem dados pessoais de alunos. Público-alvo aparece apenas como contagens (inscritos, aprovados, certificados, situação) — nunca nomes. A equipe executora é listada como crédito público de execução (nome, função, vínculo), como em certificados. Nenhum arquivo contém CPF, e-mail ou data de nascimento — há uma trava automática que bloqueia a exportação se qualquer PII vazar. Fonte: SRC/Ifes (<a class="lk" href="https://src.ifes.edu.br" target="_blank" rel="noopener">src.ifes.edu.br</a>). Dados públicos institucionais de extensão e ensino. Gerado pela lib <code class="mono">src_etl</code>.
+      </p>
+    </section>
+  </div>
+</Base>
+
+<style>
+  .n { text-align: right; white-space: nowrap; }
+  .dl { display: grid; grid-template-columns: 1fr; gap: 12px; margin-top: 16px; }
+  @media (min-width: 620px) { .dl { grid-template-columns: 1fr 1fr; } }
+  .dlcard { background: var(--surface); border: 1px solid var(--grid); border-radius: var(--radius); padding: 15px 17px;
+    box-shadow: var(--shadow); text-decoration: none; display: flex; flex-direction: column; gap: 4px; transition: border-color .15s; }
+  .dlcard:hover { border-color: var(--c1); }
+  .dlcard b { font-size: 14.5px; color: var(--c1); }
+  .dlcard span { font-size: 12.5px; color: var(--muted); line-height: 1.5; }
+  .howto { overflow-x: auto; margin: 0; background: var(--sunk); border-radius: var(--radius-sm); padding: 12px 14px; }
+  .howto code { font-family: var(--mono); font-size: 12.5px; color: var(--text-2); white-space: pre; }
+  @media (max-width: 620px) { th:nth-child(3), td:nth-child(3) { display: none; } }
+</style>

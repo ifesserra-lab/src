@@ -1,0 +1,38 @@
+---
+// Funil: barras centradas decrescentes a partir de pares [estágio, valor].
+// Mostra queda relativa ao topo. Substitui svg_funil.
+import type { Pair } from '../lib/schema';
+interface Props {
+  data: Pair[];
+  color?: string;
+}
+const { data, color = 'var(--c1)' } = Astro.props;
+const top = data.length ? data[0][1] : 1;
+const rows = data.map(([label, value], i) => ({
+  label,
+  value,
+  pct: Math.round((value / top) * 100),
+  drop: i === 0 ? null : Math.round((value / data[i - 1][1]) * 100),
+}));
+---
+<ul class="funnel">
+  {rows.map((r) => (
+    <li>
+      <div class="top">
+        <span class="lbl">{r.label}</span>
+        <span class="val tnum">{r.value.toLocaleString('pt-BR')}{r.drop !== null && <em> · {r.drop}%</em>}</span>
+      </div>
+      <div class="track"><i style={`width:${Math.max(r.pct, 4)}%;background:${color}`}></i></div>
+    </li>
+  ))}
+</ul>
+
+<style>
+  .funnel { list-style: none; margin: 4px 0 0; padding: 0; display: flex; flex-direction: column; gap: 12px; }
+  .top { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; font-size: 13px; margin-bottom: 5px; }
+  .lbl { color: var(--text-2); font-weight: 500; }
+  .val { color: var(--text); font-weight: 600; font-variant-numeric: tabular-nums; }
+  .val em { color: var(--muted); font-style: normal; font-weight: 500; font-size: 12px; }
+  .track { height: 22px; border-radius: 6px; background: var(--sunk); overflow: hidden; }
+  .track i { display: block; height: 100%; border-radius: 6px; transition: none; }
+</style>

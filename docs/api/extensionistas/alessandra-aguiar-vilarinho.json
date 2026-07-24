@@ -87,6 +87,74 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2018",
+      "atividade_id": "5158",
+      "acao_id": "1633",
+      "atividade": "Mulheres na Ciência",
+      "pub": 11
+    },
+    {
+      "ano": "2018",
+      "atividade_id": "6873",
+      "acao_id": "2082",
+      "atividade": "Mulheres na Ciência",
+      "pub": 11
+    },
+    {
+      "ano": "2018",
+      "atividade_id": "6874",
+      "acao_id": "2082",
+      "atividade": "Mulheres na Ciência",
+      "pub": 17
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "22295",
+      "acao_id": "3140",
+      "atividade": "Atendimentos Personalizados e Monitorias de Extensão Tecnológica - área de Programação e Desenvolvimento",
+      "pub": 17
+    },
+    {
+      "ano": "2025",
+      "atividade_id": "19716",
+      "acao_id": "5357",
+      "atividade": "MULHERES MIL - Artesão em Bordado a mão",
+      "pub": 24
+    },
+    {
+      "ano": "2015",
+      "atividade_id": "923",
+      "acao_id": "542",
+      "atividade": "Programação Visual Criativa com Scratch",
+      "pub": 20
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "1545",
+      "acao_id": "718",
+      "atividade": "Programa Regular de Promoção da Cultura e da Arte no Ifes Campus Serra",
+      "pub": 1
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 101,
+  "impacto": 101,
+  "temas": [
+    {
+      "tema": "Mulheres e inclusão",
+      "n": 3
+    },
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 2
+    },
+    {
+      "tema": "Cultura e arte",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Giordana dos Santos Sperandio",

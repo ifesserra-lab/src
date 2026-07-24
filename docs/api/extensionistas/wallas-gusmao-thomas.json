@@ -44,6 +44,42 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2025",
+      "atividade_id": "20756",
+      "acao_id": "5677",
+      "atividade": "Jovens Inventores: O poder da Tecnologia Maker no Desenvolvimento Social",
+      "pub": 0
+    },
+    {
+      "ano": "2025",
+      "atividade_id": "21872",
+      "acao_id": "5677",
+      "atividade": "Jovens Inventores: O poder da Tecnologia Maker no Desenvolvimento Social",
+      "pub": 28
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "2732",
+      "acao_id": "899",
+      "atividade": "SEMANA DE CONTROLE E AUTOMAÇÃO",
+      "pub": 69
+    }
+  ],
+  "imp_coord": 124,
+  "imp_eq": 28,
+  "impacto": 152,
+  "temas": [
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 2
+    },
+    {
+      "tema": "Mulheres e inclusão",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Richard Junior Manuel Godinez Tello",

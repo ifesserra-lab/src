@@ -126,6 +126,74 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2018",
+      "atividade_id": "5763",
+      "acao_id": "1834",
+      "atividade": "Sistema para predição de transtornos mentais comuns na atenção primária a saúde",
+      "pub": 0
+    },
+    {
+      "ano": "2018",
+      "atividade_id": "5788",
+      "acao_id": "1847",
+      "atividade": "Sistema de apoio para rastreio e geolocalização de transtornos mentais comuns na atenção primária a saúde",
+      "pub": 0
+    },
+    {
+      "ano": "2019",
+      "atividade_id": "7600",
+      "acao_id": "2193",
+      "atividade": "LifeBox: transporte e monitoramento de córnea de forma inteligente",
+      "pub": 0
+    },
+    {
+      "ano": "2019",
+      "atividade_id": "10936",
+      "acao_id": "2599",
+      "atividade": "Sistema de apoio para rastreio e geolocalização de transtornos mentaiscomuns na atenção primária a saúde",
+      "pub": 0
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "1523",
+      "acao_id": "708",
+      "atividade": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedoras",
+      "pub": 14
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "1939",
+      "acao_id": "848",
+      "atividade": "Sistema de apoio para monitorar temperatura para preparaçãode caixas para transporte de órgão.",
+      "pub": 0
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "2297",
+      "acao_id": "901",
+      "atividade": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+      "pub": 0
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 14,
+  "impacto": 14,
+  "temas": [
+    {
+      "tema": "Saúde e bem-estar",
+      "n": 7
+    },
+    {
+      "tema": "Cultura e arte",
+      "n": 2
+    },
+    {
+      "tema": "Empreendedorismo e incubação",
+      "n": 2
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Felipe Frechiani de Oliveira",

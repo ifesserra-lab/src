@@ -22,6 +22,24 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2021",
+      "atividade_id": "11978",
+      "acao_id": "3431",
+      "atividade": "Lampex + empreendedor",
+      "pub": 2
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 2,
+  "impacto": 2,
+  "temas": [
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Bruno Cardoso Coutinho",

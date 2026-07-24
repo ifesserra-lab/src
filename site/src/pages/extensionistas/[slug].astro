@@ -1,0 +1,167 @@
+---
+import Base from '../../layouts/Base.astro';
+import Tile from '../../components/Tile.astro';
+import TableFilter from '../../components/TableFilter.astro';
+import GroupedBar from '../../components/GroupedBar.astro';
+import NetworkGraph from '../../components/NetworkGraph.astro';
+import { getExtensionistas } from '../../lib/data';
+import { withBase } from '../../lib/url';
+
+export async function getStaticPaths() {
+  return getExtensionistas().map((ext) => ({ params: { slug: ext.slug }, props: { ext } }));
+}
+const { ext } = Astro.props;
+const anos = ext.anos.map(String).filter(Boolean).sort();
+const periodo = anos.length ? `${anos[0]}${anos.length > 1 ? `–${anos[anos.length - 1]}` : ''}` : '—';
+const papel = ext.coordenadas.length && ext.participacoes.length
+  ? 'Coordenador(a) e equipe' : ext.coordenadas.length ? 'Coordenador(a)' : 'Equipe de execução';
+const fmt = (n: number) => n.toLocaleString('pt-BR');
+
+// impacto por atividade agregado por ação (p/ "Pessoas impactadas" da equipe)
+const coordIds = new Set(ext.coordenadas.map((r) => r.acao_id));
+const impByAcao = new Map<string, number>();
+const nomesByAcao = new Map<string, Set<string>>();
+for (const at of ext.atividades) {
+  impByAcao.set(at.acao_id, (impByAcao.get(at.acao_id) ?? 0) + (at.pub ?? 0));
+  if (at.atividade) { (nomesByAcao.get(at.acao_id) ?? nomesByAcao.set(at.acao_id, new Set()).get(at.acao_id)!).add(at.atividade); }
+}
+const eqImp = (acaoId: string) => impByAcao.get(acaoId) ?? 0;
+
+// "Ações, participações e impacto por ano" (GroupedBar de 3 séries)
+const yrs = [...new Set([...ext.coordenadas, ...ext.participacoes].map((r) => r.ano).filter(Boolean))].sort();
+const acoesY = yrs.map(() => 0), partsY = yrs.map(() => 0), impY = yrs.map(() => 0);
+const yi = (a: string) => yrs.indexOf(a);
+for (const r of ext.coordenadas) { const i = yi(r.ano); if (i < 0) continue; acoesY[i]++; partsY[i] += r.n ?? 0; impY[i] += r.pub ?? 0; }
+for (const r of ext.participacoes) { const i = yi(r.ano); if (i < 0) continue; acoesY[i]++; partsY[i] += r.n ?? 0; if (!coordIds.has(r.acao_id)) impY[i] += eqImp(r.acao_id); }
+const series = [
+  { label: 'Ações', color: 'var(--c1)', values: acoesY },
+  { label: 'Participações', color: 'var(--c2)', values: partsY },
+  { label: 'Pessoas impactadas', color: 'var(--c4)', values: impY },
+];
+
+const colab = ext.colaboradores.slice(0, 12);
+const nodes = [ext.nome, ...colab.map((c) => c.nome)];
+const edges = colab.map((c, i) => [0, i + 1, c.acoes_comuns]);
+---
+<Base title={ext.nome} description={`Extensionista do Campus Serra — ${papel}.`} active="extensionistas">
+  <div class="wrap" data-pagefind-body data-pagefind-meta="kind:Extensionista">
+    <p class="crumb"><a href={withBase('/extensionistas/')}>Extensionistas</a> › <b>{ext.nome}</b></p>
+    <h1 data-pagefind-meta="title">{ext.nome}</h1>
+    <p class="sub" data-pagefind-meta="sub">Extensionista — {papel} · Campus Serra</p>
+
+    <section class="tiles">
+      <Tile label="Ações coordenadas" value={ext.coordenadas.length} color="var(--c1)" />
+      <Tile label="Participações em equipe" value={ext.participacoes.length} color="var(--c2)" />
+      <Tile label="Pessoas impactadas" value={fmt(ext.impacto)} color="var(--c4)" />
+      <Tile label="Período ativo" value={periodo} color="var(--c3)" />
+    </section>
+
+    {ext.resumo && (
+      <>
+        <p class="section-title">Resumo</p>
+        <div class="card resumo">
+          {ext.resumo}
+          <p class="attr">Resumo gerado por IA (Mistral) a partir dos registros do SRC.</p>
+        </div>
+      </>
+    )}
+
+    {ext.temas.length > 0 && (
+      <>
+        <p class="section-title">Temas de atuação</p>
+        <div class="card"><div class="badges">
+          {ext.temas.map((t) => (
+            <a class="badge" href={withBase('/temas.html')}>{t.tema}<em>{t.n}</em></a>
+          ))}
+        </div></div>
+      </>
+    )}
+
+    {yrs.length > 0 && (
+      <>
+        <p class="section-title">Ações, participações e impacto por ano</p>
+        <div class="card"><GroupedBar categorias={yrs} series={series} /></div>
+      </>
+    )}
+
+    {ext.coordenadas.length > 0 && (
+      <>
+        <p class="section-title">Ações coordenadas</p>
+        <TableFilter placeholder="Filtrar por ação, tipo ou ano..." total={ext.coordenadas.length} unidade="ações">
+          <div class="tbl-wrap"><table>
+            <thead><tr><th>Ação</th><th>Tipo</th><th class="n">Ano</th><th class="n">Participações da ação</th><th class="n">Pessoas impactadas</th></tr></thead>
+            <tbody>
+              {ext.coordenadas.map((a) => (
+                <tr data-s={`${a.titulo} ${a.tipo} ${a.ano}`}>
+                  <td><a href={withBase(`/acoes/${a.acao_id}.html`)}>{a.titulo}</a></td>
+                  <td>{a.tipo}</td>
+                  <td class="n tnum">{a.ano}</td>
+                  <td class="n tnum">{fmt(a.n)}</td>
+                  <td class="n tnum">{fmt(a.pub)}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table></div>
+        </TableFilter>
+      </>
+    )}
+
+    {ext.participacoes.length > 0 && (
+      <>
+        <p class="section-title">Participações em equipe</p>
+        <TableFilter placeholder="Filtrar por ação, função, atividade ou ano..." total={ext.participacoes.length} unidade="participações">
+          <div class="tbl-wrap"><table>
+            <thead><tr><th>Ação</th><th>Atividade</th><th>Função</th><th class="n">Ano</th><th class="n">Pessoas impactadas</th></tr></thead>
+            <tbody>
+              {ext.participacoes.map((a) => {
+                const ativs = [...(nomesByAcao.get(a.acao_id) ?? [])];
+                return (
+                  <tr data-s={`${a.titulo} ${(a.funcoes || []).join(' ')} ${ativs.join(' ')} ${a.ano}`}>
+                    <td><a href={withBase(`/acoes/${a.acao_id}.html`)}>{a.titulo}</a></td>
+                    <td set:html={ativs.length ? ativs.map((x) => x).join('<br>') : '—'} />
+                    <td>{(a.funcoes || []).join(', ') || '—'}</td>
+                    <td class="n tnum">{a.ano}</td>
+                    <td class="n tnum">{coordIds.has(a.acao_id) ? '—' : fmt(eqImp(a.acao_id))}</td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table></div>
+        </TableFilter>
+      </>
+    )}
+
+    {colab.length > 0 && (
+      <>
+        <p class="section-title">Trabalhou com ({ext.colaboradores.length})</p>
+        <div class="card"><NetworkGraph nodes={nodes} edges={edges} ego /></div>
+        <div style="margin-top:12px">
+          <TableFilter placeholder="Filtrar por nome..." total={ext.colaboradores.length} unidade="pessoas">
+            <div class="tbl-wrap"><table>
+              <thead><tr><th>Pessoa</th><th class="n">Em comum</th></tr></thead>
+              <tbody>
+                {ext.colaboradores.map((c) => (
+                  <tr data-s={c.nome}>
+                    <td>{c.slug ? <a href={withBase(`/extensionistas/${c.slug}.html`)}>{c.nome}</a> : c.nome}</td>
+                    <td class="n tnum">{c.acoes_comuns}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table></div>
+          </TableFilter>
+        </div>
+      </>
+    )}
+
+    <div class="pii">Página gerada a partir dos registros públicos de execução do SRC (crédito de equipe). Não contém CPF, e-mail ou dados de alunos atendidos.</div>
+  </div>
+</Base>
+
+<style>
+  .n { text-align: right; white-space: nowrap; }
+  .resumo { border-left: 3px solid var(--c1); line-height: 1.7; font-size: 15px; }
+  .resumo .attr { margin: 10px 0 0; font-size: 12px; color: var(--muted); }
+  .badges .badge { text-decoration: none; }
+  .badges .badge em { font-style: normal; font-weight: 700; color: var(--c1); background: color-mix(in srgb, var(--c1) 16%, transparent); border-radius: 6px; padding: 0 6px; }
+  @media (max-width: 620px) { th:nth-child(2), td:nth-child(2) { display: none; } }
+</style>

@@ -35,6 +35,31 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2021",
+      "atividade_id": "11978",
+      "acao_id": "3431",
+      "atividade": "Lampex + empreendedor",
+      "pub": 2
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "2732",
+      "acao_id": "899",
+      "atividade": "SEMANA DE CONTROLE E AUTOMAÇÃO",
+      "pub": 69
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 71,
+  "impacto": 71,
+  "temas": [
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 2
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Emmanuel Marques Silva",

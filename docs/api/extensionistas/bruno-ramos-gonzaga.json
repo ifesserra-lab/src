@@ -116,6 +116,63 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2018",
+      "atividade_id": "5158",
+      "acao_id": "1633",
+      "atividade": "Mulheres na Ciência",
+      "pub": 11
+    },
+    {
+      "ano": "2018",
+      "atividade_id": "6873",
+      "acao_id": "2082",
+      "atividade": "Mulheres na Ciência",
+      "pub": 11
+    },
+    {
+      "ano": "2019",
+      "atividade_id": "9225",
+      "acao_id": "2675",
+      "atividade": "Tutoria de Estudos Orientados: Compartilhando Saberes",
+      "pub": 5
+    },
+    {
+      "ano": "2019",
+      "atividade_id": "9562",
+      "acao_id": "2773",
+      "atividade": "Ambientação Pedagógica: Didática e Técnicas de Ensino.",
+      "pub": 6
+    },
+    {
+      "ano": "2023",
+      "atividade_id": "20470",
+      "acao_id": "4820",
+      "atividade": "Mulheres Mil – Eletricista Instalador Predial em Baixa Tensão",
+      "pub": 20
+    },
+    {
+      "ano": "2025",
+      "atividade_id": "19716",
+      "acao_id": "5357",
+      "atividade": "MULHERES MIL - Artesão em Bordado a mão",
+      "pub": 24
+    }
+  ],
+  "imp_coord": 49,
+  "imp_eq": 66,
+  "impacto": 115,
+  "temas": [
+    {
+      "tema": "Mulheres e inclusão",
+      "n": 7
+    },
+    {
+      "tema": "Escola e formação de professores",
+      "n": 2
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Tatiane Policário Chagas",

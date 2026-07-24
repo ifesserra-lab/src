@@ -4,6 +4,8 @@
   "endpoints": [
     "api/painel.json",
     "api/investimento.json",
+    "api/temas.json",
+    "api/jornada.json",
     "api/busca.json",
     "api/acoes/index.json",
     "api/acoes/<acao_id>.json",

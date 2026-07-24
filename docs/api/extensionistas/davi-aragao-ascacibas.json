@@ -59,6 +59,67 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2017",
+      "atividade_id": "2882",
+      "acao_id": "1117",
+      "atividade": "PRÉ- IFES Campus Serra",
+      "pub": 33
+    },
+    {
+      "ano": "2018",
+      "atividade_id": "9601",
+      "acao_id": "2021",
+      "atividade": "Mostra Tecnológica na Semana Nacional de Ciência e Tecnologia 2019",
+      "pub": 0
+    },
+    {
+      "ano": "2018",
+      "atividade_id": "9595",
+      "acao_id": "2021",
+      "atividade": "Mostra Tecnológica na Semana Nacional de Ciência e Tecnologia 2019",
+      "pub": 0
+    },
+    {
+      "ano": "2018",
+      "atividade_id": "6836",
+      "acao_id": "2081",
+      "atividade": "O IFES é o meu lugar",
+      "pub": 40
+    },
+    {
+      "ano": "2018",
+      "atividade_id": "6835",
+      "acao_id": "2081",
+      "atividade": "O IFES é o meu lugar",
+      "pub": 34
+    },
+    {
+      "ano": "2019",
+      "atividade_id": "8972",
+      "acao_id": "2591",
+      "atividade": "O IFES é o meu lugar",
+      "pub": 40
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 147,
+  "impacto": 147,
+  "temas": [
+    {
+      "tema": "Captação e ingresso",
+      "n": 2
+    },
+    {
+      "tema": "Mulheres e inclusão",
+      "n": 1
+    },
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Alessandro Bermudes Gomes",

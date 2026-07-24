@@ -35,6 +35,35 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2017",
+      "atividade_id": "3353",
+      "acao_id": "1261",
+      "atividade": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedora",
+      "pub": 15
+    },
+    {
+      "ano": "2015",
+      "atividade_id": "1271",
+      "acao_id": "569",
+      "atividade": "Desafio Ifes de Negócios Socais",
+      "pub": 0
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 15,
+  "impacto": 15,
+  "temas": [
+    {
+      "tema": "Empreendedorismo e incubação",
+      "n": 1
+    },
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Emmanuel Marques Silva",

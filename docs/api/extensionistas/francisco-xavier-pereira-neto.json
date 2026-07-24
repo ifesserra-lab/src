@@ -22,6 +22,24 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2019",
+      "atividade_id": "10564",
+      "acao_id": "2505",
+      "atividade": "Oficina Especializada de Câmera & Fotografia",
+      "pub": 8
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 8,
+  "impacto": 8,
+  "temas": [
+    {
+      "tema": "Cultura e arte",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Amarildo Mendes Lemos",

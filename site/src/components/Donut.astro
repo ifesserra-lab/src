@@ -1,0 +1,55 @@
+---
+// Rosca a partir de pares [rótulo, valor]. Total no centro. Substitui _donut.
+import type { Pair } from '../lib/schema';
+interface Props {
+  data: Pair[];
+  centerLabel?: string;
+  colors?: string[];
+  max?: number;
+}
+const {
+  data,
+  centerLabel = '',
+  colors = ['var(--c1)', 'var(--c2)', 'var(--c3)', 'var(--c4)', 'var(--c5)', 'var(--c6)'],
+  max = 5,
+} = Astro.props;
+
+const rows = data.slice(0, max);
+const total = rows.reduce((s, [, v]) => s + v, 0) || 1;
+const R = 46, C = 2 * Math.PI * R;
+let acc = 0;
+const segs = rows.map(([label, value], i) => {
+  const frac = value / total;
+  const dash = frac * C;
+  const seg = { label, value, pct: Math.round(frac * 100), color: colors[i % colors.length], dash, offset: -acc * C };
+  acc += frac;
+  return seg;
+});
+---
+<div class="donut">
+  <svg viewBox="0 0 120 120" width="128" height="128" role="img" aria-label={`Rosca: ${centerLabel}`}>
+    <circle cx="60" cy="60" r="46" fill="none" stroke="var(--sunk)" stroke-width="16" />
+    {segs.map((s) => (
+      <circle
+        cx="60" cy="60" r="46" fill="none" stroke={s.color} stroke-width="16"
+        stroke-dasharray={`${s.dash} ${C - s.dash}`} stroke-dashoffset={s.offset}
+        transform="rotate(-90 60 60)"
+      />
+    ))}
+    <text x="60" y="56" text-anchor="middle" font-size="22" font-weight="700" fill="var(--text)" class="tnum">{total.toLocaleString('pt-BR')}</text>
+    <text x="60" y="72" text-anchor="middle" font-size="10" fill="var(--muted)">{centerLabel}</text>
+  </svg>
+  <ul class="lg">
+    {segs.map((s) => (
+      <li><i style={`background:${s.color}`}></i>{s.label}<b class="tnum">{s.value.toLocaleString('pt-BR')} · {s.pct}%</b></li>
+    ))}
+  </ul>
+</div>
+
+<style>
+  .donut { display: flex; align-items: center; gap: 20px; flex-wrap: wrap; }
+  .lg { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 9px; font-size: 13px; color: var(--text-2); }
+  .lg li { display: flex; align-items: center; gap: 7px; }
+  .lg i { width: 11px; height: 11px; border-radius: 3px; flex: none; }
+  .lg b { margin-left: auto; padding-left: 12px; color: var(--text); font-weight: 600; font-variant-numeric: tabular-nums; }
+</style>

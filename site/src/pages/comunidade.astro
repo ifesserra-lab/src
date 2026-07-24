@@ -1,0 +1,133 @@
+---
+import Base from '../layouts/Base.astro';
+import Tile from '../components/Tile.astro';
+import Section from '../components/Section.astro';
+import StackedBar from '../components/StackedBar.astro';
+import PairBar from '../components/PairBar.astro';
+import LineChart from '../components/LineChart.astro';
+import TableFilter from '../components/TableFilter.astro';
+import { getComunidade, getJornada } from '../lib/data';
+
+const c = getComunidade();
+const j = getJornada();
+const fmt = (n: number) => n.toLocaleString('pt-BR');
+
+// % de "Só beneficiário" entre os não-alunos (para o KPI).
+const soBenef = c.papel_nao.find((r) => String(r[0]).startsWith('Só benef'));
+const pctBenef = soBenef ? Number(soBenef[2]) : 0;
+
+// Papel na extensão — cores fixas do site atual (benef · executor · ambos).
+const papelNao: [string, number][] = c.papel_nao.map((r) => [String(r[0]), Number(r[1])]);
+const papelAlunos: [string, number][] = c.papel_alunos.map((r) => [String(r[0]), Number(r[1])]);
+const papelColors = ['#eda100', '#2a78d6', '#1baf7a'];
+
+// PairBars por % de não-alunos distintos.
+const clusterPct: [string, number][] = c.cluster_nao.map((r) => [String(r[0]), Number(r[2])]);
+const areaPct: [string, number][] = c.area_nao.map((r) => [String(r[0]), Number(r[2])]);
+const inicPct15: [string, number][] = c.top_inic_nao.slice(0, 15).map((r) => [String(r[0]), Number(r[2])]);
+---
+<Base title="Comunidade atendida" active="comunidade" description="O público não-aluno alcançado pelas ações de Extensão: papel, frentes temáticas, iniciativas e recorrência.">
+  <div class="wrap">
+    <p class="crumb">Páginas / <b>Comunidade</b></p>
+    <header>
+      <h1>Comunidade atendida pela extensão</h1>
+      <p class="sub">O público não-aluno alcançado pelas ações de Extensão: papel, frentes temáticas, iniciativas e recorrência. 'Não-aluno' = não consta como formado; casamento por nome — ressalvas de homônimo aplicam.</p>
+    </header>
+
+    <section class="tiles">
+      <Tile label="Não-alunos na extensão" value={fmt(c.n_nao)} hint={`${c.pct_nao}% do público`} color="var(--c1)" />
+      <Tile label="Só beneficiários" value={`${pctBenef}%`} hint="público-alvo, não equipe" color="var(--c2)" />
+      <Tile label="Em 1 só iniciativa" value={`${c.um_so_pct}%`} hint="contato pontual" color="var(--c4)" />
+      <Tile label="Alunos (formados)" value={fmt(j.publico.n_alunos)} hint="para comparação" color="var(--c5)" />
+    </section>
+
+    <Section
+      title="Papel na extensão: não-alunos × alunos"
+      desc="Quem é atendido (beneficiário) e quem executa (equipe)."
+      explica="Papel de cada pessoa: público-alvo (beneficiário), equipe de execução (executor) ou ambos. Não-aluno = não consta na planilha de formados (inclui comunidade externa, docentes/servidores e alunos ainda não formados)."
+    >
+      <div class="papel-bars">
+        <div>
+          <p class="barlab">Não-alunos · {fmt(c.n_nao)}</p>
+          <StackedBar data={papelNao} colors={papelColors} />
+        </div>
+        <div>
+          <p class="barlab">Alunos (formados) · {fmt(c.n_alunos)}</p>
+          <StackedBar data={papelAlunos} colors={papelColors} />
+        </div>
+      </div>
+
+      <div class="interp">
+        <p>Das <b>{fmt(c.n_pessoas)}</b> pessoas distintas em ações de Extensão, apenas <b>{fmt(c.n_alunos)}</b> constam como formado; as demais <b>{fmt(c.n_nao)}</b> (<b>{c.pct_nao}%</b>) são <b>não-alunos</b> — a comunidade atendida.</p>
+        <p>O papel se inverte: o não-aluno é sobretudo <b>beneficiário</b> (público-alvo), enquanto o aluno formado atua majoritariamente como <b>executor</b> (equipe).</p>
+        <p><b>{c.um_so_pct}%</b> dos não-alunos participam de <b>uma única</b> iniciativa — contato pontual, típico de público de evento/oficina.</p>
+        <p><i>Ressalva:</i> "não-aluno" = não consta na planilha de formados; inclui comunidade externa, docentes/servidores e alunos ainda não formados. Casamento por nome.</p>
+      </div>
+    </Section>
+
+    <Section
+      title="Frentes que mais atendem comunidade (cluster temático)"
+      desc="% de não-alunos distintos alcançados por cada cluster (uma pessoa pode aparecer em mais de um)."
+    >
+      <PairBar data={clusterPct} max={clusterPct.length} unit="%" color="var(--c1)" />
+    </Section>
+
+    <Section
+      title="Por área temática (PROEX)"
+      desc="% de não-alunos distintos por área temática principal declarada."
+    >
+      <PairBar data={areaPct} max={areaPct.length} unit="%" color="var(--c2)" />
+    </Section>
+
+    <Section
+      title="Iniciativas que mais atendem comunidade"
+      desc="Barras: 15 maiores. Tabela: todas as 73 iniciativas (% de não-alunos distintos; variantes de título mescladas)."
+    >
+      <PairBar data={inicPct15} max={inicPct15.length} unit="%" color="var(--c1)" />
+
+      <p class="tbl-cap">Todas as {fmt(c.top_inic_nao.length)} iniciativas</p>
+      <TableFilter placeholder="Filtrar iniciativas…" total={c.top_inic_nao.length} unidade="iniciativas">
+        <div class="tbl-wrap">
+          <table>
+            <thead><tr><th>Iniciativa</th><th class="n">Não-alunos</th><th class="n">% dos não-alunos</th></tr></thead>
+            <tbody>
+              {c.top_inic_nao.map((r) => (
+                <tr data-s={String(r[0])}>
+                  <td>{String(r[0])}</td>
+                  <td class="n tnum">{fmt(Number(r[1]))}</td>
+                  <td class="n tnum">{Number(r[2])}%</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </TableFilter>
+    </Section>
+
+    <Section
+      title="Recorrência: quantas iniciativas cada pessoa faz"
+      desc="A maioria participa de uma só ação — público de contato único (evento/oficina)."
+    >
+      <PairBar data={c.recorrencia} max={c.recorrencia.length} color="var(--c1)" />
+    </Section>
+
+    <Section
+      title="Novos não-alunos por ano (1ª participação)"
+      desc="Ano da primeira participação de cada não-aluno. Queda em 2020–2021 (pandemia) e recuperação a partir de 2022."
+    >
+      <LineChart data={c.por_ano_nao} id="pana" color="var(--c1)" />
+    </Section>
+  </div>
+</Base>
+
+<style>
+  header { margin-bottom: 2px; }
+  .papel-bars { display: flex; flex-direction: column; gap: 20px; }
+  .barlab { font-size: 13px; font-weight: 600; margin: 0 0 8px; color: var(--text); }
+  .interp { margin: 18px 0 4px; display: flex; flex-direction: column; gap: 9px; }
+  .interp p { margin: 0; font-size: 13.5px; color: var(--text-2); line-height: 1.6; max-width: 82ch; }
+  .interp b { color: var(--text); font-weight: 700; }
+  .interp i { font-style: italic; }
+  .tbl-cap { font-size: 13px; font-weight: 600; color: var(--text); margin: 20px 0 2px; }
+  .n { text-align: right; white-space: nowrap; }
+</style>

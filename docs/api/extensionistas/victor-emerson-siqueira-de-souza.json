@@ -22,6 +22,24 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2023",
+      "atividade_id": "17384",
+      "acao_id": "4830",
+      "atividade": "ConectaFapes: Uma plataforma de apoio à Pesquisa, Desenvolvimento e Inovação",
+      "pub": 66
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 66,
+  "impacto": 66,
+  "temas": [
+    {
+      "tema": "Saúde e bem-estar",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Paulo Sérgio dos Santos Júnior",

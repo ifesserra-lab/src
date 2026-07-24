@@ -1,0 +1,37 @@
+---
+// Treemap proporcional (larguras ∝ valor, quebra em telas estreitas).
+// PoC de F1; F2 troca por squarify real. Substitui _treemap.
+import type { Pair } from '../lib/schema';
+interface Props {
+  data: Pair[];
+  colors?: string[];
+  unit?: string;
+  max?: number;
+}
+const {
+  data,
+  colors = ['var(--c1)', 'var(--c2)', 'var(--c4)', 'var(--c3)', 'var(--c5)', 'var(--c6)'],
+  unit = '',
+  max = 9,
+} = Astro.props;
+const rows = data.slice(0, max);
+const total = rows.reduce((s, [, v]) => s + v, 0) || 1;
+---
+<div class="tm">
+  {rows.map(([label, value], i) => (
+    <a class="cell" style={`flex:${value};background:${colors[i % colors.length]}`}>
+      <span class="n">{label}</span>
+      <span class="m tnum">{value.toLocaleString('pt-BR')}{unit} · {Math.round((value / total) * 100)}%</span>
+    </a>
+  ))}
+</div>
+
+<style>
+  .tm { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 2px; }
+  .cell { min-width: 130px; min-height: 66px; border-radius: 8px; padding: 11px 13px; color: #fff;
+    display: flex; flex-direction: column; justify-content: flex-end; text-decoration: none; transition: filter .15s; }
+  .cell:hover { filter: brightness(1.06); }
+  .cell:focus-visible { outline: 2px solid #fff; outline-offset: -3px; }
+  .n { font-size: 13px; font-weight: 600; line-height: 1.15; }
+  .m { font-size: 11.5px; opacity: .85; font-variant-numeric: tabular-nums; }
+</style>

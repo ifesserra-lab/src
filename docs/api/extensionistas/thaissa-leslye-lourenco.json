@@ -22,6 +22,24 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2020",
+      "atividade_id": "22290",
+      "acao_id": "3140",
+      "atividade": "Ideathon do XXII Simpósio Brasileiro de Sistemas de Informação SBSI 2026",
+      "pub": 27
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 27,
+  "impacto": 27,
+  "temas": [
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Emmanuel Marques Silva",

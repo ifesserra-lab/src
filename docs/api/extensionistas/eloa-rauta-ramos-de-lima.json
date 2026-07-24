@@ -22,6 +22,31 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2018",
+      "atividade_id": "14467",
+      "acao_id": "2107",
+      "atividade": "Visita EMEF Jonas Farias 1",
+      "pub": 9
+    },
+    {
+      "ano": "2018",
+      "atividade_id": "14466",
+      "acao_id": "2107",
+      "atividade": "Visita EEEF Francisco Alves Mendes",
+      "pub": 65
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 74,
+  "impacto": 74,
+  "temas": [
+    {
+      "tema": "Captação e ingresso",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Wagner Kirmse Caldas",

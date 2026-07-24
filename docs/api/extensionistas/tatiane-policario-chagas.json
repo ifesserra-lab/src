@@ -136,6 +136,81 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2018",
+      "atividade_id": "6874",
+      "acao_id": "2082",
+      "atividade": "Mulheres na Ciência",
+      "pub": 17
+    },
+    {
+      "ano": "2019",
+      "atividade_id": "9225",
+      "acao_id": "2675",
+      "atividade": "Tutoria de Estudos Orientados: Compartilhando Saberes",
+      "pub": 5
+    },
+    {
+      "ano": "2019",
+      "atividade_id": "9562",
+      "acao_id": "2773",
+      "atividade": "Ambientação Pedagógica: Didática e Técnicas de Ensino.",
+      "pub": 6
+    },
+    {
+      "ano": "2022",
+      "atividade_id": "14474",
+      "acao_id": "4209",
+      "atividade": "ELETRICISTA INSTALADOR PREDIAL DE BAIXA TENSÃO",
+      "pub": 23
+    },
+    {
+      "ano": "2023",
+      "atividade_id": "20470",
+      "acao_id": "4820",
+      "atividade": "Mulheres Mil – Eletricista Instalador Predial em Baixa Tensão",
+      "pub": 20
+    },
+    {
+      "ano": "2023",
+      "atividade_id": "17244",
+      "acao_id": "4820",
+      "atividade": "Mulheres Mil – Eletricista Instalador Predial em Baixa Tensão",
+      "pub": 42
+    },
+    {
+      "ano": "2025",
+      "atividade_id": "19716",
+      "acao_id": "5357",
+      "atividade": "MULHERES MIL - Artesão em Bordado a mão",
+      "pub": 24
+    },
+    {
+      "ano": "2025",
+      "atividade_id": "20642",
+      "acao_id": "5645",
+      "atividade": "Asas para o Futuro - Eletricista Instalador Predial em Baixa Tensão",
+      "pub": 29
+    }
+  ],
+  "imp_coord": 115,
+  "imp_eq": 51,
+  "impacto": 166,
+  "temas": [
+    {
+      "tema": "Mulheres e inclusão",
+      "n": 8
+    },
+    {
+      "tema": "Escola e formação de professores",
+      "n": 1
+    },
+    {
+      "tema": "Empreendedorismo e incubação",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Bruno Ramos Gonzaga",

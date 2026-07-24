@@ -37,6 +37,42 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2018",
+      "atividade_id": "5638",
+      "acao_id": "1795",
+      "atividade": "ESPM-Empregos: Um serviço inteligente para promover a empregabilidade",
+      "pub": 0
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "10020",
+      "acao_id": "901",
+      "atividade": "Minicurso: Hacktoberfest LEDS",
+      "pub": 15
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "10019",
+      "acao_id": "901",
+      "atividade": "Palestra: Apresentação de Projetos LEDS",
+      "pub": 0
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 15,
+  "impacto": 15,
+  "temas": [
+    {
+      "tema": "Ciência e divulgação",
+      "n": 1
+    },
+    {
+      "tema": "Empreendedorismo e incubação",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Moisés Savedra Omena",

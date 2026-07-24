@@ -22,6 +22,24 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2022",
+      "atividade_id": "18724",
+      "acao_id": "4215",
+      "atividade": "Oficina de prototipação e validação de ideias",
+      "pub": 11
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 11,
+  "impacto": 11,
+  "temas": [
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Felipe Frechiani de Oliveira",

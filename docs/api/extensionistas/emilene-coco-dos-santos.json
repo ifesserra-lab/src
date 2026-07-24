@@ -31,6 +31,24 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2023",
+      "atividade_id": "16108",
+      "acao_id": "4659",
+      "atividade": "Atividades físicas adaptadas e inclusão (AFAI)",
+      "pub": 197
+    }
+  ],
+  "imp_coord": 197,
+  "imp_eq": 0,
+  "impacto": 197,
+  "temas": [
+    {
+      "tema": "Mulheres e inclusão",
+      "n": 2
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Yago Medeiros Barbosa",

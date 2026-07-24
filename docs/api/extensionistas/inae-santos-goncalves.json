@@ -22,6 +22,66 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2022",
+      "atividade_id": "19157",
+      "acao_id": "4033",
+      "atividade": "Captura de fotos de pimentas em diferentes estádios fenológicos de maturação - Etapa 3",
+      "pub": 0
+    },
+    {
+      "ano": "2022",
+      "atividade_id": "19160",
+      "acao_id": "4033",
+      "atividade": "Coleta de frutos para realização de análises químicas - Etapa 3",
+      "pub": 0
+    },
+    {
+      "ano": "2022",
+      "atividade_id": "19173",
+      "acao_id": "4033",
+      "atividade": "Participação em mentorias do Sebrae",
+      "pub": 0
+    },
+    {
+      "ano": "2022",
+      "atividade_id": "13927",
+      "acao_id": "4033",
+      "atividade": "Pink Pepper Qualifier: Determinação da qualidade produtiva dos frutos da Aroeira (Schinus terebinthifolius Raddi) usando Inteligência Computacional",
+      "pub": 0
+    },
+    {
+      "ano": "2022",
+      "atividade_id": "19176",
+      "acao_id": "4033",
+      "atividade": "Realização de análises cromatográficas de frutos",
+      "pub": 0
+    },
+    {
+      "ano": "2022",
+      "atividade_id": "19153",
+      "acao_id": "4033",
+      "atividade": "3ª viagem técnica à região do Nativo/SM para realização de entrevistas com produtores de pimenta rosa",
+      "pub": 0
+    },
+    {
+      "ano": "2022",
+      "atividade_id": "19172",
+      "acao_id": "4033",
+      "atividade": "Gravação de uma reportagem para o Jornal do Campo da TV Gazeta",
+      "pub": 0
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 0,
+  "impacto": 0,
+  "temas": [
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Fidelis Zanetti de Castro",

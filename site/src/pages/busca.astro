@@ -1,0 +1,17 @@
+---
+// busca.html no site atual = duplicata do home. Preserva a URL redirecionando p/ /.
+import { withBase } from '../lib/url';
+const home = withBase('/');
+---
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content={`0; url=${home}`} />
+    <link rel="canonical" href={home} />
+    <title>Buscar — SRC/Ifes Campus Serra</title>
+  </head>
+  <body>
+    <p>Redirecionando para a <a href={home}>busca</a>…</p>
+  </body>
+</html>

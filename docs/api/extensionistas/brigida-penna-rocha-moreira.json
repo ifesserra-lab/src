@@ -22,6 +22,24 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2019",
+      "atividade_id": "10559",
+      "acao_id": "2505",
+      "atividade": "Oficina de Sensibilização",
+      "pub": 19
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 19,
+  "impacto": 19,
+  "temas": [
+    {
+      "tema": "Cultura e arte",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Amarildo Mendes Lemos",

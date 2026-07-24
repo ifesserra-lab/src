@@ -34,6 +34,31 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2019",
+      "atividade_id": "8986",
+      "acao_id": "2600",
+      "atividade": "Sistema para predição de transtornos mentais comuns na atenção primária a saúde",
+      "pub": 0
+    },
+    {
+      "ano": "2022",
+      "atividade_id": "13982",
+      "acao_id": "4051",
+      "atividade": "SISTEMA PARA PREDIÇÃO DE TRANSTORNOS MENTAIS COMUNS NA ATENÇÃO PRIMÁRIA À SAÚDE III",
+      "pub": 7
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 7,
+  "impacto": 7,
+  "temas": [
+    {
+      "tema": "Saúde e bem-estar",
+      "n": 2
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Moisés Savedra Omena",

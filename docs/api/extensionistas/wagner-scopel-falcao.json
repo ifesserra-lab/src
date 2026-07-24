@@ -50,6 +50,81 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2018",
+      "atividade_id": "6874",
+      "acao_id": "2082",
+      "atividade": "Mulheres na Ciência",
+      "pub": 17
+    },
+    {
+      "ano": "2019",
+      "atividade_id": "10560",
+      "acao_id": "2505",
+      "atividade": "Oficina de Sensibilização",
+      "pub": 13
+    },
+    {
+      "ano": "2019",
+      "atividade_id": "10575",
+      "acao_id": "2505",
+      "atividade": "Ação Cineclubista \"O Silêncio dos Homens\"",
+      "pub": 3
+    },
+    {
+      "ano": "2019",
+      "atividade_id": "10576",
+      "acao_id": "2505",
+      "atividade": "Ação Cineclubista \"produção Polo 3\"",
+      "pub": 13
+    },
+    {
+      "ano": "2019",
+      "atividade_id": "8630",
+      "acao_id": "2505",
+      "atividade": "Circuito Audiovisual",
+      "pub": 0
+    },
+    {
+      "ano": "2019",
+      "atividade_id": "10568",
+      "acao_id": "2505",
+      "atividade": "Ateliê de Produção Audiovisual",
+      "pub": 12
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "18849",
+      "acao_id": "3140",
+      "atividade": "I Workshop de Formação sobre Mediação EaD – Curso de Tecnologia em Sistemas para Internet",
+      "pub": 22
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "18850",
+      "acao_id": "3140",
+      "atividade": "I Workshop de Formação sobre Mediação EaD – Curso de Tecnologia em Sistemas para Internet",
+      "pub": 32
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 112,
+  "impacto": 112,
+  "temas": [
+    {
+      "tema": "Mulheres e inclusão",
+      "n": 1
+    },
+    {
+      "tema": "Cultura e arte",
+      "n": 1
+    },
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Giordana dos Santos Sperandio",

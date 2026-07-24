@@ -22,6 +22,38 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2017",
+      "atividade_id": "3047",
+      "acao_id": "1116",
+      "atividade": "Comitê Gestor do Núcleo Incubador campus Serra do Ifes - NIS",
+      "pub": 0
+    },
+    {
+      "ano": "2017",
+      "atividade_id": "3045",
+      "acao_id": "1116",
+      "atividade": "Comitê Gestor do Núcleo Incubador campus Serra do Ifes - NIS",
+      "pub": 0
+    },
+    {
+      "ano": "2017",
+      "atividade_id": "3046",
+      "acao_id": "1116",
+      "atividade": "Comitê Gestor do Núcleo Incubador campus Serra do Ifes - NIS",
+      "pub": 0
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 0,
+  "impacto": 0,
+  "temas": [
+    {
+      "tema": "Empreendedorismo e incubação",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Francisco José Casarim Rapchan",

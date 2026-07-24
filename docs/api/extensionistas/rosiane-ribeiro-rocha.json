@@ -113,6 +113,165 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2020",
+      "atividade_id": "11183",
+      "acao_id": "3139",
+      "atividade": "IFES Contra a Covid-19",
+      "pub": 1
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "18721",
+      "acao_id": "3140",
+      "atividade": "Minicurso \"Introdução à Siderurgia\"",
+      "pub": 53
+    },
+    {
+      "ano": "2021",
+      "atividade_id": "12362",
+      "acao_id": "3567",
+      "atividade": "Laboratório IFMaker Serra: um ambiente colaborativo de aprendizagem e desenvolvimento de soluções",
+      "pub": 0
+    },
+    {
+      "ano": "2023",
+      "atividade_id": "17043",
+      "acao_id": "4655",
+      "atividade": "Minicurso \"Habitats de Inovação\"",
+      "pub": 16
+    },
+    {
+      "ano": "2023",
+      "atividade_id": "17046",
+      "acao_id": "4655",
+      "atividade": "Semana Nacional de Ciência e Tecnologia do IFES campus Serra",
+      "pub": 0
+    },
+    {
+      "ano": "2023",
+      "atividade_id": "17038",
+      "acao_id": "4655",
+      "atividade": "Oficina \"Introdução aos Sistemas Microcontrolados: uso do Arduino e ESP32\"",
+      "pub": 5
+    },
+    {
+      "ano": "2023",
+      "atividade_id": "17035",
+      "acao_id": "4655",
+      "atividade": "Palestra \"Robótica, Programação e Simulações: desenvolvendo o pensamento computacional nas aulas\"",
+      "pub": 80
+    },
+    {
+      "ano": "2023",
+      "atividade_id": "17041",
+      "acao_id": "4655",
+      "atividade": "Palestra \"Inovação Sustentável: A Jornada da Intechno\"",
+      "pub": 75
+    },
+    {
+      "ano": "2023",
+      "atividade_id": "17044",
+      "acao_id": "4655",
+      "atividade": "Palestra \" Crimes Cibernéticos e Cyberbullying no Brasil\"",
+      "pub": 34
+    },
+    {
+      "ano": "2023",
+      "atividade_id": "19697",
+      "acao_id": "4655",
+      "atividade": "SerraMaker: fomentando a cultura Maker no município da Serra",
+      "pub": 0
+    },
+    {
+      "ano": "2023",
+      "atividade_id": "19698",
+      "acao_id": "4655",
+      "atividade": "Construindo Juntos no LabMaker Serra: Uma proposta de Educação com Sustentabilidade",
+      "pub": 0
+    },
+    {
+      "ano": "2023",
+      "atividade_id": "17040",
+      "acao_id": "4655",
+      "atividade": "Palestra \"Prontualize, solução que promove bem-estar emocional e mental\"",
+      "pub": 28
+    },
+    {
+      "ano": "2023",
+      "atividade_id": "17045",
+      "acao_id": "4655",
+      "atividade": "Palestra \"Mulher de energia solar: MEGA SOLUÇÕES ENERGÉTICAS\"",
+      "pub": 46
+    },
+    {
+      "ano": "2023",
+      "atividade_id": "17042",
+      "acao_id": "4655",
+      "atividade": "Palestra \"A experiência de inclusão de biografias de pesquisadoras na Wikipédia\"",
+      "pub": 67
+    },
+    {
+      "ano": "2023",
+      "atividade_id": "17036",
+      "acao_id": "4655",
+      "atividade": "Oficina \"A Química do cérebro: ondas gamma e efeitos da dimetiltriptamina de plantas medicinais/ roda de chá com meditação\"",
+      "pub": 15
+    },
+    {
+      "ano": "2023",
+      "atividade_id": "17039",
+      "acao_id": "4655",
+      "atividade": "Palestra \"Incubadora de Empreendimentos: Instrumento para Empreendedorismo e Inovação\"",
+      "pub": 45
+    },
+    {
+      "ano": "2023",
+      "atividade_id": "17037",
+      "acao_id": "4655",
+      "atividade": "Oficina \"Pintura em pneus\"",
+      "pub": 9
+    },
+    {
+      "ano": "2024",
+      "atividade_id": "22201",
+      "acao_id": "5086",
+      "atividade": "II Torneio e Mostra Tecnológica de Robótica do Ifes - Campus Serra (TMTR)",
+      "pub": 112
+    },
+    {
+      "ano": "2025",
+      "atividade_id": "20613",
+      "acao_id": "5641",
+      "atividade": "LabMaker 4.0: capacitando professores para a cultura maker e tecnologias da Indústria 4.0",
+      "pub": 0
+    },
+    {
+      "ano": "2025",
+      "atividade_id": "20756",
+      "acao_id": "5677",
+      "atividade": "Jovens Inventores: O poder da Tecnologia Maker no Desenvolvimento Social",
+      "pub": 0
+    }
+  ],
+  "imp_coord": 18,
+  "imp_eq": 585,
+  "impacto": 603,
+  "temas": [
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 6
+    },
+    {
+      "tema": "Saúde e bem-estar",
+      "n": 2
+    },
+    {
+      "tema": "Mulheres e inclusão",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Richard Junior Manuel Godinez Tello",

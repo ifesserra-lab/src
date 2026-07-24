@@ -24,6 +24,24 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2020",
+      "atividade_id": "11183",
+      "acao_id": "3139",
+      "atividade": "IFES Contra a Covid-19",
+      "pub": 1
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 1,
+  "impacto": 1,
+  "temas": [
+    {
+      "tema": "Saúde e bem-estar",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Rosiane Ribeiro Rocha",

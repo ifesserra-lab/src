@@ -1,0 +1,189 @@
+---
+import Base from '../layouts/Base.astro';
+import Tile from '../components/Tile.astro';
+import Section from '../components/Section.astro';
+import Timeline from '../components/Timeline.astro';
+import Funnel from '../components/Funnel.astro';
+import LineChart from '../components/LineChart.astro';
+import PairBar from '../components/PairBar.astro';
+import StackedBar from '../components/StackedBar.astro';
+import StackedYear from '../components/StackedYear.astro';
+import TableFilter from '../components/TableFilter.astro';
+import { getJornada } from '../lib/data';
+
+const j = getJornada();
+const c = j.publico;
+const fmt = (n: number) => n.toLocaleString('pt-BR');
+
+// Linha do tempo média: 3 pontos em anos (ingresso → 1ª extensão → formatura).
+const linhaTempo: [string, number][] = [
+  ['Ingresso', 0],
+  ['1ª extensão', j.med_ing_ext],
+  ['Formatura', j.med_dur],
+];
+
+// Funil: formados → fizeram extensão → ativos após formar.
+const funil: [string, number][] = [
+  ['Formados', j.n_formados],
+  ['Fizeram extensão', j.com_ext],
+  ['Ativos após formar', j.apos_formar],
+];
+
+// Densidade da 1ª extensão ao longo do curso — decis 0% (ingresso) → 100% (formatura).
+const decisData: [string, number][] = j.decis.map((v, i) => [
+  `${Math.round((i / (j.decis.length - 1)) * 100)}%`,
+  v,
+]);
+
+// Público: papel na extensão (não-alunos × alunos formados). Cores fixas do site atual.
+const papelNao: [string, number][] = c.papel_nao.map((r) => [String(r[0]), Number(r[1])]);
+const papelAlunos: [string, number][] = c.papel_alunos.map((r) => [String(r[0]), Number(r[1])]);
+const papelColors = ['#eda100', '#2a78d6', '#1baf7a'];
+
+// Iniciativas com mais não-alunos (preview: 12 maiores).
+const inicTop = c.top_inic_nao.slice(0, 12);
+---
+<Base title="Jornada do formado" active="jornada" description="Do ingresso à formatura: quando os formados se envolveram com a extensão.">
+  <div class="wrap">
+    <p class="crumb">Páginas / <b>Jornada</b></p>
+    <header>
+      <h1>Jornada do formado na extensão</h1>
+      <p class="sub">Do ingresso (matrícula) à formatura: quando os formados se envolveram com a extensão. Cruzamento por nome — ressalvas de homônimo/semestre aplicam.</p>
+    </header>
+
+    <section class="tiles">
+      <Tile label="Formados analisados" value={fmt(j.n_formados)} color="var(--c1)" />
+      <Tile label="Fizeram extensão" value={fmt(j.com_ext)} hint={`${Math.round(j.pct_ext)}% dos formados`} color="var(--c2)" />
+      <Tile label="Ingresso → 1ª extensão" value={`${j.med_ing_ext.toFixed(1)} anos`} hint="mediana" color="var(--c4)" />
+      <Tile label="1ª extensão → formatura" value={`${j.med_ext_form.toFixed(1)} anos`} hint="mediana" color="var(--c5)" />
+      <Tile label="Voltaram após formar" value={fmt(j.apos_formar)} hint="vínculo de egresso" color="var(--cta)" />
+    </section>
+
+    <Section
+      title="Linha do tempo média"
+      desc="Percurso típico do formado: do ingresso à formatura, com a 1ª extensão no meio."
+      explica="Linha do tempo em escala pelas medianas: o ingresso (matrícula) na esquerda, a formatura na direita (curso ~4 anos) e o ponto médio em que os formados registram a primeira participação em extensão. O trecho colorido é o tempo típico até o primeiro contato com a extensão."
+    >
+      <Timeline data={linhaTempo} unit=" anos" />
+      <ul class="milestones">
+        <li><b>Ingresso</b><span>matrícula</span></li>
+        <li><b>1ª extensão</b><span>+{j.med_ing_ext.toFixed(1).replace('.', ',')} anos</span></li>
+        <li><b>Formatura</b><span>curso ~{Math.round(j.med_dur)} anos</span></li>
+      </ul>
+    </Section>
+
+    <Section
+      title="Funil da jornada"
+      desc="De todos os formados até os que seguem ativos após formar."
+      explica="Afunilamento: quantos dos formados chegaram a participar de extensão e, desses, quantos continuaram ativos como egressos (participação após a formatura). Mede alcance e retenção de longo prazo da extensão junto aos formados."
+    >
+      <Funnel data={funil} />
+    </Section>
+
+    <Section
+      title="Quando, na trajetória do curso, acontece a 1ª extensão"
+      desc="Densidade da primeira participação ao longo de 0% (ingresso) → 100% (formatura)."
+      explica="Distribui a primeira extensão pela posição relativa no curso (decis de 0% a 100% do período ingresso→formatura). Picos no começo indicam calouros engajados; picos no fim indicam envolvimento tardio (ex.: TCC/estágio). Considera só participações durante o curso — egressos entram no funil acima."
+    >
+      <LineChart data={decisData} id="decis" color="var(--c1)" />
+    </Section>
+
+    <Section
+      title="Quando o aluno entra na extensão (anos após ingresso)"
+      desc={`Duração mediana do curso (ingresso→formatura): ${j.med_dur.toFixed(1)} anos.`}
+      explica="Para cada formado que fez extensão, quantos anos depois de INGRESSAR no curso (lido da matrícula) ele registra a primeira participação em ação de Extensão. Distribuição bimodal (calouros vs. veteranos) aparece aqui."
+    >
+      <PairBar data={j.dist_ing_ext} max={j.dist_ing_ext.length} color="var(--c1)" />
+    </Section>
+
+    <Section
+      title="Adesão à extensão por curso"
+      desc="% de formados de cada curso que participaram de Extensão."
+    >
+      <PairBar data={j.por_curso} max={j.por_curso.length} unit="%" color="var(--c2)" />
+    </Section>
+
+    <Section
+      title="Em quais iniciativas os alunos entram, por ano após ingresso"
+      desc="Composição das iniciativas da 1ª extensão, ano a ano — barra 100% empilhada, texto do padrão e tabela completa com % por ano."
+      explica="Para cada formado que fez extensão, cruza o ano em que registrou a primeira participação (anos após o ingresso, lido da matrícula) com a AÇÃO de Extensão dessa participação. A barra mostra a fatia de cada iniciativa dentro do ano (soma 100%); a tabela traz todas as iniciativas com nº de alunos e % do ano. As 7 iniciativas mais frequentes recebem cor fixa; as demais entram em 'Outras'."
+    >
+      <StackedYear linhas={j.inic_por_ano} colCat="Iniciativa (1ª extensão)" unidade="Alunos" />
+    </Section>
+
+    <Section
+      title="Por cluster temático, por ano após ingresso"
+      desc="Mesma leitura, agrupando a 1ª extensão pelo cluster temático (derivado do título/resumo da ação)."
+      explica="Reagrupa a ação da 1ª extensão nos ~10 clusters temáticos inferidos do texto (título + resumo), em vez de por ação individual. Mostra em que FRENTE o aluno entra na extensão a cada ano. Barra soma 100% no ano."
+    >
+      <StackedYear linhas={j.clust_por_ano} colCat="Cluster temático" unidade="Alunos" />
+    </Section>
+
+    <Section
+      title="Por área temática (PROEX), por ano após ingresso"
+      desc="Mesma leitura, agrupando pela área temática principal declarada da ação."
+      explica="Reagrupa a ação da 1ª extensão pela Área temática principal (campo oficial da PROEX; ações sem preenchimento entram em 'Sem área'). Barra soma 100% no ano."
+    >
+      <StackedYear linhas={j.area_por_ano} colCat="Área temática" unidade="Alunos" />
+    </Section>
+
+    <Section
+      title="Público da extensão: alunos × não-alunos"
+      desc="96% das pessoas em extensão são não-alunos (comunidade atendida) — papel, iniciativas e recorrência."
+      explica="Compara quem participa da Extensão: pessoas que constam como formado (aluno) vs. as que não constam (não-aluno). Papel = se a pessoa aparece como público-alvo (beneficiário), equipe de execução (executor) ou ambos. A tabela lista as iniciativas com mais não-alunos distintos. Ressalva: 'não-aluno' = não consta na planilha de formados (inclui comunidade externa, docentes/servidores e alunos ainda não formados); casamento por nome pode ter homônimos."
+    >
+      <div class="papel-bars">
+        <div>
+          <p class="barlab">Não-alunos · {fmt(c.n_nao)}</p>
+          <StackedBar data={papelNao} colors={papelColors} />
+        </div>
+        <div>
+          <p class="barlab">Alunos (formados) · {fmt(c.n_alunos)}</p>
+          <StackedBar data={papelAlunos} colors={papelColors} />
+        </div>
+      </div>
+
+      <div class="interp">
+        <p>Das <b>{fmt(c.n_pessoas)}</b> pessoas distintas em ações de Extensão, apenas <b>{fmt(c.n_alunos)}</b> constam como formado; as demais <b>{fmt(c.n_nao)}</b> (<b>{c.pct_nao}%</b>) são <b>não-alunos</b> — a comunidade atendida.</p>
+        <p>O papel se inverte: o não-aluno é sobretudo <b>beneficiário</b> (público-alvo), enquanto o aluno formado atua majoritariamente como <b>executor</b> (equipe).</p>
+        <p><b>{c.um_so_pct}%</b> dos não-alunos participam de <b>uma única</b> iniciativa — contato pontual, típico de público de evento/oficina.</p>
+        <p><i>Ressalva:</i> "não-aluno" = não consta na planilha de formados; inclui comunidade externa, docentes/servidores e alunos ainda não formados. Casamento por nome.</p>
+      </div>
+
+      <p class="tbl-cap">Iniciativas com mais não-alunos distintos (12 maiores)</p>
+      <TableFilter placeholder="Filtrar iniciativas…" total={inicTop.length} unidade="iniciativas">
+        <div class="tbl-wrap">
+          <table>
+            <thead><tr><th>Iniciativa</th><th class="n">Não-alunos</th><th class="n">% dos não-alunos</th></tr></thead>
+            <tbody>
+              {inicTop.map((r) => (
+                <tr data-s={String(r[0])}>
+                  <td>{String(r[0])}</td>
+                  <td class="n tnum">{fmt(Number(r[1]))}</td>
+                  <td class="n tnum">{Number(r[2])}%</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </TableFilter>
+    </Section>
+  </div>
+</Base>
+
+<style>
+  header { margin-bottom: 2px; }
+  .milestones { list-style: none; margin: 10px 0 0; padding: 0; display: flex; flex-wrap: wrap;
+    justify-content: space-between; gap: 8px 20px; font-size: 12.5px; }
+  .milestones li { display: flex; flex-direction: column; gap: 1px; }
+  .milestones b { color: var(--text); font-weight: 600; }
+  .milestones span { color: var(--muted); }
+  .papel-bars { display: flex; flex-direction: column; gap: 20px; }
+  .barlab { font-size: 13px; font-weight: 600; margin: 0 0 8px; color: var(--text); }
+  .interp { margin: 18px 0 4px; display: flex; flex-direction: column; gap: 9px; }
+  .interp p { margin: 0; font-size: 13.5px; color: var(--text-2); line-height: 1.6; max-width: 82ch; }
+  .interp b { color: var(--text); font-weight: 700; }
+  .interp i { font-style: italic; }
+  .tbl-cap { font-size: 13px; font-weight: 600; color: var(--text); margin: 20px 0 2px; }
+  .n { text-align: right; white-space: nowrap; }
+</style>

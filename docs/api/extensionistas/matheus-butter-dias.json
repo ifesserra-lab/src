@@ -35,6 +35,49 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2020",
+      "atividade_id": "14032",
+      "acao_id": "3140",
+      "atividade": "Roadshow programas de inovação FINDESLAB",
+      "pub": 32
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "14031",
+      "acao_id": "3140",
+      "atividade": "Palestra empreendedorismo - da visão a ação",
+      "pub": 70
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "15049",
+      "acao_id": "3140",
+      "atividade": "visita técnica ao Enjoy Work Coworking",
+      "pub": 16
+    },
+    {
+      "ano": "2021",
+      "atividade_id": "11939",
+      "acao_id": "3423",
+      "atividade": "Programa Local Núcleo Incubador Campus Serra – NIS",
+      "pub": 0
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 118,
+  "impacto": 118,
+  "temas": [
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 1
+    },
+    {
+      "tema": "Empreendedorismo e incubação",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Vinícius Gomes Caetano",

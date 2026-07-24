@@ -22,6 +22,24 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2023",
+      "atividade_id": "16108",
+      "acao_id": "4659",
+      "atividade": "Atividades físicas adaptadas e inclusão (AFAI)",
+      "pub": 197
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 197,
+  "impacto": 197,
+  "temas": [
+    {
+      "tema": "Mulheres e inclusão",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Emilene Coco dos Santos",

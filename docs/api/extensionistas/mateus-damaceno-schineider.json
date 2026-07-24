@@ -22,6 +22,24 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2021",
+      "atividade_id": "15044",
+      "acao_id": "3423",
+      "atividade": "Pré-incubação – Capacitação para empreendedores inovadores",
+      "pub": 7
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 7,
+  "impacto": 7,
+  "temas": [
+    {
+      "tema": "Empreendedorismo e incubação",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Francisco José Casarim Rapchan",

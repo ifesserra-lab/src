@@ -1,0 +1,74 @@
+---
+import Base from '../../layouts/Base.astro';
+import Tile from '../../components/Tile.astro';
+import TableFilter from '../../components/TableFilter.astro';
+import { getAcoesIndex, getAcoes, getPainel, slugFor } from '../../lib/data';
+import { withBase } from '../../lib/url';
+
+const idx = getAcoesIndex();
+const p = getPainel();
+// Ordena por participações (desc) — espelha o "O que foi feito" do site atual.
+const acoes = [...idx].sort((a, b) => b.total_participacoes - a.total_participacoes);
+const fmt = (n: number) => n.toLocaleString('pt-BR');
+
+// Coordenadores(as) únicos entre as ações (bate com o site atual).
+const nCoordenadores = new Set(idx.map((a) => a.coordenador).filter(Boolean)).size;
+// Professores na execução = pessoas únicas com função contendo PROFESSOR.
+const professores = new Set<string>();
+for (const a of getAcoes())
+  for (const e of a.equipe)
+    if (e.funcoes.some((f) => f.toUpperCase().includes('PROFESSOR'))) professores.add(e.nome);
+const nProfessores = professores.size;
+
+// tipo → classe de pill (mesma semântica do site atual)
+function pillTipo(tipo: string): string {
+  const x = (tipo || '').toLowerCase();
+  const k = x.includes('curso') ? 'curso' : x.includes('programa') ? 'programa'
+    : x.includes('evento') ? 'evento' : x.includes('projeto') ? 'projeto' : 'outro';
+  return `pill tp-${k}`;
+}
+---
+<Base title="Ações" active="acoes" description="Resumo geral das ações de extensão e ensino registradas no SRC — Campus Serra.">
+  <div class="wrap">
+    <p class="crumb"><b>Ações</b></p>
+    <h1>O que foi feito — Campus Serra</h1>
+    <p class="sub">Resumo geral das ações de extensão e ensino registradas no SRC</p>
+
+    <div class="tiles" aria-label="Resumo geral">
+      <Tile label="Ações" value={fmt(p.visao_geral.n_acoes)} color="var(--c1)" />
+      <Tile label="Atividades" value={fmt(p.visao_geral.total_atividades)} color="var(--c2)" />
+      <Tile label="Participações de alunos" value={fmt(p.visao_geral.total_publico)} color="var(--c3)" />
+      <Tile label="Alunos únicos" value={fmt(p.indicadores.alunos_unicos)} color="var(--c4)" />
+      <Tile label="Coordenadores(as)" value={fmt(nCoordenadores)} color="var(--c5)" />
+      <Tile label="Professores na execução" value={fmt(nProfessores)} color="var(--c6)" />
+    </div>
+
+    <TableFilter placeholder="Filtrar por ação, coordenador(a), tipo ou ano..." total={acoes.length} unidade="ações">
+      <div class="card" style="margin-top:16px"><div class="tbl-wrap"><table>
+        <thead><tr><th>Ação</th><th>Tipo</th><th>Coordenador(a)</th><th class="n">Participações</th><th class="n">Ano</th></tr></thead>
+        <tbody>
+          {acoes.map((a) => {
+            const slug = slugFor(a.coordenador);
+            return (
+              <tr data-s={`${a.titulo} ${a.coordenador} ${a.tipo} ${a.ano}`}>
+                <td><a href={withBase(`/acoes/${a.acao_id}.html`)}>{a.titulo}</a></td>
+                <td><span class={pillTipo(a.tipo)}>{a.tipo}</span></td>
+                <td>
+                  {slug
+                    ? <a href={withBase(`/extensionistas/${slug}.html`)}>{a.coordenador}</a>
+                    : a.coordenador}
+                </td>
+                <td class="n tnum">{fmt(a.total_participacoes)}</td>
+                <td class="n"><span class="badge">{a.ano}</span></td>
+              </tr>
+            );
+          })}
+        </tbody>
+      </table></div></div>
+    </TableFilter>
+  </div>
+</Base>
+
+<style>
+  .n { text-align: right; white-space: nowrap; }
+</style>

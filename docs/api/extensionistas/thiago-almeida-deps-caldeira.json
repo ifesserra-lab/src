@@ -37,6 +37,49 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2024",
+      "atividade_id": "22201",
+      "acao_id": "5086",
+      "atividade": "II Torneio e Mostra Tecnológica de Robótica do Ifes - Campus Serra (TMTR)",
+      "pub": 112
+    },
+    {
+      "ano": "2026",
+      "atividade_id": "22251",
+      "acao_id": "5852",
+      "atividade": "Palestra promovida pelo LIEFIS: \"Compreendendo a Lei do Superendividamento\".",
+      "pub": 29
+    },
+    {
+      "ano": "2026",
+      "atividade_id": "22250",
+      "acao_id": "5852",
+      "atividade": "Palestra promovida pelo LIEFIS: \"Demandas emocionais e comportamentais no processo de endividamento\".",
+      "pub": 18
+    },
+    {
+      "ano": "2026",
+      "atividade_id": "22552",
+      "acao_id": "5852",
+      "atividade": "ESX 2026 – Espírito Santo Innovation Experience, evento de inovação, tecnologia e empreendedorismo, realizado em Vitória, Espírito Santo, e promovido pelo Sebrae/ES e pela Mobilização Capixaba pela Inovação (MCI)",
+      "pub": 0
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 159,
+  "impacto": 159,
+  "temas": [
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 1
+    },
+    {
+      "tema": "Mulheres e inclusão",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Luma Tavares Lopes de Souza",

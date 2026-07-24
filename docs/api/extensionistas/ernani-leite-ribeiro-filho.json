@@ -60,6 +60,53 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2018",
+      "atividade_id": "6874",
+      "acao_id": "2082",
+      "atividade": "Mulheres na Ciência",
+      "pub": 17
+    },
+    {
+      "ano": "2015",
+      "atividade_id": "923",
+      "acao_id": "542",
+      "atividade": "Programação Visual Criativa com Scratch",
+      "pub": 20
+    },
+    {
+      "ano": "2015",
+      "atividade_id": "1271",
+      "acao_id": "569",
+      "atividade": "Desafio Ifes de Negócios Socais",
+      "pub": 0
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "1545",
+      "acao_id": "718",
+      "atividade": "Programa Regular de Promoção da Cultura e da Arte no Ifes Campus Serra",
+      "pub": 1
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 38,
+  "impacto": 38,
+  "temas": [
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 2
+    },
+    {
+      "tema": "Mulheres e inclusão",
+      "n": 1
+    },
+    {
+      "tema": "Cultura e arte",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Alessandra Aguiar Vilarinho",

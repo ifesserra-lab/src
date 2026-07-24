@@ -1,0 +1,153 @@
+---
+import Base from '../layouts/Base.astro';
+import Tile from '../components/Tile.astro';
+import TreemapDrill from '../components/TreemapDrill.astro';
+import TableFilter from '../components/TableFilter.astro';
+import { getInvestimento, getInvestTreemap } from '../lib/data';
+import { withBase } from '../lib/url';
+
+const inv = getInvestimento();
+const tm = getInvestTreemap();
+const t = inv.totais;
+const cs = inv.criterio_status ?? {};
+const fmt = (n: number) => n.toLocaleString('pt-BR');
+
+// borda colorida por grupo de recomendação (mesma semântica do site atual)
+const corRec: Record<string, string> = { ok: 'var(--good)', cta: 'var(--cta)', s1: 'var(--c1)', warn: 'var(--warn)' };
+function pillTipo(tipo: string): string {
+  const x = (tipo || '').toLowerCase();
+  const k = x.includes('curso') ? 'curso' : x.includes('programa') ? 'programa'
+    : x.includes('evento') ? 'evento' : x.includes('projeto') ? 'projeto' : 'outro';
+  return `pill tp-${k}`;
+}
+const lim = inv.limites_impacto;
+---
+<Base title="Investimento" description="Iniciativas cruzadas por nicho, impacto (público) e status (ativa × dormente): onde aportar recurso e o que reativar." active="investimento">
+  <div class="wrap">
+    <p class="crumb">Páginas / <b>Investimento</b></p>
+    <h1>Onde investir e o que reativar</h1>
+    <p class="sub">Iniciativas cruzadas por nicho, impacto (público) e status (ativa × dormente): onde aportar recurso e quais ações paradas merecem incentivo para voltar. Régua de status relativa a {inv.ano_referencia}.</p>
+
+    <section class="tiles">
+      <Tile label="Iniciativas" value={fmt(t.iniciativas ?? 0)} hint="extensão + ensino" color="var(--c1)" />
+      <Tile label="Público atendido" value={fmt(t.publico ?? 0)} hint="registros de participação" color="var(--c2)" />
+      <Tile label="Ativas" value={fmt(t.ativas ?? 0)} hint={cs.ativa ?? 'última atividade recente'} color="var(--good)" />
+      <Tile label="Dormentes" value={fmt(t.dormentes ?? 0)} hint={cs.dormente ?? 'paradas há anos'} color="var(--cta)" />
+    </section>
+
+    <section class="card" style="margin-top:16px">
+      <h2>Para onde direcionar (leitura executiva)</h2>
+      <p class="sec-desc">Quatro movimentos, do maior retorno ao mais condicionado: escalar o que já puxa, reativar dormente barato, ocupar nicho vazio e destravar o que depende de convênio.</p>
+      <div class="recs">
+        {inv.recomendacoes.map((r) => (
+          <div class="rec" style={`border-left:4px solid ${corRec[r.cor] ?? 'var(--c1)'}`}>
+            <h2 style="font-size:15px">{r.grupo}</h2>
+            <p class="desc">{r.descricao}</p>
+            <ul>{r.exemplos.map((e) => (<li>{e}</li>))}</ul>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <section class="card" style="margin-top:16px">
+      <h2>Público por nicho × status</h2>
+      <p class="sec-desc">Cada bloco é um nicho (área ∝ público), subdividido por status (ativa / intermediária / dormente). Clique para abrir as iniciativas do nicho.</p>
+      <div style="margin-top:14px"><TreemapDrill payload={tm} height={420} /></div>
+    </section>
+
+    <section style="margin-top:26px">
+      <h2>Nicho × status</h2>
+      <div style="margin-top:12px">
+        <TableFilter placeholder="Filtrar por nicho..." total={inv.por_nicho.length} unidade="nichos">
+          <div class="tbl-wrap"><table>
+            <thead><tr><th>Nicho</th><th class="n">Ações</th><th class="n">Público</th><th class="n">Ativas (n · púb)</th><th class="n">Dormentes (n · púb)</th><th class="n">Meio</th></tr></thead>
+            <tbody>
+              {inv.por_nicho.map((n) => (
+                <tr data-s={n.nicho}>
+                  <td>{n.nicho}</td>
+                  <td class="n tnum">{fmt(n.iniciativas)}</td>
+                  <td class="n tnum">{fmt(n.publico)}</td>
+                  <td class="n tnum">{n.ativas} · {fmt(n.publico_ativo ?? 0)}</td>
+                  <td class="n tnum">{n.dormentes} · {fmt(n.publico_dormente ?? 0)}</td>
+                  <td class="n tnum">{fmt(n.intermediarias ?? 0)}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table></div>
+        </TableFilter>
+      </div>
+    </section>
+
+    <section style="margin-top:26px">
+      <h2>Ativas de maior impacto — merecem investimento</h2>
+      <div style="margin-top:12px">
+        <TableFilter placeholder="Filtrar por ação, nicho, tipo ou fomento..." total={inv.top_ativas.length} unidade="ações">
+          <div class="tbl-wrap"><table>
+            <thead><tr><th>Ação</th><th>Nicho</th><th>Tipo</th><th>Fomento</th><th class="n">Público</th><th class="n">Última</th></tr></thead>
+            <tbody>
+              {inv.top_ativas.map((a) => (
+                <tr data-s={`${a.titulo} ${a.nicho} ${a.tipo} ${a.fomento}`}>
+                  <td><a href={withBase(`/acoes/${a.acao_id}.html`)}>{a.titulo}</a></td>
+                  <td>{a.nicho}</td>
+                  <td><span class={pillTipo(a.tipo)}>{a.tipo}</span></td>
+                  <td>{a.fomento}</td>
+                  <td class="n tnum">{fmt(a.publico)}</td>
+                  <td class="n tnum">{a.ano_ultima}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table></div>
+        </TableFilter>
+      </div>
+    </section>
+
+    <section style="margin-top:26px">
+      <h2>Dormentes de maior impacto — merecem incentivo para reativar</h2>
+      <div style="margin-top:12px">
+        <TableFilter placeholder="Filtrar por ação, nicho, tipo ou fomento..." total={inv.top_dormentes.length} unidade="ações">
+          <div class="tbl-wrap"><table>
+            <thead><tr><th>Ação</th><th>Nicho</th><th>Tipo</th><th>Fomento</th><th class="n">Público (pico)</th><th class="n">Última</th></tr></thead>
+            <tbody>
+              {inv.top_dormentes.map((a) => (
+                <tr data-s={`${a.titulo} ${a.nicho} ${a.tipo} ${a.fomento}`}>
+                  <td><a href={withBase(`/acoes/${a.acao_id}.html`)}>{a.titulo}</a></td>
+                  <td>{a.nicho}</td>
+                  <td><span class={pillTipo(a.tipo)}>{a.tipo}</span></td>
+                  <td>{a.fomento}</td>
+                  <td class="n tnum">{fmt(a.publico)}</td>
+                  <td class="n tnum">{a.ano_ultima}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table></div>
+        </TableFilter>
+      </div>
+    </section>
+
+    {lim && (
+      <section class="card" style="margin-top:26px">
+        <h2>Nota: impacto que o número de público não captura</h2>
+        <p class="sec-desc" set:html={lim.texto} />
+        <p class="section-title" style="margin-top:16px">Como medir</p>
+        <ul class="medir">
+          {lim.sugestoes.map((s) => (<li><b>{s.titulo}.</b> {s.detalhe}</li>))}
+        </ul>
+        {lim.exemplos_subestimados && lim.exemplos_subestimados.length > 0 && (
+          <p class="sec-desc" style="margin-top:10px"><b>Exemplos subestimados:</b> {lim.exemplos_subestimados.join(' · ')}</p>
+        )}
+      </section>
+    )}
+  </div>
+</Base>
+
+<style>
+  .n { text-align: right; white-space: nowrap; }
+  .recs { display: grid; grid-template-columns: 1fr; gap: 12px; margin-top: 14px; }
+  @media (min-width: 720px) { .recs { grid-template-columns: 1fr 1fr; } }
+  .rec { background: var(--sunk); border-radius: var(--radius-sm); padding: 13px 15px; }
+  .rec h2 { margin: 0 0 6px; }
+  .rec .desc { margin: 0 0 8px; font-size: 13.5px; color: var(--text-2); }
+  .rec ul { margin: 0; padding-left: 18px; font-size: 13px; color: var(--text-2); display: flex; flex-direction: column; gap: 4px; }
+  .medir { margin: 8px 0 0; padding-left: 18px; font-size: 13.5px; color: var(--text-2); display: flex; flex-direction: column; gap: 8px; line-height: 1.5; }
+  @media (max-width: 620px) { th:nth-child(2), td:nth-child(2) { display: none; } }
+</style>

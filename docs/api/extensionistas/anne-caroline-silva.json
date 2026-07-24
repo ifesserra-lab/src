@@ -46,6 +46,42 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2018",
+      "atividade_id": "5720",
+      "acao_id": "1816",
+      "atividade": "Maratona de Programação",
+      "pub": 37
+    },
+    {
+      "ano": "2019",
+      "atividade_id": "7600",
+      "acao_id": "2193",
+      "atividade": "LifeBox: transporte e monitoramento de córnea de forma inteligente",
+      "pub": 0
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "2297",
+      "acao_id": "901",
+      "atividade": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+      "pub": 0
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 37,
+  "impacto": 37,
+  "temas": [
+    {
+      "tema": "Cultura e arte",
+      "n": 2
+    },
+    {
+      "tema": "Empreendedorismo e incubação",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Ana Rúbia Ramos Vicente",

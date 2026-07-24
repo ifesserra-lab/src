@@ -35,6 +35,35 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2020",
+      "atividade_id": "22289",
+      "acao_id": "3140",
+      "atividade": "XXII Simpósio Brasileiro de Sistemas de Informação SBSI 2026",
+      "pub": 0
+    },
+    {
+      "ano": "2025",
+      "atividade_id": "19716",
+      "acao_id": "5357",
+      "atividade": "MULHERES MIL - Artesão em Bordado a mão",
+      "pub": 24
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 24,
+  "impacto": 24,
+  "temas": [
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 1
+    },
+    {
+      "tema": "Mulheres e inclusão",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Emmanuel Marques Silva",

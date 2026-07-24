@@ -22,6 +22,31 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2023",
+      "atividade_id": "20747",
+      "acao_id": "4754",
+      "atividade": "Do Sensorial ao Tecnológico — Extração de Óleos Essenciais por Arraste a Vapor",
+      "pub": 24
+    },
+    {
+      "ano": "2023",
+      "atividade_id": "17146",
+      "acao_id": "4754",
+      "atividade": "Oficina de saboaria - segunda edição",
+      "pub": 15
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 39,
+  "impacto": 39,
+  "temas": [
+    {
+      "tema": "Mulheres e inclusão",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Nauvia Maria Cancelieri",

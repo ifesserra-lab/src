@@ -47,6 +47,42 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2017",
+      "atividade_id": "3053",
+      "acao_id": "1116",
+      "atividade": "Programa Local Núcleo Incubador Campus Serra – NIS",
+      "pub": 0
+    },
+    {
+      "ano": "2018",
+      "atividade_id": "5921",
+      "acao_id": "1883",
+      "atividade": "Inova Serra",
+      "pub": 0
+    },
+    {
+      "ano": "2015",
+      "atividade_id": "1271",
+      "acao_id": "569",
+      "atividade": "Desafio Ifes de Negócios Socais",
+      "pub": 0
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 0,
+  "impacto": 0,
+  "temas": [
+    {
+      "tema": "Empreendedorismo e incubação",
+      "n": 2
+    },
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Emmanuel Marques Silva",

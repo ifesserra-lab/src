@@ -62,6 +62,63 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2018",
+      "atividade_id": "5763",
+      "acao_id": "1834",
+      "atividade": "Sistema para predição de transtornos mentais comuns na atenção primária a saúde",
+      "pub": 0
+    },
+    {
+      "ano": "2018",
+      "atividade_id": "5788",
+      "acao_id": "1847",
+      "atividade": "Sistema de apoio para rastreio e geolocalização de transtornos mentais comuns na atenção primária a saúde",
+      "pub": 0
+    },
+    {
+      "ano": "2019",
+      "atividade_id": "8986",
+      "acao_id": "2600",
+      "atividade": "Sistema para predição de transtornos mentais comuns na atenção primária a saúde",
+      "pub": 0
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "2297",
+      "acao_id": "901",
+      "atividade": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+      "pub": 0
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "10343",
+      "acao_id": "901",
+      "atividade": "Expositor: Apresentação de Projetos do LEDS no Sebrae StartupSummit 2019",
+      "pub": 0
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "10019",
+      "acao_id": "901",
+      "atividade": "Palestra: Apresentação de Projetos LEDS",
+      "pub": 0
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 0,
+  "impacto": 0,
+  "temas": [
+    {
+      "tema": "Saúde e bem-estar",
+      "n": 3
+    },
+    {
+      "tema": "Empreendedorismo e incubação",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Moisés Savedra Omena",

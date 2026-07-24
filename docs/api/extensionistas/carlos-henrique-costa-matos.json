@@ -35,6 +35,31 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2020",
+      "atividade_id": "16970",
+      "acao_id": "3140",
+      "atividade": "Minicurso de Introdução à Programação com o Python 3",
+      "pub": 9
+    },
+    {
+      "ano": "2022",
+      "atividade_id": "17191",
+      "acao_id": "4034",
+      "atividade": "Oficina de Design Sprint",
+      "pub": 2
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 11,
+  "impacto": 11,
+  "temas": [
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 2
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Eduardo Alves Figueiredo",

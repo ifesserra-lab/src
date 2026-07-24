@@ -43,6 +43,35 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2018",
+      "atividade_id": "5720",
+      "acao_id": "1816",
+      "atividade": "Maratona de Programação",
+      "pub": 37
+    },
+    {
+      "ano": "2018",
+      "atividade_id": "5760",
+      "acao_id": "1831",
+      "atividade": "ALGolfSwing: Análise de Desempenho Esportivo para Golf",
+      "pub": 0
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 37,
+  "impacto": 37,
+  "temas": [
+    {
+      "tema": "Software, dados e sistemas",
+      "n": 2
+    },
+    {
+      "tema": "Cultura e arte",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Flavio Severiano Lamas de Souza",

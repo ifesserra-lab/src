@@ -37,6 +37,42 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2018",
+      "atividade_id": "6874",
+      "acao_id": "2082",
+      "atividade": "Mulheres na Ciência",
+      "pub": 17
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "22617",
+      "acao_id": "3140",
+      "atividade": "O Panorama da Computação Quântica: Dos Princípios às Perspectivas Futuras",
+      "pub": 48
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "22299",
+      "acao_id": "3140",
+      "atividade": "Atendimentos Personalizados e Monitorias de Extensão Tecnológica - área de Matemática, Cálculo e Física",
+      "pub": 9
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 74,
+  "impacto": 74,
+  "temas": [
+    {
+      "tema": "Mulheres e inclusão",
+      "n": 1
+    },
+    {
+      "tema": "Robótica e cultura maker",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Giordana dos Santos Sperandio",

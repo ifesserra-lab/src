@@ -49,6 +49,53 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2018",
+      "atividade_id": "6874",
+      "acao_id": "2082",
+      "atividade": "Mulheres na Ciência",
+      "pub": 17
+    },
+    {
+      "ano": "2019",
+      "atividade_id": "9895",
+      "acao_id": "2823",
+      "atividade": "I Am Here: Registro de Frequência por Reconhecimento Facial",
+      "pub": 0
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "2297",
+      "acao_id": "901",
+      "atividade": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+      "pub": 0
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "10343",
+      "acao_id": "901",
+      "atividade": "Expositor: Apresentação de Projetos do LEDS no Sebrae StartupSummit 2019",
+      "pub": 0
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 17,
+  "impacto": 17,
+  "temas": [
+    {
+      "tema": "Mulheres e inclusão",
+      "n": 1
+    },
+    {
+      "tema": "Software, dados e sistemas",
+      "n": 1
+    },
+    {
+      "tema": "Empreendedorismo e incubação",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Ana Rúbia Ramos Vicente",

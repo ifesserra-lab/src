@@ -66,6 +66,53 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2019",
+      "atividade_id": "7600",
+      "acao_id": "2193",
+      "atividade": "LifeBox: transporte e monitoramento de córnea de forma inteligente",
+      "pub": 0
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "1939",
+      "acao_id": "848",
+      "atividade": "Sistema de apoio para monitorar temperatura para preparaçãode caixas para transporte de órgão.",
+      "pub": 0
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "2297",
+      "acao_id": "901",
+      "atividade": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+      "pub": 0
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "2154",
+      "acao_id": "930",
+      "atividade": "Despertar da Força - Processos e Ferramentas para o Gerenciamento Ágil de Projetos: Uma Abordagem Prática",
+      "pub": 53
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 53,
+  "impacto": 53,
+  "temas": [
+    {
+      "tema": "Cultura e arte",
+      "n": 2
+    },
+    {
+      "tema": "Saúde e bem-estar",
+      "n": 1
+    },
+    {
+      "tema": "Empreendedorismo e incubação",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Paulo Sérgio dos Santos Júnior",

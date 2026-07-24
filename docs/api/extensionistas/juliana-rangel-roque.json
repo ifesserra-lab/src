@@ -22,6 +22,31 @@
       ]
     }
   ],
+  "atividades": [
+    {
+      "ano": "2016",
+      "atividade_id": "4850",
+      "acao_id": "718",
+      "atividade": "Ciclo de Conversas do NAC 2016 – Debates com o segundo sexo: Violência nos espaços urbanos e a vida das mulheres",
+      "pub": 0
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "4845",
+      "acao_id": "718",
+      "atividade": "Ciclo de Conversas do NAC 2016 – Redes Sociais: Crimes Digitais e cyberbullying",
+      "pub": 0
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 0,
+  "impacto": 0,
+  "temas": [
+    {
+      "tema": "Cultura e arte",
+      "n": 1
+    }
+  ],
   "colaboradores": [
     {
       "nome": "Ana Paula Klauck",

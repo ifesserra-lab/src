@@ -35,17 +35,6 @@
         "AUXILIAR TÉCNICO",
         "ORIENTADOR(A)"
       ]
-    },
-    {
-      "acao_id": "912",
-      "titulo": "Curso de Pré-Incubação de Empreendimentos – modalidade Residência",
-      "tipo": "Curso",
-      "ano": "2016",
-      "n": 21,
-      "pub": 3,
-      "funcoes": [
-        "ORIENTADOR(A)"
-      ]
     }
   ],
   "atividades": [
@@ -62,58 +51,36 @@
       "acao_id": "708",
       "atividade": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedoras",
       "pub": 15
-    },
-    {
-      "ano": "2016",
-      "atividade_id": "2127",
-      "acao_id": "912",
-      "atividade": "Curso de Pré-Incubação de Empreendimentos – modalidade Residência",
-      "pub": 3
     }
   ],
   "imp_coord": 0,
-  "imp_eq": 19,
-  "impacto": 19,
+  "imp_eq": 16,
+  "impacto": 16,
   "temas": [
     {
       "tema": "Empreendedorismo e incubação",
-      "n": 3
+      "n": 2
     }
   ],
   "colaboradores": [
     {
       "nome": "Emmanuel Marques Silva",
       "slug": "emmanuel-marques-silva",
-      "acoes_comuns": 3
+      "acoes_comuns": 2
     },
     {
       "nome": "Luis Henrique Rosado Torres",
       "slug": "luis-henrique-rosado-torres",
-      "acoes_comuns": 3
+      "acoes_comuns": 2
     },
     {
       "nome": "Flávio Barcelos Braz da Silva",
       "slug": "flavio-barcelos-braz-da-silva",
-      "acoes_comuns": 3
+      "acoes_comuns": 2
     },
     {
       "nome": "Karin Satie Komati",
       "slug": "karin-satie-komati",
-      "acoes_comuns": 3
-    },
-    {
-      "nome": "Felipe Frechiani de Oliveira",
-      "slug": "felipe-frechiani-de-oliveira",
-      "acoes_comuns": 3
-    },
-    {
-      "nome": "Marcos Simão Guimarães",
-      "slug": "marcos-simao-guimaraes",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Emerson Atílio Birchler",
-      "slug": "emerson-atilio-birchler",
       "acoes_comuns": 2
     },
     {
@@ -152,14 +119,19 @@
       "acoes_comuns": 2
     },
     {
+      "nome": "Felipe Frechiani de Oliveira",
+      "slug": "felipe-frechiani-de-oliveira",
+      "acoes_comuns": 2
+    },
+    {
       "nome": "Richard Junior Manuel Godinez Tello",
       "slug": "richard-junior-manuel-godinez-tello",
       "acoes_comuns": 2
     },
     {
-      "nome": "Wagner Teixeira da Costa",
-      "slug": "wagner-teixeira-da-costa",
-      "acoes_comuns": 2
+      "nome": "Marcos Simão Guimarães",
+      "slug": "marcos-simao-guimaraes",
+      "acoes_comuns": 1
     },
     {
       "nome": "Camila Braga Guimarães",
@@ -169,6 +141,11 @@
     {
       "nome": "Gilmar Luiz Vassoler",
       "slug": "gilmar-luiz-vassoler",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Emerson Atílio Birchler",
+      "slug": "emerson-atilio-birchler",
       "acoes_comuns": 1
     },
     {
@@ -234,6 +211,11 @@
     {
       "nome": "Cassius Zanetti Resende",
       "slug": "cassius-zanetti-resende",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Wagner Teixeira da Costa",
+      "slug": "wagner-teixeira-da-costa",
       "acoes_comuns": 1
     },
     {

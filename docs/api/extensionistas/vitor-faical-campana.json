@@ -15,7 +15,7 @@
       "titulo": "Conexão Ciência: Transformação Digital das Atividades do Centro de Ciência Educação e Cultura - Praça da Ciência",
       "tipo": "Projeto",
       "ano": "2025",
-      "n": 0,
+      "n": 4,
       "pub": 0
     }
   ],
@@ -46,11 +46,25 @@
   "impacto": 0,
   "temas": [
     {
+      "tema": "Saúde e bem-estar",
+      "n": 1
+    },
+    {
       "tema": "Robótica e cultura maker",
       "n": 1
     }
   ],
   "colaboradores": [
+    {
+      "nome": "Vivian Moreira Gomes de Lacerda",
+      "slug": "vivian-moreira-gomes-de-lacerda",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Luiz Felipe Elizeta dos Santos",
+      "slug": "luiz-felipe-elizeta-dos-santos",
+      "acoes_comuns": 2
+    },
     {
       "nome": "Emmanuel Marques Silva",
       "slug": "emmanuel-marques-silva",
@@ -404,16 +418,6 @@
     {
       "nome": "Jefferson Tatsu Komati Andrade",
       "slug": "jefferson-tatsu-komati-andrade",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Vivian Moreira Gomes de Lacerda",
-      "slug": "vivian-moreira-gomes-de-lacerda",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Luiz Felipe Elizeta dos Santos",
-      "slug": "luiz-felipe-elizeta-dos-santos",
       "acoes_comuns": 1
     },
     {
@@ -869,6 +873,16 @@
     {
       "nome": "Vinicius Prata Lima",
       "slug": "vinicius-prata-lima",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Gustavo de Paula Bonjardim",
+      "slug": "gustavo-de-paula-bonjardim",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "João Paulo Schaffel Bremenkamp",
+      "slug": "joao-paulo-schaffel-bremenkamp",
       "acoes_comuns": 1
     }
   ]

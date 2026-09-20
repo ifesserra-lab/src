@@ -44,9 +44,9 @@
     },
     {
       "ano": "2022",
-      "atividade_id": "19173",
+      "atividade_id": "19179",
       "acao_id": "4033",
-      "atividade": "Participação em mentorias do Sebrae",
+      "atividade": "Modelagem e implementação do banco de dados da solução Pink Pepper Qualifier - Etapa 2",
       "pub": 0
     },
     {
@@ -58,9 +58,16 @@
     },
     {
       "ano": "2022",
-      "atividade_id": "19174",
+      "atividade_id": "19173",
       "acao_id": "4033",
-      "atividade": "Implementação de algoritmos de redes neurais profundas voltadas para segmentação de imagens de pimenta rosa",
+      "atividade": "Participação em mentorias do Sebrae",
+      "pub": 0
+    },
+    {
+      "ano": "2022",
+      "atividade_id": "13927",
+      "acao_id": "4033",
+      "atividade": "Pink Pepper Qualifier: Determinação da qualidade produtiva dos frutos da Aroeira (Schinus terebinthifolius Raddi) usando Inteligência Computacional",
       "pub": 0
     },
     {
@@ -72,16 +79,9 @@
     },
     {
       "ano": "2022",
-      "atividade_id": "19179",
+      "atividade_id": "19174",
       "acao_id": "4033",
-      "atividade": "Modelagem e implementação do banco de dados da solução Pink Pepper Qualifier - Etapa 2",
-      "pub": 0
-    },
-    {
-      "ano": "2022",
-      "atividade_id": "13927",
-      "acao_id": "4033",
-      "atividade": "Pink Pepper Qualifier: Determinação da qualidade produtiva dos frutos da Aroeira (Schinus terebinthifolius Raddi) usando Inteligência Computacional",
+      "atividade": "Implementação de algoritmos de redes neurais profundas voltadas para segmentação de imagens de pimenta rosa",
       "pub": 0
     },
     {

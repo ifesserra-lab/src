@@ -1,16 +1,9 @@
 [
   {
-    "acao_id": "109",
-    "titulo": "Curso de Operador de Computador",
-    "tipo": "Curso",
-    "coordenador": "Elizangela Campos da Rosa Broetto",
-    "ano": "2013"
-  },
-  {
-    "acao_id": "1106",
-    "titulo": "Coral Musicante",
-    "tipo": "Curso",
-    "coordenador": "Ricardo Ramos Costa",
+    "acao_id": "1116",
+    "titulo": "Programa Local Núcleo Incubador Campus Serra – NIS",
+    "tipo": "Programa",
+    "coordenador": "Francisco José Casarim Rapchan",
     "ano": "2017"
   },
   {
@@ -18,6 +11,20 @@
     "titulo": "Let's Talk - oficina de conversação em inglês para o Técnico Integrado",
     "tipo": "Projeto",
     "coordenador": "Ana Paula Klauck",
+    "ano": "2017"
+  },
+  {
+    "acao_id": "1263",
+    "titulo": "Ciclo de estudos 2017/2 do Ifes campus Serra",
+    "tipo": "Evento",
+    "coordenador": "Gilmar Luiz Vassoler",
+    "ano": "2017"
+  },
+  {
+    "acao_id": "1406",
+    "titulo": "Curso de Pré-Incubação de Empreendimentos – modalidade Residência",
+    "tipo": "Curso",
+    "coordenador": "Felipe Frechiani de Oliveira",
     "ano": "2017"
   },
   {
@@ -56,6 +63,27 @@
     "ano": "2018"
   },
   {
+    "acao_id": "1702",
+    "titulo": "Ifes Portas Abertas",
+    "tipo": "Projeto",
+    "coordenador": "Wagner Kirmse Caldas",
+    "ano": "2018"
+  },
+  {
+    "acao_id": "1816",
+    "titulo": "Maratona de Programação",
+    "tipo": "Evento",
+    "coordenador": "Flavio Severiano Lamas de Souza",
+    "ano": "2018"
+  },
+  {
+    "acao_id": "1829",
+    "titulo": "Desenvolvimento de um sistema multiplataforma para robôs de assistência e manutenção de quadras esportivas",
+    "tipo": "Projeto",
+    "coordenador": "Richard Junior Manuel Godinez Tello",
+    "ano": "2018"
+  },
+  {
     "acao_id": "1831",
     "titulo": "ALGolfSwing: Análise de Desempenho Esportivo para Golf",
     "tipo": "Projeto",
@@ -63,10 +91,10 @@
     "ano": "2018"
   },
   {
-    "acao_id": "1847",
-    "titulo": "Sistema de apoio para rastreio e geolocalização de transtornos mentais comuns na atenção primária a saúde",
-    "tipo": "Projeto",
-    "coordenador": "Carlos Lins Borges Azevedo",
+    "acao_id": "1838",
+    "titulo": "LEDS – Laboratório de Extensão e Desenvolvimento de Soluções",
+    "tipo": "Programa",
+    "coordenador": "Felipe Frechiani de Oliveira",
     "ano": "2018"
   },
   {
@@ -81,13 +109,6 @@
     "titulo": "Nova plataforma NVIDIA para HPC e Inteligência Artificial (IA)",
     "tipo": "Projeto",
     "coordenador": "Paulo Sérgio dos Santos Júnior",
-    "ano": "2018"
-  },
-  {
-    "acao_id": "2021",
-    "titulo": "Física ao Alcance de Todos",
-    "tipo": "Projeto",
-    "coordenador": "Rosilene de Sá Ribeiro",
     "ano": "2018"
   },
   {
@@ -133,10 +154,10 @@
     "ano": "2019"
   },
   {
-    "acao_id": "2599",
-    "titulo": "Sistema de apoio para rastreio e geolocalização de transtornos mentais",
-    "tipo": "Projeto",
-    "coordenador": "Carlos Lins Borges Azevedo",
+    "acao_id": "2591",
+    "titulo": "O IFES é o meu lugar",
+    "tipo": "Curso",
+    "coordenador": "Paulo Cezar Camargo Guedes",
     "ano": "2019"
   },
   {
@@ -147,10 +168,10 @@
     "ano": "2019"
   },
   {
-    "acao_id": "2786",
-    "titulo": "My Pay: Um ERP em nuvem para foodtrucks",
-    "tipo": "Projeto",
-    "coordenador": "Felipe Frechiani de Oliveira",
+    "acao_id": "2783",
+    "titulo": "Informática Básica Para Agentes Multiplicadores.",
+    "tipo": "Curso",
+    "coordenador": "Bruno Cardoso Coutinho",
     "ano": "2019"
   },
   {
@@ -189,11 +210,25 @@
     "ano": "2020"
   },
   {
+    "acao_id": "3021",
+    "titulo": "Stone Connection",
+    "tipo": "Projeto",
+    "coordenador": "Moisés Savedra Omena",
+    "ano": "2020"
+  },
+  {
     "acao_id": "3139",
     "titulo": "IFES Contra a Covid-19",
     "tipo": "Projeto",
     "coordenador": "Rosiane Ribeiro Rocha",
     "ano": "2020"
+  },
+  {
+    "acao_id": "320",
+    "titulo": "Curso de Pré-Incubação para Empreendedores",
+    "tipo": "Curso",
+    "coordenador": "Emmanuel Marques Silva",
+    "ano": "2014"
   },
   {
     "acao_id": "3351",
@@ -215,6 +250,20 @@
     "tipo": "Programa",
     "coordenador": "Francisco José Casarim Rapchan",
     "ano": "2021"
+  },
+  {
+    "acao_id": "3431",
+    "titulo": "Lampex + empreendedor",
+    "tipo": "Projeto",
+    "coordenador": "Bruno Cardoso Coutinho",
+    "ano": "2021"
+  },
+  {
+    "acao_id": "350",
+    "titulo": "ISA SHOW ES 2014 - XIII Seminário e Exposição de Instrumentação, Sistemas, Elétrica e Automação",
+    "tipo": "Evento",
+    "coordenador": "Wagner Teixeira da Costa",
+    "ano": "2014"
   },
   {
     "acao_id": "3514",
@@ -242,6 +291,13 @@
     "titulo": "O povo preto realmente é livre?",
     "tipo": "Evento",
     "coordenador": "Lívia de Azevedo Silveira Rangel",
+    "ano": "2022"
+  },
+  {
+    "acao_id": "3757",
+    "titulo": "Oficina de Tutoria em Matemática",
+    "tipo": "Curso",
+    "coordenador": "Paulo Cezar Camargo Guedes",
     "ano": "2022"
   },
   {
@@ -301,13 +357,6 @@
     "ano": "2022"
   },
   {
-    "acao_id": "4215",
-    "titulo": "SprintLab - Laboratório de Prototipação Acelerada",
-    "tipo": "Programa",
-    "coordenador": "Felipe Frechiani de Oliveira",
-    "ano": "2022"
-  },
-  {
     "acao_id": "4308",
     "titulo": "Monitoria de Programação para Web",
     "tipo": "Prestação de Serviço",
@@ -329,17 +378,10 @@
     "ano": "2015"
   },
   {
-    "acao_id": "454",
-    "titulo": "Seminário dos Grupos de Pesquisa do Campus Serra",
-    "tipo": "Evento",
-    "coordenador": "Cristina Klippel Dominicini",
-    "ano": "2015"
-  },
-  {
-    "acao_id": "4617",
-    "titulo": "Projeto Expedição IFES",
-    "tipo": "Evento",
-    "coordenador": "Bene Regis Figueiredo",
+    "acao_id": "4597",
+    "titulo": "O IFES é o meu lugar",
+    "tipo": "Projeto",
+    "coordenador": "Augusto Cesar Machado Ramos",
     "ano": "2023"
   },
   {
@@ -350,10 +392,10 @@
     "ano": "2015"
   },
   {
-    "acao_id": "4659",
-    "titulo": "Atividades físicas adaptadas e inclusão (AFAI)",
-    "tipo": "Projeto",
-    "coordenador": "Emilene Coco dos Santos",
+    "acao_id": "4655",
+    "titulo": "LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão",
+    "tipo": "Programa",
+    "coordenador": "Gabriel Tozatto Zago",
     "ano": "2023"
   },
   {
@@ -368,6 +410,20 @@
     "titulo": "Letramento Tecnológico para Idosos",
     "tipo": "Projeto",
     "coordenador": "Marta Talitha Carvalho Freire Mendes",
+    "ano": "2023"
+  },
+  {
+    "acao_id": "4820",
+    "titulo": "Mulheres Mil – Eletricista Instalador Predial em Baixa Tensão",
+    "tipo": "Curso",
+    "coordenador": "Tatiane Policário Chagas",
+    "ano": "2023"
+  },
+  {
+    "acao_id": "4830",
+    "titulo": "ConectaFapes: Uma plataforma de apoio à Pesquisa, Desenvolvimento e Inovação",
+    "tipo": "Projeto",
+    "coordenador": "Paulo Sérgio dos Santos Júnior",
     "ano": "2023"
   },
   {
@@ -413,13 +469,6 @@
     "ano": "2024"
   },
   {
-    "acao_id": "5246",
-    "titulo": "Semana da Consciência Negra – IFES-Serra - 2024",
-    "tipo": "Evento",
-    "coordenador": "Amarildo Mendes Lemos",
-    "ano": "2024"
-  },
-  {
     "acao_id": "5258",
     "titulo": "Inclusão e Tecnologia: Robótica para Pessoas com Autismo no IFES Serra",
     "tipo": "Projeto",
@@ -431,13 +480,6 @@
     "titulo": "Parque Científico e Tecnológico do InovaSerra – PCTec InovaSerra",
     "tipo": "Programa",
     "coordenador": "Francisco José Casarim Rapchan",
-    "ano": "2025"
-  },
-  {
-    "acao_id": "5539",
-    "titulo": "Conexão Ciência: Transformação Digital das Atividades do Centro de Ciência Educação e Cultura - Praça da Ciência",
-    "tipo": "Projeto",
-    "coordenador": "Vitor Faiçal Campana",
     "ano": "2025"
   },
   {
@@ -504,20 +546,6 @@
     "ano": "2016"
   },
   {
-    "acao_id": "719",
-    "titulo": "Programação Visual Criativa com Scratch + Arduino",
-    "tipo": "Curso",
-    "coordenador": "Moisés Savedra Omena",
-    "ano": "2016"
-  },
-  {
-    "acao_id": "769",
-    "titulo": "Introdução a Metodologia LEDS",
-    "tipo": "Curso",
-    "coordenador": "Felipe Frechiani de Oliveira",
-    "ano": "2016"
-  },
-  {
     "acao_id": "847",
     "titulo": "Sistema de georreferenciamento e detecção de vibração e queda para implementação de uma caixa inteligente de transporte de órgãos.",
     "tipo": "Projeto",
@@ -525,17 +553,31 @@
     "ano": "2016"
   },
   {
-    "acao_id": "849",
-    "titulo": "Sistema para auxiliar a gestão da Produção Agropecuária capixaba",
-    "tipo": "Projeto",
-    "coordenador": "Moisés Savedra Omena",
+    "acao_id": "901",
+    "titulo": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+    "tipo": "Programa",
+    "coordenador": "Felipe Frechiani de Oliveira",
     "ano": "2016"
   },
   {
-    "acao_id": "899",
-    "titulo": "SEMANA DE CONTROLE E AUTOMAÇÃO",
-    "tipo": "Evento",
-    "coordenador": "Wallas Gusmão Thomas",
+    "acao_id": "902",
+    "titulo": "Introdução ao Arduino e Microcontroladores",
+    "tipo": "Curso",
+    "coordenador": "Richard Junior Manuel Godinez Tello",
+    "ano": "2016"
+  },
+  {
+    "acao_id": "912",
+    "titulo": "Curso de Pré-Incubação de Empreendimentos – modalidade Residência",
+    "tipo": "Curso",
+    "coordenador": "Emmanuel Marques Silva",
+    "ano": "2016"
+  },
+  {
+    "acao_id": "947",
+    "titulo": "Rede de Laboratórios de Educação em Desenvolvimento de Soluções - LEDS",
+    "tipo": "Programa em Rede",
+    "coordenador": "Victorio Albani de Carvalho",
     "ano": "2016"
   }
 ]

@@ -30,8 +30,8 @@
       "titulo": "ConectaFapes: Uma plataforma de apoio à Pesquisa, Desenvolvimento e Inovação",
       "tipo": "Projeto",
       "ano": "2023",
-      "n": 126,
-      "pub": 86
+      "n": 0,
+      "pub": 0
     },
     {
       "acao_id": "930",
@@ -121,14 +121,14 @@
       ]
     },
     {
-      "acao_id": "901",
-      "titulo": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
-      "tipo": "Programa",
+      "acao_id": "849",
+      "titulo": "Sistema para auxiliar a gestão da Produção Agropecuária capixaba",
+      "tipo": "Projeto",
       "ano": "2016",
-      "n": 104,
-      "pub": 22,
+      "n": 5,
+      "pub": 0,
       "funcoes": [
-        "COORDENADOR(A) ADJUNTO(A)"
+        "COLABORADOR(A)"
       ]
     },
     {
@@ -138,17 +138,6 @@
       "ano": "2016",
       "n": 68,
       "pub": 53,
-      "funcoes": [
-        "COORDENADOR(A)"
-      ]
-    },
-    {
-      "acao_id": "947",
-      "titulo": "Rede de Laboratórios de Educação em Desenvolvimento de Soluções - LEDS",
-      "tipo": "Programa em Rede",
-      "ano": "2016",
-      "n": 4,
-      "pub": 0,
       "funcoes": [
         "COORDENADOR(A)"
       ]
@@ -206,9 +195,9 @@
     },
     {
       "ano": "2016",
-      "atividade_id": "2297",
-      "acao_id": "901",
-      "atividade": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+      "atividade_id": "1940",
+      "acao_id": "849",
+      "atividade": "Sistema para auxiliar a gestão da Produção Agropecuária capixaba",
       "pub": 0
     },
     {
@@ -217,18 +206,11 @@
       "acao_id": "930",
       "atividade": "Despertar da Força - Processos e Ferramentas para o Gerenciamento Ágil de Projetos: Uma Abordagem Prática",
       "pub": 53
-    },
-    {
-      "ano": "2016",
-      "atividade_id": "2286",
-      "acao_id": "947",
-      "atividade": "Rede de Laboratórios de Educação em Desenvolvimento de Soluções - LEDS",
-      "pub": 0
     }
   ],
-  "imp_coord": 139,
+  "imp_coord": 53,
   "imp_eq": 16,
-  "impacto": 155,
+  "impacto": 69,
   "temas": [
     {
       "tema": "Cultura e arte",
@@ -239,36 +221,31 @@
       "n": 3
     },
     {
-      "tema": "Saúde e bem-estar",
-      "n": 2
-    },
-    {
-      "tema": "Empreendedorismo e incubação",
-      "n": 2
-    },
-    {
       "tema": "Ciência e divulgação",
       "n": 1
     },
     {
       "tema": "Robótica e cultura maker",
       "n": 1
+    },
+    {
+      "tema": "Empreendedorismo e incubação",
+      "n": 1
+    },
+    {
+      "tema": "Saúde e bem-estar",
+      "n": 1
     }
   ],
   "colaboradores": [
-    {
-      "nome": "Rodrigo Fernandes Calhau",
-      "slug": "rodrigo-fernandes-calhau",
-      "acoes_comuns": 5
-    },
     {
       "nome": "Moisés Savedra Omena",
       "slug": "moises-savedra-omena",
       "acoes_comuns": 4
     },
     {
-      "nome": "Lucas Gomes Flegler",
-      "slug": "lucas-gomes-flegler",
+      "nome": "Rodrigo Fernandes Calhau",
+      "slug": "rodrigo-fernandes-calhau",
       "acoes_comuns": 3
     },
     {
@@ -277,93 +254,23 @@
       "acoes_comuns": 3
     },
     {
-      "nome": "Felipe Frechiani de Oliveira",
-      "slug": "felipe-frechiani-de-oliveira",
-      "acoes_comuns": 3
-    },
-    {
-      "nome": "Carlos Lins Borges Azevedo",
-      "slug": "carlos-lins-borges-azevedo",
-      "acoes_comuns": 3
-    },
-    {
-      "nome": "Flávio Lopes da Silva",
-      "slug": "flavio-lopes-da-silva",
-      "acoes_comuns": 3
-    },
-    {
       "nome": "Maria Luiza Guimaraes Silva",
       "slug": "maria-luiza-guimaraes-silva",
       "acoes_comuns": 2
     },
     {
-      "nome": "Helen França Medeiros",
-      "slug": "helen-franca-medeiros",
+      "nome": "Lucas Gomes Flegler",
+      "slug": "lucas-gomes-flegler",
       "acoes_comuns": 2
     },
     {
-      "nome": "Magno Macedo de Oliveira",
-      "slug": "magno-macedo-de-oliveira",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Icaro Duarte Gavazza Lima",
-      "slug": "icaro-duarte-gavazza-lima",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Gary Moura da Silva",
-      "slug": "gary-moura-da-silva",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Tarcisio Bruni Rangel",
-      "slug": "tarcisio-bruni-rangel",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Marcos Antonio Carneiro de Paula",
-      "slug": "marcos-antonio-carneiro-de-paula",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "David Pantaleão Vilaça",
-      "slug": "david-pantaleao-vilaca",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Paulo Ricardo Viana Ferreira",
-      "slug": "paulo-ricardo-viana-ferreira",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Matheus Kleber Rodrigues Barbosa",
-      "slug": "matheus-kleber-rodrigues-barbosa",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Jennifer Camille Gomes Duarte",
-      "slug": "jennifer-camille-gomes-duarte",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Ivana Amorim Julião",
-      "slug": "ivana-amorim-juliao",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Walber Antonio Ramos Beltrame",
-      "slug": "walber-antonio-ramos-beltrame",
+      "nome": "Felipe Frechiani de Oliveira",
+      "slug": "felipe-frechiani-de-oliveira",
       "acoes_comuns": 2
     },
     {
       "nome": "Emmanuel Marques Silva",
       "slug": "emmanuel-marques-silva",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Marcos Vinícius Forecchi Accioly",
-      "slug": "marcos-vinicius-forecchi-accioly",
       "acoes_comuns": 2
     },
     {
@@ -377,13 +284,13 @@
       "acoes_comuns": 2
     },
     {
-      "nome": "Ana Rúbia Ramos Vicente",
-      "slug": "ana-rubia-ramos-vicente",
+      "nome": "Carlos Lins Borges Azevedo",
+      "slug": "carlos-lins-borges-azevedo",
       "acoes_comuns": 2
     },
     {
-      "nome": "André Spadetto Leão",
-      "slug": "andre-spadetto-leao",
+      "nome": "Flávio Lopes da Silva",
+      "slug": "flavio-lopes-da-silva",
       "acoes_comuns": 2
     },
     {
@@ -397,63 +304,68 @@
       "acoes_comuns": 1
     },
     {
+      "nome": "Helen França Medeiros",
+      "slug": "helen-franca-medeiros",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Magno Macedo de Oliveira",
+      "slug": "magno-macedo-de-oliveira",
+      "acoes_comuns": 1
+    },
+    {
       "nome": "David de Moura Marques",
       "slug": "david-de-moura-marques",
       "acoes_comuns": 1
     },
     {
-      "nome": "Paulo Henrique Freitas",
-      "slug": "paulo-henrique-freitas",
+      "nome": "Icaro Duarte Gavazza Lima",
+      "slug": "icaro-duarte-gavazza-lima",
       "acoes_comuns": 1
     },
     {
-      "nome": "Arthur Cremasco Amaral",
-      "slug": "arthur-cremasco-amaral",
+      "nome": "Gary Moura da Silva",
+      "slug": "gary-moura-da-silva",
       "acoes_comuns": 1
     },
     {
-      "nome": "Victor Emerson Siqueira de Souza",
-      "slug": "victor-emerson-siqueira-de-souza",
+      "nome": "Tarcisio Bruni Rangel",
+      "slug": "tarcisio-bruni-rangel",
       "acoes_comuns": 1
     },
     {
-      "nome": "Emanuel Hoffmann Sperandio Cott",
-      "slug": "emanuel-hoffmann-sperandio-cott",
+      "nome": "Marcos Antonio Carneiro de Paula",
+      "slug": "marcos-antonio-carneiro-de-paula",
       "acoes_comuns": 1
     },
     {
-      "nome": "Isabella Bissoli",
-      "slug": "isabella-bissoli",
+      "nome": "David Pantaleão Vilaça",
+      "slug": "david-pantaleao-vilaca",
       "acoes_comuns": 1
     },
     {
-      "nome": "Ruan Rody de Melo da Costa",
-      "slug": "ruan-rody-de-melo-da-costa",
+      "nome": "Paulo Ricardo Viana Ferreira",
+      "slug": "paulo-ricardo-viana-ferreira",
       "acoes_comuns": 1
     },
     {
-      "nome": "André Luiz Coelho Silva",
-      "slug": "andre-luiz-coelho-silva",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Vinícius de Jesus Estevam",
-      "slug": "vinicius-de-jesus-estevam",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Bruno Carvalho Caxias",
-      "slug": "bruno-carvalho-caxias",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Marcela Starling Ferreira Lage",
-      "slug": "marcela-starling-ferreira-lage",
+      "nome": "Matheus Kleber Rodrigues Barbosa",
+      "slug": "matheus-kleber-rodrigues-barbosa",
       "acoes_comuns": 1
     },
     {
       "nome": "André Silva Aguiar",
       "slug": "andre-silva-aguiar",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Jennifer Camille Gomes Duarte",
+      "slug": "jennifer-camille-gomes-duarte",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Ivana Amorim Julião",
+      "slug": "ivana-amorim-juliao",
       "acoes_comuns": 1
     },
     {
@@ -587,8 +499,18 @@
       "acoes_comuns": 1
     },
     {
+      "nome": "Walber Antonio Ramos Beltrame",
+      "slug": "walber-antonio-ramos-beltrame",
+      "acoes_comuns": 1
+    },
+    {
       "nome": "Aurélia Hubner Peixouto",
       "slug": "aurelia-hubner-peixouto",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Marcos Vinícius Forecchi Accioly",
+      "slug": "marcos-vinicius-forecchi-accioly",
       "acoes_comuns": 1
     },
     {
@@ -604,6 +526,11 @@
     {
       "nome": "Kamila Maria Vieira Pralon",
       "slug": "kamila-maria-vieira-pralon",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Ana Rúbia Ramos Vicente",
+      "slug": "ana-rubia-ramos-vicente",
       "acoes_comuns": 1
     },
     {
@@ -682,6 +609,11 @@
       "acoes_comuns": 1
     },
     {
+      "nome": "André Spadetto Leão",
+      "slug": "andre-spadetto-leao",
+      "acoes_comuns": 1
+    },
+    {
       "nome": "Antonione da Silva Mascarenhas Pinho",
       "slug": "antonione-da-silva-mascarenhas-pinho",
       "acoes_comuns": 1
@@ -694,121 +626,6 @@
     {
       "nome": "Irisson Junio Máximo Borges",
       "slug": "irisson-junio-maximo-borges",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Sarah Silva Ferreira",
-      "slug": "sarah-silva-ferreira",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Olavo Jose Ferreira Curatola",
-      "slug": "olavo-jose-ferreira-curatola",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Rafaela Amorim Pessin",
-      "slug": "rafaela-amorim-pessin",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Andreângelo da Paixão Patuzzo",
-      "slug": "andreangelo-da-paixao-patuzzo",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Rafael Afonso dos Anjos",
-      "slug": "rafael-afonso-dos-anjos",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Ana Carolina Cebin Pereira",
-      "slug": "ana-carolina-cebin-pereira",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Joel Will Belmiro",
-      "slug": "joel-will-belmiro",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Renato de Sant'anna Lopes",
-      "slug": "renato-de-sant-anna-lopes",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Icaro Gandine Fialho Weiler",
-      "slug": "icaro-gandine-fialho-weiler",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Eduardo Couto Rodrigues",
-      "slug": "eduardo-couto-rodrigues",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Gustavo Matozinho Lima",
-      "slug": "gustavo-matozinho-lima",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Anne Caroline Silva",
-      "slug": "anne-caroline-silva",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Marlon Woelffel Candoti",
-      "slug": "marlon-woelffel-candoti",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Diego Pasti",
-      "slug": "diego-pasti",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Renan Costa Nascimento",
-      "slug": "renan-costa-nascimento",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Phillipe Alcantara Fonseca Lopes",
-      "slug": "phillipe-alcantara-fonseca-lopes",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Marcos Aurélio Melo Dias",
-      "slug": "marcos-aurelio-melo-dias",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Lucas Caetano Possatti",
-      "slug": "lucas-caetano-possatti",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Laíssa Gasperazzo",
-      "slug": "laissa-gasperazzo",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Breno Sampaio Grillo",
-      "slug": "breno-sampaio-grillo",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Brendon Mauro",
-      "slug": "brendon-mauro",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Flávio Giraldeli Bianca",
-      "slug": "flavio-giraldeli-bianca",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Fabiano Borges Ruy",
-      "slug": "fabiano-borges-ruy",
       "acoes_comuns": 1
     },
     {
@@ -874,11 +691,6 @@
     {
       "nome": "Andréia Sias Rodrigues",
       "slug": "andreia-sias-rodrigues",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Victorio Albani de Carvalho",
-      "slug": "victorio-albani-de-carvalho",
       "acoes_comuns": 1
     }
   ]

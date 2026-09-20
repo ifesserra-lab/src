@@ -14,47 +14,8 @@
   "Data de cadastro": "02/12/2016",
   "Resumo": "Atualmente há uma falta de experiencia e vivencia por parte dos alunos e professores na resolução de probelmas reais.",
   "Campus": "Serra",
-  "total_participacoes": 4,
+  "total_participacoes": 0,
   "publico_alvo_total": 0,
-  "atividades": [
-    {
-      "atividade_id": "2286",
-      "numero": "001",
-      "atividade": "Rede de Laboratórios de Educação em Desenvolvimento de Soluções - LEDS",
-      "publico": 0,
-      "aprovados": 0,
-      "certificados": 0,
-      "equipe": 4
-    }
-  ],
-  "equipe_execucao": [
-    {
-      "nome": "Paulo Sérgio dos Santos Júnior",
-      "funcoes": [
-        "COORDENADOR(A)"
-      ],
-      "vinculo": "Servidor"
-    },
-    {
-      "nome": "Rodrigo Fernandes Calhau",
-      "funcoes": [
-        "AUXILIAR TÉCNICO"
-      ],
-      "vinculo": "Servidor"
-    },
-    {
-      "nome": "Victorio Albani de Carvalho",
-      "funcoes": [
-        "COORDENADOR(A)"
-      ],
-      "vinculo": "Servidor"
-    },
-    {
-      "nome": "Walber Antonio Ramos Beltrame",
-      "funcoes": [
-        "COORDENADOR(A) ADJUNTO(A)"
-      ],
-      "vinculo": "Servidor"
-    }
-  ]
+  "atividades": [],
+  "equipe_execucao": []
 }

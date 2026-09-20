@@ -32,6 +32,13 @@
     },
     {
       "ano": "2020",
+      "atividade_id": "19899",
+      "acao_id": "3140",
+      "atividade": "Site Responsivo Institucional do InovaSerra (Produto)",
+      "pub": 0
+    },
+    {
+      "ano": "2020",
       "atividade_id": "19900",
       "acao_id": "3140",
       "atividade": "Apresentação do Lampex na Jornada de Integração do Ifes",
@@ -43,13 +50,6 @@
       "acao_id": "3140",
       "atividade": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
       "pub": 2
-    },
-    {
-      "ano": "2020",
-      "atividade_id": "19899",
-      "acao_id": "3140",
-      "atividade": "Site Responsivo Institucional do InovaSerra (Produto)",
-      "pub": 0
     }
   ],
   "imp_coord": 0,

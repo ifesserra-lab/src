@@ -1,0 +1,65 @@
+{
+  "slug": "gustavo-de-paula-bonjardim",
+  "nome": "Gustavo de Paula Bonjardim",
+  "resumo_ia": null,
+  "anos": [
+    "2025"
+  ],
+  "funcoes": [
+    "ALUNO(A) BOLSISTA"
+  ],
+  "acoes_coordenadas": [],
+  "participacoes_equipe": [
+    {
+      "acao_id": "5539",
+      "titulo": "Conexão Ciência: Transformação Digital das Atividades do Centro de Ciência Educação e Cultura - Praça da Ciência",
+      "tipo": "Projeto",
+      "ano": "2025",
+      "n": 4,
+      "pub": 0,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ]
+    }
+  ],
+  "atividades": [
+    {
+      "ano": "2025",
+      "atividade_id": "20290",
+      "acao_id": "5539",
+      "atividade": "Conexão Ciência: Transformação Digital das Atividades do Centro de Ciência Educação e Cultura - Praça da Ciência",
+      "pub": 0
+    }
+  ],
+  "imp_coord": 0,
+  "imp_eq": 0,
+  "impacto": 0,
+  "temas": [
+    {
+      "tema": "Saúde e bem-estar",
+      "n": 1
+    }
+  ],
+  "colaboradores": [
+    {
+      "nome": "Vitor Faiçal Campana",
+      "slug": "vitor-faical-campana",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "João Paulo Schaffel Bremenkamp",
+      "slug": "joao-paulo-schaffel-bremenkamp",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Luiz Felipe Elizeta dos Santos",
+      "slug": "luiz-felipe-elizeta-dos-santos",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Vivian Moreira Gomes de Lacerda",
+      "slug": "vivian-moreira-gomes-de-lacerda",
+      "acoes_comuns": 1
+    }
+  ]
+}

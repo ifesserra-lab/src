@@ -33,7 +33,7 @@
       "titulo": "Rede de Laboratórios de Educação em Desenvolvimento de Soluções - LEDS",
       "tipo": "Programa em Rede",
       "ano": "2016",
-      "n": 4,
+      "n": 0,
       "pub": 0
     }
   ],
@@ -48,17 +48,6 @@
       "funcoes": [
         "COORDENADOR(A)",
         "PROFESSOR(A)"
-      ]
-    },
-    {
-      "acao_id": "947",
-      "titulo": "Rede de Laboratórios de Educação em Desenvolvimento de Soluções - LEDS",
-      "tipo": "Programa em Rede",
-      "ano": "2016",
-      "n": 4,
-      "pub": 0,
-      "funcoes": [
-        "COORDENADOR(A)"
       ]
     }
   ],
@@ -76,13 +65,6 @@
       "acao_id": "4210",
       "atividade": "Operador de Computador",
       "pub": 17
-    },
-    {
-      "ano": "2016",
-      "atividade_id": "2286",
-      "acao_id": "947",
-      "atividade": "Rede de Laboratórios de Educação em Desenvolvimento de Soluções - LEDS",
-      "pub": 0
     }
   ],
   "imp_coord": 17,
@@ -91,7 +73,7 @@
   "temas": [
     {
       "tema": "Cultura e arte",
-      "n": 4
+      "n": 2
     }
   ],
   "colaboradores": [
@@ -103,21 +85,6 @@
     {
       "nome": "David de Assis",
       "slug": "david-de-assis",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Walber Antonio Ramos Beltrame",
-      "slug": "walber-antonio-ramos-beltrame",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Rodrigo Fernandes Calhau",
-      "slug": "rodrigo-fernandes-calhau",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Paulo Sérgio dos Santos Júnior",
-      "slug": "paulo-sergio-dos-santos-junior",
       "acoes_comuns": 1
     }
   ]

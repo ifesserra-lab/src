@@ -49,13 +49,6 @@
     },
     {
       "ano": "2020",
-      "atividade_id": "14035",
-      "acao_id": "3140",
-      "atividade": "Atividades de Planejamento, Monitoria e Atendimento Personalizado no Contexto do Projeto Paex Lampex 2021-2022",
-      "pub": 12
-    },
-    {
-      "ano": "2020",
       "atividade_id": "11190",
       "acao_id": "3140",
       "atividade": "Desenvolvimento de uma Sistemática para Controle de Processos no LAMPEX",
@@ -63,9 +56,9 @@
     },
     {
       "ano": "2020",
-      "atividade_id": "11192",
+      "atividade_id": "11188",
       "acao_id": "3140",
-      "atividade": "Desenvolvimento de uma Sistemática para Agendamento do Atendimento à Comunidade no LAMPEX",
+      "atividade": "Desenvolvimento de Documentos de Institucionais do LAMPEX",
       "pub": 0
     },
     {
@@ -77,9 +70,16 @@
     },
     {
       "ano": "2020",
-      "atividade_id": "11188",
+      "atividade_id": "14035",
       "acao_id": "3140",
-      "atividade": "Desenvolvimento de Documentos de Institucionais do LAMPEX",
+      "atividade": "Atividades de Planejamento, Monitoria e Atendimento Personalizado no Contexto do Projeto Paex Lampex 2021-2022",
+      "pub": 12
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "11192",
+      "acao_id": "3140",
+      "atividade": "Desenvolvimento de uma Sistemática para Agendamento do Atendimento à Comunidade no LAMPEX",
       "pub": 0
     },
     {

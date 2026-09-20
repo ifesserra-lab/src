@@ -7,7 +7,6 @@
     "2018",
     "2019",
     "2020",
-    "2023",
     "2025"
   ],
   "funcoes": [
@@ -94,17 +93,6 @@
       ]
     },
     {
-      "acao_id": "4820",
-      "titulo": "Mulheres Mil – Eletricista Instalador Predial em Baixa Tensão",
-      "tipo": "Curso",
-      "ano": "2023",
-      "n": 74,
-      "pub": 62,
-      "funcoes": [
-        "PROFESSOR(A)"
-      ]
-    },
-    {
       "acao_id": "5357",
       "titulo": "MULHERES MIL - Artesão em Bordado a mão",
       "tipo": "Curso",
@@ -146,13 +134,6 @@
       "pub": 6
     },
     {
-      "ano": "2023",
-      "atividade_id": "20470",
-      "acao_id": "4820",
-      "atividade": "Mulheres Mil – Eletricista Instalador Predial em Baixa Tensão",
-      "pub": 20
-    },
-    {
       "ano": "2025",
       "atividade_id": "19716",
       "acao_id": "5357",
@@ -161,12 +142,12 @@
     }
   ],
   "imp_coord": 11,
-  "imp_eq": 66,
-  "impacto": 77,
+  "imp_eq": 46,
+  "impacto": 57,
   "temas": [
     {
       "tema": "Mulheres e inclusão",
-      "n": 6
+      "n": 5
     },
     {
       "tema": "Escola e formação de professores",
@@ -177,7 +158,7 @@
     {
       "nome": "Tatiane Policário Chagas",
       "slug": "tatiane-policario-chagas",
-      "acoes_comuns": 5
+      "acoes_comuns": 4
     },
     {
       "nome": "Alessandra Aguiar Vilarinho",
@@ -207,11 +188,6 @@
     {
       "nome": "Richard Junior Manuel Godinez Tello",
       "slug": "richard-junior-manuel-godinez-tello",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Cynthia Kruger Quinino",
-      "slug": "cynthia-kruger-quinino",
       "acoes_comuns": 2
     },
     {
@@ -355,36 +331,6 @@
       "acoes_comuns": 1
     },
     {
-      "nome": "Edjane Martins da Silva",
-      "slug": "edjane-martins-da-silva",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Marcos Paulo Kohler Caldas",
-      "slug": "marcos-paulo-kohler-caldas",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "David de Assis",
-      "slug": "david-de-assis",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Gina Carla Maciel",
-      "slug": "gina-carla-maciel",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Eglalciane de Lyrio Tongo",
-      "slug": "eglalciane-de-lyrio-tongo",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Matheus Policário Amorim",
-      "slug": "matheus-policario-amorim",
-      "acoes_comuns": 1
-    },
-    {
       "nome": "Davi Campos Sutil",
       "slug": "davi-campos-sutil",
       "acoes_comuns": 1
@@ -407,6 +353,11 @@
     {
       "nome": "Elika Capucho Delazare",
       "slug": "elika-capucho-delazare",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Cynthia Kruger Quinino",
+      "slug": "cynthia-kruger-quinino",
       "acoes_comuns": 1
     }
   ]

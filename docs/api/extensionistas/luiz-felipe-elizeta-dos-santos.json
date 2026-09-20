@@ -7,6 +7,7 @@
     "2025"
   ],
   "funcoes": [
+    "ALUNO(A) BOLSISTA",
     "APOIO TÉCNICO",
     "MONITOR(A)"
   ],
@@ -33,16 +34,20 @@
       "funcoes": [
         "MONITOR(A)"
       ]
+    },
+    {
+      "acao_id": "5539",
+      "titulo": "Conexão Ciência: Transformação Digital das Atividades do Centro de Ciência Educação e Cultura - Praça da Ciência",
+      "tipo": "Projeto",
+      "ano": "2025",
+      "n": 4,
+      "pub": 0,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ]
     }
   ],
   "atividades": [
-    {
-      "ano": "2020",
-      "atividade_id": "21063",
-      "acao_id": "3140",
-      "atividade": "Equipe de organização da Maratona de Programação 2025",
-      "pub": 0
-    },
     {
       "ano": "2020",
       "atividade_id": "19126",
@@ -51,11 +56,25 @@
       "pub": 0
     },
     {
+      "ano": "2020",
+      "atividade_id": "21063",
+      "acao_id": "3140",
+      "atividade": "Equipe de organização da Maratona de Programação 2025",
+      "pub": 0
+    },
+    {
       "ano": "2025",
       "atividade_id": "19716",
       "acao_id": "5357",
       "atividade": "MULHERES MIL - Artesão em Bordado a mão",
       "pub": 24
+    },
+    {
+      "ano": "2025",
+      "atividade_id": "20290",
+      "acao_id": "5539",
+      "atividade": "Conexão Ciência: Transformação Digital das Atividades do Centro de Ciência Educação e Cultura - Praça da Ciência",
+      "pub": 0
     }
   ],
   "imp_coord": 0,
@@ -69,12 +88,26 @@
     {
       "tema": "Mulheres e inclusão",
       "n": 1
+    },
+    {
+      "tema": "Saúde e bem-estar",
+      "n": 1
     }
   ],
   "colaboradores": [
     {
       "nome": "Emmanuel Marques Silva",
       "slug": "emmanuel-marques-silva",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Vivian Moreira Gomes de Lacerda",
+      "slug": "vivian-moreira-gomes-de-lacerda",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Vitor Faiçal Campana",
+      "slug": "vitor-faical-campana",
       "acoes_comuns": 2
     },
     {
@@ -438,11 +471,6 @@
       "acoes_comuns": 1
     },
     {
-      "nome": "Vivian Moreira Gomes de Lacerda",
-      "slug": "vivian-moreira-gomes-de-lacerda",
-      "acoes_comuns": 1
-    },
-    {
       "nome": "Thiago Henrique Ezequiel dos Santos",
       "slug": "thiago-henrique-ezequiel-dos-santos",
       "acoes_comuns": 1
@@ -620,11 +648,6 @@
     {
       "nome": "Hilario Seibel Junior",
       "slug": "hilario-seibel-junior",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Vitor Faiçal Campana",
-      "slug": "vitor-faical-campana",
       "acoes_comuns": 1
     },
     {
@@ -920,6 +943,16 @@
     {
       "nome": "Cynthia Kruger Quinino",
       "slug": "cynthia-kruger-quinino",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Gustavo de Paula Bonjardim",
+      "slug": "gustavo-de-paula-bonjardim",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "João Paulo Schaffel Bremenkamp",
+      "slug": "joao-paulo-schaffel-bremenkamp",
       "acoes_comuns": 1
     }
   ]

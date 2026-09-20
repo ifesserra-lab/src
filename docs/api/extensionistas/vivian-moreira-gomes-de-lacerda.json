@@ -3,9 +3,11 @@
   "nome": "Vivian Moreira Gomes de Lacerda",
   "resumo_ia": null,
   "anos": [
-    "2020"
+    "2020",
+    "2025"
   ],
   "funcoes": [
+    "ALUNO(A) BOLSISTA",
     "APOIO TÉCNICO",
     "COLABORADOR(A)"
   ],
@@ -22,21 +24,32 @@
         "APOIO TÉCNICO",
         "COLABORADOR(A)"
       ]
+    },
+    {
+      "acao_id": "5539",
+      "titulo": "Conexão Ciência: Transformação Digital das Atividades do Centro de Ciência Educação e Cultura - Praça da Ciência",
+      "tipo": "Projeto",
+      "ano": "2025",
+      "n": 4,
+      "pub": 0,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ]
     }
   ],
   "atividades": [
     {
       "ano": "2020",
-      "atividade_id": "21063",
+      "atividade_id": "21062",
       "acao_id": "3140",
-      "atividade": "Equipe de organização da Maratona de Programação 2025",
+      "atividade": "Equipe de organização do SCAI 2025",
       "pub": 0
     },
     {
       "ano": "2020",
-      "atividade_id": "21062",
+      "atividade_id": "22288",
       "acao_id": "3140",
-      "atividade": "Equipe de organização do SCAI 2025",
+      "atividade": "Maratona de Programação 2026",
       "pub": 0
     },
     {
@@ -48,9 +61,16 @@
     },
     {
       "ano": "2020",
-      "atividade_id": "22288",
+      "atividade_id": "21063",
       "acao_id": "3140",
-      "atividade": "Maratona de Programação 2026",
+      "atividade": "Equipe de organização da Maratona de Programação 2025",
+      "pub": 0
+    },
+    {
+      "ano": "2025",
+      "atividade_id": "20290",
+      "acao_id": "5539",
+      "atividade": "Conexão Ciência: Transformação Digital das Atividades do Centro de Ciência Educação e Cultura - Praça da Ciência",
       "pub": 0
     }
   ],
@@ -61,9 +81,23 @@
     {
       "tema": "Robótica e cultura maker",
       "n": 1
+    },
+    {
+      "tema": "Saúde e bem-estar",
+      "n": 1
     }
   ],
   "colaboradores": [
+    {
+      "nome": "Luiz Felipe Elizeta dos Santos",
+      "slug": "luiz-felipe-elizeta-dos-santos",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Vitor Faiçal Campana",
+      "slug": "vitor-faical-campana",
+      "acoes_comuns": 2
+    },
     {
       "nome": "Emmanuel Marques Silva",
       "slug": "emmanuel-marques-silva",
@@ -420,11 +454,6 @@
       "acoes_comuns": 1
     },
     {
-      "nome": "Luiz Felipe Elizeta dos Santos",
-      "slug": "luiz-felipe-elizeta-dos-santos",
-      "acoes_comuns": 1
-    },
-    {
       "nome": "Thiago Henrique Ezequiel dos Santos",
       "slug": "thiago-henrique-ezequiel-dos-santos",
       "acoes_comuns": 1
@@ -602,11 +631,6 @@
     {
       "nome": "Hilario Seibel Junior",
       "slug": "hilario-seibel-junior",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Vitor Faiçal Campana",
-      "slug": "vitor-faical-campana",
       "acoes_comuns": 1
     },
     {
@@ -882,6 +906,16 @@
     {
       "nome": "Vinicius Prata Lima",
       "slug": "vinicius-prata-lima",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Gustavo de Paula Bonjardim",
+      "slug": "gustavo-de-paula-bonjardim",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "João Paulo Schaffel Bremenkamp",
+      "slug": "joao-paulo-schaffel-bremenkamp",
       "acoes_comuns": 1
     }
   ]

@@ -130,17 +130,17 @@
     },
     {
       "ano": "2016",
-      "atividade_id": "1545",
-      "acao_id": "718",
-      "atividade": "Programa Regular de Promoção da Cultura e da Arte no Ifes Campus Serra",
-      "pub": 1
-    },
-    {
-      "ano": "2016",
       "atividade_id": "4846",
       "acao_id": "718",
       "atividade": "Ciclo de Conversas do NAC 2016 – Redes Sociais: Meme, Gif e Emoji: ler e escrever nas redes sociais",
       "pub": 0
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "1545",
+      "acao_id": "718",
+      "atividade": "Programa Regular de Promoção da Cultura e da Arte no Ifes Campus Serra",
+      "pub": 1
     }
   ],
   "imp_coord": 1,

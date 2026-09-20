@@ -3,13 +3,26 @@
   "nome": "Vinicius da Hora Corte",
   "resumo_ia": null,
   "anos": [
+    "2019",
     "2024"
   ],
   "funcoes": [
+    "ALUNO(A) BOLSISTA",
     "ALUNO(A) VOLUNTARIO"
   ],
   "acoes_coordenadas": [],
   "participacoes_equipe": [
+    {
+      "acao_id": "2599",
+      "titulo": "Sistema de apoio para rastreio e geolocalização de transtornos mentais",
+      "tipo": "Projeto",
+      "ano": "2019",
+      "n": 3,
+      "pub": 0,
+      "funcoes": [
+        "ALUNO(A) BOLSISTA"
+      ]
+    },
     {
       "acao_id": "4867",
       "titulo": "Empresa Morpheus Jr",
@@ -24,6 +37,13 @@
   ],
   "atividades": [
     {
+      "ano": "2019",
+      "atividade_id": "10936",
+      "acao_id": "2599",
+      "atividade": "Sistema de apoio para rastreio e geolocalização de transtornos mentaiscomuns na atenção primária a saúde",
+      "pub": 0
+    },
+    {
       "ano": "2024",
       "atividade_id": "17650",
       "acao_id": "4867",
@@ -36,11 +56,25 @@
   "impacto": 0,
   "temas": [
     {
+      "tema": "Saúde e bem-estar",
+      "n": 1
+    },
+    {
       "tema": "Empreendedorismo e incubação",
       "n": 1
     }
   ],
   "colaboradores": [
+    {
+      "nome": "Carlos Lins Borges Azevedo",
+      "slug": "carlos-lins-borges-azevedo",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Vitor Siqueira da Silva",
+      "slug": "vitor-siqueira-da-silva",
+      "acoes_comuns": 1
+    },
     {
       "nome": "Adelson Pereira do Nascimento",
       "slug": "adelson-pereira-do-nascimento",

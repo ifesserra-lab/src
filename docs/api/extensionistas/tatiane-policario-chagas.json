@@ -20,8 +20,8 @@
       "titulo": "Mulheres Mil – Eletricista Instalador Predial em Baixa Tensão",
       "tipo": "Curso",
       "ano": "2023",
-      "n": 74,
-      "pub": 62
+      "n": 0,
+      "pub": 0
     },
     {
       "acao_id": "5357",
@@ -86,17 +86,6 @@
       ]
     },
     {
-      "acao_id": "4820",
-      "titulo": "Mulheres Mil – Eletricista Instalador Predial em Baixa Tensão",
-      "tipo": "Curso",
-      "ano": "2023",
-      "n": 74,
-      "pub": 62,
-      "funcoes": [
-        "COORDENADOR(A)"
-      ]
-    },
-    {
       "acao_id": "5357",
       "titulo": "MULHERES MIL - Artesão em Bordado a mão",
       "tipo": "Curso",
@@ -149,20 +138,6 @@
       "pub": 23
     },
     {
-      "ano": "2023",
-      "atividade_id": "20470",
-      "acao_id": "4820",
-      "atividade": "Mulheres Mil – Eletricista Instalador Predial em Baixa Tensão",
-      "pub": 20
-    },
-    {
-      "ano": "2023",
-      "atividade_id": "17244",
-      "acao_id": "4820",
-      "atividade": "Mulheres Mil – Eletricista Instalador Predial em Baixa Tensão",
-      "pub": 42
-    },
-    {
       "ano": "2025",
       "atividade_id": "19716",
       "acao_id": "5357",
@@ -177,13 +152,13 @@
       "pub": 29
     }
   ],
-  "imp_coord": 115,
+  "imp_coord": 53,
   "imp_eq": 51,
-  "impacto": 166,
+  "impacto": 104,
   "temas": [
     {
       "tema": "Mulheres e inclusão",
-      "n": 8
+      "n": 6
     },
     {
       "tema": "Escola e formação de professores",
@@ -198,16 +173,11 @@
     {
       "nome": "Bruno Ramos Gonzaga",
       "slug": "bruno-ramos-gonzaga",
-      "acoes_comuns": 5
+      "acoes_comuns": 4
     },
     {
       "nome": "Emmanuel Marques Silva",
       "slug": "emmanuel-marques-silva",
-      "acoes_comuns": 3
-    },
-    {
-      "nome": "Marcos Paulo Kohler Caldas",
-      "slug": "marcos-paulo-kohler-caldas",
       "acoes_comuns": 3
     },
     {
@@ -226,23 +196,8 @@
       "acoes_comuns": 2
     },
     {
-      "nome": "Gina Carla Maciel",
-      "slug": "gina-carla-maciel",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Cynthia Kruger Quinino",
-      "slug": "cynthia-kruger-quinino",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Eglalciane de Lyrio Tongo",
-      "slug": "eglalciane-de-lyrio-tongo",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Matheus Policário Amorim",
-      "slug": "matheus-policario-amorim",
+      "nome": "Marcos Paulo Kohler Caldas",
+      "slug": "marcos-paulo-kohler-caldas",
       "acoes_comuns": 2
     },
     {
@@ -386,16 +341,6 @@
       "acoes_comuns": 1
     },
     {
-      "nome": "Edjane Martins da Silva",
-      "slug": "edjane-martins-da-silva",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "David de Assis",
-      "slug": "david-de-assis",
-      "acoes_comuns": 1
-    },
-    {
       "nome": "Davi Campos Sutil",
       "slug": "davi-campos-sutil",
       "acoes_comuns": 1
@@ -413,6 +358,26 @@
     {
       "nome": "Elisa Andrade de Jesus",
       "slug": "elisa-andrade-de-jesus",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Cynthia Kruger Quinino",
+      "slug": "cynthia-kruger-quinino",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Gina Carla Maciel",
+      "slug": "gina-carla-maciel",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Eglalciane de Lyrio Tongo",
+      "slug": "eglalciane-de-lyrio-tongo",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Matheus Policário Amorim",
+      "slug": "matheus-policario-amorim",
       "acoes_comuns": 1
     },
     {

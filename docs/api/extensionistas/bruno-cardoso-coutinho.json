@@ -26,16 +26,16 @@
       "titulo": "Informática Básica Para Agentes Multiplicadores.",
       "tipo": "Curso",
       "ano": "2019",
-      "n": 42,
-      "pub": 16
+      "n": 0,
+      "pub": 0
     },
     {
       "acao_id": "3431",
       "titulo": "Lampex + empreendedor",
       "tipo": "Projeto",
       "ano": "2021",
-      "n": 14,
-      "pub": 2
+      "n": 0,
+      "pub": 0
     }
   ],
   "participacoes_equipe": [
@@ -46,17 +46,6 @@
       "ano": "2019",
       "n": 5,
       "pub": 0,
-      "funcoes": [
-        "COORDENADOR(A)"
-      ]
-    },
-    {
-      "acao_id": "2783",
-      "titulo": "Informática Básica Para Agentes Multiplicadores.",
-      "tipo": "Curso",
-      "ano": "2019",
-      "n": 42,
-      "pub": 16,
       "funcoes": [
         "COORDENADOR(A)"
       ]
@@ -73,17 +62,6 @@
         "COORDENADOR(A) ADJUNTO(A)",
         "ORGANIZADOR(A)"
       ]
-    },
-    {
-      "acao_id": "3431",
-      "titulo": "Lampex + empreendedor",
-      "tipo": "Projeto",
-      "ano": "2021",
-      "n": 14,
-      "pub": 2,
-      "funcoes": [
-        "COORDENADOR(A)"
-      ]
     }
   ],
   "atividades": [
@@ -95,48 +73,6 @@
       "pub": 0
     },
     {
-      "ano": "2019",
-      "atividade_id": "9577",
-      "acao_id": "2783",
-      "atividade": "Informática Básica Para Agentes Multiplicadores.",
-      "pub": 16
-    },
-    {
-      "ano": "2019",
-      "atividade_id": "10922",
-      "acao_id": "2783",
-      "atividade": "Mini-Curso: Arquitetura Básica de Computadores",
-      "pub": 16
-    },
-    {
-      "ano": "2020",
-      "atividade_id": "19902",
-      "acao_id": "3140",
-      "atividade": "Atendimento personalizado à comunidade através de monitorias",
-      "pub": 3
-    },
-    {
-      "ano": "2020",
-      "atividade_id": "19898",
-      "acao_id": "3140",
-      "atividade": "Site Institucional da Associação Shalom",
-      "pub": 0
-    },
-    {
-      "ano": "2020",
-      "atividade_id": "16967",
-      "acao_id": "3140",
-      "atividade": "Planejamento das Atividades Referentes ao Plano de Ação do Lampex na Edição de 2022-2023",
-      "pub": 0
-    },
-    {
-      "ano": "2020",
-      "atividade_id": "14035",
-      "acao_id": "3140",
-      "atividade": "Atividades de Planejamento, Monitoria e Atendimento Personalizado no Contexto do Projeto Paex Lampex 2021-2022",
-      "pub": 12
-    },
-    {
       "ano": "2020",
       "atividade_id": "18017",
       "acao_id": "3140",
@@ -145,24 +81,10 @@
     },
     {
       "ano": "2020",
-      "atividade_id": "18018",
+      "atividade_id": "19900",
       "acao_id": "3140",
-      "atividade": "Minicurso de Informática Básica – Módulo II",
-      "pub": 7
-    },
-    {
-      "ano": "2020",
-      "atividade_id": "19903",
-      "acao_id": "3140",
-      "atividade": "Marketing Digital do Lampex 2024",
+      "atividade": "Apresentação do Lampex na Jornada de Integração do Ifes",
       "pub": 0
-    },
-    {
-      "ano": "2020",
-      "atividade_id": "22473",
-      "acao_id": "3140",
-      "atividade": "Palestra de Cibersegurança e IA no Ambiente Educacional",
-      "pub": 56
     },
     {
       "ano": "2020",
@@ -173,9 +95,58 @@
     },
     {
       "ano": "2020",
-      "atividade_id": "19901",
+      "atividade_id": "16967",
       "acao_id": "3140",
-      "atividade": "Jogo do Projeto de Extensão do Hucam - Ufes",
+      "atividade": "Planejamento das Atividades Referentes ao Plano de Ação do Lampex na Edição de 2022-2023",
+      "pub": 0
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "19897",
+      "acao_id": "3140",
+      "atividade": "Minicurso de Git/Github para a Jornada de Integração do IFES",
+      "pub": 0
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "19902",
+      "acao_id": "3140",
+      "atividade": "Atendimento personalizado à comunidade através de monitorias",
+      "pub": 3
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "22473",
+      "acao_id": "3140",
+      "atividade": "Palestra de Cibersegurança e IA no Ambiente Educacional",
+      "pub": 56
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "18018",
+      "acao_id": "3140",
+      "atividade": "Minicurso de Informática Básica – Módulo II",
+      "pub": 7
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "19898",
+      "acao_id": "3140",
+      "atividade": "Site Institucional da Associação Shalom",
+      "pub": 0
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "19899",
+      "acao_id": "3140",
+      "atividade": "Site Responsivo Institucional do InovaSerra (Produto)",
+      "pub": 0
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "19903",
+      "acao_id": "3140",
+      "atividade": "Marketing Digital do Lampex 2024",
       "pub": 0
     },
     {
@@ -187,76 +158,42 @@
     },
     {
       "ano": "2020",
-      "atividade_id": "19897",
+      "atividade_id": "19901",
       "acao_id": "3140",
-      "atividade": "Minicurso de Git/Github para a Jornada de Integração do IFES",
+      "atividade": "Jogo do Projeto de Extensão do Hucam - Ufes",
       "pub": 0
     },
     {
       "ano": "2020",
-      "atividade_id": "19900",
+      "atividade_id": "14035",
       "acao_id": "3140",
-      "atividade": "Apresentação do Lampex na Jornada de Integração do Ifes",
-      "pub": 0
-    },
-    {
-      "ano": "2020",
-      "atividade_id": "19899",
-      "acao_id": "3140",
-      "atividade": "Site Responsivo Institucional do InovaSerra (Produto)",
-      "pub": 0
-    },
-    {
-      "ano": "2021",
-      "atividade_id": "11978",
-      "acao_id": "3431",
-      "atividade": "Lampex + empreendedor",
-      "pub": 2
+      "atividade": "Atividades de Planejamento, Monitoria e Atendimento Personalizado no Contexto do Projeto Paex Lampex 2021-2022",
+      "pub": 12
     }
   ],
-  "imp_coord": 18,
+  "imp_coord": 0,
   "imp_eq": 104,
-  "impacto": 122,
+  "impacto": 104,
   "temas": [
     {
       "tema": "Mulheres e inclusão",
-      "n": 4
+      "n": 2
     },
     {
       "tema": "Robótica e cultura maker",
-      "n": 3
+      "n": 1
     }
   ],
   "colaboradores": [
     {
       "nome": "Gabriel Victor Ferreira de Araújo",
       "slug": "gabriel-victor-ferreira-de-araujo",
-      "acoes_comuns": 3
+      "acoes_comuns": 2
     },
     {
       "nome": "Juliana Rohsner Vianna Toniati",
       "slug": "juliana-rohsner-vianna-toniati",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Renata Imaculada de Oliveira Teixeira",
-      "slug": "renata-imaculada-de-oliveira-teixeira",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Emmanuel Marques Silva",
-      "slug": "emmanuel-marques-silva",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Adelson Pereira do Nascimento",
-      "slug": "adelson-pereira-do-nascimento",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Richard Junior Manuel Godinez Tello",
-      "slug": "richard-junior-manuel-godinez-tello",
-      "acoes_comuns": 2
+      "acoes_comuns": 1
     },
     {
       "nome": "Glaucelena Dias Lopes da Vitória",
@@ -264,8 +201,13 @@
       "acoes_comuns": 1
     },
     {
-      "nome": "Ridley Francis Miranda Amorim",
-      "slug": "ridley-francis-miranda-amorim",
+      "nome": "Renata Imaculada de Oliveira Teixeira",
+      "slug": "renata-imaculada-de-oliveira-teixeira",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Emmanuel Marques Silva",
+      "slug": "emmanuel-marques-silva",
       "acoes_comuns": 1
     },
     {
@@ -291,6 +233,11 @@
     {
       "nome": "Marllon Christiani dos Santos Ribeiro",
       "slug": "marllon-christiani-dos-santos-ribeiro",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Adelson Pereira do Nascimento",
+      "slug": "adelson-pereira-do-nascimento",
       "acoes_comuns": 1
     },
     {
@@ -411,6 +358,11 @@
     {
       "nome": "Celeste Nascimento Souza Silva",
       "slug": "celeste-nascimento-souza-silva",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Richard Junior Manuel Godinez Tello",
+      "slug": "richard-junior-manuel-godinez-tello",
       "acoes_comuns": 1
     },
     {
@@ -1066,46 +1018,6 @@
     {
       "nome": "Vinicius Prata Lima",
       "slug": "vinicius-prata-lima",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Matheus Teixeira de Aguiar",
-      "slug": "matheus-teixeira-de-aguiar",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Guilherme Firme Fiorot",
-      "slug": "guilherme-firme-fiorot",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Juliana Ricato Musso Silva",
-      "slug": "juliana-ricato-musso-silva",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Breno Ricardo Ferreira Antunes",
-      "slug": "breno-ricardo-ferreira-antunes",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Pedro Aguiar Alves",
-      "slug": "pedro-aguiar-alves",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Elen Lara",
-      "slug": "elen-lara",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Alan Afif Helal",
-      "slug": "alan-afif-helal",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Flavio Severiano Lamas de Souza",
-      "slug": "flavio-severiano-lamas-de-souza",
       "acoes_comuns": 1
     }
   ]

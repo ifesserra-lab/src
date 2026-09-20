@@ -3,7 +3,6 @@
   "nome": "Cynthia Kruger Quinino",
   "resumo_ia": null,
   "anos": [
-    "2023",
     "2025"
   ],
   "funcoes": [
@@ -11,17 +10,6 @@
   ],
   "acoes_coordenadas": [],
   "participacoes_equipe": [
-    {
-      "acao_id": "4820",
-      "titulo": "Mulheres Mil – Eletricista Instalador Predial em Baixa Tensão",
-      "tipo": "Curso",
-      "ano": "2023",
-      "n": 74,
-      "pub": 62,
-      "funcoes": [
-        "COLABORADOR(A)"
-      ]
-    },
     {
       "acao_id": "5357",
       "titulo": "MULHERES MIL - Artesão em Bordado a mão",
@@ -36,13 +24,6 @@
   ],
   "atividades": [
     {
-      "ano": "2023",
-      "atividade_id": "20470",
-      "acao_id": "4820",
-      "atividade": "Mulheres Mil – Eletricista Instalador Predial em Baixa Tensão",
-      "pub": 20
-    },
-    {
       "ano": "2025",
       "atividade_id": "19716",
       "acao_id": "5357",
@@ -51,53 +32,18 @@
     }
   ],
   "imp_coord": 0,
-  "imp_eq": 44,
-  "impacto": 44,
+  "imp_eq": 24,
+  "impacto": 24,
   "temas": [
     {
       "tema": "Mulheres e inclusão",
-      "n": 2
+      "n": 1
     }
   ],
   "colaboradores": [
     {
       "nome": "Tatiane Policário Chagas",
       "slug": "tatiane-policario-chagas",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Bruno Ramos Gonzaga",
-      "slug": "bruno-ramos-gonzaga",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Edjane Martins da Silva",
-      "slug": "edjane-martins-da-silva",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Marcos Paulo Kohler Caldas",
-      "slug": "marcos-paulo-kohler-caldas",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "David de Assis",
-      "slug": "david-de-assis",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Gina Carla Maciel",
-      "slug": "gina-carla-maciel",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Eglalciane de Lyrio Tongo",
-      "slug": "eglalciane-de-lyrio-tongo",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Matheus Policário Amorim",
-      "slug": "matheus-policario-amorim",
       "acoes_comuns": 1
     },
     {
@@ -133,6 +79,11 @@
     {
       "nome": "Alessandra Aguiar Vilarinho",
       "slug": "alessandra-aguiar-vilarinho",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Bruno Ramos Gonzaga",
+      "slug": "bruno-ramos-gonzaga",
       "acoes_comuns": 1
     }
   ]

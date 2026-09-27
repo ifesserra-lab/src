@@ -3,6 +3,7 @@
   "nome": "Gina Carla Maciel",
   "resumo_ia": null,
   "anos": [
+    "2023",
     "2025"
   ],
   "funcoes": [
@@ -10,6 +11,17 @@
   ],
   "acoes_coordenadas": [],
   "participacoes_equipe": [
+    {
+      "acao_id": "4820",
+      "titulo": "Mulheres Mil – Eletricista Instalador Predial em Baixa Tensão",
+      "tipo": "Curso",
+      "ano": "2023",
+      "n": 74,
+      "pub": 62,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    },
     {
       "acao_id": "5645",
       "titulo": "Asas para o Futuro - Eletricista Instalador Predial em Baixa Tensão",
@@ -24,6 +36,13 @@
   ],
   "atividades": [
     {
+      "ano": "2023",
+      "atividade_id": "20470",
+      "acao_id": "4820",
+      "atividade": "Mulheres Mil – Eletricista Instalador Predial em Baixa Tensão",
+      "pub": 20
+    },
+    {
       "ano": "2025",
       "atividade_id": "20642",
       "acao_id": "5645",
@@ -32,38 +51,58 @@
     }
   ],
   "imp_coord": 0,
-  "imp_eq": 29,
-  "impacto": 29,
+  "imp_eq": 49,
+  "impacto": 49,
   "temas": [
     {
       "tema": "Mulheres e inclusão",
-      "n": 1
+      "n": 2
     }
   ],
   "colaboradores": [
     {
       "nome": "Tatiane Policário Chagas",
       "slug": "tatiane-policario-chagas",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Marcos Paulo Kohler Caldas",
+      "slug": "marcos-paulo-kohler-caldas",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Eglalciane de Lyrio Tongo",
+      "slug": "eglalciane-de-lyrio-tongo",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Matheus Policário Amorim",
+      "slug": "matheus-policario-amorim",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Edjane Martins da Silva",
+      "slug": "edjane-martins-da-silva",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "David de Assis",
+      "slug": "david-de-assis",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Bruno Ramos Gonzaga",
+      "slug": "bruno-ramos-gonzaga",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Cynthia Kruger Quinino",
+      "slug": "cynthia-kruger-quinino",
       "acoes_comuns": 1
     },
     {
       "nome": "Elika Capucho Delazare",
       "slug": "elika-capucho-delazare",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Eglalciane de Lyrio Tongo",
-      "slug": "eglalciane-de-lyrio-tongo",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Marcos Paulo Kohler Caldas",
-      "slug": "marcos-paulo-kohler-caldas",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Matheus Policário Amorim",
-      "slug": "matheus-policario-amorim",
       "acoes_comuns": 1
     },
     {

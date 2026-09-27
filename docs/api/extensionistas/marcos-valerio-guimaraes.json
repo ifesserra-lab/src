@@ -27,13 +27,6 @@
   "atividades": [
     {
       "ano": "2019",
-      "atividade_id": "10572",
-      "acao_id": "2505",
-      "atividade": "Master Class de Distribuição de Circulação",
-      "pub": 6
-    },
-    {
-      "ano": "2019",
       "atividade_id": "10577",
       "acao_id": "2505",
       "atividade": "Oficina Cinema e Educação: preservação do patrimônio histórico e cultural",
@@ -62,10 +55,10 @@
     },
     {
       "ano": "2019",
-      "atividade_id": "10571",
+      "atividade_id": "10572",
       "acao_id": "2505",
-      "atividade": "Master Class de Optimização de Redes",
-      "pub": 7
+      "atividade": "Master Class de Distribuição de Circulação",
+      "pub": 6
     },
     {
       "ano": "2019",
@@ -80,6 +73,13 @@
       "acao_id": "2505",
       "atividade": "Oficina de Sensibilização",
       "pub": 19
+    },
+    {
+      "ano": "2019",
+      "atividade_id": "10571",
+      "acao_id": "2505",
+      "atividade": "Master Class de Optimização de Redes",
+      "pub": 7
     }
   ],
   "imp_coord": 0,

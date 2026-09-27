@@ -4,11 +4,13 @@
   "resumo_ia": null,
   "anos": [
     "2022",
+    "2023",
     "2024",
     "2025"
   ],
   "funcoes": [
     "MEMBRO DE COMITÊ GESTOR",
+    "ORIENTADOR(A)",
     "PROFESSOR(A)"
   ],
   "acoes_coordenadas": [],
@@ -21,6 +23,18 @@
       "n": 26,
       "pub": 23,
       "funcoes": [
+        "PROFESSOR(A)"
+      ]
+    },
+    {
+      "acao_id": "4820",
+      "titulo": "Mulheres Mil – Eletricista Instalador Predial em Baixa Tensão",
+      "tipo": "Curso",
+      "ano": "2023",
+      "n": 74,
+      "pub": 62,
+      "funcoes": [
+        "ORIENTADOR(A)",
         "PROFESSOR(A)"
       ]
     },
@@ -56,6 +70,20 @@
       "pub": 23
     },
     {
+      "ano": "2023",
+      "atividade_id": "20470",
+      "acao_id": "4820",
+      "atividade": "Mulheres Mil – Eletricista Instalador Predial em Baixa Tensão",
+      "pub": 20
+    },
+    {
+      "ano": "2023",
+      "atividade_id": "17244",
+      "acao_id": "4820",
+      "atividade": "Mulheres Mil – Eletricista Instalador Predial em Baixa Tensão",
+      "pub": 42
+    },
+    {
       "ano": "2024",
       "atividade_id": "22201",
       "acao_id": "5086",
@@ -78,9 +106,13 @@
     }
   ],
   "imp_coord": 0,
-  "imp_eq": 215,
-  "impacto": 215,
+  "imp_eq": 277,
+  "impacto": 277,
   "temas": [
+    {
+      "tema": "Mulheres e inclusão",
+      "n": 2
+    },
     {
       "tema": "Empreendedorismo e incubação",
       "n": 1
@@ -88,16 +120,27 @@
     {
       "tema": "Robótica e cultura maker",
       "n": 1
-    },
-    {
-      "tema": "Mulheres e inclusão",
-      "n": 1
     }
   ],
   "colaboradores": [
     {
       "nome": "Tatiane Policário Chagas",
       "slug": "tatiane-policario-chagas",
+      "acoes_comuns": 3
+    },
+    {
+      "nome": "Gina Carla Maciel",
+      "slug": "gina-carla-maciel",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Eglalciane de Lyrio Tongo",
+      "slug": "eglalciane-de-lyrio-tongo",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Matheus Policário Amorim",
+      "slug": "matheus-policario-amorim",
       "acoes_comuns": 2
     },
     {
@@ -108,6 +151,26 @@
     {
       "nome": "Nicolas Nasário Ferreira",
       "slug": "nicolas-nasario-ferreira",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Edjane Martins da Silva",
+      "slug": "edjane-martins-da-silva",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "David de Assis",
+      "slug": "david-de-assis",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Bruno Ramos Gonzaga",
+      "slug": "bruno-ramos-gonzaga",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Cynthia Kruger Quinino",
+      "slug": "cynthia-kruger-quinino",
       "acoes_comuns": 1
     },
     {
@@ -293,21 +356,6 @@
     {
       "nome": "Elika Capucho Delazare",
       "slug": "elika-capucho-delazare",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Gina Carla Maciel",
-      "slug": "gina-carla-maciel",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Eglalciane de Lyrio Tongo",
-      "slug": "eglalciane-de-lyrio-tongo",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Matheus Policário Amorim",
-      "slug": "matheus-policario-amorim",
       "acoes_comuns": 1
     },
     {

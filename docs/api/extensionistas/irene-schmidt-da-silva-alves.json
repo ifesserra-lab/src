@@ -27,10 +27,10 @@
   "atividades": [
     {
       "ano": "2020",
-      "atividade_id": "21068",
+      "atividade_id": "21062",
       "acao_id": "3140",
-      "atividade": "SOF - Serviço de Orientação Financeira",
-      "pub": 34
+      "atividade": "Equipe de organização do SCAI 2025",
+      "pub": 0
     },
     {
       "ano": "2020",
@@ -41,17 +41,17 @@
     },
     {
       "ano": "2020",
-      "atividade_id": "21062",
-      "acao_id": "3140",
-      "atividade": "Equipe de organização do SCAI 2025",
-      "pub": 0
-    },
-    {
-      "ano": "2020",
       "atividade_id": "14031",
       "acao_id": "3140",
       "atividade": "Palestra empreendedorismo - da visão a ação",
       "pub": 70
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "21068",
+      "acao_id": "3140",
+      "atividade": "SOF - Serviço de Orientação Financeira",
+      "pub": 34
     },
     {
       "ano": "2020",

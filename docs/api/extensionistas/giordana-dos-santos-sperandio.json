@@ -3,13 +3,11 @@
   "nome": "Giordana dos Santos Sperandio",
   "resumo_ia": null,
   "anos": [
-    "2017",
     "2018",
     "2020"
   ],
   "funcoes": [
     "COORDENADOR(A)",
-    "MINISTRANTE",
     "ORIENTADOR(A)",
     "PROFESSOR(A)"
   ],
@@ -32,18 +30,6 @@
     }
   ],
   "participacoes_equipe": [
-    {
-      "acao_id": "1117",
-      "titulo": "PRÉ – IFES Campus Serra",
-      "tipo": "Curso",
-      "ano": "2017",
-      "n": 48,
-      "pub": 33,
-      "funcoes": [
-        "MINISTRANTE",
-        "PROFESSOR(A)"
-      ]
-    },
     {
       "acao_id": "1633",
       "titulo": "Mulheres na Ciência",
@@ -82,23 +68,9 @@
   ],
   "atividades": [
     {
-      "ano": "2017",
-      "atividade_id": "2882",
-      "acao_id": "1117",
-      "atividade": "PRÉ- IFES Campus Serra",
-      "pub": 33
-    },
-    {
       "ano": "2018",
       "atividade_id": "5158",
       "acao_id": "1633",
-      "atividade": "Mulheres na Ciência",
-      "pub": 11
-    },
-    {
-      "ano": "2018",
-      "atividade_id": "6873",
-      "acao_id": "2082",
       "atividade": "Mulheres na Ciência",
       "pub": 11
     },
@@ -117,6 +89,13 @@
       "pub": 0
     },
     {
+      "ano": "2018",
+      "atividade_id": "6873",
+      "acao_id": "2082",
+      "atividade": "Mulheres na Ciência",
+      "pub": 11
+    },
+    {
       "ano": "2020",
       "atividade_id": "22302",
       "acao_id": "3140",
@@ -132,12 +111,12 @@
     }
   ],
   "imp_coord": 36,
-  "imp_eq": 53,
-  "impacto": 89,
+  "imp_eq": 20,
+  "impacto": 56,
   "temas": [
     {
       "tema": "Mulheres e inclusão",
-      "n": 5
+      "n": 4
     },
     {
       "tema": "Robótica e cultura maker",
@@ -149,11 +128,6 @@
       "nome": "Alessandra Aguiar Vilarinho",
       "slug": "alessandra-aguiar-vilarinho",
       "acoes_comuns": 3
-    },
-    {
-      "nome": "Ana Paula Klauck",
-      "slug": "ana-paula-klauck",
-      "acoes_comuns": 2
     },
     {
       "nome": "Adriana Padua Lovatte",
@@ -184,66 +158,6 @@
       "nome": "Graziela Barboza Guaitolini Ramos",
       "slug": "graziela-barboza-guaitolini-ramos",
       "acoes_comuns": 2
-    },
-    {
-      "nome": "Alessandro Bermudes Gomes",
-      "slug": "alessandro-bermudes-gomes",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Luana Santos Lemos",
-      "slug": "luana-santos-lemos",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Breno Siquara Azevedo",
-      "slug": "breno-siquara-azevedo",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Daniella Araújo Fraga dos Santos",
-      "slug": "daniella-araujo-fraga-dos-santos",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Davi Aragão Ascacibas",
-      "slug": "davi-aragao-ascacibas",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Alexia Coelho Barbosa",
-      "slug": "alexia-coelho-barbosa",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Sillas Ribeiro Ataide",
-      "slug": "sillas-ribeiro-ataide",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Thiago Machado Oliveira",
-      "slug": "thiago-machado-oliveira",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Murilo Andrade Carvalho",
-      "slug": "murilo-andrade-carvalho",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Ian Drumond Duarte",
-      "slug": "ian-drumond-duarte",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Amarildo Mendes Lemos",
-      "slug": "amarildo-mendes-lemos",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Mizael Fernandes de Oliveira",
-      "slug": "mizael-fernandes-de-oliveira",
-      "acoes_comuns": 1
     },
     {
       "nome": "Ingrid de Lima Pella",
@@ -283,6 +197,11 @@
     {
       "nome": "Nauvia Maria Cancelieri",
       "slug": "nauvia-maria-cancelieri",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Ana Paula Klauck",
+      "slug": "ana-paula-klauck",
       "acoes_comuns": 1
     },
     {

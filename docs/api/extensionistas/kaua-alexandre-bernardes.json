@@ -3,28 +3,14 @@
   "nome": "Kauã Alexandre Bernardes",
   "resumo_ia": null,
   "anos": [
-    "2023",
     "2024"
   ],
   "funcoes": [
     "COLABORADOR(A)",
-    "MONITOR(A)",
-    "ORGANIZADOR(A)"
+    "MONITOR(A)"
   ],
   "acoes_coordenadas": [],
   "participacoes_equipe": [
-    {
-      "acao_id": "4754",
-      "titulo": "QUÍMICA VERDE APLICADA: oficinas e workshops",
-      "tipo": "Projeto",
-      "ano": "2023",
-      "n": 159,
-      "pub": 134,
-      "funcoes": [
-        "MONITOR(A)",
-        "ORGANIZADOR(A)"
-      ]
-    },
     {
       "acao_id": "5086",
       "titulo": "Conectando Talentos: Robótica e Programação no IFES-Serra",
@@ -39,20 +25,6 @@
     }
   ],
   "atividades": [
-    {
-      "ano": "2023",
-      "atividade_id": "19329",
-      "acao_id": "4754",
-      "atividade": "1 Oficina de sabão com visão sustentável.",
-      "pub": 34
-    },
-    {
-      "ano": "2023",
-      "atividade_id": "20747",
-      "acao_id": "4754",
-      "atividade": "Do Sensorial ao Tecnológico — Extração de Óleos Essenciais por Arraste a Vapor",
-      "pub": 24
-    },
     {
       "ano": "2024",
       "atividade_id": "21813",
@@ -69,64 +41,15 @@
     }
   ],
   "imp_coord": 0,
-  "imp_eq": 179,
-  "impacto": 179,
+  "imp_eq": 121,
+  "impacto": 121,
   "temas": [
-    {
-      "tema": "Mulheres e inclusão",
-      "n": 1
-    },
     {
       "tema": "Robótica e cultura maker",
       "n": 1
     }
   ],
   "colaboradores": [
-    {
-      "nome": "Nauvia Maria Cancelieri",
-      "slug": "nauvia-maria-cancelieri",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Matheus Tiago Amorim Pereira",
-      "slug": "matheus-tiago-amorim-pereira",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Debora Galavote Moura",
-      "slug": "debora-galavote-moura",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Julia Sagrillo Barreiros",
-      "slug": "julia-sagrillo-barreiros",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Marianna Stark Gardioli Rangel",
-      "slug": "marianna-stark-gardioli-rangel",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Gabriel Santos da Silva Valbuza",
-      "slug": "gabriel-santos-da-silva-valbuza",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Akilanny Silva Cruz",
-      "slug": "akilanny-silva-cruz",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Angelo dos Santos Teixeira",
-      "slug": "angelo-dos-santos-teixeira",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Victor Ramos Dessaune",
-      "slug": "victor-ramos-dessaune",
-      "acoes_comuns": 1
-    },
     {
       "nome": "Richard Junior Manuel Godinez Tello",
       "slug": "richard-junior-manuel-godinez-tello",

@@ -4,18 +4,11 @@
   "resumo_ia": null,
   "anos": [
     "2013",
-    "2016",
-    "2017",
     "2020"
   ],
   "funcoes": [
-    "AUXILIAR TÉCNICO",
-    "AVALIADOR(A)",
-    "COLABORADOR(A)",
     "COORDENADOR(A) ADJUNTO(A)",
-    "INSTRUTOR(A)",
-    "ORGANIZADOR(A)",
-    "ORIENTADOR(A)"
+    "ORGANIZADOR(A)"
   ],
   "acoes_coordenadas": [
     {
@@ -45,18 +38,6 @@
   ],
   "participacoes_equipe": [
     {
-      "acao_id": "1261",
-      "titulo": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedora",
-      "tipo": "Curso",
-      "ano": "2017",
-      "n": 84,
-      "pub": 36,
-      "funcoes": [
-        "COLABORADOR(A)",
-        "INSTRUTOR(A)"
-      ]
-    },
-    {
       "acao_id": "3140",
       "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
       "tipo": "Programa",
@@ -67,44 +48,9 @@
         "COORDENADOR(A) ADJUNTO(A)",
         "ORGANIZADOR(A)"
       ]
-    },
-    {
-      "acao_id": "708",
-      "titulo": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedoras",
-      "tipo": "Curso",
-      "ano": "2016",
-      "n": 77,
-      "pub": 29,
-      "funcoes": [
-        "AUXILIAR TÉCNICO",
-        "AVALIADOR(A)",
-        "INSTRUTOR(A)",
-        "ORIENTADOR(A)"
-      ]
     }
   ],
   "atividades": [
-    {
-      "ano": "2017",
-      "atividade_id": "4502",
-      "acao_id": "1261",
-      "atividade": "Seminário de Apresentação dos Empreendimentos",
-      "pub": 1
-    },
-    {
-      "ano": "2017",
-      "atividade_id": "4818",
-      "acao_id": "1261",
-      "atividade": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedora",
-      "pub": 12
-    },
-    {
-      "ano": "2017",
-      "atividade_id": "3353",
-      "acao_id": "1261",
-      "atividade": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedora",
-      "pub": 15
-    },
     {
       "ano": "2020",
       "atividade_id": "15049",
@@ -132,32 +78,14 @@
       "acao_id": "3140",
       "atividade": "Roadshow programas de inovação FINDESLAB",
       "pub": 32
-    },
-    {
-      "ano": "2016",
-      "atividade_id": "1524",
-      "acao_id": "708",
-      "atividade": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedoras",
-      "pub": 15
-    },
-    {
-      "ano": "2016",
-      "atividade_id": "1523",
-      "acao_id": "708",
-      "atividade": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedoras",
-      "pub": 14
     }
   ],
   "imp_coord": 157,
-  "imp_eq": 185,
-  "impacto": 342,
+  "imp_eq": 128,
+  "impacto": 285,
   "temas": [
     {
       "tema": "Saúde e bem-estar",
-      "n": 2
-    },
-    {
-      "tema": "Empreendedorismo e incubação",
       "n": 2
     },
     {
@@ -173,136 +101,6 @@
     {
       "nome": "Emmanuel Marques Silva",
       "slug": "emmanuel-marques-silva",
-      "acoes_comuns": 3
-    },
-    {
-      "nome": "Karin Satie Komati",
-      "slug": "karin-satie-komati",
-      "acoes_comuns": 3
-    },
-    {
-      "nome": "Ronaldo Aparecida Marques",
-      "slug": "ronaldo-aparecida-marques",
-      "acoes_comuns": 3
-    },
-    {
-      "nome": "Richard Junior Manuel Godinez Tello",
-      "slug": "richard-junior-manuel-godinez-tello",
-      "acoes_comuns": 3
-    },
-    {
-      "nome": "Luis Henrique Rosado Torres",
-      "slug": "luis-henrique-rosado-torres",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Flávio Barcelos Braz da Silva",
-      "slug": "flavio-barcelos-braz-da-silva",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Humberto Henrique Ramos Brotto",
-      "slug": "humberto-henrique-ramos-brotto",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Christian Mariani Lucas dos Santos",
-      "slug": "christian-mariani-lucas-dos-santos",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Rodrigo Fernandes Calhau",
-      "slug": "rodrigo-fernandes-calhau",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Jefferson Ribeiro de Lima",
-      "slug": "jefferson-ribeiro-de-lima",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Leonardo Azevedo Scardua",
-      "slug": "leonardo-azevedo-scardua",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Giovani Zanetti Neto",
-      "slug": "giovani-zanetti-neto",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Edilson Luiz do Nascimento",
-      "slug": "edilson-luiz-do-nascimento",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Felipe Frechiani de Oliveira",
-      "slug": "felipe-frechiani-de-oliveira",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Valéria Gabriel Estanislau",
-      "slug": "valeria-gabriel-estanislau",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Daniel Cruz Cavalieri",
-      "slug": "daniel-cruz-cavalieri",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Marcos Simão Guimarães",
-      "slug": "marcos-simao-guimaraes",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Camila Braga Guimarães",
-      "slug": "camila-braga-guimaraes",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Gilmar Luiz Vassoler",
-      "slug": "gilmar-luiz-vassoler",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Emerson Atílio Birchler",
-      "slug": "emerson-atilio-birchler",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Rodolpho da Cruz Rangel",
-      "slug": "rodolpho-da-cruz-rangel",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Sandro de Freitas Nascimento",
-      "slug": "sandro-de-freitas-nascimento",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Alessandro Bermudes Gomes",
-      "slug": "alessandro-bermudes-gomes",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Moisés Savedra Omena",
-      "slug": "moises-savedra-omena",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Dirceu Soares Júnior",
-      "slug": "dirceu-soares-junior",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Erley Crevelin Valentim",
-      "slug": "erley-crevelin-valentim",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Francisco José Casarim Rapchan",
-      "slug": "francisco-jose-casarim-rapchan",
       "acoes_comuns": 1
     },
     {
@@ -431,6 +229,11 @@
       "acoes_comuns": 1
     },
     {
+      "nome": "Karin Satie Komati",
+      "slug": "karin-satie-komati",
+      "acoes_comuns": 1
+    },
+    {
       "nome": "Isabel Passamani Soeiro",
       "slug": "isabel-passamani-soeiro",
       "acoes_comuns": 1
@@ -453,6 +256,11 @@
     {
       "nome": "Celeste Nascimento Souza Silva",
       "slug": "celeste-nascimento-souza-silva",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Richard Junior Manuel Godinez Tello",
+      "slug": "richard-junior-manuel-godinez-tello",
       "acoes_comuns": 1
     },
     {
@@ -486,8 +294,18 @@
       "acoes_comuns": 1
     },
     {
+      "nome": "Valéria Gabriel Estanislau",
+      "slug": "valeria-gabriel-estanislau",
+      "acoes_comuns": 1
+    },
+    {
       "nome": "Eglalciane de Lyrio Tongo",
       "slug": "eglalciane-de-lyrio-tongo",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Ronaldo Aparecida Marques",
+      "slug": "ronaldo-aparecida-marques",
       "acoes_comuns": 1
     },
     {
@@ -553,6 +371,11 @@
     {
       "nome": "Anderson Gomes",
       "slug": "anderson-gomes",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Daniel Cruz Cavalieri",
+      "slug": "daniel-cruz-cavalieri",
       "acoes_comuns": 1
     },
     {
@@ -1081,6 +904,11 @@
       "acoes_comuns": 1
     },
     {
+      "nome": "Jefferson Ribeiro de Lima",
+      "slug": "jefferson-ribeiro-de-lima",
+      "acoes_comuns": 1
+    },
+    {
       "nome": "Yan Dheimi Gomes Weise",
       "slug": "yan-dheimi-gomes-weise",
       "acoes_comuns": 1
@@ -1088,31 +916,6 @@
     {
       "nome": "Vinicius Prata Lima",
       "slug": "vinicius-prata-lima",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Carlos Lins Borges Azevedo",
-      "slug": "carlos-lins-borges-azevedo",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Aguinaldo Barata",
-      "slug": "aguinaldo-barata",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Cassius Zanetti Resende",
-      "slug": "cassius-zanetti-resende",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Wagner Teixeira da Costa",
-      "slug": "wagner-teixeira-da-costa",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Paulo Sérgio dos Santos Júnior",
-      "slug": "paulo-sergio-dos-santos-junior",
       "acoes_comuns": 1
     }
   ]

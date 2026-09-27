@@ -43,17 +43,17 @@
   "atividades": [
     {
       "ano": "2020",
-      "atividade_id": "15712",
-      "acao_id": "3140",
-      "atividade": "Minicurso de Introdução à Linguagem de Programação Python",
-      "pub": 11
-    },
-    {
-      "ano": "2020",
       "atividade_id": "21455",
       "acao_id": "3140",
       "atividade": "Monitoria de Programação e Matemática do 2º Semestre Letivo de 2025",
       "pub": 20
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "16971",
+      "acao_id": "3140",
+      "atividade": "Produção de Material de Apoio Pedagógico para os Minicursos do Lampex na Edição 2022-2023",
+      "pub": 0
     },
     {
       "ano": "2020",
@@ -71,10 +71,10 @@
     },
     {
       "ano": "2020",
-      "atividade_id": "16971",
+      "atividade_id": "15712",
       "acao_id": "3140",
-      "atividade": "Produção de Material de Apoio Pedagógico para os Minicursos do Lampex na Edição 2022-2023",
-      "pub": 0
+      "atividade": "Minicurso de Introdução à Linguagem de Programação Python",
+      "pub": 11
     },
     {
       "ano": "2022",

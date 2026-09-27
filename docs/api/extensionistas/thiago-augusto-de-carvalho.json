@@ -3,8 +3,7 @@
   "nome": "Thiago Augusto de Carvalho",
   "resumo_ia": null,
   "anos": [
-    "2022",
-    "2024"
+    "2022"
   ],
   "funcoes": [
     "ALUNO(A) BOLSISTA",
@@ -30,17 +29,6 @@
       "ano": "2022",
       "n": 76,
       "pub": 13,
-      "funcoes": [
-        "ALUNO(A) VOLUNTARIO"
-      ]
-    },
-    {
-      "acao_id": "4867",
-      "titulo": "Empresa Morpheus Jr",
-      "tipo": "Programa",
-      "ano": "2024",
-      "n": 14,
-      "pub": 0,
       "funcoes": [
         "ALUNO(A) VOLUNTARIO"
       ]
@@ -70,9 +58,9 @@
     },
     {
       "ano": "2022",
-      "atividade_id": "19171",
+      "atividade_id": "19188",
       "acao_id": "4033",
-      "atividade": "Implementações do front-end do sistema Pink Pepper Qualifier - Etapa 3",
+      "atividade": "Desenvolvimento de protótipos de tela do aplicativo Pink Pepper Qualifier - Etapa 2",
       "pub": 0
     },
     {
@@ -84,9 +72,9 @@
     },
     {
       "ano": "2022",
-      "atividade_id": "19188",
+      "atividade_id": "19171",
       "acao_id": "4033",
-      "atividade": "Desenvolvimento de protótipos de tela do aplicativo Pink Pepper Qualifier - Etapa 2",
+      "atividade": "Implementações do front-end do sistema Pink Pepper Qualifier - Etapa 3",
       "pub": 0
     },
     {
@@ -95,13 +83,6 @@
       "acao_id": "4215",
       "atividade": "SprintLab - Laboratório de Prototipação Acelerada",
       "pub": 2
-    },
-    {
-      "ano": "2024",
-      "atividade_id": "17650",
-      "acao_id": "4867",
-      "atividade": "Empresa Morpheus Jr",
-      "pub": 0
     }
   ],
   "imp_coord": 0,
@@ -111,28 +92,9 @@
     {
       "tema": "Robótica e cultura maker",
       "n": 2
-    },
-    {
-      "tema": "Empreendedorismo e incubação",
-      "n": 1
     }
   ],
   "colaboradores": [
-    {
-      "nome": "Larissa Batista Rangel",
-      "slug": "larissa-batista-rangel",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Maressa Karen Henrique da Silva",
-      "slug": "maressa-karen-henrique-da-silva",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Adelson Pereira do Nascimento",
-      "slug": "adelson-pereira-do-nascimento",
-      "acoes_comuns": 2
-    },
     {
       "nome": "Fidelis Zanetti de Castro",
       "slug": "fidelis-zanetti-de-castro",
@@ -244,6 +206,16 @@
       "acoes_comuns": 1
     },
     {
+      "nome": "Larissa Batista Rangel",
+      "slug": "larissa-batista-rangel",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Maressa Karen Henrique da Silva",
+      "slug": "maressa-karen-henrique-da-silva",
+      "acoes_comuns": 1
+    },
+    {
       "nome": "Mateus Lannes Cunha",
       "slug": "mateus-lannes-cunha",
       "acoes_comuns": 1
@@ -256,6 +228,11 @@
     {
       "nome": "Rubens do Nascimento Corrêa Júnior",
       "slug": "rubens-do-nascimento-correa-junior",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Adelson Pereira do Nascimento",
+      "slug": "adelson-pereira-do-nascimento",
       "acoes_comuns": 1
     },
     {
@@ -476,61 +453,6 @@
     {
       "nome": "Adile Lima da Silva",
       "slug": "adile-lima-da-silva",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Richard Lucas Pereira Nunes",
-      "slug": "richard-lucas-pereira-nunes",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Paulo Vitor Callegari Dalvi",
-      "slug": "paulo-vitor-callegari-dalvi",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Samuel Ferreira Alves",
-      "slug": "samuel-ferreira-alves",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Alex Rossoni Junior",
-      "slug": "alex-rossoni-junior",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Ryan Lima Peçanha",
-      "slug": "ryan-lima-pecanha",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Lara Aguilar de Amorim",
-      "slug": "lara-aguilar-de-amorim",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Amanda Ferreira Falcão",
-      "slug": "amanda-ferreira-falcao",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "João Pedro Ribeiro Silva",
-      "slug": "joao-pedro-ribeiro-silva",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Davi da Silva Alvarenga",
-      "slug": "davi-da-silva-alvarenga",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Thiago Henrique Ezequiel dos Santos",
-      "slug": "thiago-henrique-ezequiel-dos-santos",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Vinicius da Hora Corte",
-      "slug": "vinicius-da-hora-corte",
       "acoes_comuns": 1
     }
   ]

@@ -33,6 +33,17 @@
   ],
   "participacoes_equipe": [
     {
+      "acao_id": "1702",
+      "titulo": "Ifes Portas Abertas",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 387,
+      "pub": 385,
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)"
+      ]
+    },
+    {
       "acao_id": "2021",
       "titulo": "Física ao Alcance de Todos",
       "tipo": "Projeto",
@@ -80,6 +91,13 @@
   "atividades": [
     {
       "ano": "2018",
+      "atividade_id": "5300",
+      "acao_id": "1702",
+      "atividade": "Ifes Portas Abertas",
+      "pub": 75
+    },
+    {
+      "ano": "2018",
       "atividade_id": "9595",
       "acao_id": "2021",
       "atividade": "Mostra Tecnológica na Semana Nacional de Ciência e Tecnologia 2019",
@@ -101,9 +119,72 @@
     },
     {
       "ano": "2022",
-      "atividade_id": "19154",
+      "atividade_id": "19181",
       "acao_id": "4033",
-      "atividade": "Estudo de algoritmos de redes neurais profundas voltadas para segmentação de imagens",
+      "atividade": "Montagem de uma segunda base de dados de fotos de pimenta rosa",
+      "pub": 0
+    },
+    {
+      "ano": "2022",
+      "atividade_id": "19165",
+      "acao_id": "4033",
+      "atividade": "Montagem de uma primeira versão de uma base de dados de fotos de pimenta rosa",
+      "pub": 0
+    },
+    {
+      "ano": "2022",
+      "atividade_id": "19172",
+      "acao_id": "4033",
+      "atividade": "Gravação de uma reportagem para o Jornal do Campo da TV Gazeta",
+      "pub": 0
+    },
+    {
+      "ano": "2022",
+      "atividade_id": "19151",
+      "acao_id": "4033",
+      "atividade": "1ª viagem técnica à região do Nativo/SM para realização de entrevistas com produtores de pimenta rosa",
+      "pub": 0
+    },
+    {
+      "ano": "2022",
+      "atividade_id": "13927",
+      "acao_id": "4033",
+      "atividade": "Pink Pepper Qualifier: Determinação da qualidade produtiva dos frutos da Aroeira (Schinus terebinthifolius Raddi) usando Inteligência Computacional",
+      "pub": 0
+    },
+    {
+      "ano": "2022",
+      "atividade_id": "19185",
+      "acao_id": "4033",
+      "atividade": "Realização da palestra intitulada “Aplicativo Pink: Uma solução para avaliar a qualidade produtiva da pimenta rosa”, proferida no 2° Festival Brasileiro de Pimenta Rosa.",
+      "pub": 0
+    },
+    {
+      "ano": "2022",
+      "atividade_id": "19160",
+      "acao_id": "4033",
+      "atividade": "Coleta de frutos para realização de análises químicas - Etapa 3",
+      "pub": 0
+    },
+    {
+      "ano": "2022",
+      "atividade_id": "19158",
+      "acao_id": "4033",
+      "atividade": "Coleta de frutos para realização de análises químicas - Etapa 1",
+      "pub": 0
+    },
+    {
+      "ano": "2022",
+      "atividade_id": "19159",
+      "acao_id": "4033",
+      "atividade": "Coleta de frutos para realização de análises químicas - Etapa 2",
+      "pub": 0
+    },
+    {
+      "ano": "2022",
+      "atividade_id": "19155",
+      "acao_id": "4033",
+      "atividade": "Captura de fotos de pimentas em diferentes estádios fenológicos de maturação - Etapa 1",
       "pub": 0
     },
     {
@@ -122,37 +203,9 @@
     },
     {
       "ano": "2022",
-      "atividade_id": "19172",
+      "atividade_id": "19183",
       "acao_id": "4033",
-      "atividade": "Gravação de uma reportagem para o Jornal do Campo da TV Gazeta",
-      "pub": 0
-    },
-    {
-      "ano": "2022",
-      "atividade_id": "19156",
-      "acao_id": "4033",
-      "atividade": "Captura de fotos de pimentas em diferentes estádios fenológicos de maturação - Etapa 2",
-      "pub": 0
-    },
-    {
-      "ano": "2022",
-      "atividade_id": "19151",
-      "acao_id": "4033",
-      "atividade": "1ª viagem técnica à região do Nativo/SM para realização de entrevistas com produtores de pimenta rosa",
-      "pub": 0
-    },
-    {
-      "ano": "2022",
-      "atividade_id": "19158",
-      "acao_id": "4033",
-      "atividade": "Coleta de frutos para realização de análises químicas - Etapa 1",
-      "pub": 0
-    },
-    {
-      "ano": "2022",
-      "atividade_id": "19181",
-      "acao_id": "4033",
-      "atividade": "Montagem de uma segunda base de dados de fotos de pimenta rosa",
+      "atividade": "Realização da palestra intitulada \"Agricultura 4.0 e qualidade da pimenta rosa\" no 1° Festival Brasileiro de Pimenta Rosa",
       "pub": 0
     },
     {
@@ -171,58 +224,9 @@
     },
     {
       "ano": "2022",
-      "atividade_id": "13927",
-      "acao_id": "4033",
-      "atividade": "Pink Pepper Qualifier: Determinação da qualidade produtiva dos frutos da Aroeira (Schinus terebinthifolius Raddi) usando Inteligência Computacional",
-      "pub": 0
-    },
-    {
-      "ano": "2022",
-      "atividade_id": "19183",
-      "acao_id": "4033",
-      "atividade": "Realização da palestra intitulada \"Agricultura 4.0 e qualidade da pimenta rosa\" no 1° Festival Brasileiro de Pimenta Rosa",
-      "pub": 0
-    },
-    {
-      "ano": "2022",
-      "atividade_id": "19155",
-      "acao_id": "4033",
-      "atividade": "Captura de fotos de pimentas em diferentes estádios fenológicos de maturação - Etapa 1",
-      "pub": 0
-    },
-    {
-      "ano": "2022",
-      "atividade_id": "19165",
-      "acao_id": "4033",
-      "atividade": "Montagem de uma primeira versão de uma base de dados de fotos de pimenta rosa",
-      "pub": 0
-    },
-    {
-      "ano": "2022",
-      "atividade_id": "19160",
-      "acao_id": "4033",
-      "atividade": "Coleta de frutos para realização de análises químicas - Etapa 3",
-      "pub": 0
-    },
-    {
-      "ano": "2022",
       "atividade_id": "19157",
       "acao_id": "4033",
       "atividade": "Captura de fotos de pimentas em diferentes estádios fenológicos de maturação - Etapa 3",
-      "pub": 0
-    },
-    {
-      "ano": "2022",
-      "atividade_id": "19185",
-      "acao_id": "4033",
-      "atividade": "Realização da palestra intitulada “Aplicativo Pink: Uma solução para avaliar a qualidade produtiva da pimenta rosa”, proferida no 2° Festival Brasileiro de Pimenta Rosa.",
-      "pub": 0
-    },
-    {
-      "ano": "2022",
-      "atividade_id": "19159",
-      "acao_id": "4033",
-      "atividade": "Coleta de frutos para realização de análises químicas - Etapa 2",
       "pub": 0
     },
     {
@@ -231,26 +235,45 @@
       "acao_id": "4033",
       "atividade": "Participação em mentorias do Sebrae",
       "pub": 0
+    },
+    {
+      "ano": "2022",
+      "atividade_id": "19156",
+      "acao_id": "4033",
+      "atividade": "Captura de fotos de pimentas em diferentes estádios fenológicos de maturação - Etapa 2",
+      "pub": 0
+    },
+    {
+      "ano": "2022",
+      "atividade_id": "19154",
+      "acao_id": "4033",
+      "atividade": "Estudo de algoritmos de redes neurais profundas voltadas para segmentação de imagens",
+      "pub": 0
     }
   ],
   "imp_coord": 0,
-  "imp_eq": 17,
-  "impacto": 17,
+  "imp_eq": 92,
+  "impacto": 92,
   "temas": [
     {
       "tema": "Robótica e cultura maker",
       "n": 3
     },
     {
-      "tema": "Mulheres e inclusão",
-      "n": 1
+      "tema": "Captação e ingresso",
+      "n": 2
     },
     {
-      "tema": "Captação e ingresso",
+      "tema": "Mulheres e inclusão",
       "n": 1
     }
   ],
   "colaboradores": [
+    {
+      "nome": "Wagner Kirmse Caldas",
+      "slug": "wagner-kirmse-caldas",
+      "acoes_comuns": 2
+    },
     {
       "nome": "Richard Junior Manuel Godinez Tello",
       "slug": "richard-junior-manuel-godinez-tello",
@@ -584,11 +607,6 @@
     {
       "nome": "Adriana Padua Lovatte",
       "slug": "adriana-padua-lovatte",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Wagner Kirmse Caldas",
-      "slug": "wagner-kirmse-caldas",
       "acoes_comuns": 1
     },
     {

@@ -5,22 +5,85 @@
   "anos": [
     "2023"
   ],
-  "funcoes": [],
+  "funcoes": [
+    "COORDENADOR(A)"
+  ],
   "acoes_coordenadas": [
     {
       "acao_id": "4597",
       "titulo": "O IFES é o meu lugar",
       "tipo": "Projeto",
       "ano": "2023",
-      "n": 0,
-      "pub": 0
+      "n": 87,
+      "pub": 79
     }
   ],
-  "participacoes_equipe": [],
-  "atividades": [],
-  "imp_coord": 0,
+  "participacoes_equipe": [
+    {
+      "acao_id": "4597",
+      "titulo": "O IFES é o meu lugar",
+      "tipo": "Projeto",
+      "ano": "2023",
+      "n": 87,
+      "pub": 79,
+      "funcoes": [
+        "COORDENADOR(A)"
+      ]
+    }
+  ],
+  "atividades": [
+    {
+      "ano": "2023",
+      "atividade_id": "15941",
+      "acao_id": "4597",
+      "atividade": "O IFES é o meu lugar",
+      "pub": 79
+    }
+  ],
+  "imp_coord": 79,
   "imp_eq": 0,
-  "impacto": 0,
-  "temas": [],
-  "colaboradores": []
+  "impacto": 79,
+  "temas": [
+    {
+      "tema": "Captação e ingresso",
+      "n": 2
+    }
+  ],
+  "colaboradores": [
+    {
+      "nome": "Leandra Mendes da Silva Piffer",
+      "slug": "leandra-mendes-da-silva-piffer",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Ana Julia Artem dos Santos",
+      "slug": "ana-julia-artem-dos-santos",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Nicole Silva Loss",
+      "slug": "nicole-silva-loss",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Paulo Cezar Camargo Guedes",
+      "slug": "paulo-cezar-camargo-guedes",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Elandia Aparecida Pereira Rodrigues",
+      "slug": "elandia-aparecida-pereira-rodrigues",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Marcos Antônio Tavares de Souza",
+      "slug": "marcos-antonio-tavares-de-souza",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Jefferson da Silva Bomfim",
+      "slug": "jefferson-da-silva-bomfim",
+      "acoes_comuns": 1
+    }
+  ]
 }

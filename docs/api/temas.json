@@ -4,16 +4,16 @@
     "medida": "atendimentos",
     "crumb_all": "Todos os temas",
     "colors": {
-      "Evento": "var(--c3)",
       "Projeto": "var(--c4)",
       "Curso": "var(--c1)",
-      "Programa": "var(--c2)"
+      "Programa": "var(--c2)",
+      "Evento": "var(--c3)"
     },
     "labels": {
-      "Evento": "Evento",
       "Projeto": "Projeto",
       "Curso": "Curso",
-      "Programa": "Programa"
+      "Programa": "Programa",
+      "Evento": "Evento"
     },
     "groups": [
       {
@@ -21,19 +21,19 @@
         "parts": [
           [
             "Programa",
-            1303
+            1793
           ],
           [
             "Projeto",
-            584
-          ],
-          [
-            "Evento",
-            147
+            585
           ],
           [
             "Curso",
             32
+          ],
+          [
+            "Evento",
+            0
           ]
         ]
       },
@@ -45,16 +45,16 @@
             1037
           ],
           [
-            "Curso",
-            89
+            "Programa",
+            177
           ],
           [
-            "Projeto",
+            "Curso",
             45
           ],
           [
-            "Programa",
-            0
+            "Projeto",
+            1
           ]
         ]
       },
@@ -66,12 +66,12 @@
             501
           ],
           [
-            "Curso",
-            108
+            "Projeto",
+            467
           ],
           [
-            "Projeto",
-            3
+            "Curso",
+            154
           ]
         ]
       },
@@ -80,11 +80,11 @@
         "parts": [
           [
             "Projeto",
-            355
+            213
           ],
           [
             "Curso",
-            114
+            213
           ]
         ]
       },
@@ -93,15 +93,15 @@
         "parts": [
           [
             "Projeto",
-            193
-          ],
-          [
-            "Curso",
-            70
+            192
           ],
           [
             "Programa",
             18
+          ],
+          [
+            "Curso",
+            17
           ]
         ]
       },
@@ -114,7 +114,7 @@
           ],
           [
             "Projeto",
-            0
+            1
           ]
         ]
       },
@@ -124,6 +124,10 @@
           [
             "Curso",
             74
+          ],
+          [
+            "Programa",
+            1
           ]
         ]
       },
@@ -131,12 +135,12 @@
         "nome": "Software, dados e sistemas",
         "parts": [
           [
-            "Curso",
-            26
-          ],
-          [
             "Projeto",
             11
+          ],
+          [
+            "Curso",
+            1
           ]
         ]
       },
@@ -165,6 +169,11 @@
           "t": "Curso de Auxiliar Administrativo",
           "c": "Curso",
           "v": 74
+        },
+        {
+          "t": "LEDS – Laboratório de Extensão e Desenvolvimento de Soluções",
+          "c": "Programa",
+          "v": 1
         }
       ],
       "Saúde e bem-estar": [
@@ -177,6 +186,75 @@
           "t": "Curso de Eletricista Instalador Predial de Baixa Tensão",
           "c": "Curso",
           "v": 39
+        },
+        {
+          "t": "IFES Contra a Covid-19",
+          "c": "Projeto",
+          "v": 1
+        }
+      ],
+      "Empreendedorismo e incubação": [
+        {
+          "t": "Semana de Ciência e Tecnologia do Campus Serra do Ifes",
+          "c": "Evento",
+          "v": 1037
+        },
+        {
+          "t": "Programa Local Núcleo Incubador Campus Serra – NIS",
+          "c": "Programa",
+          "v": 152
+        },
+        {
+          "t": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluçõe",
+          "c": "Programa",
+          "v": 25
+        },
+        {
+          "t": "ELETRICISTA INSTALADOR PREDIAL DE BAIXA TENSÃO",
+          "c": "Curso",
+          "v": 23
+        },
+        {
+          "t": "Curso de Pré-Incubação para Empreendedores",
+          "c": "Curso",
+          "v": 11
+        },
+        {
+          "t": "Curso de Pré-Incubação de Empreendimentos – modalidade Resid",
+          "c": "Curso",
+          "v": 8
+        },
+        {
+          "t": "Curso de Pré-Incubação de Empreendimentos – modalidade Resid",
+          "c": "Curso",
+          "v": 3
+        },
+        {
+          "t": "My Pay: Um ERP em nuvem para foodtrucks",
+          "c": "Projeto",
+          "v": 1
+        }
+      ],
+      "Cultura e arte": [
+        {
+          "t": "Circuito Audiovisual",
+          "c": "Projeto",
+          "v": 192
+        },
+        {
+          "t": "Ifes para todos",
+          "c": "Programa",
+          "v": 17
+        },
+        {
+          "t": "Operador de Computador",
+          "c": "Curso",
+          "v": 17
+        },
+        {
+          "t": "Programa Regular de Promoção da Cultura e da Arte no Ifes Ca",
+          "c": "Programa",
+          "v": 1
         }
       ],
       "Mulheres e inclusão": [
@@ -186,14 +264,19 @@
           "v": 197
         },
         {
-          "t": "QUÍMICA VERDE APLICADA: oficinas e workshops",
-          "c": "Projeto",
-          "v": 142
+          "t": "Mulheres Mil – Eletricista Instalador Predial em Baixa Tensã",
+          "c": "Curso",
+          "v": 62
         },
         {
-          "t": "PRÉ – IFES Campus Serra",
+          "t": "Tutoria de Estudos Orientados em Matemática Nº 01/2014",
           "c": "Curso",
-          "v": 33
+          "v": 38
+        },
+        {
+          "t": "Informática Básica Para Agentes Multiplicadores.",
+          "c": "Curso",
+          "v": 32
         },
         {
           "t": "Asas para o Futuro - Eletricista Instalador Predial em Baixa",
@@ -221,68 +304,36 @@
           "v": 5
         }
       ],
-      "Empreendedorismo e incubação": [
+      "Captação e ingresso": [
         {
-          "t": "Semana de Ciência e Tecnologia do Campus Serra do Ifes",
-          "c": "Evento",
-          "v": 1037
-        },
-        {
-          "t": "Academia Cisco nas Escolas Municipais da Serra - ES",
-          "c": "Projeto",
-          "v": 44
-        },
-        {
-          "t": "Curso de Pré-Incubação para Empreendedores – Modalidade Comp",
-          "c": "Curso",
-          "v": 37
-        },
-        {
-          "t": "Curso de Pré-Incubação para Empreendedores – Modalidade Comp",
-          "c": "Curso",
-          "v": 29
-        },
-        {
-          "t": "ELETRICISTA INSTALADOR PREDIAL DE BAIXA TENSÃO",
-          "c": "Curso",
-          "v": 23
-        },
-        {
-          "t": "My Pay: Um ERP em nuvem para foodtrucks",
-          "c": "Projeto",
-          "v": 1
-        }
-      ],
-      "Cultura e arte": [
-        {
-          "t": "Circuito Audiovisual",
-          "c": "Projeto",
-          "v": 192
-        },
-        {
-          "t": "Despertar da Força - Processos e Ferramentas para o Gerencia",
-          "c": "Curso",
-          "v": 53
-        },
-        {
-          "t": "Ifes para todos",
+          "t": "Ifes Portas Abertas",
           "c": "Programa",
-          "v": 17
+          "v": 501
         },
         {
-          "t": "Operador de Computador",
-          "c": "Curso",
-          "v": 17
-        },
-        {
-          "t": "SIPAC - Sistema de Informação da Produção Agropecuária capix",
+          "t": "Ifes Portas Abertas",
           "c": "Projeto",
-          "v": 1
+          "v": 385
         },
         {
-          "t": "Programa Regular de Promoção da Cultura e da Arte no Ifes Ca",
-          "c": "Programa",
-          "v": 1
+          "t": "O IFES é o meu lugar",
+          "c": "Curso",
+          "v": 80
+        },
+        {
+          "t": "O IFES é o meu lugar",
+          "c": "Projeto",
+          "v": 79
+        },
+        {
+          "t": "O IFES é o meu lugar",
+          "c": "Curso",
+          "v": 74
+        },
+        {
+          "t": "Física ao Alcance de Todos",
+          "c": "Projeto",
+          "v": 3
         }
       ],
       "Robótica e cultura maker": [
@@ -290,6 +341,11 @@
           "t": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
           "c": "Programa",
           "v": 1290
+        },
+        {
+          "t": "LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino",
+          "c": "Programa",
+          "v": 490
         },
         {
           "t": "Física ao Alcance de Todos",
@@ -300,11 +356,6 @@
           "t": "Conectando Talentos: Robótica e Programação no IFES-Serra",
           "c": "Projeto",
           "v": 172
-        },
-        {
-          "t": "SEMANA DE CONTROLE E AUTOMAÇÃO",
-          "c": "Evento",
-          "v": 147
         },
         {
           "t": "LabMaker 4.0: capacitando professores para a cultura maker e",
@@ -330,28 +381,11 @@
           "t": "SmartIdea - Validação de Problemas e Ideias",
           "c": "Projeto",
           "v": 5
-        }
-      ],
-      "Captação e ingresso": [
-        {
-          "t": "Ifes Portas Abertas",
-          "c": "Programa",
-          "v": 501
         },
         {
-          "t": "O IFES é o meu lugar",
-          "c": "Curso",
-          "v": 74
-        },
-        {
-          "t": "Matemática na Rede",
-          "c": "Curso",
-          "v": 34
-        },
-        {
-          "t": "Física ao Alcance de Todos",
+          "t": "Desenvolvimento de um sistema multiplataforma para robôs de ",
           "c": "Projeto",
-          "v": 3
+          "v": 1
         }
       ],
       "Escola e formação de professores": [
@@ -362,11 +396,6 @@
         }
       ],
       "Software, dados e sistemas": [
-        {
-          "t": "Energia Solar Fotovoltaica",
-          "c": "Curso",
-          "v": 25
-        },
         {
           "t": "STEM - Experiência de Imersão e desenvolvimento de soluções ",
           "c": "Projeto",
@@ -380,23 +409,28 @@
       ]
     },
     "zero": {
-      "Software, dados e sistemas": 3,
       "Ciência e divulgação": 1,
-      "Saúde e bem-estar": 6,
-      "Empreendedorismo e incubação": 3,
+      "Software, dados e sistemas": 3,
       "Mulheres e inclusão": 1,
+      "Saúde e bem-estar": 4,
       "Captação e ingresso": 1,
-      "Robótica e cultura maker": 2,
-      "Cultura e arte": 3
+      "Empreendedorismo e incubação": 2,
+      "Robótica e cultura maker": 3,
+      "Cultura e arte": 2
     }
   },
   "temas": [
     {
       "tema": "Robótica e cultura maker",
-      "acoes": 11,
-      "publico": 2066,
-      "pessoas": 1419,
+      "acoes": 13,
+      "publico": 2410,
+      "pessoas": 1418,
       "coordenadores": [
+        {
+          "nome": "Richard Junior Manuel Godinez Tello",
+          "slug": "richard-junior-manuel-godinez-tello",
+          "n": 3
+        },
         {
           "nome": "Moisés Savedra Omena",
           "slug": "moises-savedra-omena",
@@ -421,14 +455,13 @@
           "nome": "Felipe Frechiani de Oliveira",
           "slug": "felipe-frechiani-de-oliveira",
           "n": 1
-        },
-        {
-          "nome": "Richard Junior Manuel Godinez Tello",
-          "slug": "richard-junior-manuel-godinez-tello",
-          "n": 1
         }
       ],
       "exemplos": [
+        {
+          "titulo": "Desenvolvimento de um sistema multiplataforma para robôs de ",
+          "acao_id": "1829"
+        },
         {
           "titulo": "Física ao Alcance de Todos",
           "acao_id": "2021"
@@ -438,22 +471,23 @@
           "acao_id": "3140"
         },
         {
-          "titulo": "Pink Pepper Qualifier: Determinação da qualidade produtiva d",
-          "acao_id": "4033"
-        },
-        {
-          "titulo": "SmartIdea - Validação de Problemas e Ideias",
-          "acao_id": "4034"
+          "titulo": "Laboratório IFMaker Serra: um ambiente colaborativo de apren",
+          "acao_id": "3567"
         }
       ],
       "resumo": null
     },
     {
       "tema": "Empreendedorismo e incubação",
-      "acoes": 9,
-      "publico": 1171,
-      "pessoas": 462,
+      "acoes": 10,
+      "publico": 1260,
+      "pessoas": 571,
       "coordenadores": [
+        {
+          "nome": "Felipe Frechiani de Oliveira",
+          "slug": "felipe-frechiani-de-oliveira",
+          "n": 3
+        },
         {
           "nome": "Emmanuel Marques Silva",
           "slug": "emmanuel-marques-silva",
@@ -465,18 +499,13 @@
           "n": 1
         },
         {
-          "nome": "Gilberto Neves Sudre Filho",
-          "slug": "gilberto-neves-sudre-filho",
+          "nome": "Victorio Albani de Carvalho",
+          "slug": "victorio-albani-de-carvalho",
           "n": 1
         },
         {
           "nome": "Francisco José Casarim Rapchan",
           "slug": "francisco-jose-casarim-rapchan",
-          "n": 1
-        },
-        {
-          "nome": "Felipe Frechiani de Oliveira",
-          "slug": "felipe-frechiani-de-oliveira",
           "n": 1
         },
         {
@@ -487,30 +516,35 @@
       ],
       "exemplos": [
         {
-          "titulo": "Curso de Pré-Incubação para Empreendedores – Modalidade Comp",
-          "acao_id": "1261"
+          "titulo": "Curso de Pré-Incubação de Empreendimentos – modalidade Resid",
+          "acao_id": "1406"
         },
         {
           "titulo": "Semana de Ciência e Tecnologia do Campus Serra do Ifes",
           "acao_id": "1426"
         },
         {
-          "titulo": "Academia Cisco nas Escolas Municipais da Serra - ES",
-          "acao_id": "1818"
+          "titulo": "My Pay: Um ERP em nuvem para foodtrucks",
+          "acao_id": "2786"
         },
         {
-          "titulo": "Inova Serra",
-          "acao_id": "1883"
+          "titulo": "Curso de Pré-Incubação para Empreendedores",
+          "acao_id": "320"
         }
       ],
       "resumo": null
     },
     {
       "tema": "Captação e ingresso",
-      "acoes": 5,
-      "publico": 612,
-      "pessoas": 610,
+      "acoes": 7,
+      "publico": 1122,
+      "pessoas": 1116,
       "coordenadores": [
+        {
+          "nome": "Wagner Kirmse Caldas",
+          "slug": "wagner-kirmse-caldas",
+          "n": 2
+        },
         {
           "nome": "Paulo Cezar Camargo Guedes",
           "slug": "paulo-cezar-camargo-guedes",
@@ -522,12 +556,16 @@
           "n": 2
         },
         {
-          "nome": "Wagner Kirmse Caldas",
-          "slug": "wagner-kirmse-caldas",
+          "nome": "Augusto Cesar Machado Ramos",
+          "slug": "augusto-cesar-machado-ramos",
           "n": 1
         }
       ],
       "exemplos": [
+        {
+          "titulo": "Ifes Portas Abertas",
+          "acao_id": "1702"
+        },
         {
           "titulo": "O IFES é o meu lugar",
           "acao_id": "2081"
@@ -537,46 +575,37 @@
           "acao_id": "2107"
         },
         {
-          "titulo": "Matemática na Rede",
-          "acao_id": "2650"
-        },
-        {
-          "titulo": "Física ao Alcance de Todos",
-          "acao_id": "2932"
+          "titulo": "O IFES é o meu lugar",
+          "acao_id": "2591"
         }
       ],
       "resumo": null
     },
     {
       "tema": "Mulheres e inclusão",
-      "acoes": 9,
-      "publico": 469,
-      "pessoas": 449,
+      "acoes": 10,
+      "publico": 426,
+      "pessoas": 396,
       "coordenadores": [
+        {
+          "nome": "Tatiane Policário Chagas",
+          "slug": "tatiane-policario-chagas",
+          "n": 3
+        },
         {
           "nome": "Giordana dos Santos Sperandio",
           "slug": "giordana-dos-santos-sperandio",
           "n": 2
         },
         {
-          "nome": "Tatiane Policário Chagas",
-          "slug": "tatiane-policario-chagas",
-          "n": 2
-        },
-        {
-          "nome": "Alessandro Bermudes Gomes",
-          "slug": "alessandro-bermudes-gomes",
-          "n": 1
-        },
-        {
           "nome": "Bruno Cardoso Coutinho",
           "slug": "bruno-cardoso-coutinho",
-          "n": 1
+          "n": 2
         },
         {
           "nome": "Bruno Ramos Gonzaga",
           "slug": "bruno-ramos-gonzaga",
-          "n": 1
+          "n": 2
         },
         {
           "nome": "Emilene Coco dos Santos",
@@ -585,10 +614,6 @@
         }
       ],
       "exemplos": [
-        {
-          "titulo": "PRÉ – IFES Campus Serra",
-          "acao_id": "1117"
-        },
         {
           "titulo": "Mulheres na Ciência",
           "acao_id": "1633"
@@ -600,24 +625,23 @@
         {
           "titulo": "Incluir & Multiplicar",
           "acao_id": "2595"
+        },
+        {
+          "titulo": "Tutoria de Estudos Orientados: Compartilhando Saberes",
+          "acao_id": "2675"
         }
       ],
       "resumo": null
     },
     {
       "tema": "Cultura e arte",
-      "acoes": 9,
-      "publico": 281,
-      "pessoas": 158,
+      "acoes": 6,
+      "publico": 227,
+      "pessoas": 104,
       "coordenadores": [
         {
           "nome": "Ana Paula Klauck",
           "slug": "ana-paula-klauck",
-          "n": 2
-        },
-        {
-          "nome": "Moisés Savedra Omena",
-          "slug": "moises-savedra-omena",
           "n": 2
         },
         {
@@ -636,8 +660,8 @@
           "n": 1
         },
         {
-          "nome": "Sergio Nery Simões",
-          "slug": "sergio-nery-simoes",
+          "nome": "Moisés Savedra Omena",
+          "slug": "moises-savedra-omena",
           "n": 1
         }
       ],
@@ -663,24 +687,29 @@
     },
     {
       "tema": "Saúde e bem-estar",
-      "acoes": 8,
-      "publico": 83,
-      "pessoas": 83,
+      "acoes": 7,
+      "publico": 84,
+      "pessoas": 84,
       "coordenadores": [
-        {
-          "nome": "Carlos Lins Borges Azevedo",
-          "slug": "carlos-lins-borges-azevedo",
-          "n": 3
-        },
         {
           "nome": "Elizangela Campos da Rosa Broetto",
           "slug": "elizangela-campos-da-rosa-broetto",
           "n": 2
         },
         {
+          "nome": "Carlos Lins Borges Azevedo",
+          "slug": "carlos-lins-borges-azevedo",
+          "n": 2
+        },
+        {
           "nome": "Moisés Savedra Omena",
           "slug": "moises-savedra-omena",
-          "n": 2
+          "n": 1
+        },
+        {
+          "nome": "Rosiane Ribeiro Rocha",
+          "slug": "rosiane-ribeiro-rocha",
+          "n": 1
         },
         {
           "nome": "Vitor Faiçal Campana",
@@ -698,25 +727,30 @@
           "acao_id": "110"
         },
         {
-          "titulo": "Sistema para predição de transtornos mentais comuns na atenç",
-          "acao_id": "1834"
+          "titulo": "Sistema de apoio para rastreio e geolocalização de transtorn",
+          "acao_id": "2599"
         },
         {
-          "titulo": "Sistema de apoio para rastreio e geolocalização de transtorn",
-          "acao_id": "1847"
+          "titulo": "Sistema para predição de transtornos mentais comuns na atenç",
+          "acao_id": "2600"
         }
       ],
       "resumo": null
     },
     {
       "tema": "Outros / formação",
-      "acoes": 1,
-      "publico": 74,
-      "pessoas": 74,
+      "acoes": 2,
+      "publico": 75,
+      "pessoas": 75,
       "coordenadores": [
         {
           "nome": "Elizangela Campos da Rosa Broetto",
           "slug": "elizangela-campos-da-rosa-broetto",
+          "n": 1
+        },
+        {
+          "nome": "Felipe Frechiani de Oliveira",
+          "slug": "felipe-frechiani-de-oliveira",
           "n": 1
         }
       ],
@@ -724,21 +758,20 @@
         {
           "titulo": "Curso de Auxiliar Administrativo",
           "acao_id": "108"
+        },
+        {
+          "titulo": "LEDS – Laboratório de Extensão e Desenvolvimento de Soluções",
+          "acao_id": "1838"
         }
       ],
       "resumo": null
     },
     {
       "tema": "Software, dados e sistemas",
-      "acoes": 6,
-      "publico": 37,
-      "pessoas": 36,
+      "acoes": 5,
+      "publico": 12,
+      "pessoas": 11,
       "coordenadores": [
-        {
-          "nome": "Paulo Sérgio dos Santos Júnior",
-          "slug": "paulo-sergio-dos-santos-junior",
-          "n": 1
-        },
         {
           "nome": "Felipe Frechiani de Oliveira",
           "slug": "felipe-frechiani-de-oliveira",
@@ -750,6 +783,11 @@
           "n": 1
         },
         {
+          "nome": "Moisés Savedra Omena",
+          "slug": "moises-savedra-omena",
+          "n": 1
+        },
+        {
           "nome": "Adelson Pereira do Nascimento",
           "slug": "adelson-pereira-do-nascimento",
           "n": 1
@@ -758,18 +796,9 @@
           "nome": "Jefferson Oliveira Andrade",
           "slug": "jefferson-oliveira-andrade",
           "n": 1
-        },
-        {
-          "nome": "Giovani Zanetti Neto",
-          "slug": "giovani-zanetti-neto",
-          "n": 1
         }
       ],
       "exemplos": [
-        {
-          "titulo": "Mutual Life: Um aplicativo para seguros colaborativos",
-          "acao_id": "1786"
-        },
         {
           "titulo": "ES Na Palma da Mão: Uma Plataforma baseado em serviços para ",
           "acao_id": "2285"
@@ -777,6 +806,10 @@
         {
           "titulo": "I Am Here: Registro de Frequência por Reconhecimento Facial",
           "acao_id": "2823"
+        },
+        {
+          "titulo": "Stone Connection",
+          "acao_id": "3021"
         },
         {
           "titulo": "STEM - Experiência de Imersão e desenvolvimento de soluções ",

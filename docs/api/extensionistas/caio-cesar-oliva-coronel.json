@@ -29,6 +29,13 @@
   "atividades": [
     {
       "ano": "2020",
+      "atividade_id": "21063",
+      "acao_id": "3140",
+      "atividade": "Equipe de organização da Maratona de Programação 2025",
+      "pub": 0
+    },
+    {
+      "ano": "2020",
       "atividade_id": "20333",
       "acao_id": "3140",
       "atividade": "Monitoria de Matemática e Programação 2025/01",
@@ -39,13 +46,6 @@
       "atividade_id": "21062",
       "acao_id": "3140",
       "atividade": "Equipe de organização do SCAI 2025",
-      "pub": 0
-    },
-    {
-      "ano": "2020",
-      "atividade_id": "21063",
-      "acao_id": "3140",
-      "atividade": "Equipe de organização da Maratona de Programação 2025",
       "pub": 0
     }
   ],

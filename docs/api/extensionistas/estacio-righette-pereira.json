@@ -3,13 +3,26 @@
   "nome": "Estácio Righette Pereira",
   "resumo_ia": null,
   "anos": [
+    "2017",
     "2018"
   ],
   "funcoes": [
+    "ALUNO(A) VOLUNTARIO",
     "EXPOSITOR(A)"
   ],
   "acoes_coordenadas": [],
   "participacoes_equipe": [
+    {
+      "acao_id": "1406",
+      "titulo": "Curso de Pré-Incubação de Empreendimentos – modalidade Residência",
+      "tipo": "Curso",
+      "ano": "2017",
+      "n": 12,
+      "pub": 8,
+      "funcoes": [
+        "ALUNO(A) VOLUNTARIO"
+      ]
+    },
     {
       "acao_id": "2021",
       "titulo": "Física ao Alcance de Todos",
@@ -24,11 +37,18 @@
   ],
   "atividades": [
     {
+      "ano": "2017",
+      "atividade_id": "4172",
+      "acao_id": "1406",
+      "atividade": "Curso de Pré-Incubação de Empreendimentos – modalidade Residência",
+      "pub": 8
+    },
+    {
       "ano": "2018",
-      "atividade_id": "6520",
+      "atividade_id": "9601",
       "acao_id": "2021",
-      "atividade": "Exposição de experimentos em física - Mostra científica",
-      "pub": 9
+      "atividade": "Mostra Tecnológica na Semana Nacional de Ciência e Tecnologia 2019",
+      "pub": 0
     },
     {
       "ano": "2018",
@@ -39,22 +59,41 @@
     },
     {
       "ano": "2018",
-      "atividade_id": "9601",
+      "atividade_id": "6520",
       "acao_id": "2021",
-      "atividade": "Mostra Tecnológica na Semana Nacional de Ciência e Tecnologia 2019",
-      "pub": 0
+      "atividade": "Exposição de experimentos em física - Mostra científica",
+      "pub": 9
     }
   ],
   "imp_coord": 0,
-  "imp_eq": 9,
-  "impacto": 9,
+  "imp_eq": 17,
+  "impacto": 17,
   "temas": [
+    {
+      "tema": "Empreendedorismo e incubação",
+      "n": 1
+    },
     {
       "tema": "Robótica e cultura maker",
       "n": 1
     }
   ],
   "colaboradores": [
+    {
+      "nome": "Felipe Frechiani de Oliveira",
+      "slug": "felipe-frechiani-de-oliveira",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Lucas Velten Henker",
+      "slug": "lucas-velten-henker",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Emmanuel Marques Silva",
+      "slug": "emmanuel-marques-silva",
+      "acoes_comuns": 1
+    },
     {
       "nome": "Rosilene de Sá Ribeiro",
       "slug": "rosilene-de-sa-ribeiro",

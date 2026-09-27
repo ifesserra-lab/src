@@ -42,6 +42,13 @@
   "atividades": [
     {
       "ano": "2018",
+      "atividade_id": "9601",
+      "acao_id": "2021",
+      "atividade": "Mostra Tecnológica na Semana Nacional de Ciência e Tecnologia 2019",
+      "pub": 0
+    },
+    {
+      "ano": "2018",
       "atividade_id": "6521",
       "acao_id": "2021",
       "atividade": "Minicurso: Introdução ao Arduino e Microcontroladores",
@@ -49,7 +56,7 @@
     },
     {
       "ano": "2018",
-      "atividade_id": "9601",
+      "atividade_id": "9595",
       "acao_id": "2021",
       "atividade": "Mostra Tecnológica na Semana Nacional de Ciência e Tecnologia 2019",
       "pub": 0
@@ -66,13 +73,6 @@
       "atividade_id": "7750",
       "acao_id": "2021",
       "atividade": "Trabalho de Iniciação Científica",
-      "pub": 0
-    },
-    {
-      "ano": "2018",
-      "atividade_id": "9595",
-      "acao_id": "2021",
-      "atividade": "Mostra Tecnológica na Semana Nacional de Ciência e Tecnologia 2019",
       "pub": 0
     },
     {

@@ -79,24 +79,17 @@
   "atividades": [
     {
       "ano": "2018",
+      "atividade_id": "6232",
+      "acao_id": "2021",
+      "atividade": "Física ao Alcance de Todos",
+      "pub": 0
+    },
+    {
+      "ano": "2018",
       "atividade_id": "9600",
       "acao_id": "2021",
       "atividade": "Palestra: Energia Fotovoltaica na Semana Nacional de Ciência e Tecnologia 2019",
       "pub": 47
-    },
-    {
-      "ano": "2018",
-      "atividade_id": "9599",
-      "acao_id": "2021",
-      "atividade": "Palestra: Biocombustíveis na Semana Nacional de Ciência e Tecnologia 2019",
-      "pub": 57
-    },
-    {
-      "ano": "2018",
-      "atividade_id": "6522",
-      "acao_id": "2021",
-      "atividade": "Minicurso: Introdução ao Arduino e Microcontroladores",
-      "pub": 30
     },
     {
       "ano": "2018",
@@ -107,10 +100,31 @@
     },
     {
       "ano": "2018",
-      "atividade_id": "7750",
+      "atividade_id": "6519",
       "acao_id": "2021",
-      "atividade": "Trabalho de Iniciação Científica",
+      "atividade": "Palestra: Mulheres na Ciência - Palestrante: Rosilene de Sá Ribeiro",
+      "pub": 6
+    },
+    {
+      "ano": "2018",
+      "atividade_id": "9599",
+      "acao_id": "2021",
+      "atividade": "Palestra: Biocombustíveis na Semana Nacional de Ciência e Tecnologia 2019",
+      "pub": 57
+    },
+    {
+      "ano": "2018",
+      "atividade_id": "9595",
+      "acao_id": "2021",
+      "atividade": "Mostra Tecnológica na Semana Nacional de Ciência e Tecnologia 2019",
       "pub": 0
+    },
+    {
+      "ano": "2018",
+      "atividade_id": "6522",
+      "acao_id": "2021",
+      "atividade": "Minicurso: Introdução ao Arduino e Microcontroladores",
+      "pub": 30
     },
     {
       "ano": "2018",
@@ -121,20 +135,6 @@
     },
     {
       "ano": "2018",
-      "atividade_id": "6519",
-      "acao_id": "2021",
-      "atividade": "Palestra: Mulheres na Ciência - Palestrante: Rosilene de Sá Ribeiro",
-      "pub": 6
-    },
-    {
-      "ano": "2018",
-      "atividade_id": "6232",
-      "acao_id": "2021",
-      "atividade": "Física ao Alcance de Todos",
-      "pub": 0
-    },
-    {
-      "ano": "2018",
       "atividade_id": "9594",
       "acao_id": "2021",
       "atividade": "Palestra: Mulheres na Ciência durante a Semana Nacional de Ciência e Tecnologia 2019",
@@ -142,16 +142,9 @@
     },
     {
       "ano": "2018",
-      "atividade_id": "9595",
+      "atividade_id": "7750",
       "acao_id": "2021",
-      "atividade": "Mostra Tecnológica na Semana Nacional de Ciência e Tecnologia 2019",
-      "pub": 0
-    },
-    {
-      "ano": "2020",
-      "atividade_id": "10285",
-      "acao_id": "2932",
-      "atividade": "Física ao Alcance de Todos",
+      "atividade": "Trabalho de Iniciação Científica",
       "pub": 0
     },
     {
@@ -162,10 +155,10 @@
       "pub": 0
     },
     {
-      "ano": "2022",
-      "atividade_id": "17383",
-      "acao_id": "3768",
-      "atividade": "Inciciação Científica",
+      "ano": "2020",
+      "atividade_id": "10285",
+      "acao_id": "2932",
+      "atividade": "Física ao Alcance de Todos",
       "pub": 0
     },
     {
@@ -174,6 +167,13 @@
       "acao_id": "3768",
       "atividade": "Física ao Alcance de Todos",
       "pub": 3
+    },
+    {
+      "ano": "2022",
+      "atividade_id": "17383",
+      "acao_id": "3768",
+      "atividade": "Inciciação Científica",
+      "pub": 0
     }
   ],
   "imp_coord": 238,

@@ -2171,6 +2171,19 @@
     "resumo": "O Programa Tutoria de Estudos Orientados (TEO) constitui uma ação complementar ao ensino voltada à formação de estudantes-tutores e professores-tutores para o desenvolvimento de práticas de tutoria acadêmica no âmbito do Ifes – Campus Serra. Fundamentado em pesquisa de doutoramento desenvolvida sobre tutoria universitária, o programa compreende a tutoria como uma prática educativa capaz de promove"
   },
   {
+    "acao_id": "6279",
+    "titulo": "Multiplicadores Maker nas Escolas do Futuro: Popularização da Cultura Científica por Meio de Tecnologias Digitais e Prototipagem",
+    "coordenador": "Rosiane Ribeiro Rocha",
+    "tipo": "Projeto",
+    "natureza": "Extensão",
+    "ano": "2026",
+    "area_tematica": "Educação",
+    "grande_area": null,
+    "fomento": "FAPES",
+    "processo": "23158.002066/2026-93",
+    "resumo": "A proposta visa fortalecer o letramento científico de estudantes da educação básica por meio de uma\nabordagem investigativa e “mão na massa” (maker), integrando atividades de ciência, matemática e\ntecnologias digitais. Em parceria com uma escola estadual (EEEM Clóvis Borges Miguel) e o Ifes –\nCampus Serra, o projeto estrutura um ciclo completo que vai do diagnóstico inicial à formação de um\nnúcleo"
+  },
+  {
     "acao_id": "628",
     "titulo": "Gametalk: vamos falar sobre games?",
     "coordenador": "Ana Paula Klauck",
@@ -2182,6 +2195,19 @@
     "fomento": "PAEX-IFES",
     "processo": "23158.000808/2015-93",
     "resumo": "\"Gametalk vamos falar sobre games?\" integra tecnologia e cultura, tratando de uma expressão cultural muito popular na atualidade: os jogos digitais, aos quais a maioria dos jovens dedica seu tempo e interesse, segundo seus próprios relatos. Ao reconhecer e estimular o interesse na área, o evento pretende mostrar que o campus está engajado às tendências de tecnologia do mercado do entretenimento e "
+  },
+  {
+    "acao_id": "6284",
+    "titulo": "Restaura Rio Doce Capixaba – Rede Ifes/Incaper de Restauração Ecológica e Produtiva da Região 4",
+    "coordenador": "Adonai José Lacruz",
+    "tipo": "Programa",
+    "natureza": "Extensão",
+    "ano": "2026",
+    "area_tematica": "Meio Ambiente",
+    "grande_area": "Ciências Humanas",
+    "fomento": "SEM VÍNCULO",
+    "processo": "23158.002195/2026-81",
+    "resumo": "O Restaura Rio Doce Capixaba propõe restaurar 2.500 hectares na Região 4 da Bacia do Rio Doce (bacias do Guandu, Santa Maria do Doce e Pontões e Lagoas), dividindo-se igualmente entre restauração ecológica (1.250 ha, dos quais 125 ha em ecossistemas costeiros) e restauração produtiva (1.250 ha). O Ifes atua como Parceiro Aglutinador da Região 4 na Chamada Pública BNDES Fundo Rio Doce nº 01/2026, e"
   },
   {
     "acao_id": "640",

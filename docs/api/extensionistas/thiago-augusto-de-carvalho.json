@@ -44,23 +44,16 @@
     },
     {
       "ano": "2022",
-      "atividade_id": "13927",
-      "acao_id": "4033",
-      "atividade": "Pink Pepper Qualifier: Determinação da qualidade produtiva dos frutos da Aroeira (Schinus terebinthifolius Raddi) usando Inteligência Computacional",
-      "pub": 0
-    },
-    {
-      "ano": "2022",
-      "atividade_id": "19167",
-      "acao_id": "4033",
-      "atividade": "Implementações do back-end do sistema Pink Pepper Qualifier - Etapa 2",
-      "pub": 0
-    },
-    {
-      "ano": "2022",
       "atividade_id": "19188",
       "acao_id": "4033",
       "atividade": "Desenvolvimento de protótipos de tela do aplicativo Pink Pepper Qualifier - Etapa 2",
+      "pub": 0
+    },
+    {
+      "ano": "2022",
+      "atividade_id": "19171",
+      "acao_id": "4033",
+      "atividade": "Implementações do front-end do sistema Pink Pepper Qualifier - Etapa 3",
       "pub": 0
     },
     {
@@ -72,9 +65,16 @@
     },
     {
       "ano": "2022",
-      "atividade_id": "19171",
+      "atividade_id": "13927",
       "acao_id": "4033",
-      "atividade": "Implementações do front-end do sistema Pink Pepper Qualifier - Etapa 3",
+      "atividade": "Pink Pepper Qualifier: Determinação da qualidade produtiva dos frutos da Aroeira (Schinus terebinthifolius Raddi) usando Inteligência Computacional",
+      "pub": 0
+    },
+    {
+      "ano": "2022",
+      "atividade_id": "19167",
+      "acao_id": "4033",
+      "atividade": "Implementações do back-end do sistema Pink Pepper Qualifier - Etapa 2",
       "pub": 0
     },
     {

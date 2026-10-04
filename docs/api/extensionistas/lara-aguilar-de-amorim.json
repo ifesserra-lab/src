@@ -29,13 +29,6 @@
   "atividades": [
     {
       "ano": "2020",
-      "atividade_id": "19900",
-      "acao_id": "3140",
-      "atividade": "Apresentação do Lampex na Jornada de Integração do Ifes",
-      "pub": 0
-    },
-    {
-      "ano": "2020",
       "atividade_id": "19898",
       "acao_id": "3140",
       "atividade": "Site Institucional da Associação Shalom",
@@ -46,6 +39,13 @@
       "atividade_id": "19897",
       "acao_id": "3140",
       "atividade": "Minicurso de Git/Github para a Jornada de Integração do IFES",
+      "pub": 0
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "19900",
+      "acao_id": "3140",
+      "atividade": "Apresentação do Lampex na Jornada de Integração do Ifes",
       "pub": 0
     }
   ],
@@ -835,8 +835,8 @@
       "acoes_comuns": 1
     },
     {
-      "nome": "Graziela Barboza Guaitolini Ramos",
-      "slug": "graziela-barboza-guaitolini-ramos",
+      "nome": "Graziela Barboza Guaitolini",
+      "slug": "graziela-barboza-guaitolini",
       "acoes_comuns": 1
     },
     {

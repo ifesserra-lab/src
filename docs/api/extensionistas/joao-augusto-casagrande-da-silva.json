@@ -40,16 +40,16 @@
   "atividades": [
     {
       "ano": "2020",
-      "atividade_id": "21059",
+      "atividade_id": "19901",
       "acao_id": "3140",
-      "atividade": "Criação de site para gamificação do descarte de resíduos para o HUCAM-Ufes",
+      "atividade": "Jogo do Projeto de Extensão do Hucam - Ufes",
       "pub": 0
     },
     {
       "ano": "2020",
-      "atividade_id": "19901",
+      "atividade_id": "21059",
       "acao_id": "3140",
-      "atividade": "Jogo do Projeto de Extensão do Hucam - Ufes",
+      "atividade": "Criação de site para gamificação do descarte de resíduos para o HUCAM-Ufes",
       "pub": 0
     },
     {
@@ -864,8 +864,8 @@
       "acoes_comuns": 1
     },
     {
-      "nome": "Graziela Barboza Guaitolini Ramos",
-      "slug": "graziela-barboza-guaitolini-ramos",
+      "nome": "Graziela Barboza Guaitolini",
+      "slug": "graziela-barboza-guaitolini",
       "acoes_comuns": 1
     },
     {

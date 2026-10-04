@@ -1,0 +1,46 @@
+{
+  "acao_id": "6297",
+  "Processo nº": "23151.001872/2026-12",
+  "Título ação": "Projeto Competição de Construção de Pontes de Palitos e Macarrão",
+  "Natureza": "Ensino",
+  "Tipo ação": "Programa",
+  "Coordenador(a)": "Weverthon Lobo de Oliveira",
+  "Fomento": "SEM VÍNCULO",
+  "Ação vinculante": "-",
+  "Grande área conhecimento": "Ciências Exatas e da Terra",
+  "Área temática principal": "",
+  "Relatório aprovado": "Não",
+  "Data último relatório": "",
+  "Data de cadastro": "28/09/2026",
+  "Resumo": "Este projeto propõe a realização da \"Competição de Construção de Pontes\" como uma \natividade extracurricular integrada à programação oficial da Semana de Ciência e Tecnologia \ndo Ifes Campus Serra. A ação visa estimular a aplicação prática de conceitos de Geometria, \nÁlgebra, Física Mecânica e Introdução à Engenharia através do desafio do design estrutural. \n \n Dividida em três níveis competitivos distintos, a ação desafia os estudantes a projetarem e \nmontarem maquetes funcionais utilizando materiais específicos de baixo custo.  \n Nível 1: exigirá a construção com palitos de picolé;  \n Nível 2: utilizará palitos de churrasco;  \n Nível 3: consistirá na confecção com macarrão do tipo espaguete.  \n  \nAlém da mostra competitiva final, o cronograma prevê a realização de oficinas preparatórias \nconduzidas pelos professores da equipe executora, oferecendo suporte teórico mínimo sobre \ntreliças, distribuição de cargas e pontos de ruptura. O ápice do evento ocorrerá durante o \nensaio de colapso físico das pontes, onde pesos serão progressivamente adicionados até a \nruptura de cada modelo, determinando a eficiência estrutural de cada equipe com base na \nrazão entre a carga suportada e o peso próprio da ponte. Busca-se promover o trabalho em \nequipe, o raciocínio lógico e a criatividade técnica dos estudantes em ambiente \nmultidisciplinar.",
+  "Campus": "Serra",
+  "total_participacoes": 2,
+  "publico_alvo_total": 0,
+  "atividades": [
+    {
+      "atividade_id": "22888",
+      "numero": "001",
+      "atividade": "Projeto Competição de Construção de Pontes de Palitos e Macarrão",
+      "publico": 0,
+      "aprovados": 0,
+      "certificados": 0,
+      "equipe": 2
+    }
+  ],
+  "equipe_execucao": [
+    {
+      "nome": "Paulo Cezar Camargo Guedes",
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Weverthon Lobo de Oliveira",
+      "funcoes": [
+        "COORDENADOR(A)"
+      ],
+      "vinculo": "Servidor"
+    }
+  ]
+}

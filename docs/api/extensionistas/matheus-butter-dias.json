@@ -38,10 +38,10 @@
   "atividades": [
     {
       "ano": "2020",
-      "atividade_id": "15049",
+      "atividade_id": "14032",
       "acao_id": "3140",
-      "atividade": "visita técnica ao Enjoy Work Coworking",
-      "pub": 16
+      "atividade": "Roadshow programas de inovação FINDESLAB",
+      "pub": 32
     },
     {
       "ano": "2020",
@@ -52,10 +52,10 @@
     },
     {
       "ano": "2020",
-      "atividade_id": "14032",
+      "atividade_id": "15049",
       "acao_id": "3140",
-      "atividade": "Roadshow programas de inovação FINDESLAB",
-      "pub": 32
+      "atividade": "visita técnica ao Enjoy Work Coworking",
+      "pub": 16
     },
     {
       "ano": "2021",
@@ -855,8 +855,8 @@
       "acoes_comuns": 1
     },
     {
-      "nome": "Graziela Barboza Guaitolini Ramos",
-      "slug": "graziela-barboza-guaitolini-ramos",
+      "nome": "Graziela Barboza Guaitolini",
+      "slug": "graziela-barboza-guaitolini",
       "acoes_comuns": 1
     },
     {

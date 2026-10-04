@@ -1,0 +1,27 @@
+{
+  "atividade_id": "22888",
+  "numero": "001",
+  "atividade": "Projeto Competição de Construção de Pontes de Palitos e Macarrão",
+  "acao_id": "6297",
+  "acao_titulo": "Projeto Competição de Construção de Pontes de Palitos e Macarrão",
+  "processo": "23151.001872/2026-12",
+  "coordenador_acao": "Weverthon Lobo de Oliveira",
+  "publico_alvo": {
+    "total": 0,
+    "aprovados": 0,
+    "certificados": 0,
+    "situacao": {}
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Weverthon Lobo de Oliveira",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    },
+    {
+      "nome": "Paulo Cezar Camargo Guedes",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

@@ -5,6 +5,7 @@
   "anos": [
     "2015",
     "2016",
+    "2017",
     "2018",
     "2019",
     "2020",
@@ -13,6 +14,7 @@
   "funcoes": [
     "COLABORADOR(A)",
     "COORDENADOR(A)",
+    "COORDENADOR(A) ADJUNTO(A)",
     "MENTOR(A)",
     "ORGANIZADOR(A)"
   ],
@@ -30,7 +32,7 @@
       "titulo": "Sistema para predição de transtornos mentais comuns na atenção primária a saúde",
       "tipo": "Projeto",
       "ano": "2018",
-      "n": 0,
+      "n": 5,
       "pub": 0
     },
     {
@@ -94,11 +96,22 @@
       "titulo": "Sistema para auxiliar a gestão da Produção Agropecuária capixaba",
       "tipo": "Projeto",
       "ano": "2016",
-      "n": 0,
+      "n": 5,
       "pub": 0
     }
   ],
   "participacoes_equipe": [
+    {
+      "acao_id": "1261",
+      "titulo": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedora",
+      "tipo": "Curso",
+      "ano": "2017",
+      "n": 84,
+      "pub": 36,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    },
     {
       "acao_id": "1795",
       "titulo": "ESPM-Empregos: Um serviço inteligente para promover a empregabilidade",
@@ -108,6 +121,28 @@
       "pub": 0,
       "funcoes": [
         "COORDENADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "1834",
+      "titulo": "Sistema para predição de transtornos mentais comuns na atenção primária a saúde",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 5,
+      "pub": 0,
+      "funcoes": [
+        "COORDENADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "1847",
+      "titulo": "Sistema de apoio para rastreio e geolocalização de transtornos mentais comuns na atenção primária a saúde",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 5,
+      "pub": 0,
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)"
       ]
     },
     {
@@ -166,6 +201,17 @@
       ]
     },
     {
+      "acao_id": "645",
+      "titulo": "SIPAC - Sistema de Informação da Produção Agropecuária capixaba",
+      "tipo": "Projeto",
+      "ano": "2016",
+      "n": 7,
+      "pub": 1,
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)"
+      ]
+    },
+    {
       "acao_id": "718",
       "titulo": "Programa Regular de Promoção da Cultura e da Arte no Ifes Campus Serra",
       "tipo": "Programa",
@@ -199,6 +245,17 @@
       ]
     },
     {
+      "acao_id": "849",
+      "titulo": "Sistema para auxiliar a gestão da Produção Agropecuária capixaba",
+      "tipo": "Projeto",
+      "ano": "2016",
+      "n": 5,
+      "pub": 0,
+      "funcoes": [
+        "COORDENADOR(A)"
+      ]
+    },
+    {
       "acao_id": "901",
       "titulo": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
       "tipo": "Programa",
@@ -212,10 +269,31 @@
   ],
   "atividades": [
     {
+      "ano": "2017",
+      "atividade_id": "4502",
+      "acao_id": "1261",
+      "atividade": "Seminário de Apresentação dos Empreendimentos",
+      "pub": 1
+    },
+    {
       "ano": "2018",
       "atividade_id": "5638",
       "acao_id": "1795",
       "atividade": "ESPM-Empregos: Um serviço inteligente para promover a empregabilidade",
+      "pub": 0
+    },
+    {
+      "ano": "2018",
+      "atividade_id": "5763",
+      "acao_id": "1834",
+      "atividade": "Sistema para predição de transtornos mentais comuns na atenção primária a saúde",
+      "pub": 0
+    },
+    {
+      "ano": "2018",
+      "atividade_id": "5788",
+      "acao_id": "1847",
+      "atividade": "Sistema de apoio para rastreio e geolocalização de transtornos mentais comuns na atenção primária a saúde",
       "pub": 0
     },
     {
@@ -234,13 +312,6 @@
     },
     {
       "ano": "2022",
-      "atividade_id": "17191",
-      "acao_id": "4034",
-      "atividade": "Oficina de Design Sprint",
-      "pub": 2
-    },
-    {
-      "ano": "2022",
       "atividade_id": "17192",
       "acao_id": "4034",
       "atividade": "Oficina de Low-Code",
@@ -252,6 +323,13 @@
       "acao_id": "4034",
       "atividade": "SmartIdea - Validação de Problemas e Ideias",
       "pub": 1
+    },
+    {
+      "ano": "2022",
+      "atividade_id": "17191",
+      "acao_id": "4034",
+      "atividade": "Oficina de Design Sprint",
+      "pub": 2
     },
     {
       "ano": "2015",
@@ -266,6 +344,13 @@
       "acao_id": "569",
       "atividade": "Desafio Ifes de Negócios Socais",
       "pub": 0
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "1200",
+      "acao_id": "645",
+      "atividade": "SIPAC - Sistema de Informação da Produção Agropecuária capixaba",
+      "pub": 1
     },
     {
       "ano": "2016",
@@ -290,6 +375,13 @@
     },
     {
       "ano": "2016",
+      "atividade_id": "1940",
+      "acao_id": "849",
+      "atividade": "Sistema para auxiliar a gestão da Produção Agropecuária capixaba",
+      "pub": 0
+    },
+    {
+      "ano": "2016",
       "atividade_id": "2297",
       "acao_id": "901",
       "atividade": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
@@ -297,8 +389,8 @@
     }
   ],
   "imp_coord": 35,
-  "imp_eq": 1,
-  "impacto": 36,
+  "imp_eq": 3,
+  "impacto": 38,
   "temas": [
     {
       "tema": "Robótica e cultura maker",
@@ -306,14 +398,14 @@
     },
     {
       "tema": "Cultura e arte",
-      "n": 3
-    },
-    {
-      "tema": "Ciência e divulgação",
-      "n": 2
+      "n": 6
     },
     {
       "tema": "Saúde e bem-estar",
+      "n": 5
+    },
+    {
+      "tema": "Ciência e divulgação",
       "n": 2
     },
     {
@@ -322,13 +414,33 @@
     },
     {
       "tema": "Empreendedorismo e incubação",
-      "n": 1
+      "n": 2
     }
   ],
   "colaboradores": [
     {
       "nome": "Rodrigo Fernandes Calhau",
       "slug": "rodrigo-fernandes-calhau",
+      "acoes_comuns": 5
+    },
+    {
+      "nome": "Felipe Frechiani de Oliveira",
+      "slug": "felipe-frechiani-de-oliveira",
+      "acoes_comuns": 5
+    },
+    {
+      "nome": "Paulo Sérgio dos Santos Júnior",
+      "slug": "paulo-sergio-dos-santos-junior",
+      "acoes_comuns": 5
+    },
+    {
+      "nome": "Sergio Nery Simões",
+      "slug": "sergio-nery-simoes",
+      "acoes_comuns": 4
+    },
+    {
+      "nome": "Andreângelo da Paixão Patuzzo",
+      "slug": "andreangelo-da-paixao-patuzzo",
       "acoes_comuns": 4
     },
     {
@@ -352,13 +464,8 @@
       "acoes_comuns": 3
     },
     {
-      "nome": "Paulo Sérgio dos Santos Júnior",
-      "slug": "paulo-sergio-dos-santos-junior",
-      "acoes_comuns": 3
-    },
-    {
-      "nome": "Felipe Frechiani de Oliveira",
-      "slug": "felipe-frechiani-de-oliveira",
+      "nome": "Carlos Lins Borges Azevedo",
+      "slug": "carlos-lins-borges-azevedo",
       "acoes_comuns": 3
     },
     {
@@ -367,13 +474,33 @@
       "acoes_comuns": 3
     },
     {
-      "nome": "Sergio Nery Simões",
-      "slug": "sergio-nery-simoes",
+      "nome": "Cristian da Silva Anterio",
+      "slug": "cristian-da-silva-anterio",
+      "acoes_comuns": 3
+    },
+    {
+      "nome": "Danilo de Oliveira",
+      "slug": "danilo-de-oliveira",
+      "acoes_comuns": 3
+    },
+    {
+      "nome": "Emmanuel Marques Silva",
+      "slug": "emmanuel-marques-silva",
       "acoes_comuns": 2
     },
     {
-      "nome": "Andreângelo da Paixão Patuzzo",
-      "slug": "andreangelo-da-paixao-patuzzo",
+      "nome": "Sandro de Freitas Nascimento",
+      "slug": "sandro-de-freitas-nascimento",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Rafaela Amorim Pessin",
+      "slug": "rafaela-amorim-pessin",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Rafael Afonso dos Anjos",
+      "slug": "rafael-afonso-dos-anjos",
       "acoes_comuns": 2
     },
     {
@@ -417,6 +544,11 @@
       "acoes_comuns": 2
     },
     {
+      "nome": "Ana Rúbia Ramos Vicente",
+      "slug": "ana-rubia-ramos-vicente",
+      "acoes_comuns": 2
+    },
+    {
       "nome": "Marlon Woelffel Candoti",
       "slug": "marlon-woelffel-candoti",
       "acoes_comuns": 2
@@ -432,8 +564,123 @@
       "acoes_comuns": 2
     },
     {
+      "nome": "Marcos Simão Guimarães",
+      "slug": "marcos-simao-guimaraes",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Camila Braga Guimarães",
+      "slug": "camila-braga-guimaraes",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Gilmar Luiz Vassoler",
+      "slug": "gilmar-luiz-vassoler",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Luis Henrique Rosado Torres",
+      "slug": "luis-henrique-rosado-torres",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Emerson Atílio Birchler",
+      "slug": "emerson-atilio-birchler",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Flávio Barcelos Braz da Silva",
+      "slug": "flavio-barcelos-braz-da-silva",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Karin Satie Komati",
+      "slug": "karin-satie-komati",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Ronaldo Aparecida Marques",
+      "slug": "ronaldo-aparecida-marques",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Rodolpho da Cruz Rangel",
+      "slug": "rodolpho-da-cruz-rangel",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Humberto Henrique Ramos Brotto",
+      "slug": "humberto-henrique-ramos-brotto",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Christian Mariani Lucas dos Santos",
+      "slug": "christian-mariani-lucas-dos-santos",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Elizangela Campos da Rosa Broetto",
+      "slug": "elizangela-campos-da-rosa-broetto",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Jefferson Ribeiro de Lima",
+      "slug": "jefferson-ribeiro-de-lima",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Leonardo Azevedo Scardua",
+      "slug": "leonardo-azevedo-scardua",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Giovani Zanetti Neto",
+      "slug": "giovani-zanetti-neto",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Alessandro Bermudes Gomes",
+      "slug": "alessandro-bermudes-gomes",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Dirceu Soares Júnior",
+      "slug": "dirceu-soares-junior",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Edilson Luiz do Nascimento",
+      "slug": "edilson-luiz-do-nascimento",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Richard Junior Manuel Godinez Tello",
+      "slug": "richard-junior-manuel-godinez-tello",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Erley Crevelin Valentim",
+      "slug": "erley-crevelin-valentim",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Valéria Gabriel Estanislau",
+      "slug": "valeria-gabriel-estanislau",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Francisco José Casarim Rapchan",
+      "slug": "francisco-jose-casarim-rapchan",
+      "acoes_comuns": 1
+    },
+    {
       "nome": "Adriana Padua Lovatte",
       "slug": "adriana-padua-lovatte",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Kleber André Lirio Picoli",
+      "slug": "kleber-andre-lirio-picoli",
       "acoes_comuns": 1
     },
     {
@@ -657,18 +904,8 @@
       "acoes_comuns": 1
     },
     {
-      "nome": "Sandro de Freitas Nascimento",
-      "slug": "sandro-de-freitas-nascimento",
-      "acoes_comuns": 1
-    },
-    {
       "nome": "Walber Antonio Ramos Beltrame",
       "slug": "walber-antonio-ramos-beltrame",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Emmanuel Marques Silva",
-      "slug": "emmanuel-marques-silva",
       "acoes_comuns": 1
     },
     {
@@ -787,18 +1024,8 @@
       "acoes_comuns": 1
     },
     {
-      "nome": "Rafaela Amorim Pessin",
-      "slug": "rafaela-amorim-pessin",
-      "acoes_comuns": 1
-    },
-    {
       "nome": "Paulo Ricardo Viana Ferreira",
       "slug": "paulo-ricardo-viana-ferreira",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Rafael Afonso dos Anjos",
-      "slug": "rafael-afonso-dos-anjos",
       "acoes_comuns": 1
     },
     {
@@ -844,21 +1071,6 @@
     {
       "nome": "Gustavo Matozinho Lima",
       "slug": "gustavo-matozinho-lima",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Danilo de Oliveira",
-      "slug": "danilo-de-oliveira",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Cristian da Silva Anterio",
-      "slug": "cristian-da-silva-anterio",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Ana Rúbia Ramos Vicente",
-      "slug": "ana-rubia-ramos-vicente",
       "acoes_comuns": 1
     },
     {
@@ -909,11 +1121,6 @@
     {
       "nome": "Flávio Lopes da Silva",
       "slug": "flavio-lopes-da-silva",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Carlos Lins Borges Azevedo",
-      "slug": "carlos-lins-borges-azevedo",
       "acoes_comuns": 1
     },
     {

@@ -36,17 +36,17 @@
     },
     {
       "ano": "2019",
-      "atividade_id": "10566",
-      "acao_id": "2505",
-      "atividade": "Oficina Especializada de Produção",
-      "pub": 3
-    },
-    {
-      "ano": "2019",
       "atividade_id": "10570",
       "acao_id": "2505",
       "atividade": "Ateliê de Produção Audiovisual",
       "pub": 8
+    },
+    {
+      "ano": "2019",
+      "atividade_id": "10566",
+      "acao_id": "2505",
+      "atividade": "Oficina Especializada de Produção",
+      "pub": 3
     }
   ],
   "imp_coord": 0,

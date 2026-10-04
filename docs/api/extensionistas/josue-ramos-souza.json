@@ -41,17 +41,17 @@
     },
     {
       "ano": "2020",
-      "atividade_id": "22295",
-      "acao_id": "3140",
-      "atividade": "Atendimentos Personalizados e Monitorias de Extensão Tecnológica - área de Programação e Desenvolvimento",
-      "pub": 17
-    },
-    {
-      "ano": "2020",
       "atividade_id": "20333",
       "acao_id": "3140",
       "atividade": "Monitoria de Matemática e Programação 2025/01",
       "pub": 24
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "22295",
+      "acao_id": "3140",
+      "atividade": "Atendimentos Personalizados e Monitorias de Extensão Tecnológica - área de Programação e Desenvolvimento",
+      "pub": 17
     }
   ],
   "imp_coord": 0,
@@ -840,8 +840,8 @@
       "acoes_comuns": 1
     },
     {
-      "nome": "Graziela Barboza Guaitolini Ramos",
-      "slug": "graziela-barboza-guaitolini-ramos",
+      "nome": "Graziela Barboza Guaitolini",
+      "slug": "graziela-barboza-guaitolini",
       "acoes_comuns": 1
     },
     {

@@ -122,7 +122,7 @@
       "atividade": "Visita EEEF Francisco Alves Mendes",
       "publico": 65,
       "aprovados": 65,
-      "certificados": 0,
+      "certificados": 65,
       "equipe": 10
     },
     {
@@ -131,7 +131,7 @@
       "atividade": "Visita EMEF Jonas Farias 1",
       "publico": 9,
       "aprovados": 9,
-      "certificados": 0,
+      "certificados": 9,
       "equipe": 9
     },
     {
@@ -140,7 +140,7 @@
       "atividade": "Visita EMEF Jonas Farias 2",
       "publico": 8,
       "aprovados": 8,
-      "certificados": 0,
+      "certificados": 8,
       "equipe": 9
     },
     {
@@ -149,7 +149,7 @@
       "atividade": "Visita CEEFMTI Joaquim Beato",
       "publico": 36,
       "aprovados": 36,
-      "certificados": 0,
+      "certificados": 36,
       "equipe": 8
     },
     {
@@ -158,7 +158,7 @@
       "atividade": "Visita EEEFM Nova Carapina",
       "publico": 91,
       "aprovados": 91,
-      "certificados": 0,
+      "certificados": 80,
       "equipe": 8
     }
   ],

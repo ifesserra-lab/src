@@ -8,112 +8,112 @@
   "nicho_definicao": "cluster temático derivado do título+resumo (temas.tema_de)",
   "impacto_definicao": "registros de público-alvo (atendimentos)",
   "totais": {
-    "iniciativas": 193,
-    "publico": 7146,
-    "participacoes": 8989,
-    "ativas": 42,
-    "dormentes": 116,
-    "intermediarias": 35
+    "iniciativas": 195,
+    "publico": 6505,
+    "participacoes": 8492,
+    "ativas": 44,
+    "dormentes": 115,
+    "intermediarias": 36
   },
   "por_nicho": [
     {
       "nicho": "Robótica e cultura maker",
       "iniciativas": 27,
-      "publico": 2686,
+      "publico": 1777,
       "ativas": 8,
-      "publico_ativo": 2028,
+      "publico_ativo": 1366,
       "dormentes": 17,
-      "publico_dormente": 534,
+      "publico_dormente": 287,
       "intermediarias": 2
     },
     {
       "nicho": "Empreendedorismo e incubação",
       "iniciativas": 21,
-      "publico": 1279,
+      "publico": 1532,
       "ativas": 3,
       "publico_ativo": 152,
       "dormentes": 14,
-      "publico_dormente": 1103,
-      "intermediarias": 4
-    },
-    {
-      "nicho": "Captação e ingresso",
-      "iniciativas": 11,
-      "publico": 1176,
-      "ativas": 1,
-      "publico_ativo": 0,
-      "dormentes": 6,
-      "publico_dormente": 591,
+      "publico_dormente": 1356,
       "intermediarias": 4
     },
     {
       "nicho": "Mulheres e inclusão",
-      "iniciativas": 30,
-      "publico": 829,
-      "ativas": 11,
-      "publico_ativo": 312,
+      "iniciativas": 31,
+      "publico": 1238,
+      "ativas": 12,
+      "publico_ativo": 670,
       "dormentes": 14,
-      "publico_dormente": 328,
+      "publico_dormente": 361,
       "intermediarias": 5
     },
     {
-      "nicho": "Outros / formação",
-      "iniciativas": 13,
-      "publico": 490,
-      "ativas": 0,
+      "nicho": "Captação e ingresso",
+      "iniciativas": 11,
+      "publico": 666,
+      "ativas": 1,
       "publico_ativo": 0,
-      "dormentes": 13,
-      "publico_dormente": 490,
-      "intermediarias": 0
+      "dormentes": 6,
+      "publico_dormente": 160,
+      "intermediarias": 4
     },
     {
       "nicho": "Cultura e arte",
       "iniciativas": 36,
-      "publico": 354,
+      "publico": 395,
       "ativas": 8,
       "publico_ativo": 48,
-      "dormentes": 22,
-      "publico_dormente": 237,
-      "intermediarias": 6
+      "dormentes": 21,
+      "publico_dormente": 294,
+      "intermediarias": 7
+    },
+    {
+      "nicho": "Outros / formação",
+      "iniciativas": 13,
+      "publico": 359,
+      "ativas": 0,
+      "publico_ativo": 0,
+      "dormentes": 13,
+      "publico_dormente": 359,
+      "intermediarias": 0
+    },
+    {
+      "nicho": "Saúde e bem-estar",
+      "iniciativas": 20,
+      "publico": 212,
+      "ativas": 5,
+      "publico_ativo": 125,
+      "dormentes": 13,
+      "publico_dormente": 87,
+      "intermediarias": 2
+    },
+    {
+      "nicho": "Software, dados e sistemas",
+      "iniciativas": 17,
+      "publico": 189,
+      "ativas": 3,
+      "publico_ativo": 25,
+      "dormentes": 10,
+      "publico_dormente": 77,
+      "intermediarias": 4
     },
     {
       "nicho": "Ciência e divulgação",
-      "iniciativas": 13,
-      "publico": 157,
-      "ativas": 2,
+      "iniciativas": 14,
+      "publico": 126,
+      "ativas": 3,
       "publico_ativo": 48,
       "dormentes": 4,
       "publico_dormente": 39,
       "intermediarias": 7
     },
     {
-      "nicho": "Saúde e bem-estar",
-      "iniciativas": 20,
-      "publico": 94,
-      "ativas": 5,
-      "publico_ativo": 10,
-      "dormentes": 13,
-      "publico_dormente": 84,
-      "intermediarias": 2
-    },
-    {
-      "nicho": "Software, dados e sistemas",
-      "iniciativas": 17,
-      "publico": 62,
-      "ativas": 3,
-      "publico_ativo": 11,
-      "dormentes": 10,
-      "publico_dormente": 45,
-      "intermediarias": 4
-    },
-    {
       "nicho": "Escola e formação de professores",
       "iniciativas": 3,
-      "publico": 19,
+      "publico": 11,
       "ativas": 1,
-      "publico_ativo": 0,
+      "publico_ativo": 5,
       "dormentes": 2,
-      "publico_dormente": 19,
+      "publico_dormente": 6,
       "intermediarias": 0
     },
     {
@@ -140,15 +140,15 @@
       "url": "acoes/3140.html"
     },
     {
-      "acao_id": "4655",
-      "titulo": "LabMaker Serra: Espaço Maker Multiusuário de Apoio ao Ensino, Pesquisa e Extensão",
-      "nicho": "Robótica e cultura maker",
-      "tipo": "Programa",
-      "natureza": "Extensão",
+      "acao_id": "5138",
+      "titulo": "Semana destinada à Educação Especial Inclusiva - Setembro Verde",
+      "nicho": "Mulheres e inclusão",
+      "tipo": "Evento",
+      "natureza": "Ensino",
       "fomento": "SEM VÍNCULO",
-      "publico": 490,
+      "publico": 216,
       "ano_ultima": 2024,
-      "url": "acoes/4655.html"
+      "url": "acoes/5138.html"
     },
     {
       "acao_id": "4659",
@@ -162,17 +162,6 @@
       "url": "acoes/4659.html"
     },
     {
-      "acao_id": "5086",
-      "titulo": "Conectando Talentos: Robótica e Programação no IFES-Serra",
-      "nicho": "Robótica e cultura maker",
-      "tipo": "Projeto",
-      "natureza": "Extensão",
-      "fomento": "SEM VÍNCULO",
-      "publico": 172,
-      "ano_ultima": 2026,
-      "url": "acoes/5086.html"
-    },
-    {
       "acao_id": "3423",
       "titulo": "Programa Local Núcleo Incubador Campus Serra – NIS",
       "nicho": "Empreendedorismo e incubação",
@@ -182,6 +171,28 @@
       "publico": 152,
       "ano_ultima": 2025,
       "url": "acoes/3423.html"
+    },
+    {
+      "acao_id": "4754",
+      "titulo": "QUÍMICA VERDE APLICADA: oficinas e workshops",
+      "nicho": "Mulheres e inclusão",
+      "tipo": "Projeto",
+      "natureza": "Extensão",
+      "fomento": "SEM VÍNCULO",
+      "publico": 142,
+      "ano_ultima": 2025,
+      "url": "acoes/4754.html"
+    },
+    {
+      "acao_id": "4830",
+      "titulo": "ConectaFapes: Uma plataforma de apoio à Pesquisa, Desenvolvimento e Inovação",
+      "nicho": "Saúde e bem-estar",
+      "tipo": "Projeto",
+      "natureza": "Extensão",
+      "fomento": "SEM VÍNCULO",
+      "publico": 115,
+      "ano_ultima": 2026,
+      "url": "acoes/4830.html"
     },
     {
       "acao_id": "4820",
@@ -248,17 +259,6 @@
       "publico": 24,
       "ano_ultima": 2026,
       "url": "acoes/5357.html"
-    },
-    {
-      "acao_id": "4215",
-      "titulo": "SprintLab - Laboratório de Prototipação Acelerada",
-      "nicho": "Robótica e cultura maker",
-      "tipo": "Programa",
-      "natureza": "Extensão",
-      "fomento": "SEM VÍNCULO",
-      "publico": 13,
-      "ano_ultima": 2026,
-      "url": "acoes/4215.html"
     }
   ],
   "top_dormentes": [
@@ -272,28 +272,6 @@
       "publico": 1037,
       "ano_ultima": 2017,
       "url": "acoes/1426.html"
-    },
-    {
-      "acao_id": "1702",
-      "titulo": "Ifes Portas Abertas",
-      "nicho": "Captação e ingresso",
-      "tipo": "Projeto",
-      "natureza": "Extensão",
-      "fomento": "SEM VÍNCULO",
-      "publico": 385,
-      "ano_ultima": 2018,
-      "url": "acoes/1702.html"
-    },
-    {
-      "acao_id": "2021",
-      "titulo": "Física ao Alcance de Todos",
-      "nicho": "Robótica e cultura maker",
-      "tipo": "Projeto",
-      "natureza": "Extensão",
-      "fomento": "SEM VÍNCULO",
-      "publico": 349,
-      "ano_ultima": 2019,
-      "url": "acoes/2021.html"
     },
     {
       "acao_id": "650",
@@ -318,6 +296,17 @@
       "url": "acoes/2505.html"
     },
     {
+      "acao_id": "899",
+      "titulo": "SEMANA DE CONTROLE E AUTOMAÇÃO",
+      "nicho": "Robótica e cultura maker",
+      "tipo": "Evento",
+      "natureza": "Extensão",
+      "fomento": "PAEX-IFES",
+      "publico": 147,
+      "ano_ultima": 2016,
+      "url": "acoes/899.html"
+    },
+    {
       "acao_id": "1238",
       "titulo": "II Seminário de Educação Especial no Instituto Federal do Espírito Santo",
       "nicho": "Outros / formação",
@@ -329,6 +318,17 @@
       "url": "acoes/1238.html"
     },
     {
+      "acao_id": "1116",
+      "titulo": "Programa Local Núcleo Incubador Campus Serra – NIS",
+      "nicho": "Empreendedorismo e incubação",
+      "tipo": "Programa",
+      "natureza": "Extensão",
+      "fomento": "PAEX-IFES",
+      "publico": 126,
+      "ano_ultima": 2021,
+      "url": "acoes/1116.html"
+    },
+    {
       "acao_id": "1263",
       "titulo": "Ciclo de estudos 2017/2 do Ifes campus Serra",
       "nicho": "Outros / formação",
@@ -338,28 +338,6 @@
       "publico": 126,
       "ano_ultima": 2017,
       "url": "acoes/1263.html"
-    },
-    {
-      "acao_id": "454",
-      "titulo": "Seminário dos Grupos de Pesquisa do Campus Serra",
-      "nicho": "Outros / formação",
-      "tipo": "Evento",
-      "natureza": "Ensino",
-      "fomento": "SEM VÍNCULO",
-      "publico": 115,
-      "ano_ultima": 2015,
-      "url": "acoes/454.html"
-    },
-    {
-      "acao_id": "2591",
-      "titulo": "O IFES é o meu lugar",
-      "nicho": "Captação e ingresso",
-      "tipo": "Curso",
-      "natureza": "Extensão",
-      "fomento": "SEM VÍNCULO",
-      "publico": 80,
-      "ano_ultima": 2019,
-      "url": "acoes/2591.html"
     },
     {
       "acao_id": "108",
@@ -384,6 +362,17 @@
       "url": "acoes/2081.html"
     },
     {
+      "acao_id": "930",
+      "titulo": "Despertar da Força - Processos e Ferramentas para o Gerenciamento Ágil de Projetos: Uma Abordagem Prática",
+      "nicho": "Cultura e arte",
+      "tipo": "Curso",
+      "natureza": "Extensão",
+      "fomento": "PAEX-IFES",
+      "publico": 53,
+      "ano_ultima": 2016,
+      "url": "acoes/930.html"
+    },
+    {
       "acao_id": "1945",
       "titulo": "Intenção Profissional",
       "nicho": "Captação e ingresso",
@@ -393,6 +382,17 @@
       "publico": 52,
       "ano_ultima": 2018,
       "url": "acoes/1945.html"
+    },
+    {
+      "acao_id": "109",
+      "titulo": "Curso de Operador de Computador",
+      "nicho": "Saúde e bem-estar",
+      "tipo": "Curso",
+      "natureza": "Extensão",
+      "fomento": "PRONATEC",
+      "publico": 44,
+      "ano_ultima": 2014,
+      "url": "acoes/109.html"
     }
   ],
   "recomendacoes": [
@@ -504,9 +504,9 @@
       "natureza": "Extensão",
       "fomento": "PRONATEC",
       "coordenador": "Elizangela Campos da Rosa Broetto",
-      "publico": 39,
-      "participacoes": 39,
-      "ano_ultima": 2014,
+      "publico": 0,
+      "participacoes": 0,
+      "ano_ultima": 2013,
       "status": "dormente",
       "url": "acoes/110.html"
     },
@@ -532,8 +532,8 @@
       "natureza": "Extensão",
       "fomento": "PAEX-IFES",
       "coordenador": "Francisco José Casarim Rapchan",
-      "publico": 0,
-      "participacoes": 0,
+      "publico": 126,
+      "participacoes": 220,
       "ano_ultima": 2021,
       "status": "dormente",
       "url": "acoes/1116.html"
@@ -546,8 +546,8 @@
       "natureza": "Extensão",
       "fomento": "PAEX-IFES",
       "coordenador": "Alessandro Bermudes Gomes",
-      "publico": 0,
-      "participacoes": 0,
+      "publico": 33,
+      "participacoes": 48,
       "ano_ultima": 2017,
       "status": "dormente",
       "url": "acoes/1117.html"
@@ -602,8 +602,8 @@
       "natureza": "Extensão",
       "fomento": "SEM VÍNCULO",
       "coordenador": "Emmanuel Marques Silva",
-      "publico": 0,
-      "participacoes": 0,
+      "publico": 37,
+      "participacoes": 84,
       "ano_ultima": 2019,
       "status": "dormente",
       "url": "acoes/1261.html"
@@ -714,8 +714,8 @@
       "natureza": "Ensino",
       "fomento": "SEM VÍNCULO",
       "coordenador": "Ricardo Ramos Costa",
-      "publico": 15,
-      "participacoes": 16,
+      "publico": 0,
+      "participacoes": 0,
       "ano_ultima": 2018,
       "status": "dormente",
       "url": "acoes/1602.html"
@@ -812,8 +812,8 @@
       "natureza": "Extensão",
       "fomento": "SEM VÍNCULO",
       "coordenador": "Wagner Kirmse Caldas",
-      "publico": 385,
-      "participacoes": 387,
+      "publico": 0,
+      "participacoes": 0,
       "ano_ultima": 2018,
       "status": "dormente",
       "url": "acoes/1702.html"
@@ -827,7 +827,7 @@
       "fomento": "SEM VÍNCULO",
       "coordenador": "Paulo Sérgio dos Santos Júnior",
       "publico": 0,
-      "participacoes": 0,
+      "participacoes": 4,
       "ano_ultima": 2019,
       "status": "dormente",
       "url": "acoes/1786.html"
@@ -868,8 +868,8 @@
       "natureza": "Extensão",
       "fomento": "SEM VÍNCULO",
       "coordenador": "Gilberto Neves Sudre Filho",
-      "publico": 0,
-      "participacoes": 0,
+      "publico": 44,
+      "participacoes": 46,
       "ano_ultima": 2019,
       "status": "dormente",
       "url": "acoes/1818.html"
@@ -897,7 +897,7 @@
       "fomento": "SEM VÍNCULO",
       "coordenador": "Daniel Ribeiro Trindade",
       "publico": 0,
-      "participacoes": 0,
+      "participacoes": 2,
       "ano_ultima": 2018,
       "status": "dormente",
       "url": "acoes/1831.html"
@@ -911,7 +911,7 @@
       "fomento": "PAEX-IFES",
       "coordenador": "Moisés Savedra Omena",
       "publico": 0,
-      "participacoes": 0,
+      "participacoes": 5,
       "ano_ultima": 2021,
       "status": "dormente",
       "url": "acoes/1834.html"
@@ -924,8 +924,8 @@
       "natureza": "Extensão",
       "fomento": "PAEX-IFES",
       "coordenador": "Felipe Frechiani de Oliveira",
-      "publico": 1,
-      "participacoes": 4,
+      "publico": 0,
+      "participacoes": 0,
       "ano_ultima": 2019,
       "status": "dormente",
       "url": "acoes/1838.html"
@@ -939,7 +939,7 @@
       "fomento": "SEM VÍNCULO",
       "coordenador": "Carlos Lins Borges Azevedo",
       "publico": 0,
-      "participacoes": 0,
+      "participacoes": 5,
       "ano_ultima": 2021,
       "status": "dormente",
       "url": "acoes/1847.html"
@@ -953,7 +953,7 @@
       "fomento": "SEM VÍNCULO",
       "coordenador": "Francisco José Casarim Rapchan",
       "publico": 0,
-      "participacoes": 0,
+      "participacoes": 6,
       "ano_ultima": 2021,
       "status": "dormente",
       "url": "acoes/1883.html"
@@ -1008,8 +1008,8 @@
       "natureza": "Extensão",
       "fomento": "SEM VÍNCULO",
       "coordenador": "Rosilene de Sá Ribeiro",
-      "publico": 349,
-      "participacoes": 429,
+      "publico": 0,
+      "participacoes": 0,
       "ano_ultima": 2019,
       "status": "dormente",
       "url": "acoes/2021.html"
@@ -1065,7 +1065,7 @@
       "fomento": "SEM VÍNCULO",
       "coordenador": "Carlos Lins Borges Azevedo",
       "publico": 0,
-      "participacoes": 0,
+      "participacoes": 8,
       "ano_ultima": 2019,
       "status": "dormente",
       "url": "acoes/2193.html"
@@ -1134,8 +1134,8 @@
       "natureza": "Ensino",
       "fomento": "SEM VÍNCULO",
       "coordenador": "Emmanuel Marques Silva",
-      "publico": 0,
-      "participacoes": 0,
+      "publico": 16,
+      "participacoes": 16,
       "ano_ultima": 2014,
       "status": "dormente",
       "url": "acoes/234.html"
@@ -1148,8 +1148,8 @@
       "natureza": "Ensino",
       "fomento": "SEM VÍNCULO",
       "coordenador": "Emmanuel Marques Silva",
-      "publico": 7,
-      "participacoes": 7,
+      "publico": 0,
+      "participacoes": 0,
       "ano_ultima": 2014,
       "status": "dormente",
       "url": "acoes/235.html"
@@ -1246,8 +1246,8 @@
       "natureza": "Extensão",
       "fomento": "SEM VÍNCULO",
       "coordenador": "Paulo Cezar Camargo Guedes",
-      "publico": 80,
-      "participacoes": 106,
+      "publico": 0,
+      "participacoes": 0,
       "ano_ultima": 2019,
       "status": "dormente",
       "url": "acoes/2591.html"
@@ -1302,8 +1302,8 @@
       "natureza": "Extensão",
       "fomento": "SEM VÍNCULO",
       "coordenador": "Paulo Cezar Camargo Guedes",
-      "publico": 0,
-      "participacoes": 0,
+      "publico": 34,
+      "participacoes": 40,
       "ano_ultima": 2019,
       "status": "dormente",
       "url": "acoes/2650.html"
@@ -1512,8 +1512,8 @@
       "natureza": "Extensão",
       "fomento": "SEM VÍNCULO",
       "coordenador": "Rosiane Ribeiro Rocha",
-      "publico": 1,
-      "participacoes": 9,
+      "publico": 0,
+      "participacoes": 0,
       "ano_ultima": 2021,
       "status": "dormente",
       "url": "acoes/3139.html"
@@ -1540,8 +1540,8 @@
       "natureza": "Ensino",
       "fomento": "SEM VÍNCULO",
       "coordenador": "Marco Antônio de Souza Leite Cuadros",
-      "publico": 20,
-      "participacoes": 20,
+      "publico": 0,
+      "participacoes": 0,
       "ano_ultima": 2014,
       "status": "dormente",
       "url": "acoes/318.html"
@@ -1568,8 +1568,8 @@
       "natureza": "Ensino",
       "fomento": "SEM VÍNCULO",
       "coordenador": "Vinícius Secchin de Melo",
-      "publico": 0,
-      "participacoes": 0,
+      "publico": 7,
+      "participacoes": 9,
       "ano_ultima": 2021,
       "status": "dormente",
       "url": "acoes/3351.html"
@@ -1582,8 +1582,8 @@
       "natureza": "Ensino",
       "fomento": "SEM VÍNCULO",
       "coordenador": "Marco Antônio de Souza Leite Cuadros",
-      "publico": 0,
-      "participacoes": 0,
+      "publico": 5,
+      "participacoes": 5,
       "ano_ultima": 2014,
       "status": "dormente",
       "url": "acoes/337.html"
@@ -1596,8 +1596,8 @@
       "natureza": "Ensino",
       "fomento": "SEM VÍNCULO",
       "coordenador": "Marco Antônio de Souza Leite Cuadros",
-      "publico": 14,
-      "participacoes": 14,
+      "publico": 0,
+      "participacoes": 0,
       "ano_ultima": 2014,
       "status": "dormente",
       "url": "acoes/339.html"
@@ -1610,8 +1610,8 @@
       "natureza": "Ensino",
       "fomento": "SEM VÍNCULO",
       "coordenador": "Flávio Lopes da Silva",
-      "publico": 26,
-      "participacoes": 26,
+      "publico": 0,
+      "participacoes": 0,
       "ano_ultima": 2014,
       "status": "dormente",
       "url": "acoes/340.html"
@@ -1639,7 +1639,7 @@
       "fomento": "SEM VÍNCULO",
       "coordenador": "Victorio Albani de Carvalho",
       "publico": 0,
-      "participacoes": 1,
+      "participacoes": 0,
       "ano_ultima": 2023,
       "status": "intermediaria",
       "url": "acoes/3422.html"
@@ -1666,8 +1666,8 @@
       "natureza": "Extensão",
       "fomento": "SEM VÍNCULO",
       "coordenador": "Bruno Cardoso Coutinho",
-      "publico": 0,
-      "participacoes": 0,
+      "publico": 2,
+      "participacoes": 14,
       "ano_ultima": 2021,
       "status": "dormente",
       "url": "acoes/3431.html"
@@ -1680,8 +1680,8 @@
       "natureza": "Extensão",
       "fomento": "PAEX-IFES",
       "coordenador": "Wagner Teixeira da Costa",
-      "publico": 0,
-      "participacoes": 0,
+      "publico": 17,
+      "participacoes": 17,
       "ano_ultima": 2014,
       "status": "dormente",
       "url": "acoes/350.html"
@@ -1694,8 +1694,8 @@
       "natureza": "Ensino",
       "fomento": "SEM VÍNCULO",
       "coordenador": "Vinícius Secchin de Melo",
-      "publico": 16,
-      "participacoes": 19,
+      "publico": 0,
+      "participacoes": 0,
       "ano_ultima": 2022,
       "status": "intermediaria",
       "url": "acoes/3514.html"
@@ -1737,7 +1737,7 @@
       "fomento": "SEM VÍNCULO",
       "coordenador": "Richard Junior Manuel Godinez Tello",
       "publico": 0,
-      "participacoes": 4,
+      "participacoes": 0,
       "ano_ultima": 2022,
       "status": "intermediaria",
       "url": "acoes/3567.html"
@@ -1778,8 +1778,8 @@
       "natureza": "Ensino",
       "fomento": "SEM VÍNCULO",
       "coordenador": "Emmanuel Marques Silva",
-      "publico": 13,
-      "participacoes": 13,
+      "publico": 0,
+      "participacoes": 0,
       "ano_ultima": 2014,
       "status": "dormente",
       "url": "acoes/374.html"
@@ -1792,8 +1792,8 @@
       "natureza": "Ensino",
       "fomento": "SEM VÍNCULO",
       "coordenador": "Paulo Cezar Camargo Guedes",
-      "publico": 31,
-      "participacoes": 36,
+      "publico": 0,
+      "participacoes": 0,
       "ano_ultima": 2022,
       "status": "intermediaria",
       "url": "acoes/3757.html"
@@ -1848,8 +1848,8 @@
       "natureza": "Ensino",
       "fomento": "SEM VÍNCULO",
       "coordenador": "Bruno Ramos Gonzaga",
-      "publico": 0,
-      "participacoes": 0,
+      "publico": 12,
+      "participacoes": 12,
       "ano_ultima": 2014,
       "status": "dormente",
       "url": "acoes/388.html"
@@ -2198,8 +2198,8 @@
       "natureza": "Ensino",
       "fomento": "SEM VÍNCULO",
       "coordenador": "Cristina Klippel Dominicini",
-      "publico": 115,
-      "participacoes": 115,
+      "publico": 0,
+      "participacoes": 0,
       "ano_ultima": 2015,
       "status": "dormente",
       "url": "acoes/454.html"
@@ -2212,8 +2212,8 @@
       "natureza": "Ensino",
       "fomento": "SEM VÍNCULO",
       "coordenador": "Wagner Kirmse Caldas",
-      "publico": 0,
-      "participacoes": 0,
+      "publico": 5,
+      "participacoes": 37,
       "ano_ultima": 2025,
       "status": "ativa",
       "url": "acoes/4564.html"
@@ -2226,8 +2226,8 @@
       "natureza": "Ensino",
       "fomento": "SEM VÍNCULO",
       "coordenador": "Vinícius Secchin de Melo",
-      "publico": 0,
-      "participacoes": 0,
+      "publico": 14,
+      "participacoes": 17,
       "ano_ultima": 2024,
       "status": "ativa",
       "url": "acoes/4589.html"
@@ -2240,8 +2240,8 @@
       "natureza": "Extensão",
       "fomento": "SEM VÍNCULO",
       "coordenador": "Augusto Cesar Machado Ramos",
-      "publico": 79,
-      "participacoes": 87,
+      "publico": 0,
+      "participacoes": 0,
       "ano_ultima": 2023,
       "status": "intermediaria",
       "url": "acoes/4597.html"
@@ -2254,8 +2254,8 @@
       "natureza": "Ensino",
       "fomento": "SEM VÍNCULO",
       "coordenador": "Bene Regis Figueiredo",
-      "publico": 0,
-      "participacoes": 0,
+      "publico": 81,
+      "participacoes": 87,
       "ano_ultima": 2023,
       "status": "intermediaria",
       "url": "acoes/4617.html"
@@ -2268,8 +2268,8 @@
       "natureza": "Ensino",
       "fomento": "SEM VÍNCULO",
       "coordenador": "Emilene Coco dos Santos",
-      "publico": 0,
-      "participacoes": 0,
+      "publico": 18,
+      "participacoes": 19,
       "ano_ultima": 2023,
       "status": "intermediaria",
       "url": "acoes/4626.html"
@@ -2310,8 +2310,8 @@
       "natureza": "Extensão",
       "fomento": "SEM VÍNCULO",
       "coordenador": "Gabriel Tozatto Zago",
-      "publico": 490,
-      "participacoes": 558,
+      "publico": 0,
+      "participacoes": 0,
       "ano_ultima": 2024,
       "status": "ativa",
       "url": "acoes/4655.html"
@@ -2352,8 +2352,8 @@
       "natureza": "Extensão",
       "fomento": "SEM VÍNCULO",
       "coordenador": "Nauvia Maria Cancelieri",
-      "publico": 0,
-      "participacoes": 0,
+      "publico": 142,
+      "participacoes": 159,
       "ano_ultima": 2025,
       "status": "ativa",
       "url": "acoes/4754.html"
@@ -2394,9 +2394,9 @@
       "natureza": "Extensão",
       "fomento": "SEM VÍNCULO",
       "coordenador": "Paulo Sérgio dos Santos Júnior",
-      "publico": 0,
-      "participacoes": 0,
-      "ano_ultima": 2024,
+      "publico": 115,
+      "participacoes": 126,
+      "ano_ultima": 2026,
       "status": "ativa",
       "url": "acoes/4830.html"
     },
@@ -2506,8 +2506,8 @@
       "natureza": "Extensão",
       "fomento": "SEM VÍNCULO",
       "coordenador": "Richard Junior Manuel Godinez Tello",
-      "publico": 172,
-      "participacoes": 218,
+      "publico": 0,
+      "participacoes": 0,
       "ano_ultima": 2026,
       "status": "ativa",
       "url": "acoes/5086.html"
@@ -2520,8 +2520,8 @@
       "natureza": "Ensino",
       "fomento": "SEM VÍNCULO",
       "coordenador": "Emilene Coco dos Santos",
-      "publico": 0,
-      "participacoes": 0,
+      "publico": 216,
+      "participacoes": 222,
       "ano_ultima": 2024,
       "status": "ativa",
       "url": "acoes/5138.html"
@@ -2563,7 +2563,7 @@
       "fomento": "SEM VÍNCULO",
       "coordenador": "Amarildo Mendes Lemos",
       "publico": 0,
-      "participacoes": 0,
+      "participacoes": 1,
       "ano_ultima": 2024,
       "status": "ativa",
       "url": "acoes/5246.html"
@@ -2849,6 +2849,34 @@
       "url": "acoes/6284.html"
     },
     {
+      "acao_id": "6292",
+      "titulo": "Clube de Matemática",
+      "nicho": "Mulheres e inclusão",
+      "tipo": "Programa",
+      "natureza": "Ensino",
+      "fomento": "SEM VÍNCULO",
+      "coordenador": "Graziela Barboza Guaitolini",
+      "publico": 0,
+      "participacoes": 0,
+      "ano_ultima": 2026,
+      "status": "ativa",
+      "url": "acoes/6292.html"
+    },
+    {
+      "acao_id": "6297",
+      "titulo": "Projeto Competição de Construção de Pontes de Palitos e Macarrão",
+      "nicho": "Ciência e divulgação",
+      "tipo": "Programa",
+      "natureza": "Ensino",
+      "fomento": "SEM VÍNCULO",
+      "coordenador": "Weverthon Lobo de Oliveira",
+      "publico": 0,
+      "participacoes": 2,
+      "ano_ultima": 2027,
+      "status": "ativa",
+      "url": "acoes/6297.html"
+    },
+    {
       "acao_id": "640",
       "titulo": "Introdução à Programação Competitiva",
       "nicho": "Software, dados e sistemas",
@@ -2870,8 +2898,8 @@
       "natureza": "Extensão",
       "fomento": "PAEX-IFES",
       "coordenador": "Sergio Nery Simões",
-      "publico": 0,
-      "participacoes": 0,
+      "publico": 1,
+      "participacoes": 7,
       "ano_ultima": 2018,
       "status": "dormente",
       "url": "acoes/645.html"
@@ -2912,8 +2940,8 @@
       "natureza": "Extensão",
       "fomento": "PAEX-IFES",
       "coordenador": "Emmanuel Marques Silva",
-      "publico": 0,
-      "participacoes": 0,
+      "publico": 29,
+      "participacoes": 77,
       "ano_ultima": 2018,
       "status": "dormente",
       "url": "acoes/708.html"
@@ -2996,8 +3024,8 @@
       "natureza": "Ensino",
       "fomento": "SEM VÍNCULO",
       "coordenador": "Felipe Frechiani de Oliveira",
-      "publico": 0,
-      "participacoes": 0,
+      "publico": 6,
+      "participacoes": 14,
       "ano_ultima": 2016,
       "status": "dormente",
       "url": "acoes/769.html"
@@ -3039,7 +3067,7 @@
       "fomento": "PAEX-IFES",
       "coordenador": "Moisés Savedra Omena",
       "publico": 0,
-      "participacoes": 0,
+      "participacoes": 5,
       "ano_ultima": 2019,
       "status": "dormente",
       "url": "acoes/849.html"
@@ -3052,8 +3080,8 @@
       "natureza": "Extensão",
       "fomento": "PAEX-IFES",
       "coordenador": "Wallas Gusmão Thomas",
-      "publico": 0,
-      "participacoes": 0,
+      "publico": 147,
+      "participacoes": 181,
       "ano_ultima": 2016,
       "status": "dormente",
       "url": "acoes/899.html"
@@ -3095,8 +3123,8 @@
       "fomento": "SEM VÍNCULO",
       "coordenador": "Felipe Frechiani de Oliveira",
       "publico": 0,
-      "participacoes": 11,
-      "ano_ultima": 2017,
+      "participacoes": 0,
+      "ano_ultima": 2016,
       "status": "dormente",
       "url": "acoes/903.html"
     },
@@ -3122,8 +3150,8 @@
       "natureza": "Ensino",
       "fomento": "SEM VÍNCULO",
       "coordenador": "Rosângela Guimarães Seba",
-      "publico": 0,
-      "participacoes": 0,
+      "publico": 27,
+      "participacoes": 29,
       "ano_ultima": 2016,
       "status": "dormente",
       "url": "acoes/916.html"
@@ -3136,8 +3164,8 @@
       "natureza": "Extensão",
       "fomento": "PAEX-IFES",
       "coordenador": "Paulo Sérgio dos Santos Júnior",
-      "publico": 0,
-      "participacoes": 0,
+      "publico": 53,
+      "participacoes": 68,
       "ano_ultima": 2016,
       "status": "dormente",
       "url": "acoes/930.html"
@@ -3151,9 +3179,9 @@
       "fomento": "PAEX-IFES",
       "coordenador": "Victorio Albani de Carvalho",
       "publico": 0,
-      "participacoes": 0,
-      "ano_ultima": 2019,
-      "status": "dormente",
+      "participacoes": 4,
+      "ano_ultima": 2023,
+      "status": "intermediaria",
       "url": "acoes/947.html"
     },
     {
@@ -3164,8 +3192,8 @@
       "natureza": "Extensão",
       "fomento": "PAEX-IFES",
       "coordenador": "Giovani Zanetti Neto",
-      "publico": 0,
-      "participacoes": 0,
+      "publico": 25,
+      "participacoes": 26,
       "ano_ultima": 2017,
       "status": "dormente",
       "url": "acoes/986.html"

@@ -40,13 +40,6 @@
   "atividades": [
     {
       "ano": "2020",
-      "atividade_id": "21063",
-      "acao_id": "3140",
-      "atividade": "Equipe de organização da Maratona de Programação 2025",
-      "pub": 0
-    },
-    {
-      "ano": "2020",
       "atividade_id": "22288",
       "acao_id": "3140",
       "atividade": "Maratona de Programação 2026",
@@ -54,9 +47,9 @@
     },
     {
       "ano": "2020",
-      "atividade_id": "19126",
+      "atividade_id": "21063",
       "acao_id": "3140",
-      "atividade": "27th Brazilian Symposium on Formal Methods",
+      "atividade": "Equipe de organização da Maratona de Programação 2025",
       "pub": 0
     },
     {
@@ -64,6 +57,13 @@
       "atividade_id": "21062",
       "acao_id": "3140",
       "atividade": "Equipe de organização do SCAI 2025",
+      "pub": 0
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "19126",
+      "acao_id": "3140",
+      "atividade": "27th Brazilian Symposium on Formal Methods",
       "pub": 0
     },
     {
@@ -864,8 +864,8 @@
       "acoes_comuns": 1
     },
     {
-      "nome": "Graziela Barboza Guaitolini Ramos",
-      "slug": "graziela-barboza-guaitolini-ramos",
+      "nome": "Graziela Barboza Guaitolini",
+      "slug": "graziela-barboza-guaitolini",
       "acoes_comuns": 1
     },
     {

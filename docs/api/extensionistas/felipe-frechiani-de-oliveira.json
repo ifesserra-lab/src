@@ -8,15 +8,16 @@
     "2018",
     "2019",
     "2020",
-    "2021",
     "2022"
   ],
   "funcoes": [
+    "AUXILIAR TÉCNICO",
     "AVALIADOR(A)",
     "COLABORADOR(A)",
     "COORDENADOR(A)",
     "COORDENADOR(A) ADJUNTO(A)",
     "EXPOSITOR(A)",
+    "MEMBRO DE COMITÊ GESTOR",
     "MENTOR(A)"
   ],
   "acoes_coordenadas": [
@@ -33,8 +34,8 @@
       "titulo": "LEDS – Laboratório de Extensão e Desenvolvimento de Soluções",
       "tipo": "Programa",
       "ano": "2018",
-      "n": 4,
-      "pub": 1
+      "n": 0,
+      "pub": 0
     },
     {
       "acao_id": "2285",
@@ -71,6 +72,28 @@
   ],
   "participacoes_equipe": [
     {
+      "acao_id": "1116",
+      "titulo": "Programa Local Núcleo Incubador Campus Serra – NIS",
+      "tipo": "Programa",
+      "ano": "2017",
+      "n": 220,
+      "pub": 126,
+      "funcoes": [
+        "MEMBRO DE COMITÊ GESTOR"
+      ]
+    },
+    {
+      "acao_id": "1261",
+      "titulo": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedora",
+      "tipo": "Curso",
+      "ano": "2017",
+      "n": 84,
+      "pub": 36,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    },
+    {
       "acao_id": "1406",
       "titulo": "Curso de Pré-Incubação de Empreendimentos – modalidade Residência",
       "tipo": "Curso",
@@ -82,14 +105,25 @@
       ]
     },
     {
-      "acao_id": "1838",
-      "titulo": "LEDS – Laboratório de Extensão e Desenvolvimento de Soluções",
-      "tipo": "Programa",
+      "acao_id": "1847",
+      "titulo": "Sistema de apoio para rastreio e geolocalização de transtornos mentais comuns na atenção primária a saúde",
+      "tipo": "Projeto",
       "ano": "2018",
-      "n": 4,
-      "pub": 1,
+      "n": 5,
+      "pub": 0,
       "funcoes": [
-        "COORDENADOR(A)"
+        "COLABORADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "2193",
+      "titulo": "LifeBox: transporte e monitoramento de córnea de forma inteligente",
+      "tipo": "Projeto",
+      "ano": "2019",
+      "n": 8,
+      "pub": 0,
+      "funcoes": [
+        "COLABORADOR(A)"
       ]
     },
     {
@@ -127,17 +161,6 @@
       ]
     },
     {
-      "acao_id": "3422",
-      "titulo": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
-      "tipo": "Programa",
-      "ano": "2021",
-      "n": 1,
-      "pub": 0,
-      "funcoes": [
-        "COORDENADOR(A)"
-      ]
-    },
-    {
       "acao_id": "4034",
       "titulo": "SmartIdea - Validação de Problemas e Ideias",
       "tipo": "Projeto",
@@ -157,6 +180,18 @@
       "pub": 13,
       "funcoes": [
         "COORDENADOR(A)"
+      ]
+    },
+    {
+      "acao_id": "708",
+      "titulo": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedoras",
+      "tipo": "Curso",
+      "ano": "2016",
+      "n": 77,
+      "pub": 29,
+      "funcoes": [
+        "AUXILIAR TÉCNICO",
+        "AVALIADOR(A)"
       ]
     },
     {
@@ -199,6 +234,27 @@
   "atividades": [
     {
       "ano": "2017",
+      "atividade_id": "11586",
+      "acao_id": "1116",
+      "atividade": "Membro do Comtê Gestor do Núcleo Incubador campus Serra do Ifes - NIS",
+      "pub": 0
+    },
+    {
+      "ano": "2017",
+      "atividade_id": "11585",
+      "acao_id": "1116",
+      "atividade": "Membro do Comtê Gestor do Núcleo Incubador campus Serra do Ifes - NIS",
+      "pub": 0
+    },
+    {
+      "ano": "2017",
+      "atividade_id": "4502",
+      "acao_id": "1261",
+      "atividade": "Seminário de Apresentação dos Empreendimentos",
+      "pub": 1
+    },
+    {
+      "ano": "2017",
       "atividade_id": "4172",
       "acao_id": "1406",
       "atividade": "Curso de Pré-Incubação de Empreendimentos – modalidade Residência",
@@ -206,10 +262,17 @@
     },
     {
       "ano": "2018",
-      "atividade_id": "5767",
-      "acao_id": "1838",
-      "atividade": "LEDS – Laboratório de Extensão e Desenvolvimento de Soluções",
-      "pub": 1
+      "atividade_id": "5788",
+      "acao_id": "1847",
+      "atividade": "Sistema de apoio para rastreio e geolocalização de transtornos mentais comuns na atenção primária a saúde",
+      "pub": 0
+    },
+    {
+      "ano": "2019",
+      "atividade_id": "7600",
+      "acao_id": "2193",
+      "atividade": "LifeBox: transporte e monitoramento de córnea de forma inteligente",
+      "pub": 0
     },
     {
       "ano": "2019",
@@ -233,20 +296,6 @@
       "pub": 0
     },
     {
-      "ano": "2021",
-      "atividade_id": "11938",
-      "acao_id": "3422",
-      "atividade": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
-      "pub": 0
-    },
-    {
-      "ano": "2022",
-      "atividade_id": "17191",
-      "acao_id": "4034",
-      "atividade": "Oficina de Design Sprint",
-      "pub": 2
-    },
-    {
       "ano": "2022",
       "atividade_id": "17192",
       "acao_id": "4034",
@@ -262,6 +311,13 @@
     },
     {
       "ano": "2022",
+      "atividade_id": "17191",
+      "acao_id": "4034",
+      "atividade": "Oficina de Design Sprint",
+      "pub": 2
+    },
+    {
+      "ano": "2022",
       "atividade_id": "14488",
       "acao_id": "4215",
       "atividade": "SprintLab - Laboratório de Prototipação Acelerada",
@@ -269,16 +325,23 @@
     },
     {
       "ano": "2016",
-      "atividade_id": "10014",
-      "acao_id": "730",
-      "atividade": "Assessoria Técnica do projeto de Pré-Incubação denominado “Somartech GRS: Gerenciamento de Riscos e Segurança”",
-      "pub": 0
+      "atividade_id": "1523",
+      "acao_id": "708",
+      "atividade": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedoras",
+      "pub": 14
     },
     {
       "ano": "2016",
-      "atividade_id": "2297",
-      "acao_id": "901",
-      "atividade": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+      "atividade_id": "1524",
+      "acao_id": "708",
+      "atividade": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedoras",
+      "pub": 15
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "10014",
+      "acao_id": "730",
+      "atividade": "Assessoria Técnica do projeto de Pré-Incubação denominado “Somartech GRS: Gerenciamento de Riscos e Segurança”",
       "pub": 0
     },
     {
@@ -290,24 +353,17 @@
     },
     {
       "ano": "2016",
+      "atividade_id": "2297",
+      "acao_id": "901",
+      "atividade": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+      "pub": 0
+    },
+    {
+      "ano": "2016",
       "atividade_id": "10017",
       "acao_id": "901",
       "atividade": "Minicurso: Introdução a metodologia LEDS",
       "pub": 10
-    },
-    {
-      "ano": "2016",
-      "atividade_id": "2128",
-      "acao_id": "912",
-      "atividade": "Curso de Pré-Incubação de Empreendimentos – modalidade Residência",
-      "pub": 0
-    },
-    {
-      "ano": "2016",
-      "atividade_id": "3213",
-      "acao_id": "912",
-      "atividade": "Banca de Apresentação do Trabalho Final de Curso do aluno Renahn Pazini Marim",
-      "pub": 0
     },
     {
       "ano": "2016",
@@ -318,19 +374,33 @@
     },
     {
       "ano": "2016",
+      "atividade_id": "3213",
+      "acao_id": "912",
+      "atividade": "Banca de Apresentação do Trabalho Final de Curso do aluno Renahn Pazini Marim",
+      "pub": 0
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "2128",
+      "acao_id": "912",
+      "atividade": "Curso de Pré-Incubação de Empreendimentos – modalidade Residência",
+      "pub": 0
+    },
+    {
+      "ano": "2016",
       "atividade_id": "3212",
       "acao_id": "912",
       "atividade": "Banca de Apresentação do Trabalho Final de Curso do aluno Carlos de Melo Batista",
       "pub": 0
     }
   ],
-  "imp_coord": 45,
-  "imp_eq": 8,
-  "impacto": 53,
+  "imp_coord": 44,
+  "imp_eq": 38,
+  "impacto": 82,
   "temas": [
     {
       "tema": "Empreendedorismo e incubação",
-      "n": 9
+      "n": 11
     },
     {
       "tema": "Software, dados e sistemas",
@@ -341,14 +411,93 @@
       "n": 3
     },
     {
-      "tema": "Outros / formação",
-      "n": 2
+      "tema": "Saúde e bem-estar",
+      "n": 1
+    },
+    {
+      "tema": "Cultura e arte",
+      "n": 1
     }
   ],
   "colaboradores": [
     {
       "nome": "Emmanuel Marques Silva",
       "slug": "emmanuel-marques-silva",
+      "acoes_comuns": 6
+    },
+    {
+      "nome": "Rodrigo Fernandes Calhau",
+      "slug": "rodrigo-fernandes-calhau",
+      "acoes_comuns": 5
+    },
+    {
+      "nome": "Moisés Savedra Omena",
+      "slug": "moises-savedra-omena",
+      "acoes_comuns": 5
+    },
+    {
+      "nome": "Karin Satie Komati",
+      "slug": "karin-satie-komati",
+      "acoes_comuns": 4
+    },
+    {
+      "nome": "Flávio Barcelos Braz da Silva",
+      "slug": "flavio-barcelos-braz-da-silva",
+      "acoes_comuns": 4
+    },
+    {
+      "nome": "Carlos Lins Borges Azevedo",
+      "slug": "carlos-lins-borges-azevedo",
+      "acoes_comuns": 4
+    },
+    {
+      "nome": "Paulo Sérgio dos Santos Júnior",
+      "slug": "paulo-sergio-dos-santos-junior",
+      "acoes_comuns": 4
+    },
+    {
+      "nome": "Emerson Atílio Birchler",
+      "slug": "emerson-atilio-birchler",
+      "acoes_comuns": 3
+    },
+    {
+      "nome": "Marcos Simão Guimarães",
+      "slug": "marcos-simao-guimaraes",
+      "acoes_comuns": 3
+    },
+    {
+      "nome": "Ronaldo Aparecida Marques",
+      "slug": "ronaldo-aparecida-marques",
+      "acoes_comuns": 3
+    },
+    {
+      "nome": "Dirceu Soares Júnior",
+      "slug": "dirceu-soares-junior",
+      "acoes_comuns": 3
+    },
+    {
+      "nome": "Gilmar Luiz Vassoler",
+      "slug": "gilmar-luiz-vassoler",
+      "acoes_comuns": 3
+    },
+    {
+      "nome": "Elizangela Campos da Rosa Broetto",
+      "slug": "elizangela-campos-da-rosa-broetto",
+      "acoes_comuns": 3
+    },
+    {
+      "nome": "Luis Henrique Rosado Torres",
+      "slug": "luis-henrique-rosado-torres",
+      "acoes_comuns": 3
+    },
+    {
+      "nome": "Leonardo Azevedo Scardua",
+      "slug": "leonardo-azevedo-scardua",
+      "acoes_comuns": 3
+    },
+    {
+      "nome": "Edilson Luiz do Nascimento",
+      "slug": "edilson-luiz-do-nascimento",
       "acoes_comuns": 3
     },
     {
@@ -377,18 +526,73 @@
       "acoes_comuns": 3
     },
     {
-      "nome": "Moisés Savedra Omena",
-      "slug": "moises-savedra-omena",
-      "acoes_comuns": 3
+      "nome": "Francisco José Casarim Rapchan",
+      "slug": "francisco-jose-casarim-rapchan",
+      "acoes_comuns": 2
     },
     {
-      "nome": "Rodrigo Fernandes Calhau",
-      "slug": "rodrigo-fernandes-calhau",
-      "acoes_comuns": 3
+      "nome": "Adelson Pereira do Nascimento",
+      "slug": "adelson-pereira-do-nascimento",
+      "acoes_comuns": 2
     },
     {
-      "nome": "Joel Will Belmiro",
-      "slug": "joel-will-belmiro",
+      "nome": "Daniel Cruz Cavalieri",
+      "slug": "daniel-cruz-cavalieri",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Fabiano Borges Ruy",
+      "slug": "fabiano-borges-ruy",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Valéria Gabriel Estanislau",
+      "slug": "valeria-gabriel-estanislau",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Humberto Henrique Ramos Brotto",
+      "slug": "humberto-henrique-ramos-brotto",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Christian Mariani Lucas dos Santos",
+      "slug": "christian-mariani-lucas-dos-santos",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Giovani Zanetti Neto",
+      "slug": "giovani-zanetti-neto",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Richard Junior Manuel Godinez Tello",
+      "slug": "richard-junior-manuel-godinez-tello",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Rafael Afonso dos Anjos",
+      "slug": "rafael-afonso-dos-anjos",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Andreângelo da Paixão Patuzzo",
+      "slug": "andreangelo-da-paixao-patuzzo",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Marlon Woelffel Candoti",
+      "slug": "marlon-woelffel-candoti",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Anne Caroline Silva",
+      "slug": "anne-caroline-silva",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Flávio Lopes da Silva",
+      "slug": "flavio-lopes-da-silva",
       "acoes_comuns": 2
     },
     {
@@ -404,11 +608,6 @@
     {
       "nome": "Matheus Kleber Rodrigues Barbosa",
       "slug": "matheus-kleber-rodrigues-barbosa",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Paulo Sérgio dos Santos Júnior",
-      "slug": "paulo-sergio-dos-santos-junior",
       "acoes_comuns": 2
     },
     {
@@ -482,6 +681,141 @@
       "acoes_comuns": 2
     },
     {
+      "nome": "Wagner Teixeira da Costa",
+      "slug": "wagner-teixeira-da-costa",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Elton Siqueira Moura",
+      "slug": "elton-siqueira-moura",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Jennifer Gonçalves do Amaral",
+      "slug": "jennifer-goncalves-do-amaral",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Giovani de Oliveira Silva Jr",
+      "slug": "giovani-de-oliveira-silva-jr",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Claudemir Jose Malacarne",
+      "slug": "claudemir-jose-malacarne",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Walace Andrade Cruz Nascimento",
+      "slug": "walace-andrade-cruz-nascimento",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Bene Regis Figueiredo",
+      "slug": "bene-regis-figueiredo",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Renato Tannure Rotta de Almeida",
+      "slug": "renato-tannure-rotta-de-almeida",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Mateus Conrad Barcelos da Costa",
+      "slug": "mateus-conrad-barcelos-da-costa",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Rosilene de Sá Ribeiro",
+      "slug": "rosilene-de-sa-ribeiro",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Juciéli Alves da Costa",
+      "slug": "jucieli-alves-da-costa",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Dennia Lúcia Goldner Schrock",
+      "slug": "dennia-lucia-goldner-schrock",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Roberto Inhance",
+      "slug": "roberto-inhance",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Renata Carneiro Sousa",
+      "slug": "renata-carneiro-sousa",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Flávio Garcia Pereira",
+      "slug": "flavio-garcia-pereira",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Sâmela Pedrada Cardoso",
+      "slug": "samela-pedrada-cardoso",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Jéssica Yamada",
+      "slug": "jessica-yamada",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Michele Silva da Mata Caetano",
+      "slug": "michele-silva-da-mata-caetano",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Jéssica Nascimento Galvani",
+      "slug": "jessica-nascimento-galvani",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Flaviana de Souza",
+      "slug": "flaviana-de-souza",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Daniel Arrais",
+      "slug": "daniel-arrais",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Camila Braga Guimarães",
+      "slug": "camila-braga-guimaraes",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Rodolpho da Cruz Rangel",
+      "slug": "rodolpho-da-cruz-rangel",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Sandro de Freitas Nascimento",
+      "slug": "sandro-de-freitas-nascimento",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Jefferson Ribeiro de Lima",
+      "slug": "jefferson-ribeiro-de-lima",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Alessandro Bermudes Gomes",
+      "slug": "alessandro-bermudes-gomes",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Erley Crevelin Valentim",
+      "slug": "erley-crevelin-valentim",
+      "acoes_comuns": 1
+    },
+    {
       "nome": "Lucas Velten Henker",
       "slug": "lucas-velten-henker",
       "acoes_comuns": 1
@@ -492,8 +826,13 @@
       "acoes_comuns": 1
     },
     {
-      "nome": "Gabriel Gonçalves da Costa",
-      "slug": "gabriel-goncalves-da-costa",
+      "nome": "Cassiano Knsch das Neves",
+      "slug": "cassiano-knsch-das-neves",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Irisson Junio Máximo Borges",
+      "slug": "irisson-junio-maximo-borges",
       "acoes_comuns": 1
     },
     {
@@ -524,11 +863,6 @@
     {
       "nome": "Tadeu da Penha Moraes Junior",
       "slug": "tadeu-da-penha-moraes-junior",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Victorio Albani de Carvalho",
-      "slug": "victorio-albani-de-carvalho",
       "acoes_comuns": 1
     },
     {
@@ -564,11 +898,6 @@
     {
       "nome": "Bruno da Fonseca Chevitarese",
       "slug": "bruno-da-fonseca-chevitarese",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Adelson Pereira do Nascimento",
-      "slug": "adelson-pereira-do-nascimento",
       "acoes_comuns": 1
     },
     {
@@ -797,8 +1126,13 @@
       "acoes_comuns": 1
     },
     {
-      "nome": "Gilmar Luiz Vassoler",
-      "slug": "gilmar-luiz-vassoler",
+      "nome": "Aguinaldo Barata",
+      "slug": "aguinaldo-barata",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Cassius Zanetti Resende",
+      "slug": "cassius-zanetti-resende",
       "acoes_comuns": 1
     },
     {
@@ -817,16 +1151,6 @@
       "acoes_comuns": 1
     },
     {
-      "nome": "Dirceu Soares Júnior",
-      "slug": "dirceu-soares-junior",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Edilson Luiz do Nascimento",
-      "slug": "edilson-luiz-do-nascimento",
-      "acoes_comuns": 1
-    },
-    {
       "nome": "Sarah Silva Ferreira",
       "slug": "sarah-silva-ferreira",
       "acoes_comuns": 1
@@ -842,33 +1166,18 @@
       "acoes_comuns": 1
     },
     {
-      "nome": "Andreângelo da Paixão Patuzzo",
-      "slug": "andreangelo-da-paixao-patuzzo",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Rafael Afonso dos Anjos",
-      "slug": "rafael-afonso-dos-anjos",
-      "acoes_comuns": 1
-    },
-    {
       "nome": "Ana Carolina Cebin Pereira",
       "slug": "ana-carolina-cebin-pereira",
       "acoes_comuns": 1
     },
     {
+      "nome": "Joel Will Belmiro",
+      "slug": "joel-will-belmiro",
+      "acoes_comuns": 1
+    },
+    {
       "nome": "Renato de Sant'anna Lopes",
       "slug": "renato-de-sant-anna-lopes",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Anne Caroline Silva",
-      "slug": "anne-caroline-silva",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Marlon Woelffel Candoti",
-      "slug": "marlon-woelffel-candoti",
       "acoes_comuns": 1
     },
     {
@@ -952,16 +1261,6 @@
       "acoes_comuns": 1
     },
     {
-      "nome": "Flávio Lopes da Silva",
-      "slug": "flavio-lopes-da-silva",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Carlos Lins Borges Azevedo",
-      "slug": "carlos-lins-borges-azevedo",
-      "acoes_comuns": 1
-    },
-    {
       "nome": "Sergio Nery Simões",
       "slug": "sergio-nery-simoes",
       "acoes_comuns": 1
@@ -969,46 +1268,6 @@
     {
       "nome": "Magno Macedo de Oliveira",
       "slug": "magno-macedo-de-oliveira",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Fabiano Borges Ruy",
-      "slug": "fabiano-borges-ruy",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Flávio Barcelos Braz da Silva",
-      "slug": "flavio-barcelos-braz-da-silva",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Wagner Teixeira da Costa",
-      "slug": "wagner-teixeira-da-costa",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Leonardo Azevedo Scardua",
-      "slug": "leonardo-azevedo-scardua",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Luis Henrique Rosado Torres",
-      "slug": "luis-henrique-rosado-torres",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Marcos Simão Guimarães",
-      "slug": "marcos-simao-guimaraes",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Emerson Atílio Birchler",
-      "slug": "emerson-atilio-birchler",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Karin Satie Komati",
-      "slug": "karin-satie-komati",
       "acoes_comuns": 1
     }
   ]

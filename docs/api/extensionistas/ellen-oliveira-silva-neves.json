@@ -3,29 +3,16 @@
   "nome": "Éllen Oliveira Silva Neves",
   "resumo_ia": null,
   "anos": [
-    "2018",
     "2021",
     "2022"
   ],
   "funcoes": [
     "ALUNO(A) BOLSISTA",
     "ALUNO(A) EM ATIVIDADE CURRICULAR",
-    "ALUNO(A) VOLUNTARIO",
     "MONITOR(A)"
   ],
   "acoes_coordenadas": [],
   "participacoes_equipe": [
-    {
-      "acao_id": "2082",
-      "titulo": "Mulheres na Ciência",
-      "tipo": "Curso",
-      "ano": "2018",
-      "n": 53,
-      "pub": 25,
-      "funcoes": [
-        "ALUNO(A) VOLUNTARIO"
-      ]
-    },
     {
       "acao_id": "3423",
       "titulo": "Programa Local Núcleo Incubador Campus Serra – NIS",
@@ -62,20 +49,6 @@
   ],
   "atividades": [
     {
-      "ano": "2018",
-      "atividade_id": "6874",
-      "acao_id": "2082",
-      "atividade": "Mulheres na Ciência",
-      "pub": 17
-    },
-    {
-      "ano": "2018",
-      "atividade_id": "6873",
-      "acao_id": "2082",
-      "atividade": "Mulheres na Ciência",
-      "pub": 11
-    },
-    {
       "ano": "2021",
       "atividade_id": "15044",
       "acao_id": "3423",
@@ -98,13 +71,9 @@
     }
   ],
   "imp_coord": 0,
-  "imp_eq": 42,
-  "impacto": 42,
+  "imp_eq": 14,
+  "impacto": 14,
   "temas": [
-    {
-      "tema": "Mulheres e inclusão",
-      "n": 1
-    },
     {
       "tema": "Empreendedorismo e incubação",
       "n": 1
@@ -123,91 +92,6 @@
       "nome": "Adelson Pereira do Nascimento",
       "slug": "adelson-pereira-do-nascimento",
       "acoes_comuns": 2
-    },
-    {
-      "nome": "Giordana dos Santos Sperandio",
-      "slug": "giordana-dos-santos-sperandio",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Ana Rúbia Ramos Vicente",
-      "slug": "ana-rubia-ramos-vicente",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Alessandra Aguiar Vilarinho",
-      "slug": "alessandra-aguiar-vilarinho",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Bruno Ramos Gonzaga",
-      "slug": "bruno-ramos-gonzaga",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Richard Junior Manuel Godinez Tello",
-      "slug": "richard-junior-manuel-godinez-tello",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Nauvia Maria Cancelieri",
-      "slug": "nauvia-maria-cancelieri",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Emmanuel Marques Silva",
-      "slug": "emmanuel-marques-silva",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Ana Paula Klauck",
-      "slug": "ana-paula-klauck",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Fidelis Zanetti de Castro",
-      "slug": "fidelis-zanetti-de-castro",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Tatiane Policário Chagas",
-      "slug": "tatiane-policario-chagas",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Ernani Leite Ribeiro Filho",
-      "slug": "ernani-leite-ribeiro-filho",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Josué Rego da Silva",
-      "slug": "josue-rego-da-silva",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Wagner Scopel Falcão",
-      "slug": "wagner-scopel-falcao",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Maria Gabriela Siqueira Tavares",
-      "slug": "maria-gabriela-siqueira-tavares",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Sarah Silva Ferreira",
-      "slug": "sarah-silva-ferreira",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Graziela Barboza Guaitolini",
-      "slug": "graziela-barboza-guaitolini",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Adriana Padua Lovatte",
-      "slug": "adriana-padua-lovatte",
-      "acoes_comuns": 1
     },
     {
       "nome": "Francisco José Casarim Rapchan",

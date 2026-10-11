@@ -85,17 +85,17 @@
     },
     {
       "ano": "2016",
-      "atividade_id": "10020",
-      "acao_id": "901",
-      "atividade": "Minicurso: Hacktoberfest LEDS",
-      "pub": 15
-    },
-    {
-      "ano": "2016",
       "atividade_id": "10019",
       "acao_id": "901",
       "atividade": "Palestra: Apresentação de Projetos LEDS",
       "pub": 0
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "10020",
+      "acao_id": "901",
+      "atividade": "Minicurso: Hacktoberfest LEDS",
+      "pub": 15
     }
   ],
   "imp_coord": 0,

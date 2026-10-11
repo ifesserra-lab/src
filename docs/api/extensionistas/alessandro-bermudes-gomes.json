@@ -110,13 +110,6 @@
     },
     {
       "ano": "2018",
-      "atividade_id": "6836",
-      "acao_id": "2081",
-      "atividade": "O IFES é o meu lugar",
-      "pub": 40
-    },
-    {
-      "ano": "2018",
       "atividade_id": "6835",
       "acao_id": "2081",
       "atividade": "O IFES é o meu lugar",
@@ -124,24 +117,10 @@
     },
     {
       "ano": "2018",
-      "atividade_id": "14468",
-      "acao_id": "2107",
-      "atividade": "Visita EMEF Jonas Farias 2",
-      "pub": 8
-    },
-    {
-      "ano": "2018",
-      "atividade_id": "14469",
-      "acao_id": "2107",
-      "atividade": "Visita CEEFMTI Joaquim Beato",
-      "pub": 36
-    },
-    {
-      "ano": "2018",
-      "atividade_id": "14467",
-      "acao_id": "2107",
-      "atividade": "Visita EMEF Jonas Farias 1",
-      "pub": 9
+      "atividade_id": "6836",
+      "acao_id": "2081",
+      "atividade": "O IFES é o meu lugar",
+      "pub": 40
     },
     {
       "ano": "2018",
@@ -152,10 +131,31 @@
     },
     {
       "ano": "2018",
+      "atividade_id": "14468",
+      "acao_id": "2107",
+      "atividade": "Visita EMEF Jonas Farias 2",
+      "pub": 8
+    },
+    {
+      "ano": "2018",
+      "atividade_id": "14467",
+      "acao_id": "2107",
+      "atividade": "Visita EMEF Jonas Farias 1",
+      "pub": 9
+    },
+    {
+      "ano": "2018",
       "atividade_id": "14470",
       "acao_id": "2107",
       "atividade": "Visita EEEFM Nova Carapina",
       "pub": 91
+    },
+    {
+      "ano": "2018",
+      "atividade_id": "14469",
+      "acao_id": "2107",
+      "atividade": "Visita CEEFMTI Joaquim Beato",
+      "pub": 36
     }
   ],
   "imp_coord": 50,

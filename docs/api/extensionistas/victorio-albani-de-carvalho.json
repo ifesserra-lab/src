@@ -17,7 +17,7 @@
       "titulo": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
       "tipo": "Programa",
       "ano": "2021",
-      "n": 0,
+      "n": 1,
       "pub": 0
     },
     {
@@ -92,9 +92,18 @@
     {
       "tema": "Cultura e arte",
       "n": 4
+    },
+    {
+      "tema": "Empreendedorismo e incubação",
+      "n": 1
     }
   ],
   "colaboradores": [
+    {
+      "nome": "Felipe Frechiani de Oliveira",
+      "slug": "felipe-frechiani-de-oliveira",
+      "acoes_comuns": 1
+    },
     {
       "nome": "Éllen Oliveira Silva Neves",
       "slug": "ellen-oliveira-silva-neves",

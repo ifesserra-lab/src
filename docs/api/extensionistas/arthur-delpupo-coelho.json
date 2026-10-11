@@ -7,7 +7,6 @@
     "2022"
   ],
   "funcoes": [
-    "ALUNO(A) BOLSISTA",
     "ALUNO(A) EM ATIVIDADE CURRICULAR"
   ],
   "acoes_coordenadas": [],
@@ -21,17 +20,6 @@
       "pub": 152,
       "funcoes": [
         "ALUNO(A) EM ATIVIDADE CURRICULAR"
-      ]
-    },
-    {
-      "acao_id": "4033",
-      "titulo": "Pink Pepper Qualifier: Determinação da qualidade produtiva dos frutos da Aroeira (Schinus terebinthifolius Raddi) usando Inteligência Computacional",
-      "tipo": "Projeto",
-      "ano": "2022",
-      "n": 165,
-      "pub": 0,
-      "funcoes": [
-        "ALUNO(A) BOLSISTA"
       ]
     },
     {
@@ -56,55 +44,6 @@
     },
     {
       "ano": "2022",
-      "atividade_id": "19179",
-      "acao_id": "4033",
-      "atividade": "Modelagem e implementação do banco de dados da solução Pink Pepper Qualifier - Etapa 2",
-      "pub": 0
-    },
-    {
-      "ano": "2022",
-      "atividade_id": "13927",
-      "acao_id": "4033",
-      "atividade": "Pink Pepper Qualifier: Determinação da qualidade produtiva dos frutos da Aroeira (Schinus terebinthifolius Raddi) usando Inteligência Computacional",
-      "pub": 0
-    },
-    {
-      "ano": "2022",
-      "atividade_id": "19170",
-      "acao_id": "4033",
-      "atividade": "Implementações do front-end do sistema Pink Pepper Qualifier - Etapa 2",
-      "pub": 0
-    },
-    {
-      "ano": "2022",
-      "atividade_id": "19174",
-      "acao_id": "4033",
-      "atividade": "Implementação de algoritmos de redes neurais profundas voltadas para segmentação de imagens de pimenta rosa",
-      "pub": 0
-    },
-    {
-      "ano": "2022",
-      "atividade_id": "19181",
-      "acao_id": "4033",
-      "atividade": "Montagem de uma segunda base de dados de fotos de pimenta rosa",
-      "pub": 0
-    },
-    {
-      "ano": "2022",
-      "atividade_id": "19173",
-      "acao_id": "4033",
-      "atividade": "Participação em mentorias do Sebrae",
-      "pub": 0
-    },
-    {
-      "ano": "2022",
-      "atividade_id": "19167",
-      "acao_id": "4033",
-      "atividade": "Implementações do back-end do sistema Pink Pepper Qualifier - Etapa 2",
-      "pub": 0
-    },
-    {
-      "ano": "2022",
       "atividade_id": "17191",
       "acao_id": "4034",
       "atividade": "Oficina de Design Sprint",
@@ -116,11 +55,11 @@
   "impacto": 9,
   "temas": [
     {
-      "tema": "Robótica e cultura maker",
-      "n": 2
+      "tema": "Empreendedorismo e incubação",
+      "n": 1
     },
     {
-      "tema": "Empreendedorismo e incubação",
+      "tema": "Robótica e cultura maker",
       "n": 1
     }
   ],
@@ -273,81 +212,6 @@
     {
       "nome": "Laisa Bernabe do Carmo",
       "slug": "laisa-bernabe-do-carmo",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Fidelis Zanetti de Castro",
-      "slug": "fidelis-zanetti-de-castro",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Breno Ricardo Ferreira Antunes",
-      "slug": "breno-ricardo-ferreira-antunes",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Douglas de Oliveira Alkimim",
-      "slug": "douglas-de-oliveira-alkimim",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Thiago Augusto de Carvalho",
-      "slug": "thiago-augusto-de-carvalho",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Matheus Teixeira de Aguiar",
-      "slug": "matheus-teixeira-de-aguiar",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Thaís de Souza",
-      "slug": "thais-de-souza",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Lucas Gabriel Araújo Codeco",
-      "slug": "lucas-gabriel-araujo-codeco",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Sofia de Alcantara Silva",
-      "slug": "sofia-de-alcantara-silva",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Davi Mulullo Alcântara",
-      "slug": "davi-mulullo-alcantara",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Inaê Santos Gonçalves",
-      "slug": "inae-santos-goncalves",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Eduarda Rodrigues Simões",
-      "slug": "eduarda-rodrigues-simoes",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Mayke Willans Christo Pereira",
-      "slug": "mayke-willans-christo-pereira",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Manoel Rodrigues Loureiro",
-      "slug": "manoel-rodrigues-loureiro",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Raynan Araujo da Silva",
-      "slug": "raynan-araujo-da-silva",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Filipe Anunciação Batista de Moura",
-      "slug": "filipe-anunciacao-batista-de-moura",
       "acoes_comuns": 1
     },
     {

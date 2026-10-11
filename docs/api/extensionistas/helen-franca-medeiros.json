@@ -88,10 +88,10 @@
     },
     {
       "ano": "2016",
-      "atividade_id": "10020",
+      "atividade_id": "10343",
       "acao_id": "901",
-      "atividade": "Minicurso: Hacktoberfest LEDS",
-      "pub": 15
+      "atividade": "Expositor: Apresentação de Projetos do LEDS no Sebrae StartupSummit 2019",
+      "pub": 0
     },
     {
       "ano": "2016",
@@ -102,10 +102,10 @@
     },
     {
       "ano": "2016",
-      "atividade_id": "10343",
+      "atividade_id": "10020",
       "acao_id": "901",
-      "atividade": "Expositor: Apresentação de Projetos do LEDS no Sebrae StartupSummit 2019",
-      "pub": 0
+      "atividade": "Minicurso: Hacktoberfest LEDS",
+      "pub": 15
     }
   ],
   "imp_coord": 0,

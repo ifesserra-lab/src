@@ -32,17 +32,17 @@
     },
     {
       "ano": "2019",
+      "atividade_id": "10573",
+      "acao_id": "2505",
+      "atividade": "Ação Cineclubista \"Lançamento do Projeto\"",
+      "pub": 11
+    },
+    {
+      "ano": "2019",
       "atividade_id": "10577",
       "acao_id": "2505",
       "atividade": "Oficina Cinema e Educação: preservação do patrimônio histórico e cultural",
       "pub": 16
-    },
-    {
-      "ano": "2019",
-      "atividade_id": "10576",
-      "acao_id": "2505",
-      "atividade": "Ação Cineclubista \"produção Polo 3\"",
-      "pub": 13
     },
     {
       "ano": "2019",
@@ -60,10 +60,10 @@
     },
     {
       "ano": "2019",
-      "atividade_id": "10573",
+      "atividade_id": "10576",
       "acao_id": "2505",
-      "atividade": "Ação Cineclubista \"Lançamento do Projeto\"",
-      "pub": 11
+      "atividade": "Ação Cineclubista \"produção Polo 3\"",
+      "pub": 13
     }
   ],
   "imp_coord": 0,

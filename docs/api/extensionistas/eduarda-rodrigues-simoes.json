@@ -3,11 +3,9 @@
   "nome": "Eduarda Rodrigues Simões",
   "resumo_ia": null,
   "anos": [
-    "2017",
-    "2022"
+    "2017"
   ],
   "funcoes": [
-    "ALUNO(A) BOLSISTA",
     "COLABORADOR(A)"
   ],
   "acoes_coordenadas": [],
@@ -22,17 +20,6 @@
       "funcoes": [
         "COLABORADOR(A)"
       ]
-    },
-    {
-      "acao_id": "4033",
-      "titulo": "Pink Pepper Qualifier: Determinação da qualidade produtiva dos frutos da Aroeira (Schinus terebinthifolius Raddi) usando Inteligência Computacional",
-      "tipo": "Projeto",
-      "ano": "2022",
-      "n": 165,
-      "pub": 0,
-      "funcoes": [
-        "ALUNO(A) BOLSISTA"
-      ]
     }
   ],
   "atividades": [
@@ -42,139 +29,6 @@
       "acao_id": "1426",
       "atividade": "Semana de Ciência e Tecnologia do Campus Serra do Ifes",
       "pub": 0
-    },
-    {
-      "ano": "2022",
-      "atividade_id": "19187",
-      "acao_id": "4033",
-      "atividade": "Desenvolvimento de protótipos de tela do aplicativo Pink Pepper Qualifier - Etapa 1",
-      "pub": 0
-    },
-    {
-      "ano": "2022",
-      "atividade_id": "19178",
-      "acao_id": "4033",
-      "atividade": "Modelagem e implementação do banco de dados da solução Pink Pepper Qualifier - Etapa 1",
-      "pub": 0
-    },
-    {
-      "ano": "2022",
-      "atividade_id": "19166",
-      "acao_id": "4033",
-      "atividade": "Implementações do back-end do sistema Pink Pepper Qualifier - Etapa 1",
-      "pub": 0
-    },
-    {
-      "ano": "2022",
-      "atividade_id": "19159",
-      "acao_id": "4033",
-      "atividade": "Coleta de frutos para realização de análises químicas - Etapa 2",
-      "pub": 0
-    },
-    {
-      "ano": "2022",
-      "atividade_id": "19151",
-      "acao_id": "4033",
-      "atividade": "1ª viagem técnica à região do Nativo/SM para realização de entrevistas com produtores de pimenta rosa",
-      "pub": 0
-    },
-    {
-      "ano": "2022",
-      "atividade_id": "19156",
-      "acao_id": "4033",
-      "atividade": "Captura de fotos de pimentas em diferentes estádios fenológicos de maturação - Etapa 2",
-      "pub": 0
-    },
-    {
-      "ano": "2022",
-      "atividade_id": "19157",
-      "acao_id": "4033",
-      "atividade": "Captura de fotos de pimentas em diferentes estádios fenológicos de maturação - Etapa 3",
-      "pub": 0
-    },
-    {
-      "ano": "2022",
-      "atividade_id": "19154",
-      "acao_id": "4033",
-      "atividade": "Estudo de algoritmos de redes neurais profundas voltadas para segmentação de imagens",
-      "pub": 0
-    },
-    {
-      "ano": "2022",
-      "atividade_id": "19155",
-      "acao_id": "4033",
-      "atividade": "Captura de fotos de pimentas em diferentes estádios fenológicos de maturação - Etapa 1",
-      "pub": 0
-    },
-    {
-      "ano": "2022",
-      "atividade_id": "19160",
-      "acao_id": "4033",
-      "atividade": "Coleta de frutos para realização de análises químicas - Etapa 3",
-      "pub": 0
-    },
-    {
-      "ano": "2022",
-      "atividade_id": "19158",
-      "acao_id": "4033",
-      "atividade": "Coleta de frutos para realização de análises químicas - Etapa 1",
-      "pub": 0
-    },
-    {
-      "ano": "2022",
-      "atividade_id": "19179",
-      "acao_id": "4033",
-      "atividade": "Modelagem e implementação do banco de dados da solução Pink Pepper Qualifier - Etapa 2",
-      "pub": 0
-    },
-    {
-      "ano": "2022",
-      "atividade_id": "19152",
-      "acao_id": "4033",
-      "atividade": "2ª viagem técnica à região do Nativo/SM para realização de entrevistas com produtores de pimenta rosa",
-      "pub": 0
-    },
-    {
-      "ano": "2022",
-      "atividade_id": "19169",
-      "acao_id": "4033",
-      "atividade": "Implementações do front-end do sistema Pink Pepper Qualifier - Etapa 1",
-      "pub": 0
-    },
-    {
-      "ano": "2022",
-      "atividade_id": "19153",
-      "acao_id": "4033",
-      "atividade": "3ª viagem técnica à região do Nativo/SM para realização de entrevistas com produtores de pimenta rosa",
-      "pub": 0
-    },
-    {
-      "ano": "2022",
-      "atividade_id": "13927",
-      "acao_id": "4033",
-      "atividade": "Pink Pepper Qualifier: Determinação da qualidade produtiva dos frutos da Aroeira (Schinus terebinthifolius Raddi) usando Inteligência Computacional",
-      "pub": 0
-    },
-    {
-      "ano": "2022",
-      "atividade_id": "19165",
-      "acao_id": "4033",
-      "atividade": "Montagem de uma primeira versão de uma base de dados de fotos de pimenta rosa",
-      "pub": 0
-    },
-    {
-      "ano": "2022",
-      "atividade_id": "19172",
-      "acao_id": "4033",
-      "atividade": "Gravação de uma reportagem para o Jornal do Campo da TV Gazeta",
-      "pub": 0
-    },
-    {
-      "ano": "2022",
-      "atividade_id": "19167",
-      "acao_id": "4033",
-      "atividade": "Implementações do back-end do sistema Pink Pepper Qualifier - Etapa 2",
-      "pub": 0
     }
   ],
   "imp_coord": 0,
@@ -183,10 +37,6 @@
   "temas": [
     {
       "tema": "Empreendedorismo e incubação",
-      "n": 1
-    },
-    {
-      "tema": "Robótica e cultura maker",
       "n": 1
     }
   ],
@@ -294,81 +144,6 @@
     {
       "nome": "Brunna Dalzini de Oliveira",
       "slug": "brunna-dalzini-de-oliveira",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Fidelis Zanetti de Castro",
-      "slug": "fidelis-zanetti-de-castro",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Breno Ricardo Ferreira Antunes",
-      "slug": "breno-ricardo-ferreira-antunes",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Douglas de Oliveira Alkimim",
-      "slug": "douglas-de-oliveira-alkimim",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Thiago Augusto de Carvalho",
-      "slug": "thiago-augusto-de-carvalho",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Matheus Teixeira de Aguiar",
-      "slug": "matheus-teixeira-de-aguiar",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Arthur Delpupo Coelho",
-      "slug": "arthur-delpupo-coelho",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Thaís de Souza",
-      "slug": "thais-de-souza",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Lucas Gabriel Araújo Codeco",
-      "slug": "lucas-gabriel-araujo-codeco",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Sofia de Alcantara Silva",
-      "slug": "sofia-de-alcantara-silva",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Davi Mulullo Alcântara",
-      "slug": "davi-mulullo-alcantara",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Inaê Santos Gonçalves",
-      "slug": "inae-santos-goncalves",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Mayke Willans Christo Pereira",
-      "slug": "mayke-willans-christo-pereira",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Manoel Rodrigues Loureiro",
-      "slug": "manoel-rodrigues-loureiro",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Raynan Araujo da Silva",
-      "slug": "raynan-araujo-da-silva",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Filipe Anunciação Batista de Moura",
-      "slug": "filipe-anunciacao-batista-de-moura",
       "acoes_comuns": 1
     }
   ]

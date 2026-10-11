@@ -9,6 +9,7 @@
   ],
   "funcoes": [
     "COLABORADOR(A)",
+    "COORDENADOR(A)",
     "ORGANIZADOR(A)"
   ],
   "acoes_coordenadas": [
@@ -17,7 +18,7 @@
       "titulo": "APEXT 2026 – Atendimentos Personalizados e Monitorias de Extensão Tecnológica",
       "tipo": "Projeto",
       "ano": "2026",
-      "n": 0,
+      "n": 2,
       "pub": 0
     }
   ],
@@ -43,6 +44,17 @@
       "funcoes": [
         "ORGANIZADOR(A)"
       ]
+    },
+    {
+      "acao_id": "6104",
+      "titulo": "APEXT 2026 – Atendimentos Personalizados e Monitorias de Extensão Tecnológica",
+      "tipo": "Projeto",
+      "ano": "2026",
+      "n": 2,
+      "pub": 0,
+      "funcoes": [
+        "COORDENADOR(A)"
+      ]
     }
   ],
   "atividades": [
@@ -59,12 +71,23 @@
       "acao_id": "3140",
       "atividade": "Palestra de Cibersegurança e IA no Ambiente Educacional",
       "pub": 56
+    },
+    {
+      "ano": "2026",
+      "atividade_id": "22428",
+      "acao_id": "6104",
+      "atividade": "APEXT 2026 – Atendimentos Personalizados e Monitorias de Extensão Tecnológica",
+      "pub": 0
     }
   ],
   "imp_coord": 0,
   "imp_eq": 57,
   "impacto": 57,
   "temas": [
+    {
+      "tema": "Captação e ingresso",
+      "n": 2
+    },
     {
       "tema": "Empreendedorismo e incubação",
       "n": 1
@@ -78,7 +101,7 @@
     {
       "nome": "Emmanuel Marques Silva",
       "slug": "emmanuel-marques-silva",
-      "acoes_comuns": 2
+      "acoes_comuns": 3
     },
     {
       "nome": "Karin Satie Komati",

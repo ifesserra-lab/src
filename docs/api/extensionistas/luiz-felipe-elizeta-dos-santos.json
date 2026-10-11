@@ -8,8 +8,7 @@
   ],
   "funcoes": [
     "ALUNO(A) BOLSISTA",
-    "APOIO TÉCNICO",
-    "MONITOR(A)"
+    "APOIO TÉCNICO"
   ],
   "acoes_coordenadas": [],
   "participacoes_equipe": [
@@ -22,17 +21,6 @@
       "pub": 905,
       "funcoes": [
         "APOIO TÉCNICO"
-      ]
-    },
-    {
-      "acao_id": "5357",
-      "titulo": "MULHERES MIL - Artesão em Bordado a mão",
-      "tipo": "Curso",
-      "ano": "2025",
-      "n": 35,
-      "pub": 24,
-      "funcoes": [
-        "MONITOR(A)"
       ]
     },
     {
@@ -64,13 +52,6 @@
     },
     {
       "ano": "2025",
-      "atividade_id": "19716",
-      "acao_id": "5357",
-      "atividade": "MULHERES MIL - Artesão em Bordado a mão",
-      "pub": 24
-    },
-    {
-      "ano": "2025",
       "atividade_id": "20290",
       "acao_id": "5539",
       "atividade": "Conexão Ciência: Transformação Digital das Atividades do Centro de Ciência Educação e Cultura - Praça da Ciência",
@@ -78,15 +59,11 @@
     }
   ],
   "imp_coord": 0,
-  "imp_eq": 24,
-  "impacto": 24,
+  "imp_eq": 0,
+  "impacto": 0,
   "temas": [
     {
       "tema": "Robótica e cultura maker",
-      "n": 1
-    },
-    {
-      "tema": "Mulheres e inclusão",
       "n": 1
     },
     {
@@ -95,11 +72,6 @@
     }
   ],
   "colaboradores": [
-    {
-      "nome": "Emmanuel Marques Silva",
-      "slug": "emmanuel-marques-silva",
-      "acoes_comuns": 2
-    },
     {
       "nome": "Vivian Moreira Gomes de Lacerda",
       "slug": "vivian-moreira-gomes-de-lacerda",
@@ -111,14 +83,9 @@
       "acoes_comuns": 2
     },
     {
-      "nome": "Davi Campos Sutil",
-      "slug": "davi-campos-sutil",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Alessandra Aguiar Vilarinho",
-      "slug": "alessandra-aguiar-vilarinho",
-      "acoes_comuns": 2
+      "nome": "Emmanuel Marques Silva",
+      "slug": "emmanuel-marques-silva",
+      "acoes_comuns": 1
     },
     {
       "nome": "Anna Clara dos Santos Vieira",
@@ -696,6 +663,11 @@
       "acoes_comuns": 1
     },
     {
+      "nome": "Davi Campos Sutil",
+      "slug": "davi-campos-sutil",
+      "acoes_comuns": 1
+    },
+    {
       "nome": "Alice Lourenço dos Reis",
       "slug": "alice-lourenco-dos-reis",
       "acoes_comuns": 1
@@ -821,6 +793,11 @@
       "acoes_comuns": 1
     },
     {
+      "nome": "Alessandra Aguiar Vilarinho",
+      "slug": "alessandra-aguiar-vilarinho",
+      "acoes_comuns": 1
+    },
+    {
       "nome": "Maxine Amorim Silva Gois",
       "slug": "maxine-amorim-silva-gois",
       "acoes_comuns": 1
@@ -913,36 +890,6 @@
     {
       "nome": "Vinicius Prata Lima",
       "slug": "vinicius-prata-lima",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Tatiane Policário Chagas",
-      "slug": "tatiane-policario-chagas",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Remerson Victor Silva da Assurreição",
-      "slug": "remerson-victor-silva-da-assurreicao",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Elisa Andrade de Jesus",
-      "slug": "elisa-andrade-de-jesus",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Elika Capucho Delazare",
-      "slug": "elika-capucho-delazare",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Bruno Ramos Gonzaga",
-      "slug": "bruno-ramos-gonzaga",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Cynthia Kruger Quinino",
-      "slug": "cynthia-kruger-quinino",
       "acoes_comuns": 1
     },
     {

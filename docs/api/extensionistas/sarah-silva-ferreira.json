@@ -4,7 +4,6 @@
   "resumo_ia": null,
   "anos": [
     "2016",
-    "2018",
     "2019"
   ],
   "funcoes": [
@@ -14,17 +13,6 @@
   ],
   "acoes_coordenadas": [],
   "participacoes_equipe": [
-    {
-      "acao_id": "2082",
-      "titulo": "Mulheres na Ciência",
-      "tipo": "Curso",
-      "ano": "2018",
-      "n": 53,
-      "pub": 25,
-      "funcoes": [
-        "ALUNO(A) VOLUNTARIO"
-      ]
-    },
     {
       "acao_id": "2823",
       "titulo": "I Am Here: Registro de Frequência por Reconhecimento Facial",
@@ -51,13 +39,6 @@
   ],
   "atividades": [
     {
-      "ano": "2018",
-      "atividade_id": "6874",
-      "acao_id": "2082",
-      "atividade": "Mulheres na Ciência",
-      "pub": 17
-    },
-    {
       "ano": "2019",
       "atividade_id": "9895",
       "acao_id": "2823",
@@ -80,13 +61,9 @@
     }
   ],
   "imp_coord": 0,
-  "imp_eq": 17,
-  "impacto": 17,
+  "imp_eq": 0,
+  "impacto": 0,
   "temas": [
-    {
-      "tema": "Mulheres e inclusão",
-      "n": 1
-    },
     {
       "tema": "Software, dados e sistemas",
       "n": 1
@@ -97,11 +74,6 @@
     }
   ],
   "colaboradores": [
-    {
-      "nome": "Ana Rúbia Ramos Vicente",
-      "slug": "ana-rubia-ramos-vicente",
-      "acoes_comuns": 2
-    },
     {
       "nome": "Fabiano Borges Ruy",
       "slug": "fabiano-borges-ruy",
@@ -121,86 +93,6 @@
       "nome": "Joel Will Belmiro",
       "slug": "joel-will-belmiro",
       "acoes_comuns": 2
-    },
-    {
-      "nome": "Giordana dos Santos Sperandio",
-      "slug": "giordana-dos-santos-sperandio",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Éllen Oliveira Silva Neves",
-      "slug": "ellen-oliveira-silva-neves",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Alessandra Aguiar Vilarinho",
-      "slug": "alessandra-aguiar-vilarinho",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Bruno Ramos Gonzaga",
-      "slug": "bruno-ramos-gonzaga",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Richard Junior Manuel Godinez Tello",
-      "slug": "richard-junior-manuel-godinez-tello",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Nauvia Maria Cancelieri",
-      "slug": "nauvia-maria-cancelieri",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Emmanuel Marques Silva",
-      "slug": "emmanuel-marques-silva",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Ana Paula Klauck",
-      "slug": "ana-paula-klauck",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Fidelis Zanetti de Castro",
-      "slug": "fidelis-zanetti-de-castro",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Tatiane Policário Chagas",
-      "slug": "tatiane-policario-chagas",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Ernani Leite Ribeiro Filho",
-      "slug": "ernani-leite-ribeiro-filho",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Josué Rego da Silva",
-      "slug": "josue-rego-da-silva",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Wagner Scopel Falcão",
-      "slug": "wagner-scopel-falcao",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Maria Gabriela Siqueira Tavares",
-      "slug": "maria-gabriela-siqueira-tavares",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Graziela Barboza Guaitolini",
-      "slug": "graziela-barboza-guaitolini",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Adriana Padua Lovatte",
-      "slug": "adriana-padua-lovatte",
-      "acoes_comuns": 1
     },
     {
       "nome": "Felipe Frechiani de Oliveira",
@@ -290,6 +182,11 @@
     {
       "nome": "Cristian da Silva Anterio",
       "slug": "cristian-da-silva-anterio",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Ana Rúbia Ramos Vicente",
+      "slug": "ana-rubia-ramos-vicente",
       "acoes_comuns": 1
     },
     {

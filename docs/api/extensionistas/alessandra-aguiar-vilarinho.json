@@ -6,12 +6,10 @@
     "2015",
     "2016",
     "2018",
-    "2020",
-    "2025"
+    "2020"
   ],
   "funcoes": [
     "COLABORADOR(A)",
-    "COORDENADOR(A) ADJUNTO(A)",
     "ORGANIZADOR(A)",
     "ORIENTADOR(A)",
     "PROFESSOR(A)"
@@ -30,18 +28,6 @@
       ]
     },
     {
-      "acao_id": "2082",
-      "titulo": "Mulheres na Ciência",
-      "tipo": "Curso",
-      "ano": "2018",
-      "n": 53,
-      "pub": 25,
-      "funcoes": [
-        "COORDENADOR(A) ADJUNTO(A)",
-        "PROFESSOR(A)"
-      ]
-    },
-    {
       "acao_id": "3140",
       "titulo": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
       "tipo": "Programa",
@@ -50,18 +36,6 @@
       "pub": 905,
       "funcoes": [
         "ORIENTADOR(A)"
-      ]
-    },
-    {
-      "acao_id": "5357",
-      "titulo": "MULHERES MIL - Artesão em Bordado a mão",
-      "tipo": "Curso",
-      "ano": "2025",
-      "n": 35,
-      "pub": 24,
-      "funcoes": [
-        "ORIENTADOR(A)",
-        "PROFESSOR(A)"
       ]
     },
     {
@@ -107,32 +81,11 @@
       "pub": 11
     },
     {
-      "ano": "2018",
-      "atividade_id": "6874",
-      "acao_id": "2082",
-      "atividade": "Mulheres na Ciência",
-      "pub": 17
-    },
-    {
-      "ano": "2018",
-      "atividade_id": "6873",
-      "acao_id": "2082",
-      "atividade": "Mulheres na Ciência",
-      "pub": 11
-    },
-    {
       "ano": "2020",
       "atividade_id": "22295",
       "acao_id": "3140",
       "atividade": "Atendimentos Personalizados e Monitorias de Extensão Tecnológica - área de Programação e Desenvolvimento",
       "pub": 17
-    },
-    {
-      "ano": "2025",
-      "atividade_id": "19716",
-      "acao_id": "5357",
-      "atividade": "MULHERES MIL - Artesão em Bordado a mão",
-      "pub": 24
     },
     {
       "ano": "2015",
@@ -157,16 +110,16 @@
     }
   ],
   "imp_coord": 0,
-  "imp_eq": 113,
-  "impacto": 113,
+  "imp_eq": 61,
+  "impacto": 61,
   "temas": [
-    {
-      "tema": "Mulheres e inclusão",
-      "n": 3
-    },
     {
       "tema": "Robótica e cultura maker",
       "n": 3
+    },
+    {
+      "tema": "Mulheres e inclusão",
+      "n": 1
     },
     {
       "tema": "Cultura e arte",
@@ -175,68 +128,18 @@
   ],
   "colaboradores": [
     {
-      "nome": "Ernani Leite Ribeiro Filho",
-      "slug": "ernani-leite-ribeiro-filho",
-      "acoes_comuns": 4
-    },
-    {
-      "nome": "Giordana dos Santos Sperandio",
-      "slug": "giordana-dos-santos-sperandio",
-      "acoes_comuns": 3
-    },
-    {
-      "nome": "Bruno Ramos Gonzaga",
-      "slug": "bruno-ramos-gonzaga",
-      "acoes_comuns": 3
-    },
-    {
-      "nome": "Emmanuel Marques Silva",
-      "slug": "emmanuel-marques-silva",
-      "acoes_comuns": 3
-    },
-    {
       "nome": "Moisés Savedra Omena",
       "slug": "moises-savedra-omena",
       "acoes_comuns": 3
     },
     {
-      "nome": "Adriana Padua Lovatte",
-      "slug": "adriana-padua-lovatte",
-      "acoes_comuns": 2
+      "nome": "Ernani Leite Ribeiro Filho",
+      "slug": "ernani-leite-ribeiro-filho",
+      "acoes_comuns": 3
     },
     {
-      "nome": "Richard Junior Manuel Godinez Tello",
-      "slug": "richard-junior-manuel-godinez-tello",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Ana Paula Klauck",
-      "slug": "ana-paula-klauck",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Tatiane Policário Chagas",
-      "slug": "tatiane-policario-chagas",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Wagner Scopel Falcão",
-      "slug": "wagner-scopel-falcao",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Graziela Barboza Guaitolini",
-      "slug": "graziela-barboza-guaitolini",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Luiz Felipe Elizeta dos Santos",
-      "slug": "luiz-felipe-elizeta-dos-santos",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Davi Campos Sutil",
-      "slug": "davi-campos-sutil",
+      "nome": "Giordana dos Santos Sperandio",
+      "slug": "giordana-dos-santos-sperandio",
       "acoes_comuns": 2
     },
     {
@@ -270,43 +173,23 @@
       "acoes_comuns": 1
     },
     {
+      "nome": "Adriana Padua Lovatte",
+      "slug": "adriana-padua-lovatte",
+      "acoes_comuns": 1
+    },
+    {
       "nome": "Geovane de Araujo Ceolin",
       "slug": "geovane-de-araujo-ceolin",
       "acoes_comuns": 1
     },
     {
-      "nome": "Éllen Oliveira Silva Neves",
-      "slug": "ellen-oliveira-silva-neves",
+      "nome": "Bruno Ramos Gonzaga",
+      "slug": "bruno-ramos-gonzaga",
       "acoes_comuns": 1
     },
     {
-      "nome": "Ana Rúbia Ramos Vicente",
-      "slug": "ana-rubia-ramos-vicente",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Nauvia Maria Cancelieri",
-      "slug": "nauvia-maria-cancelieri",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Fidelis Zanetti de Castro",
-      "slug": "fidelis-zanetti-de-castro",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Josué Rego da Silva",
-      "slug": "josue-rego-da-silva",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Maria Gabriela Siqueira Tavares",
-      "slug": "maria-gabriela-siqueira-tavares",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Sarah Silva Ferreira",
-      "slug": "sarah-silva-ferreira",
+      "nome": "Emmanuel Marques Silva",
+      "slug": "emmanuel-marques-silva",
       "acoes_comuns": 1
     },
     {
@@ -470,6 +353,11 @@
       "acoes_comuns": 1
     },
     {
+      "nome": "Richard Junior Manuel Godinez Tello",
+      "slug": "richard-junior-manuel-godinez-tello",
+      "acoes_comuns": 1
+    },
+    {
       "nome": "Renner Sartório Camargo",
       "slug": "renner-sartorio-camargo",
       "acoes_comuns": 1
@@ -600,6 +488,11 @@
       "acoes_comuns": 1
     },
     {
+      "nome": "Wagner Scopel Falcão",
+      "slug": "wagner-scopel-falcao",
+      "acoes_comuns": 1
+    },
+    {
       "nome": "Luciene Torezani Alves",
       "slug": "luciene-torezani-alves",
       "acoes_comuns": 1
@@ -652,6 +545,11 @@
     {
       "nome": "Vivian Moreira Gomes de Lacerda",
       "slug": "vivian-moreira-gomes-de-lacerda",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Luiz Felipe Elizeta dos Santos",
+      "slug": "luiz-felipe-elizeta-dos-santos",
       "acoes_comuns": 1
     },
     {
@@ -885,6 +783,11 @@
       "acoes_comuns": 1
     },
     {
+      "nome": "Davi Campos Sutil",
+      "slug": "davi-campos-sutil",
+      "acoes_comuns": 1
+    },
+    {
       "nome": "Alice Lourenço dos Reis",
       "slug": "alice-lourenco-dos-reis",
       "acoes_comuns": 1
@@ -1050,6 +953,11 @@
       "acoes_comuns": 1
     },
     {
+      "nome": "Graziela Barboza Guaitolini",
+      "slug": "graziela-barboza-guaitolini",
+      "acoes_comuns": 1
+    },
+    {
       "nome": "Julia Neiva Gomes",
       "slug": "julia-neiva-gomes",
       "acoes_comuns": 1
@@ -1090,28 +998,13 @@
       "acoes_comuns": 1
     },
     {
-      "nome": "Remerson Victor Silva da Assurreição",
-      "slug": "remerson-victor-silva-da-assurreicao",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Elisa Andrade de Jesus",
-      "slug": "elisa-andrade-de-jesus",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Elika Capucho Delazare",
-      "slug": "elika-capucho-delazare",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Cynthia Kruger Quinino",
-      "slug": "cynthia-kruger-quinino",
-      "acoes_comuns": 1
-    },
-    {
       "nome": "Renato Eugênio da Mota",
       "slug": "renato-eugenio-da-mota",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Ana Paula Klauck",
+      "slug": "ana-paula-klauck",
       "acoes_comuns": 1
     },
     {

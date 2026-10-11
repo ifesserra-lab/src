@@ -3,7 +3,6 @@
   "nome": "Tatiane Policário Chagas",
   "resumo_ia": null,
   "anos": [
-    "2018",
     "2019",
     "2022",
     "2023",
@@ -28,8 +27,8 @@
       "titulo": "MULHERES MIL - Artesão em Bordado a mão",
       "tipo": "Curso",
       "ano": "2025",
-      "n": 35,
-      "pub": 24
+      "n": 0,
+      "pub": 0
     },
     {
       "acao_id": "5645",
@@ -41,17 +40,6 @@
     }
   ],
   "participacoes_equipe": [
-    {
-      "acao_id": "2082",
-      "titulo": "Mulheres na Ciência",
-      "tipo": "Curso",
-      "ano": "2018",
-      "n": 53,
-      "pub": 25,
-      "funcoes": [
-        "PROFESSOR(A)"
-      ]
-    },
     {
       "acao_id": "2675",
       "titulo": "Tutoria de Estudos Orientados: Compartilhando Saberes",
@@ -97,17 +85,6 @@
       ]
     },
     {
-      "acao_id": "5357",
-      "titulo": "MULHERES MIL - Artesão em Bordado a mão",
-      "tipo": "Curso",
-      "ano": "2025",
-      "n": 35,
-      "pub": 24,
-      "funcoes": [
-        "COORDENADOR(A)"
-      ]
-    },
-    {
       "acao_id": "5645",
       "titulo": "Asas para o Futuro - Eletricista Instalador Predial em Baixa Tensão",
       "tipo": "Curso",
@@ -120,13 +97,6 @@
     }
   ],
   "atividades": [
-    {
-      "ano": "2018",
-      "atividade_id": "6874",
-      "acao_id": "2082",
-      "atividade": "Mulheres na Ciência",
-      "pub": 17
-    },
     {
       "ano": "2019",
       "atividade_id": "9225",
@@ -164,26 +134,19 @@
     },
     {
       "ano": "2025",
-      "atividade_id": "19716",
-      "acao_id": "5357",
-      "atividade": "MULHERES MIL - Artesão em Bordado a mão",
-      "pub": 24
-    },
-    {
-      "ano": "2025",
       "atividade_id": "20642",
       "acao_id": "5645",
       "atividade": "Asas para o Futuro - Eletricista Instalador Predial em Baixa Tensão",
       "pub": 29
     }
   ],
-  "imp_coord": 115,
-  "imp_eq": 51,
-  "impacto": 166,
+  "imp_coord": 91,
+  "imp_eq": 34,
+  "impacto": 125,
   "temas": [
     {
       "tema": "Mulheres e inclusão",
-      "n": 8
+      "n": 5
     },
     {
       "tema": "Escola e formação de professores",
@@ -198,11 +161,6 @@
     {
       "nome": "Bruno Ramos Gonzaga",
       "slug": "bruno-ramos-gonzaga",
-      "acoes_comuns": 5
-    },
-    {
-      "nome": "Emmanuel Marques Silva",
-      "slug": "emmanuel-marques-silva",
       "acoes_comuns": 3
     },
     {
@@ -211,28 +169,8 @@
       "acoes_comuns": 3
     },
     {
-      "nome": "Ana Rúbia Ramos Vicente",
-      "slug": "ana-rubia-ramos-vicente",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Alessandra Aguiar Vilarinho",
-      "slug": "alessandra-aguiar-vilarinho",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Richard Junior Manuel Godinez Tello",
-      "slug": "richard-junior-manuel-godinez-tello",
-      "acoes_comuns": 2
-    },
-    {
       "nome": "Gina Carla Maciel",
       "slug": "gina-carla-maciel",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Cynthia Kruger Quinino",
-      "slug": "cynthia-kruger-quinino",
       "acoes_comuns": 2
     },
     {
@@ -244,71 +182,6 @@
       "nome": "Matheus Policário Amorim",
       "slug": "matheus-policario-amorim",
       "acoes_comuns": 2
-    },
-    {
-      "nome": "Elika Capucho Delazare",
-      "slug": "elika-capucho-delazare",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Giordana dos Santos Sperandio",
-      "slug": "giordana-dos-santos-sperandio",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Éllen Oliveira Silva Neves",
-      "slug": "ellen-oliveira-silva-neves",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Nauvia Maria Cancelieri",
-      "slug": "nauvia-maria-cancelieri",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Ana Paula Klauck",
-      "slug": "ana-paula-klauck",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Fidelis Zanetti de Castro",
-      "slug": "fidelis-zanetti-de-castro",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Ernani Leite Ribeiro Filho",
-      "slug": "ernani-leite-ribeiro-filho",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Josué Rego da Silva",
-      "slug": "josue-rego-da-silva",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Wagner Scopel Falcão",
-      "slug": "wagner-scopel-falcao",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Maria Gabriela Siqueira Tavares",
-      "slug": "maria-gabriela-siqueira-tavares",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Sarah Silva Ferreira",
-      "slug": "sarah-silva-ferreira",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Graziela Barboza Guaitolini",
-      "slug": "graziela-barboza-guaitolini",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Adriana Padua Lovatte",
-      "slug": "adriana-padua-lovatte",
-      "acoes_comuns": 1
     },
     {
       "nome": "Janaina de Medeiros Freitas",
@@ -346,6 +219,11 @@
       "acoes_comuns": 1
     },
     {
+      "nome": "Ana Rúbia Ramos Vicente",
+      "slug": "ana-rubia-ramos-vicente",
+      "acoes_comuns": 1
+    },
+    {
       "nome": "Helen França Medeiros",
       "slug": "helen-franca-medeiros",
       "acoes_comuns": 1
@@ -366,8 +244,18 @@
       "acoes_comuns": 1
     },
     {
+      "nome": "Emmanuel Marques Silva",
+      "slug": "emmanuel-marques-silva",
+      "acoes_comuns": 1
+    },
+    {
       "nome": "Priscila dos Santos Moreira",
       "slug": "priscila-dos-santos-moreira",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Richard Junior Manuel Godinez Tello",
+      "slug": "richard-junior-manuel-godinez-tello",
       "acoes_comuns": 1
     },
     {
@@ -396,23 +284,13 @@
       "acoes_comuns": 1
     },
     {
-      "nome": "Davi Campos Sutil",
-      "slug": "davi-campos-sutil",
+      "nome": "Cynthia Kruger Quinino",
+      "slug": "cynthia-kruger-quinino",
       "acoes_comuns": 1
     },
     {
-      "nome": "Luiz Felipe Elizeta dos Santos",
-      "slug": "luiz-felipe-elizeta-dos-santos",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Remerson Victor Silva da Assurreição",
-      "slug": "remerson-victor-silva-da-assurreicao",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Elisa Andrade de Jesus",
-      "slug": "elisa-andrade-de-jesus",
+      "nome": "Elika Capucho Delazare",
+      "slug": "elika-capucho-delazare",
       "acoes_comuns": 1
     },
     {

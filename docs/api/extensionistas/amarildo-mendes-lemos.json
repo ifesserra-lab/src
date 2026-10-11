@@ -61,10 +61,10 @@
     },
     {
       "ano": "2019",
-      "atividade_id": "10576",
+      "atividade_id": "10573",
       "acao_id": "2505",
-      "atividade": "Ação Cineclubista \"produção Polo 3\"",
-      "pub": 13
+      "atividade": "Ação Cineclubista \"Lançamento do Projeto\"",
+      "pub": 11
     },
     {
       "ano": "2019",
@@ -82,10 +82,10 @@
     },
     {
       "ano": "2019",
-      "atividade_id": "10573",
+      "atividade_id": "10576",
       "acao_id": "2505",
-      "atividade": "Ação Cineclubista \"Lançamento do Projeto\"",
-      "pub": 11
+      "atividade": "Ação Cineclubista \"produção Polo 3\"",
+      "pub": 13
     }
   ],
   "imp_coord": 86,

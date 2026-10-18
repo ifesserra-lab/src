@@ -3,9 +3,11 @@
   "nome": "Dirceu Soares Júnior",
   "resumo_ia": null,
   "anos": [
+    "2016",
     "2017"
   ],
   "funcoes": [
+    "ASSESSOR(A)",
     "COLABORADOR(A)"
   ],
   "acoes_coordenadas": [],
@@ -20,6 +22,17 @@
       "funcoes": [
         "COLABORADOR(A)"
       ]
+    },
+    {
+      "acao_id": "730",
+      "titulo": "Câmara de Assessoramento em Gestão e Tecnologia do Núcleo Incubador do campus Serra do Ifes",
+      "tipo": "Projeto",
+      "ano": "2016",
+      "n": 9,
+      "pub": 0,
+      "funcoes": [
+        "ASSESSOR(A)"
+      ]
     }
   ],
   "atividades": [
@@ -29,6 +42,13 @@
       "acao_id": "1261",
       "atividade": "Seminário de Apresentação dos Empreendimentos",
       "pub": 1
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "9031",
+      "acao_id": "730",
+      "atividade": "Assessoria Técnica da empresa UpLevel Informática Ltda",
+      "pub": 0
     }
   ],
   "imp_coord": 0,
@@ -37,14 +57,29 @@
   "temas": [
     {
       "tema": "Empreendedorismo e incubação",
-      "n": 1
+      "n": 2
     }
   ],
   "colaboradores": [
     {
       "nome": "Emmanuel Marques Silva",
       "slug": "emmanuel-marques-silva",
-      "acoes_comuns": 1
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Gilmar Luiz Vassoler",
+      "slug": "gilmar-luiz-vassoler",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Edilson Luiz do Nascimento",
+      "slug": "edilson-luiz-do-nascimento",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Felipe Frechiani de Oliveira",
+      "slug": "felipe-frechiani-de-oliveira",
+      "acoes_comuns": 2
     },
     {
       "nome": "Marcos Simão Guimarães",
@@ -54,11 +89,6 @@
     {
       "nome": "Camila Braga Guimarães",
       "slug": "camila-braga-guimaraes",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Gilmar Luiz Vassoler",
-      "slug": "gilmar-luiz-vassoler",
       "acoes_comuns": 1
     },
     {
@@ -142,16 +172,6 @@
       "acoes_comuns": 1
     },
     {
-      "nome": "Edilson Luiz do Nascimento",
-      "slug": "edilson-luiz-do-nascimento",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Felipe Frechiani de Oliveira",
-      "slug": "felipe-frechiani-de-oliveira",
-      "acoes_comuns": 1
-    },
-    {
       "nome": "Richard Junior Manuel Godinez Tello",
       "slug": "richard-junior-manuel-godinez-tello",
       "acoes_comuns": 1
@@ -169,6 +189,21 @@
     {
       "nome": "Francisco José Casarim Rapchan",
       "slug": "francisco-jose-casarim-rapchan",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "José Geraldo das Neves Orlandi",
+      "slug": "jose-geraldo-das-neves-orlandi",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Filipe Arthur Firmino Monhol",
+      "slug": "filipe-arthur-firmino-monhol",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Maxwell Eduardo Monteiro",
+      "slug": "maxwell-eduardo-monteiro",
       "acoes_comuns": 1
     }
   ]

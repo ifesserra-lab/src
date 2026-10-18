@@ -19,7 +19,7 @@
       "titulo": "Sistema de apoio para rastreio e geolocalização de transtornos mentais comuns na atenção primária a saúde",
       "tipo": "Projeto",
       "ano": "2018",
-      "n": 5,
+      "n": 0,
       "pub": 0
     },
     {
@@ -27,7 +27,7 @@
       "titulo": "LifeBox: transporte e monitoramento de córnea de forma inteligente",
       "tipo": "Projeto",
       "ano": "2019",
-      "n": 8,
+      "n": 0,
       "pub": 0
     },
     {
@@ -57,28 +57,6 @@
       "pub": 0,
       "funcoes": [
         "COORDENADOR(A) ADJUNTO(A)"
-      ]
-    },
-    {
-      "acao_id": "1847",
-      "titulo": "Sistema de apoio para rastreio e geolocalização de transtornos mentais comuns na atenção primária a saúde",
-      "tipo": "Projeto",
-      "ano": "2018",
-      "n": 5,
-      "pub": 0,
-      "funcoes": [
-        "COORDENADOR(A)"
-      ]
-    },
-    {
-      "acao_id": "2193",
-      "titulo": "LifeBox: transporte e monitoramento de córnea de forma inteligente",
-      "tipo": "Projeto",
-      "ano": "2019",
-      "n": 8,
-      "pub": 0,
-      "funcoes": [
-        "COORDENADOR(A)"
       ]
     },
     {
@@ -135,20 +113,6 @@
       "pub": 0
     },
     {
-      "ano": "2018",
-      "atividade_id": "5788",
-      "acao_id": "1847",
-      "atividade": "Sistema de apoio para rastreio e geolocalização de transtornos mentais comuns na atenção primária a saúde",
-      "pub": 0
-    },
-    {
-      "ano": "2019",
-      "atividade_id": "7600",
-      "acao_id": "2193",
-      "atividade": "LifeBox: transporte e monitoramento de córnea de forma inteligente",
-      "pub": 0
-    },
-    {
       "ano": "2019",
       "atividade_id": "10936",
       "acao_id": "2599",
@@ -183,11 +147,7 @@
   "temas": [
     {
       "tema": "Saúde e bem-estar",
-      "n": 7
-    },
-    {
-      "tema": "Cultura e arte",
-      "n": 2
+      "n": 5
     },
     {
       "tema": "Empreendedorismo e incubação",
@@ -196,29 +156,19 @@
   ],
   "colaboradores": [
     {
-      "nome": "Felipe Frechiani de Oliveira",
-      "slug": "felipe-frechiani-de-oliveira",
-      "acoes_comuns": 4
-    },
-    {
       "nome": "Paulo Sérgio dos Santos Júnior",
       "slug": "paulo-sergio-dos-santos-junior",
-      "acoes_comuns": 4
+      "acoes_comuns": 3
     },
     {
       "nome": "Moisés Savedra Omena",
       "slug": "moises-savedra-omena",
-      "acoes_comuns": 3
+      "acoes_comuns": 2
     },
     {
       "nome": "Andreângelo da Paixão Patuzzo",
       "slug": "andreangelo-da-paixao-patuzzo",
-      "acoes_comuns": 3
-    },
-    {
-      "nome": "Flávio Lopes da Silva",
-      "slug": "flavio-lopes-da-silva",
-      "acoes_comuns": 3
+      "acoes_comuns": 2
     },
     {
       "nome": "Rafaela Amorim Pessin",
@@ -226,23 +176,8 @@
       "acoes_comuns": 2
     },
     {
-      "nome": "Rafael Afonso dos Anjos",
-      "slug": "rafael-afonso-dos-anjos",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Marlon Woelffel Candoti",
-      "slug": "marlon-woelffel-candoti",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Anne Caroline Silva",
-      "slug": "anne-caroline-silva",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Irisson Junio Máximo Borges",
-      "slug": "irisson-junio-maximo-borges",
+      "nome": "Felipe Frechiani de Oliveira",
+      "slug": "felipe-frechiani-de-oliveira",
       "acoes_comuns": 2
     },
     {
@@ -256,13 +191,13 @@
       "acoes_comuns": 2
     },
     {
-      "nome": "Kleber André Lirio Picoli",
-      "slug": "kleber-andre-lirio-picoli",
-      "acoes_comuns": 1
+      "nome": "Flávio Lopes da Silva",
+      "slug": "flavio-lopes-da-silva",
+      "acoes_comuns": 2
     },
     {
-      "nome": "Cassiano Knsch das Neves",
-      "slug": "cassiano-knsch-das-neves",
+      "nome": "Kleber André Lirio Picoli",
+      "slug": "kleber-andre-lirio-picoli",
       "acoes_comuns": 1
     },
     {
@@ -366,6 +301,11 @@
       "acoes_comuns": 1
     },
     {
+      "nome": "Irisson Junio Máximo Borges",
+      "slug": "irisson-junio-maximo-borges",
+      "acoes_comuns": 1
+    },
+    {
       "nome": "Sarah Silva Ferreira",
       "slug": "sarah-silva-ferreira",
       "acoes_comuns": 1
@@ -378,6 +318,11 @@
     {
       "nome": "Paulo Ricardo Viana Ferreira",
       "slug": "paulo-ricardo-viana-ferreira",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Rafael Afonso dos Anjos",
+      "slug": "rafael-afonso-dos-anjos",
       "acoes_comuns": 1
     },
     {
@@ -433,6 +378,16 @@
     {
       "nome": "Gary Moura da Silva",
       "slug": "gary-moura-da-silva",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Anne Caroline Silva",
+      "slug": "anne-caroline-silva",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Marlon Woelffel Candoti",
+      "slug": "marlon-woelffel-candoti",
       "acoes_comuns": 1
     },
     {

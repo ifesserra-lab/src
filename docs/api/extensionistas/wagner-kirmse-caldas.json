@@ -5,14 +5,12 @@
   "anos": [
     "2016",
     "2018",
-    "2019",
     "2020"
   ],
   "funcoes": [
     "COLABORADOR(A)",
     "COORDENADOR(A)",
-    "ORIENTADOR(A)",
-    "PROFESSOR(A)"
+    "ORIENTADOR(A)"
   ],
   "acoes_coordenadas": [
     {
@@ -42,17 +40,6 @@
       "pub": 500,
       "funcoes": [
         "COORDENADOR(A)"
-      ]
-    },
-    {
-      "acao_id": "2773",
-      "titulo": "Ambientação Pedagógica: Didática e Técnicas de Ensino.",
-      "tipo": "Curso",
-      "ano": "2019",
-      "n": 13,
-      "pub": 6,
-      "funcoes": [
-        "PROFESSOR(A)"
       ]
     },
     {
@@ -88,10 +75,10 @@
     },
     {
       "ano": "2018",
-      "atividade_id": "14468",
+      "atividade_id": "7247",
       "acao_id": "2107",
-      "atividade": "Visita EMEF Jonas Farias 2",
-      "pub": 8
+      "atividade": "Ifes Portas Abertas",
+      "pub": 0
     },
     {
       "ano": "2018",
@@ -116,17 +103,10 @@
     },
     {
       "ano": "2018",
-      "atividade_id": "7247",
+      "atividade_id": "14468",
       "acao_id": "2107",
-      "atividade": "Ifes Portas Abertas",
-      "pub": 0
-    },
-    {
-      "ano": "2019",
-      "atividade_id": "9562",
-      "acao_id": "2773",
-      "atividade": "Ambientação Pedagógica: Didática e Técnicas de Ensino.",
-      "pub": 6
+      "atividade": "Visita EMEF Jonas Farias 2",
+      "pub": 8
     },
     {
       "ano": "2020",
@@ -144,8 +124,8 @@
     }
   ],
   "imp_coord": 500,
-  "imp_eq": 35,
-  "impacto": 535,
+  "imp_eq": 29,
+  "impacto": 529,
   "temas": [
     {
       "tema": "Captação e ingresso",
@@ -154,23 +134,9 @@
     {
       "tema": "Robótica e cultura maker",
       "n": 2
-    },
-    {
-      "tema": "Escola e formação de professores",
-      "n": 1
     }
   ],
   "colaboradores": [
-    {
-      "nome": "Emmanuel Marques Silva",
-      "slug": "emmanuel-marques-silva",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Richard Junior Manuel Godinez Tello",
-      "slug": "richard-junior-manuel-godinez-tello",
-      "acoes_comuns": 2
-    },
     {
       "nome": "Alessandra Aguiar Vilarinho",
       "slug": "alessandra-aguiar-vilarinho",
@@ -227,23 +193,8 @@
       "acoes_comuns": 1
     },
     {
-      "nome": "Bruno Ramos Gonzaga",
-      "slug": "bruno-ramos-gonzaga",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Cláudia Ribeiro de Moraes",
-      "slug": "claudia-ribeiro-de-moraes",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Priscila dos Santos Moreira",
-      "slug": "priscila-dos-santos-moreira",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Tatiane Policário Chagas",
-      "slug": "tatiane-policario-chagas",
+      "nome": "Emmanuel Marques Silva",
+      "slug": "emmanuel-marques-silva",
       "acoes_comuns": 1
     },
     {
@@ -404,6 +355,11 @@
     {
       "nome": "Celeste Nascimento Souza Silva",
       "slug": "celeste-nascimento-souza-silva",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Richard Junior Manuel Godinez Tello",
+      "slug": "richard-junior-manuel-godinez-tello",
       "acoes_comuns": 1
     },
     {

@@ -27,17 +27,17 @@
   "atividades": [
     {
       "ano": "2020",
-      "atividade_id": "11184",
-      "acao_id": "3140",
-      "atividade": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
-      "pub": 2
-    },
-    {
-      "ano": "2020",
       "atividade_id": "18019",
       "acao_id": "3140",
       "atividade": "Produção de Material de Apoio Pedagógico para os Minicursos do Lampex na Edição 2023-2024",
       "pub": 0
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "11184",
+      "acao_id": "3140",
+      "atividade": "LAMPEX – Laboratório Modelo de Práticas de Extensão",
+      "pub": 2
     },
     {
       "ano": "2020",

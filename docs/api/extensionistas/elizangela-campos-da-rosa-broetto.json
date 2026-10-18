@@ -39,8 +39,8 @@
       "titulo": "Curso de Eletricista Instalador Predial de Baixa Tensão",
       "tipo": "Curso",
       "ano": "2013",
-      "n": 39,
-      "pub": 39
+      "n": 0,
+      "pub": 0
     }
   ],
   "participacoes_equipe": [
@@ -86,13 +86,6 @@
   "atividades": [
     {
       "ano": "2017",
-      "atividade_id": "3353",
-      "acao_id": "1261",
-      "atividade": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedora",
-      "pub": 15
-    },
-    {
-      "ano": "2017",
       "atividade_id": "4818",
       "acao_id": "1261",
       "atividade": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedora",
@@ -106,11 +99,18 @@
       "pub": 1
     },
     {
+      "ano": "2017",
+      "atividade_id": "3353",
+      "acao_id": "1261",
+      "atividade": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedora",
+      "pub": 15
+    },
+    {
       "ano": "2020",
-      "atividade_id": "13559",
+      "atividade_id": "14032",
       "acao_id": "3140",
-      "atividade": "Palestra sobre desenvolvimento de sistemas e empreendedorismo: Tiago Comério (MeuDinheiro)",
-      "pub": 10
+      "atividade": "Roadshow programas de inovação FINDESLAB",
+      "pub": 32
     },
     {
       "ano": "2020",
@@ -128,10 +128,10 @@
     },
     {
       "ano": "2020",
-      "atividade_id": "14032",
+      "atividade_id": "13559",
       "acao_id": "3140",
-      "atividade": "Roadshow programas de inovação FINDESLAB",
-      "pub": 32
+      "atividade": "Palestra sobre desenvolvimento de sistemas e empreendedorismo: Tiago Comério (MeuDinheiro)",
+      "pub": 10
     },
     {
       "ano": "2016",
@@ -148,20 +148,20 @@
       "pub": 15
     }
   ],
-  "imp_coord": 157,
+  "imp_coord": 118,
   "imp_eq": 185,
-  "impacto": 342,
+  "impacto": 303,
   "temas": [
-    {
-      "tema": "Saúde e bem-estar",
-      "n": 2
-    },
     {
       "tema": "Empreendedorismo e incubação",
       "n": 2
     },
     {
       "tema": "Outros / formação",
+      "n": 1
+    },
+    {
+      "tema": "Saúde e bem-estar",
       "n": 1
     },
     {

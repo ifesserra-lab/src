@@ -4,12 +4,10 @@
   "resumo_ia": null,
   "anos": [
     "2016",
-    "2018",
     "2019",
     "2020"
   ],
   "funcoes": [
-    "ALUNO(A) BOLSISTA",
     "ALUNO(A) VOLUNTARIO",
     "EXPOSITOR(A)",
     "ORGANIZADOR(A)",
@@ -17,17 +15,6 @@
   ],
   "acoes_coordenadas": [],
   "participacoes_equipe": [
-    {
-      "acao_id": "1795",
-      "titulo": "ESPM-Empregos: Um serviço inteligente para promover a empregabilidade",
-      "tipo": "Projeto",
-      "ano": "2018",
-      "n": 7,
-      "pub": 0,
-      "funcoes": [
-        "ALUNO(A) BOLSISTA"
-      ]
-    },
     {
       "acao_id": "2675",
       "titulo": "Tutoria de Estudos Orientados: Compartilhando Saberes",
@@ -66,13 +53,6 @@
   ],
   "atividades": [
     {
-      "ano": "2018",
-      "atividade_id": "5638",
-      "acao_id": "1795",
-      "atividade": "ESPM-Empregos: Um serviço inteligente para promover a empregabilidade",
-      "pub": 0
-    },
-    {
       "ano": "2019",
       "atividade_id": "9225",
       "acao_id": "2675",
@@ -88,10 +68,10 @@
     },
     {
       "ano": "2016",
-      "atividade_id": "10343",
+      "atividade_id": "10020",
       "acao_id": "901",
-      "atividade": "Expositor: Apresentação de Projetos do LEDS no Sebrae StartupSummit 2019",
-      "pub": 0
+      "atividade": "Minicurso: Hacktoberfest LEDS",
+      "pub": 15
     },
     {
       "ano": "2016",
@@ -102,20 +82,16 @@
     },
     {
       "ano": "2016",
-      "atividade_id": "10020",
+      "atividade_id": "10343",
       "acao_id": "901",
-      "atividade": "Minicurso: Hacktoberfest LEDS",
-      "pub": 15
+      "atividade": "Expositor: Apresentação de Projetos do LEDS no Sebrae StartupSummit 2019",
+      "pub": 0
     }
   ],
   "imp_coord": 0,
   "imp_eq": 20,
   "impacto": 20,
   "temas": [
-    {
-      "tema": "Ciência e divulgação",
-      "n": 1
-    },
     {
       "tema": "Mulheres e inclusão",
       "n": 1
@@ -131,38 +107,23 @@
   ],
   "colaboradores": [
     {
-      "nome": "Moisés Savedra Omena",
-      "slug": "moises-savedra-omena",
-      "acoes_comuns": 3
-    },
-    {
-      "nome": "Lucas Gomes Flegler",
-      "slug": "lucas-gomes-flegler",
-      "acoes_comuns": 3
-    },
-    {
-      "nome": "Magno Macedo de Oliveira",
-      "slug": "magno-macedo-de-oliveira",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Paulo Sérgio dos Santos Júnior",
-      "slug": "paulo-sergio-dos-santos-junior",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Sergio Nery Simões",
-      "slug": "sergio-nery-simoes",
-      "acoes_comuns": 2
-    },
-    {
       "nome": "Ana Rúbia Ramos Vicente",
       "slug": "ana-rubia-ramos-vicente",
       "acoes_comuns": 2
     },
     {
+      "nome": "Moisés Savedra Omena",
+      "slug": "moises-savedra-omena",
+      "acoes_comuns": 2
+    },
+    {
       "nome": "Rodrigo Fernandes Calhau",
       "slug": "rodrigo-fernandes-calhau",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Lucas Gomes Flegler",
+      "slug": "lucas-gomes-flegler",
       "acoes_comuns": 2
     },
     {
@@ -179,11 +140,6 @@
       "nome": "Felipe Frechiani de Oliveira",
       "slug": "felipe-frechiani-de-oliveira",
       "acoes_comuns": 2
-    },
-    {
-      "nome": "Adriana Padua Lovatte",
-      "slug": "adriana-padua-lovatte",
-      "acoes_comuns": 1
     },
     {
       "nome": "Bruno Ramos Gonzaga",
@@ -408,6 +364,21 @@
     {
       "nome": "Carlos Lins Borges Azevedo",
       "slug": "carlos-lins-borges-azevedo",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Sergio Nery Simões",
+      "slug": "sergio-nery-simoes",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Paulo Sérgio dos Santos Júnior",
+      "slug": "paulo-sergio-dos-santos-junior",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Magno Macedo de Oliveira",
+      "slug": "magno-macedo-de-oliveira",
       "acoes_comuns": 1
     },
     {

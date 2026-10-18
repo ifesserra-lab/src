@@ -45,13 +45,6 @@
     },
     {
       "ano": "2018",
-      "atividade_id": "14468",
-      "acao_id": "2107",
-      "atividade": "Visita EMEF Jonas Farias 2",
-      "pub": 8
-    },
-    {
-      "ano": "2018",
       "atividade_id": "14467",
       "acao_id": "2107",
       "atividade": "Visita EMEF Jonas Farias 1",
@@ -70,6 +63,13 @@
       "acao_id": "2107",
       "atividade": "Visita CEEFMTI Joaquim Beato",
       "pub": 36
+    },
+    {
+      "ano": "2018",
+      "atividade_id": "14468",
+      "acao_id": "2107",
+      "atividade": "Visita EMEF Jonas Farias 2",
+      "pub": 8
     },
     {
       "ano": "2023",

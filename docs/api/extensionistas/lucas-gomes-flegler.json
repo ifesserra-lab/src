@@ -4,7 +4,6 @@
   "resumo_ia": null,
   "anos": [
     "2016",
-    "2018",
     "2019",
     "2020"
   ],
@@ -17,17 +16,6 @@
   ],
   "acoes_coordenadas": [],
   "participacoes_equipe": [
-    {
-      "acao_id": "1795",
-      "titulo": "ESPM-Empregos: Um serviço inteligente para promover a empregabilidade",
-      "tipo": "Projeto",
-      "ano": "2018",
-      "n": 7,
-      "pub": 0,
-      "funcoes": [
-        "ALUNO(A) BOLSISTA"
-      ]
-    },
     {
       "acao_id": "2285",
       "titulo": "ES Na Palma da Mão: Uma Plataforma baseado em serviços para Cidades Humanas, Inteligentes e Sustentáveis",
@@ -67,13 +55,6 @@
   ],
   "atividades": [
     {
-      "ano": "2018",
-      "atividade_id": "5638",
-      "acao_id": "1795",
-      "atividade": "ESPM-Empregos: Um serviço inteligente para promover a empregabilidade",
-      "pub": 0
-    },
-    {
       "ano": "2019",
       "atividade_id": "7822",
       "acao_id": "2285",
@@ -89,9 +70,16 @@
     },
     {
       "ano": "2016",
-      "atividade_id": "10343",
+      "atividade_id": "10020",
       "acao_id": "901",
-      "atividade": "Expositor: Apresentação de Projetos do LEDS no Sebrae StartupSummit 2019",
+      "atividade": "Minicurso: Hacktoberfest LEDS",
+      "pub": 15
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "2297",
+      "acao_id": "901",
+      "atividade": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
       "pub": 0
     },
     {
@@ -103,16 +91,9 @@
     },
     {
       "ano": "2016",
-      "atividade_id": "10020",
+      "atividade_id": "10343",
       "acao_id": "901",
-      "atividade": "Minicurso: Hacktoberfest LEDS",
-      "pub": 15
-    },
-    {
-      "ano": "2016",
-      "atividade_id": "2297",
-      "acao_id": "901",
-      "atividade": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+      "atividade": "Expositor: Apresentação de Projetos do LEDS no Sebrae StartupSummit 2019",
       "pub": 0
     }
   ],
@@ -125,30 +106,11 @@
       "n": 2
     },
     {
-      "tema": "Ciência e divulgação",
-      "n": 1
-    },
-    {
       "tema": "Empreendedorismo e incubação",
       "n": 1
     }
   ],
   "colaboradores": [
-    {
-      "nome": "Moisés Savedra Omena",
-      "slug": "moises-savedra-omena",
-      "acoes_comuns": 3
-    },
-    {
-      "nome": "Helen França Medeiros",
-      "slug": "helen-franca-medeiros",
-      "acoes_comuns": 3
-    },
-    {
-      "nome": "Paulo Sérgio dos Santos Júnior",
-      "slug": "paulo-sergio-dos-santos-junior",
-      "acoes_comuns": 3
-    },
     {
       "nome": "Felipe Frechiani de Oliveira",
       "slug": "felipe-frechiani-de-oliveira",
@@ -163,16 +125,6 @@
       "nome": "Gary Moura da Silva",
       "slug": "gary-moura-da-silva",
       "acoes_comuns": 3
-    },
-    {
-      "nome": "Magno Macedo de Oliveira",
-      "slug": "magno-macedo-de-oliveira",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Sergio Nery Simões",
-      "slug": "sergio-nery-simoes",
-      "acoes_comuns": 2
     },
     {
       "nome": "Tarcisio Bruni Rangel",
@@ -200,14 +152,24 @@
       "acoes_comuns": 2
     },
     {
+      "nome": "Paulo Sérgio dos Santos Júnior",
+      "slug": "paulo-sergio-dos-santos-junior",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Moisés Savedra Omena",
+      "slug": "moises-savedra-omena",
+      "acoes_comuns": 2
+    },
+    {
       "nome": "Rodrigo Fernandes Calhau",
       "slug": "rodrigo-fernandes-calhau",
       "acoes_comuns": 2
     },
     {
-      "nome": "Adriana Padua Lovatte",
-      "slug": "adriana-padua-lovatte",
-      "acoes_comuns": 1
+      "nome": "Helen França Medeiros",
+      "slug": "helen-franca-medeiros",
+      "acoes_comuns": 2
     },
     {
       "nome": "David de Moura Marques",
@@ -367,6 +329,16 @@
     {
       "nome": "Carlos Lins Borges Azevedo",
       "slug": "carlos-lins-borges-azevedo",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Sergio Nery Simões",
+      "slug": "sergio-nery-simoes",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Magno Macedo de Oliveira",
+      "slug": "magno-macedo-de-oliveira",
       "acoes_comuns": 1
     },
     {

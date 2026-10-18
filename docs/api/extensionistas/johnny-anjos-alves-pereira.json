@@ -25,17 +25,17 @@
   "atividades": [
     {
       "ano": "2020",
-      "atividade_id": "22301",
-      "acao_id": "3140",
-      "atividade": "Atendimentos Personalizados e Monitorias de Extensão Tecnológica - área de Sistemas, Hardware e Arquitetura de Computadores",
-      "pub": 0
-    },
-    {
-      "ano": "2020",
       "atividade_id": "22300",
       "acao_id": "3140",
       "atividade": "Atendimentos Personalizados e Monitorias de Extensão Tecnológica - área de Tecnologia da Informação e Ferramentas Digitais",
       "pub": 3
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "22301",
+      "acao_id": "3140",
+      "atividade": "Atendimentos Personalizados e Monitorias de Extensão Tecnológica - área de Sistemas, Hardware e Arquitetura de Computadores",
+      "pub": 0
     }
   ],
   "imp_coord": 0,

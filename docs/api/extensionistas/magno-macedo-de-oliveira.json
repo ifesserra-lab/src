@@ -4,11 +4,9 @@
   "resumo_ia": null,
   "anos": [
     "2016",
-    "2017",
-    "2018"
+    "2017"
   ],
   "funcoes": [
-    "ALUNO(A) BOLSISTA",
     "ALUNO(A) VOLUNTARIO",
     "ORGANIZADOR(A)",
     "PALESTRANTE"
@@ -24,17 +22,6 @@
       "pub": 366,
       "funcoes": [
         "PALESTRANTE"
-      ]
-    },
-    {
-      "acao_id": "1795",
-      "titulo": "ESPM-Empregos: Um serviço inteligente para promover a empregabilidade",
-      "tipo": "Projeto",
-      "ano": "2018",
-      "n": 7,
-      "pub": 0,
-      "funcoes": [
-        "ALUNO(A) BOLSISTA"
       ]
     },
     {
@@ -70,13 +57,6 @@
       "pub": 0
     },
     {
-      "ano": "2018",
-      "atividade_id": "5638",
-      "acao_id": "1795",
-      "atividade": "ESPM-Empregos: Um serviço inteligente para promover a empregabilidade",
-      "pub": 0
-    },
-    {
       "ano": "2016",
       "atividade_id": "1577",
       "acao_id": "723",
@@ -85,17 +65,17 @@
     },
     {
       "ano": "2016",
-      "atividade_id": "10019",
-      "acao_id": "901",
-      "atividade": "Palestra: Apresentação de Projetos LEDS",
-      "pub": 0
-    },
-    {
-      "ano": "2016",
       "atividade_id": "10020",
       "acao_id": "901",
       "atividade": "Minicurso: Hacktoberfest LEDS",
       "pub": 15
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "10019",
+      "acao_id": "901",
+      "atividade": "Palestra: Apresentação de Projetos LEDS",
+      "pub": 0
     }
   ],
   "imp_coord": 0,
@@ -107,20 +87,11 @@
       "n": 2
     },
     {
-      "tema": "Ciência e divulgação",
-      "n": 1
-    },
-    {
       "tema": "Cultura e arte",
       "n": 1
     }
   ],
   "colaboradores": [
-    {
-      "nome": "Moisés Savedra Omena",
-      "slug": "moises-savedra-omena",
-      "acoes_comuns": 3
-    },
     {
       "nome": "Tarcisio Bruni Rangel",
       "slug": "tarcisio-bruni-rangel",
@@ -142,23 +113,8 @@
       "acoes_comuns": 2
     },
     {
-      "nome": "Helen França Medeiros",
-      "slug": "helen-franca-medeiros",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Lucas Gomes Flegler",
-      "slug": "lucas-gomes-flegler",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Paulo Sérgio dos Santos Júnior",
-      "slug": "paulo-sergio-dos-santos-junior",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Sergio Nery Simões",
-      "slug": "sergio-nery-simoes",
+      "nome": "Moisés Savedra Omena",
+      "slug": "moises-savedra-omena",
       "acoes_comuns": 2
     },
     {
@@ -252,11 +208,6 @@
       "acoes_comuns": 1
     },
     {
-      "nome": "Adriana Padua Lovatte",
-      "slug": "adriana-padua-lovatte",
-      "acoes_comuns": 1
-    },
-    {
       "nome": "Juciéli Alves da Costa",
       "slug": "jucieli-alves-da-costa",
       "acoes_comuns": 1
@@ -324,6 +275,11 @@
     {
       "nome": "Matheus Kleber Rodrigues Barbosa",
       "slug": "matheus-kleber-rodrigues-barbosa",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Lucas Gomes Flegler",
+      "slug": "lucas-gomes-flegler",
       "acoes_comuns": 1
     },
     {
@@ -427,8 +383,23 @@
       "acoes_comuns": 1
     },
     {
+      "nome": "Sergio Nery Simões",
+      "slug": "sergio-nery-simoes",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Paulo Sérgio dos Santos Júnior",
+      "slug": "paulo-sergio-dos-santos-junior",
+      "acoes_comuns": 1
+    },
+    {
       "nome": "Rodrigo Fernandes Calhau",
       "slug": "rodrigo-fernandes-calhau",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Helen França Medeiros",
+      "slug": "helen-franca-medeiros",
       "acoes_comuns": 1
     },
     {

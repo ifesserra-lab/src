@@ -3,12 +3,14 @@
   "nome": "Gilmar Luiz Vassoler",
   "resumo_ia": null,
   "anos": [
+    "2016",
     "2017",
     "2018"
   ],
   "funcoes": [
     "AVALIADOR(A)",
-    "COLABORADOR(A)"
+    "COLABORADOR(A)",
+    "COORDENADOR(A) ADJUNTO(A)"
   ],
   "acoes_coordenadas": [
     {
@@ -42,6 +44,17 @@
       "funcoes": [
         "COLABORADOR(A)"
       ]
+    },
+    {
+      "acao_id": "730",
+      "titulo": "Câmara de Assessoramento em Gestão e Tecnologia do Núcleo Incubador do campus Serra do Ifes",
+      "tipo": "Projeto",
+      "ano": "2016",
+      "n": 9,
+      "pub": 0,
+      "funcoes": [
+        "COORDENADOR(A) ADJUNTO(A)"
+      ]
     }
   ],
   "atividades": [
@@ -58,6 +71,13 @@
       "acao_id": "1883",
       "atividade": "Inova Serra",
       "pub": 0
+    },
+    {
+      "ano": "2016",
+      "atividade_id": "1610",
+      "acao_id": "730",
+      "atividade": "Câmara de Assessoramento em Gestão e Tecnologia do Núcleo Incubador do campus Serra do Ifes",
+      "pub": 0
     }
   ],
   "imp_coord": 366,
@@ -66,18 +86,38 @@
   "temas": [
     {
       "tema": "Empreendedorismo e incubação",
-      "n": 3
+      "n": 4
     }
   ],
   "colaboradores": [
     {
       "nome": "Emmanuel Marques Silva",
       "slug": "emmanuel-marques-silva",
+      "acoes_comuns": 3
+    },
+    {
+      "nome": "Dirceu Soares Júnior",
+      "slug": "dirceu-soares-junior",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Edilson Luiz do Nascimento",
+      "slug": "edilson-luiz-do-nascimento",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Felipe Frechiani de Oliveira",
+      "slug": "felipe-frechiani-de-oliveira",
       "acoes_comuns": 2
     },
     {
       "nome": "Francisco José Casarim Rapchan",
       "slug": "francisco-jose-casarim-rapchan",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "José Geraldo das Neves Orlandi",
+      "slug": "jose-geraldo-das-neves-orlandi",
       "acoes_comuns": 2
     },
     {
@@ -168,21 +208,6 @@
     {
       "nome": "Moisés Savedra Omena",
       "slug": "moises-savedra-omena",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Dirceu Soares Júnior",
-      "slug": "dirceu-soares-junior",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Edilson Luiz do Nascimento",
-      "slug": "edilson-luiz-do-nascimento",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Felipe Frechiani de Oliveira",
-      "slug": "felipe-frechiani-de-oliveira",
       "acoes_comuns": 1
     },
     {
@@ -311,13 +336,18 @@
       "acoes_comuns": 1
     },
     {
-      "nome": "José Geraldo das Neves Orlandi",
-      "slug": "jose-geraldo-das-neves-orlandi",
+      "nome": "Elton Siqueira Moura",
+      "slug": "elton-siqueira-moura",
       "acoes_comuns": 1
     },
     {
-      "nome": "Elton Siqueira Moura",
-      "slug": "elton-siqueira-moura",
+      "nome": "Filipe Arthur Firmino Monhol",
+      "slug": "filipe-arthur-firmino-monhol",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Maxwell Eduardo Monteiro",
+      "slug": "maxwell-eduardo-monteiro",
       "acoes_comuns": 1
     }
   ]

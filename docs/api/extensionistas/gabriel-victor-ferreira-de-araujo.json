@@ -7,9 +7,7 @@
     "2020"
   ],
   "funcoes": [
-    "ALUNO(A) BOLSISTA",
-    "INSTRUTOR(A)",
-    "PROFESSOR(A)"
+    "ALUNO(A) BOLSISTA"
   ],
   "acoes_coordenadas": [],
   "participacoes_equipe": [
@@ -22,18 +20,6 @@
       "pub": 0,
       "funcoes": [
         "ALUNO(A) BOLSISTA"
-      ]
-    },
-    {
-      "acao_id": "2783",
-      "titulo": "Informática Básica Para Agentes Multiplicadores.",
-      "tipo": "Curso",
-      "ano": "2019",
-      "n": 42,
-      "pub": 16,
-      "funcoes": [
-        "INSTRUTOR(A)",
-        "PROFESSOR(A)"
       ]
     },
     {
@@ -57,24 +43,10 @@
       "pub": 0
     },
     {
-      "ano": "2019",
-      "atividade_id": "9577",
-      "acao_id": "2783",
-      "atividade": "Informática Básica Para Agentes Multiplicadores.",
-      "pub": 16
-    },
-    {
-      "ano": "2019",
-      "atividade_id": "10922",
-      "acao_id": "2783",
-      "atividade": "Mini-Curso: Arquitetura Básica de Computadores",
-      "pub": 16
-    },
-    {
       "ano": "2020",
-      "atividade_id": "11192",
+      "atividade_id": "11199",
       "acao_id": "3140",
-      "atividade": "Desenvolvimento de uma Sistemática para Agendamento do Atendimento à Comunidade no LAMPEX",
+      "atividade": "Desenvolvimento de Materiais e Objetos de Aprendizagem para o LAMPEX",
       "pub": 0
     },
     {
@@ -86,26 +58,26 @@
     },
     {
       "ano": "2020",
-      "atividade_id": "11199",
-      "acao_id": "3140",
-      "atividade": "Desenvolvimento de Materiais e Objetos de Aprendizagem para o LAMPEX",
-      "pub": 0
-    },
-    {
-      "ano": "2020",
       "atividade_id": "11195",
       "acao_id": "3140",
       "atividade": "Desenvolvimento de uma Sistemática para Acompanhamento e Controle de Atendimento Discente no LAMPEX",
       "pub": 0
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "11192",
+      "acao_id": "3140",
+      "atividade": "Desenvolvimento de uma Sistemática para Agendamento do Atendimento à Comunidade no LAMPEX",
+      "pub": 0
     }
   ],
   "imp_coord": 0,
-  "imp_eq": 34,
-  "impacto": 34,
+  "imp_eq": 2,
+  "impacto": 2,
   "temas": [
     {
       "tema": "Mulheres e inclusão",
-      "n": 2
+      "n": 1
     },
     {
       "tema": "Robótica e cultura maker",
@@ -116,17 +88,12 @@
     {
       "nome": "Bruno Cardoso Coutinho",
       "slug": "bruno-cardoso-coutinho",
-      "acoes_comuns": 3
+      "acoes_comuns": 2
     },
     {
       "nome": "Juliana Rohsner Vianna Toniati",
       "slug": "juliana-rohsner-vianna-toniati",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Renata Imaculada de Oliveira Teixeira",
-      "slug": "renata-imaculada-de-oliveira-teixeira",
-      "acoes_comuns": 2
+      "acoes_comuns": 1
     },
     {
       "nome": "Glaucelena Dias Lopes da Vitória",
@@ -134,8 +101,8 @@
       "acoes_comuns": 1
     },
     {
-      "nome": "Ridley Francis Miranda Amorim",
-      "slug": "ridley-francis-miranda-amorim",
+      "nome": "Renata Imaculada de Oliveira Teixeira",
+      "slug": "renata-imaculada-de-oliveira-teixeira",
       "acoes_comuns": 1
     },
     {

@@ -11,6 +11,17 @@
   "acoes_coordenadas": [],
   "participacoes_equipe": [
     {
+      "acao_id": "5357",
+      "titulo": "MULHERES MIL - Artesão em Bordado a mão",
+      "tipo": "Curso",
+      "ano": "2025",
+      "n": 35,
+      "pub": 24,
+      "funcoes": [
+        "COLABORADOR(A)"
+      ]
+    },
+    {
       "acao_id": "5645",
       "titulo": "Asas para o Futuro - Eletricista Instalador Predial em Baixa Tensão",
       "tipo": "Curso",
@@ -25,6 +36,13 @@
   "atividades": [
     {
       "ano": "2025",
+      "atividade_id": "19716",
+      "acao_id": "5357",
+      "atividade": "MULHERES MIL - Artesão em Bordado a mão",
+      "pub": 24
+    },
+    {
+      "ano": "2025",
       "atividade_id": "20642",
       "acao_id": "5645",
       "atividade": "Asas para o Futuro - Eletricista Instalador Predial em Baixa Tensão",
@@ -32,18 +50,58 @@
     }
   ],
   "imp_coord": 0,
-  "imp_eq": 29,
-  "impacto": 29,
+  "imp_eq": 53,
+  "impacto": 53,
   "temas": [
     {
       "tema": "Mulheres e inclusão",
-      "n": 1
+      "n": 2
     }
   ],
   "colaboradores": [
     {
       "nome": "Tatiane Policário Chagas",
       "slug": "tatiane-policario-chagas",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Davi Campos Sutil",
+      "slug": "davi-campos-sutil",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Luiz Felipe Elizeta dos Santos",
+      "slug": "luiz-felipe-elizeta-dos-santos",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Remerson Victor Silva da Assurreição",
+      "slug": "remerson-victor-silva-da-assurreicao",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Elisa Andrade de Jesus",
+      "slug": "elisa-andrade-de-jesus",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Emmanuel Marques Silva",
+      "slug": "emmanuel-marques-silva",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Alessandra Aguiar Vilarinho",
+      "slug": "alessandra-aguiar-vilarinho",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Bruno Ramos Gonzaga",
+      "slug": "bruno-ramos-gonzaga",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Cynthia Kruger Quinino",
+      "slug": "cynthia-kruger-quinino",
       "acoes_comuns": 1
     },
     {

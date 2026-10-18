@@ -27,16 +27,23 @@
   "atividades": [
     {
       "ano": "2022",
-      "atividade_id": "19177",
+      "atividade_id": "13927",
       "acao_id": "4033",
-      "atividade": "Apresentação no “Primeiro Seminário de Empreendedorismo na Rede Federal” (para uma banca de especialistas empresários e representantes de entidades governamentais) de um pitch sobre a solução Pink Pepper Qualifier.",
+      "atividade": "Pink Pepper Qualifier: Determinação da qualidade produtiva dos frutos da Aroeira (Schinus terebinthifolius Raddi) usando Inteligência Computacional",
       "pub": 0
     },
     {
       "ano": "2022",
-      "atividade_id": "13927",
+      "atividade_id": "19173",
       "acao_id": "4033",
-      "atividade": "Pink Pepper Qualifier: Determinação da qualidade produtiva dos frutos da Aroeira (Schinus terebinthifolius Raddi) usando Inteligência Computacional",
+      "atividade": "Participação em mentorias do Sebrae",
+      "pub": 0
+    },
+    {
+      "ano": "2022",
+      "atividade_id": "19177",
+      "acao_id": "4033",
+      "atividade": "Apresentação no “Primeiro Seminário de Empreendedorismo na Rede Federal” (para uma banca de especialistas empresários e representantes de entidades governamentais) de um pitch sobre a solução Pink Pepper Qualifier.",
       "pub": 0
     },
     {
@@ -51,13 +58,6 @@
       "atividade_id": "19182",
       "acao_id": "4033",
       "atividade": "Produção de um documentário referente à inauguração da sede da NATIVA - Associação de Produtores de Aroeira do ES",
-      "pub": 0
-    },
-    {
-      "ano": "2022",
-      "atividade_id": "19173",
-      "acao_id": "4033",
-      "atividade": "Participação em mentorias do Sebrae",
       "pub": 0
     }
   ],

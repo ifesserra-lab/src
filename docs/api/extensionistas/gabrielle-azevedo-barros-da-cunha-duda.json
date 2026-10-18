@@ -49,13 +49,6 @@
     },
     {
       "ano": "2020",
-      "atividade_id": "11193",
-      "acao_id": "3140",
-      "atividade": "Desenvolvimento de uma Sistemática para Captação de alunos para o LAMPEX",
-      "pub": 0
-    },
-    {
-      "ano": "2020",
       "atividade_id": "11188",
       "acao_id": "3140",
       "atividade": "Desenvolvimento de Documentos de Institucionais do LAMPEX",
@@ -70,9 +63,9 @@
     },
     {
       "ano": "2020",
-      "atividade_id": "11190",
+      "atividade_id": "11193",
       "acao_id": "3140",
-      "atividade": "Desenvolvimento de uma Sistemática para Controle de Processos no LAMPEX",
+      "atividade": "Desenvolvimento de uma Sistemática para Captação de alunos para o LAMPEX",
       "pub": 0
     },
     {
@@ -80,6 +73,13 @@
       "atividade_id": "11192",
       "acao_id": "3140",
       "atividade": "Desenvolvimento de uma Sistemática para Agendamento do Atendimento à Comunidade no LAMPEX",
+      "pub": 0
+    },
+    {
+      "ano": "2020",
+      "atividade_id": "11190",
+      "acao_id": "3140",
+      "atividade": "Desenvolvimento de uma Sistemática para Controle de Processos no LAMPEX",
       "pub": 0
     },
     {

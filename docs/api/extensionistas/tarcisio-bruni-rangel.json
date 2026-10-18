@@ -9,7 +9,6 @@
   ],
   "funcoes": [
     "ALUNO(A) BOLSISTA",
-    "ALUNO(A) VOLUNTARIO",
     "COLABORADOR(A)",
     "EXPOSITOR(A)"
   ],
@@ -35,17 +34,6 @@
       "pub": 0,
       "funcoes": [
         "ALUNO(A) BOLSISTA"
-      ]
-    },
-    {
-      "acao_id": "2786",
-      "titulo": "My Pay: Um ERP em nuvem para foodtrucks",
-      "tipo": "Projeto",
-      "ano": "2019",
-      "n": 12,
-      "pub": 1,
-      "funcoes": [
-        "ALUNO(A) VOLUNTARIO"
       ]
     },
     {
@@ -77,11 +65,11 @@
       "pub": 0
     },
     {
-      "ano": "2019",
-      "atividade_id": "9580",
-      "acao_id": "2786",
-      "atividade": "My Pay: Um ERP em nuvem para foodtrucks",
-      "pub": 1
+      "ano": "2016",
+      "atividade_id": "2297",
+      "acao_id": "901",
+      "atividade": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
+      "pub": 0
     },
     {
       "ano": "2016",
@@ -89,22 +77,15 @@
       "acao_id": "901",
       "atividade": "Expositor: Apresentação de Projetos do LEDS no Sebrae StartupSummit 2019",
       "pub": 0
-    },
-    {
-      "ano": "2016",
-      "atividade_id": "2297",
-      "acao_id": "901",
-      "atividade": "LEDS – Laboratório de Extensão em Desenvolvimento de Soluções",
-      "pub": 0
     }
   ],
   "imp_coord": 0,
-  "imp_eq": 1,
-  "impacto": 1,
+  "imp_eq": 0,
+  "impacto": 0,
   "temas": [
     {
       "tema": "Empreendedorismo e incubação",
-      "n": 3
+      "n": 2
     },
     {
       "tema": "Software, dados e sistemas",
@@ -123,16 +104,6 @@
       "acoes_comuns": 3
     },
     {
-      "nome": "Felipe Frechiani de Oliveira",
-      "slug": "felipe-frechiani-de-oliveira",
-      "acoes_comuns": 3
-    },
-    {
-      "nome": "Marcos Antonio Carneiro de Paula",
-      "slug": "marcos-antonio-carneiro-de-paula",
-      "acoes_comuns": 3
-    },
-    {
       "nome": "Rafael Afonso dos Anjos",
       "slug": "rafael-afonso-dos-anjos",
       "acoes_comuns": 2
@@ -143,8 +114,18 @@
       "acoes_comuns": 2
     },
     {
+      "nome": "Felipe Frechiani de Oliveira",
+      "slug": "felipe-frechiani-de-oliveira",
+      "acoes_comuns": 2
+    },
+    {
       "nome": "Icaro Duarte Gavazza Lima",
       "slug": "icaro-duarte-gavazza-lima",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Marcos Antonio Carneiro de Paula",
+      "slug": "marcos-antonio-carneiro-de-paula",
       "acoes_comuns": 2
     },
     {
@@ -165,21 +146,6 @@
     {
       "nome": "Paulo Sérgio dos Santos Júnior",
       "slug": "paulo-sergio-dos-santos-junior",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Eduardo Couto Rodrigues",
-      "slug": "eduardo-couto-rodrigues",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Icaro Gandine Fialho Weiler",
-      "slug": "icaro-gandine-fialho-weiler",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Gustavo Matozinho Lima",
-      "slug": "gustavo-matozinho-lima",
       "acoes_comuns": 2
     },
     {
@@ -273,31 +239,6 @@
       "acoes_comuns": 1
     },
     {
-      "nome": "Vinicius Freitas Rocha",
-      "slug": "vinicius-freitas-rocha",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Jackson Willian Silva Agostinho",
-      "slug": "jackson-willian-silva-agostinho",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Luiz Antonio Roque Guzzo",
-      "slug": "luiz-antonio-roque-guzzo",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Emanuel Medeiros Claudino",
-      "slug": "emanuel-medeiros-claudino",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Tadeu da Penha Moraes Junior",
-      "slug": "tadeu-da-penha-moraes-junior",
-      "acoes_comuns": 1
-    },
-    {
       "nome": "Sarah Silva Ferreira",
       "slug": "sarah-silva-ferreira",
       "acoes_comuns": 1
@@ -330,6 +271,21 @@
     {
       "nome": "Renato de Sant'anna Lopes",
       "slug": "renato-de-sant-anna-lopes",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Icaro Gandine Fialho Weiler",
+      "slug": "icaro-gandine-fialho-weiler",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Eduardo Couto Rodrigues",
+      "slug": "eduardo-couto-rodrigues",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Gustavo Matozinho Lima",
+      "slug": "gustavo-matozinho-lima",
       "acoes_comuns": 1
     },
     {

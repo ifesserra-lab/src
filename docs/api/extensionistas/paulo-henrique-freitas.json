@@ -25,17 +25,17 @@
   "atividades": [
     {
       "ano": "2023",
-      "atividade_id": "17384",
-      "acao_id": "4830",
-      "atividade": "ConectaFapes: Uma plataforma de apoio à Pesquisa, Desenvolvimento e Inovação",
-      "pub": 66
-    },
-    {
-      "ano": "2023",
       "atividade_id": "22381",
       "acao_id": "4830",
       "atividade": "Desenvolvimento de Ferramentas de Desenvolvimento de Software",
       "pub": 49
+    },
+    {
+      "ano": "2023",
+      "atividade_id": "17384",
+      "acao_id": "4830",
+      "atividade": "ConectaFapes: Uma plataforma de apoio à Pesquisa, Desenvolvimento e Inovação",
+      "pub": 66
     }
   ],
   "imp_coord": 0,

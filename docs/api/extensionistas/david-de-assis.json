@@ -3,13 +3,10 @@
   "nome": "David de Assis",
   "resumo_ia": null,
   "anos": [
-    "2020",
-    "2022",
-    "2023"
+    "2020"
   ],
   "funcoes": [
-    "COLABORADOR(A)",
-    "MONITOR(A)"
+    "COLABORADOR(A)"
   ],
   "acoes_coordenadas": [],
   "participacoes_equipe": [
@@ -23,28 +20,6 @@
       "funcoes": [
         "COLABORADOR(A)"
       ]
-    },
-    {
-      "acao_id": "4210",
-      "titulo": "Operador de Computador",
-      "tipo": "Curso",
-      "ano": "2022",
-      "n": 23,
-      "pub": 17,
-      "funcoes": [
-        "MONITOR(A)"
-      ]
-    },
-    {
-      "acao_id": "4820",
-      "titulo": "Mulheres Mil – Eletricista Instalador Predial em Baixa Tensão",
-      "tipo": "Curso",
-      "ano": "2023",
-      "n": 74,
-      "pub": 62,
-      "funcoes": [
-        "MONITOR(A)"
-      ]
     }
   ],
   "atividades": [
@@ -54,45 +29,18 @@
       "acao_id": "3140",
       "atividade": "Equipe de organização do SCAI 2025",
       "pub": 0
-    },
-    {
-      "ano": "2022",
-      "atividade_id": "14476",
-      "acao_id": "4210",
-      "atividade": "Operador de Computador",
-      "pub": 17
-    },
-    {
-      "ano": "2023",
-      "atividade_id": "17244",
-      "acao_id": "4820",
-      "atividade": "Mulheres Mil – Eletricista Instalador Predial em Baixa Tensão",
-      "pub": 42
     }
   ],
   "imp_coord": 0,
-  "imp_eq": 59,
-  "impacto": 59,
+  "imp_eq": 0,
+  "impacto": 0,
   "temas": [
     {
       "tema": "Robótica e cultura maker",
       "n": 1
-    },
-    {
-      "tema": "Cultura e arte",
-      "n": 1
-    },
-    {
-      "tema": "Mulheres e inclusão",
-      "n": 1
     }
   ],
   "colaboradores": [
-    {
-      "nome": "Eglalciane de Lyrio Tongo",
-      "slug": "eglalciane-de-lyrio-tongo",
-      "acoes_comuns": 2
-    },
     {
       "nome": "Emmanuel Marques Silva",
       "slug": "emmanuel-marques-silva",
@@ -296,6 +244,11 @@
     {
       "nome": "Valéria Gabriel Estanislau",
       "slug": "valeria-gabriel-estanislau",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Eglalciane de Lyrio Tongo",
+      "slug": "eglalciane-de-lyrio-tongo",
       "acoes_comuns": 1
     },
     {
@@ -906,51 +859,6 @@
     {
       "nome": "Vinicius Prata Lima",
       "slug": "vinicius-prata-lima",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Victorio Albani de Carvalho",
-      "slug": "victorio-albani-de-carvalho",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Éllen Oliveira Silva Neves",
-      "slug": "ellen-oliveira-silva-neves",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Tatiane Policário Chagas",
-      "slug": "tatiane-policario-chagas",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Edjane Martins da Silva",
-      "slug": "edjane-martins-da-silva",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Marcos Paulo Kohler Caldas",
-      "slug": "marcos-paulo-kohler-caldas",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Bruno Ramos Gonzaga",
-      "slug": "bruno-ramos-gonzaga",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Gina Carla Maciel",
-      "slug": "gina-carla-maciel",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Cynthia Kruger Quinino",
-      "slug": "cynthia-kruger-quinino",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Matheus Policário Amorim",
-      "slug": "matheus-policario-amorim",
       "acoes_comuns": 1
     }
   ]

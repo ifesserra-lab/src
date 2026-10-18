@@ -5,15 +5,13 @@
   "anos": [
     "2016",
     "2017",
-    "2021",
     "2023",
     "2025"
   ],
   "funcoes": [
     "AVALIADOR(A)",
     "COLABORADOR(A)",
-    "COORDENADOR(A) ADJUNTO(A)",
-    "MEMBRO DE COMITÊ GESTOR"
+    "COORDENADOR(A) ADJUNTO(A)"
   ],
   "acoes_coordenadas": [],
   "participacoes_equipe": [
@@ -26,17 +24,6 @@
       "pub": 36,
       "funcoes": [
         "COORDENADOR(A) ADJUNTO(A)"
-      ]
-    },
-    {
-      "acao_id": "3567",
-      "titulo": "Laboratório IFMaker Serra: um ambiente colaborativo de aprendizagem e desenvolvimento de soluções",
-      "tipo": "Projeto",
-      "ano": "2021",
-      "n": 4,
-      "pub": 0,
-      "funcoes": [
-        "MEMBRO DE COMITÊ GESTOR"
       ]
     },
     {
@@ -82,20 +69,6 @@
       "pub": 15
     },
     {
-      "ano": "2021",
-      "atividade_id": "12362",
-      "acao_id": "3567",
-      "atividade": "Laboratório IFMaker Serra: um ambiente colaborativo de aprendizagem e desenvolvimento de soluções",
-      "pub": 0
-    },
-    {
-      "ano": "2023",
-      "atividade_id": "19697",
-      "acao_id": "4655",
-      "atividade": "SerraMaker: fomentando a cultura Maker no município da Serra",
-      "pub": 0
-    },
-    {
       "ano": "2023",
       "atividade_id": "17046",
       "acao_id": "4655",
@@ -110,6 +83,13 @@
       "pub": 0
     },
     {
+      "ano": "2023",
+      "atividade_id": "19697",
+      "acao_id": "4655",
+      "atividade": "SerraMaker: fomentando a cultura Maker no município da Serra",
+      "pub": 0
+    },
+    {
       "ano": "2025",
       "atividade_id": "20613",
       "acao_id": "5641",
@@ -118,16 +98,16 @@
     },
     {
       "ano": "2016",
-      "atividade_id": "3212",
+      "atividade_id": "3213",
       "acao_id": "912",
-      "atividade": "Banca de Apresentação do Trabalho Final de Curso do aluno Carlos de Melo Batista",
+      "atividade": "Banca de Apresentação do Trabalho Final de Curso do aluno Renahn Pazini Marim",
       "pub": 0
     },
     {
       "ano": "2016",
-      "atividade_id": "3213",
+      "atividade_id": "3212",
       "acao_id": "912",
-      "atividade": "Banca de Apresentação do Trabalho Final de Curso do aluno Renahn Pazini Marim",
+      "atividade": "Banca de Apresentação do Trabalho Final de Curso do aluno Carlos de Melo Batista",
       "pub": 0
     }
   ],
@@ -136,33 +116,23 @@
   "impacto": 15,
   "temas": [
     {
-      "tema": "Robótica e cultura maker",
-      "n": 3
+      "tema": "Empreendedorismo e incubação",
+      "n": 2
     },
     {
-      "tema": "Empreendedorismo e incubação",
+      "tema": "Robótica e cultura maker",
       "n": 2
     }
   ],
   "colaboradores": [
-    {
-      "nome": "Richard Junior Manuel Godinez Tello",
-      "slug": "richard-junior-manuel-godinez-tello",
-      "acoes_comuns": 4
-    },
     {
       "nome": "Karin Satie Komati",
       "slug": "karin-satie-komati",
       "acoes_comuns": 3
     },
     {
-      "nome": "Francisco José Casarim Rapchan",
-      "slug": "francisco-jose-casarim-rapchan",
-      "acoes_comuns": 3
-    },
-    {
-      "nome": "Rosiane Ribeiro Rocha",
-      "slug": "rosiane-ribeiro-rocha",
+      "nome": "Richard Junior Manuel Godinez Tello",
+      "slug": "richard-junior-manuel-godinez-tello",
       "acoes_comuns": 3
     },
     {
@@ -196,8 +166,18 @@
       "acoes_comuns": 2
     },
     {
+      "nome": "Francisco José Casarim Rapchan",
+      "slug": "francisco-jose-casarim-rapchan",
+      "acoes_comuns": 2
+    },
+    {
       "nome": "Gabriel Tozatto Zago",
       "slug": "gabriel-tozatto-zago",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Rosiane Ribeiro Rocha",
+      "slug": "rosiane-ribeiro-rocha",
       "acoes_comuns": 2
     },
     {

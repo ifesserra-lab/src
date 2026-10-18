@@ -58,13 +58,6 @@
   "atividades": [
     {
       "ano": "2017",
-      "atividade_id": "3353",
-      "acao_id": "1261",
-      "atividade": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedora",
-      "pub": 15
-    },
-    {
-      "ano": "2017",
       "atividade_id": "4818",
       "acao_id": "1261",
       "atividade": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedora",
@@ -76,6 +69,13 @@
       "acao_id": "1261",
       "atividade": "Seminário de Apresentação dos Empreendimentos",
       "pub": 1
+    },
+    {
+      "ano": "2017",
+      "atividade_id": "3353",
+      "acao_id": "1261",
+      "atividade": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedora",
+      "pub": 15
     },
     {
       "ano": "2020",

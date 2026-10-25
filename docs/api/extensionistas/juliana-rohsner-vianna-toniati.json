@@ -6,7 +6,8 @@
     "2019"
   ],
   "funcoes": [
-    "COLABORADOR(A)"
+    "COLABORADOR(A)",
+    "COORDENADOR(A) ADJUNTO(A)"
   ],
   "acoes_coordenadas": [],
   "participacoes_equipe": [
@@ -20,6 +21,18 @@
       "funcoes": [
         "COLABORADOR(A)"
       ]
+    },
+    {
+      "acao_id": "2783",
+      "titulo": "Informática Básica Para Agentes Multiplicadores.",
+      "tipo": "Curso",
+      "ano": "2019",
+      "n": 42,
+      "pub": 16,
+      "funcoes": [
+        "COLABORADOR(A)",
+        "COORDENADOR(A) ADJUNTO(A)"
+      ]
     }
   ],
   "atividades": [
@@ -29,22 +42,46 @@
       "acao_id": "2595",
       "atividade": "Incluir & Multiplicar",
       "pub": 0
+    },
+    {
+      "ano": "2019",
+      "atividade_id": "10922",
+      "acao_id": "2783",
+      "atividade": "Mini-Curso: Arquitetura Básica de Computadores",
+      "pub": 16
+    },
+    {
+      "ano": "2019",
+      "atividade_id": "9577",
+      "acao_id": "2783",
+      "atividade": "Informática Básica Para Agentes Multiplicadores.",
+      "pub": 16
     }
   ],
   "imp_coord": 0,
-  "imp_eq": 0,
-  "impacto": 0,
+  "imp_eq": 32,
+  "impacto": 32,
   "temas": [
     {
       "tema": "Mulheres e inclusão",
-      "n": 1
+      "n": 2
     }
   ],
   "colaboradores": [
     {
       "nome": "Bruno Cardoso Coutinho",
       "slug": "bruno-cardoso-coutinho",
-      "acoes_comuns": 1
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Gabriel Victor Ferreira de Araújo",
+      "slug": "gabriel-victor-ferreira-de-araujo",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Renata Imaculada de Oliveira Teixeira",
+      "slug": "renata-imaculada-de-oliveira-teixeira",
+      "acoes_comuns": 2
     },
     {
       "nome": "Glaucelena Dias Lopes da Vitória",
@@ -52,13 +89,8 @@
       "acoes_comuns": 1
     },
     {
-      "nome": "Gabriel Victor Ferreira de Araújo",
-      "slug": "gabriel-victor-ferreira-de-araujo",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Renata Imaculada de Oliveira Teixeira",
-      "slug": "renata-imaculada-de-oliveira-teixeira",
+      "nome": "Ridley Francis Miranda Amorim",
+      "slug": "ridley-francis-miranda-amorim",
       "acoes_comuns": 1
     }
   ]

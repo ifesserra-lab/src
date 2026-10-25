@@ -9,7 +9,7 @@
   "publico_alvo": {
     "total": 3,
     "aprovados": 3,
-    "certificados": 0,
+    "certificados": 3,
     "situacao": {
       "APROVADO": 3
     }

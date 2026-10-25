@@ -1,7 +1,7 @@
 {
   "slug": "nicole-ribeiro-schayder-da-silva",
   "nome": "Nicole Ribeiro Schayder da Silva",
-  "resumo_ia": "Atuou como palestrante no 'SOF – Serviço de Orientação Financeira (unidade Ifes Serra)' em 2026, contribuindo para ações de extensão na área de orientação financeira.",
+  "resumo_ia": null,
   "anos": [
     "2026"
   ],
@@ -15,8 +15,8 @@
       "titulo": "SOF – Serviço de Orientação Financeira (unidade Ifes Serra)",
       "tipo": "Projeto",
       "ano": "2026",
-      "n": 316,
-      "pub": 227,
+      "n": 343,
+      "pub": 252,
       "funcoes": [
         "PALESTRANTE"
       ]
@@ -44,6 +44,11 @@
     {
       "nome": "Emmanuel Marques Silva",
       "slug": "emmanuel-marques-silva",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Elinario Santos Costa",
+      "slug": "elinario-santos-costa",
       "acoes_comuns": 1
     },
     {

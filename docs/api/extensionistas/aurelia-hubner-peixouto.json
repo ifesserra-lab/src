@@ -3,12 +3,10 @@
   "nome": "Aurélia Hubner Peixouto",
   "resumo_ia": null,
   "anos": [
-    "2015",
-    "2016"
+    "2015"
   ],
   "funcoes": [
-    "AVALIADOR(A)",
-    "COORDENADOR(A) ADJUNTO(A)"
+    "AVALIADOR(A)"
   ],
   "acoes_coordenadas": [],
   "participacoes_equipe": [
@@ -22,17 +20,6 @@
       "funcoes": [
         "AVALIADOR(A)"
       ]
-    },
-    {
-      "acao_id": "723",
-      "titulo": "Acorde Musical",
-      "tipo": "Projeto",
-      "ano": "2016",
-      "n": 5,
-      "pub": 0,
-      "funcoes": [
-        "COORDENADOR(A) ADJUNTO(A)"
-      ]
     }
   ],
   "atividades": [
@@ -41,13 +28,6 @@
       "atividade_id": "1271",
       "acao_id": "569",
       "atividade": "Desafio Ifes de Negócios Socais",
-      "pub": 0
-    },
-    {
-      "ano": "2016",
-      "atividade_id": "1577",
-      "acao_id": "723",
-      "atividade": "Acorde Musical",
       "pub": 0
     }
   ],
@@ -58,18 +38,9 @@
     {
       "tema": "Robótica e cultura maker",
       "n": 1
-    },
-    {
-      "tema": "Cultura e arte",
-      "n": 1
     }
   ],
   "colaboradores": [
-    {
-      "nome": "Moisés Savedra Omena",
-      "slug": "moises-savedra-omena",
-      "acoes_comuns": 2
-    },
     {
       "nome": "Rodrigo Fernandes Calhau",
       "slug": "rodrigo-fernandes-calhau",
@@ -241,6 +212,11 @@
       "acoes_comuns": 1
     },
     {
+      "nome": "Moisés Savedra Omena",
+      "slug": "moises-savedra-omena",
+      "acoes_comuns": 1
+    },
+    {
       "nome": "Ernani Leite Ribeiro Filho",
       "slug": "ernani-leite-ribeiro-filho",
       "acoes_comuns": 1
@@ -258,21 +234,6 @@
     {
       "nome": "Kamila Maria Vieira Pralon",
       "slug": "kamila-maria-vieira-pralon",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Magno Macedo de Oliveira",
-      "slug": "magno-macedo-de-oliveira",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "André Spadetto Leão",
-      "slug": "andre-spadetto-leao",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Juciéli Alves da Costa",
-      "slug": "jucieli-alves-da-costa",
       "acoes_comuns": 1
     }
   ]

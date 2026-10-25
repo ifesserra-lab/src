@@ -4,24 +4,24 @@
   "resumo_ia": null,
   "anos": [
     "2016",
-    "2017"
+    "2026"
   ],
   "funcoes": [
     "AUXILIAR TÉCNICO",
-    "COLABORADOR(A)",
-    "MENTOR(A)"
+    "MENTOR(A)",
+    "ORGANIZADOR(A)"
   ],
   "acoes_coordenadas": [],
   "participacoes_equipe": [
     {
-      "acao_id": "1261",
-      "titulo": "Curso de Pré-Incubação para Empreendedores – Modalidade Competências Empreendedora",
-      "tipo": "Curso",
-      "ano": "2017",
-      "n": 84,
-      "pub": 36,
+      "acao_id": "5852",
+      "titulo": "SOF – Serviço de Orientação Financeira (unidade Ifes Serra)",
+      "tipo": "Projeto",
+      "ano": "2026",
+      "n": 343,
+      "pub": 252,
       "funcoes": [
-        "COLABORADOR(A)"
+        "ORGANIZADOR(A)"
       ]
     },
     {
@@ -49,11 +49,11 @@
   ],
   "atividades": [
     {
-      "ano": "2017",
-      "atividade_id": "4502",
-      "acao_id": "1261",
-      "atividade": "Seminário de Apresentação dos Empreendimentos",
-      "pub": 1
+      "ano": "2026",
+      "atividade_id": "22067",
+      "acao_id": "5852",
+      "atividade": "Palestra promovida pelo LIEFIS: \"Finanças Pessoais: Eu, Meu Dinheiro e Minhas Decisões.",
+      "pub": 79
     },
     {
       "ano": "2016",
@@ -71,12 +71,16 @@
     }
   ],
   "imp_coord": 0,
-  "imp_eq": 15,
-  "impacto": 15,
+  "imp_eq": 93,
+  "impacto": 93,
   "temas": [
     {
       "tema": "Empreendedorismo e incubação",
-      "n": 3
+      "n": 2
+    },
+    {
+      "tema": "Mulheres e inclusão",
+      "n": 1
     }
   ],
   "colaboradores": [
@@ -86,98 +90,18 @@
       "acoes_comuns": 3
     },
     {
-      "nome": "Felipe Frechiani de Oliveira",
-      "slug": "felipe-frechiani-de-oliveira",
-      "acoes_comuns": 3
-    },
-    {
-      "nome": "Gilmar Luiz Vassoler",
-      "slug": "gilmar-luiz-vassoler",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Luis Henrique Rosado Torres",
-      "slug": "luis-henrique-rosado-torres",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Flávio Barcelos Braz da Silva",
-      "slug": "flavio-barcelos-braz-da-silva",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Karin Satie Komati",
-      "slug": "karin-satie-komati",
-      "acoes_comuns": 2
-    },
-    {
       "nome": "Ronaldo Aparecida Marques",
       "slug": "ronaldo-aparecida-marques",
       "acoes_comuns": 2
     },
     {
-      "nome": "Humberto Henrique Ramos Brotto",
-      "slug": "humberto-henrique-ramos-brotto",
+      "nome": "Felipe Frechiani de Oliveira",
+      "slug": "felipe-frechiani-de-oliveira",
       "acoes_comuns": 2
     },
     {
-      "nome": "Christian Mariani Lucas dos Santos",
-      "slug": "christian-mariani-lucas-dos-santos",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Rodrigo Fernandes Calhau",
-      "slug": "rodrigo-fernandes-calhau",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Elizangela Campos da Rosa Broetto",
-      "slug": "elizangela-campos-da-rosa-broetto",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Leonardo Azevedo Scardua",
-      "slug": "leonardo-azevedo-scardua",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Giovani Zanetti Neto",
-      "slug": "giovani-zanetti-neto",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Dirceu Soares Júnior",
-      "slug": "dirceu-soares-junior",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Richard Junior Manuel Godinez Tello",
-      "slug": "richard-junior-manuel-godinez-tello",
-      "acoes_comuns": 2
-    },
-    {
-      "nome": "Marcos Simão Guimarães",
-      "slug": "marcos-simao-guimaraes",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Camila Braga Guimarães",
-      "slug": "camila-braga-guimaraes",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Emerson Atílio Birchler",
-      "slug": "emerson-atilio-birchler",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Rodolpho da Cruz Rangel",
-      "slug": "rodolpho-da-cruz-rangel",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Sandro de Freitas Nascimento",
-      "slug": "sandro-de-freitas-nascimento",
+      "nome": "Elinario Santos Costa",
+      "slug": "elinario-santos-costa",
       "acoes_comuns": 1
     },
     {
@@ -186,28 +110,108 @@
       "acoes_comuns": 1
     },
     {
+      "nome": "Eglalciane de Lyrio Tongo",
+      "slug": "eglalciane-de-lyrio-tongo",
+      "acoes_comuns": 1
+    },
+    {
       "nome": "Alessandro Bermudes Gomes",
       "slug": "alessandro-bermudes-gomes",
       "acoes_comuns": 1
     },
     {
-      "nome": "Moisés Savedra Omena",
-      "slug": "moises-savedra-omena",
+      "nome": "Juliano Antônio da Silveira",
+      "slug": "juliano-antonio-da-silveira",
       "acoes_comuns": 1
     },
     {
-      "nome": "Erley Crevelin Valentim",
-      "slug": "erley-crevelin-valentim",
+      "nome": "Irlane Schmidt da Silva Alves",
+      "slug": "irlane-schmidt-da-silva-alves",
       "acoes_comuns": 1
     },
     {
-      "nome": "Valéria Gabriel Estanislau",
-      "slug": "valeria-gabriel-estanislau",
+      "nome": "Irene Schmidt da Silva Alves",
+      "slug": "irene-schmidt-da-silva-alves",
       "acoes_comuns": 1
     },
     {
-      "nome": "Francisco José Casarim Rapchan",
-      "slug": "francisco-jose-casarim-rapchan",
+      "nome": "Mafe Mattos",
+      "slug": "mafe-mattos",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Luma Tavares Lopes de Souza",
+      "slug": "luma-tavares-lopes-de-souza",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Thalison Vinícius Euzebio Ribeiro",
+      "slug": "thalison-vinicius-euzebio-ribeiro",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Alex Rossoni Junior",
+      "slug": "alex-rossoni-junior",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Thiago Almeida Deps Caldeira",
+      "slug": "thiago-almeida-deps-caldeira",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Luiz Guilherme de Souza Zottich",
+      "slug": "luiz-guilherme-de-souza-zottich",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "João Pedro Pagotto da Costa",
+      "slug": "joao-pedro-pagotto-da-costa",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Gustavo Laube Schwartz",
+      "slug": "gustavo-laube-schwartz",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Nicole Ribeiro Schayder da Silva",
+      "slug": "nicole-ribeiro-schayder-da-silva",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Lorenzzo Gabriel Ramos Doelinger Oliveira",
+      "slug": "lorenzzo-gabriel-ramos-doelinger-oliveira",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Renata Baptista",
+      "slug": "renata-baptista",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Patricia Maria Bortolon",
+      "slug": "patricia-maria-bortolon",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Pedro Carvalho Goularte",
+      "slug": "pedro-carvalho-goularte",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Felipe Becalli Trindade",
+      "slug": "felipe-becalli-trindade",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Maycon Pequeno Silva",
+      "slug": "maycon-pequeno-silva",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Guilherme Borges Cabral",
+      "slug": "guilherme-borges-cabral",
       "acoes_comuns": 1
     },
     {
@@ -216,8 +220,38 @@
       "acoes_comuns": 1
     },
     {
+      "nome": "Elizangela Campos da Rosa Broetto",
+      "slug": "elizangela-campos-da-rosa-broetto",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Karin Satie Komati",
+      "slug": "karin-satie-komati",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Luis Henrique Rosado Torres",
+      "slug": "luis-henrique-rosado-torres",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Giovani Zanetti Neto",
+      "slug": "giovani-zanetti-neto",
+      "acoes_comuns": 1
+    },
+    {
       "nome": "Aguinaldo Barata",
       "slug": "aguinaldo-barata",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Rodrigo Fernandes Calhau",
+      "slug": "rodrigo-fernandes-calhau",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Christian Mariani Lucas dos Santos",
+      "slug": "christian-mariani-lucas-dos-santos",
       "acoes_comuns": 1
     },
     {
@@ -231,13 +265,38 @@
       "acoes_comuns": 1
     },
     {
+      "nome": "Richard Junior Manuel Godinez Tello",
+      "slug": "richard-junior-manuel-godinez-tello",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Leonardo Azevedo Scardua",
+      "slug": "leonardo-azevedo-scardua",
+      "acoes_comuns": 1
+    },
+    {
       "nome": "Wagner Teixeira da Costa",
       "slug": "wagner-teixeira-da-costa",
       "acoes_comuns": 1
     },
     {
+      "nome": "Flávio Barcelos Braz da Silva",
+      "slug": "flavio-barcelos-braz-da-silva",
+      "acoes_comuns": 1
+    },
+    {
       "nome": "Paulo Sérgio dos Santos Júnior",
       "slug": "paulo-sergio-dos-santos-junior",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Humberto Henrique Ramos Brotto",
+      "slug": "humberto-henrique-ramos-brotto",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Gilmar Luiz Vassoler",
+      "slug": "gilmar-luiz-vassoler",
       "acoes_comuns": 1
     },
     {
@@ -253,6 +312,11 @@
     {
       "nome": "Maxwell Eduardo Monteiro",
       "slug": "maxwell-eduardo-monteiro",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Dirceu Soares Júnior",
+      "slug": "dirceu-soares-junior",
       "acoes_comuns": 1
     }
   ]

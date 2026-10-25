@@ -1,7 +1,7 @@
 {
   "slug": "juliano-antonio-da-silveira",
   "nome": "Juliano Antônio da Silveira",
-  "resumo_ia": "É extensionista do SOF – Serviço de Orientação Financeira da unidade Ifes Serra, com atuação prevista para 2026.",
+  "resumo_ia": null,
   "anos": [
     "2026"
   ],
@@ -15,35 +15,14 @@
       "titulo": "SOF – Serviço de Orientação Financeira (unidade Ifes Serra)",
       "tipo": "Projeto",
       "ano": "2026",
-      "n": 316,
-      "pub": 227,
+      "n": 343,
+      "pub": 252,
       "funcoes": [
         "EXTENSIONISTA"
       ]
     }
   ],
   "atividades": [
-    {
-      "ano": "2026",
-      "atividade_id": "22070",
-      "acao_id": "5852",
-      "atividade": "SOF - Serviço de Orientação Financeira",
-      "pub": 13
-    },
-    {
-      "ano": "2026",
-      "atividade_id": "22251",
-      "acao_id": "5852",
-      "atividade": "Palestra promovida pelo LIEFIS: \"Compreendendo a Lei do Superendividamento\".",
-      "pub": 29
-    },
-    {
-      "ano": "2026",
-      "atividade_id": "22071",
-      "acao_id": "5852",
-      "atividade": "SOF - Serviço de Orientação Financeira",
-      "pub": 12
-    },
     {
       "ano": "2026",
       "atividade_id": "22250",
@@ -57,6 +36,27 @@
       "acao_id": "5852",
       "atividade": "SOF - Serviço de Orientação Financeira",
       "pub": 9
+    },
+    {
+      "ano": "2026",
+      "atividade_id": "22071",
+      "acao_id": "5852",
+      "atividade": "SOF - Serviço de Orientação Financeira",
+      "pub": 12
+    },
+    {
+      "ano": "2026",
+      "atividade_id": "22251",
+      "acao_id": "5852",
+      "atividade": "Palestra promovida pelo LIEFIS: \"Compreendendo a Lei do Superendividamento\".",
+      "pub": 29
+    },
+    {
+      "ano": "2026",
+      "atividade_id": "22070",
+      "acao_id": "5852",
+      "atividade": "SOF - Serviço de Orientação Financeira",
+      "pub": 13
     }
   ],
   "imp_coord": 0,
@@ -72,6 +72,11 @@
     {
       "nome": "Emmanuel Marques Silva",
       "slug": "emmanuel-marques-silva",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Elinario Santos Costa",
+      "slug": "elinario-santos-costa",
       "acoes_comuns": 1
     },
     {

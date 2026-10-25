@@ -6,10 +6,33 @@
     "2018"
   ],
   "funcoes": [
-    "PROFESSOR(A)"
+    "PROFESSOR(A)",
+    "SUPERVISOR(A)"
   ],
   "acoes_coordenadas": [],
   "participacoes_equipe": [
+    {
+      "acao_id": "1633",
+      "titulo": "Mulheres na Ciência",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 21,
+      "pub": 11,
+      "funcoes": [
+        "PROFESSOR(A)"
+      ]
+    },
+    {
+      "acao_id": "1795",
+      "titulo": "ESPM-Empregos: Um serviço inteligente para promover a empregabilidade",
+      "tipo": "Projeto",
+      "ano": "2018",
+      "n": 7,
+      "pub": 0,
+      "funcoes": [
+        "SUPERVISOR(A)"
+      ]
+    },
     {
       "acao_id": "2082",
       "titulo": "Mulheres na Ciência",
@@ -25,6 +48,20 @@
   "atividades": [
     {
       "ano": "2018",
+      "atividade_id": "5158",
+      "acao_id": "1633",
+      "atividade": "Mulheres na Ciência",
+      "pub": 11
+    },
+    {
+      "ano": "2018",
+      "atividade_id": "5638",
+      "acao_id": "1795",
+      "atividade": "ESPM-Empregos: Um serviço inteligente para promover a empregabilidade",
+      "pub": 0
+    },
+    {
+      "ano": "2018",
       "atividade_id": "6874",
       "acao_id": "2082",
       "atividade": "Mulheres na Ciência",
@@ -32,11 +69,15 @@
     }
   ],
   "imp_coord": 0,
-  "imp_eq": 17,
-  "impacto": 17,
+  "imp_eq": 28,
+  "impacto": 28,
   "temas": [
     {
       "tema": "Mulheres e inclusão",
+      "n": 2
+    },
+    {
+      "tema": "Ciência e divulgação",
       "n": 1
     }
   ],
@@ -44,6 +85,71 @@
     {
       "nome": "Giordana dos Santos Sperandio",
       "slug": "giordana-dos-santos-sperandio",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Alessandra Aguiar Vilarinho",
+      "slug": "alessandra-aguiar-vilarinho",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Bruno Ramos Gonzaga",
+      "slug": "bruno-ramos-gonzaga",
+      "acoes_comuns": 2
+    },
+    {
+      "nome": "Ingrid de Lima Pella",
+      "slug": "ingrid-de-lima-pella",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Sophia Holzmeister Simon",
+      "slug": "sophia-holzmeister-simon",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Bianca Rodrigues Tinoco",
+      "slug": "bianca-rodrigues-tinoco",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Fabio de Oliveira Lima",
+      "slug": "fabio-de-oliveira-lima",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Geovane de Araujo Ceolin",
+      "slug": "geovane-de-araujo-ceolin",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Moisés Savedra Omena",
+      "slug": "moises-savedra-omena",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Helen França Medeiros",
+      "slug": "helen-franca-medeiros",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Magno Macedo de Oliveira",
+      "slug": "magno-macedo-de-oliveira",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Lucas Gomes Flegler",
+      "slug": "lucas-gomes-flegler",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Paulo Sérgio dos Santos Júnior",
+      "slug": "paulo-sergio-dos-santos-junior",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Sergio Nery Simões",
+      "slug": "sergio-nery-simoes",
       "acoes_comuns": 1
     },
     {
@@ -54,16 +160,6 @@
     {
       "nome": "Ana Rúbia Ramos Vicente",
       "slug": "ana-rubia-ramos-vicente",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Alessandra Aguiar Vilarinho",
-      "slug": "alessandra-aguiar-vilarinho",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Bruno Ramos Gonzaga",
-      "slug": "bruno-ramos-gonzaga",
       "acoes_comuns": 1
     },
     {

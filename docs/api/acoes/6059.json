@@ -9,23 +9,22 @@
   "Ação vinculante": "-",
   "Grande área conhecimento": "Linguística, Letras e Artes",
   "Área temática principal": "",
-  "Área temática principal (inferida)": "Educação",
   "Relatório aprovado": "Não",
   "Data último relatório": "",
   "Data de cadastro": "20/05/2026",
   "Resumo": "A ação “Oficinas e Tutorias de Apoio às Disciplinas Curriculares na Perspectiva Inclusiva –\nNAPNE” destina-se aos estudantes público-alvo da Educação Especial acompanhados pelo\nnúcleo, incluindo aqueles com deficiência intelectual, Transtorno do Espectro Autista (TEA),\ndeficiência visual, auditiva, física, altas habilidades/superdotação e dupla excepcionalidade\n(2e), conforme as necessidades educacionais específicas identificadas. A proposta\nfundamenta-se na oferta de apoio educacional especializado, na perspectiva da\ncomplementação e suplementação do processo de ensino-aprendizagem, sendo subsidiada\npela atuação articulada do professor de AEE, dos professores regentes e dos tutores. A\ncomplementação visa apoiar a superação de barreiras à aprendizagem nas disciplinas da área\nde exatas e técnicas, por meio da retomada de conteúdos estruturantes, adaptação de\nestratégias pedagógicas, flexibilização de procedimentos e utilização de recursos de\nacessibilidade. A suplementação contempla o enriquecimento curricular, o aprofundamento\nconceitual e a ampliação de desafios acadêmicos, favorecendo o desenvolvimento de\npotencialidades e a ampliação do repertório formativo. A ação será organizada em dois\nformatos: tutoria, com atendimento individualizado ou em pequenos grupos, e oficinas\ncoletivas com participação de até 20 estudantes, utilizando metodologias diferenciadas e\nestratégias inclusivas, com vistas à promoção da equidade, da permanência e do êxito\nacadêmico. Adicionalmente, serão desenvolvidas práticas voltadas ao fortalecimento\nsocioemocional, por meio de oficinas como atenção plena, arteterapia e musicoterapia,\nvisando à autorregulação, à melhoria da concentração e ao apoio ao processo de\naprendizagem.",
   "Campus": "Serra",
-  "total_participacoes": 9,
-  "publico_alvo_total": 0,
+  "total_participacoes": 20,
+  "publico_alvo_total": 1,
   "atividades": [
     {
       "atividade_id": "22305",
       "numero": "001",
       "atividade": "Oficinas e Tutorias de Apoio às Disciplinas Curriculares na Perspectiva Inclusiva – NAPNE",
-      "publico": 0,
+      "publico": 1,
       "aprovados": 0,
       "certificados": 0,
-      "equipe": 2
+      "equipe": 10
     },
     {
       "atividade_id": "22306",
@@ -43,7 +42,7 @@
       "publico": 0,
       "aprovados": 0,
       "certificados": 0,
-      "equipe": 1
+      "equipe": 2
     },
     {
       "atividade_id": "22311",
@@ -52,7 +51,7 @@
       "publico": 0,
       "aprovados": 0,
       "certificados": 0,
-      "equipe": 2
+      "equipe": 3
     },
     {
       "atividade_id": "22312",
@@ -73,11 +72,61 @@
       "vinculo": "Servidor"
     },
     {
+      "nome": "Arthur dos Santos Vasconcelos",
+      "funcoes": [
+        "MONITOR(A)"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Blenda Valeska Velasquez",
+      "funcoes": [
+        "COLABORADOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Dayana Vicente Gualberto",
+      "funcoes": [
+        "APOIO TÉCNICO"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Josiane Souza Morgam",
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Júlia Matos Louzada",
+      "funcoes": [
+        "TUTOR(A)"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Lorrayne Lopes",
+      "funcoes": [
+        "COORDENADOR(A) DE SESSÃO"
+      ],
+      "vinculo": "Aluno"
+    },
+    {
       "nome": "Lucas Nascimento Pirajá Carvalho",
       "funcoes": [
         "TUTOR(A)"
       ],
       "vinculo": "Aluno"
+    },
+    {
+      "nome": "Maria Clara Sales de Carvalho",
+      "funcoes": [
+        "MINISTRANTE",
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Convidado"
     },
     {
       "nome": "Nauvia Maria Cancelieri",
@@ -93,6 +142,20 @@
         "PROFESSOR(A)"
       ],
       "vinculo": "Convidado"
+    },
+    {
+      "nome": "Raquel de Castilhos Rodriges Neves",
+      "funcoes": [
+        "ORGANIZADOR(A)"
+      ],
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Ryan Gabriel Freitas Sena",
+      "funcoes": [
+        "MENTOR(A)"
+      ],
+      "vinculo": "Aluno"
     },
     {
       "nome": "Ryan Santos Gois",

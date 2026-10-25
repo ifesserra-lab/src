@@ -14,6 +14,11 @@
   },
   "equipe_execucao": [
     {
+      "nome": "Maria Clara Sales de Carvalho",
+      "funcao": "MINISTRANTE",
+      "vinculo": "Convidado"
+    },
+    {
       "nome": "Tania Mara Luiz dos Santos",
       "funcao": "PROFESSOR(A)",
       "vinculo": "Convidado"

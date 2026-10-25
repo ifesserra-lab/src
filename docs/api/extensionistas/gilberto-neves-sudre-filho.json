@@ -7,7 +7,6 @@
     "2018"
   ],
   "funcoes": [
-    "COORDENADOR(A)",
     "PALESTRANTE"
   ],
   "acoes_coordenadas": [
@@ -16,33 +15,11 @@
       "titulo": "Academia Cisco nas Escolas Municipais da Serra - ES",
       "tipo": "Projeto",
       "ano": "2018",
-      "n": 46,
-      "pub": 22
+      "n": 0,
+      "pub": 0
     }
   ],
   "participacoes_equipe": [
-    {
-      "acao_id": "1818",
-      "titulo": "Academia Cisco nas Escolas Municipais da Serra - ES",
-      "tipo": "Projeto",
-      "ano": "2018",
-      "n": 46,
-      "pub": 22,
-      "funcoes": [
-        "COORDENADOR(A)"
-      ]
-    },
-    {
-      "acao_id": "718",
-      "titulo": "Programa Regular de Promoção da Cultura e da Arte no Ifes Campus Serra",
-      "tipo": "Programa",
-      "ano": "2016",
-      "n": 21,
-      "pub": 1,
-      "funcoes": [
-        "PALESTRANTE"
-      ]
-    },
     {
       "acao_id": "899",
       "titulo": "SEMANA DE CONTROLE E AUTOMAÇÃO",
@@ -57,27 +34,6 @@
   ],
   "atividades": [
     {
-      "ano": "2018",
-      "atividade_id": "7952",
-      "acao_id": "1818",
-      "atividade": "Cursos: \"Conecte-se, Introdução a Cybersegurança, Empreendedorismo e Introdução a IoT\"",
-      "pub": 22
-    },
-    {
-      "ano": "2018",
-      "atividade_id": "5722",
-      "acao_id": "1818",
-      "atividade": "Academia Cisco nas Escolas Municipais da Serra - ES",
-      "pub": 22
-    },
-    {
-      "ano": "2016",
-      "atividade_id": "4845",
-      "acao_id": "718",
-      "atividade": "Ciclo de Conversas do NAC 2016 – Redes Sociais: Crimes Digitais e cyberbullying",
-      "pub": 0
-    },
-    {
       "ano": "2016",
       "atividade_id": "2732",
       "acao_id": "899",
@@ -85,109 +41,16 @@
       "pub": 69
     }
   ],
-  "imp_coord": 22,
+  "imp_coord": 0,
   "imp_eq": 69,
-  "impacto": 91,
+  "impacto": 69,
   "temas": [
-    {
-      "tema": "Empreendedorismo e incubação",
-      "n": 2
-    },
-    {
-      "tema": "Cultura e arte",
-      "n": 1
-    },
     {
       "tema": "Robótica e cultura maker",
       "n": 1
     }
   ],
   "colaboradores": [
-    {
-      "nome": "Ana Paula Klauck",
-      "slug": "ana-paula-klauck",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Alessandra Aguiar Vilarinho",
-      "slug": "alessandra-aguiar-vilarinho",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Ernani Leite Ribeiro Filho",
-      "slug": "ernani-leite-ribeiro-filho",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Moisés Savedra Omena",
-      "slug": "moises-savedra-omena",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Breno Rios Rodrigues",
-      "slug": "breno-rios-rodrigues",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Mykael dos Santos Deolindo",
-      "slug": "mykael-dos-santos-deolindo",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Renan Souza do Nascimento",
-      "slug": "renan-souza-do-nascimento",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Jean Michel Pereira de Queiroz",
-      "slug": "jean-michel-pereira-de-queiroz",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Isadora Lee Padilha Ferri",
-      "slug": "isadora-lee-padilha-ferri",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Lara Rocha Andrade",
-      "slug": "lara-rocha-andrade",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Arlene Batista da Silva",
-      "slug": "arlene-batista-da-silva",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Warleson dos Santos de Sales",
-      "slug": "warleson-dos-santos-de-sales",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Amanda de Oliveira Ottoni",
-      "slug": "amanda-de-oliveira-ottoni",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Juliana Rangel Roque",
-      "slug": "juliana-rangel-roque",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Ivana Esteves Passos de Oliveira",
-      "slug": "ivana-esteves-passos-de-oliveira",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Neiva Augusta Viegas Vasconcellos",
-      "slug": "neiva-augusta-viegas-vasconcellos",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Carolinne Quintanilha Ornellas",
-      "slug": "carolinne-quintanilha-ornellas",
-      "acoes_comuns": 1
-    },
     {
       "nome": "Wallas Gusmão Thomas",
       "slug": "wallas-gusmao-thomas",

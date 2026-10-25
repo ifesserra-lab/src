@@ -8,9 +8,9 @@
     "2022"
   ],
   "funcoes": [
-    "ALUNO(A) BOLSISTA",
     "ALUNO(A) EM ATIVIDADE CURRICULAR",
-    "ALUNO(A) VOLUNTARIO"
+    "ALUNO(A) VOLUNTARIO",
+    "MONITOR(A)"
   ],
   "acoes_coordenadas": [],
   "participacoes_equipe": [
@@ -37,14 +37,14 @@
       ]
     },
     {
-      "acao_id": "3643",
-      "titulo": "STEM - Experiência de Imersão e desenvolvimento de soluções para a área administrativa de uma empresa siderúrgica",
-      "tipo": "Projeto",
+      "acao_id": "4210",
+      "titulo": "Operador de Computador",
+      "tipo": "Curso",
       "ano": "2022",
-      "n": 15,
-      "pub": 10,
+      "n": 23,
+      "pub": 17,
       "funcoes": [
-        "ALUNO(A) BOLSISTA"
+        "MONITOR(A)"
       ]
     }
   ],
@@ -72,15 +72,15 @@
     },
     {
       "ano": "2022",
-      "atividade_id": "12942",
-      "acao_id": "3643",
-      "atividade": "STEM - Experiência de Imersão e desenvolvimento de soluções para a área administrativa de uma empresa siderúrgica",
-      "pub": 7
+      "atividade_id": "14475",
+      "acao_id": "4210",
+      "atividade": "Operador de Computador",
+      "pub": 0
     }
   ],
   "imp_coord": 0,
-  "imp_eq": 42,
-  "impacto": 42,
+  "imp_eq": 35,
+  "impacto": 35,
   "temas": [
     {
       "tema": "Mulheres e inclusão",
@@ -91,16 +91,11 @@
       "n": 1
     },
     {
-      "tema": "Software, dados e sistemas",
+      "tema": "Cultura e arte",
       "n": 1
     }
   ],
   "colaboradores": [
-    {
-      "nome": "Adelson Pereira do Nascimento",
-      "slug": "adelson-pereira-do-nascimento",
-      "acoes_comuns": 2
-    },
     {
       "nome": "Giordana dos Santos Sperandio",
       "slug": "giordana-dos-santos-sperandio",
@@ -237,6 +232,11 @@
       "acoes_comuns": 1
     },
     {
+      "nome": "Adelson Pereira do Nascimento",
+      "slug": "adelson-pereira-do-nascimento",
+      "acoes_comuns": 1
+    },
+    {
       "nome": "Vinicius da Hora Corte",
       "slug": "vinicius-da-hora-corte",
       "acoes_comuns": 1
@@ -332,8 +332,13 @@
       "acoes_comuns": 1
     },
     {
-      "nome": "Marlon de Oliveira Silva",
-      "slug": "marlon-de-oliveira-silva",
+      "nome": "Victorio Albani de Carvalho",
+      "slug": "victorio-albani-de-carvalho",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "David de Assis",
+      "slug": "david-de-assis",
       "acoes_comuns": 1
     }
   ]

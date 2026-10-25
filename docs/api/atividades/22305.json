@@ -7,12 +7,54 @@
   "processo": "23158.000710/2026-99",
   "coordenador_acao": "Nauvia Maria Cancelieri",
   "publico_alvo": {
-    "total": 0,
+    "total": 1,
     "aprovados": 0,
     "certificados": 0,
-    "situacao": {}
+    "situacao": {
+      "CURSANDO": 1
+    }
   },
   "equipe_execucao": [
+    {
+      "nome": "Raquel de Castilhos Rodriges Neves",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Júlia Matos Louzada",
+      "funcao": "TUTOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Dayana Vicente Gualberto",
+      "funcao": "APOIO TÉCNICO",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Blenda Valeska Velasquez",
+      "funcao": "COLABORADOR(A)",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Maria Clara Sales de Carvalho",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Josiane Souza Morgam",
+      "funcao": "ORGANIZADOR(A)",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Arthur dos Santos Vasconcelos",
+      "funcao": "MONITOR(A)",
+      "vinculo": "Aluno"
+    },
+    {
+      "nome": "Ryan Gabriel Freitas Sena",
+      "funcao": "MENTOR(A)",
+      "vinculo": "Aluno"
+    },
     {
       "nome": "Tania Mara Luiz dos Santos",
       "funcao": "ORGANIZADOR(A)",

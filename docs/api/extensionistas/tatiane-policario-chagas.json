@@ -7,7 +7,8 @@
     "2019",
     "2022",
     "2023",
-    "2025"
+    "2025",
+    "2026"
   ],
   "funcoes": [
     "COORDENADOR(A)",
@@ -38,6 +39,22 @@
       "ano": "2025",
       "n": 36,
       "pub": 29
+    },
+    {
+      "acao_id": "5907",
+      "titulo": "Mulheres Mil - Eletricista Instalador Predial em Baixa Tensão",
+      "tipo": "Curso",
+      "ano": "2026",
+      "n": 0,
+      "pub": 0
+    },
+    {
+      "acao_id": "5961",
+      "titulo": "ASAS - Operador de Computador",
+      "tipo": "Curso",
+      "ano": "2026",
+      "n": 0,
+      "pub": 0
     }
   ],
   "participacoes_equipe": [
@@ -59,6 +76,17 @@
       "ano": "2019",
       "n": 19,
       "pub": 5,
+      "funcoes": [
+        "PROFESSOR(A)"
+      ]
+    },
+    {
+      "acao_id": "2773",
+      "titulo": "Ambientação Pedagógica: Didática e Técnicas de Ensino.",
+      "tipo": "Curso",
+      "ano": "2019",
+      "n": 13,
+      "pub": 6,
       "funcoes": [
         "PROFESSOR(A)"
       ]
@@ -113,6 +141,13 @@
       "pub": 5
     },
     {
+      "ano": "2019",
+      "atividade_id": "9562",
+      "acao_id": "2773",
+      "atividade": "Ambientação Pedagógica: Didática e Técnicas de Ensino.",
+      "pub": 6
+    },
+    {
       "ano": "2022",
       "atividade_id": "14474",
       "acao_id": "4209",
@@ -135,12 +170,16 @@
     }
   ],
   "imp_coord": 53,
-  "imp_eq": 45,
-  "impacto": 98,
+  "imp_eq": 51,
+  "impacto": 104,
   "temas": [
     {
       "tema": "Mulheres e inclusão",
       "n": 6
+    },
+    {
+      "tema": "Escola e formação de professores",
+      "n": 1
     },
     {
       "tema": "Empreendedorismo e incubação",
@@ -151,6 +190,11 @@
     {
       "nome": "Bruno Ramos Gonzaga",
       "slug": "bruno-ramos-gonzaga",
+      "acoes_comuns": 4
+    },
+    {
+      "nome": "Emmanuel Marques Silva",
+      "slug": "emmanuel-marques-silva",
       "acoes_comuns": 3
     },
     {
@@ -164,8 +208,8 @@
       "acoes_comuns": 2
     },
     {
-      "nome": "Emmanuel Marques Silva",
-      "slug": "emmanuel-marques-silva",
+      "nome": "Richard Junior Manuel Godinez Tello",
+      "slug": "richard-junior-manuel-godinez-tello",
       "acoes_comuns": 2
     },
     {
@@ -186,11 +230,6 @@
     {
       "nome": "Éllen Oliveira Silva Neves",
       "slug": "ellen-oliveira-silva-neves",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Richard Junior Manuel Godinez Tello",
-      "slug": "richard-junior-manuel-godinez-tello",
       "acoes_comuns": 1
     },
     {
@@ -291,6 +330,21 @@
     {
       "nome": "Vitória Maciel de Carvalho",
       "slug": "vitoria-maciel-de-carvalho",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Cláudia Ribeiro de Moraes",
+      "slug": "claudia-ribeiro-de-moraes",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Priscila dos Santos Moreira",
+      "slug": "priscila-dos-santos-moreira",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Wagner Kirmse Caldas",
+      "slug": "wagner-kirmse-caldas",
       "acoes_comuns": 1
     },
     {

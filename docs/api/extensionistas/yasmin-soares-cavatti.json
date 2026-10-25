@@ -3,13 +3,10 @@
   "nome": "Yasmin Soares Cavatti",
   "resumo_ia": null,
   "anos": [
-    "2023",
-    "2025"
+    "2023"
   ],
   "funcoes": [
-    "ALUNO(A) BOLSISTA",
-    "ALUNO(A) EM ATIVIDADE CURRICULAR",
-    "MINISTRANTE"
+    "ALUNO(A) EM ATIVIDADE CURRICULAR"
   ],
   "acoes_coordenadas": [],
   "participacoes_equipe": [
@@ -23,18 +20,6 @@
       "funcoes": [
         "ALUNO(A) EM ATIVIDADE CURRICULAR"
       ]
-    },
-    {
-      "acao_id": "5641",
-      "titulo": "LabMaker 4.0: capacitando professores para a cultura maker e tecnologias da Indústria 4.0",
-      "tipo": "Projeto",
-      "ano": "2025",
-      "n": 73,
-      "pub": 17,
-      "funcoes": [
-        "ALUNO(A) BOLSISTA",
-        "MINISTRANTE"
-      ]
     }
   ],
   "atividades": [
@@ -44,32 +29,14 @@
       "acao_id": "4659",
       "atividade": "Atividades físicas adaptadas e inclusão (AFAI)",
       "pub": 197
-    },
-    {
-      "ano": "2025",
-      "atividade_id": "20614",
-      "acao_id": "5641",
-      "atividade": "Minicurso \"Cultura Maker, Indústria 4.0 e Modelagem 3D\"",
-      "pub": 16
-    },
-    {
-      "ano": "2025",
-      "atividade_id": "20613",
-      "acao_id": "5641",
-      "atividade": "LabMaker 4.0: capacitando professores para a cultura maker e tecnologias da Indústria 4.0",
-      "pub": 0
     }
   ],
   "imp_coord": 0,
-  "imp_eq": 213,
-  "impacto": 213,
+  "imp_eq": 197,
+  "impacto": 197,
   "temas": [
     {
       "tema": "Mulheres e inclusão",
-      "n": 1
-    },
-    {
-      "tema": "Robótica e cultura maker",
       "n": 1
     }
   ],
@@ -572,56 +539,6 @@
     {
       "nome": "Marcio de Lima Braga",
       "slug": "marcio-de-lima-braga",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Rosiane Ribeiro Rocha",
-      "slug": "rosiane-ribeiro-rocha",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Vitor Lopes Barbosa",
-      "slug": "vitor-lopes-barbosa",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "João Vitor Oliveira Scheidegger",
-      "slug": "joao-vitor-oliveira-scheidegger",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Leticia Comissario da Silva",
-      "slug": "leticia-comissario-da-silva",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Ícaro Lessa Secchin",
-      "slug": "icaro-lessa-secchin",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Julia Almeida Nascimento Lopes",
-      "slug": "julia-almeida-nascimento-lopes",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Flávio Garcia Pereira",
-      "slug": "flavio-garcia-pereira",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Marcos Simão Guimarães",
-      "slug": "marcos-simao-guimaraes",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Richard Junior Manuel Godinez Tello",
-      "slug": "richard-junior-manuel-godinez-tello",
-      "acoes_comuns": 1
-    },
-    {
-      "nome": "Gabriel Tozatto Zago",
-      "slug": "gabriel-tozatto-zago",
       "acoes_comuns": 1
     }
   ]

@@ -1,7 +1,7 @@
 {
   "slug": "pedro-henrique-nascimento-vieira",
   "nome": "Pedro Henrique Nascimento Vieira",
-  "resumo_ia": "Participou como aluno bolsista no projeto Jovens Inventores: O poder da Tecnologia Maker no Desenvolvimento Social em 2025.",
+  "resumo_ia": null,
   "anos": [
     "2025"
   ],
@@ -15,8 +15,8 @@
       "titulo": "Jovens Inventores: O poder da Tecnologia Maker no Desenvolvimento Social",
       "tipo": "Projeto",
       "ano": "2025",
-      "n": 48,
-      "pub": 28,
+      "n": 78,
+      "pub": 42,
       "funcoes": [
         "ALUNO(A) BOLSISTA"
       ]
@@ -29,11 +29,18 @@
       "acao_id": "5677",
       "atividade": "Jovens Inventores: O poder da Tecnologia Maker no Desenvolvimento Social",
       "pub": 28
+    },
+    {
+      "ano": "2025",
+      "atividade_id": "22764",
+      "acao_id": "5677",
+      "atividade": "Jovens Inventores: O poder da Tecnologia Maker no Desenvolvimento Social",
+      "pub": 23
     }
   ],
   "imp_coord": 0,
-  "imp_eq": 28,
-  "impacto": 28,
+  "imp_eq": 51,
+  "impacto": 51,
   "temas": [
     {
       "tema": "Mulheres e inclusão",

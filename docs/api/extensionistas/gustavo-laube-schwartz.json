@@ -1,7 +1,7 @@
 {
   "slug": "gustavo-laube-schwartz",
   "nome": "Gustavo Laube Schwartz",
-  "resumo_ia": "Expositor e extensionista do SOF – Serviço de Orientação Financeira (unidade Ifes Serra) em 2026, atuando em atividades de orientação financeira.",
+  "resumo_ia": null,
   "anos": [
     "2026"
   ],
@@ -16,8 +16,8 @@
       "titulo": "SOF – Serviço de Orientação Financeira (unidade Ifes Serra)",
       "tipo": "Projeto",
       "ano": "2026",
-      "n": 316,
-      "pub": 227,
+      "n": 343,
+      "pub": 252,
       "funcoes": [
         "EXPOSITOR(A)",
         "EXTENSIONISTA"
@@ -27,10 +27,10 @@
   "atividades": [
     {
       "ano": "2026",
-      "atividade_id": "22251",
+      "atividade_id": "22552",
       "acao_id": "5852",
-      "atividade": "Palestra promovida pelo LIEFIS: \"Compreendendo a Lei do Superendividamento\".",
-      "pub": 29
+      "atividade": "ESX 2026 – Espírito Santo Innovation Experience, evento de inovação, tecnologia e empreendedorismo, realizado em Vitória, Espírito Santo, e promovido pelo Sebrae/ES e pela Mobilização Capixaba pela Inovação (MCI)",
+      "pub": 0
     },
     {
       "ano": "2026",
@@ -41,10 +41,10 @@
     },
     {
       "ano": "2026",
-      "atividade_id": "22552",
+      "atividade_id": "22251",
       "acao_id": "5852",
-      "atividade": "ESX 2026 – Espírito Santo Innovation Experience, evento de inovação, tecnologia e empreendedorismo, realizado em Vitória, Espírito Santo, e promovido pelo Sebrae/ES e pela Mobilização Capixaba pela Inovação (MCI)",
-      "pub": 0
+      "atividade": "Palestra promovida pelo LIEFIS: \"Compreendendo a Lei do Superendividamento\".",
+      "pub": 29
     }
   ],
   "imp_coord": 0,
@@ -60,6 +60,11 @@
     {
       "nome": "Emmanuel Marques Silva",
       "slug": "emmanuel-marques-silva",
+      "acoes_comuns": 1
+    },
+    {
+      "nome": "Elinario Santos Costa",
+      "slug": "elinario-santos-costa",
       "acoes_comuns": 1
     },
     {

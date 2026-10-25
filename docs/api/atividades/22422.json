@@ -1,0 +1,34 @@
+{
+  "atividade_id": "22422",
+  "numero": "001",
+  "atividade": "Oficina de Formação Profissional em Realidade Virtual para Jovens e Realizadores de Audiovisual na Serra",
+  "acao_id": "6101",
+  "acao_titulo": "Oficina de Formação Profissional em Realidade Virtual para Jovens e Realizadores de Audiovisual na Serra",
+  "processo": "23158.000967/2026-41",
+  "coordenador_acao": "Celio Proliciano Maioli",
+  "publico_alvo": {
+    "total": 8,
+    "aprovados": 8,
+    "certificados": 8,
+    "situacao": {
+      "APROVADO": 8
+    }
+  },
+  "equipe_execucao": [
+    {
+      "nome": "Maria Marta Tomé",
+      "funcao": "COORDENADOR(A) ADJUNTO(A)",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Alexandre Bizinoto Macedo",
+      "funcao": "INSTRUTOR(A)",
+      "vinculo": "Convidado"
+    },
+    {
+      "nome": "Celio Proliciano Maioli",
+      "funcao": "COORDENADOR(A)",
+      "vinculo": "Servidor"
+    }
+  ]
+}

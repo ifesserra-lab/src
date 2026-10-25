@@ -27,13 +27,6 @@
   "atividades": [
     {
       "ano": "2019",
-      "atividade_id": "10559",
-      "acao_id": "2505",
-      "atividade": "Oficina de Sensibilização",
-      "pub": 19
-    },
-    {
-      "ano": "2019",
       "atividade_id": "10571",
       "acao_id": "2505",
       "atividade": "Master Class de Optimização de Redes",
@@ -41,17 +34,10 @@
     },
     {
       "ano": "2019",
-      "atividade_id": "10575",
+      "atividade_id": "8630",
       "acao_id": "2505",
-      "atividade": "Ação Cineclubista \"O Silêncio dos Homens\"",
-      "pub": 3
-    },
-    {
-      "ano": "2019",
-      "atividade_id": "10576",
-      "acao_id": "2505",
-      "atividade": "Ação Cineclubista \"produção Polo 3\"",
-      "pub": 13
+      "atividade": "Circuito Audiovisual",
+      "pub": 0
     },
     {
       "ano": "2019",
@@ -69,6 +55,20 @@
     },
     {
       "ano": "2019",
+      "atividade_id": "10575",
+      "acao_id": "2505",
+      "atividade": "Ação Cineclubista \"O Silêncio dos Homens\"",
+      "pub": 3
+    },
+    {
+      "ano": "2019",
+      "atividade_id": "10576",
+      "acao_id": "2505",
+      "atividade": "Ação Cineclubista \"produção Polo 3\"",
+      "pub": 13
+    },
+    {
+      "ano": "2019",
       "atividade_id": "10573",
       "acao_id": "2505",
       "atividade": "Ação Cineclubista \"Lançamento do Projeto\"",
@@ -76,10 +76,10 @@
     },
     {
       "ano": "2019",
-      "atividade_id": "8630",
+      "atividade_id": "10559",
       "acao_id": "2505",
-      "atividade": "Circuito Audiovisual",
-      "pub": 0
+      "atividade": "Oficina de Sensibilização",
+      "pub": 19
     }
   ],
   "imp_coord": 0,

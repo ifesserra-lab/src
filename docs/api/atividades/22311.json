@@ -14,6 +14,11 @@
   },
   "equipe_execucao": [
     {
+      "nome": "Lorrayne Lopes",
+      "funcao": "COORDENADOR(A) DE SESSÃO",
+      "vinculo": "Aluno"
+    },
+    {
       "nome": "Ryan Santos Gois",
       "funcao": "TUTOR(A)",
       "vinculo": "Aluno"
